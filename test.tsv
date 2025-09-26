@@ -1,0 +1,3923 @@
+ref	mrkrs
+GEN 1:5	fqa
+GEN 1:6	fqa	fqa	fqa
+GEN 1:26	fqa
+GEN 2:4	fq	fqa
+GEN 2:6	fqa
+GEN 2:7	fqa
+GEN 2:20	fqa
+GEN 2:21	fqa
+GEN 2:24	fqa
+GEN 3:1	fq	fqa
+GEN 3:8	fqa	fqa
+GEN 3:15	fqa	fqa	fqa	fqa
+GEN 3:16	fqa
+GEN 3:20	fqa	fqa
+GEN 4:1	fq
+GEN 4:7	fqa
+GEN 4:8	fqa
+GEN 4:13	fqa	fqa
+GEN 4:15	fqa	fqa
+GEN 4:16	fq	fqa
+GEN 4:24	fqa	fqa
+GEN 4:25	fqa	fqa	fqa
+GEN 4:26	fqa	fqa	fqa	fqa
+GEN 5:2	fqa
+GEN 5:22	fqa
+GEN 5:24	fqa
+GEN 5:29	fqa	fqa	fqa
+GEN 6:3	fqa
+GEN 6:12	fqa
+GEN 6:14	fq	fqa	fqa
+GEN 6:16	fqa	fqa
+GEN 6:16	fq
+GEN 7:2	fqa
+GEN 7:15	fqa
+GEN 7:20	fq
+GEN 8:8	fqa	fqa
+GEN 9:20	fqa
+GEN 9:27	fq	fqa
+GEN 10:4	fqa
+GEN 10:7	fq	fqa
+GEN 10:8	fqa	fqa
+GEN 10:9	fqa
+GEN 10:14	fqa
+GEN 10:15	fqa
+GEN 10:21	fqa
+GEN 10:23	fqa
+GEN 10:24	fqa
+GEN 10:25	fq	fqa
+GEN 11:2	fqa	fqa
+GEN 11:9	fqa	fq	fqa
+GEN 11:13	fq
+GEN 12:6	fqa	fqa
+GEN 13:18	fqa	fqa
+GEN 14:13	fqa	fqa
+GEN 14:13	fqa	fqa
+GEN 14:18	fqa
+GEN 16:4	fqa
+GEN 16:7	fqa
+GEN 16:11	fq	fqa
+GEN 16:13	fqa
+GEN 16:14	fq	fqa
+GEN 17:5	fq	fqa
+GEN 17:5	fq	fqa
+GEN 17:15	fq	fq	fq
+GEN 17:19	fq	fqa
+GEN 18:1	fqa	fqa
+GEN 18:6	fqa
+GEN 19:22	fq
+GEN 19:37	fq	fqa
+GEN 19:38	fq	fqa
+GEN 20:16	fqa
+GEN 21:3	fq	fqa
+GEN 21:9	fq
+GEN 21:16	fqa
+GEN 21:31	fq	fqa	fqa
+GEN 21:33	fqa
+GEN 22:11	fqa
+GEN 22:12	fqa
+GEN 22:13	fqa
+GEN 22:14	fqa
+GEN 23:3	fqa
+GEN 23:15	fq
+GEN 24:10	fq	fqa
+GEN 24:22	fq
+GEN 24:22	fq
+GEN 25:18	fqa
+GEN 25:25	fq	fqa
+GEN 25:26	fq	fqa	fqa
+GEN 25:30	fq	fqa
+GEN 26:19	fqa	fqa
+GEN 26:20	fq	fqa
+GEN 26:21	fq	fqa	fqa
+GEN 26:22	fq	fqa	fqa
+GEN 26:33	fq	fqa	fqa
+GEN 26:33	fqa	fqa	fqa
+GEN 27:36	fq	fqa	fqa
+GEN 27:46	fqa
+GEN 28:3	fqa
+GEN 28:13	fqa
+GEN 28:19	fq	fqa
+GEN 29:17	fqa
+GEN 29:32	fq	fqa	fqa
+GEN 29:33	fq	fqa
+GEN 29:34	fq	fqa	fqa
+GEN 29:35	fq	fqa
+GEN 30:3	fqa
+GEN 30:6	fq	fqa	fqa
+GEN 30:8	fq	fqa
+GEN 30:11	fqa
+GEN 30:11	fq	fqa	fqa
+GEN 30:13	fq	fqa
+GEN 30:18	fq	fqa	fqa
+GEN 30:20	fq	fqa
+GEN 30:24	fq	fqa
+GEN 31:11	fqa
+GEN 31:20	fqa
+GEN 31:21	fqa
+GEN 31:47	fqa	fq	fqa
+GEN 31:49	fq	fqa
+GEN 32:2	fq	fqa
+GEN 32:20	fqa
+GEN 32:20	fqa
+GEN 32:24	fqa
+GEN 32:28	fq	fqa	fqa
+GEN 32:28	fq	fqa
+GEN 32:30	fq	fqa
+GEN 32:31	fq	fqa
+GEN 33:11	fqa	fqa
+GEN 33:17	fq	fqa	fqa	fqa
+GEN 33:19	fqa	fqa
+GEN 33:20	fq	fqa	fqa
+GEN 34:7	fqa
+GEN 35:4	fqa	fqa
+GEN 35:7	fq	fqa
+GEN 35:8	fqa
+GEN 35:8	fq	fqa
+GEN 35:10	fq	fqa	fqa
+GEN 35:10	fq	fqa
+GEN 35:11	fqa
+GEN 35:15	fq	fqa
+GEN 35:18	fq	fqa	fqa
+GEN 35:18	fq	fqa
+GEN 36:16	fq
+GEN 36:22	fq	fqa
+GEN 36:26	fqa	fq
+GEN 36:31	fqa
+GEN 36:37	fqa
+GEN 36:39	fqa
+GEN 37:28	fq
+GEN 37:36	fqa
+GEN 38:23	fqa
+GEN 38:29	fq	fqa
+GEN 38:30	fq	fqa	fqa
+GEN 40:19	fqa
+GEN 40:22	fqa
+GEN 41:34	fqa
+GEN 41:38	fqa
+GEN 41:43	fqa	fqa
+GEN 41:45	fq	fqa	fqa
+GEN 41:45	fqa
+GEN 41:51	fq	fqa
+GEN 41:52	fq	fqa	fqa
+GEN 42:25	fqa
+GEN 43:14	fqa
+GEN 44:4	fqa
+GEN 44:5	fqa
+GEN 45:7	fqa
+GEN 45:22	fq
+GEN 46:10	fq	fqa
+GEN 46:10	fq	fqa
+GEN 46:13	fqa
+GEN 46:13	fqa
+GEN 46:16	fqa
+GEN 46:16	fq	fqa
+GEN 46:20	fqa
+GEN 46:27	fqa
+GEN 46:27	fqa
+GEN 47:9	fqa
+GEN 47:21	fqa
+GEN 47:31	fqa
+GEN 48:3	fqa
+GEN 48:16	fqa
+GEN 48:22	fqa	fqa	fqa
+GEN 49:5	fqa
+GEN 49:8	fq	fqa
+GEN 49:10	fqa
+GEN 49:10	fqa
+GEN 49:14	fqa	fqa
+GEN 49:16	fqa	fq	fqa	fqa
+GEN 49:19	fq	fqa	fqa
+GEN 49:21	fqa	fqa
+GEN 49:22	fqa
+GEN 49:25	fqa
+GEN 49:26	fqa	fqa
+GEN 50:11	fq	fqa
+GEN 50:23	fqa	fqa
+EXO 1:5	fqa
+EXO 1:10	fqa
+EXO 1:22	fq
+EXO 2:3	fqa
+EXO 2:10	fq
+EXO 2:11	fqa
+EXO 2:14	fqa
+EXO 2:18	fq
+EXO 2:22	fq
+EXO 3:1	fq
+EXO 3:1	fqa
+EXO 3:2	fqa
+EXO 3:14	fqa
+EXO 3:19	fqa
+EXO 4:6	fqa
+EXO 4:6	fq
+EXO 4:18	fq
+EXO 4:21	fqa	fqa
+EXO 4:24	fqa
+EXO 4:25	fqa
+EXO 6:3	fqa
+EXO 6:12	fqa
+EXO 6:15	fq
+EXO 6:22	fq
+EXO 6:24	fq
+EXO 7:13	fqa	fqa
+EXO 7:14	fqa	fqa
+EXO 7:20	fqa	fqa
+EXO 8:15	fqa
+EXO 8:19	fqa	fqa
+EXO 8:21	fqa
+EXO 8:23	fqa
+EXO 9:7	fqa
+EXO 9:12	fqa	fqa
+EXO 9:14	fqa	fqa
+EXO 9:16	fqa
+EXO 9:16	fqa
+EXO 10:1	fqa
+EXO 10:19	fqa
+EXO 10:20	fqa	fqa
+EXO 11:10	fqa	fqa
+EXO 12:3	fq	fqa
+EXO 12:6	fqa
+EXO 12:7	fqa
+EXO 12:11	fqa
+EXO 12:37	fq	fqa	fqa	fqa
+EXO 12:40	fqa	fqa
+EXO 13:4	fq
+EXO 13:18	fqa
+EXO 13:18	fq	fqa
+EXO 14:4	fqa	fqa
+EXO 14:8	fqa	fqa
+EXO 14:19	fqa
+EXO 14:20	fqa
+EXO 14:25	fqa	fqa	fqa
+EXO 15:4	fqa
+EXO 15:13	fq	fqa	fqa	fqa	fqa	fqa	fqa
+EXO 15:23	fq	fqa
+EXO 16:1	fq
+EXO 16:12	fqa
+EXO 16:16	fq
+EXO 16:31	fqa
+EXO 16:34	fq
+EXO 17:1	fq
+EXO 17:6	fq
+EXO 17:7	fq
+EXO 17:7	fq
+EXO 17:15	fqa
+EXO 18:1	fq
+EXO 18:3	fq
+EXO 18:4	fq
+EXO 19:1	fq	fqa
+EXO 19:13	fqa
+EXO 20:3	fqa
+EXO 20:6	fqa
+EXO 21:6	fqa
+EXO 21:8	fqa
+EXO 21:17	fqa	fqa
+EXO 21:22	fqa
+EXO 21:28	fqa
+EXO 22:1	fqa	fqa
+EXO 22:8	fqa
+EXO 22:9	fqa
+EXO 22:28	fqa
+EXO 23:15	fq
+EXO 23:16	fqa	fqa
+EXO 23:16	fqa
+EXO 23:25	fqa
+EXO 23:31	fqa
+EXO 23:31	fqa
+EXO 25:16	fq
+EXO 25:17	fqa
+EXO 25:17	fq
+EXO 25:22	fqa
+EXO 25:25	fq
+EXO 25:39	fq
+EXO 26:13	fq
+EXO 26:17	fqa
+EXO 26:33	fqa
+EXO 26:33	fqa
+EXO 27:9	fq
+EXO 27:12	fq
+EXO 27:14	fq
+EXO 27:16	fq
+EXO 27:18	fq
+EXO 27:21	fq
+EXO 28:30	fqa
+EXO 28:32	fqa
+EXO 28:36	fqa
+EXO 29:14	fqa
+EXO 29:39	fqa
+EXO 29:40	fq
+EXO 30:6	fqa
+EXO 30:8	fqa
+EXO 30:9	fqa
+EXO 30:10	fqa
+EXO 30:13	fq
+EXO 30:13	fq
+EXO 30:23	fq	fq
+EXO 30:23	fq	fq
+EXO 30:23	fq	fq
+EXO 30:24	fq	fq
+EXO 30:24	fq	fq
+EXO 30:36	fq
+EXO 31:7	fqa
+EXO 32:6	fqa
+EXO 32:25	fqa
+EXO 32:29	fqa
+EXO 33:6	fqa
+EXO 34:7	fqa
+EXO 34:18	fq
+EXO 34:22	fqa	fqa
+EXO 34:22	fqa	fqa
+EXO 34:28	fqa
+EXO 37:1	fq
+EXO 37:6	fq
+EXO 37:10	fq
+EXO 37:12	fq
+EXO 37:24	fq
+EXO 37:25	fq
+EXO 38:1	fqa
+EXO 38:1	fq
+EXO 38:9	fq
+EXO 38:12	fq
+EXO 38:14	fq
+EXO 38:18	fq
+EXO 38:18	fq
+EXO 38:26	fq
+EXO 38:27	fq
+EXO 38:28	fq
+EXO 39:2	fqa
+EXO 39:23	fqa
+EXO 39:30	fqa
+EXO 39:35	fqa
+EXO 40:3	fqa
+LEV 1:16	fqa
+LEV 2:5	fqa
+LEV 2:7	fqa
+LEV 4:3	fqa
+LEV 5:11	fq
+LEV 5:15	fqa
+LEV 5:15	fq
+LEV 5:19	fqa
+LEV 6:20	fq
+LEV 6:21	fqa
+LEV 6:21	fqa
+LEV 7:9	fqa
+LEV 7:9	fqa
+LEV 8:8	fqa
+LEV 9:4	fqa	fqa
+LEV 10:1	fqa
+LEV 10:4	fq	fqa
+LEV 10:6	fqa
+LEV 11:5	fqa	fqa
+LEV 11:16	fqa
+LEV 11:26	fqa
+LEV 13:45	fqa
+LEV 13:47	fq
+LEV 14:5	fqa	fqa
+LEV 14:10	fq
+LEV 14:10	fqa
+LEV 14:21	fq
+LEV 14:34	fq
+LEV 14:57	fq
+LEV 15:13	fqa	fqa
+LEV 16:2	fqa
+LEV 16:2	fqa
+LEV 16:8	fqa
+LEV 16:13	fq
+LEV 16:29	fqa	fqa
+LEV 16:33	fqa
+LEV 17:3	fqa	fqa
+LEV 17:7	fqa
+LEV 17:11	fqa
+LEV 18:6	fqa
+LEV 18:21	fqa
+LEV 19:16	fqa
+LEV 19:23	fqa
+LEV 20:9	fqa	fqa
+LEV 20:17	fqa
+LEV 20:18	fqa
+LEV 21:10	fqa
+LEV 22:23	fqa	fqa
+LEV 22:27	fqa
+LEV 22:28	fqa
+LEV 23:5	fqa
+LEV 23:13	fq
+LEV 23:13	fq
+LEV 23:24	fqa
+LEV 23:27	fqa
+LEV 23:34	fqa	fqa	fqa
+LEV 23:40	fqa
+LEV 23:42	fqa	fqa
+LEV 24:3	fq
+LEV 24:5	fq
+LEV 24:14	fqa
+LEV 26:11	fqa
+LEV 26:11	fqa
+LEV 26:26	fqa
+LEV 27:3	fq
+LEV 27:3	fq
+LEV 27:4	fq
+LEV 27:5	fq
+LEV 27:5	fq
+LEV 27:6	fq
+LEV 27:6	fq
+LEV 27:7	fq
+LEV 27:8	fqa
+LEV 27:16	fq
+LEV 27:25	fq
+NUM 2:14	fqa
+NUM 3:4	fqa
+NUM 3:9	fqa
+NUM 3:28	fqa
+NUM 3:30	fq	fqa
+NUM 3:47	fq
+NUM 3:47	fq
+NUM 3:50	fq
+NUM 4:5	fqa
+NUM 5:2	fqa
+NUM 5:15	fq
+NUM 6:2	fq	fqa	fqa
+NUM 6:11	fqa
+NUM 7:13	fq
+NUM 7:13	fq
+NUM 7:14	fq
+NUM 7:85	fq
+NUM 7:86	fq
+NUM 7:89	fqa
+NUM 7:89	fqa
+NUM 9:3	fqa
+NUM 9:16	fq
+NUM 10:29	fq	fqa
+NUM 11:3	fq	fqa
+NUM 11:31	fqa
+NUM 11:32	fq
+NUM 11:34	fq	fqa
+NUM 12:10	fq
+NUM 13:3	fqa
+NUM 13:23	fq	fqa
+NUM 14:18	fq	fqa	fqa	fqa	fqa	fqa	fqa
+NUM 14:25	fqa
+NUM 15:4	fq
+NUM 15:4	fq
+NUM 15:6	fq
+NUM 15:9	fq
+NUM 15:9	fqa
+NUM 16:3	fqa	fqa
+NUM 16:5	fqa
+NUM 17:4	fq
+NUM 18:10	fqa
+NUM 18:16	fq
+NUM 18:16	fq
+NUM 18:19	fqa
+NUM 19:17	fqa	fqa
+NUM 20:13	fq	fqa
+NUM 21:3	fq	fqa
+NUM 21:4	fqa
+NUM 21:16	fq	fqa
+NUM 21:20	fqa
+NUM 21:23	fq	fqa
+NUM 21:24	fqa	fqa
+NUM 21:30	fqa
+NUM 22:5	fqa
+NUM 22:22	fqa
+NUM 22:32	fqa	fqa
+NUM 23:28	fqa
+NUM 24:4	fqa
+NUM 24:6	fqa
+NUM 24:17	fqa	fqa	fqa
+NUM 24:22	fqa
+NUM 24:24	fqa
+NUM 25:1	fqa
+NUM 26:4	fq
+NUM 26:12	fq	fqa
+NUM 26:13	fq	fqa
+NUM 26:17	fqa
+NUM 26:23	fqa
+NUM 26:24	fq	fqa
+NUM 26:30	fq	fqa
+NUM 26:39	fqa
+NUM 26:40	fq
+NUM 26:61	fqa
+NUM 27:12	fqa
+NUM 27:14	fq	fqa
+NUM 27:21	fqa
+NUM 28:4	fqa
+NUM 28:5	fq
+NUM 28:5	fqa	fqa
+NUM 28:9	fq
+NUM 28:12	fq
+NUM 28:14	fq
+NUM 28:14	fq
+NUM 28:26	fqa	fqa
+NUM 29:3	fq
+NUM 29:3	fq
+NUM 29:4	fq
+NUM 29:7	fqa
+NUM 30:13	fqa
+NUM 31:52	fq
+NUM 32:3	fqa
+NUM 32:17	fqa
+NUM 32:41	fq	fqa
+NUM 33:3	fqa	fqa
+NUM 33:8	fqa
+NUM 33:10	fqa
+NUM 33:11	fq	fqa
+NUM 33:45	fq	fqa
+NUM 33:47	fqa
+NUM 33:49	fqa
+NUM 34:3	fqa
+NUM 34:4	fqa	fqa
+NUM 34:5	fqa	fqa
+NUM 34:11	fqa
+NUM 35:4	fq
+NUM 35:5	fq
+DEU 1:2	fqa
+DEU 1:7	fqa	fqa
+DEU 1:40	fqa
+DEU 2:1	fqa
+DEU 2:23	fqa
+DEU 3:14	fqa
+DEU 3:17	fqa
+DEU 4:10	fqa
+DEU 4:13	fqa
+DEU 4:33	fqa
+DEU 4:48	fqa	fqa
+DEU 4:49	fqa
+DEU 5:2	fqa
+DEU 5:7	fqa
+DEU 5:10	fqa	fq	fqa	fqa	fqa	fqa	fqa	fqa
+DEU 6:4	fqa	fqa	fqa
+DEU 6:13	fqa
+DEU 6:16	fq
+DEU 7:2	fqa
+DEU 9:8	fqa
+DEU 9:19	fqa
+DEU 9:22	fq	fqa
+DEU 9:22	fq	fqa
+DEU 9:22	fq	fqa
+DEU 10:4	fqa
+DEU 10:6	fqa
+DEU 11:4	fqa
+DEU 11:14	fqa
+DEU 11:24	fqa	fqa
+DEU 11:30	fqa	fqa	fqa
+DEU 13:6	fqa
+DEU 14:7	fqa	fqa
+DEU 14:15	fqa	fqa
+DEU 15:7	fqa
+DEU 15:12	fqa
+DEU 16:1	fq
+DEU 16:13	fqa	fqa
+DEU 16:16	fqa	fqa
+DEU 16:16	fqa	fqa	fqa
+DEU 18:10	fqa
+DEU 18:16	fqa
+DEU 19:3	fqa
+DEU 21:22	fqa
+DEU 21:23	fqa
+DEU 22:1	fqa
+DEU 22:9	fqa
+DEU 22:19	fq
+DEU 22:29	fq
+DEU 22:30	fqa
+DEU 23:4	fqa	fq
+DEU 23:18	fqa
+DEU 24:8	fqa
+DEU 27:20	fqa
+DEU 27:26	fqa
+DEU 28:20	fqa
+DEU 28:22	fqa
+DEU 28:54	fqa
+DEU 28:55	fqa
+DEU 28:56	fqa
+DEU 29:1	fqa
+DEU 29:10	fqa
+DEU 29:19	fqa
+DEU 30:3	fqa
+DEU 30:4	fqa
+DEU 31:1	fqa
+DEU 31:10	fqa	fqa	fqa
+DEU 32:8	fqa	fqa
+DEU 32:10	fqa
+DEU 32:15	fq
+DEU 32:21	fqa
+DEU 32:31	fqa
+DEU 32:35	fqa
+DEU 32:36	fqa
+DEU 32:43	fq
+DEU 32:43	fqa
+DEU 32:43	fq
+DEU 32:44	fqa
+DEU 33:2	fqa
+DEU 33:2	fqa
+DEU 33:3	fqa
+DEU 33:5	fq
+DEU 33:6	fqa
+DEU 33:8	fq	fqa
+DEU 33:8	fq
+DEU 33:9	fqa
+DEU 33:12	fqa
+DEU 33:23	fqa
+DEU 34:2	fqa	fqa
+DEU 34:6	fqa
+DEU 34:12	fqa
+JOS 1:4	fqa
+JOS 2:1	fqa
+JOS 2:10	fqa
+JOS 3:1	fqa
+JOS 3:4	fq
+JOS 3:16	fqa
+JOS 4:9	fqa
+JOS 4:16	fqa
+JOS 4:23	fqa
+JOS 5:1	fqa	fqa
+JOS 5:1	fqa
+JOS 5:2	fqa
+JOS 5:3	fq	fqa
+JOS 5:9	fq
+JOS 5:14	fqa
+JOS 6:5	fqa	fqa
+JOS 6:5	fqa
+JOS 7:1	fq	fqa
+JOS 7:1	fq	fqa
+JOS 7:5	fqa
+JOS 7:21	fqa
+JOS 7:21	fq
+JOS 7:21	fq
+JOS 7:26	fq
+JOS 8:18	fqa
+JOS 8:28	fq
+JOS 8:29	fqa
+JOS 9:1	fqa
+JOS 9:1	fqa
+JOS 9:4	fqa
+JOS 9:6	fqa
+JOS 10:13	fqa
+JOS 10:13	fqa
+JOS 10:26	fqa
+JOS 10:40	fqa
+JOS 11:2	fqa
+JOS 11:2	fqa	fq
+JOS 11:20	fqa	fqa
+JOS 12:3	fqa
+JOS 12:3	fqa
+JOS 12:4	fqa
+JOS 12:8	fqa
+JOS 12:23	fqa	fq
+JOS 12:23	fqa
+JOS 13:4	fqa
+JOS 13:5	fqa
+JOS 13:26	fqa
+JOS 13:27	fqa
+JOS 15:2	fqa
+JOS 15:3	fqa	fqa
+JOS 15:4	fqa	fqa
+JOS 15:4	fqa
+JOS 15:18	fqa
+JOS 15:33	fqa
+JOS 16:2	fqa
+JOS 16:3	fqa	fqa
+JOS 17:2	fq
+JOS 17:9	fqa	fqa
+JOS 18:18	fqa
+JOS 18:19	fqa
+JOS 18:28	fqa
+JOS 18:28	fqa
+JOS 18:28	fqa
+JOS 19:28	fqa
+JOS 19:29	fqa	fqa
+JOS 19:34	fqa
+JOS 19:50	fq	fqa
+JOS 22:10	fqa
+JOS 22:20	fq	fqa
+JOS 22:34	fqa
+JOS 23:4	fqa
+JOS 24:2	fqa
+JOS 24:6	fqa
+JOS 24:26	fqa
+JOS 24:30	fq
+JOS 24:32	fqa
+JDG 1:9	fqa
+JDG 1:14	fqa
+JDG 1:16	fqa
+JDG 1:17	fq
+JDG 1:18	fqa
+JDG 1:36	fqa	fqa
+JDG 2:1	fqa
+JDG 2:5	fq
+JDG 2:9	fq
+JDG 2:14	fqa
+JDG 2:16	fqa	fqa
+JDG 3:8	fqa	fq
+JDG 3:13	fqa
+JDG 3:16	fq
+JDG 4:11	fqa
+JDG 5:11	fqa	fqa
+JDG 5:11	fqa
+JDG 5:15	fqa
+JDG 6:10	fqa
+JDG 6:11	fqa
+JDG 6:11	fqa	fqa
+JDG 6:14	fqa	fqa
+JDG 6:19	fq
+JDG 6:32	fq
+JDG 7:1	fq	fqa
+JDG 7:16	fqa
+JDG 7:22	fqa
+JDG 8:3	fqa
+JDG 8:8	fq
+JDG 8:26	fq
+JDG 8:29	fq	fqa
+JDG 8:30	fqa
+JDG 9:1	fq	fqa
+JDG 9:4	fq
+JDG 9:6	fqa	fqa
+JDG 9:23	fqa
+JDG 9:29	fqa
+JDG 9:31	fqa
+JDG 9:31	fqa	fqa
+JDG 9:37	fqa
+JDG 9:37	fqa	fqa
+JDG 9:46	fq
+JDG 10:2	fqa	fqa
+JDG 10:4	fqa
+JDG 10:12	fqa
+JDG 11:16	fqa
+JDG 12:7	fqa
+JDG 13:3	fqa
+JDG 13:5	fqa
+JDG 13:25	fq
+JDG 14:11	fqa	fqa
+JDG 14:15	fqa
+JDG 15:8	fqa
+JDG 15:9	fqa
+JDG 15:16	fqa
+JDG 15:17	fq
+JDG 15:19	fq
+JDG 16:5	fq
+JDG 16:13	fq
+JDG 16:14	fq
+JDG 16:19	fqa
+JDG 17:2	fq
+JDG 17:4	fq
+JDG 17:5	fqa
+JDG 17:10	fq
+JDG 18:12	fq
+JDG 18:30	fqa
+JDG 19:2	fqa
+JDG 19:18	fqa
+JDG 20:10	fqa	fq
+JDG 20:33	fqa	fqa
+RUT 1:8	fq	fqa	fqa	fqa	fqa	fqa	fqa
+RUT 1:20	fq
+RUT 1:20	fq
+RUT 1:20	fqa
+RUT 2:17	fq
+RUT 3:9	fqa
+RUT 3:9	fq	fqa
+RUT 3:12	fqa
+RUT 3:15	fqa
+RUT 4:1	fq	fqa
+RUT 4:4	fqa
+RUT 4:20	fqa
+1SA 1:1	fqa
+1SA 1:1	fq	fqa	fqa
+1SA 1:5	fqa
+1SA 1:20	fq
+1SA 1:22	fqa
+1SA 1:23	fqa
+1SA 1:24	fqa
+1SA 1:24	fq
+1SA 1:28	fqa
+1SA 2:1	fqa
+1SA 2:17	fqa
+1SA 2:20	fqa
+1SA 2:25	fqa
+1SA 2:29	fqa
+1SA 2:33	fqa
+1SA 2:33	fqa
+1SA 2:33	fqa	fqa
+1SA 3:13	fqa
+1SA 4:3	fqa
+1SA 4:7	fqa
+1SA 4:18	fqa	fqa
+1SA 4:21	fq
+1SA 4:21	fqa
+1SA 5:2	fqa
+1SA 5:11	fqa
+1SA 6:6	fqa
+1SA 6:18	fqa
+1SA 6:19	fqa	fqa	fqa	fqa
+1SA 7:6	fqa	fqa
+1SA 7:12	fqa
+1SA 7:12	fq
+1SA 8:1	fqa	fqa
+1SA 8:16	fqa
+1SA 9:8	fq
+1SA 10:3	fqa	fqa
+1SA 10:10	fq
+1SA 10:21	fqa
+1SA 11:1	fqa
+1SA 11:1	fqa
+1SA 11:8	fqa
+1SA 12:3	fq	fqa
+1SA 12:6	fqa
+1SA 12:9	fqa
+1SA 12:11	fq	fqa
+1SA 12:11	fqa
+1SA 12:11	fqa
+1SA 12:14	fq	fqa
+1SA 12:15	fqa
+1SA 13:1	fqa
+1SA 13:1	fqa	fqa
+1SA 13:5	fqa
+1SA 13:15	fqa
+1SA 13:20	fqa
+1SA 13:21	fq
+1SA 13:21	fq	fqa
+1SA 14:2	fqa	fqa
+1SA 14:14	fqa
+1SA 14:15	fqa
+1SA 14:16	fqa
+1SA 14:18	fqa
+1SA 14:27	fqa
+1SA 14:41	fqa
+1SA 14:47	fqa
+1SA 14:47	fqa	fqa
+1SA 15:9	fqa
+1SA 15:32	fqa	fqa
+1SA 15:32	fqa
+1SA 16:9	fq	fqa	fqa	fqa
+1SA 16:14	fqa
+1SA 17:4	fqa
+1SA 17:5	fq
+1SA 17:7	fq
+1SA 17:12	fqa
+1SA 17:17	fq
+1SA 17:18	fqa	fqa
+1SA 17:52	fqa
+1SA 18:6	fqa	fqa	fqa	fqa
+1SA 18:10	fqa
+1SA 18:19	fqa
+1SA 19:9	fqa
+1SA 19:13	fqa
+1SA 20:5	fqa
+1SA 20:14	fq	fqa	fqa	fqa	fqa	fqa	fqa
+1SA 20:19	fq	fqa
+1SA 20:25	fqa
+1SA 20:41	fq	fqa
+1SA 22:3	fqa
+1SA 23:28	fq	fqa
+1SA 24:3	fqa
+1SA 25:1	fqa
+1SA 25:18	fq
+1SA 25:22	fqa
+1SA 25:25	fq
+1SA 25:29	fqa
+1SA 25:44	fq	fqa
+1SA 27:2	fq	fqa
+1SA 28:6	fqa
+1SA 28:13	fqa	fqa
+1SA 30:2	fq
+2SA 1:18	fqa	fqa
+2SA 1:18	fqa	fqa	fq
+2SA 1:21	fqa	fqa	fqa
+2SA 2:6	fq	fqa	fqa	fqa	fqa	fqa	fqa
+2SA 2:8	fq	fqa
+2SA 2:16	fq	fqa
+2SA 2:29	fqa
+2SA 3:3	fqa	fqa
+2SA 3:15	fq	fqa
+2SA 5:8	fqa
+2SA 5:9	fqa
+2SA 5:14	fq	fqa
+2SA 5:20	fq	fqa
+2SA 5:23	fqa	fqa
+2SA 5:25	fqa
+2SA 6:2	fqa
+2SA 6:2	fq
+2SA 6:5	fqa	fqa
+2SA 6:6	fq	fqa
+2SA 6:7	fqa
+2SA 6:8	fq	fqa
+2SA 6:19	fqa
+2SA 7:7	fqa
+2SA 7:16	fqa
+2SA 7:19	fqa
+2SA 7:23	fqa
+2SA 8:1	fq	fqa
+2SA 8:3	fqa	fqa
+2SA 8:4	fqa
+2SA 8:8	fqa
+2SA 8:9	fq	fqa
+2SA 8:10	fq	fqa
+2SA 8:12	fqa
+2SA 8:13	fqa
+2SA 8:17	fq	fqa	fqa	fqa
+2SA 8:18	fqa	fqa
+2SA 9:6	fq	fqa
+2SA 9:11	fqa
+2SA 9:12	fq	fqa
+2SA 10:16	fqa
+2SA 10:16	fq	fqa
+2SA 10:18	fqa
+2SA 11:1	fqa
+2SA 11:3	fq	fqa
+2SA 11:11	fqa
+2SA 11:21	fq	fqa	fqa
+2SA 12:3	fqa
+2SA 12:14	fqa
+2SA 12:16	fq
+2SA 12:24	fqa	fqa
+2SA 12:25	fqa	fq
+2SA 12:27	fqa
+2SA 12:30	fqa	fqa	fqa
+2SA 12:30	fq
+2SA 12:31	fqa
+2SA 12:31	fqa
+2SA 13:3	fq	fqa	fqa	fqa
+2SA 13:18	fqa
+2SA 13:27	fqa
+2SA 13:34	fqa
+2SA 13:34	fq
+2SA 13:39	fqa
+2SA 13:39	fqa
+2SA 14:17	fqa
+2SA 14:26	fq
+2SA 15:7	fqa
+2SA 15:8	fq
+2SA 15:20	fqa
+2SA 15:24	fqa
+2SA 15:27	fqa
+2SA 15:27	fqa
+2SA 16:14	fqa
+2SA 17:3	fqa
+2SA 17:9	fqa
+2SA 17:25	fq	fqa
+2SA 17:25	fqa	fqa
+2SA 17:25	fqa
+2SA 18:3	fqa
+2SA 18:9	fqa	fqa
+2SA 18:11	fq
+2SA 18:12	fq
+2SA 18:12	fqa	fqa
+2SA 18:13	fqa
+2SA 18:23	fqa
+2SA 19:26	fqa	fqa
+2SA 19:27	fqa
+2SA 20:6	fqa	fqa
+2SA 20:8	fqa
+2SA 20:14	fqa
+2SA 20:14	fqa
+2SA 20:24	fq	fqa
+2SA 20:25	fq	fqa	fqa	fqa
+2SA 20:26	fqa
+2SA 21:6	fqa	fqa
+2SA 21:8	fqa
+2SA 21:16	fqa
+2SA 21:16	fq
+2SA 21:18	fq	fqa
+2SA 21:19	fqa
+2SA 21:19	fq
+2SA 21:21	fq	fqa	fqa	fqa
+2SA 22:8	fqa
+2SA 22:11	fqa
+2SA 22:13	fqa
+2SA 22:25	fq
+2SA 22:36	fqa	fqa
+2SA 22:46	fqa
+2SA 23:1	fqa	fqa
+2SA 23:8	fq	fqa
+2SA 23:8	fqa
+2SA 23:8	fqa
+2SA 23:9	fq	fqa
+2SA 23:18	fqa
+2SA 23:19	fqa
+2SA 23:20	fqa
+2SA 23:20	fqa
+2SA 23:24	fqa
+2SA 23:27	fqa
+2SA 23:29	fqa
+2SA 23:29	fq	fqa
+2SA 23:30	fq	fqa
+2SA 23:30	fqa
+2SA 23:32	fq	fqa
+2SA 23:33	fqa
+2SA 23:33	fqa
+2SA 24:2	fqa
+2SA 24:6	fqa
+2SA 24:7	fqa
+2SA 24:13	fqa
+2SA 24:15	fqa
+2SA 24:16	fq	fqa
+2SA 24:17	fq
+2SA 24:24	fq
+1KI 1:9	fqa
+1KI 1:25	fqa
+1KI 1:48	fqa
+1KI 2:5	fq	fqa
+1KI 2:5	fqa
+1KI 2:7	fq	fqa	fqa	fqa	fqa	fqa	fqa
+1KI 2:39	fq	fqa
+1KI 3:10	fqa
+1KI 4:3	fq	fqa	fqa	fqa
+1KI 4:6	fq	fqa	fqa
+1KI 4:11	fqa	fq	fqa
+1KI 4:19	fqa
+1KI 4:21	fqa
+1KI 4:22	fq
+1KI 4:22	fq
+1KI 4:24	fqa
+1KI 4:26	fqa
+1KI 4:26	fqa	fqa
+1KI 5:8	fqa	fqa	fqa
+1KI 5:9	fqa	fqa
+1KI 5:11	fq
+1KI 5:11	fq	fqa	fqa
+1KI 5:12	fqa
+1KI 5:16	fqa
+1KI 6:1	fqa
+1KI 6:1	fq
+1KI 6:3	fq
+1KI 6:3	fq
+1KI 6:6	fq
+1KI 6:6	fq
+1KI 6:6	fq
+1KI 6:8	fqa
+1KI 6:15	fqa	fqa	fqa
+1KI 6:16	fqa
+1KI 6:17	fq
+1KI 6:20	fqa
+1KI 6:21	fqa
+1KI 6:38	fq
+1KI 7:5	fqa
+1KI 7:7	fqa
+1KI 7:10	fq
+1KI 7:10	fq
+1KI 7:13	fqa	fq
+1KI 7:16	fq
+1KI 7:17	fqa
+1KI 7:19	fq
+1KI 7:21	fq
+1KI 7:21	fq
+1KI 7:26	fq
+1KI 7:26	fq
+1KI 7:31	fq
+1KI 7:31	fq
+1KI 7:35	fq
+1KI 7:38	fq
+1KI 7:40	fqa
+1KI 7:46	fq	fqa
+1KI 7:50	fqa
+1KI 8:2	fqa
+1KI 8:2	fq
+1KI 8:6	fqa
+1KI 8:8	fqa
+1KI 8:9	fqa
+1KI 8:12	fqa
+1KI 8:66	fqa
+1KI 9:8	fqa
+1KI 9:11	fqa	fqa	fqa
+1KI 9:13	fq
+1KI 9:14	fq
+1KI 9:15	fqa
+1KI 9:18	fqa
+1KI 9:18	fqa
+1KI 9:19	fqa	fqa
+1KI 9:26	fq	fqa
+1KI 9:26	fqa
+1KI 9:28	fq
+1KI 10:8	fqa
+1KI 10:10	fq
+1KI 10:11	fq	fqa
+1KI 10:14	fq
+1KI 10:16	fq
+1KI 10:17	fq
+1KI 10:22	fqa
+1KI 10:22	fqa
+1KI 10:26	fqa
+1KI 10:26	fqa	fqa
+1KI 10:27	fqa
+1KI 10:29	fq
+1KI 10:29	fq
+1KI 11:5	fq	fqa
+1KI 11:27	fqa
+1KI 11:33	fqa
+1KI 12:2	fqa
+1KI 12:18	fqa
+1KI 12:25	fq	fqa
+1KI 12:28	fqa
+1KI 12:30	fqa	fqa
+1KI 13:11	fqa
+1KI 13:12	fqa
+1KI 13:14	fqa	fqa
+1KI 14:10	fqa
+1KI 14:13	fqa
+1KI 14:15	fqa
+1KI 14:31	fq	fqa	fqa
+1KI 15:1	fq	fqa	fqa
+1KI 15:2	fq	fqa
+1KI 15:6	fqa	fqa
+1KI 15:6	fqa
+1KI 15:10	fqa	fqa
+1KI 15:19	fqa
+1KI 15:22	fqa
+1KI 16:24	fq
+1KI 17:1	fqa
+1KI 17:3	fqa
+1KI 18:1	fqa
+1KI 18:32	fq
+1KI 18:46	fqa
+1KI 19:8	fqa
+1KI 19:16	fqa
+1KI 20:12	fqa
+1KI 20:22	fqa
+1KI 20:34	fqa
+1KI 20:39	fq
+1KI 21:21	fqa
+1KI 21:23	fqa
+1KI 22:34	fqa
+1KI 22:38	fqa
+1KI 22:48	fqa
+2KI 1:8	fqa
+2KI 1:17	fq	fqa
+2KI 2:21	fqa
+2KI 2:23	fqa	fqa
+2KI 3:1	fq	fqa
+2KI 3:4	fqa
+2KI 3:11	fqa
+2KI 3:15	fqa
+2KI 3:27	fqa
+2KI 4:29	fqa
+2KI 5:1	fq	fqa
+2KI 5:5	fq
+2KI 5:5	fq
+2KI 5:22	fq
+2KI 6:10	fqa
+2KI 6:25	fq
+2KI 6:25	fqa
+2KI 6:25	fq
+2KI 7:1	fq
+2KI 7:1	fq
+2KI 7:1	fq
+2KI 7:3	fq
+2KI 8:10	fq
+2KI 8:20	fqa
+2KI 8:21	fqa	fq
+2KI 8:29	fq	fqa
+2KI 9:1	fqa
+2KI 9:8	fqa
+2KI 9:15	fqa	fq
+2KI 9:20	fqa
+2KI 9:22	fqa	fqa
+2KI 9:23	fqa
+2KI 9:27	fqa
+2KI 9:31	fqa
+2KI 10:1	fqa
+2KI 10:1	fq
+2KI 10:16	fqa
+2KI 10:24	fqa
+2KI 11:2	fq	fqa
+2KI 11:2	fq	fqa
+2KI 11:4	fqa	fqa
+2KI 11:15	fqa
+2KI 11:21	fqa	fq
+2KI 12:1	fqa	fq
+2KI 12:21	fqa
+2KI 12:21	fq	fqa
+2KI 13:6	fqa
+2KI 13:9	fqa	fq
+2KI 13:20	fqa
+2KI 14:1	fqa	fq
+2KI 14:13	fq
+2KI 14:21	fq	fqa
+2KI 14:22	fq	fqa
+2KI 14:25	fqa
+2KI 15:1	fq	fqa
+2KI 15:5	fq
+2KI 15:7	fqa
+2KI 15:10	fqa
+2KI 15:13	fq	fqa
+2KI 15:19	fq	fqa
+2KI 15:19	fq
+2KI 15:20	fq
+2KI 15:33	fq	fqa
+2KI 16:3	fqa
+2KI 16:6	fq	fqa
+2KI 16:6	fqa
+2KI 16:18	fqa
+2KI 17:4	fq	fqa
+2KI 17:17	fqa
+2KI 18:2	fq
+2KI 18:4	fq
+2KI 18:14	fq
+2KI 18:14	fq
+2KI 18:17	fq
+2KI 18:17	fq
+2KI 18:17	fq
+2KI 18:26	fqa
+2KI 18:31	fqa
+2KI 19:9	fqa
+2KI 19:23	fqa	fqa	fqa
+2KI 19:31	fqa
+2KI 19:37	fq
+2KI 20:4	fqa
+2KI 20:12	fqa
+2KI 20:20	fqa	fqa
+2KI 21:6	fqa
+2KI 22:12	fq	fqa
+2KI 22:12	fq	fqa
+2KI 22:14	fq	fqa
+2KI 22:14	fq	fqa
+2KI 22:14	fqa	fqa
+2KI 23:10	fqa
+2KI 23:10	fqa
+2KI 23:11	fqa
+2KI 23:12	fqa
+2KI 23:13	fq	fqa
+2KI 23:15	fqa
+2KI 23:16	fqa
+2KI 23:33	fq
+2KI 23:33	fq
+2KI 24:2	fqa
+2KI 25:1	fqa
+2KI 25:3	fq
+2KI 25:4	fqa
+2KI 25:4	fqa
+2KI 25:17	fq
+2KI 25:17	fq
+2KI 25:23	fq	fqa
+2KI 25:27	fqa
+1CH 1:4	fq	fqa
+1CH 1:6	fqa
+1CH 1:9	fq	fqa
+1CH 1:10	fqa
+1CH 1:12	fqa
+1CH 1:13	fqa
+1CH 1:13	fqa
+1CH 1:17	fq
+1CH 1:17	fq	fqa
+1CH 1:19	fq
+1CH 1:22	fqa
+1CH 1:24	fqa	fqa
+1CH 1:36	fqa
+1CH 1:39	fq	fqa
+1CH 1:40	fqa
+1CH 1:40	fqa
+1CH 1:41	fqa
+1CH 1:41	fqa
+1CH 1:42	fqa
+1CH 1:43	fqa
+1CH 1:48	fqa
+1CH 1:50	fqa
+1CH 2:6	fq	fqa
+1CH 2:6	fqa
+1CH 2:7	fqa
+1CH 2:7	fq	fqa
+1CH 2:9	fqa	fq
+1CH 2:11	fqa
+1CH 2:13	fq	fqa	fqa	fqa
+1CH 2:17	fq	fqa
+1CH 2:19	fq	fqa
+1CH 2:23	fqa
+1CH 2:24	fqa
+1CH 2:24	fqa
+1CH 2:31	fqa
+1CH 2:42	fqa
+1CH 2:50	fq	fqa
+1CH 2:55	fqa
+1CH 2:55	fqa	fqa
+1CH 3:5	fq	fqa
+1CH 3:5	fqa
+1CH 3:5	fq	fqa
+1CH 3:6	fq
+1CH 3:6	fqa
+1CH 3:11	fq	fqa
+1CH 3:12	fq	fqa
+1CH 3:15	fq	fqa
+1CH 3:16	fq	fqa
+1CH 4:3	fqa
+1CH 4:4	fqa
+1CH 4:7	fqa
+1CH 4:9	fq
+1CH 4:13	fq
+1CH 4:14	fqa	fq	fqa
+1CH 4:15	fqa
+1CH 4:17	fqa
+1CH 4:18	fqa
+1CH 4:19	fqa
+1CH 4:24	fq	fqa
+1CH 4:33	fqa
+1CH 5:6	fqa	fq
+1CH 5:23	fqa
+1CH 6:14	fq	fqa
+1CH 6:16	fq	fqa
+1CH 6:23	fq	fqa
+1CH 6:26	fqa
+1CH 6:27	fq	fqa
+1CH 6:28	fqa
+1CH 6:34	fq	fqa
+1CH 6:40	fqa
+1CH 6:49	fqa
+1CH 6:57	fqa
+1CH 6:58	fqa	fqa
+1CH 6:59	fq	fqa
+1CH 6:59	fq
+1CH 6:60	fq
+1CH 6:62	fq	fqa
+1CH 6:67	fqa
+1CH 6:77	fqa
+1CH 6:78	fq	fqa
+1CH 7:1	fq	fqa
+1CH 7:3	fqa
+1CH 7:13	fq	fqa
+1CH 7:13	fqa
+1CH 7:23	fq
+1CH 7:25	fq
+1CH 7:27	fqa
+1CH 8:3	fqa
+1CH 8:7	fqa	fqa
+1CH 8:29	fq
+1CH 8:31	fq	fqa
+1CH 8:32	fq	fqa
+1CH 8:33	fq	fqa
+1CH 8:34	fq	fqa
+1CH 8:34	fq	fqa
+1CH 8:35	fq	fqa
+1CH 8:36	fq	fqa	fqa
+1CH 8:37	fq	fqa
+1CH 9:2	fqa
+1CH 9:12	fq	fqa
+1CH 9:19	fq	fqa
+1CH 9:35	fqa
+1CH 9:38	fq	fqa
+1CH 9:41	fqa	fq	fqa
+1CH 9:42	fqa	fqa	fq	fqa	fqa
+1CH 9:43	fq	fqa
+1CH 10:12	fqa	fqa
+1CH 11:2	fqa
+1CH 11:8	fqa
+1CH 11:11	fqa	fqa
+1CH 11:12	fq	fqa
+1CH 11:14	fqa
+1CH 11:20	fqa
+1CH 11:22	fqa
+1CH 11:23	fq
+1CH 11:27	fq	fqa
+1CH 11:31	fq	fqa
+1CH 11:32	fq	fqa
+1CH 11:32	fqa
+1CH 11:32	fq	fqa
+1CH 11:33	fq	fqa
+1CH 11:34	fq	fqa
+1CH 11:35	fq	fqa
+1CH 12:31	fqa
+1CH 12:33	fq
+1CH 13:3	fqa
+1CH 13:5	fqa
+1CH 13:6	fqa	fqa
+1CH 13:9	fq	fqa
+1CH 13:11	fq
+1CH 14:4	fq	fqa
+1CH 14:7	fq	fqa
+1CH 14:11	fq
+1CH 14:14	fqa	fqa
+1CH 15:7	fq	fqa
+1CH 15:18	fqa	fqa
+1CH 15:18	fqa	fqa
+1CH 15:20	fq	fqa
+1CH 15:20	fq
+1CH 15:21	fq
+1CH 15:23	fqa
+1CH 16:3	fqa
+1CH 16:15	fqa
+1CH 16:34	fq	fqa	fqa	fqa	fqa	fqa	fqa
+1CH 16:42	fqa
+1CH 17:5	fq
+1CH 17:6	fqa
+1CH 17:17	fqa
+1CH 17:19	fq
+1CH 18:3	fqa
+1CH 18:6	fq
+1CH 18:6	fqa
+1CH 18:8	fq	fqa
+1CH 18:9	fq	fqa
+1CH 18:10	fq	fqa
+1CH 18:16	fqa
+1CH 18:16	fq	fqa	fqa	fqa
+1CH 19:6	fq
+1CH 19:6	fqa	fq
+1CH 19:16	fqa
+1CH 19:16	fq	fqa
+1CH 20:1	fqa
+1CH 20:2	fqa
+1CH 20:2	fq
+1CH 20:3	fqa
+1CH 20:4	fq	fqa
+1CH 20:4	fqa	fq
+1CH 20:5	fqa
+1CH 21:1	fqa	fqa
+1CH 21:12	fqa
+1CH 21:15	fq	fqa
+1CH 21:17	fqa
+1CH 21:25	fq
+1CH 22:9	fq
+1CH 22:14	fq
+1CH 22:14	fq
+1CH 23:4	fq
+1CH 23:7	fq	fqa
+1CH 23:8	fq	fqa
+1CH 23:10	fq	fq
+1CH 23:10	fqa
+1CH 23:23	fq	fqa
+1CH 24:20	fq	fqa
+1CH 24:21	fq	fqa
+1CH 24:22	fq	fqa
+1CH 24:23	fqa
+1CH 24:30	fq	fqa
+1CH 25:3	fq
+1CH 25:4	fq	fqa
+1CH 25:4	fq	fqa
+1CH 25:9	fq
+1CH 25:11	fq	fqa
+1CH 25:14	fq	fqa
+1CH 25:18	fq	fqa
+1CH 25:22	fq	fqa
+1CH 26:14	fq	fqa
+1CH 26:16	fqa
+1CH 26:20	fqa
+1CH 26:21	fq	fqa
+1CH 26:21	fq	fqa
+1CH 26:25	fq	fqa
+1CH 26:29	fqa	fqa
+1CH 26:31	fq	fqa
+1CH 27:4	fq	fqa
+1CH 27:8	fq	fqa	fqa
+1CH 27:15	fq	fqa
+1CH 27:28	fqa
+1CH 28:11	fq
+1CH 28:11	fqa
+1CH 28:12	fqa
+1CH 29:4	fq
+1CH 29:4	fq
+1CH 29:7	fq
+1CH 29:7	fqa
+1CH 29:7	fq
+1CH 29:7	fq
+1CH 29:7	fq
+1CH 29:8	fq	fqa
+2CH 1:5	fqa	fqa
+2CH 1:8	fq	fqa	fqa	fqa	fqa	fqa	fqa
+2CH 1:10	fqa
+2CH 1:14	fqa
+2CH 1:14	fqa	fqa
+2CH 1:15	fqa
+2CH 1:17	fq
+2CH 1:17	fq
+2CH 2:3	fqa	fq
+2CH 2:8	fqa	fqa	fqa
+2CH 2:8	fq	fqa
+2CH 2:10	fq
+2CH 2:10	fq
+2CH 2:10	fq
+2CH 2:10	fqa
+2CH 2:13	fqa
+2CH 3:1	fqa
+2CH 3:1	fq	fqa
+2CH 3:4	fq
+2CH 3:4	fqa
+2CH 3:5	fqa	fqa	fqa
+2CH 3:8	fqa
+2CH 3:8	fq
+2CH 3:9	fq
+2CH 3:11	fq
+2CH 3:15	fq
+2CH 3:16	fqa
+2CH 3:17	fq
+2CH 3:17	fq
+2CH 4:5	fq
+2CH 4:5	fq
+2CH 4:17	fq	fqa
+2CH 4:22	fqa
+2CH 5:3	fqa
+2CH 5:7	fqa
+2CH 5:9	fqa
+2CH 5:9	fqa
+2CH 5:10	fqa
+2CH 7:8	fqa
+2CH 7:21	fqa
+2CH 8:2	fq
+2CH 8:6	fqa	fqa
+2CH 8:13	fqa	fqa
+2CH 8:13	fqa	fqa	fqa
+2CH 8:17	fq	fqa
+2CH 8:18	fq
+2CH 9:4	fqa
+2CH 9:5	fqa
+2CH 9:9	fq
+2CH 9:10	fq	fqa
+2CH 9:11	fqa
+2CH 9:13	fq
+2CH 9:15	fq
+2CH 9:16	fq
+2CH 9:21	fqa
+2CH 9:21	fq
+2CH 9:21	fqa
+2CH 9:25	fqa	fqa
+2CH 9:26	fqa
+2CH 9:27	fqa
+2CH 10:14	fqa
+2CH 10:16	fqa
+2CH 10:18	fq	fqa	fqa
+2CH 12:1	fqa	fq
+2CH 12:3	fqa
+2CH 12:3	fqa
+2CH 12:16	fq	fqa
+2CH 13:1	fq	fqa
+2CH 13:2	fqa
+2CH 13:2	fqa
+2CH 13:5	fqa
+2CH 13:22	fqa	fqa
+2CH 14:9	fqa	fqa
+2CH 14:10	fqa
+2CH 15:8	fq
+2CH 15:16	fqa
+2CH 16:3	fqa
+2CH 16:4	fq	fqa
+2CH 16:8	fqa
+2CH 17:3	fqa
+2CH 17:6	fqa	fqa
+2CH 18:33	fqa
+2CH 20:1	fqa	fqa
+2CH 20:2	fqa
+2CH 20:2	fqa
+2CH 20:9	fqa
+2CH 20:25	fqa
+2CH 20:26	fq
+2CH 20:35	fqa	fqa
+2CH 20:36	fqa
+2CH 20:37	fqa
+2CH 21:2	fqa	fq
+2CH 21:9	fqa
+2CH 21:17	fq	fqa
+2CH 22:1	fqa
+2CH 22:2	fqa
+2CH 22:5	fqa
+2CH 22:5	fqa	fq
+2CH 22:6	fq	fqa
+2CH 22:6	fqa
+2CH 22:7	fqa
+2CH 22:11	fq	fqa
+2CH 23:14	fqa
+2CH 24:23	fqa
+2CH 24:25	fqa
+2CH 24:26	fq	fqa
+2CH 24:26	fq	fqa
+2CH 24:27	fqa
+2CH 24:27	fqa
+2CH 25:6	fq
+2CH 25:17	fq	fqa
+2CH 25:23	fq	fqa
+2CH 25:23	fq
+2CH 25:28	fqa
+2CH 26:1	fq	fqa
+2CH 26:2	fq	fqa
+2CH 26:2	fqa
+2CH 26:5	fqa
+2CH 26:10	fqa
+2CH 26:15	fqa
+2CH 26:19	fq
+2CH 26:23	fqa
+2CH 27:1	fq	fqa
+2CH 27:2	fq	fqa
+2CH 27:5	fq
+2CH 27:5	fq
+2CH 27:5	fq
+2CH 28:3	fqa
+2CH 28:12	fqa
+2CH 28:12	fq	fqa
+2CH 28:16	fqa
+2CH 28:18	fqa
+2CH 28:19	fqa	fq
+2CH 28:20	fqa	fq
+2CH 29:1	fq	fqa
+2CH 29:31	fqa
+2CH 30:21	fqa	fqa
+2CH 31:15	fqa
+2CH 32:4	fqa
+2CH 32:8	fqa
+2CH 32:18	fqa
+2CH 33:6	fqa
+2CH 33:15	fqa
+2CH 33:18	fqa	fq
+2CH 33:19	fqa	fqa
+2CH 34:6	fqa
+2CH 34:14	fqa
+2CH 34:20	fq	fqa
+2CH 34:20	fq	fqa
+2CH 34:22	fqa
+2CH 34:22	fq	fqa
+2CH 34:22	fq	fqa
+2CH 34:22	fqa
+2CH 35:6	fqa
+2CH 36:2	fqa	fq
+2CH 36:3	fq
+2CH 36:3	fq
+2CH 36:7	fqa
+2CH 36:9	fqa
+2CH 36:10	fqa
+2CH 36:10	fqa	fqa
+2CH 36:13	fqa	fqa
+2CH 36:15	fqa
+2CH 36:17	fqa
+EZR 1:9	fqa
+EZR 2:2	fqa
+EZR 2:10	fq	fqa
+EZR 2:18	fq	fqa
+EZR 2:20	fq	fqa
+EZR 2:21	fqa
+EZR 2:24	fq	fqa
+EZR 2:25	fqa
+EZR 2:31	fqa
+EZR 2:40	fq	fqa
+EZR 2:43	fqa
+EZR 2:44	fq	fqa
+EZR 2:46	fqa
+EZR 2:50	fq	fqa
+EZR 2:52	fq	fqa
+EZR 2:55	fq	fqa
+EZR 2:57	fq	fqa
+EZR 2:59	fq	fqa
+EZR 2:63	fqa
+EZR 2:69	fqa
+EZR 2:69	fq
+EZR 2:70	fqa
+EZR 3:2	fq	fqa
+EZR 3:4	fqa	fqa	fqa
+EZR 3:9	fqa	fqa	fqa	fqa
+EZR 3:11	fq	fqa	fqa	fqa	fqa	fqa	fqa
+EZR 4:6	fqa
+EZR 4:10	fqa	fq
+EZR 4:10	fqa
+EZR 4:14	fqa
+EZR 5:2	fq	fqa
+EZR 5:3	fqa
+EZR 5:4	fqa
+EZR 5:10	fqa
+EZR 5:14	fqa
+EZR 6:3	fqa
+EZR 6:6	fqa
+EZR 6:11	fqa
+EZR 6:15	fq
+EZR 6:21	fqa
+EZR 7:1	fqa
+EZR 7:12	fqa
+EZR 7:21	fqa
+EZR 7:22	fq
+EZR 7:22	fq
+EZR 7:22	fq
+EZR 7:22	fqa
+EZR 8:5	fqa
+EZR 8:10	fqa
+EZR 8:13	fqa
+EZR 8:14	fqa
+EZR 8:16	fq
+EZR 8:17	fqa
+EZR 8:26	fq
+EZR 8:26	fq
+EZR 8:26	fq
+EZR 8:27	fqa
+EZR 8:36	fqa
+EZR 9:8	fqa	fqa
+EZR 10:6	fqa
+EZR 10:18	fq	fqa
+EZR 10:25	fqa
+EZR 10:38	fqa
+EZR 10:44	fqa
+NEH 1:5	fq	fqa	fqa	fqa	fqa	fqa
+NEH 1:9	fqa
+NEH 1:11	fqa
+NEH 2:7	fqa
+NEH 2:13	fqa	fqa
+NEH 3:5	fqa	fqa
+NEH 3:6	fqa
+NEH 3:7	fqa
+NEH 3:13	fq
+NEH 3:15	fq
+NEH 3:18	fqa
+NEH 3:26	fqa
+NEH 4:2	fqa
+NEH 4:5	fqa
+NEH 4:10	fqa
+NEH 4:23	fqa
+NEH 5:15	fq
+NEH 6:2	fqa
+NEH 6:2	fqa
+NEH 6:6	fq
+NEH 6:9	fq	fq
+NEH 7:7	fqa
+NEH 7:15	fq	fqa
+NEH 7:24	fq	fqa
+NEH 7:25	fq	fqa
+NEH 7:28	fq	fqa
+NEH 7:33	fqa
+NEH 7:34	fqa
+NEH 7:36	fqa
+NEH 7:43	fq	fqa
+NEH 7:46	fqa
+NEH 7:47	fq	fqa
+NEH 7:52	fq	fqa
+NEH 7:54	fq	fqa
+NEH 7:57	fq	fqa
+NEH 7:59	fq	fqa
+NEH 7:61	fq	fqa
+NEH 7:65	fqa
+NEH 7:70	fqa
+NEH 7:71	fqa
+NEH 7:71	fqa
+NEH 7:72	fqa
+NEH 8:8	fqa	fqa
+NEH 8:14	fqa	fqa
+NEH 8:15	fqa	fqa
+NEH 8:17	fq
+NEH 9:9	fqa
+NEH 9:17	fqa
+NEH 9:22	fqa
+NEH 9:30	fqa
+NEH 9:38	fq
+NEH 10:8	fq	fqa
+NEH 10:32	fq
+NEH 11:1	fqa
+NEH 11:5	fqa
+NEH 11:9	fqa	fqa
+NEH 11:10	fqa
+NEH 11:14	fqa
+NEH 11:22	fq	fqa
+NEH 11:24	fqa
+NEH 11:35	fqa
+NEH 12:2	fq	fqa
+NEH 12:3	fq	fqa
+NEH 12:4	fqa
+NEH 12:5	fq	fqa
+NEH 12:5	fq	fqa
+NEH 12:5	fq	fqa
+NEH 12:11	fq	fqa
+NEH 12:14	fq	fqa
+NEH 12:14	fq	fqa
+NEH 12:15	fq	fqa
+NEH 12:17	fq	fqa
+NEH 12:20	fq	fqa
+NEH 12:22	fq	fqa
+NEH 12:23	fqa	fqa
+NEH 12:24	fqa
+NEH 12:26	fq	fqa
+NEH 12:31	fqa
+NEH 12:35	fq	fqa
+NEH 12:39	fqa
+EST 1:1	fqa
+EST 1:17	fqa
+EST 1:22	fqa
+EST 2:6	fq	fqa
+EST 2:14	fqa
+EST 2:19	fqa
+EST 2:21	fq	fqa
+EST 2:23	fqa	fqa
+EST 3:6	fqa
+EST 3:7	fqa	fqa
+EST 3:9	fq
+EST 4:16	fqa
+EST 5:14	fq
+EST 6:1	fqa
+EST 6:2	fq	fqa
+EST 7:5	fqa
+EST 7:9	fq
+EST 8:9	fqa
+JOB 1:6	fqa	fqa
+JOB 2:1	fqa	fqa
+JOB 2:9	fqa
+JOB 3:8	fqa
+JOB 4:15	fqa
+JOB 5:5	fqa
+JOB 6:6	fqa
+JOB 7:20	fqa
+JOB 9:3	fqa
+JOB 9:7	fqa
+JOB 9:12	fqa
+JOB 9:19	fqa
+JOB 9:20	fqa
+JOB 9:30	fqa
+JOB 10:12	fq	fqa	fqa	fqa	fqa	fqa	fqa
+JOB 11:12	fqa
+JOB 12:6	fqa
+JOB 13:14	fqa
+JOB 13:15	fqa
+JOB 14:14	fqa	fqa
+JOB 15:12	fqa
+JOB 19:25	fqa
+JOB 19:25	fqa
+JOB 19:26	fqa
+JOB 19:27	fqa
+JOB 19:28	fqa
+JOB 20:25	fqa
+JOB 21:13	fqa
+JOB 21:24	fqa
+JOB 22:14	fqa	fqa
+JOB 26:6	fq	fqa
+JOB 26:9	fqa
+JOB 26:12	fqa
+JOB 26:13	fqa
+JOB 28:11	fqa
+JOB 28:19	fqa
+JOB 28:22	fq	fqa
+JOB 29:4	fqa
+JOB 30:4	fqa
+JOB 30:11	fqa
+JOB 30:13	fqa
+JOB 30:18	fqa
+JOB 30:22	fqa
+JOB 30:29	fqa	fqa
+JOB 30:29	fqa	fqa
+JOB 31:12	fq	fqa
+JOB 31:20	fqa
+JOB 31:26	fqa
+JOB 31:33	fqa
+JOB 32:8	fqa
+JOB 32:9	fqa	fqa
+JOB 33:13	fqa
+JOB 33:27	fqa
+JOB 35:2	fqa
+JOB 36:12	fqa
+JOB 36:15	fqa
+JOB 36:19	fqa
+JOB 36:31	fqa	fqa
+JOB 37:20	fqa
+JOB 38:3	fqa
+JOB 38:6	fqa
+JOB 38:32	fqa
+JOB 38:32	fqa	fqa
+JOB 38:36	fqa	fqa
+JOB 39:13	fq
+JOB 39:23	fqa
+JOB 39:25	fqa
+JOB 40:7	fqa
+JOB 40:13	fqa
+JOB 40:19	fqa
+JOB 40:21	fqa
+JOB 40:22	fqa
+JOB 41:13	fqa
+JOB 41:29	fqa
+PSA 2:1	fqa
+PSA 2:7	fqa
+PSA 2:9	fqa	fqa
+PSA 3:2	fq	fqa
+PSA 4:2	fqa
+PSA 4:4	fqa	fqa
+PSA 5:7	fq	fqa	fqa	fqa	fqa	fqa	fqa
+PSA 5:9	fqa
+PSA 6:0	fq
+PSA 7:0	fq
+PSA 7:4	fqa
+PSA 7:9	fqa
+PSA 8:0	fq
+PSA 8:2	fqa	fqa
+PSA 8:5	fqa	fqa
+PSA 9:16	fq	fqa
+PSA 10:7	fqa
+PSA 10:10	fqa
+PSA 12:0	fq
+PSA 12:6	fqa
+PSA 14:1	fq
+PSA 14:3	fqa
+PSA 16:0	fq
+PSA 16:7	fqa	fqa
+PSA 16:8	fqa
+PSA 16:9	fqa
+PSA 17:8	fqa
+PSA 17:14	fqa
+PSA 18:12	fqa
+PSA 18:13	fq
+PSA 18:35	fqa
+PSA 18:42	fqa
+PSA 19:3	fqa
+PSA 19:4	fqa
+PSA 20:9	fqa
+PSA 22:15	fqa
+PSA 22:16	fqa
+PSA 22:22	fqa
+PSA 23:4	fqa
+PSA 24:4	fqa	fqa
+PSA 24:6	fqa
+PSA 25:21	fqa	fqa
+PSA 26:2	fqa
+PSA 28:2	fqa	fqa
+PSA 29:1	fqa	fqa
+PSA 29:2	fqa
+PSA 29:6	fqa
+PSA 29:9	fqa
+PSA 30:4	fqa
+PSA 30:9	fqa
+PSA 30:9	fqa
+PSA 31:6	fqa
+PSA 32:0	fq
+PSA 32:1	fqa
+PSA 32:2	fqa
+PSA 32:4	fqa
+PSA 34:0	fq	fqa
+PSA 34:15	fqa
+PSA 35:3	fqa
+PSA 35:13	fqa
+PSA 35:16	fqa
+PSA 37:11	fqa
+PSA 37:24	fqa
+PSA 37:37	fqa
+PSA 38:19	fqa
+PSA 40:4	fqa	fqa
+PSA 40:6	fqa
+PSA 42:0	fq
+PSA 42:2	fqa
+PSA 44:0	fq
+PSA 44:6	fqa
+PSA 44:14	fqa
+PSA 44:19	fqa	fqa
+PSA 45:0	fq
+PSA 45:1	fqa
+PSA 46:0	fq
+PSA 46:9	fqa
+PSA 47:7	fqa	fqa
+PSA 48:2	fqa	fq
+PSA 48:7	fqa
+PSA 48:11	fqa
+PSA 48:14	fqa
+PSA 49:7	fqa
+PSA 49:11	fqa
+PSA 49:13	fqa
+PSA 50:6	fqa
+PSA 50:21	fqa
+PSA 50:21	fqa
+PSA 51:1	fqa
+PSA 51:4	fqa
+PSA 52:0	fq
+PSA 53:0	fq
+PSA 53:0	fq
+PSA 53:3	fqa
+PSA 53:6	fqa
+PSA 54:0	fq
+PSA 55:0	fq
+PSA 56:0	fq
+PSA 56:7	fqa
+PSA 56:8	fqa
+PSA 57:0	fq
+PSA 57:8	fqa
+PSA 58:0	fq
+PSA 58:7	fqa
+PSA 59:0	fq
+PSA 60:0	fq
+PSA 60:0	fqa	fq
+PSA 60:0	fqa
+PSA 60:4	fqa
+PSA 60:6	fqa
+PSA 65:8	fqa
+PSA 65:9	fqa
+PSA 65:9	fqa
+PSA 66:17	fqa
+PSA 68:4	fqa
+PSA 68:17	fqa
+PSA 68:28	fqa
+PSA 68:31	fqa
+PSA 69:22	fqa
+PSA 69:23	fqa
+PSA 72:5	fqa
+PSA 72:8	fqa
+PSA 72:17	fqa
+PSA 73:7	fqa	fqa
+PSA 73:10	fqa
+PSA 73:26	fqa
+PSA 74:0	fq
+PSA 74:11	fqa	fqa
+PSA 74:16	fqa
+PSA 75:9	fqa
+PSA 76:2	fqa
+PSA 76:10	fqa
+PSA 77:10	fqa
+PSA 77:19	fqa
+PSA 78:0	fq
+PSA 78:2	fqa
+PSA 78:33	fqa
+PSA 78:42	fqa
+PSA 78:47	fqa	fqa
+PSA 80:11	fqa	fqa
+PSA 80:11	fqa
+PSA 81:0	fq
+PSA 81:5	fqa
+PSA 81:7	fq
+PSA 82:2	fqa
+PSA 83:1	fqa
+PSA 84:0	fq
+PSA 84:6	fqa
+PSA 84:6	fqa
+PSA 85:1	fqa
+PSA 87:1	fqa
+PSA 87:4	fq
+PSA 87:4	fqa
+PSA 88:0	fq
+PSA 88:0	fq
+PSA 88:11	fq
+PSA 89:0	fq
+PSA 89:6	fqa	fqa
+PSA 90:17	fqa
+PSA 92:11	fqa
+PSA 94:21	fqa
+PSA 95:8	fqa	fq
+PSA 95:8	fqa	fq
+PSA 95:10	fqa
+PSA 97:11	fqa
+PSA 99:3	fqa
+PSA 99:4	fqa
+PSA 100:3	fqa
+PSA 104:4	fqa
+PSA 104:17	fqa	fqa	fqa
+PSA 104:18	fqa	fqa
+PSA 104:30	fqa
+PSA 104:35	fqa
+PSA 105:16	fqa
+PSA 105:22	fqa
+PSA 105:28	fqa
+PSA 105:45	fqa
+PSA 106:1	fqa
+PSA 106:7	fqa
+PSA 106:19	fqa
+PSA 106:20	fqa
+PSA 106:27	fqa	fqa
+PSA 106:32	fq
+PSA 106:33	fqa
+PSA 107:3	fqa
+PSA 107:27	fqa	fqa
+PSA 107:29	fqa
+PSA 108:1	fqa
+PSA 108:7	fqa
+PSA 109:10	fqa
+PSA 111:1	fqa
+PSA 112:1	fqa
+PSA 113:1	fqa
+PSA 115:7	fqa
+PSA 115:9	fqa
+PSA 115:18	fqa
+PSA 116:10	fqa
+PSA 116:19	fqa
+PSA 117:2	fqa
+PSA 118:2	fqa
+PSA 118:6	fqa	fqa
+PSA 118:22	fqa
+PSA 118:27	fqa
+PSA 119:33	fqa
+PSA 119:37	fqa
+PSA 119:70	fqa
+PSA 119:84	fqa
+PSA 119:91	fqa
+PSA 122:6	fqa
+PSA 122:7	fqa
+PSA 126:1	fqa	fqa
+PSA 126:1	fqa
+PSA 126:4	fqa
+PSA 132:5	fqa
+PSA 132:6	fqa
+PSA 132:11	fqa
+PSA 135:1	fqa
+PSA 135:14	fqa
+PSA 136:13	fqa
+PSA 136:15	fqa
+PSA 137:2	fqa
+PSA 138:3	fqa
+PSA 139:13	fqa
+PSA 139:17	fqa
+PSA 139:20	fqa	fqa	fqa
+PSA 141:8	fqa	fqa
+PSA 142:0	fq
+PSA 143:9	fqa
+PSA 144:2	fqa
+PSA 144:14	fqa
+PSA 146:1	fqa
+PSA 147:1	fqa
+PSA 147:17	fqa	fqa
+PSA 147:20	fqa
+PSA 148:1	fqa
+PSA 149:1	fqa
+PSA 150:1	fqa
+PSA 150:1	fqa	fqa
+PRO 1:4	fq
+PRO 1:7	fq
+PRO 1:21	fqa
+PRO 2:16	fqa
+PRO 2:16	fqa
+PRO 2:18	fqa
+PRO 3:3	fq	fqa	fqa	fqa	fqa	fqa	fqa
+PRO 3:8	fqa
+PRO 3:8	fqa
+PRO 3:11	fqa
+PRO 3:12	fqa
+PRO 3:27	fqa
+PRO 3:34	fqa
+PRO 4:7	fqa
+PRO 4:26	fqa	fqa
+PRO 5:3	fqa
+PRO 5:3	fqa
+PRO 5:5	fqa
+PRO 5:19	fqa
+PRO 5:20	fqa	fqa
+PRO 5:21	fqa	fqa
+PRO 6:3	fqa
+PRO 6:5	fq
+PRO 6:24	fqa
+PRO 6:25	fqa	fqa
+PRO 6:26	fqa
+PRO 7:2	fqa
+PRO 7:22	fqa
+PRO 8:5	fqa
+PRO 8:16	fqa
+PRO 8:22	fqa
+PRO 8:30	fqa
+PRO 9:1	fqa
+PRO 9:11	fqa
+PRO 9:18	fqa
+PRO 10:6	fqa
+PRO 10:10	fqa
+PRO 11:31	fqa
+PRO 13:14	fqa
+PRO 14:16	fqa
+PRO 14:22	fqa
+PRO 14:33	fqa
+PRO 15:11	fqa
+PRO 16:20	fqa
+PRO 16:27	fqa
+PRO 17:1	fqa
+PRO 17:23	fqa
+PRO 18:5	fqa
+PRO 18:10	fqa
+PRO 20:2	fqa
+PRO 20:10	fqa
+PRO 20:16	fqa
+PRO 20:19	fqa
+PRO 20:27	fqa	fqa
+PRO 21:12	fqa
+PRO 21:14	fqa
+PRO 21:29	fqa
+PRO 22:8	fqa
+PRO 22:9	fqa
+PRO 22:20	fqa	fqa
+PRO 23:1	fqa
+PRO 23:6	fqa
+PRO 23:7	fqa
+PRO 23:16	fqa
+PRO 23:27	fqa	fqa
+PRO 24:5	fqa
+PRO 25:7	fqa
+PRO 25:20	fqa
+PRO 25:22	fqa
+PRO 26:23	fqa
+PRO 27:13	fqa
+PRO 27:17	fqa	fqa
+PRO 27:20	fqa
+PRO 28:14	fqa
+PRO 28:17	fqa
+PRO 28:22	fqa
+PRO 29:4	fqa	fqa
+PRO 29:10	fqa
+PRO 30:1	fqa	fqa
+PRO 30:26	fqa	fqa
+PRO 30:31	fqa
+PRO 31:2	fqa	fqa
+PRO 31:17	fqa
+PRO 31:21	fqa
+ECC 1:1	fqa	fqa	fqa	fq
+ECC 1:2	fqa	fqa	fqa	fqa	fqa	fqa
+ECC 2:25	fqa	fqa
+ECC 3:19	fqa
+ECC 5:6	fqa
+ECC 6:7	fqa
+ECC 7:9	fqa
+ECC 7:18	fqa
+ECC 8:10	fqa
+ECC 9:2	fq
+ECC 9:9	fqa
+ECC 10:16	fqa
+ECC 11:5	fqa
+ECC 11:10	fqa
+ECC 12:10	fqa
+ECC 12:11	fqa
+SNG 2:1	fqa
+SNG 2:4	fqa
+SNG 2:12	fqa
+SNG 2:17	fqa
+SNG 4:8	fqa
+SNG 4:15	fqa	fqa
+SNG 5:16	fqa
+SNG 6:12	fqa
+SNG 6:13	fqa
+SNG 7:9	fqa
+SNG 7:9	fqa
+SNG 7:11	fqa	fqa
+SNG 8:6	fqa
+SNG 8:11	fqa
+ISA 1:9	fqa
+ISA 1:17	fqa
+ISA 2:16	fqa
+ISA 3:1	fqa
+ISA 3:7	fqa
+ISA 3:8	fqa
+ISA 3:17	fqa
+ISA 3:24	fqa
+ISA 5:10	fqa
+ISA 5:10	fqa
+ISA 5:17	fqa
+ISA 6:1	fqa
+ISA 6:9	fqa
+ISA 6:10	fqa
+ISA 7:1	fqa
+ISA 7:2	fqa
+ISA 7:6	fqa
+ISA 7:14	fqa
+ISA 7:14	fq	fqa	fqa	fqa	fqa
+ISA 7:20	fqa
+ISA 7:23	fqa
+ISA 8:1	fqa
+ISA 8:1	fq
+ISA 8:7	fqa
+ISA 8:8	fq
+ISA 8:9	fqa	fqa	fqa
+ISA 8:10	fqa
+ISA 8:12	fqa
+ISA 8:12	fqa
+ISA 8:17	fqa
+ISA 9:9	fqa
+ISA 9:12	fqa
+ISA 9:20	fqa
+ISA 10:22	fqa
+ISA 10:23	fqa
+ISA 10:27	fqa	fqa
+ISA 11:6	fqa
+ISA 11:10	fqa
+ISA 11:11	fqa
+ISA 11:11	fqa
+ISA 11:11	fqa
+ISA 11:13	fqa
+ISA 11:13	fqa
+ISA 11:15	fqa
+ISA 11:15	fqa
+ISA 11:15	fqa
+ISA 13:21	fqa	fqa
+ISA 13:22	fqa	fqa
+ISA 14:4	fqa
+ISA 14:8	fqa	fqa	fqa
+ISA 14:12	fqa	fqa	fqa
+ISA 14:13	fqa	fqa
+ISA 14:18	fqa
+ISA 15:5	fqa
+ISA 15:7	fqa
+ISA 15:9	fqa	fq	fqa
+ISA 16:5	fq	fqa	fqa	fqa	fqa	fqa	fqa
+ISA 16:8	fqa
+ISA 16:11	fq	fqa
+ISA 17:3	fqa
+ISA 18:1	fqa
+ISA 18:1	fqa
+ISA 19:10	fqa
+ISA 19:13	fqa
+ISA 19:18	fqa
+ISA 20:3	fqa
+ISA 21:8	fqa
+ISA 21:11	fq	fqa
+ISA 21:11	fq	fqa
+ISA 23:1	fqa
+ISA 23:2	fqa
+ISA 23:10	fqa
+ISA 23:13	fqa
+ISA 24:14	fqa
+ISA 24:15	fqa
+ISA 25:8	fqa
+ISA 25:11	fqa
+ISA 26:9	fqa
+ISA 27:1	fqa
+ISA 27:8	fqa	fqa
+ISA 27:9	fqa
+ISA 27:12	fqa
+ISA 28:1	fqa
+ISA 28:10	fqa	fqa	fqa
+ISA 28:10	fqa
+ISA 28:15	fqa
+ISA 28:16	fqa
+ISA 29:1	fqa	fqa
+ISA 29:2	fqa
+ISA 29:13	fqa
+ISA 29:14	fqa
+ISA 30:32	fqa	fqa
+ISA 32:14	fqa
+ISA 33:4	fq
+ISA 33:8	fqa
+ISA 33:8	fqa
+ISA 34:8	fqa
+ISA 34:13	fqa	fqa
+ISA 34:13	fqa	fqa
+ISA 35:7	fqa	fqa
+ISA 36:2	fq
+ISA 36:5	fqa	fqa
+ISA 36:11	fqa
+ISA 36:16	fqa
+ISA 37:9	fqa
+ISA 37:20	fqa
+ISA 37:24	fqa	fqa	fqa
+ISA 37:25	fq
+ISA 37:27	fqa
+ISA 37:36	fqa
+ISA 38:10	fqa	fqa
+ISA 38:13	fqa
+ISA 40:3	fqa
+ISA 40:3	fqa
+ISA 40:4	fqa
+ISA 40:5	fqa
+ISA 40:9	fqa
+ISA 40:13	fqa
+ISA 40:15	fqa
+ISA 40:23	fqa
+ISA 41:1	fqa
+ISA 41:2	fqa
+ISA 41:19	fqa	fqa	fqa
+ISA 41:27	fqa
+ISA 42:4	fqa
+ISA 42:4	fqa	fqa
+ISA 42:10	fqa
+ISA 42:15	fqa	fqa
+ISA 43:3	fqa
+ISA 43:14	fqa
+ISA 43:20	fqa	fqa
+ISA 43:20	fqa	fqa
+ISA 44:2	fq
+ISA 44:4	fqa
+ISA 44:14	fqa	fqa	fqa
+ISA 45:2	fqa
+ISA 45:14	fqa
+ISA 45:23	fq	fqa
+ISA 47:1	fqa
+ISA 48:14	fqa
+ISA 48:19	fqa
+ISA 49:1	fqa
+ISA 49:8	fqa
+ISA 49:12	fqa
+ISA 49:12	fqa
+ISA 49:17	fqa
+ISA 49:22	fqa
+ISA 49:24	fqa
+ISA 51:5	fqa
+ISA 51:16	fqa
+ISA 51:19	fqa
+ISA 52:5	fqa
+ISA 52:5	fqa
+ISA 52:13	fqa
+ISA 52:14	fqa
+ISA 52:15	fqa
+ISA 52:15	fqa
+ISA 53:4	fqa
+ISA 53:8	fqa
+ISA 53:10	fqa
+ISA 53:11	fq
+ISA 53:12	fqa
+ISA 53:12	fqa
+ISA 54:2	fqa
+ISA 54:9	fqa
+ISA 54:11	fqa
+ISA 55:13	fqa	fqa	fqa
+ISA 57:9	fqa
+ISA 57:9	fqa
+ISA 59:7	fqa
+ISA 59:15	fqa
+ISA 59:18	fqa
+ISA 59:19	fqa
+ISA 59:20	fqa
+ISA 59:21	fqa
+ISA 60:9	fqa
+ISA 60:9	fqa
+ISA 60:13	fqa	fqa	fqa
+ISA 60:19	fqa
+ISA 60:19	fqa
+ISA 61:1	fqa
+ISA 61:2	fqa
+ISA 62:4	fq
+ISA 62:4	fq
+ISA 63:1	fqa
+ISA 63:9	fqa
+ISA 64:6	fqa
+ISA 64:7	fqa
+ISA 65:2	fqa
+ISA 65:9	fqa
+ISA 65:17	fqa
+ISA 65:25	fqa
+ISA 66:18	fqa
+ISA 66:19	fqa
+ISA 66:22	fqa
+JER 1:12	fq
+JER 1:17	fqa
+JER 2:11	fqa
+JER 2:18	fqa
+JER 2:18	fqa
+JER 3:8	fqa
+JER 5:13	fqa
+JER 6:2	fqa
+JER 6:10	fqa
+JER 6:23	fqa
+JER 6:27	fqa
+JER 7:13	fqa
+JER 7:25	fqa
+JER 8:18	fqa
+JER 9:6	fqa
+JER 9:7	fqa
+JER 9:11	fqa	fqa
+JER 9:24	fq	fqa	fqa	fqa	fqa	fqa	fqa
+JER 10:22	fqa	fqa
+JER 11:7	fqa
+JER 11:20	fqa
+JER 12:2	fqa
+JER 12:9	fqa
+JER 13:4	fqa
+JER 13:22	fqa
+JER 13:23	fqa
+JER 14:6	fqa	fqa
+JER 15:14	fqa
+JER 17:5	fqa
+JER 17:10	fqa
+JER 17:26	fqa
+JER 19:7	fq
+JER 19:8	fqa
+JER 20:3	fq
+JER 20:12	fqa
+JER 21:2	fqa	fq
+JER 21:4	fqa
+JER 22:11	fq	fqa
+JER 22:15	fqa
+JER 22:24	fq	fqa
+JER 22:25	fqa
+JER 23:5	fqa
+JER 24:1	fq	fqa
+JER 24:1	fqa
+JER 24:5	fqa
+JER 25:3	fqa
+JER 25:4	fqa
+JER 25:12	fqa
+JER 25:26	fq
+JER 25:34	fqa
+JER 25:38	fqa
+JER 26:5	fqa
+JER 26:20	fqa
+JER 27:1	fqa
+JER 27:20	fq	fqa
+JER 28:4	fq	fqa
+JER 29:2	fq	fqa
+JER 29:14	fqa
+JER 29:19	fqa
+JER 29:25	fq	fq
+JER 30:3	fqa
+JER 30:18	fqa
+JER 31:3	fqa
+JER 31:18	fqa
+JER 31:20	fqa
+JER 31:22	fqa	fqa
+JER 31:23	fqa
+JER 31:32	fqa
+JER 31:38	fqa	fqa
+JER 32:4	fqa
+JER 32:9	fq
+JER 32:18	fqa
+JER 32:33	fqa
+JER 32:44	fqa
+JER 32:44	fqa
+JER 33:2	fqa
+JER 33:5	fqa	fqa
+JER 33:7	fqa
+JER 33:11	fqa
+JER 33:13	fqa
+JER 33:26	fqa
+JER 35:6	fq	fqa
+JER 35:11	fqa
+JER 35:14	fqa
+JER 35:15	fqa
+JER 37:1	fq	fqa
+JER 37:3	fq	fqa
+JER 37:5	fqa
+JER 37:12	fqa
+JER 38:1	fq	fqa
+JER 38:2	fqa
+JER 38:7	fqa
+JER 39:3	fqa
+JER 39:4	fqa
+JER 39:5	fqa
+JER 39:13	fq	fqa
+JER 40:8	fq	fqa
+JER 40:9	fqa
+JER 41:3	fqa
+JER 41:16	fqa
+JER 41:18	fqa
+JER 42:1	fqa
+JER 43:3	fqa
+JER 43:12	fqa
+JER 43:13	fqa	fqa	fqa
+JER 44:1	fqa	fqa
+JER 44:1	fqa	fqa
+JER 44:4	fqa
+JER 44:15	fqa	fqa
+JER 45:4	fqa
+JER 46:9	fqa
+JER 46:22	fqa
+JER 46:25	fqa
+JER 47:4	fqa
+JER 48:2	fq
+JER 48:2	fq
+JER 48:4	fqa
+JER 48:6	fqa	fqa
+JER 48:9	fqa
+JER 48:21	fq	fqa
+JER 48:31	fq	fqa
+JER 48:32	fqa
+JER 48:47	fqa
+JER 49:1	fqa	fqa
+JER 49:4	fqa
+JER 49:6	fqa
+JER 49:16	fqa
+JER 49:20	fqa
+JER 49:21	fqa
+JER 49:23	fqa	fqa
+JER 49:33	fqa	fqa
+JER 49:39	fqa
+JER 50:1	fqa
+JER 50:10	fqa
+JER 50:21	fqa
+JER 50:38	fqa
+JER 50:39	fqa	fqa
+JER 50:42	fqa
+JER 51:1	fq	fqa	fqa
+JER 51:4	fqa
+JER 51:11	fqa	fqa
+JER 51:24	fqa
+JER 51:34	fqa
+JER 51:37	fqa	fqa
+JER 51:41	fq	fqa
+JER 52:7	fqa
+JER 52:7	fqa
+JER 52:21	fq
+JER 52:22	fq
+JER 52:31	fqa
+LAM 1:8	fqa
+LAM 1:14	fqa
+LAM 1:15	fqa
+LAM 2:3	fqa
+LAM 2:17	fqa
+LAM 2:18	fqa
+LAM 2:19	fqa
+LAM 3:22	fq	fqa	fqa	fqa	fqa	fqa	fqa
+LAM 4:3	fqa	fqa
+LAM 4:6	fqa
+LAM 4:7	fqa	fqa
+LAM 4:7	fqa
+LAM 4:22	fqa
+EZK 1:1	fqa
+EZK 1:3	fqa
+EZK 1:4	fqa
+EZK 2:1	fqa
+EZK 3:12	fqa
+EZK 3:12	fqa
+EZK 3:18	fqa
+EZK 3:20	fqa
+EZK 4:10	fq
+EZK 4:11	fq
+EZK 4:14	fqa
+EZK 4:16	fqa
+EZK 5:7	fqa
+EZK 5:15	fqa
+EZK 5:16	fqa
+EZK 5:16	fqa
+EZK 6:14	fqa
+EZK 7:5	fqa	fqa
+EZK 7:11	fqa
+EZK 8:2	fqa
+EZK 8:5	fqa
+EZK 8:14	fq
+EZK 11:3	fqa
+EZK 11:24	fqa
+EZK 12:11	fqa
+EZK 14:13	fqa
+EZK 16:29	fqa
+EZK 16:30	fqa
+EZK 16:50	fqa
+EZK 16:53	fqa
+EZK 16:57	fqa
+EZK 17:3	fq
+EZK 17:5	fqa
+EZK 17:13	fqa
+EZK 17:21	fqa
+EZK 18:17	fqa
+EZK 19:7	fqa	fqa
+EZK 19:10	fqa
+EZK 20:29	fq
+EZK 20:31	fqa
+EZK 20:34	fqa
+EZK 20:36	fqa
+EZK 20:46	fqa
+EZK 21:12	fqa
+EZK 21:27	fqa
+EZK 22:16	fqa
+EZK 22:25	fqa
+EZK 23:4	fq
+EZK 23:4	fq
+EZK 23:14	fqa
+EZK 23:15	fqa
+EZK 23:24	fqa
+EZK 23:37	fqa
+EZK 23:40	fqa
+EZK 23:42	fqa
+EZK 24:6	fqa
+EZK 25:5	fqa
+EZK 25:8	fq
+EZK 26:1	fqa
+EZK 26:7	fqa	fq
+EZK 26:17	fqa
+EZK 26:20	fqa
+EZK 27:5	fqa	fqa	fqa
+EZK 27:5	fqa
+EZK 27:6	fqa
+EZK 27:13	fqa
+EZK 27:15	fqa
+EZK 27:16	fqa
+EZK 27:19	fqa
+EZK 27:19	fqa
+EZK 27:19	fqa
+EZK 27:25	fqa
+EZK 28:13	fqa
+EZK 29:7	fqa
+EZK 29:10	fqa
+EZK 29:14	fqa
+EZK 30:3	fq
+EZK 30:4	fqa
+EZK 30:5	fqa
+EZK 30:6	fqa
+EZK 30:9	fqa
+EZK 30:14	fqa
+EZK 30:15	fqa
+EZK 30:17	fqa	fqa
+EZK 31:8	fqa	fqa	fqa
+EZK 31:8	fqa	fqa
+EZK 31:10	fqa
+EZK 31:10	fqa
+EZK 32:5	fqa
+EZK 32:9	fqa
+EZK 32:17	fqa
+EZK 32:27	fqa
+EZK 32:27	fqa
+EZK 37:5	fqa
+EZK 37:16	fqa
+EZK 37:23	fqa
+EZK 37:27	fqa
+EZK 38:2	fqa
+EZK 38:3	fqa
+EZK 38:5	fqa
+EZK 38:13	fqa
+EZK 38:14	fqa
+EZK 39:1	fqa
+EZK 39:11	fqa
+EZK 39:11	fq
+EZK 39:13	fqa
+EZK 39:16	fq
+EZK 39:25	fqa
+EZK 39:26	fqa
+EZK 40:5	fq
+EZK 40:6	fqa
+EZK 40:7	fq
+EZK 40:8	fqa
+EZK 40:9	fq
+EZK 40:9	fq
+EZK 40:11	fq
+EZK 40:11	fq
+EZK 40:13	fq
+EZK 40:14	fq
+EZK 40:15	fq
+EZK 40:16	fqa	fqa	fqa
+EZK 40:19	fq
+EZK 40:37	fqa	fqa
+EZK 40:38	fqa
+EZK 40:43	fqa
+EZK 40:43	fq
+EZK 40:44	fqa
+EZK 40:44	fqa
+EZK 40:48	fqa
+EZK 40:49	fq
+EZK 40:49	fq	fqa
+EZK 40:49	fqa
+EZK 41:1	fq
+EZK 41:1	fqa
+EZK 41:2	fq
+EZK 41:2	fq
+EZK 41:3	fq
+EZK 41:3	fq
+EZK 41:4	fqa
+EZK 41:4	fqa
+EZK 41:5	fq
+EZK 41:12	fq
+EZK 41:12	fq
+EZK 41:13	fq
+EZK 41:22	fqa
+EZK 42:3	fq
+EZK 42:4	fqa
+EZK 42:10	fqa
+EZK 42:16	fq	fqa
+EZK 43:3	fqa
+EZK 43:7	fqa
+EZK 43:7	fqa
+EZK 43:11	fqa
+EZK 43:13	fq
+EZK 43:13	fq
+EZK 43:16	fq
+EZK 43:17	fq
+EZK 43:17	fq
+EZK 43:26	fqa
+EZK 45:1	fqa
+EZK 45:2	fq
+EZK 45:2	fq
+EZK 45:3	fqa
+EZK 45:5	fqa
+EZK 45:10	fq
+EZK 45:10	fq
+EZK 45:11	fq
+EZK 45:12	fq
+EZK 45:13	fq
+EZK 45:14	fq
+EZK 45:17	fqa
+EZK 45:24	fq
+EZK 45:25	fqa	fqa	fqa
+EZK 46:5	fq
+EZK 46:14	fq
+EZK 46:14	fqa
+EZK 47:3	fq
+EZK 47:8	fqa
+EZK 47:8	fqa
+EZK 47:10	fqa
+EZK 47:16	fqa
+EZK 47:18	fqa	fqa
+EZK 47:19	fq
+EZK 48:8	fq
+EZK 48:9	fq
+EZK 48:12	fqa
+EZK 48:15	fq
+EZK 48:16	fq
+EZK 48:17	fq
+EZK 48:28	fq
+EZK 48:28	fqa
+EZK 48:35	fq
+DAN 1:2	fqa
+DAN 1:3	fqa
+DAN 1:4	fqa
+DAN 2:2	fqa
+DAN 2:31	fqa
+DAN 2:34	fqa
+DAN 2:43	fqa
+DAN 3:1	fqa
+DAN 3:8	fqa
+DAN 3:17	fqa
+DAN 3:25	fqa
+DAN 3:28	fqa
+DAN 4:7	fqa
+DAN 4:13	fqa	fqa
+DAN 5:1	fq	fqa
+DAN 5:2	fqa	fqa
+DAN 5:7	fqa
+DAN 5:10	fqa
+DAN 5:22	fqa	fqa	fqa
+DAN 5:26	fq
+DAN 5:27	fq
+DAN 5:28	fq
+DAN 5:30	fqa
+DAN 6:28	fqa
+DAN 7:2	fq	fqa
+DAN 7:13	fqa
+DAN 8:12	fqa
+DAN 8:21	fqa
+DAN 9:1	fqa
+DAN 9:4	fq	fqa	fqa	fqa	fqa	fqa	fqa
+DAN 9:24	fqa
+DAN 9:24	fqa	fqa	fqa
+DAN 9:25	fqa
+DAN 9:26	fqa
+DAN 9:27	fqa
+DAN 9:27	fqa	fqa
+DAN 9:27	fqa
+DAN 10:1	fqa
+DAN 10:16	fqa	fqa
+DAN 10:20	fqa
+DAN 11:2	fqa
+DAN 11:6	fqa
+DAN 11:6	fqa
+DAN 11:7	fqa
+DAN 11:13	fqa
+DAN 11:17	fqa
+DAN 11:30	fqa	fqa
+DAN 11:39	fqa
+DAN 11:40	fqa
+DAN 11:43	fqa
+DAN 12:3	fqa	fqa
+HOS 1:1	fqa	fq
+HOS 1:4	fq
+HOS 1:6	fq
+HOS 1:9	fq
+HOS 1:9	fqa
+HOS 2:1	fqa
+HOS 2:6	fqa
+HOS 2:15	fq
+HOS 2:16	fqa
+HOS 2:16	fqa
+HOS 2:19	fq	fqa	fqa	fqa	fqa	fqa	fqa
+HOS 2:22	fq
+HOS 2:23	fqa
+HOS 3:1	fqa
+HOS 3:1	fqa
+HOS 3:2	fq
+HOS 3:2	fqa	fqa
+HOS 4:4	fqa
+HOS 4:7	fqa	fqa
+HOS 4:8	fqa
+HOS 4:15	fq
+HOS 4:17	fqa
+HOS 4:18	fqa
+HOS 4:19	fqa
+HOS 5:3	fqa
+HOS 5:7	fqa	fqa
+HOS 5:8	fq
+HOS 5:11	fqa
+HOS 5:13	fqa
+HOS 6:4	fqa
+HOS 6:7	fqa
+HOS 6:11	fqa
+HOS 7:1	fqa
+HOS 7:6	fqa
+HOS 7:12	fqa
+HOS 7:14	fqa
+HOS 8:5	fqa
+HOS 8:9	fqa
+HOS 9:3	fqa
+HOS 9:8	fqa
+HOS 10:5	fq
+HOS 10:6	fqa
+HOS 10:6	fqa
+HOS 10:6	fqa
+HOS 10:8	fqa	fq
+HOS 10:9	fqa
+HOS 11:2	fqa
+HOS 11:3	fqa
+HOS 11:12	fqa
+HOS 12:1	fqa
+HOS 12:2	fq
+HOS 12:4	fqa
+HOS 12:4	fqa
+HOS 12:12	fqa
+HOS 13:1	fqa
+HOS 13:2	fqa
+HOS 13:10	fqa
+HOS 13:14	fqa
+HOS 13:14	fqa
+HOS 14:2	fqa
+HOS 14:8	fqa
+HOS 14:8	fqa	fqa	fqa
+JOL 2:4	fqa	fqa
+JOL 2:13	fq	fqa	fqa	fqa	fqa	fqa	fqa
+JOL 2:20	fqa
+JOL 2:20	fqa	fqa
+JOL 2:22	fqa
+JOL 2:30	fqa	fqa
+JOL 2:31	fqa
+JOL 3:1	fqa
+JOL 3:2	fq
+JOL 3:5	fqa
+JOL 3:6	fqa
+JOL 3:13	fqa
+JOL 3:18	fqa
+JOL 3:21	fqa
+AMO 1:1	fqa
+AMO 1:1	fqa
+AMO 1:1	fqa	fq
+AMO 1:3	fqa	fqa
+AMO 1:5	fqa
+AMO 1:5	fq
+AMO 1:15	fqa
+AMO 2:1	fqa	fqa
+AMO 2:8	fqa
+AMO 2:8	fqa
+AMO 3:2	fqa
+AMO 3:3	fqa
+AMO 3:11	fqa
+AMO 3:12	fqa
+AMO 4:4	fqa
+AMO 4:6	fqa
+AMO 4:11	fqa
+AMO 5:5	fqa
+AMO 5:26	fqa
+AMO 6:10	fqa
+AMO 6:12	fqa
+AMO 6:13	fq
+AMO 6:13	fq
+AMO 7:1	fqa
+AMO 7:14	fqa
+AMO 7:14	fqa
+AMO 7:17	fqa
+AMO 8:1	fqa
+AMO 8:3	fqa
+AMO 8:3	fqa
+AMO 8:5	fqa
+AMO 8:14	fqa
+AMO 9:3	fqa
+AMO 9:7	fqa
+AMO 9:7	fqa
+AMO 9:12	fqa
+AMO 9:14	fqa
+OBA 3	fqa
+OBA 7	fq
+OBA 12	fqa
+OBA 19	fqa
+OBA 21	fqa	fqa
+JON 1:13	fqa
+JON 2:8	fq	fqa	fqa	fqa	fqa	fqa	fqa
+JON 3:3	fqa
+JON 3:3	fqa
+JON 4:1	fqa
+MIC 1:8	fqa	fqa
+MIC 1:8	fqa	fqa
+MIC 1:10	fq
+MIC 1:10	fq
+MIC 1:11	fq
+MIC 1:11	fq
+MIC 1:11	fq
+MIC 1:12	fq
+MIC 1:13	fq
+MIC 1:14	fqa
+MIC 1:14	fq
+MIC 1:14	fq
+MIC 1:15	fq
+MIC 2:11	fqa
+MIC 4:8	fqa	fqa
+MIC 4:13	fqa
+MIC 5:2	fqa
+MIC 5:5	fqa
+MIC 6:5	fqa
+MIC 6:16	fqa
+MIC 7:4	fqa
+MIC 7:5	fqa
+MIC 7:12	fqa
+MIC 7:14	fqa
+MIC 7:18	fq	fqa	fqa	fqa	fqa	fqa	fqa
+NAM 1:8	fqa
+NAM 2:1	fqa
+NAM 2:3	fqa	fqa	fqa	fqa
+NAM 3:9	fqa
+NAM 3:17	fqa
+NAM 3:17	fqa
+HAB 1:5	fqa
+HAB 1:6	fqa
+HAB 1:15	fqa
+HAB 2:3	fqa
+HAB 2:4	fqa
+HAB 2:4	fqa
+HAB 2:5	fqa
+HAB 2:10	fqa
+HAB 2:16	fqa
+HAB 3:1	fq
+HAB 3:3	fq	fqa
+ZEP 1:3	fqa
+ZEP 1:5	fqa	fq	fqa
+ZEP 1:9	fqa
+ZEP 1:10	fqa	fqa
+ZEP 1:11	fqa	fqa
+ZEP 1:11	fqa
+ZEP 1:12	fqa
+ZEP 1:18	fqa
+ZEP 2:2	fqa
+ZEP 2:6	fqa	fqa
+ZEP 2:7	fqa
+ZEP 2:12	fqa
+ZEP 2:14	fqa
+ZEP 2:14	fq	fq
+ZEP 3:8	fqa
+ZEP 3:10	fqa
+ZEP 3:17	fqa	fqa
+ZEP 3:20	fqa
+HAG 1:1	fq	fqa
+HAG 2:2	fq	fqa
+HAG 2:15	fqa
+HAG 2:16	fq
+HAG 2:16	fqa
+ZEC 1:15	fqa
+ZEC 2:8	fqa	fqa
+ZEC 2:8	fqa
+ZEC 3:1	fqa
+ZEC 3:1	fqa	fqa
+ZEC 3:2	fqa
+ZEC 3:9	fqa
+ZEC 4:10	fqa
+ZEC 4:10	fqa
+ZEC 4:12	fqa
+ZEC 4:14	fqa
+ZEC 5:2	fq
+ZEC 5:6	fqa
+ZEC 5:6	fqa	fqa
+ZEC 5:11	fqa
+ZEC 6:5	fqa
+ZEC 6:6	fqa
+ZEC 6:11	fq	fqa
+ZEC 6:13	fqa
+ZEC 6:14	fqa	fqa
+ZEC 7:2	fqa
+ZEC 7:7	fqa
+ZEC 7:9	fq	fqa	fqa	fqa	fqa	fqa	fqa
+ZEC 7:11	fqa
+ZEC 8:6	fqa
+ZEC 9:1	fqa
+ZEC 9:4	fqa
+ZEC 9:7	fqa
+ZEC 9:9	fqa
+ZEC 9:10	fqa
+ZEC 9:10	fqa
+ZEC 9:13	fqa
+ZEC 10:3	fqa
+ZEC 11:2	fqa	fqa	fqa
+ZEC 11:10	fqa
+ZEC 12:8	fqa
+ZEC 12:10	fqa
+ZEC 12:10	fqa
+ZEC 13:2	fqa
+ZEC 13:5	fqa
+ZEC 13:6	fqa
+ZEC 14:5	fqa
+ZEC 14:8	fqa
+ZEC 14:8	fqa	fqa
+ZEC 14:16	fqa	fqa	fqa
+ZEC 14:20	fqa
+ZEC 14:21	fqa
+MAL 1:1	fq
+MAL 1:3	fqa	fqa
+MAL 1:7	fqa
+MAL 2:3	fqa
+MAL 2:16	fqa
+MAL 3:10	fqa
+MAL 3:11	fq
+MAL 4:2	fqa
+MAL 4:4	fqa
+MAL 4:5	fqa	fqa
+MAT 1:3	fq
+MAT 1:7	fq
+MAT 1:10	fq
+MAT 1:23	fqa
+MAT 1:25	fqa
+MAT 2:2	fqa
+MAT 3:11	fqa
+MAT 3:11	fqa
+MAT 3:16	fqa
+MAT 3:16	fqa
+MAT 4:25	fqa
+MAT 5:5	fqa
+MAT 5:14	fqa
+MAT 5:22	fqa
+MAT 5:22	fqa
+MAT 5:22	fqa	fqa
+MAT 5:32	fqa
+MAT 5:37	fqa
+MAT 5:41	fq
+MAT 5:44	fqa
+MAT 6:1	fqa	fqa
+MAT 6:13	fqa	fqa
+MAT 6:19	fqa
+MAT 6:22	fqa
+MAT 6:23	fqa
+MAT 6:27	fqa
+MAT 6:33	fqa
+MAT 8:2	fq
+MAT 8:6	fqa
+MAT 8:18	fqa	fqa
+MAT 8:28	fqa	fqa
+MAT 9:2	fqa
+MAT 9:4	fqa
+MAT 9:13	fqa
+MAT 9:14	fq
+MAT 10:4	fqa
+MAT 10:4	fqa
+MAT 10:8	fq
+MAT 10:11	fqa
+MAT 10:12	fqa
+MAT 10:25	fqa	fqa
+MAT 11:1	fqa
+MAT 11:2	fqa
+MAT 11:5	fq
+MAT 11:6	fqa
+MAT 11:12	fqa
+MAT 11:15	fqa
+MAT 12:4	fqa
+MAT 12:24	fqa	fqa
+MAT 13:9	fqa
+MAT 13:19	fqa
+MAT 13:35	fq
+MAT 13:55	fqa
+MAT 14:25	fqa
+MAT 14:30	fqa	fqa
+MAT 15:6	fq	fq
+MAT 15:14	fqa
+MAT 15:27	fqa
+MAT 16:3	fq
+MAT 16:21	fqa
+MAT 17:4	fqa
+MAT 17:20	fqa
+MAT 18:9	fqa	fqa
+MAT 18:10	fqa
+MAT 18:15	fq
+MAT 18:22	fqa
+MAT 19:9	fqa
+MAT 19:17	fqa
+MAT 19:28	fqa
+MAT 19:29	fq
+MAT 20:3	fqa
+MAT 20:5	fqa
+MAT 20:6	fqa
+MAT 20:7	fqa
+MAT 20:16	fqa
+MAT 20:22	fqa
+MAT 20:23	fqa
+MAT 21:9	fq	fqa	fqa
+MAT 21:9	fqa
+MAT 21:12	fq	fqa
+MAT 21:29	fqa
+MAT 21:31	fqa
+MAT 22:30	fqa
+MAT 23:4	fqa
+MAT 23:7	fqa
+MAT 23:13	fqa
+MAT 23:26	fq
+MAT 23:32	fqa
+MAT 23:38	fq
+MAT 24:29	fqa
+MAT 24:30	fqa
+MAT 24:32	fqa
+MAT 24:33	fqa
+MAT 24:36	fq
+MAT 25:13	fqa
+MAT 25:16	fqa
+MAT 26:6	fqa	fqa
+MAT 26:17	fqa
+MAT 26:20	fqa
+MAT 26:28	fqa
+MAT 26:50	fqa
+MAT 26:55	fq
+MAT 26:59	fqa
+MAT 26:64	fqa
+MAT 27:16	fqa	fq
+MAT 27:24	fqa	fqa
+MAT 27:35	fqa
+MAT 27:38	fqa
+MAT 27:45	fqa
+MAT 27:48	fqa
+MAT 27:49	fqa
+MAT 28:1	fqa
+MAT 28:6	fqa
+MAT 28:9	fqa
+MAT 28:19	fqa
+MRK 1:1	fq
+MRK 1:2	fqa
+MRK 1:8	fqa
+MRK 1:8	fqa
+MRK 1:10	fqa
+MRK 1:14	fqa
+MRK 1:40	fq
+MRK 1:41	fqa
+MRK 2:16	fqa
+MRK 2:22	fq
+MRK 2:26	fqa
+MRK 3:14	fq
+MRK 3:18	fqa
+MRK 3:19	fqa
+MRK 3:20	fqa
+MRK 3:22	fqa	fqa
+MRK 3:32	fqa
+MRK 4:15	fqa	fqa
+MRK 5:1	fqa	fqa
+MRK 5:13	fqa
+MRK 5:20	fqa
+MRK 5:36	fqa
+MRK 6:3	fq	fqa
+MRK 6:8	fqa
+MRK 6:11	fqa
+MRK 6:14	fqa	fqa
+MRK 6:22	fqa
+MRK 6:48	fqa
+MRK 7:3	fqa
+MRK 7:4	fqa
+MRK 7:8	fqa
+MRK 7:9	fqa
+MRK 7:15	fqa
+MRK 7:19	fqa
+MRK 7:21	fq
+MRK 7:24	fqa
+MRK 7:28	fqa
+MRK 7:31	fqa
+MRK 8:9	fq
+MRK 8:26	fqa
+MRK 9:5	fqa
+MRK 9:18	fqa
+MRK 9:24	fqa
+MRK 9:29	fqa
+MRK 9:43	fqa
+MRK 9:45	fqa
+MRK 9:49	fqa
+MRK 10:7	fq
+MRK 10:21	fqa
+MRK 10:24	fqa
+MRK 10:40	fqa
+MRK 11:9	fq	fqa	fqa
+MRK 11:10	fqa
+MRK 11:11	fq
+MRK 11:19	fqa	fqa
+MRK 11:25	fqa
+MRK 12:12	fqa
+MRK 12:23	fqa
+MRK 12:35	fqa
+MRK 12:40	fqa
+MRK 12:42	fqa
+MRK 13:14	fqa
+MRK 13:14	fqa
+MRK 13:25	fqa
+MRK 13:28	fqa
+MRK 13:29	fqa
+MRK 13:33	fqa
+MRK 14:3	fqa	fqa
+MRK 14:12	fqa
+MRK 14:20	fqa
+MRK 14:24	fqa
+MRK 14:27	fqa
+MRK 14:49	fqa
+MRK 14:55	fqa
+MRK 14:62	fqa
+MRK 14:68	fq
+MRK 14:70	fqa
+MRK 15:1	fqa
+MRK 15:6	fqa
+MRK 15:25	fqa
+MRK 15:27	fqa
+MRK 15:27	fqa
+MRK 15:33	fqa
+MRK 15:36	fqa
+MRK 15:39	fqa
+MRK 15:40	fq	fqa
+MRK 15:47	fqa
+MRK 16:2	fqa
+MRK 16:8	fqa
+MRK 16:9	fqa
+MRK 16:17	fqa
+LUK 1:28	fqa
+LUK 1:28	fqa
+LUK 1:35	fqa
+LUK 1:37	fqa
+LUK 1:78	fqa	fqa
+LUK 1:80	fqa
+LUK 2:1	fqa	fqa
+LUK 2:2	fqa
+LUK 2:27	fqa
+LUK 2:37	fqa
+LUK 2:40	fqa
+LUK 2:49	fqa
+LUK 3:6	fqa
+LUK 3:16	fqa
+LUK 3:16	fqa
+LUK 3:32	fqa
+LUK 3:33	fqa	fqa
+LUK 3:33	fq
+LUK 4:1	fqa
+LUK 4:4	fqa
+LUK 4:18	fqa
+LUK 4:19	fqa
+LUK 4:27	fq
+LUK 4:44	fqa
+LUK 5:1	fqa
+LUK 6:1	fqa
+LUK 6:4	fqa
+LUK 6:42	fqa
+LUK 6:48	fqa
+LUK 7:14	fqa
+LUK 7:22	fq
+LUK 7:23	fqa
+LUK 8:3	fqa
+LUK 8:12	fqa
+LUK 8:26	fqa	fqa
+LUK 8:43	fq
+LUK 8:45	fqa
+LUK 9:1	fqa
+LUK 9:3	fqa
+LUK 9:33	fqa
+LUK 9:35	fqa
+LUK 9:54	fqa
+LUK 9:55	fqa
+LUK 10:1	fqa
+LUK 11:2	fqa
+LUK 11:2	fqa
+LUK 11:4	fqa
+LUK 11:11	fqa
+LUK 11:15	fqa	fqa
+LUK 11:34	fqa
+LUK 11:34	fqa
+LUK 11:51	fqa
+LUK 12:25	fqa
+LUK 12:27	fqa
+LUK 12:31	fqa
+LUK 12:38	fqa
+LUK 12:39	fqa
+LUK 13:7	fq
+LUK 14:5	fqa
+LUK 14:15	fqa
+LUK 15:21	fqa
+LUK 16:6	fqa
+LUK 16:7	fqa
+LUK 16:16	fqa
+LUK 16:22	fqa
+LUK 17:12	fq
+LUK 17:19	fqa
+LUK 17:21	fqa	fqa
+LUK 17:35	fqa
+LUK 18:11	fqa
+LUK 18:24	fqa
+LUK 18:28	fqa	fqa
+LUK 19:44	fq
+LUK 19:45	fq
+LUK 20:1	fq
+LUK 20:30	fqa
+LUK 20:47	fqa
+LUK 22:1	fqa
+LUK 22:20	fqa
+LUK 22:53	fq
+LUK 22:64	fqa
+LUK 22:66	fqa
+LUK 23:16	fqa
+LUK 23:23	fqa
+LUK 23:33	fqa	fqa
+LUK 23:34	fq
+LUK 23:36	fqa
+LUK 23:38	fqa
+LUK 23:42	fqa
+LUK 23:44	fqa
+LUK 23:45	fqa	fqa	fqa
+LUK 23:47	fqa
+LUK 23:54	fqa
+LUK 24:1	fqa
+LUK 24:13	fqa
+LUK 24:42	fqa
+JHN 1:5	fqa
+JHN 1:14	fqa
+JHN 1:14	fqa	fqa
+JHN 1:18	fqa	fqa
+JHN 1:18	fqa
+JHN 1:26	fqa
+JHN 1:34	fqa
+JHN 1:39	fqa
+JHN 2:14	fq
+JHN 3:3	fqa
+JHN 3:7	fq
+JHN 3:13	fqa
+JHN 3:15	fqa
+JHN 3:16	fqa	fqa
+JHN 3:25	fqa
+JHN 3:31	fqa
+JHN 4:1	fqa	fqa
+JHN 4:6	fqa
+JHN 4:35	fqa
+JHN 4:52	fqa
+JHN 5:2	fqa
+JHN 5:2	fqa
+JHN 5:3	fqa
+JHN 5:3	fqa
+JHN 6:14	fqa
+JHN 6:19	fqa
+JHN 6:69	fqa
+JHN 7:2	fqa	fqa	fqa
+JHN 7:8	fqa
+JHN 7:14	fq
+JHN 7:35	fqa	fqa
+JHN 7:39	fqa	fqa
+JHN 8:2	fq
+JHN 8:9	fqa
+JHN 8:10	fqa
+JHN 8:10	fqa
+JHN 8:16	fqa	fqa
+JHN 8:54	fqa
+JHN 8:58	fqa
+JHN 8:59	fqa
+JHN 9:4	fqa
+JHN 9:35	fqa
+JHN 9:39	fqa	fqa
+JHN 10:8	fq
+JHN 10:23	fq
+JHN 11:2	fqa
+JHN 11:16	fq
+JHN 11:18	fqa
+JHN 11:33	fqa
+JHN 11:47	fqa
+JHN 11:56	fq
+JHN 12:13	fq	fqa	fqa
+JHN 13:1	fqa
+JHN 13:23	fqa
+JHN 13:32	fq
+JHN 14:1	fqa
+JHN 14:2	fqa
+JHN 14:4	fqa
+JHN 14:14	fq
+JHN 14:15	fqa
+JHN 14:16	fqa	fqa	fqa
+JHN 14:17	fqa
+JHN 15:26	fqa	fqa	fqa
+JHN 16:7	fqa	fqa	fqa
+JHN 16:16	fqa
+JHN 16:27	fqa
+JHN 17:2	fqa
+JHN 17:11	fqa	fqa
+JHN 17:15	fqa
+JHN 19:13	fqa
+JHN 19:14	fqa
+JHN 19:29	fqa
+JHN 19:39	fqa
+JHN 20:1	fqa
+JHN 20:16	fqa
+JHN 20:24	fq
+JHN 20:31	fqa
+JHN 21:1	fqa
+JHN 21:2	fq
+JHN 21:8	fqa
+JHN 21:18	fqa
+JHN 21:20	fqa
+ACT 1:4	fqa
+ACT 1:5	fqa
+ACT 1:12	fq
+ACT 2:1	fqa	fqa
+ACT 2:5	fqa
+ACT 2:9	fqa
+ACT 2:15	fqa
+ACT 2:25	fqa
+ACT 2:30	fqa	fqa
+ACT 2:41	fqa
+ACT 2:43	fqa
+ACT 2:46	fq
+ACT 3:1	fqa
+ACT 3:2	fq
+ACT 3:6	fqa
+ACT 3:11	fqa
+ACT 3:13	fqa
+ACT 4:15	fqa
+ACT 4:25	fqa
+ACT 4:26	fqa	fqa
+ACT 5:20	fq
+ACT 5:21	fqa
+ACT 5:24	fqa
+ACT 5:33	fqa	fqa
+ACT 6:1	fqa
+ACT 6:5	fqa
+ACT 6:6	fqa
+ACT 6:9	fqa
+ACT 6:12	fqa
+ACT 7:13	fqa	fqa
+ACT 7:16	fqa
+ACT 7:20	fqa	fqa
+ACT 7:35	fq
+ACT 7:38	fqa
+ACT 7:46	fqa
+ACT 7:54	fqa
+ACT 8:36	fqa
+ACT 9:5	fqa
+ACT 9:8	fqa	fqa
+ACT 9:25	fqa
+ACT 9:29	fqa
+ACT 9:36	fq	fq
+ACT 10:3	fqa
+ACT 10:6	fqa
+ACT 10:9	fqa
+ACT 10:14	fqa
+ACT 10:19	fqa	fqa
+ACT 10:21	fqa
+ACT 10:30	fqa
+ACT 11:2	fqa
+ACT 11:8	fqa
+ACT 11:16	fqa
+ACT 11:20	fqa
+ACT 11:28	fqa
+ACT 12:1	fqa
+ACT 12:1	fqa
+ACT 12:3	fqa
+ACT 12:20	fqa
+ACT 12:25	fqa	fqa
+ACT 13:33	fqa
+ACT 13:34	fqa
+ACT 15:14	fq
+ACT 15:18	fqa
+ACT 15:24	fqa
+ACT 15:33	fqa
+ACT 16:6	fqa
+ACT 16:12	fqa
+ACT 16:16	fqa
+ACT 17:11	fqa
+ACT 17:19	fqa	fqa
+ACT 17:22	fqa
+ACT 17:26	fqa	fqa
+ACT 17:34	fqa
+ACT 18:7	fqa	fqa
+ACT 18:17	fqa	fqa
+ACT 18:21	fqa
+ACT 18:22	fqa
+ACT 18:25	fqa
+ACT 19:1	fqa
+ACT 19:10	fqa
+ACT 19:19	fqa
+ACT 19:21	fqa
+ACT 19:23	fqa
+ACT 19:24	fqa
+ACT 19:31	fqa
+ACT 20:4	fqa
+ACT 20:6	fqa
+ACT 20:15	fqa
+ACT 20:16	fqa	fqa
+ACT 20:21	fqa
+ACT 20:28	fqa	fqa
+ACT 20:28	fqa
+ACT 21:27	fqa
+ACT 21:31	fqa
+ACT 21:40	fqa	fqa
+ACT 22:2	fqa	fqa
+ACT 22:18	fqa
+ACT 22:20	fqa
+ACT 22:30	fqa
+ACT 23:1	fqa
+ACT 23:16	fqa
+ACT 23:23	fqa
+ACT 24:1	fqa
+ACT 24:6	fqa
+ACT 24:18	fqa
+ACT 24:20	fqa
+ACT 26:14	fqa	fqa
+ACT 26:21	fq
+ACT 27:1	fqa
+ACT 27:2	fqa
+ACT 27:16	fqa
+ACT 27:17	fqa
+ACT 27:28	fq
+ACT 27:28	fq
+ACT 27:37	fqa
+ACT 28:16	fqa
+ACT 28:28	fqa
+ROM 1:9	fqa
+ROM 1:13	fq
+ROM 1:14	fqa
+ROM 1:17	fqa
+ROM 1:25	fqa
+ROM 2:16	fqa
+ROM 3:2	fqa
+ROM 3:4	fqa
+ROM 3:25	fqa
+ROM 4:10	fqa
+ROM 5:1	fqa
+ROM 5:2	fqa
+ROM 7:23	fqa
+ROM 8:1	fqa
+ROM 8:2	fqa
+ROM 8:3	fqa
+ROM 8:8	fqa
+ROM 8:10	fqa
+ROM 8:11	fqa
+ROM 9:5	fqa
+ROM 10:15	fqa	fqa
+ROM 11:6	fqa
+ROM 11:11	fqa	fqa
+ROM 11:21	fqa	fqa
+ROM 11:31	fqa	fqa
+ROM 12:1	fqa
+ROM 13:14	fqa
+ROM 14:1	fqa
+ROM 14:6	fqa
+ROM 14:11	fqa	fqa
+ROM 14:21	fqa
+ROM 14:22	fqa
+ROM 15:19	fqa	fqa
+ROM 15:29	fqa
+ROM 15:33	fq
+ROM 16:1	fqa
+ROM 16:3	fq	fqa
+ROM 16:5	fqa
+ROM 16:7	fqa
+ROM 16:20	fq
+ROM 16:23	fqa
+ROM 16:26	fqa
+1CO 1:12	fqa
+1CO 1:23	fqa
+1CO 1:25	fqa
+1CO 2:7	fqa
+1CO 2:13	fqa
+1CO 3:8	fqa
+1CO 3:16	fqa
+1CO 3:22	fqa
+1CO 4:17	fqa
+1CO 5:4	fqa
+1CO 5:5	fqa
+1CO 5:13	fqa
+1CO 6:8	fqa
+1CO 6:20	fqa
+1CO 7:1	fqa
+1CO 7:15	fqa
+1CO 7:26	fqa
+1CO 7:36	fqa
+1CO 7:37	fqa
+1CO 7:39	fqa
+1CO 9:5	fqa
+1CO 9:5	fqa
+1CO 9:6	fqa
+1CO 10:7	fqa
+1CO 10:9	fqa
+1CO 10:10	fqa
+1CO 10:23	fqa
+1CO 10:28	fqa
+1CO 11:10	fqa
+1CO 11:21	fqa
+1CO 11:24	fqa
+1CO 11:27	fqa
+1CO 11:29	fqa
+1CO 13:3	fqa
+1CO 14:11	fqa
+1CO 14:16	fqa
+1CO 14:33	fqa	fq
+1CO 14:38	fqa
+1CO 15:5	fqa
+1CO 15:53	fqa
+1CO 15:54	fq
+1CO 15:55	fqa
+1CO 16:8	fqa	fqa
+1CO 16:19	fqa
+1CO 16:19	fq	fqa
+1CO 16:24	fq
+2CO 1:8	fqa
+2CO 1:12	fqa
+2CO 1:14	fqa
+2CO 1:19	fqa
+2CO 2:16	fqa
+2CO 4:1	fqa
+2CO 4:6	fqa
+2CO 4:14	fqa
+2CO 5:17	fqa
+2CO 5:21	fqa
+2CO 6:1	fqa
+2CO 6:15	fqa
+2CO 8:7	fqa
+2CO 8:23	fqa
+2CO 11:31	fqa
+2CO 12:7	fqa
+2CO 12:18	fqa
+2CO 13:11	fqa
+GAL 1:3	fqa
+GAL 1:11	fqa
+GAL 1:18	fqa
+GAL 2:6	fqa
+GAL 2:9	fqa
+GAL 3:14	fqa
+GAL 4:3	fqa
+GAL 4:28	fqa
+GAL 6:14	fqa
+EPH 1:1	fq
+EPH 1:18	fqa
+EPH 2:10	fqa
+EPH 3:9	fqa	fqa
+EPH 3:12	fqa
+EPH 3:14	fqa
+EPH 4:8	fqa
+EPH 4:9	fqa
+EPH 4:26	fqa
+EPH 5:2	fqa
+EPH 5:13	fq
+EPH 5:21	fqa
+EPH 5:30	fqa
+PHP 1:13	fqa
+PHP 1:14	fqa
+PHP 1:18	fqa
+PHP 1:27	fqa
+PHP 2:6	fqa
+PHP 3:9	fqa
+PHP 4:3	fqa
+PHP 4:13	fqa	fqa
+COL 1:2	fqa
+COL 1:7	fqa
+COL 1:12	fqa
+COL 1:14	fqa
+COL 1:23	fqa
+COL 1:28	fqa
+COL 2:2	fqa
+COL 2:11	fqa
+COL 2:17	fqa
+COL 3:4	fqa
+COL 3:6	fq
+1TH 1:1	fqa
+1TH 1:1	fqa
+1TH 2:6	fqa
+1TH 2:7	fqa
+1TH 2:16	fqa
+1TH 3:2	fqa	fqa
+1TH 4:4	fqa
+1TH 4:6	fqa
+1TH 4:13	fqa
+1TH 5:23	fqa
+2TH 1:1	fqa
+2TH 1:2	fqa
+2TH 1:12	fqa
+2TH 2:13	fqa
+2TH 3:3	fqa
+2TH 3:6	fqa
+1TI 1:4	fqa
+1TI 1:10	fqa
+1TI 2:8	fqa
+1TI 2:11	fqa
+1TI 2:12	fqa
+1TI 3:2	fqa
+1TI 3:11	fqa
+1TI 3:16	fqa	fqa
+1TI 3:16	fqa
+1TI 4:10	fqa
+1TI 6:5	fqa
+1TI 6:7	fqa
+2TI 1:7	fqa	fqa
+2TI 1:9	fqa
+2TI 1:12	fqa
+2TI 1:13	fqa
+2TI 1:14	fqa
+2TI 1:15	fqa
+2TI 2:14	fqa
+2TI 2:21	fqa
+2TI 4:19	fq	fqa
+TIT 1:2	fqa
+TIT 1:6	fqa
+TIT 3:5	fqa
+PHM 2	fq
+PHM 10	fq
+HEB 1:2	fqa
+HEB 1:2	fqa	fqa
+HEB 1:5	fqa
+HEB 1:12	fq
+HEB 1:14	fqa
+HEB 2:7	fqa
+HEB 2:7	fqa
+HEB 2:10	fqa	fqa
+HEB 2:17	fqa
+HEB 3:2	fqa	fqa
+HEB 3:6	fqa
+HEB 4:2	fqa
+HEB 5:5	fqa
+HEB 5:12	fqa
+HEB 6:1	fqa
+HEB 6:2	fqa
+HEB 7:25	fqa
+HEB 8:13	fqa	fq	fqa	fqa
+HEB 9:1	fq
+HEB 9:2	fqa
+HEB 9:3	fqa
+HEB 9:5	fqa
+HEB 9:8	fqa
+HEB 9:11	fqa
+HEB 9:14	fqa
+HEB 9:16	fqa
+HEB 9:19	fq
+HEB 10:19	fqa
+HEB 10:20	fqa
+HEB 10:32	fqa
+HEB 10:38	fqa
+HEB 11:5	fqa	fqa
+HEB 11:17	fqa	fqa
+HEB 11:29	fqa
+HEB 11:37	fqa
+HEB 12:2	fqa	fqa
+HEB 12:6	fqa
+HEB 12:11	fqa
+HEB 12:18	fqa
+HEB 13:21	fqa
+HEB 13:21	fqa
+JAS 1:1	fqa	fqa
+JAS 1:17	fqa
+JAS 1:18	fqa
+JAS 2:2	fqa
+JAS 2:7	fqa	fqa
+JAS 2:17	fqa
+JAS 2:19	fqa
+JAS 2:20	fqa
+JAS 2:25	fqa
+JAS 3:11	fqa
+JAS 3:12	fqa
+JAS 3:18	fqa
+JAS 4:1	fqa
+JAS 4:4	fqa
+JAS 4:5	fqa
+JAS 5:7	fqa
+1PE 1:1	fqa
+1PE 1:3	fqa	fqa
+1PE 1:13	fqa
+1PE 1:22	fqa
+1PE 2:17	fq
+1PE 2:18	fqa
+1PE 3:14	fqa
+1PE 3:15	fqa
+1PE 3:18	fqa
+1PE 3:19	fqa
+1PE 3:21	fqa
+1PE 4:1	fqa
+1PE 4:6	fqa
+1PE 4:14	fqa
+1PE 4:16	fqa	fqa
+1PE 5:1	fqa
+1PE 5:2	fq
+1PE 5:2	fqa
+1PE 5:10	fqa
+1PE 5:12	fqa
+1PE 5:13	fqa
+2PE 1:3	fqa
+2PE 1:13	fqa
+2PE 2:4	fqa
+2PE 2:6	fq
+2PE 2:6	fqa
+2PE 2:10	fqa
+2PE 2:15	fqa
+2PE 2:20	fqa
+2PE 3:6	fqa
+2PE 3:10	fqa
+2PE 3:10	fqa	fqa	fqa	fqa
+2PE 3:14	fqa
+2PE 3:16	fqa
+2PE 3:16	fqa
+2PE 3:18	fq
+1JN 1:4	fqa
+1JN 1:7	fq
+1JN 2:2	fqa
+1JN 2:13	fqa
+1JN 2:20	fqa
+1JN 2:28	fqa
+1JN 3:2	fqa	fqa
+1JN 3:3	fqa
+1JN 3:4	fqa
+1JN 3:7	fqa
+1JN 3:7	fqa
+1JN 4:3	fqa
+1JN 4:6	fqa
+1JN 4:9	fqa	fqa
+1JN 4:10	fqa
+1JN 4:19	fqa
+1JN 5:1	fqa
+1JN 5:7	fqa
+1JN 5:13	fqa
+1JN 5:18	fqa	fqa
+1JN 5:18	fqa
+2JN 8	fqa
+2JN 12	fqa
+3JN 9	fqa
+3JN 14	fqa	fq
+JUD 5	fqa
+JUD 12	fqa
+REV 1:1	fqa	fqa
+REV 1:4	fqa
+REV 1:4	fqa
+REV 1:8	fqa
+REV 1:11	fqa
+REV 1:13	fqa
+REV 3:1	fqa
+REV 3:5	fqa
+REV 3:11	fqa	fqa
+REV 3:14	fqa	fqa
+REV 4:5	fqa
+REV 5:6	fqa
+REV 5:10	fqa	fqa
+REV 5:14	fqa
+REV 6:6	fqa
+REV 6:17	fqa
+REV 8:11	fqa
+REV 9:11	fq	fqa
+REV 9:11	fq	fqa
+REV 11:17	fqa
+REV 12:17	fqa	fqa
+REV 13:8	fqa
+REV 13:10	fqa
+REV 13:18	fqa
+REV 14:5	fqa
+REV 14:14	fqa
+REV 14:20	fq
+REV 15:3	fqa	fqa
+REV 16:21	fqa
+REV 18:2	fqa
+REV 18:3	fqa
+REV 18:9	fqa
+REV 18:14	fqa
+REV 19:1	fq	fqa
+REV 19:6	fqa
+REV 19:13	fqa
+REV 20:9	fqa
+REV 21:3	fq
+REV 21:16	fq
+REV 21:17	fq
+REV 21:24	fqa
+REV 22:6	fqa	fqa
+REV 22:7	fqa
+REV 22:14	fqa
+REV 22:21	fqa	fqa
+REV 22:21	fq
+REV 22:21	fq
