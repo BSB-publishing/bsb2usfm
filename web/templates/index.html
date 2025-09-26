@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BSB to USFM Converter</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="{{ url_for('static', filename='style.css') }}"
+            rel="stylesheet"
+        />
+        <style>
+            .book-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+                gap: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow">
+                        <div class="card-header bg-primary text-white">
+                            <h1 class="h3 mb-0">
+                                <i class="fas fa-book"></i>
+                                BSB to USFM Converter
+                            </h1>
+                            <p class="mb-0 mt-2">
+                                Convert Berean Study Bible tables to USFM format
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            {% with messages = get_flashed_messages() %} {% if
+                            messages %} {% for message in messages %}
+                            <div
+                                class="alert alert-warning alert-dismissible fade show"
+                                role="alert"
+                            >
+                                {{ message }}
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="alert"
+                                ></button>
+                            </div>
+                            {% endfor %} {% endif %} {% endwith %}
+
+                            <form
+                                action="{{ url_for('convert_files') }}"
+                                method="post"
+                                enctype="multipart/form-data"
+                                id="convertForm"
+                            >
+                                <!-- BSB Tables File Info -->
+                                <div class="form-section">
+                                    <h5 class="text-primary mb-3">
+                                        <i class="fas fa-database"></i>
+                                        BSB Tables Data Source
+                                    </h5>
+
+                                    <div
+                                        class="alert alert-info d-flex align-items-center"
+                                    >
+                                        <i
+                                            class="fas fa-info-circle fa-2x me-3"
+                                        ></i>
+                                        <div>
+                                            <h6 class="alert-heading mb-1">
+                                                Using Fixed BSB Tables File
+                                            </h6>
+                                            <p class="mb-0">
+                                                The converter will use the
+                                                complete Berean Study Bible
+                                                tables file located at:
+                                                <code>data/bsb_tables.csv</code>
+                                            </p>
+                                            <small class="text-muted">
+                                                This file contains the full BSB
+                                                text with Hebrew/Greek parsing,
+                                                cross-references, and footnotes.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Optional Files -->
+                                <div class="form-section optional-file">
+                                    <h5 class="text-secondary mb-3">
+                                        <i class="fas fa-file-alt"></i>
+                                        Optional Customization Files
+                                    </h5>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label
+                                                for="fnotes"
+                                                class="form-label"
+                                                >Footnote Styling File</label
+                                            >
+                                            <input
+                                                type="file"
+                                                class="form-control"
+                                                id="fnotes"
+                                                name="fnotes"
+                                                accept=".tsv,.csv"
+                                            />
+                                            <small class="text-muted"
+                                                >TSV file with footnote styling
+                                                rules (optional)</small
+                                            >
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label
+                                                for="names"
+                                                class="form-label"
+                                                >Book Names File</label
+                                            >
+                                            <input
+                                                type="file"
+                                                class="form-control"
+                                                id="names"
+                                                name="names"
+                                                accept=".xml"
+                                            />
+                                            <small class="text-muted"
+                                                >XML file with custom book names
+                                                (optional)</small
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Configuration Options -->
+                                <div class="form-section">
+                                    <h5 class="text-primary mb-3">
+                                        <i class="fas fa-cogs"></i>
+                                        Configuration
+                                    </h5>
+
+                                    <div class="mb-3">
+                                        <label
+                                            for="output_template"
+                                            class="form-label"
+                                            >Output File Template</label
+                                        >
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="output_template"
+                                            name="output_template"
+                                            value="output_%.usfm"
+                                            placeholder="output_%.usfm"
+                                        />
+                                        <small class="text-muted"
+                                            >Use % as placeholder for book code
+                                            (e.g., output_%.usfm →
+                                            output_GEN.usfm)</small
+                                        >
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label"
+                                            >Select Books to Convert</label
+                                        >
+                                        <div class="mb-2">
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary"
+                                                id="selectAll"
+                                            >
+                                                <i
+                                                    class="fas fa-check-square"
+                                                ></i>
+                                                Select All
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-secondary"
+                                                id="selectNone"
+                                            >
+                                                <i class="fas fa-square"></i>
+                                                Select None
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-info"
+                                                id="selectOT"
+                                            >
+                                                <i class="fas fa-book"></i> Old
+                                                Testament
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-info"
+                                                id="selectNT"
+                                            >
+                                                <i class="fas fa-cross"></i> New
+                                                Testament
+                                            </button>
+                                        </div>
+                                        <div class="book-grid" id="bookGrid">
+                                            {% for book in book_codes %}
+                                            <div class="book-item">
+                                                <input
+                                                    type="checkbox"
+                                                    id="book_{{ book }}"
+                                                    name="books"
+                                                    value="{{ book }}"
+                                                    class="book-checkbox"
+                                                />
+                                                <label
+                                                    for="book_{{ book }}"
+                                                    class="form-label mb-0"
+                                                    >{{ book }}</label
+                                                >
+                                            </div>
+                                            {% endfor %}
+                                        </div>
+                                        <small class="text-muted mt-2 d-block"
+                                            >Leave unselected to convert all
+                                            books</small
+                                        >
+                                    </div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="d-grid">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary btn-lg"
+                                        id="convertBtn"
+                                    >
+                                        <i class="fas fa-play"></i>
+                                        Convert to USFM
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Help Section -->
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <i class="fas fa-question-circle"></i>
+                                Help & Usage Instructions
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h6>Data Source:</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i
+                                                class="fas fa-database text-primary"
+                                            ></i>
+                                            <strong>BSB Tables:</strong>
+                                            Complete Berean Study Bible data
+                                            (automatically loaded)
+                                        </li>
+                                    </ul>
+
+                                    <h6>Optional Files:</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i
+                                                class="fas fa-file-alt text-secondary"
+                                            ></i>
+                                            <strong>Footnotes:</strong> TSV file
+                                            for custom footnote styling
+                                        </li>
+                                        <li>
+                                            <i
+                                                class="fas fa-file-code text-secondary"
+                                            ></i>
+                                            <strong>Book Names:</strong> XML
+                                            file for custom book names
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>Book Code Examples:</h6>
+                                    <ul class="list-unstyled">
+                                        <li><strong>GEN</strong> - Genesis</li>
+                                        <li><strong>PSA</strong> - Psalms</li>
+                                        <li><strong>MAT</strong> - Matthew</li>
+                                        <li>
+                                            <strong>REV</strong> - Revelation
+                                        </li>
+                                    </ul>
+
+                                    <h6>Output:</h6>
+                                    <p class="mb-0">
+                                        The converter will generate USFM files
+                                        for each selected book from the complete
+                                        BSB data, packaged in a downloadable ZIP
+                                        file.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            // Book selection functionality
+            const otBooks = [
+                "GEN",
+                "EXO",
+                "LEV",
+                "NUM",
+                "DEU",
+                "JOS",
+                "JDG",
+                "RUT",
+                "1SA",
+                "2SA",
+                "1KI",
+                "2KI",
+                "1CH",
+                "2CH",
+                "EZR",
+                "NEH",
+                "EST",
+                "JOB",
+                "PSA",
+                "PRO",
+                "ECC",
+                "SNG",
+                "ISA",
+                "JER",
+                "LAM",
+                "EZK",
+                "DAN",
+                "HOS",
+                "JOL",
+                "AMO",
+                "OBA",
+                "JON",
+                "MIC",
+                "NAM",
+                "HAB",
+                "ZEP",
+                "HAG",
+                "ZEC",
+                "MAL",
+            ];
+
+            const ntBooks = [
+                "MAT",
+                "MRK",
+                "LUK",
+                "JHN",
+                "ACT",
+                "ROM",
+                "1CO",
+                "2CO",
+                "GAL",
+                "EPH",
+                "PHP",
+                "COL",
+                "1TH",
+                "2TH",
+                "1TI",
+                "2TI",
+                "TIT",
+                "PHM",
+                "HEB",
+                "JAS",
+                "1PE",
+                "2PE",
+                "1JN",
+                "2JN",
+                "3JN",
+                "JUD",
+                "REV",
+            ];
+
+            document
+                .getElementById("selectAll")
+                .addEventListener("click", function () {
+                    document
+                        .querySelectorAll(".book-checkbox")
+                        .forEach((cb) => (cb.checked = true));
+                });
+
+            document
+                .getElementById("selectNone")
+                .addEventListener("click", function () {
+                    document
+                        .querySelectorAll(".book-checkbox")
+                        .forEach((cb) => (cb.checked = false));
+                });
+
+            document
+                .getElementById("selectOT")
+                .addEventListener("click", function () {
+                    document
+                        .querySelectorAll(".book-checkbox")
+                        .forEach((cb) => {
+                            cb.checked = otBooks.includes(cb.value);
+                        });
+                });
+
+            document
+                .getElementById("selectNT")
+                .addEventListener("click", function () {
+                    document
+                        .querySelectorAll(".book-checkbox")
+                        .forEach((cb) => {
+                            cb.checked = ntBooks.includes(cb.value);
+                        });
+                });
+
+            // No file upload handling needed since we use a fixed BSB file
+
+            // Form submission handling
+            document
+                .getElementById("convertForm")
+                .addEventListener("submit", function () {
+                    const convertBtn = document.getElementById("convertBtn");
+                    convertBtn.innerHTML =
+                        '<i class="fas fa-spinner fa-spin"></i> Converting...';
+                    convertBtn.disabled = true;
+                });
+        </script>
+    </body>
+</html>
