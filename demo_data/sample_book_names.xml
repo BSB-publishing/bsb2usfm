@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+    <!-- Old Testament Books -->
+    <book code="GEN" long="Genesis" short="Genesis" abbr="Gen"/>
+    <book code="EXO" long="Exodus" short="Exodus" abbr="Exo"/>
+    <book code="LEV" long="Leviticus" short="Leviticus" abbr="Lev"/>
+    <book code="NUM" long="Numbers" short="Numbers" abbr="Num"/>
+    <book code="DEU" long="Deuteronomy" short="Deuteronomy" abbr="Deu"/>
+
+    <!-- New Testament Books -->
+    <book code="MAT" long="The Gospel According to Matthew" short="Matthew" abbr="Mat"/>
+    <book code="MRK" long="The Gospel According to Mark" short="Mark" abbr="Mrk"/>
+    <book code="LUK" long="The Gospel According to Luke" short="Luke" abbr="Luk"/>
+    <book code="JHN" long="The Gospel According to John" short="John" abbr="Jhn"/>
+    <book code="ACT" long="The Acts of the Apostles" short="Acts" abbr="Act"/>
+    <book code="ROM" long="The Letter to the Romans" short="Romans" abbr="Rom"/>
+    <book code="1CO" long="The First Letter to the Corinthians" short="1 Corinthians" abbr="1Co"/>
+    <book code="2CO" long="The Second Letter to the Corinthians" short="2 Corinthians" abbr="2Co"/>
+    <book code="GAL" long="The Letter to the Galatians" short="Galatians" abbr="Gal"/>
+    <book code="EPH" long="The Letter to the Ephesians" short="Ephesians" abbr="Eph"/>
+    <book code="PHP" long="The Letter to the Philippians" short="Philippians" abbr="Php"/>
+    <book code="COL" long="The Letter to the Colossians" short="Colossians" abbr="Col"/>
+    <book code="1TH" long="The First Letter to the Thessalonians" short="1 Thessalonians" abbr="1Th"/>
+    <book code="2TH" long="The Second Letter to the Thessalonians" short="2 Thessalonians" abbr="2Th"/>
+    <book code="1TI" long="The First Letter to Timothy" short="1 Timothy" abbr="1Ti"/>
+    <book code="2TI" long="The Second Letter to Timothy" short="2 Timothy" abbr="2Ti"/>
+    <book code="TIT" long="The Letter to Titus" short="Titus" abbr="Tit"/>
+    <book code="PHM" long="The Letter to Philemon" short="Philemon" abbr="Phm"/>
+    <book code="HEB" long="The Letter to the Hebrews" short="Hebrews" abbr="Heb"/>
+    <book code="JAS" long="The Letter of James" short="James" abbr="Jas"/>
+    <book code="1PE" long="The First Letter of Peter" short="1 Peter" abbr="1Pe"/>
+    <book code="2PE" long="The Second Letter of Peter" short="2 Peter" abbr="2Pe"/>
+    <book code="1JN" long="The First Letter of John" short="1 John" abbr="1Jn"/>
+    <book code="2JN" long="The Second Letter of John" short="2 John" abbr="2Jn"/>
+    <book code="3JN" long="The Third Letter of John" short="3 John" abbr="3Jn"/>
+    <book code="JUD" long="The Letter of Jude" short="Jude" abbr="Jud"/>
+    <book code="REV" long="The Revelation to John" short="Revelation" abbr="Rev"/>
+</books>
