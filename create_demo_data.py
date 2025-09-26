@@ -15,36 +15,6 @@ def create_demo_directories():
     demo_dir.mkdir(exist_ok=True)
     return demo_dir
 
-def create_sample_bsb_tables(demo_dir):
-    """Create a sample BSB tables CSV file with Genesis 1:1-5"""
-
-    sample_data = [
-        ["Heb Sort", "Greek Sort", "BSB Sort", "Verse", "Language", "WLC / Nestle Base TR RP WH NE NA SBL", "WLC / Nestle Base {TR} ⧼RP⧽ (WH) 〈NE〉 [NA] ‹SBL› [[ECM]]", "Translit", "Parsing", "Parsing", "Str Heb", "Str Grk", "VerseId", "Hdg", "Crossref", "Par", "Space", "begQ", " BSB version ", "pnc", "endQ", "footnotes", "End text"],
-        [1, 0, 1, 1, "Hebrew", "בְּרֵאשִׁ֖ית", "בְּרֵאשִׁ֖ית", "bə·rê·šîṯ", "Prep-b | N-fs", "Preposition-b | Noun - feminine singular", 7225, "", "Genesis 1:1", "<p class=|hdg|>The Creation</p>", "<br /><span class=|cross|>(John 1:1–5; Hebrews 11:1–3)</span>", "<p class=|reg|>", "", "", " In the beginning God created the heavens and the earth. ", "", "", "", ""],
-        [1, 0, 1, 2, "Hebrew", "הָאָ֙רֶץ֙", "הָאָ֙רֶץ֙", "hā·'ā·reṣ", "Art | N-fs", "Article | Noun - feminine singular", 776, "", "Genesis 1:2", "", "", "", "", "", " Now the earth was formless and void, and darkness was over the surface of the deep. And the Spirit of God was hovering over the surface of the waters. ", "", "", "", ""],
-        [1, 0, 1, 3, "Hebrew", "וַיֹּ֥אמֶר", "וַיֹּ֥אמֶר", "way·yō·mer", "Conj-w | V-Qal-ConsecImperf-3ms", "Consecutive waw | Verb - Qal - Consecutive imperfect - third person masculine singular", 559, "", "Genesis 1:3", "", "", "", "", "", " And God said, <span class=|red|>\"Let there be light,\"</span> and there was light. ", "", "", "", ""],
-        [1, 0, 1, 4, "Hebrew", "וַיַּ֧רְא", "וַיַּ֧רְא", "way·yar", "Conj-w | V-Qal-ConsecImperf-3ms", "Consecutive waw | Verb - Qal - Consecutive imperfect - third person masculine singular", 7200, "", "Genesis 1:4", "", "", "", "", "", " And God saw that the light was good, and He separated the light from the darkness. ", "", "", "", ""],
-        [1, 0, 1, 5, "Hebrew", "וַיִּקְרָ֨א", "וַיִּקְרָ֨א", "way·yiq·rā", "Conj-w | V-Qal-ConsecImperf-3ms", "Consecutive waw | Verb - Qal - Consecutive imperfect - third person masculine singular", 7121, "", "Genesis 1:5", "", "", "", "", "", " God called the light <span class=|red|>\"day,\"</span> and the darkness He called <span class=|red|>\"night.\"</span> And there was evening, and there was morning—the first day. ", "", "", "Hebrew <i>yom</i> can mean day, time, or year.", ""],
-        ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
-        [1, 0, 1, 14, "Hebrew", "וַיֹּ֤אמֶר", "וַיֹּ֤אמֶר", "way·yō·mer", "Conj-w | V-Qal-ConsecImperf-3ms", "Consecutive waw | Verb - Qal - Consecutive imperfect - third person masculine singular", 559, "", "Exodus 3:14", "", "", "", "", "", " God said to Moses, <span class=|red|>\"I AM WHO I AM. This is what you are to say to the Israelites: 'I AM has sent me to you.'\"</span> ", "", "", "Hebrew <i>YHWH</i>, the sacred name of God", ""],
-        ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
-        [1, 0, 1, 1, "Greek", "Βίβλος", "Βίβλος", "Biblos", "N-NFS", "Noun - Nominative Feminine Singular", "", 976, "Matthew 1:1", "<p class=|hdg|>The Genealogy of Jesus Christ</p>", "", "", "", "", " This is the record of the genealogy of Jesus Christ, the son of David, the son of Abraham: ", "", "", "", ""],
-        [1, 0, 1, 2, "Greek", "Ἀβραὰμ", "Ἀβραὰμ", "Abraam", "N-PRI", "Noun - Proper - Indeclinable", "", 11, "Matthew 1:2", "", "", "", "", "", " Abraham was the father of Isaac, Isaac the father of Jacob, and Jacob the father of Judah and his brothers. ", "", "", "", ""],
-        ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
-        [1, 0, 1, 16, "Greek", "οὕτως", "οὕτως", "houtōs", "Adv", "Adverb", "", 3779, "John 3:16", "", "", "", "", "", " <span class=|red|>\"For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.\"</span> ", "", "", "Greek <i>monogenes</i> can mean one and only or unique", ""],
-        ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
-        [1, 0, 1, 20, "Greek", "λέγει", "λέγει", "legei", "V-PIA-3S", "Verb - Present Indicative Active - 3rd Person Singular", "", 3004, "Revelation 22:20", "", "", "", "", "", " He who testifies to these things says, <span class=|red|>\"Yes, I am coming soon.\"</span> Amen. Come, Lord Jesus! ", "", "", "", ""],
-        [1, 0, 1, 21, "Greek", "ἡ", "ἡ", "hē", "T-NSF", "Article - Nominative Singular Feminine", "", 3588, "Revelation 22:21", "", "", "", "", "", " The grace of the Lord Jesus be with all the saints. Amen. ", "", "", "", ""]
-    ]
-
-    file_path = demo_dir / "sample_bsb_tables.tsv"
-    with open(file_path, 'w', newline='', encoding='utf-8') as tsvfile:
-        writer = csv.writer(tsvfile, delimiter='\t')
-        writer.writerows(sample_data)
-
-    print(f"✓ Created sample BSB tables: {file_path}")
-    return file_path
-
 def create_footnote_styling(demo_dir):
     """Create a sample footnote styling TSV file"""
 
@@ -155,17 +125,17 @@ Custom book names with:
 
 ### Command Line
 ```bash
-# Convert all sample books
-python3 bsb2usfm.py demo_data/{bsb_file.name} -o demo_output_%.usfm
+# Convert all books
+python3 bsb2usfm.py /data/bsb_tables.csv -o demo_output_%.usfm
 
 # With footnotes and custom names
-python3 bsb2usfm.py demo_data/{bsb_file.name} \\
+python3 bsb2usfm.py /data/bsb_tables.csv \\
   -o demo_output_%.usfm \\
   -f demo_data/{footnote_file.name} \\
   -n demo_data/{names_file.name}
 
 # Convert specific books only
-python3 bsb2usfm.py demo_data/{bsb_file.name} \\
+python3 bsb2usfm.py /data/bsb_tables.csv \\
   -o demo_output_%.usfm \\
   -b GEN -b MAT -b JHN -b REV
 ```
@@ -173,7 +143,6 @@ python3 bsb2usfm.py demo_data/{bsb_file.name} \\
 ### Web Interface
 1. Start the web server: `./run_web.py`
 2. Visit: http://localhost:5000
-3. Upload `{bsb_file.name}` as the main file
 4. Optionally upload `{footnote_file.name}` and `{names_file.name}`
 5. Select books or leave empty for all
 6. Click "Convert to USFM"
@@ -248,10 +217,9 @@ def main():
     print()
 
     # Create sample files
-    bsb_file = create_sample_bsb_tables(demo_dir)
     footnote_file = create_footnote_styling(demo_dir)
     names_file = create_book_names(demo_dir)
-    readme_file = create_readme(demo_dir, bsb_file, footnote_file, names_file)
+    readme_file = create_readme(demo_dir, footnote_file, names_file)
 
     print()
     print("=" * 50)
@@ -261,10 +229,10 @@ def main():
     print("Quick Test Commands:")
     print()
     print("  # Command line conversion:")
-    print(f"  python3 bsb2usfm.py {bsb_file} -o demo_%.usfm")
+    print(f"  python3 bsb2usfm.py /data/bsb_tables.csv -o demo_%.usfm")
     print()
     print("  # With all optional files:")
-    print(f"  python3 bsb2usfm.py {bsb_file} \\")
+    print(f"  python3 bsb2usfm.py /data/bsb_tables.csv \\")
     print(f"    -o demo_%.usfm \\")
     print(f"    -f {footnote_file} \\")
     print(f"    -n {names_file}")
@@ -274,7 +242,7 @@ def main():
     print("  # Then upload files at http://localhost:5000")
     print()
     print("Files created:")
-    for file_path in [bsb_file, footnote_file, names_file, readme_file]:
+    for file_path in [footnote_file, names_file, readme_file]:
         print(f"  - {file_path}")
     print()
 
