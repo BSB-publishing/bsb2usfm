@@ -1,0 +1,197 @@
+ref	mrkrs
+GEN 1:5	fqa
+GEN 1:6	fqa	fqa	fqa
+GEN 1:26	fqa
+GEN 2:4	fqa	fqa	fqa
+GEN 2:6	fqa
+GEN 2:7	fqa
+GEN 2:20	fqa
+GEN 2:21	fqa
+GEN 2:24	fqa
+GEN 3:1	fqa	fqa	fqa
+GEN 3:8	fqa	fqa
+GEN 3:15	fqa	fqa	fqa	fqa
+GEN 3:16	fqa
+GEN 3:20	fqa	fqa	fqa
+GEN 4:1	fqa	fqa	fqa
+GEN 4:7	fqa
+GEN 4:8	fqa
+GEN 4:13	fqa	fqa
+GEN 4:15	fqa	fqa
+GEN 4:16	fqa	fqa
+GEN 4:24	fqa	fqa
+GEN 4:25	fqa	fqa	fqa
+GEN 4:26	fqa	fqa	fqa	fqa
+GEN 5:2	fqa
+GEN 5:22	fqa
+GEN 5:24	fqa
+GEN 5:29	fqa	fqa	fqa
+GEN 6:3	fqa
+GEN 6:12	fqa
+GEN 6:14	fqa	fqa	fqa
+GEN 6:16	fqa	fqa
+GEN 6:16	fqa
+GEN 7:2	fqa
+GEN 7:15	fqa
+GEN 7:20	fqa
+GEN 8:8	fqa	fqa
+GEN 9:20	fqa
+GEN 9:27	fqa	fqa
+GEN 10:4	fqa
+GEN 10:7	fqa	fqa
+GEN 10:8	fqa	fqa
+GEN 10:9	fqa
+GEN 10:14	fqa
+GEN 10:15	fqa
+GEN 10:21	fqa
+GEN 10:23	fqa
+GEN 10:24	fqa
+GEN 10:25	fqa	fqa
+GEN 11:2	fqa	fqa
+GEN 11:9	fqa	fqa	fqa
+GEN 11:13	fqa
+GEN 12:6	fqa	fqa
+GEN 13:18	fqa	fqa
+GEN 14:13	fqa	fqa
+GEN 14:13	fqa	fqa
+GEN 14:18	fqa
+GEN 16:4	fqa
+GEN 16:7	fqa
+GEN 16:11	fqa	fqa
+GEN 16:13	fqa
+GEN 16:14	fqa	fqa
+GEN 17:1	fqa
+GEN 17:5	fqa	fqa
+GEN 17:5	fqa	fqa
+GEN 17:15	fqa	fqa	fqa
+GEN 17:19	fqa	fqa
+GEN 18:1	fqa	fqa
+GEN 18:6	fqa
+GEN 19:22	fqa	fqa
+GEN 19:37	fqa	fqa
+GEN 19:38	fqa	fqa
+GEN 20:16	fqa
+GEN 21:3	fqa	fqa
+GEN 21:9	fqa
+GEN 21:16	fqa
+GEN 21:31	fqa	fqa	fqa
+GEN 21:33	fqa
+GEN 22:11	fqa
+GEN 22:12	fqa
+GEN 22:13	fqa
+GEN 22:14	fqa
+GEN 23:3	fqa
+GEN 23:15	fqa
+GEN 24:10	fqa	fqa
+GEN 24:22	fqa
+GEN 24:22	fqa
+GEN 25:18	fqa
+GEN 25:25	fqa	fqa
+GEN 25:26	fqa	fqa	fqa
+GEN 25:30	fqa	fqa
+GEN 26:19	fqa	fqa
+GEN 26:20	fqa	fqa
+GEN 26:21	fqa	fqa	fqa
+GEN 26:22	fqa	fqa	fqa
+GEN 26:33	fqa	fqa	fqa
+GEN 26:33	fqa	fqa	fqa
+GEN 27:36	fqa	fqa	fqa
+GEN 27:46	fqa
+GEN 28:3	fqa
+GEN 28:13	fqa
+GEN 28:19	fqa	fqa
+GEN 29:17	fqa
+GEN 29:32	fqa	fqa	fqa
+GEN 29:33	fqa	fqa
+GEN 29:34	fqa	fqa	fqa
+GEN 29:35	fqa	fqa
+GEN 30:3	fqa
+GEN 30:6	fqa	fqa	fqa
+GEN 30:8	fqa	fqa
+GEN 30:11	fqa
+GEN 30:11	fqa	fqa	fqa
+GEN 30:13	fqa	fqa
+GEN 30:18	fqa	fqa	fqa
+GEN 30:20	fqa	fqa
+GEN 30:24	fqa	fqa
+GEN 31:11	fqa
+GEN 31:20	fqa
+GEN 31:21	fqa
+GEN 31:47	fqa	fqa	fqa
+GEN 31:49	fqa	fqa
+GEN 32:2	fqa	fqa
+GEN 32:20	fqa
+GEN 32:20	fqa
+GEN 32:24	fqa
+GEN 32:28	fqa	fqa	fqa
+GEN 32:28	fqa	fqa
+GEN 32:30	fqa	fqa
+GEN 32:31	fqa	fqa
+GEN 33:11	fqa	fqa
+GEN 33:17	fqa	fqa	fqa	fqa
+GEN 33:19	fqa
+GEN 33:20	fqa	fqa	fqa
+GEN 34:7	fqa
+GEN 35:4	fqa	fqa
+GEN 35:7	fqa	fqa
+GEN 35:8	fqa
+GEN 35:8	fqa	fqa
+GEN 35:10	fqa	fqa	fqa
+GEN 35:10	fqa	fqa
+GEN 35:11	fqa
+GEN 35:15	fqa	fqa
+GEN 35:18	fqa	fqa	fqa
+GEN 35:18	fqa	fqa
+GEN 36:16	fqa
+GEN 36:22	fqa	fqa
+GEN 36:26	fqa	fqa
+GEN 36:31	fqa
+GEN 36:37	fqa
+GEN 36:39	fqa
+GEN 37:3	fqa
+GEN 37:28	fqa
+GEN 37:36	fqa
+GEN 38:23	fqa
+GEN 38:29	fqa	fqa
+GEN 38:30	fqa	fqa	fqa
+GEN 40:19	fqa
+GEN 40:22	fqa
+GEN 41:34	fqa
+GEN 41:38	fqa
+GEN 41:43	fqa	fqa
+GEN 41:45	fqa	fqa	fqa
+GEN 41:51	fqa	fqa
+GEN 41:52	fqa	fqa	fqa
+GEN 42:25	fqa
+GEN 43:14	fqa
+GEN 44:4	fqa
+GEN 44:5	fqa
+GEN 45:7	fqa
+GEN 45:22	fqa
+GEN 46:10	fqa	fqa
+GEN 46:10	fqa	fqa
+GEN 46:13	fqa
+GEN 46:13	fqa
+GEN 46:16	fqa
+GEN 46:16	fqa	fqa
+GEN 46:27	fqa
+GEN 46:27	fqa
+GEN 47:9	fqa
+GEN 47:21	fqa
+GEN 47:31	fqa
+GEN 48:3	fqa
+GEN 48:16	fqa
+GEN 48:22	fqa	fqa	fqa
+GEN 49:5	fqa
+GEN 49:8	fqa	fqa
+GEN 49:10	fqa
+GEN 49:10	fqa
+GEN 49:14	fqa	fqa
+GEN 49:16	fqa	fqa	fqa	fqa
+GEN 49:19	fqa	fqa	fqa
+GEN 49:21	fqa	fqa
+GEN 49:22	fqa
+GEN 49:25	fqa
+GEN 49:26	fqa
+GEN 50:11	fqa	fqa
+GEN 50:23	fqa	fqa
