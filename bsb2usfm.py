@@ -124,7 +124,7 @@ def canonref(s):
 ptypes = {
     "acrostic":         AcrosticStyle(["qa", "qa"]),
     "cross":            Style("r"),
-    "fnv":              Style("fv"),         # regex(r"(.*)"), lambda m: [char("fv", m.group(1))]), 
+    "fnv":              Style("fv"),         # regex(r"(.*)"), lambda m: [char("fv", m.group(1))]),
     "hdg":              Style("s1"),         # regex(r"(.*)"), lambda m: [para("s1", m.group(1))]),
     "ihdg":             Style("s2"),         # regex(r"(.*)"), lambda m: [para("s2", m.group(1))]),
     "indent1":          Style("q1"),
@@ -171,7 +171,7 @@ class Processor:
             return
         # breakpoint()
         self.doc.canonicalise()
-        self.doc.regularise(ptx=True)
+        self.doc.regularise()
         bkcode = bookcodes.get(bk, '99')
         outfname = self.outname.replace("%", bk).replace('^', bkcode)
         print(f"Writing {outfname}")
