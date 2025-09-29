@@ -47,7 +47,7 @@ chmod +x docker-run.sh
 Convert BSB tables to USFM format:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm
+python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm
 ```
 
 ### Convert Specific Books
@@ -55,7 +55,7 @@ python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm
 Convert only specific books using book codes:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm -b GEN -b EXO -b MAT
+python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm -b GEN -b EXO -b MAT
 ```
 
 ### With Custom Book Names
@@ -63,7 +63,7 @@ python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm -b GEN -b EXO -b MAT
 Use a custom book names XML file:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm -n book_names.xml
+python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm -n book_names.xml
 ```
 
 ### With Footnote Styling
@@ -71,7 +71,7 @@ python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm -n book_names.xml
 Apply custom footnote formatting:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm -f footnotes.tsv
+python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm -f footnotes.tsv
 ```
 
 ### Complete Example
