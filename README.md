@@ -277,10 +277,6 @@ python3 getirefs.py results/*.usfm -o references.txt
    - Clean Docker cache: `docker system prune`
    - Rebuild without cache: `./docker-run.sh clean && ./docker-run.sh build`
 
-## License
-
-[Specify license here]
-
 ## Contributing
 
 [Contribution guidelines here]
