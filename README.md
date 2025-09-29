@@ -1,379 +1,290 @@
-# BSB to USFM Converter
+# BSB2USFM Converter
 
-A powerful tool to convert Berean Study Bible (BSB) tables to USFM (Unified Standard Format Markers) format, with both command-line and web interfaces.
+A Python tool for converting Berean Standard Bible (BSB) tabular data into USFM (Unified Standard Format Markers) format for Bible publishing and translation workflows.
+
+## Overview
+
+BSB2USFM converts structured CSV/TSV data containing biblical text, footnotes, cross-references, and formatting information into standardized USFM files that can be used by Bible publishing software such as Paratext, PTXprint, and other Bible translation tools.
 
 ## Features
 
-- ✅ **Command Line Interface**: Traditional script-based conversion
-- 🌐 **Web Interface**: User-friendly browser-based conversion
-- 📚 **Selective Conversion**: Choose specific books or convert entire Bible
-- 📝 **Footnote Support**: Custom footnote styling with TSV files
-- 🏷️ **Custom Book Names**: XML-based book name customization
-- 📦 **Batch Download**: Get all USFM files in a convenient ZIP package
-- 🔄 **Real-time Progress**: View conversion logs and progress
-- 📱 **Responsive Design**: Works on desktop, tablet, and mobile
+- **Complete Bible conversion**: Convert entire Bible or specific books
+- **Rich formatting support**: Headings, cross-references, footnotes, poetry, lists
+- **Custom book names**: Support for custom book naming via XML configuration
+- **Footnote styling**: Advanced footnote formatting with custom styling rules
+- **Verse references**: Automatic parsing and linking of biblical references
+- **USFM 3.1 compliance**: Generates standards-compliant USFM output
+- **Docker support**: Containerized execution for consistent environments
 
-## Quick Start
+## Requirements
 
-### Web Interface (Recommended)
-
-1. **Setup** (first time only):
-   ```bash
-   chmod +x setup_web.sh
-   ./setup_web.sh
-   ```
-
-2. **Start the web server**:
-   ```bash
-   ./run_web.py
-   ```
-
-3. **Open your browser** and visit: http://localhost:5000
-
-4. **Configure options** and select books to convert
-
-5. **Download your USFM files** when conversion completes
-
-**Note**: The web interface uses the fixed BSB tables file at `data/bsb_tables.csv` containing the complete Berean Study Bible dataset.
-
-### Command Line Interface
-
-```bash
-# Basic conversion (uses fixed BSB data file)
-python3 bsb2usfm.py data/bsb_tables.csv -o output_%.usfm
-
-# With optional customization files
-python3 bsb2usfm.py data/bsb_tables.csv -o output_%.usfm -f footnotes.tsv -n BookNames.xml
-
-# Convert specific books only
-python3 bsb2usfm.py data/bsb_tables.csv -o output_%.usfm -b GEN -b EXO -b MAT
-```
+- Python 3.11+
+- Dependencies: `usfmtc`, `regex`, `lxml`
 
 ## Installation
 
-### Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package installer)
-- Virtual environment support
-
-### Automatic Setup
-
-The easiest way to get started:
+### Local Installation
 
 ```bash
 git clone <repository-url>
-cd bsb2usfm-py
-./setup_web.sh
+cd bsb2usfm
+pip install -r requirements.txt
 ```
 
-### Manual Setup
+### Docker Installation
 
-1. **Create virtual environment**:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Test installation**:
-   ```bash
-   python3 -c "import usfmtc; print('Installation successful!')"
-   ```
-
-## File Requirements
-
-### Fixed Data Source
-
-| File | Description | Format |
-|------|-------------|--------|
-| **BSB Tables** | Complete Berean Study Bible data (fixed location: `data/bsb_tables.csv`) | TSV |
-
-### Optional Customization Files
-
-| File | Description | Format | Purpose |
-|------|-------------|--------|---------|
-| **Footnotes** | Footnote styling rules | TSV | Custom footnote formatting |
-| **Book Names** | Custom book names/abbreviations | XML | Override default book names |
-
-### File Format Examples
-
-#### BSB Tables (Fixed File: data/bsb_tables.csv)
-The BSB tables file contains the complete Berean Study Bible with Hebrew/Greek parsing data:
-```tsv
-Heb Sort	Greek Sort	BSB Sort	Verse	Language	...	VerseId	Hdg	Crossref	Par	...	 BSB version 	...	footnotes	End text
-1	0	1	1	Hebrew	...	Genesis 1:1	<p class=|hdg|>The Creation	...	 In the beginning God created the heavens and the earth. 	...		
+```bash
+git clone <repository-url>
+cd bsb2usfm
+chmod +x docker-run.sh
+./docker-run.sh build
 ```
 
-#### Footnotes (TSV)
-```tsv
-GEN 1:1	fqa	ft
-GEN 1:2	fq	ft	fqa
+## Usage
+
+### Basic Conversion
+
+Convert BSB tables to USFM format:
+
+```bash
+python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm
 ```
 
-#### Book Names (XML)
+### Convert Specific Books
+
+Convert only specific books using book codes:
+
+```bash
+python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm -b GEN -b EXO -b MAT
+```
+
+### With Custom Book Names
+
+Use a custom book names XML file:
+
+```bash
+python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm -n book_names.xml
+```
+
+### With Footnote Styling
+
+Apply custom footnote formatting:
+
+```bash
+python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm -f footnotes.tsv
+```
+
+### Complete Example
+
+Full conversion with all options:
+
+```bash
+python3 bsb2usfm.py data/bsb_tables.csv \
+  -o results/%.usfm \
+  -n demo_data/sample_book_names.xml \
+  -f demo_data/sample_footnotes.tsv \
+  -b GEN -b EXO -b MAT
+```
+
+## Docker Usage
+
+### Quick Start with Docker
+
+```bash
+# Build the image
+./docker-run.sh build
+
+# Convert all books
+./docker-run.sh convert data/bsb_tables.csv -o results/%.usfm
+
+# Convert specific books
+./docker-run.sh convert data/bsb_tables.csv -o results/%.usfm -b GEN -b EXO
+
+# Interactive shell
+./docker-run.sh shell
+```
+
+## Command Line Options
+
+| Option | Description | Example |
+|--------|-------------|---------|
+| `infile` | Input BSB tables CSV/TSV file | `data/bsb_tables.csv` |
+| `-o, --outfile` | Output USFM file template | `results/%.usfm` |
+| `-b, --book` | Book codes to include (repeatable) | `-b GEN -b EXO` |
+| `-n, --names` | Custom book names XML file | `-n book_names.xml` |
+| `-f, --fnotes` | Footnote styling TSV file | `-f footnotes.tsv` |
+
+### Output Template Variables
+
+- `%` - Replaced with book code (e.g., `GEN`, `MAT`)
+- `^` - Replaced with book number (e.g., `01`, `40`)
+
+## Input Data Format
+
+### BSB Tables CSV Structure
+
+The input CSV/TSV file should contain the following columns:
+
+- **VerseId**: Bible reference (e.g., "Genesis 1:1")
+- **BSB version**: Main verse text
+- **Hdg**: Section headings
+- **Crossref**: Cross-references
+- **Par**: Parallel passages
+- **footnotes**: Footnote text
+- **pnc**: Punctuation and formatting
+- **End text**: Text at verse end
+
+### Book Names XML Format
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <books>
-  <book code="GEN" long="Genesis" short="Genesis" abbr="Gen"/>
-  <book code="EXO" long="Exodus" short="Exodus" abbr="Exo"/>
+    <book code="GEN" long="Genesis" short="Genesis" abbr="Gen"/>
+    <book code="EXO" long="Exodus" short="Exodus" abbr="Exo"/>
+    <!-- ... more books -->
 </books>
 ```
 
-## Configuration
+### Footnote Styling TSV Format
 
-### Output Template
+```
+Genesis 1:1	fq	ft
+Genesis 3:16	fqa	ft
+```
 
-Use `%` as a placeholder for book codes in the output filename:
+Format: `Reference [TAB] Style1 [TAB] Style2 [TAB] ...`
 
-- `output_%.usfm` → `output_GEN.usfm`, `output_MAT.usfm`, etc.
-- `usfm/%.txt` → `usfm/GEN.txt`, `usfm/MAT.txt`, etc.
-- `bible_%.usfm` → `bible_GEN.usfm`, `bible_MAT.usfm`, etc.
+## Supported Formatting
 
-### Book Codes
+### Text Styles
 
-| Code | Book Name | Code | Book Name |
-|------|-----------|------|-----------|
-| GEN | Genesis | MAT | Matthew |
-| EXO | Exodus | MRK | Mark |
-| LEV | Leviticus | LUK | Luke |
-| NUM | Numbers | JHN | John |
-| DEU | Deuteronomy | ACT | Acts |
-| ... | ... | ... | ... |
+- **Regular text**: Plain verse text
+- **Red letter**: Jesus' words (`<span class=|red|>`)
+- **Poetry**: Indented lines (`<p class=|indent1|>`, `<p class=|indent2|>`)
+- **Headings**: Section headings (`<p class=|hdg|>`)
+- **Cross-references**: Reference links (`<span class=|cross|>`)
 
-*See the web interface for the complete list of 66 books.*
+### Structural Elements
 
-## Usage Examples
+- **Paragraphs**: Regular paragraphs (`<p class=|reg|>`)
+- **Lists**: Bulleted lists (`<p class=|list1|>`, `<p class=|list2|>`)
+- **Inscriptions**: Special formatting (`<p class=|inscrip|>`)
+- **Acrostics**: Hebrew acrostic poems
 
-### Web Interface
-### Web Interface Examples
+### Book Structure
 
-1. **Access Data Source**: The complete BSB tables are automatically loaded from `data/bsb_tables.csv`
-2. **Add Optional Files**: Upload footnotes or book names for customization if desired
-3. **Configure Output**: Set filename template and select books
-4. **Convert**: Click "Convert to USFM" and wait for results
-5. **Download**: Get individual files or complete ZIP package
+Each generated USFM file includes:
 
-### Command Line Examples
+- Book identification (`\id`)
+- Table of contents entries (`\toc1`, `\toc2`, `\toc3`)
+- Book title (`\mt1`, `\mt2`)
+- Chapter markers (`\c`)
+- Verse markers (`\v`)
+
+## Output Format
+
+Generated USFM files follow the USFM 3.1 standard:
+
+```usfm
+\id GEN Autogenerated BSB by bsb2usfm
+\h Gen
+\toc1 Genesis
+\toc2 Genesis
+\toc3 GEN
+\mt1 Genesis
+\c 1
+\s1 The Creation
+\p
+\v 1 In the beginning God created the heavens and the earth.
+\v 2 Now the earth was formless and void...
+```
+
+## Book Codes
+
+Supported book codes follow standard abbreviations:
+
+**Old Testament**: GEN, EXO, LEV, NUM, DEU, JOS, JDG, RUT, 1SA, 2SA, 1KI, 2KI, 1CH, 2CH, EZR, NEH, EST, JOB, PSA, PRO, ECC, SNG, ISA, JER, LAM, EZK, DAN, HOS, JOL, AMO, OBA, JON, MIC, NAM, HAB, ZEP, HAG, ZEC, MAL
+
+**New Testament**: MAT, MRK, LUK, JHN, ACT, ROM, 1CO, 2CO, GAL, EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, PHM, HEB, JAS, 1PE, 2PE, 1JN, 2JN, 3JN, JUD, REV
+
+## Directory Structure
+
+```
+bsb2usfm/
+├── data/               # Input CSV/TSV files
+├── results/           # Output USFM files
+├── demo_data/         # Sample files
+│   ├── sample_book_names.xml
+│   └── sample_footnotes.tsv
+├── bsb2usfm.py       # Main converter script
+├── getirefs.py       # Reference extractor
+├── requirements.txt   # Python dependencies
+├── Dockerfile        # Docker configuration
+├── docker-run.sh     # Docker convenience script
+└── README.md         # This file
+```
+
+## Examples
+
+### Convert Genesis Only
 
 ```bash
-# Convert all books from fixed BSB data
-python3 bsb2usfm.py data/bsb_tables.csv -o output/%.usfm
+python3 bsb2usfm.py data/bsb_tables.csv -o gen.usfm -b GEN
+```
 
-# Convert New Testament only
-python3 bsb2usfm.py data/bsb_tables.csv -o nt/%.usfm \
+### Convert New Testament
+
+```bash
+python3 bsb2usfm.py data/bsb_tables.csv -o nt_%.usfm \
   -b MAT -b MRK -b LUK -b JHN -b ACT -b ROM -b 1CO -b 2CO \
   -b GAL -b EPH -b PHP -b COL -b 1TH -b 2TH -b 1TI -b 2TI \
   -b TIT -b PHM -b HEB -b JAS -b 1PE -b 2PE -b 1JN -b 2JN \
   -b 3JN -b JUD -b REV
-
-# Convert with custom footnotes and book names
-python3 bsb2usfm.py data/bsb_tables.csv -o custom/%.usfm \
-  -f customization/footnotes.tsv -n customization/BookNames.xml
-
-# Convert specific books with custom output location
-python3 bsb2usfm.py data/bsb_tables.csv -o "/path/to/output/%.usfm" \
-  -b PSA -b PRO -b ECC
 ```
 
-## Web Interface Features
+### Extract References
 
-### Data Source
-- **Fixed BSB Data**: Uses the complete Berean Study Bible tables automatically
-- **No Upload Required**: The main data file is always available at `data/bsb_tables.csv`
-- **Optional Customization**: Upload footnote styling or book name files if desired
-- **Size Limits**: 16MB maximum for optional files
+Use the companion script to extract verse references:
 
-### Book Selection
-- **Select All/None**: Quick selection buttons
-- **Old Testament**: Select all 39 OT books
-- **New Testament**: Select all 27 NT books
-- **Individual Selection**: Check/uncheck specific books
-
-### Results & Downloads
-- **Progress Logs**: View real-time conversion progress
-- **Individual Downloads**: Download specific book files
-- **ZIP Package**: Get all files in one download
-- **Error Reporting**: Detailed error messages and troubleshooting
+```bash
+python3 getirefs.py results/*.usfm -o references.txt
+```
 
 ## Troubleshooting
 
 ### Common Issues
 
-#### Optional File Upload Problems
-- **File too large**: Maximum size is 16MB for optional files
-- **Wrong format**: Only TSV and XML files are accepted for optional files
-- **Encoding issues**: Ensure optional files are UTF-8 encoded
+1. **"not enough values to unpack" error**
+   - Ensure book names XML file contains proper long names
+   - Check that book titles can be split into two parts
 
-#### Conversion Errors
-- **Missing BSB data**: Ensure `data/bsb_tables.csv` exists and is accessible
-- **Invalid book codes**: Check that book codes match expected format
-- **Memory issues**: Converting all 66 books may require sufficient system memory
+2. **Missing dependencies**
+   - Install required packages: `pip install -r requirements.txt`
 
-#### Web Interface Issues
-- **Port in use**: Change port in `web/app.py` or stop other services
-- **Permission denied**: Ensure write permissions for `web/uploads/` and `web/outputs/`
-- **BSB data not found**: Verify `data/bsb_tables.csv` exists
-- **Module not found**: Run `./setup_web.sh` to install dependencies
+3. **Encoding issues**
+   - Ensure input files are UTF-8 encoded
 
-### Solutions
+4. **Empty output files**
+   - Check that book codes match between input data and filter options
+   - Verify input CSV structure and column mapping
 
-1. **Check BSB data file**:
-   ```bash
-   file data/bsb_tables.csv  # Should show text/csv or similar
-   ```
+### Docker Issues
 
-2. **Verify BSB data encoding**:
-   ```bash
-   file -bi data/bsb_tables.csv  # Should include charset=utf-8
-   ```
+1. **Permission errors**
+   - Fix ownership: `sudo chown -R $USER:$USER results/`
 
-3. **Test Python modules**:
-   ```bash
-   source venv/bin/activate
-   python3 -c "import usfmtc, flask, regex; print('All modules OK')"
-   ```
-
-4. **Check permissions**:
-   ```bash
-   ls -la web/uploads/ web/outputs/
-   ```
-
-### Getting Help
-
-1. **Check the logs**: 
-   - Web interface: Look at the conversion log in the results page
-   - Command line: Error messages are printed to the console
-
-2. **Validate your files**:
-   - Ensure `data/bsb_tables.csv` exists and has the correct structure
-   - Verify optional customization files are properly formatted
-
-3. **Test with minimal data**:
-   - Try converting a single book first: `-b GEN`
-   - Start with a few books before attempting the complete Bible
-
-## API Reference
-
-### Command Line Arguments
-
-```
-python3 bsb2usfm.py data/bsb_tables.csv [OPTIONS]
-
-Arguments:
-  data/bsb_tables.csv   Fixed BSB tables file (complete Berean Study Bible data)
-
-Options:
-  -o, --outfile        Output file template with % for book code
-  -f, --fnotes         Footnote styling TSV file
-  -b, --book           Book code to include (can be repeated)
-  -n, --names          BookNames.xml file
-  -h, --help           Show help message
-```
-
-### Web API Endpoints
-
-- `GET /` - Main configuration form
-- `POST /convert` - Process conversion with optional file uploads
-- `GET /download/<job_id>` - Download ZIP of all results
-- `GET /download_single/<job_id>/<filename>` - Download single file
-- `GET /api/books` - Get list of available book codes (JSON)
-- `GET /health` - Health check endpoint
-
-## Development
-
-### Project Structure
-
-```
-bsb2usfm-py/
-├── bsb2usfm.py           # Main conversion script
-├── getirefs.py           # Additional utility script
-├── run_web.py            # Web server launcher
-├── setup_web.sh          # Setup script
-├── requirements.txt      # Python dependencies
-├── README.md            # This file
-├── data/                # BSB data source
-│   └── bsb_tables.csv   # Complete BSB tables (fixed file)
-├── web/                 # Web interface
-│   ├── app.py           # Flask application
-│   ├── templates/       # HTML templates
-│   │   ├── index.html   # Main form
-│   │   └── result.html  # Results page
-│   ├── static/         # CSS, JS, images
-│   │   └── style.css   # Custom styles
-│   ├── uploads/        # Optional file uploads
-│   └── outputs/        # Generated USFM files
-└── venv/               # Python virtual environment
-```
-
-### Running in Development Mode
-
-1. **Activate virtual environment**:
-   ```bash
-   source venv/bin/activate
-   ```
-
-2. **Start with debug mode**:
-   ```bash
-   cd web
-   FLASK_ENV=development python3 app.py
-   ```
-
-3. **Run tests**:
-   ```bash
-   python3 -m pytest  # If tests are available
-   ```
-
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## Dependencies
-
-### Core Dependencies
-- **usfmtc**: USFM processing library
-- **regex**: Advanced pattern matching
-- **Flask**: Web framework
-- **Werkzeug**: File upload handling
-
-### Full Requirements
-See `requirements.txt` for complete list with versions.
+2. **Build failures**
+   - Clean Docker cache: `docker system prune`
+   - Rebuild without cache: `./docker-run.sh clean && ./docker-run.sh build`
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+[Specify license here]
 
-## Acknowledgments
+## Contributing
 
-- **USFM Technical Committee** for the usfmtc library
-- **Flask Team** for the web framework
-- **Berean Study Bible** for the original data format
-- **Bootstrap** and **Font Awesome** for web interface styling
+[Contribution guidelines here]
 
-## Version History
+## Support
 
-### v1.0.0
-- Initial command-line interface
-- Basic BSB to USFM conversion
-- Support for footnotes and custom book names
-
-### v2.0.0
-- Added web interface with fixed BSB data source
-- Book selection interface for all 66 books
-- Optional file uploads for customization
-- ZIP download support
-- Real-time progress monitoring
-- Responsive design
-- Setup automation scripts
-
----
-
-**Questions or Issues?** Please check the troubleshooting section above or create an issue in the project repository.
+[Support information here]

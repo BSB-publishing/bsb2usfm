@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  bsb2usfm:
+    build: .
+    container_name: bsb2usfm_converter
+    volumes:
+      - ./data:/app/input:ro
+      - ./results:/app/output
+      - ./demo_data:/app/demo_data:ro
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+    command: tail -f /dev/null  # Keep container running for interactive use
+
+  # Optional: Run a specific conversion job
+  bsb2usfm-convert:
+    build: .
+    container_name: bsb2usfm_job
+    volumes:
+      - ./data:/app/input:ro
+      - ./results:/app/output
+      - ./demo_data:/app/demo_data:ro
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+    command: python3 bsb2usfm.py /app/input/bsb_tables.csv -o /app/output/%.usfm
+    profiles:
+      - convert
+
+  # Optional: Run reference extraction
+  bsb2usfm-refs:
+    build: .
+    container_name: bsb2usfm_refs
+    volumes:
+      - ./results:/app/input:ro
+      - ./results:/app/output
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+    command: python3 getirefs.py /app/input/*.usfm -o /app/output/references.txt
+    profiles:
+      - refs
+
+volumes:
+  bsb2usfm_data:
+    driver: local
