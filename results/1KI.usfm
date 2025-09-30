@@ -144,7 +144,7 @@
 \s1 Solomon’s Prosperity
 \p \v 20 The people of Judah and Israel were as numerous as the sand on the seashore, and they were eating and drinking and rejoicing. \v 21 And Solomon reigned over all the kingdoms from the Euphrates\f + \fr 4:21 \ft Hebrew \fqa the River\ft ; also in verse 24\f* to the land of the Philistines, as far as the border of Egypt. These kingdoms offered tribute and served Solomon all the days of his life.
 \p \v 22 Solomon’s provisions for a single day were thirty cors of fine flour,\f + \fr 4:22 \fqa 30 cors \ft is approximately 187 bushels or 6,600 liters (probably about 5.5 tons or 5 metric tons of flour).\f* sixty cors of meal,\f + \fr 4:22 \fqa 60 cors \ft is approximately 375 bushels or 13,200 liters (probably about 11 tons or 10 metric tons of meal).\f* \v 23 ten fat oxen, twenty range oxen, and a hundred sheep, as well as deer, gazelles, roebucks, and fattened poultry. \v 24 For Solomon had dominion over everything west of the Euphrates\f + \fr 4:24 \ft Or \fqa beyond the River\f* — over all the kingdoms from Tiphsah to Gaza — and he had peace on all sides. \v 25 Throughout the days of Solomon, Judah and Israel dwelt securely from Dan to Beersheba, each man under his own vine and his own fig tree.
-\p \v 26 Solomon had 4,000\f + \fr 4:26 \ft Some LXX manuscripts (see also \ref 2 Chronicles 9:25|ref="2CH 9:25"\ref*); Hebrew \fqa 40,000 \ft \f* stalls for his chariot horses and 12,000 horses.\f + \fr 4:26 \ft Or \fqa horsemen \ft or \fqa charioteers\f* \v 27 Each month the governors in turn provided food for King Solomon and all who came to his table. They saw to it that nothing was lacking. \v 28 Each one also brought to the required place their quotas of barley and straw for the chariot horses and other horses.
+\p \v 26 Solomon had 4,000\f + \fr 4:26 \ft Some LXX manuscripts (see also \ref 2 Chronicles 9:25|ref="2CH 9:25"\ref*); Hebrew \fqa 40,000 \f* stalls for his chariot horses and 12,000 horses.\f + \fr 4:26 \ft Or \fqa horsemen \ft or \fqa charioteers\f* \v 27 Each month the governors in turn provided food for King Solomon and all who came to his table. They saw to it that nothing was lacking. \v 28 Each one also brought to the required place their quotas of barley and straw for the chariot horses and other horses.
 \s1 Solomon’s Wisdom
 \p \v 29 And God gave Solomon wisdom, exceedingly deep insight, and understanding beyond measure, like the sand on the seashore. \v 30 Solomon’s wisdom was greater than that of all the men of the East, greater than all the wisdom of Egypt. \v 31 He was wiser than all men— wiser than Ethan the Ezrahite, and wiser than Heman, Calcol, and Darda, the sons of Mahol. And his fame spread throughout the surrounding nations.
 \p \v 32 Solomon composed three thousand proverbs, and his songs numbered a thousand and five. \v 33 He spoke of trees, from the cedar in Lebanon to the hyssop growing in the wall, and he taught about animals, birds, reptiles, and fish.
@@ -155,12 +155,10 @@
 \p \v 1 Now when Hiram king of Tyre heard that Solomon had been anointed king in his father’s place, he sent envoys to Solomon; for Hiram had always been a friend of David.
 \p \v 2 And Solomon relayed this message to Hiram:
 \pmo \v 3 “As you are well aware, due to the wars waged on all sides against my father David, he could not build a house for the Name of the LORD his God until the LORD had put his enemies under his feet. \v 4 But now the LORD my God has given me rest on every side, and there is no adversary or crisis.
-\b
-\pmo 
- \v 5 So behold, I plan to build a house for the Name of the LORD my God, according to what the LORD said to my father David: ‘I will put your son on your throne in your place, and he will build the house for My Name.’
-\b
-\pmo 
- \v 6 Now therefore, order that cedars of Lebanon be cut down for me. My servants will be with your servants, and I will pay your servants whatever wages you set, for you know that there are none among us as skilled in logging as the Sidonians.”
+\b 
+\pmo \v 5 So behold, I plan to build a house for the Name of the LORD my God, according to what the LORD said to my father David: ‘I will put your son on your throne in your place, and he will build the house for My Name.’
+\b 
+\pmo \v 6 Now therefore, order that cedars of Lebanon be cut down for me. My servants will be with your servants, and I will pay your servants whatever wages you set, for you know that there are none among us as skilled in logging as the Sidonians.”
 \s1 Hiram’s Reply to Solomon
 \r (\ref 2 Chronicles 2:11–18|2CH 2:11-18\ref*)
 \p \v 7 When Hiram received Solomon’s message, he rejoiced greatly and said, “Blessed be the LORD this day! He has given David a wise son over this great people!” \v 8 Then Hiram sent a reply to Solomon, saying:
