@@ -23,6 +23,11 @@ def ensurespace(n):
     else:
         ensurespace(n[-1])
 
+def removeentities(s):
+    s = regex.sub(r"&#([\d]+);", lambda m:chr(int(m.group(1), 10)), s)
+    s = regex.sub(r"&#x([\dA-Fa-f]+);", lambda m:chr(int(m.group(1), 16)), s)
+    return s
+
 class Style:
     def __init__(self, styles, after=None):
         if isinstance(styles, str):
@@ -83,7 +88,7 @@ class AcrosticStyle:
         para = None
         for i in range(2):
             para = parent.makeelement("para", {"style": self.styles[i]})
-            para.text = m.group(i+1)
+            para.text = removeentities(m.group(i+1))
             parent.append(para)
         return para
 
@@ -152,7 +157,7 @@ ptypes = {
 def debracket(s): return regex.sub(r"[\[\]{}]", "", s)
 
 class Processor:
-    def __init__(self, outname, books=None, fnqs=None, names=None):
+    def __init__(self, outname, books=None, fnqs=None, names=None, interlinear=False):
         self.doc = None
         self.currnode = None
         self.cref = None
@@ -164,6 +169,7 @@ class Processor:
         self.names = names
         self.skipping = False
         self.verse_pending = False
+        self.interlinear = interlinear
 
     def writedoc(self):
         bk = self.doc.book
@@ -288,6 +294,7 @@ class Processor:
             prevf = currf
             currf = fnode.makeelement("char", {"style": "ft" if i % 2 == 0 else (fqs[qcount] if qcount < len(fqs) else "fqa")})
             qcount += 1
+            b = removeentities(b)
             r, j, e = canonref(b)
             if r is None:
                 count = 0
@@ -312,7 +319,7 @@ class Processor:
                     currf.text = b
             else:
                 currf.text = b[:j]
-                rnode = currf.makeelement("ref", {"ref": str(r)})
+                rnode = currf.makeelement("ref", {"loc": str(r)})
                 currf.append(rnode)
                 rnode.text = b[j:e]
                 rnode.tail = b[e:]
@@ -331,7 +338,7 @@ class Processor:
         self.currnode.append(vnode)
         self.verse_pending = False
 
-    def appendtext(self, txt, isverse=True, dostrip=True):
+    def appendtext(self, txt, rb=None, isverse=True, dostrip=True):
         if self.currnode is None:
             print(f"Nothing to add text: {txt} to")
             return
@@ -340,20 +347,33 @@ class Processor:
         if isverse and self.verse_pending:
             self.appendverse()
             txt = txt.lstrip()
-        if len(self.currnode):
+        txt = removeentities(txt)
+        if rb is not None:
+            rbnode = self.currnode.makeelement('char', {"style": 'rb', "gloss": rb})
+            if (m := regex.match(r"^\s+", txt)) is not None:
+                rbnode.text = txt[m.end():]
+                if len(self.currnode):
+                    self.currnode[-1].tail = (self.currnode[-1].tail or "") + txt[:m.end()]
+                else:
+                    self.currnode.text = (self.currnode.text or "") + txt[:m.end()]
+            else:
+                rbnode.text = txt
+            self.currnode.append(rbnode)
+        elif len(self.currnode):
             self.currnode[-1].tail = (self.currnode[-1].tail or "") + txt
         else:
             self.currnode.text = (self.currnode.text or "") + txt
 
-    def appendjunkytext(self, txt):
+    def appendjunkytext(self, txt, rb=None):
         while (m := regex.search(r"<p class=\|(.*?)\|>", txt)) != None:
-            self.appendtext(txt[:m.start()])
+            self.appendtext(txt[:m.start()], rb=rb)
             c = ptypes.get(m.group(1), None)
             if c is not None:
                 self.currnode = c.addto(self.currnode)
             txt = txt[m.end():]
+            rb = None
         if txt:
-            self.appendtext(txt)
+            self.appendtext(txt, rb=rb)
 
     def processline(self, row):
         f = {k: row[i] for i, k in enumerate(self.fields)}
@@ -388,13 +408,22 @@ class Processor:
             t = debracket(f[' BSB version '])
             if regex.match(r"^[\d,]+$", t):
                 t = " " + t + " "
+            isblank = t.strip() in ('-', '. . .', 'vvv')
+            iword = None
+            if self.interlinear:
+                iword = f.get('WLC / Nestle Base TR RP WH NE NA SBL', None)
             if "<p class=" in t:
-                self.appendjunkytext(t)
-            elif t.strip() not in ('-', '. . .', 'vvv'):
+                self.appendjunkytext(t, rb=iword)
+            elif not isblank or self.interlinear:
                 if self.pendinglstrip:
                     t = t.lstrip()
                     self.pendinglstrip = False
-                self.appendtext(t)
+                if t.strip() == "( -":
+                    t = " ("
+                    self.pendinglstrip = True
+                if isblank:
+                    t = ""
+                self.appendtext(t, rb=iword)
         if f['pnc']:
             self.addend(f['pnc'])
         if row[20]:
@@ -411,6 +440,7 @@ parser.add_argument("-o","--outfile",help="Ouput usfm file template with %% for 
 parser.add_argument("-f","--fnotes",help="Footnote styling tsv file")
 parser.add_argument("-b","--book",action="append",help="Book codes to include")
 parser.add_argument("-n","--names",help="BookNames.xml")
+parser.add_argument("-I","--interlinear",action="store_true",help="Output \\rb entries for reverse interlinear")
 args = parser.parse_args()
 
 fnqs = {}
@@ -434,7 +464,8 @@ if args.names is not None:
 else:
     ndoc = None
 
-job = Processor(args.outfile, books=args.book, fnqs=(fnqs if len(fnqs) else None), names=ndoc)
+job = Processor(args.outfile, books=args.book, fnqs=(fnqs if len(fnqs) else None),
+                              names=ndoc, interlinear=args.interlinear)
 with open(args.infile, encoding="utf-8") as inf:
     rdr = csv.reader(inf, delimiter="\t")
     hdr = None
