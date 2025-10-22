@@ -36,6 +36,7 @@ Custom book names with:
 ## Usage Examples
 
 ### Command Line
+
 ```bash
 # Convert all sample books
 python3 bsb2usfm.py demo_data/sample_bsb_tables.tsv -o demo_output_%.usfm
@@ -50,16 +51,10 @@ python3 bsb2usfm.py demo_data/sample_bsb_tables.tsv \
 python3 bsb2usfm.py demo_data/sample_bsb_tables.tsv \
   -o demo_output_%.usfm \
   -b GEN -b MAT -b JHN -b REV
-```
 
-### Web Interface
-1. Start the web server: `./run_web.py`
-2. Visit: http://localhost:5000
-3. Upload `sample_bsb_tables.tsv` as the main file
-4. Optionally upload `sample_footnotes.tsv` and `sample_book_names.xml`
-5. Select books or leave empty for all
-6. Click "Convert to USFM"
-7. Download your results
+# Using default URL source (downloads from bereanbible.com)
+python3 bsb2usfm.py -o demo_output_%.usfm -b GEN -b MAT
+```
 
 ## Expected Output
 

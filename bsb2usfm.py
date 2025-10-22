@@ -5,6 +5,9 @@ import regex
 import usfmtc
 import xml.etree.ElementTree as et
 from usfmtc.usfmparser import Grammar
+import urllib.request
+import sys
+import io
 from usfmtc.reference import Ref, RefRange, allbooks, bookcodes
 
 
@@ -433,15 +436,36 @@ class Processor:
         if f['End text']:
             self.addend(f['End text'])
 
-
 parser = argparse.ArgumentParser()
-parser.add_argument("infile",help="Input bsb_tables.csv file")
+parser.add_argument("infile",nargs="?",default=None,help="Input bsb_tables.csv file or URL (default: https://bereanbible.com/bsb_tables.tsv)")
 parser.add_argument("-o","--outfile",help="Ouput usfm file template with %% for the book code, ^ for number")
 parser.add_argument("-f","--fnotes",help="Footnote styling tsv file")
 parser.add_argument("-b","--book",action="append",help="Book codes to include")
 parser.add_argument("-n","--names",help="BookNames.xml")
+# Add optional flags (store_true means they're False by default)
 parser.add_argument("-I","--interlinear",action="store_true",help="Output \\rb entries for reverse interlinear")
+parser.add_argument('-S','--strongs',action='store_true',help='Include Strong\'s numbers')
+parser.add_argument('-P','--placeholders',action='store_true',help='Include placeholders')
+parser.add_argument('-B','--brackets',action='store_true',help='Include brackets')
+
 args = parser.parse_args()
+
+# Set default URL if no input file specified
+if args.infile is None:
+    args.infile = "https://bereanbible.com/bsb_tables.tsv"
+
+# Function to open input from URL or local file
+def open_input_source(source):
+    """Open input from either a URL or local file path"""
+    if source.startswith(("http://", "https://")):
+        print(f"Downloading from {source}...", file=sys.stderr)
+        response = urllib.request.urlopen(source)
+#        content = response.read().decode("utf-8")
+        content = response.read().decode("utf-16")
+        return io.StringIO(content)
+    else:
+#        return open(source, encoding="utf-8")
+        return open(source, encoding="utf-16")
 
 fnqs = {}
 if args.fnotes:
@@ -466,7 +490,7 @@ else:
 
 job = Processor(args.outfile, books=args.book, fnqs=(fnqs if len(fnqs) else None),
                               names=ndoc, interlinear=args.interlinear)
-with open(args.infile, encoding="utf-8") as inf:
+with open_input_source(args.infile) as inf:
     rdr = csv.reader(inf, delimiter="\t")
     hdr = None
     for r in rdr:

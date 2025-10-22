@@ -1,0 +1,296 @@
+Heb Sort	Greek Sort	BSB Sort	Verse	Language	WLC / Nestle Base TR RP WH NE NA SBL	WLC / Nestle Base {TR} ⧼RP⧽ (WH) 〈NE〉 [NA] ‹SBL› [[ECM]]	Translit	Parsing	Parsing	Str Heb	Str Grk	VerseId	Hdg	Crossref	Par	Space	begQ	 BSB version 	pnc	endQ	footnotes	End text
+1	0	1	1	Hebrew	בְּרֵאשִׁ֖ית	בְּרֵאשִׁ֖ית	bə·rê·šîṯ	Prep-b | N-fs	Preposition-b | Noun - feminine singular	7225		Genesis 1:1	<p class=|hdg|>The Creation	<br /><span class=|cross|>(<a href =|../john/1.htm|>John 1:1–5</a>; <a href =|../hebrews/11.htm|>Hebrews 11:1–3</a>)</span>	<p class=|reg|>			 In the beginning 				
+3	0	2	1	Hebrew	אֱלֹהִ֑ים	אֱלֹהִ֑ים	’ĕ·lō·hîm	N-mp	Noun - masculine plural	430								 God 				
+4	0	3	1	Hebrew	אֵ֥ת	אֵ֥ת	’êṯ	DirObjM	Direct object marker	853								 - 				
+2	0	4	1	Hebrew	בָּרָ֣א	בָּרָ֣א	bā·rā	V-Qal-Perf-3ms	Verb - Qal - Perfect - third person masculine singular	1254								 created 				
+5	0	5	1	Hebrew	הַשָּׁמַ֖יִם	הַשָּׁמַ֖יִם	haš·šā·ma·yim	Art | N-mp	Article | Noun - masculine plural	8064								 the heavens 				
+6	0	6	1	Hebrew	וְאֵ֥ת	וְאֵ֥ת	wə·’êṯ	Conj-w | DirObjM	Conjunctive waw | Direct object marker	853								 and 				
+7	0	7	1	Hebrew	הָאָֽרֶץ׃	הָאָֽרֶץ׃	hā·’ā·reṣ	Art | N-fs	Article | Noun - feminine singular	776								 the earth 	.			
+8	0	8	1	Hebrew																		
+9	0	9	1	Hebrew																		
+10	0	10	1	Hebrew																		
+11	0	11	1	Hebrew																		
+12	0	12	1	Hebrew																		
+13	0	13	1	Hebrew																		
+14	0	14	1	Hebrew																		
+15	0	15	1	Hebrew																		
+16	0	16	1	Hebrew																		
+17	0	17	1	Hebrew																		
+18	0	18	2	Hebrew	וְהָאָ֗רֶץ	וְהָאָ֗רֶץ	wə·hā·’ā·reṣ	Conj-w, Art | N-fs	Conjunctive waw, Article | Noun - feminine singular	776		Genesis 1:2			<p class=|reg|>			 Now the earth 				
+19	0	19	2	Hebrew	הָיְתָ֥ה	הָיְתָ֥ה	hā·yə·ṯāh	V-Qal-Perf-3fs	Verb - Qal - Perfect - third person feminine singular	1961								 was 				
+20	0	20	2	Hebrew	תֹ֙הוּ֙	תֹ֙הוּ֙	ṯō·hū	N-ms	Noun - masculine singular	8414								 formless 				
+21	0	21	2	Hebrew	וָבֹ֔הוּ	וָבֹ֔הוּ	wā·ḇō·hū	Conj-w | N-ms	Conjunctive waw | Noun - masculine singular	922								 and void 	,			
+22	0	22	2	Hebrew	וְחֹ֖שֶׁךְ	וְחֹ֖שֶׁךְ	wə·ḥō·šeḵ	Conj-w | N-ms	Conjunctive waw | Noun - masculine singular	2822								 and darkness 				
+23	0	23	2	Hebrew	עַל־	עַל־	‘al-	Prep	Preposition	5921								 was over 				
+24	0	24	2	Hebrew	פְּנֵ֣י	פְּנֵ֣י	pə·nê	N-cpc	Noun - common plural construct	6440								 the surface 				
+25	0	25	2	Hebrew	תְה֑וֹם	תְה֑וֹם	ṯə·hō·wm	N-cs	Noun - common singular	8415								 of the deep 	.			
+26	0	26	2	Hebrew	וְר֣וּחַ	וְר֣וּחַ	wə·rū·aḥ	Conj-w | N-csc	Conjunctive waw | Noun - common singular construct	7307								 And the Spirit 				
+27	0	27	2	Hebrew	אֱלֹהִ֔ים	אֱלֹהִ֔ים	’ĕ·lō·hîm	N-mp	Noun - masculine plural	430								 of God 				
+28	0	28	2	Hebrew	מְרַחֶ֖פֶת	מְרַחֶ֖פֶת	mə·ra·ḥe·p̄eṯ	V-Piel-Prtcpl-fs	Verb - Piel - Participle - feminine singular	7363								 was hovering 				
+29	0	29	2	Hebrew	עַל־	עַל־	‘al-	Prep	Preposition	5921								 over 				
+30	0	30	2	Hebrew	פְּנֵ֥י	פְּנֵ֥י	pə·nê	N-cpc	Noun - common plural construct	6440								 the surface 				
+31	0	31	2	Hebrew	הַמָּֽיִם׃	הַמָּֽיִם׃	ham·mā·yim	Art | N-mp	Article | Noun - masculine plural	4325								 of the waters 	.			
+32	0	32	2	Hebrew																		
+33	0	33	2	Hebrew																		
+34	0	34	2	Hebrew																		
+35	0	35	2	Hebrew																		
+36	0	36	2	Hebrew																		
+37	0	37	2	Hebrew																		
+38	0	38	2	Hebrew																		
+39	0	39	2	Hebrew																		
+40	0	40	2	Hebrew																		
+41	0	41	2	Hebrew																		
+43	0	42	3	Hebrew	אֱלֹהִ֖ים	אֱלֹהִ֖ים	’ĕ·lō·hîm	N-mp	Noun - masculine plural	430		Genesis 1:3	<p class=|subhdg|>The First Day		<p class=|tab1stline|>			 And God 				
+42	0	43	3	Hebrew	וַיֹּ֥אמֶר	וַיֹּ֥אמֶר	way·yō·mer	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	559								 said 	,			
+44	0	44	3	Hebrew	יְהִ֣י	יְהִ֣י	yə·hî	V-Qal-Imperf.Jus-3ms	Verb - Qal - Imperfect Jussive - third person masculine singular	1961							“	 Let there be 				
+45	0	45	3	Hebrew	א֑וֹר	א֑וֹר	’ō·wr	N-cs	Noun - common singular	216								 light 	,	” 	Cited in 2 Corinthians 4:6	
+46	0	46	3	Hebrew	וַֽיְהִי־	וַֽיְהִי־	way·hî-	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	1961								 and there was 				
+47	0	47	3	Hebrew	אֽוֹר׃	אֽוֹר׃	’ō·wr	N-cs	Noun - common singular	216								 light 	.			
+48	0	48	3	Hebrew																		
+49	0	49	3	Hebrew																		
+50	0	50	3	Hebrew																		
+51	0	51	3	Hebrew																		
+52	0	52	3	Hebrew																		
+53	0	53	3	Hebrew																		
+54	0	54	3	Hebrew																		
+55	0	55	3	Hebrew																		
+56	0	56	3	Hebrew																		
+57	0	57	3	Hebrew																		
+59	0	58	4	Hebrew	אֱלֹהִ֛ים	אֱלֹהִ֛ים	’ĕ·lō·hîm	N-mp	Noun - masculine plural	430		Genesis 1:4						 And God 				
+60	0	59	4	Hebrew	אֶת־	אֶת־	’eṯ-	DirObjM	Direct object marker	853								 - 				
+58	0	60	4	Hebrew	וַיַּ֧רְא	וַיַּ֧רְא	way·yar	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	7200								 saw 				
+62	0	61	4	Hebrew	כִּי־	כִּי־	kî-	Conj	Conjunction	3588								 that 				
+61	0	62	4	Hebrew	הָא֖וֹר	הָא֖וֹר	hā·’ō·wr	Art | N-cs	Article | Noun - common singular	216								 the light 				
+63	0	63	4	Hebrew	ט֑וֹב	ט֑וֹב	ṭō·wḇ	Adj-ms	Adjective - masculine singular	2896								 [was] good 	,			
+65	0	64	4	Hebrew	אֱלֹהִ֔ים	אֱלֹהִ֔ים	’ĕ·lō·hîm	N-mp	Noun - masculine plural	430								 and [He] 				
+64	0	65	4	Hebrew	וַיַּבְדֵּ֣ל	וַיַּבְדֵּ֣ל	way·yaḇ·dêl	Conj-w | V-Hifil-ConsecImperf-3ms	Conjunctive waw | Verb - Hifil - Consecutive imperfect - third person masculine singular	914								 separated 				
+67	0	66	4	Hebrew	הָא֖וֹר	הָא֖וֹר	hā·’ō·wr	Art | N-cs	Article | Noun - common singular	216								 the light 				
+68	0	67	4	Hebrew	וּבֵ֥ין	וּבֵ֥ין	ū·ḇên	Conj-w | Prep	Conjunctive waw | Preposition	996								 from 				
+66	0	68	4	Hebrew	בֵּ֥ין	בֵּ֥ין	bên	Prep	Preposition	996								 . . . 				
+69	0	69	4	Hebrew	הַחֹֽשֶׁךְ׃	הַחֹֽשֶׁךְ׃	ha·ḥō·šeḵ	Art | N-ms	Article | Noun - masculine singular	2822								 the darkness 	.			
+70	0	70	4	Hebrew																		
+71	0	71	4	Hebrew																		
+72	0	72	4	Hebrew																		
+73	0	73	4	Hebrew																		
+74	0	74	4	Hebrew																		
+75	0	75	4	Hebrew																		
+76	0	76	4	Hebrew																		
+77	0	77	4	Hebrew																		
+78	0	78	4	Hebrew																		
+79	0	79	4	Hebrew																		
+81	0	80	5	Hebrew	אֱלֹהִ֤ים׀	אֱלֹהִ֤ים׀	’ĕ·lō·hîm	N-mp	Noun - masculine plural	430		Genesis 1:5						 God 				
+80	0	81	5	Hebrew	וַיִּקְרָ֨א	וַיִּקְרָ֨א	way·yiq·rā	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	7121								 called 				
+82	0	82	5	Hebrew	לָאוֹר֙	לָאוֹר֙	lā·’ō·wr	Prep-l, Art | N-cs	Preposition-l, Article | Noun - common singular	216								 the light 				
+83	0	83	5	Hebrew	י֔וֹם	י֔וֹם	yō·wm	N-ms	Noun - masculine singular	3117							“ 	 day 	,	”		
+84	0	84	5	Hebrew	וְלַחֹ֖שֶׁךְ	וְלַחֹ֖שֶׁךְ	wə·la·ḥō·šeḵ	Conj-w, Prep-l, Art | N-ms	Conjunctive waw, Preposition-l, Article | Noun - masculine singular	2822								 and the darkness 				
+85	0	85	5	Hebrew	קָ֣רָא	קָ֣רָא	qā·rā	V-Qal-Perf-3ms	Verb - Qal - Perfect - third person masculine singular	7121								 He called 				
+86	0	86	5	Hebrew	לָ֑יְלָה	לָ֑יְלָה	lā·yə·lāh	N-ms	Noun - masculine singular	3915							“ 	 night 	.	”		
+87	0	87	5	Hebrew	וַֽיְהִי־	וַֽיְהִי־	way·hî-	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	1961					<p class=|tab1stline|>			 And there was 				
+88	0	88	5	Hebrew	עֶ֥רֶב	עֶ֥רֶב	‘e·reḇ	N-ms	Noun - masculine singular	6153								 evening 	,			
+89	0	89	5	Hebrew	וַֽיְהִי־	וַֽיְהִי־	way·hî-	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	1961								 and there was 				
+90	0	90	5	Hebrew	בֹ֖קֶר	בֹ֖קֶר	ḇō·qer	N-ms	Noun - masculine singular	1242								 morning 	 — 			
+92	0	91	5	Hebrew	אֶחָֽד׃פ	אֶחָֽד׃פ	’e·ḥāḏ	Number-ms	Number - masculine singular	259								 the first 				
+91	0	92	5	Hebrew	י֥וֹם	י֥וֹם	yō·wm	N-ms	Noun - masculine singular	3117								 day 	.		Literally <i>day one</i>	
+94	0	93	5	Hebrew																		
+95	0	94	5	Hebrew																		
+96	0	95	5	Hebrew																		
+97	0	96	5	Hebrew																		
+98	0	97	5	Hebrew																		
+99	0	98	5	Hebrew																		
+100	0	99	5	Hebrew																		
+37497	0	37350	1594	Hebrew	אֱלֹהִים֙	אֱלֹהִים֙	’ĕ·lō·hîm	N-mp	Noun - masculine plural	430		Exodus 3:14			<p class=|reg|>			 God 				
+37496	0	37351	1594	Hebrew	וַיֹּ֤אמֶר	וַיֹּ֤אמֶר	way·yō·mer	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	559								 said 				
+37498	0	37352	1594	Hebrew	אֶל־	אֶל־	’el-	Prep	Preposition	413								 to 				
+37499	0	37353	1594	Hebrew	מֹשֶׁ֔ה	מֹשֶׁ֔ה	mō·šeh	N-proper-ms	Noun - proper - masculine singular	4872								 Moses 	,			
+37500	0	37354	1594	Hebrew	אֶֽהְיֶ֖ה	אֶֽהְיֶ֖ה	’eh·yeh	V-Qal-Imperf-1cs	Verb - Qal - Imperfect - first person common singular	1961							“	 I AM 				
+37501	0	37355	1594	Hebrew	אֲשֶׁ֣ר	אֲשֶׁ֣ר	’ă·šer	Pro-r	Pronoun - relative	834								 WHO 				
+37502	0	37356	1594	Hebrew	אֶֽהְיֶ֑ה	אֶֽהְיֶ֑ה	’eh·yeh	V-Qal-Imperf-1cs	Verb - Qal - Imperfect - first person common singular	1961								 I AM 	.		Or <i>I WILL BE WHAT I WILL BE</i>	
+37504	0	37357	1594	Hebrew	כֹּ֤ה	כֹּ֤ה	kōh	Adv	Adverb	3541								 This is what 				
+37505	0	37358	1594	Hebrew	תֹאמַר֙	תֹאמַר֙	ṯō·mar	V-Qal-Imperf-2ms	Verb - Qal - Imperfect - second person masculine singular	559								 . . . 				
+37503	0	37359	1594	Hebrew	וַיֹּ֗אמֶר	וַיֹּ֗אמֶר	way·yō·mer	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	559								 you are to say 				
+37506	0	37360	1594	Hebrew	לִבְנֵ֣י	לִבְנֵ֣י	liḇ·nê	Prep-l | N-mpc	Preposition-l | Noun - masculine plural construct	1121								 to the Israelites 				
+37507	0	37361	1594	Hebrew	יִשְׂרָאֵ֔ל	יִשְׂרָאֵ֔ל	yiś·rā·’êl	N-proper-ms	Noun - proper - masculine singular	3478								 . . . 	:			
+37508	0	37362	1594	Hebrew	אֶֽהְיֶ֖ה	אֶֽהְיֶ֖ה	’eh·yeh	V-Qal-Imperf-1cs	Verb - Qal - Imperfect - first person common singular	1961							‘	 I AM 				
+37509	0	37363	1594	Hebrew	שְׁלָחַ֥נִי	שְׁלָחַ֥נִי	šə·lā·ḥa·nî	V-Qal-Perf-3ms | 1cs	Verb - Qal - Perfect - third person masculine singular | first person common singular	7971								 has sent me 				
+37510	0	37364	1594	Hebrew	אֲלֵיכֶֽם׃	אֲלֵיכֶֽם׃	’ă·lê·ḵem	Prep | 2mp	Preposition | second person masculine plural	413								 to you 	.	’”		
+37511	0	37365	1594	Hebrew																		
+37512	0	37366	1594	Hebrew																		
+37513	0	37367	1594	Hebrew																		
+37514	0	37368	1594	Hebrew																		
+37515	0	37369	1594	Hebrew																		
+37516	0	37370	1594	Hebrew																		
+37517	0	37371	1594	Hebrew																		
+37518	0	37372	1594	Hebrew																		
+37519	0	37373	1594	Hebrew																		
+37520	0	37374	1594	Hebrew																		
+37523	0	37375	1595	Hebrew	אֱלֹהִ֜ים	אֱלֹהִ֜ים	’ĕ·lō·hîm	N-mp	Noun - masculine plural	430		Exodus 3:15			<p class=|reg|>			 God 				
+37522	0	37376	1595	Hebrew	ע֨וֹד	ע֨וֹד	‘ō·wḏ	Adv	Adverb	5750								 also 				
+37521	0	37377	1595	Hebrew	וַיֹּאמֶר֩	וַיֹּאמֶר֩	way·yō·mer	Conj-w | V-Qal-ConsecImperf-3ms	Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular	559								 told 				
+37524	0	37378	1595	Hebrew	אֶל־	אֶל־	’el-	Prep	Preposition	413								 . . . 				
+37525	0	37379	1595	Hebrew	מֹשֶׁ֗ה	מֹשֶׁ֗ה	mō·šeh	N-proper-ms	Noun - proper - masculine singular	4872								 Moses 	,			
+37527	0	37380	1595	Hebrew	תֹאמַר֮	תֹאמַר֮	ṯō·mar	V-Qal-Imperf-2ms	Verb - Qal - Imperfect - second person masculine singular	559							“	 Say 				
+37526	0	37381	1595	Hebrew	כֹּֽה־	כֹּֽה־	kōh-	Adv	Adverb	3541								 - 				
+37528	0	37382	1595	Hebrew	אֶל־	אֶל־	’el-	Prep	Preposition	413								 to 				
+37529	0	37383	1595	Hebrew	בְּנֵ֣י	בְּנֵ֣י	bə·nê	N-mpc	Noun - masculine plural construct	1121								 the Israelites 				
+37530	0	37384	1595	Hebrew	יִשְׂרָאֵל֒	יִשְׂרָאֵל֒	yiś·rā·’êl	N-proper-ms	Noun - proper - masculine singular	3478								 . . . 	,			
+37531	0	37385	1595	Hebrew	יְהוָ֞ה	יְהוָ֞ה	Yah·weh	N-proper-ms	Noun - proper - masculine singular	3068							‘	 The LORD 	,			
+37532	0	37386	1595	Hebrew	אֱלֹהֵ֣י	אֱלֹהֵ֣י	’ĕ·lō·hê	N-mpc	Noun - masculine plural construct	430								 the God 				
+37533	0	37387	1595	Hebrew	אֲבֹתֵיכֶ֗ם	אֲבֹתֵיכֶ֗ם	’ă·ḇō·ṯê·ḵem	N-mpc | 2mp	Noun - masculine plural construct | second person masculine plural	1								 of your fathers 	 — 			
+37534	0	37388	1595	Hebrew	אֱלֹהֵ֨י	אֱלֹהֵ֨י	’ĕ·lō·hê	N-mpc	Noun - masculine plural construct	430								 the God 				
+37535	0	37389	1595	Hebrew	אַבְרָהָ֜ם	אַבְרָהָ֜ם	’aḇ·rā·hām	N-proper-ms	Noun - proper - masculine singular	85								 of Abraham 	,			
+37536	0	37390	1595	Hebrew	אֱלֹהֵ֥י	אֱלֹהֵ֥י	’ĕ·lō·hê	N-mpc	Noun - masculine plural construct	430								 the God 				
+37537	0	37391	1595	Hebrew	יִצְחָ֛ק	יִצְחָ֛ק	yiṣ·ḥāq	N-proper-ms	Noun - proper - masculine singular	3327								 of Isaac 	,			
+37538	0	37392	1595	Hebrew	וֵאלֹהֵ֥י	וֵאלֹהֵ֥י	wê·lō·hê	Conj-w | N-mpc	Conjunctive waw | Noun - masculine plural construct	430								 and the God 				
+37539	0	37393	1595	Hebrew	יַעֲקֹ֖ב	יַעֲקֹ֖ב	ya·‘ă·qōḇ	N-proper-ms	Noun - proper - masculine singular	3290								 of Jacob 	 — 			
+37540	0	37394	1595	Hebrew	שְׁלָחַ֣נִי	שְׁלָחַ֣נִי	šə·lā·ḥa·nî	V-Qal-Perf-3ms | 1cs	Verb - Qal - Perfect - third person masculine singular | first person common singular	7971								 has sent me 				
+37541	0	37395	1595	Hebrew	אֲלֵיכֶ֑ם	אֲלֵיכֶ֑ם	’ă·lê·ḵem	Prep | 2mp	Preposition | second person masculine plural	413								 to you 	.	’		
+37542	0	37396	1595	Hebrew	זֶה־	זֶה־	zeh-	Pro-ms	Pronoun - masculine singular	2088								 This 				
+37543	0	37397	1595	Hebrew	שְּׁמִ֣י	שְּׁמִ֣י	šə·mî	N-msc | 1cs	Noun - masculine singular construct | first person common singular	8034								 is My name 				
+37544	0	37398	1595	Hebrew	לְעֹלָ֔ם	לְעֹלָ֔ם	lə·‘ō·lām	Prep-l | N-ms	Preposition-l | Noun - masculine singular	5769								 forever 	,			
+37545	0	37399	1595	Hebrew	וְזֶ֥ה	וְזֶ֥ה	wə·zeh	Conj-w | Pro-ms	Conjunctive waw | Pronoun - masculine singular	2088								 and this 				
+999999	1	536949	23146	Greek	Βίβλος	Βίβλος	Biblos	N-NFS	Noun - Nominative Feminine Singular		976	Matthew 1:1	<p class=|hdg|>The Genealogy of Jesus	<br /><span class=|cross|>(<a href =|../ruth/4.htm#18|>Ruth 4:18–22</a>; <a href =|../luke/3.htm#23|>Luke 3:23–38</a>)</span>	<p class=|reg|>			 [This is the] record 				
+999999	2	536950	23146	Greek	γενέσεως	γενέσεως	geneseōs	N-GFS	Noun - Genitive Feminine Singular		1078							 of [the] genealogy 				
+999999	3	536951	23146	Greek	Ἰησοῦ	Ἰησοῦ	Iēsou	N-GMS	Noun - Genitive Masculine Singular		2424							 of Jesus 				
+999999	4	536952	23146	Greek	Χριστοῦ	Χριστοῦ	Christou	N-GMS	Noun - Genitive Masculine Singular		5547							 Christ 	,			
+999999	5	536953	23146	Greek	υἱοῦ	υἱοῦ	huiou	N-GMS	Noun - Genitive Masculine Singular		5207							 [the] son 				
+999999	6	536954	23146	Greek	Δαυὶδ	Δαυὶδ	Dauid	N-GMS	Noun - Genitive Masculine Singular		1138							 of David 	,			
+999999	7	536955	23146	Greek	υἱοῦ	υἱοῦ	huiou	N-GMS	Noun - Genitive Masculine Singular		5207							 [the] son 				
+999999	8	536956	23146	Greek	Ἀβραάμ	Ἀβραάμ	Abraam	N-GMS	Noun - Genitive Masculine Singular		11							 of Abraham 	:			
+999999	9	536957	23146	Greek																		
+999999	10	536958	23146	Greek																		
+999999	11	536959	23146	Greek																		
+999999	12	536960	23146	Greek																		
+999999	13	536961	23146	Greek																		
+999999	14	536962	23146	Greek																		
+999999	15	536963	23146	Greek																		
+999999	16	536964	23146	Greek																		
+999999	17	536965	23146	Greek																		
+999999	18	536966	23146	Greek																		
+999999	20	536967	23147	Greek	Ἀβραὰμ	Ἀβραὰμ	Abraam	N-NMS	Noun - Nominative Masculine Singular		11	Matthew 1:2			<p class=|indent1stline|>			 Abraham 				
+999999	21	536968	23147	Greek	ἐγέννησεν	ἐγέννησεν	egennēsen	V-AIA-3S	Verb - Aorist Indicative Active - 3rd Person Singular		1080							 was the father of 				
+999999	22	536969	23147	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 - 				
+999999	23	536970	23147	Greek	Ἰσαάκ	Ἰσαάκ	Isaak	N-AMS	Noun - Accusative Masculine Singular		2464							 Isaac 	,			
+999999	25	536971	23147	Greek	δὲ	δὲ	de	Conj	Conjunction		1161				<p class=|indent1|>			 - 				
+999999	24	536972	23147	Greek	Ἰσαὰκ	Ἰσαὰκ	Isaak	N-NMS	Noun - Nominative Masculine Singular		2464							 Isaac 				
+999999	26	536973	23147	Greek	ἐγέννησεν	ἐγέννησεν	egennēsen	V-AIA-3S	Verb - Aorist Indicative Active - 3rd Person Singular		1080							 the father of 				
+999999	27	536974	23147	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 - 				
+999999	28	536975	23147	Greek	Ἰακώβ	Ἰακώβ	Iakōb	N-AMS	Noun - Accusative Masculine Singular		2384							 Jacob 	,			
+999999	30	536976	23147	Greek	δὲ	δὲ	de	Conj	Conjunction		1161				<p class=|indent1|>			 and 				
+999999	29	536977	23147	Greek	Ἰακὼβ	Ἰακὼβ	Iakōb	N-NMS	Noun - Nominative Masculine Singular		2384							 Jacob 				
+999999	31	536978	23147	Greek	ἐγέννησεν	ἐγέννησεν	egennēsen	V-AIA-3S	Verb - Aorist Indicative Active - 3rd Person Singular		1080							 the father of 				
+999999	32	536979	23147	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 - 				
+999999	33	536980	23147	Greek	Ἰούδαν	Ἰούδαν	Ioudan	N-AMS	Noun - Accusative Masculine Singular		2455							 Judah 				
+999999	34	536981	23147	Greek	καὶ	καὶ	kai	Conj	Conjunction		2532							 and 				
+999999	35	536982	23147	Greek	τοὺς	τοὺς	tous	Art-AMP	Article - Accusative Masculine Plural		3588							 - 				
+999999	37	536983	23147	Greek	αὐτοῦ	αὐτοῦ	autou	PPro-GM3S	Personal / Possessive Pronoun - Genitive Masculine 3rd Person Singular		846							 his 				
+999999	36	536984	23147	Greek	ἀδελφοὺς	ἀδελφοὺς	adelphous	N-AMP	Noun - Accusative Masculine Plural		80							 brothers 	.			
+999999	38	536985	23147	Greek																		
+999999	39	536986	23147	Greek																		
+999999	40	536987	23147	Greek																		
+999999	41	536988	23147	Greek																		
+999999	42	536989	23147	Greek																		
+999999	43	536990	23147	Greek																		
+999999	44	536991	23147	Greek																		
+999999	45	536992	23147	Greek																		
+999999	46	536993	23147	Greek																		
+999999	47	536994	23147	Greek																		
+999999	49	536995	23148	Greek	Ἰούδας	Ἰούδας	Ioudas	N-NMS	Noun - Nominative Masculine Singular		2455	Matthew 1:3			<p class=|indent1stline|>			 Judah 				
+999999	50	536996	23148	Greek	δὲ	δὲ	de	Conj	Conjunction		1161							 - 				
+999999	51	536997	23148	Greek	ἐγέννησεν	ἐγέννησεν	egennēsen	V-AIA-3S	Verb - Aorist Indicative Active - 3rd Person Singular		1080							 was the father of 				
+999999	52	536998	23148	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 - 				
+999999	53	536999	23148	Greek	Φαρὲς	Φαρὲς	Phares	N-AMS	Noun - Accusative Masculine Singular		5329							 Perez 				
+999999	83586	617545	26137	Greek	γὰρ	γὰρ	gar	Conj	Conjunction		1063	John 3:16			<p class=|red|>			 For 				
+999999	83588	617546	26137	Greek	ὁ	ὁ	ho	Art-NMS	Article - Nominative Masculine Singular		3588							 - 				
+999999	83589	617547	26137	Greek	Θεὸς	Θεὸς	Theos	N-NMS	Noun - Nominative Masculine Singular		2316							 God 				
+999999	83585	617548	26137	Greek	Οὕτως	Οὕτως	Houtōs	Adv	Adverb		3779							 so 				
+999999	83587	617549	26137	Greek	ἠγάπησεν	ἠγάπησεν	ēgapēsen	V-AIA-3S	Verb - Aorist Indicative Active - 3rd Person Singular		25							 loved 				
+999999	83590	617550	26137	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 the 				
+999999	83591	617551	26137	Greek	κόσμον	κόσμον	kosmon	N-AMS	Noun - Accusative Masculine Singular		2889							 world 				
+999999	83592	617552	26137	Greek	ὥστε	ὥστε	hōste	Conj	Conjunction		5620							 that 				
+999999	83597	617553	26137	Greek	ἔδωκεν	ἔδωκεν	edōken	V-AIA-3S	Verb - Aorist Indicative Active - 3rd Person Singular		1325							 He gave 				
+999999	83593	617554	26137	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 [His] 				
+999999	83595	617555	26137	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 - 				
+999999	83596	617556	26137	Greek	μονογενῆ	μονογενῆ	monogenē	Adj-AMS	Adjective - Accusative Masculine Singular		3439							 one and only 			Or <i>only begotten</i> or <i>unique</i>; also in verse 18	
+999999	83594	617557	26137	Greek	Υἱὸν	Υἱὸν	Huion	N-AMS	Noun - Accusative Masculine Singular		5207							 Son 	,			
+999999	83598	617558	26137	Greek	ἵνα	ἵνα	hina	Conj	Conjunction		2443							 that 				
+999999	83599	617559	26137	Greek	πᾶς	πᾶς	pas	Adj-NMS	Adjective - Nominative Masculine Singular		3956							 everyone 				
+999999	83600	617560	26137	Greek	ὁ	ὁ	ho	Art-NMS	Article - Nominative Masculine Singular		3588							 who 				
+999999	83601	617561	26137	Greek	πιστεύων	πιστεύων	pisteuōn	V-PPA-NMS	Verb - Present Participle Active - Nominative Masculine Singular		4100							 believes 				
+999999	83602	617562	26137	Greek	εἰς	εἰς	eis	Prep	Preposition		1519							 in 				
+999999	83603	617563	26137	Greek	αὐτὸν	αὐτὸν	auton	PPro-AM3S	Personal / Possessive Pronoun - Accusative Masculine 3rd Person Singular		846							 Him 				
+999999	83604	617564	26137	Greek	μὴ	μὴ	mē	Adv	Adverb		3361							 vvv 				
+999999	83605	617565	26137	Greek	ἀπόληται	ἀπόληται	apolētai	V-ASM-3S	Verb - Aorist Subjunctive Middle - 3rd Person Singular		622							 shall not perish 				
+999999	83606	617566	26137	Greek	ἀλλ’	ἀλλ’	all’	Conj	Conjunction		235							 but 				
+999999	83607	617567	26137	Greek	ἔχῃ	ἔχῃ	echē	V-PSA-3S	Verb - Present Subjunctive Active - 3rd Person Singular		2192							 have 				
+999999	83609	617568	26137	Greek	αἰώνιον	αἰώνιον	aiōnion	Adj-AFS	Adjective - Accusative Feminine Singular		166							 eternal 				
+999999	83608	617569	26137	Greek	ζωὴν	ζωὴν	zōēn	N-AFS	Noun - Accusative Feminine Singular		2222							 life 	.			
+999999	83610	617570	26137	Greek																		
+999999	83611	617571	26137	Greek																		
+999999	83612	617572	26137	Greek																		
+999999	83613	617573	26137	Greek																		
+999999	83614	617574	26137	Greek																		
+999999	83615	617575	26137	Greek																		
+999999	83616	617576	26137	Greek																		
+999999	83617	617577	26137	Greek																		
+999999	83618	617578	26137	Greek																		
+999999	83619	617579	26137	Greek																		
+999999	83622	617580	26138	Greek	γὰρ	γὰρ	gar	Conj	Conjunction		1063	John 3:17						 For 				
+999999	83624	617581	26138	Greek	ὁ	ὁ	ho	Art-NMS	Article - Nominative Masculine Singular		3588							 - 				
+999999	83625	617582	26138	Greek	Θεὸς	Θεὸς	Theos	N-NMS	Noun - Nominative Masculine Singular		2316							 God 				
+999999	83621	617583	26138	Greek	οὐ	οὐ	ou	Adv	Adverb		3756							 {did} not 				
+999999	83623	617584	26138	Greek	ἀπέστειλεν	ἀπέστειλεν	apesteilen	V-AIA-3S	Verb - Aorist Indicative Active - 3rd Person Singular		649							 send 				
+999999	83626	617585	26138	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 - 				
+999999	83627	617586	26138	Greek	Υἱὸν	Υἱὸν	Huion	N-AMS	Noun - Accusative Masculine Singular		5207							 His Son 				
+999999	83628	617587	26138	Greek	εἰς	εἰς	eis	Prep	Preposition		1519							 into 				
+999999	83629	617588	26138	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 the 				
+999999	83630	617589	26138	Greek	κόσμον	κόσμον	kosmon	N-AMS	Noun - Accusative Masculine Singular		2889							 world 				
+999999	83631	617590	26138	Greek	ἵνα	ἵνα	hina	Conj	Conjunction		2443							 to 				
+999999	83632	617591	26138	Greek	κρίνῃ	κρίνῃ	krinē	V-ASA-3S	Verb - Aorist Subjunctive Active - 3rd Person Singular		2919							 condemn 				
+999999	83633	617592	26138	Greek	τὸν	τὸν	ton	Art-AMS	Article - Accusative Masculine Singular		3588							 the 				
+999999	83634	617593	26138	Greek	κόσμον	κόσμον	kosmon	N-AMS	Noun - Accusative Masculine Singular		2889							 world 	,			
+999999	83635	617594	26138	Greek	ἀλλ’	ἀλλ’	all’	Conj	Conjunction		235							 but 				
+999999	83636	617595	26138	Greek	ἵνα	ἵνα	hina	Conj	Conjunction		2443							 to 				
+999999	83637	617596	26138	Greek	σωθῇ	σωθῇ	sōthē	V-ASP-3S	Verb - Aorist Subjunctive Passive - 3rd Person Singular		4982							 save 				
+999999	83638	617597	26138	Greek	ὁ	ὁ	ho	Art-NMS	Article - Nominative Masculine Singular		3588							 the 				
+999999	83639	617598	26138	Greek	κόσμος	κόσμος	kosmos	N-NMS	Noun - Nominative Masculine Singular		2889							 world 				
+999999	83640	617599	26138	Greek	δι’	δι’	di’	Prep	Preposition		1223							 through 				
+999999	225637	754610	31101	Greek	ὁ	ὁ	ho	Art-NMS	Article - Nominative Masculine Singular		3588	Revelation 22:20			<p class=|reg|>			 He who 				
+999999	225638	754611	31101	Greek	μαρτυρῶν	μαρτυρῶν	martyrōn	V-PPA-NMS	Verb - Present Participle Active - Nominative Masculine Singular		3140							 testifies to 				
+999999	225639	754612	31101	Greek	ταῦτα	ταῦτα	tauta	DPro-ANP	Demonstrative Pronoun - Accusative Neuter Plural		3778							 these things 				
+999999	225636	754613	31101	Greek	Λέγει	Λέγει	Legei	V-PIA-3S	Verb - Present Indicative Active - 3rd Person Singular		3004							 says 	,			
+999999	225640	754614	31101	Greek	Ναί	Ναί	Nai	Prtcl	Particle		3483				<span class=|red|>		“	 Yes 	,			
+999999	225641	754615	31101	Greek	ἔρχομαι	ἔρχομαι	erchomai	V-PIM/P-1S	Verb - Present Indicative Middle or Passive - 1st Person Singular		2064							 I am coming 				
+999999	225642	754616	31101	Greek	ταχύ	ταχύ	tachy	Adv	Adverb		5035							 soon 	.			”</span>
+999999	225643	754617	31101	Greek	Ἀμήν	Ἀμήν	Amēn	Heb	Hebrew Word 		281							 Amen 	.			
+999999	225644	754618	31101	Greek	ἔρχου	ἔρχου	erchou	V-PMM/P-2S	Verb - Present Imperative Middle or Passive - 2nd Person Singular		2064							 Come 	,			
+999999	225645	754619	31101	Greek	Κύριε	Κύριε	Kyrie	N-VMS	Noun - Vocative Masculine Singular		2962							 Lord 				
+999999	225646	754620	31101	Greek	Ἰησοῦ	Ἰησοῦ	Iēsou	N-VMS	Noun - Vocative Masculine Singular		2424							 Jesus 	!			
+999999	225647	754621	31101	Greek																		
+999999	225648	754622	31101	Greek																		
+999999	225649	754623	31101	Greek																		
+999999	225650	754624	31101	Greek																		
+999999	225651	754625	31101	Greek																		
+999999	225652	754626	31101	Greek																		
+999999	225653	754627	31101	Greek																		
+999999	225654	754628	31101	Greek																		
+999999	225655	754629	31101	Greek																		
+999999	225656	754630	31101	Greek																		
+999999	225658	754631	31102	Greek	Ἡ	Ἡ	Hē	Art-NFS	Article - Nominative Feminine Singular		3588	Revelation 22:21			<p class=|reg|>			 The 				
+999999	225659	754632	31102	Greek	χάρις	χάρις	charis	N-NFS	Noun - Nominative Feminine Singular		5485							 grace 				
+999999	225660	754633	31102	Greek	τοῦ	τοῦ	tou	Art-GMS	Article - Genitive Masculine Singular		3588							 of the 				
+999999	225661	754634	31102	Greek	Κυρίου	Κυρίου	Kyriou	N-GMS	Noun - Genitive Masculine Singular		2962							 Lord 				
+999999	225662	754635	31102	Greek	Ἰησοῦ	Ἰησοῦ	Iēsou	N-GMS	Noun - Genitive Masculine Singular		2424							 Jesus 			WH and BYZ <i>the Lord Jesus Christ</i>; TR <i>our Lord Jesus Christ</i>	
+999999	225663	754636	31102	Greek	μετὰ	μετὰ	meta	Prep	Preposition		3326							 [be] with 				
+999999	225664	754637	31102	Greek	πάντων	πάντων	pantōn	Adj-GMP	Adjective - Genitive Masculine Plural		3956							 all 				
+999999	225665	754638	31102	Greek	ἁγίων	⧼ἁγίων	hagiōn	Adj-GMP	Adjective - Genitive Masculine Plural		40							 the saints 	.		SBL, WH, NE, and TR do not include <i>the saints</i>.	
+999999	225666	754639	31102	Greek	Ἀμήν	Ἀμήν⧽	Amēn	Heb	Hebrew Word 		281				<p class=|reg|>			 Amen 	.		SBL, WH, NE, and NA do not include <i>Amen.</i>	
+999999	225667	754640	31102	Greek																		
+999999	225668	754641	31102	Greek																		
+999999	225669	754642	31102	Greek																		
+999999	225670	754643	31102	Greek																		
+999999	225671	754644	31102	Greek																		
+999999	225672	754645	31102	Greek																		
+999999	225673	754646	31102	Greek																		
+999999	225674	754647	31102	Greek																		
+999999	225675	754648	31102	Greek																		
+999999	225676	754649	31102	Greek																		
