@@ -1,6 +1,26 @@
 version: '3.8'
 
 services:
+  # Web service with UI
+  web:
+    build: .
+    container_name: bsb2usfm_web
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/input:ro
+      - ./results:/app/output
+      - ./demo_data:/app/demo_data:ro
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+      - PORT=5000
+    working_dir: /app
+    command: python3 webapp.py
+    restart: unless-stopped
+
+  # CLI service (for backward compatibility)
   bsb2usfm:
     build: .
     container_name: bsb2usfm_converter
@@ -14,8 +34,10 @@ services:
       - PYTHONUNBUFFERED=1
     working_dir: /app
     command: tail -f /dev/null  # Keep container running for interactive use
+    profiles:
+      - cli
 
-  # Optional: Run a specific conversion job
+  # CLI: Run a specific conversion job
   bsb2usfm-convert:
     build: .
     container_name: bsb2usfm_job
@@ -30,9 +52,10 @@ services:
     working_dir: /app
     command: python3 bsb2usfm.py /app/input/bsb_tables.csv -o /app/output/%.usfm
     profiles:
+      - cli
       - convert
 
-  # Optional: Run reference extraction
+  # CLI: Run reference extraction
   bsb2usfm-refs:
     build: .
     container_name: bsb2usfm_refs
@@ -46,6 +69,7 @@ services:
     working_dir: /app
     command: python3 getirefs.py /app/input/*.usfm -o /app/output/references.txt
     profiles:
+      - cli
       - refs
 
 volumes:

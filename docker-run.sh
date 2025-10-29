@@ -23,8 +23,11 @@ print_usage() {
     echo "Usage: $0 [COMMAND] [OPTIONS]"
     echo ""
     echo "Commands:"
-    echo "  build                 Build the Docker image"
-    echo "  convert [args]        Run conversion with optional arguments"
+    echo "  web                  Start web service (accessible at http://localhost:5000)"
+    echo "  web-stop             Stop web service"
+    echo "  web-logs             Show web service logs"
+    echo "  build                Build the Docker image"
+    echo "  convert [args]       Run conversion with optional arguments"
     echo "  refs [args]          Extract references from USFM files"
     echo "  shell                Start interactive shell in container"
     echo "  clean                Remove container and image"
@@ -32,6 +35,8 @@ print_usage() {
     echo "  help                 Show this help message"
     echo ""
     echo "Examples:"
+    echo "  $0 web                    # Start web interface"
+    echo "  $0 web-stop               # Stop web interface"
     echo "  $0 build"
     echo "  $0 convert data/bsb_tables.csv -o results/%.usfm"
     echo "  $0 convert data/bsb_tables.csv -o results/%.usfm -b GEN -b EXO"
@@ -93,6 +98,44 @@ cleanup_container() {
 ensure_directories() {
     mkdir -p data results demo_data
     print_info "Ensured data directories exist: data/, results/, demo_data/"
+}
+
+# Start web service
+start_web() {
+    ensure_directories
+
+    if ! image_exists; then
+        print_warning "Image not found. Building it first..."
+        build_image
+    fi
+
+    # Check if web service is already running
+    if docker ps --filter "name=bsb2usfm_web" --filter "status=running" | grep -q bsb2usfm_web; then
+        print_warning "Web service is already running"
+        print_info "Access it at http://localhost:5000"
+        return
+    fi
+
+    print_info "Starting web service..."
+    docker-compose up -d web
+
+    print_success "Web service started successfully!"
+    echo ""
+    print_info "Access the web interface at: ${GREEN}http://localhost:5000${NC}"
+    print_info "View logs with: $0 web-logs"
+    print_info "Stop with: $0 web-stop"
+}
+
+# Stop web service
+stop_web() {
+    print_info "Stopping web service..."
+    docker-compose down
+    print_success "Web service stopped"
+}
+
+# Show web service logs
+web_logs() {
+    docker-compose logs -f web
 }
 
 # Run conversion
@@ -181,6 +224,15 @@ if [ $# -eq 0 ]; then
 fi
 
 case "$1" in
+    web)
+        start_web
+        ;;
+    web-stop)
+        stop_web
+        ;;
+    web-logs)
+        web_logs
+        ;;
     build)
         build_image
         ;;

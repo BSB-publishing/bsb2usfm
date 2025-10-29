@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSB2USFM Converter - Web Interface</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .update-section {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .update-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 18px 50px;
+            font-size: 1.3em;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .update-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .update-button:active:not(:disabled) {
+            transform: translateY(0);
+        }
+
+        .update-button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+
+        .status-idle {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+
+        .status-running {
+            background: #fff3e0;
+            color: #f57c00;
+            animation: pulse 2s infinite;
+        }
+
+        .status-completed {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+
+        .status-error {
+            background: #ffebee;
+            color: #d32f2f;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        .progress-section {
+            margin-top: 30px;
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .progress-header h2 {
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .clear-button {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.2s;
+        }
+
+        .clear-button:hover {
+            background: #e0e0e0;
+        }
+
+        .progress-container {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .progress-container:empty::before {
+            content: 'No activity yet. Click "Update Data" to start.';
+            color: #999;
+            font-style: italic;
+        }
+
+        .progress-entry {
+            padding: 8px 12px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .progress-entry.info {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+        }
+
+        .progress-entry.success {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+        }
+
+        .progress-entry.warning {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+        }
+
+        .progress-entry.error {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+        }
+
+        .timestamp {
+            color: #666;
+            font-size: 0.85em;
+            margin-right: 10px;
+        }
+
+        .results-section {
+            margin-top: 20px;
+        }
+
+        .results-section h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .result-item {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.2s;
+        }
+
+        .result-item:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+
+        .result-filename {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+            word-break: break-all;
+        }
+
+        .result-size {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            padding: 20px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📖 BSB2USFM Converter</h1>
+            <p>Convert Berean Standard Bible tables to USFM format</p>
+        </div>
+
+        <div class="card">
+            <div class="update-section">
+                <button id="updateButton" class="update-button" onclick="startUpdate()">
+                    Update Data
+                </button>
+                <div>
+                    <span</div> id="statusBadge" class="status-badge status-idle">Idle</span>
+                </div>
+            </div>
+
+            <div class="stats" id="statsSection" style="display: none;">
+                <div class="stat-item">
+                    <div class="stat-value" id="fileCount">0</div>
+                    <div class="stat-label">Files Generated</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="duration">0s</div>
+                    <div class="stat-label">Duration</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="progress-section">
+                <div class="progress-header">
+                    <h2>Progress Log</h2>
+                    <button class="clear-button" onclick="clearProgress()">Clear</button>
+                </div>
+                <div id="progressContainer" class="progress-container"></div>
+            </div>
+        </div>
+
+        <div class="card" id="resultsCard" style="display: none;">
+            <div class="results-section">
+                <h3>📄 Generated Files</h3>
+                <div id="resultsGrid" class="results-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>BSB2USFM Web Interface | Powered by Flask</p>
+    </div>
+
+    <script>
+        let eventSource = null;
+        let startTime = null;
+        let durationInterval = null;
+
+        function updateStatus(status, message = '') {
+            const badge = document.getElementById('statusBadge');
+            badge.className = 'status-badge status-' + status;
+            
+            const statusText = {
+                'idle': 'Idle',
+                'running': 'Running',
+                'completed': 'Completed',
+                'error': 'Error'
+            };
+            
+            badge.textContent = statusText[status] || status;
+        }
+
+        function addProgressEntry(entry) {
+            const container = document.getElementById('progressContainer');
+            const div = document.createElement('div');
+            div.className = 'progress-entry ' + (entry.level || 'info');
+            
+            const timestamp = entry.timestamp || new Date().toLocaleTimeString();
+            div.innerHTML = `<span class="timestamp">[${timestamp}]</span>${entry.message}`;
+            
+            container.appendChild(div);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        function clearProgress() {
+            document.getElementById('progressContainer').innerHTML = '';
+        }
+
+        function updateDuration() {
+            if (startTime) {
+                const elapsed = Math.floor((Date.now() - startTime) / 1000);
+                document.getElementById('duration').textContent = elapsed + 's';
+            }
+        }
+
+        function showResults(results) {
+            if (!results || results.length === 0) {
+                return;
+            }
+
+            const card = document.getElementById('resultsCard');
+            const grid = document.getElementById('resultsGrid');
+            
+            grid.innerHTML = '';
+            results.forEach(file => {
+                const div = document.createElement('div');
+                div.className = 'result-item';
+                div.innerHTML = `
+                    <div class="result-filename">${file.filename}</div>
+                    <div class="result-size">${formatBytes(file.size)}</div>
+                `;
+                grid.appendChild(div);
+            });
+            
+            card.style.display = 'block';
+            document.getElementById('fileCount').textContent = results.length;
+            document.getElementById('statsSection').style.display = 'flex';
+        }
+
+        function formatBytes(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return Math.round(bytes / Math.pow(k, i) * 100) / 100 + ' ' + sizes[i];
+        }
+
+        function startUpdate() {
+            const button = document.getElementById('updateButton');
+            button.disabled = true;
+            button.innerHTML = 'Processing<span class="spinner"></span>';
+            
+            updateStatus('running');
+            startTime = Date.now();
+            durationInterval = setInterval(updateDuration, 1000);
+            
+            // Clear previous results
+            document.getElementById('resultsCard').style.display = 'none';
+            
+            // Start Server-Sent Events connection
+            if (eventSource) {
+                eventSource.close();
+            }
+            
+            eventSource = new EventSource('/api/progress/stream');
+            
+            eventSource.onmessage = function(event) {
+                const data = JSON.parse(event.data);
+                
+                if (data.type === 'complete') {
+                    eventSource.close();
+                    button.disabled = false;
+                    button.textContent = 'Update Data';
+                    updateStatus(data.status);
+                    
+                    if (durationInterval) {
+                        clearInterval(durationInterval);
+                        updateDuration();
+                    }
+                    
+                    // Fetch results
+                    fetch('/api/status')
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.results && data.results.length > 0) {
+                                showResults(data.results);
+                            }
+                        });
+                } else {
+                    addProgressEntry(data);
+                }
+            };
+            
+            eventSource.onerror = function(error) {
+                console.error('SSE Error:', error);
+                eventSource.close();
+                button.disabled = false;
+                button.textContent = 'Update Data';
+                updateStatus('error');
+                
+                if (durationInterval) {
+                    clearInterval(durationInterval);
+                }
+            };
+            
+            // Trigger the conversion
+            fetch('/api/update', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({})
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (!data.success) {
+                    addProgressEntry({
+                        message: 'Error: ' + data.error,
+                        level: 'error'
+                    });
+                    button.disabled = false;
+                    button.textContent = 'Update Data';
+                    updateStatus('error');
+                    if (eventSource) {
+                        eventSource.close();
+                    }
+                    if (durationInterval) {
+                        clearInterval(durationInterval);
+                    }
+                }
+            })
+            .catch(error => {
+                addProgressEntry({
+                    message: 'Error: ' + error.message,
+                    level: 'error'
+                });
+                button.disabled = false;
+                button.textContent = 'Update Data';
+                updateStatus('error');
+                if (eventSource) {
+                    eventSource.close();
+                }
+                if (durationInterval) {
+                    clearInterval(durationInterval);
+                }
+            });
+        }
+
+        // Check status on page load
+        window.addEventListener('load', function() {
+            fetch('/api/status')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.running) {
+                        updateStatus('running');
+                    } else if (data.status) {
+                        updateStatus(data.status);
+                    }
+                    
+                    // Load previous progress
+                    fetch('/api/progress')
+                        .then(response => response.json())
+                        .then(progressData => {
+                            progressData.progress.forEach(entry => {
+                                addProgressEntry(entry);
+                            });
+                        });
+                    
+                    // Show results if available
+                    if (data.results && data.results.length > 0) {
+                        showResults(data.results);
+                    }
+                });
+        });
+    </script>
+</body>
+</html>
