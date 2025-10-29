@@ -160,7 +160,7 @@ ptypes = {
 def debracket(s): return regex.sub(r"[\[\]{}]", "", s)
 
 class Processor:
-    def __init__(self, outname, books=None, fnqs=None, names=None, interlinear=False):
+    def __init__(self, outname, books=None, fnqs=None, names=None, interlinear=False, strongs=False, placeholders=False, brackets=False):
         self.doc = None
         self.currnode = None
         self.cref = None
@@ -173,6 +173,9 @@ class Processor:
         self.skipping = False
         self.verse_pending = False
         self.interlinear = interlinear
+        self.strongs = strongs
+        self.placeholders = placeholders
+        self.brackets = brackets
 
     def writedoc(self):
         bk = self.doc.book
@@ -407,11 +410,21 @@ class Processor:
             if not row[17].startswith("<span class=|reftext|"):
                 self.appendtext(" "+debracket(row[17]))
             self.pendinglstrip = True
-        if f[' BSB version ']:
-            t = debracket(f[' BSB version '])
+        bsb_content = f[' BSB version '] if f[' BSB version '] else ('. . .' if self.strongs and (f['Str Heb'] or f['Str Grk']) else None)
+        if self.strongs:
+            # To Do: fully handle self.strongs including generating corresponding USX output
+            # The below 4 lines are just a placeholders for now - need to handle Hebrew Strong's Number for : {bsb_content} - {f['BSB Sort']}
+            if f['Str Heb']:
+                print(f"Hebrew Strong's Number: {bsb_content} - {f['BSB Sort']}")
+            if f['Str Grk']:
+                print(f"Greek Strong's Number: {bsb_content} - {f['BSB Sort']}")
+        if bsb_content:
+            # handling self.brackets
+            t = debracket(bsb_content) if not self.brackets else bsb_content
             if regex.match(r"^[\d,]+$", t):
                 t = " " + t + " "
-            isblank = t.strip() in ('-', '. . .', 'vvv')
+            # handling self.placeholders
+            isblank = not self.placeholders and t.strip() in ('-', '. . .', 'vvv')
             iword = None
             if self.interlinear:
                 iword = f.get('WLC / Nestle Base TR RP WH NE NA SBL', None)
@@ -460,12 +473,22 @@ def open_input_source(source):
     if source.startswith(("http://", "https://")):
         print(f"Downloading from {source}...", file=sys.stderr)
         response = urllib.request.urlopen(source)
-#        content = response.read().decode("utf-8")
-        content = response.read().decode("utf-16")
+        content = response.read().decode("utf-8")
         return io.StringIO(content)
     else:
-#        return open(source, encoding="utf-8")
-        return open(source, encoding="utf-16")
+        # Try UTF-8 first, then fall back to UTF-16
+        for encoding in ['utf-8', 'utf-16']:
+            try:
+                f = open(source, encoding=encoding)
+                # Try to read first line to validate encoding
+                f.readline()
+                f.seek(0)
+                print(f"Using encoding: {encoding}", file=sys.stderr)
+                return f
+            except (UnicodeDecodeError, UnicodeError):
+                continue
+        # If both fail, use default
+        return open(source, encoding='utf-8')
 
 fnqs = {}
 if args.fnotes:
@@ -489,7 +512,8 @@ else:
     ndoc = None
 
 job = Processor(args.outfile, books=args.book, fnqs=(fnqs if len(fnqs) else None),
-                              names=ndoc, interlinear=args.interlinear)
+                              names=ndoc, interlinear=args.interlinear, strongs=args.strongs,
+                              placeholders=args.placeholders, brackets=args.brackets)
 with open_input_source(args.infile) as inf:
     rdr = csv.reader(inf, delimiter="\t")
     hdr = None

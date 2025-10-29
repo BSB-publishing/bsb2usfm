@@ -92,6 +92,22 @@ python3 bsb2usfm.py -o results/%.usfm \
   -b GEN -b EXO -b MAT
 ```
 
+### Advanced Options
+
+#### Interlinear Format
+
+Generate reverse interlinear format with `\rb` entries:
+
+```bash
+python3 bsb2usfm.py -o results/%.usfm -I
+```
+
+#### Strong's Numbers and other commandline options
+
+- `-S` / `--strongs`: Enable Strong's number processing
+- `-P` / `--placeholders`: Enable placeholder processing
+- `-B` / `--brackets`: Enable bracket processing
+
 ## Docker Usage
 
 ### Quick Start with Docker
@@ -119,6 +135,10 @@ python3 bsb2usfm.py -o results/%.usfm \
 | `-b, --book` | Book codes to include (repeatable) | `-b GEN -b EXO` |
 | `-n, --names` | Custom book names XML file | `-n book_names.xml` |
 | `-f, --fnotes` | Footnote styling TSV file | `-f footnotes.tsv` |
+| `-I, --interlinear` | Output `\rb` entries for reverse interlinear | `-I` |
+| `-S, --strongs` | Include Strong's numbers (requires -P and -B for debug output) | `-S` |
+| `-P, --placeholders` | Include placeholders (requires -S and -B for debug output) | `-P` |
+| `-B, --brackets` | Include brackets (requires -S and -P for debug output) | `-B` |
 
 ### Output Template Variables
 
