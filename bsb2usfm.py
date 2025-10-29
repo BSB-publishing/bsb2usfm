@@ -410,14 +410,9 @@ class Processor:
             if not row[17].startswith("<span class=|reftext|"):
                 self.appendtext(" "+debracket(row[17]))
             self.pendinglstrip = True
-        bsb_content = f[' BSB version '] if f[' BSB version '] else ('. . .' if self.strongs and (f['Str Heb'] or f['Str Grk']) else None)
-        if self.strongs:
-            # To Do: fully handle self.strongs including generating corresponding USX output
-            # The below 4 lines are just a placeholders for now - need to handle Hebrew Strong's Number for : {bsb_content} - {f['BSB Sort']}
-            if f['Str Heb']:
-                print(f"Hebrew Strong's Number: {bsb_content} - {f['BSB Sort']}")
-            if f['Str Grk']:
-                print(f"Greek Strong's Number: {bsb_content} - {f['BSB Sort']}")
+        bsb_content = f[' BSB version '] if f[' BSB version '] else ('. . .' if self.strongs and self.placeholders and (f['Str Heb'] or f['Str Grk']) else None)
+        isblank = False
+        t = None
         if bsb_content:
             # handling self.brackets
             t = debracket(bsb_content) if not self.brackets else bsb_content
@@ -425,6 +420,15 @@ class Processor:
                 t = " " + t + " "
             # handling self.placeholders
             isblank = not self.placeholders and t.strip() in ('-', '. . .', 'vvv')
+        if self.strongs and t and not isblank:
+            # To Do: fully handle self.strongs including generating corresponding USX output
+            # The below 4 lines are just a placeholders for now - need to handle Hebrew Strong's Number for : {bsb_content} - {f['BSB Sort']}
+            if f['Str Heb']:
+                print(f"Hebrew Strong's Number: {bsb_content} - {f['BSB Sort']}")
+            if f['Str Grk']:
+                print(f"Greek Strong's Number: {bsb_content} - {f['BSB Sort']}")
+        if t:
+            # handling self.brackets
             iword = None
             if self.interlinear:
                 iword = f.get('WLC / Nestle Base TR RP WH NE NA SBL', None)
