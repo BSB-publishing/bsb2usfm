@@ -26,7 +26,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
 COPY . .
 
 # Create directories for input/output
-RUN mkdir -p /app/input /app/output /app/results
+RUN mkdir -p /app/input /app/output /app/results /app/templates /app/static
 
 # Set permissions
 RUN chmod +x *.py
@@ -36,5 +36,9 @@ RUN useradd -m -u 1000 bsb2usfm && \
     chown -R bsb2usfm:bsb2usfm /app
 USER bsb2usfm
 
-# Default command
-CMD ["python3", "bsb2usfm.py", "--help"]
+# Expose port for web service
+EXPOSE 5000
+
+# Default command (can be overridden)
+# Use web service by default, or pass arguments for CLI mode
+CMD ["python3", "webapp.py"]

@@ -8,6 +8,7 @@ BSB2USFM converts structured CSV/TSV data containing biblical text, footnotes, c
 
 ## Features
 
+- **🌐 Web Interface**: Simple web UI with one-click data updates and real-time progress
 - **URL and local file support**: Download BSB tables from URL or use local files
 - **Complete Bible conversion**: Convert entire Bible or specific books
 - **Rich formatting support**: Headings, cross-references, footnotes, poetry, lists
@@ -41,7 +42,23 @@ chmod +x docker-run.sh
 ./docker-run.sh build
 ```
 
-## Usage
+## Quick Start: Web Interface 🌐
+
+The easiest way to use BSB2USFM is through the web interface:
+
+```bash
+# Start the web service
+./docker-run.sh web
+
+# Or with docker-compose
+docker-compose up -d web
+```
+
+Then open your browser to **http://localhost:5000** and click the **"Update Data"** button!
+
+See [README-WebService.md](README-WebService.md) for detailed web service documentation.
+
+## Usage (Command Line)
 
 ### Basic Conversion
 
@@ -110,7 +127,23 @@ python3 bsb2usfm.py -o results/%.usfm -I
 
 ## Docker Usage
 
-### Quick Start with Docker
+### Web Interface (Recommended)
+
+```bash
+# Start web service
+./docker-run.sh web
+
+# Access at http://localhost:5000
+# Click "Update Data" button to convert
+
+# View logs
+./docker-run.sh web-logs
+
+# Stop service
+./docker-run.sh web-stop
+```
+
+### Command Line Interface
 
 ```bash
 # Build the image
@@ -315,6 +348,12 @@ python3 getirefs.py results/*.usfm -o references.txt
 
 [Contribution guidelines here]
 
+## Documentation
+
+- **[README-WebService.md](README-WebService.md)** - Web interface documentation
+- **[README-Docker.md](README-Docker.md)** - Docker setup and usage
+- **[README.md](README.md)** - This file (general usage)
+
 ## Support
 
-[Support information here]
+For issues, questions, or contributions, please open an issue on the project repository.
