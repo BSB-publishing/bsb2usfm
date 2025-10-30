@@ -10,6 +10,7 @@ import json
 import threading
 import queue
 import time
+import logging
 from datetime import datetime
 from flask import Flask, render_template, jsonify, Response, request, send_file
 import subprocess
@@ -17,7 +18,24 @@ import glob
 import zipfile
 import io
 
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+logger = logging.getLogger(__name__)
+
 app = Flask(__name__)
+
+# Detect if running in production
+IS_PRODUCTION = os.environ.get('RENDER') or os.environ.get('FLY_APP_NAME')
+if IS_PRODUCTION:
+    logger.info("Running in PRODUCTION mode")
+else:
+    logger.info("Running in DEVELOPMENT mode")
 
 # Global state for tracking conversion progress
 conversion_state = {
@@ -44,7 +62,15 @@ def log_progress(message, level='info'):
     with state_lock:
         conversion_state['progress'].append(entry)
     progress_queue.put(entry)
+    
+    # Log to both stderr and Python logger
     print(f"[{timestamp}] [{level.upper()}] {message}", file=sys.stderr)
+    if level == 'error':
+        logger.error(message)
+    elif level == 'warning':
+        logger.warning(message)
+    else:
+        logger.info(message)
 
 
 def run_conversion(args=None):
@@ -335,14 +361,21 @@ def health():
     """Health check endpoint"""
     return jsonify({
         'status': 'healthy',
-        'timestamp': datetime.now().isoformat()
+        'timestamp': datetime.now().isoformat(),
+        'environment': 'production' if IS_PRODUCTION else 'development',
+        'conversion_running': conversion_state.get('running', False)
     })
 
 
 if __name__ == '__main__':
     # Ensure output directory exists
-    os.makedirs('/app/output', exist_ok=True)
+    output_dir = '/app/output'
+    os.makedirs(output_dir, exist_ok=True)
+    logger.info(f"Output directory: {output_dir}")
+    
+    # Get port from environment
+    port = int(os.environ.get('PORT', 5000))
+    logger.info(f"Starting web service on port {port}")
     
     # Run Flask app
-    port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False, threaded=True)

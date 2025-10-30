@@ -16,14 +16,17 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first for better caching
-COPY requirements.txt .
+COPY ../requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY . .
+# Copy application code from parent directory
+COPY ../*.py .
+COPY web_service/webapp.py .
+COPY web_service/templates ./templates/
+COPY web_service/static ./static/
 
 # Create directories for input/output
 RUN mkdir -p /app/input /app/output /app/results /app/templates /app/static

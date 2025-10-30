@@ -259,6 +259,21 @@
         .status-completed {
             background: #e8f5e9;
             color: #388e3c;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .status-completed:hover {
+            background: #c8e6c9;
+            transform: scale(1.05);
+        }
+
+        .status-completed.clickable {
+            cursor: pointer;
+        }
+
+        .status-completed.clickable::after {
+            content: " 📥";
         }
 
         .status-error {
@@ -460,11 +475,11 @@
 
         <div class="card">
             <div class="update-section">
-                <button id="updateButton" class="update-button" onclick="handleButtonClick()">
+                <button id="updateButton" class="update-button" onclick="startUpdate()">
                     Convert
                 </button>
                 <div>
-                    <span id="statusBadge" class="status-badge status-idle">Idle</span>
+                    <span id="statusBadge" class="status-badge status-idle" onclick="handleStatusClick()">Idle</span>
                 </div>
             </div>
 
@@ -662,72 +677,44 @@
             return Math.round(bytes / Math.pow(k, i) * 100) / 100 + ' ' + sizes[i];
         }
 
-        function handleButtonClick() {
-            const button = document.getElementById('updateButton');
-            if (!button) {
+        function handleStatusClick() {
+            const badge = document.getElementById('statusBadge');
+            if (!badge) {
                 return;
             }
 
-            // Check if button is in download mode
-            if (button.getAttribute('data-mode') === 'download') {
+            // Check if status badge is in download mode (completed)
+            if (badge.classList.contains('clickable')) {
                 downloadZip();
-            } else {
-                startUpdate();
             }
         }
 
         function downloadZip() {
-            const button = document.getElementById('updateButton');
-            if (button) {
-                button.disabled = true;
-                button.innerHTML = 'Downloading<span class="spinner"></span>';
+            const badge = document.getElementById('statusBadge');
+            const originalText = badge ? badge.textContent : '';
+
+            if (badge) {
+                badge.textContent = 'Downloading...';
+                badge.classList.remove('clickable');
             }
 
             // Download the zip file
             window.location.href = '/api/download';
 
-            // Re-enable button after a short delay
+            // Restore badge after download
             setTimeout(() => {
-                if (button) {
-                    button.disabled = false;
-                    // Get selected format for button text
-                    let format = 'usfm';
-                    const formatRadios = document.getElementsByName('format');
-                    for (const radio of formatRadios) {
-                        if (radio.checked) {
-                            format = radio.value.toUpperCase();
-                            break;
-                        }
-                    }
-                    button.innerHTML = `📥 Download ${format} Files (ZIP)`;
+                if (badge) {
+                    badge.textContent = originalText;
+                    badge.classList.add('clickable');
                 }
             }, 2000);
         }
 
-        function setButtonToDownloadMode() {
-            const button = document.getElementById('updateButton');
-            if (button) {
-                // Get selected format
-                let format = 'usfm';
-                const formatRadios = document.getElementsByName('format');
-                for (const radio of formatRadios) {
-                    if (radio.checked) {
-                        format = radio.value.toUpperCase();
-                        break;
-                    }
-                }
-                button.setAttribute('data-mode', 'download');
-                button.innerHTML = `📥 Download ${format} Files (ZIP)`;
-                button.disabled = false;
-            }
-        }
-
-        function setButtonToUpdateMode() {
-            const button = document.getElementById('updateButton');
-            if (button) {
-                button.setAttribute('data-mode', 'update');
-                button.innerHTML = 'Convert';
-                button.disabled = false;
+        function setStatusToDownloadMode() {
+            const badge = document.getElementById('statusBadge');
+            if (badge) {
+                badge.classList.add('clickable');
+                badge.title = 'Click to download ZIP file';
             }
         }
 
@@ -791,12 +778,21 @@
 
         function startUpdate() {
             const button = document.getElementById('updateButton');
+            const badge = document.getElementById('statusBadge');
+            
             if (!button) {
                 console.error('updateButton element not found');
                 return;
             }
+            
+            // Disable button during conversion
             button.disabled = true;
-            button.innerHTML = 'Processing<span class="spinner"></span>';
+            
+            // Remove download clickability from badge if present
+            if (badge) {
+                badge.classList.remove('clickable');
+                badge.title = '';
+            }
             
             // Disable options during conversion
             disableOptions();
@@ -825,7 +821,8 @@
                     eventSource.close();
                     updateStatus(data.status);
                     
-                    // Re-enable options
+                    // Re-enable button and options
+                    button.disabled = false;
                     enableOptions();
 
                     if (durationInterval) {
@@ -839,10 +836,8 @@
                         .then(data => {
                             if (data.results && data.results.length > 0) {
                                 showResults(data.results);
-                                // Change button to download mode
-                                setButtonToDownloadMode();
-                            } else {
-                                setButtonToUpdateMode();
+                                // Make status badge clickable for download
+                                setStatusToDownloadMode();
                             }
                         });
                 } else {
@@ -853,7 +848,7 @@
             eventSource.onerror = function(error) {
                 console.error('SSE Error:', error);
                 eventSource.close();
-                setButtonToUpdateMode();
+                button.disabled = false;
                 enableOptions();
                 updateStatus('error');
 
@@ -880,7 +875,7 @@
                         message: 'Error: ' + data.error,
                         level: 'error'
                     });
-                    setButtonToUpdateMode();
+                    button.disabled = false;
                     enableOptions();
                     updateStatus('error');
                     if (eventSource) {
@@ -896,7 +891,7 @@
                     message: 'Error: ' + error.message,
                     level: 'error'
                 });
-                setButtonToUpdateMode();
+                button.disabled = false;
                 enableOptions();
                 updateStatus('error');
                 if (eventSource) {
@@ -931,9 +926,9 @@
                     // Show results if available
                     if (data.results && data.results.length > 0) {
                         showResults(data.results);
-                        // Change button to download mode if completed
+                        // Make status badge clickable for download if completed
                         if (data.status === 'completed') {
-                            setButtonToDownloadMode();
+                            setStatusToDownloadMode();
                         }
                     }
                 });

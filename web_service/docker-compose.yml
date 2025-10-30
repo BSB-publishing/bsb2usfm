@@ -1,14 +1,16 @@
 services:
   # Web service with UI
   web:
-    build: .
+    build:
+      context: ..
+      dockerfile: web_service/Dockerfile
     container_name: bsb2usfm_web
     ports:
       - "5000:5000"
     volumes:
-      - ./data:/app/input:ro
-      - ./results:/app/output
-      - ./demo_data:/app/demo_data:ro
+      - ../data:/app/input:ro
+      - ../results:/app/output
+      - ../demo_data:/app/demo_data:ro
     environment:
       - PYTHONPATH=/app
       - PYTHONDONTWRITEBYTECODE=1
@@ -20,12 +22,14 @@ services:
 
   # CLI service (for backward compatibility)
   bsb2usfm:
-    build: .
+    build:
+      context: ..
+      dockerfile: web_service/Dockerfile
     container_name: bsb2usfm_converter
     volumes:
-      - ./data:/app/input:ro
-      - ./results:/app/output
-      - ./demo_data:/app/demo_data:ro
+      - ../data:/app/input:ro
+      - ../results:/app/output
+      - ../demo_data:/app/demo_data:ro
     environment:
       - PYTHONPATH=/app
       - PYTHONDONTWRITEBYTECODE=1
@@ -37,12 +41,14 @@ services:
 
   # CLI: Run a specific conversion job
   bsb2usfm-convert:
-    build: .
+    build:
+      context: ..
+      dockerfile: web_service/Dockerfile
     container_name: bsb2usfm_job
     volumes:
-      - ./data:/app/input:ro
-      - ./results:/app/output
-      - ./demo_data:/app/demo_data:ro
+      - ../data:/app/input:ro
+      - ../results:/app/output
+      - ../demo_data:/app/demo_data:ro
     environment:
       - PYTHONPATH=/app
       - PYTHONDONTWRITEBYTECODE=1
@@ -55,11 +61,13 @@ services:
 
   # CLI: Run reference extraction
   bsb2usfm-refs:
-    build: .
+    build:
+      context: ..
+      dockerfile: web_service/Dockerfile
     container_name: bsb2usfm_refs
     volumes:
-      - ./results:/app/input:ro
-      - ./results:/app/output
+      - ../results:/app/input:ro
+      - ../results:/app/output
     environment:
       - PYTHONPATH=/app
       - PYTHONDONTWRITEBYTECODE=1
