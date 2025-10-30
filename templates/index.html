@@ -55,6 +55,158 @@
             padding: 20px 0;
         }
 
+        .options-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .options-section h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .option-item {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+
+        .option-item:hover {
+            background: #f0f0f0;
+        }
+
+        .option-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            accent-color: #667eea;
+        }
+
+        .option-item input[type="checkbox"]:disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .option-item.disabled {
+            opacity: 0.6;
+        }
+
+        .option-item.disabled label {
+            cursor: not-allowed;
+        }
+
+        .option-item label {
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .option-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 3px;
+        }
+
+        .option-description {
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .format-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .format-section h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .format-options {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .format-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
+            background: #f9f9f9;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .format-item:hover {
+            background: #f0f0f0;
+            border-color: #667eea;
+        }
+
+        .format-item input[type="radio"] {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+            accent-color: #667eea;
+        }
+
+        .format-item input[type="radio"]:disabled {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .format-item.disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .format-item.disabled label {
+            cursor: not-allowed;
+        }
+
+        .format-item label {
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .format-item input[type="radio"]:checked + label {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .format-name {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 3px;
+        }
+
+        .format-description {
+            font-size: 0.85em;
+            color: #666;
+        }
+
         .update-button {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -308,11 +460,72 @@
 
         <div class="card">
             <div class="update-section">
-                <button id="updateButton" class="update-button" onclick="startUpdate()">
-                    Update Data
+                <button id="updateButton" class="update-button" onclick="handleButtonClick()">
+                    Convert
                 </button>
                 <div>
-                    <span</div> id="statusBadge" class="status-badge status-idle">Idle</span>
+                    <span id="statusBadge" class="status-badge status-idle">Idle</span>
+                </div>
+            </div>
+
+            <div class="format-section">
+                <h3>📄 Output Format</h3>
+                <div class="format-options">
+                    <div class="format-item">
+                        <input type="radio" id="formatUsfm" name="format" value="usfm" checked>
+                        <label for="formatUsfm">
+                            <span class="format-name">.usfm</span>
+                            <span class="format-description">Unified Standard Format Markers</span>
+                        </label>
+                    </div>
+                    <div class="format-item">
+                        <input type="radio" id="formatUsx" name="format" value="usx">
+                        <label for="formatUsx">
+                            <span class="format-name">.usx</span>
+                            <span class="format-description">USX XML Format</span>
+                        </label>
+                    </div>
+                    <div class="format-item">
+                        <input type="radio" id="formatUsj" name="format" value="usj">
+                        <label for="formatUsj">
+                            <span class="format-name">.usj</span>
+                            <span class="format-description">USJ JSON Format</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="options-section">
+                <h3>⚙️ Conversion Options</h3>
+                <div class="options-grid">
+                    <div class="option-item">
+                        <input type="checkbox" id="optInterlinear" name="interlinear">
+                        <label for="optInterlinear">
+                            <span class="option-title">Interlinear</span>
+                            <span class="option-description">Output \rb entries for reverse interlinear</span>
+                        </label>
+                    </div>
+                    <div class="option-item disabled">
+                        <input type="checkbox" id="optStrongs" name="strongs" disabled>
+                        <label for="optStrongs">
+                            <span class="option-title">Strong's Numbers</span>
+                            <span class="option-description">Include Strong's reference numbers (temporarily disabled)</span>
+                        </label>
+                    </div>
+                    <div class="option-item">
+                        <input type="checkbox" id="optPlaceholders" name="placeholders">
+                        <label for="optPlaceholders">
+                            <span class="option-title">Placeholders</span>
+                            <span class="option-description">Include placeholder markers</span>
+                        </label>
+                    </div>
+                    <div class="option-item">
+                        <input type="checkbox" id="optBrackets" name="brackets">
+                        <label for="optBrackets">
+                            <span class="option-title">Brackets</span>
+                            <span class="option-description">Include bracket notation</span>
+                        </label>
+                    </div>
                 </div>
             </div>
 
@@ -357,38 +570,52 @@
 
         function updateStatus(status, message = '') {
             const badge = document.getElementById('statusBadge');
+            if (!badge) {
+                console.error('statusBadge element not found');
+                return;
+            }
             badge.className = 'status-badge status-' + status;
-            
+
             const statusText = {
                 'idle': 'Idle',
                 'running': 'Running',
                 'completed': 'Completed',
                 'error': 'Error'
             };
-            
+
             badge.textContent = statusText[status] || status;
         }
 
         function addProgressEntry(entry) {
             const container = document.getElementById('progressContainer');
+            if (!container) {
+                console.error('progressContainer element not found');
+                return;
+            }
             const div = document.createElement('div');
             div.className = 'progress-entry ' + (entry.level || 'info');
-            
+
             const timestamp = entry.timestamp || new Date().toLocaleTimeString();
             div.innerHTML = `<span class="timestamp">[${timestamp}]</span>${entry.message}`;
-            
+
             container.appendChild(div);
             container.scrollTop = container.scrollHeight;
         }
 
         function clearProgress() {
-            document.getElementById('progressContainer').innerHTML = '';
+            const container = document.getElementById('progressContainer');
+            if (container) {
+                container.innerHTML = '';
+            }
         }
 
         function updateDuration() {
             if (startTime) {
                 const elapsed = Math.floor((Date.now() - startTime) / 1000);
-                document.getElementById('duration').textContent = elapsed + 's';
+                const durationEl = document.getElementById('duration');
+                if (durationEl) {
+                    durationEl.textContent = elapsed + 's';
+                }
             }
         }
 
@@ -399,7 +626,14 @@
 
             const card = document.getElementById('resultsCard');
             const grid = document.getElementById('resultsGrid');
-            
+            const fileCount = document.getElementById('fileCount');
+            const statsSection = document.getElementById('statsSection');
+
+            if (!grid || !card) {
+                console.error('Results elements not found');
+                return;
+            }
+
             grid.innerHTML = '';
             results.forEach(file => {
                 const div = document.createElement('div');
@@ -410,10 +644,14 @@
                 `;
                 grid.appendChild(div);
             });
-            
+
             card.style.display = 'block';
-            document.getElementById('fileCount').textContent = results.length;
-            document.getElementById('statsSection').style.display = 'flex';
+            if (fileCount) {
+                fileCount.textContent = results.length;
+            }
+            if (statsSection) {
+                statsSection.style.display = 'flex';
+            }
         }
 
         function formatBytes(bytes) {
@@ -424,71 +662,216 @@
             return Math.round(bytes / Math.pow(k, i) * 100) / 100 + ' ' + sizes[i];
         }
 
+        function handleButtonClick() {
+            const button = document.getElementById('updateButton');
+            if (!button) {
+                return;
+            }
+
+            // Check if button is in download mode
+            if (button.getAttribute('data-mode') === 'download') {
+                downloadZip();
+            } else {
+                startUpdate();
+            }
+        }
+
+        function downloadZip() {
+            const button = document.getElementById('updateButton');
+            if (button) {
+                button.disabled = true;
+                button.innerHTML = 'Downloading<span class="spinner"></span>';
+            }
+
+            // Download the zip file
+            window.location.href = '/api/download';
+
+            // Re-enable button after a short delay
+            setTimeout(() => {
+                if (button) {
+                    button.disabled = false;
+                    // Get selected format for button text
+                    let format = 'usfm';
+                    const formatRadios = document.getElementsByName('format');
+                    for (const radio of formatRadios) {
+                        if (radio.checked) {
+                            format = radio.value.toUpperCase();
+                            break;
+                        }
+                    }
+                    button.innerHTML = `📥 Download ${format} Files (ZIP)`;
+                }
+            }, 2000);
+        }
+
+        function setButtonToDownloadMode() {
+            const button = document.getElementById('updateButton');
+            if (button) {
+                // Get selected format
+                let format = 'usfm';
+                const formatRadios = document.getElementsByName('format');
+                for (const radio of formatRadios) {
+                    if (radio.checked) {
+                        format = radio.value.toUpperCase();
+                        break;
+                    }
+                }
+                button.setAttribute('data-mode', 'download');
+                button.innerHTML = `📥 Download ${format} Files (ZIP)`;
+                button.disabled = false;
+            }
+        }
+
+        function setButtonToUpdateMode() {
+            const button = document.getElementById('updateButton');
+            if (button) {
+                button.setAttribute('data-mode', 'update');
+                button.innerHTML = 'Convert';
+                button.disabled = false;
+            }
+        }
+
+        function getConversionOptions() {
+            // Get selected format
+            let format = 'usfm';
+            const formatRadios = document.getElementsByName('format');
+            for (const radio of formatRadios) {
+                if (radio.checked) {
+                    format = radio.value;
+                    break;
+                }
+            }
+
+            return {
+                format: format,
+                interlinear: document.getElementById('optInterlinear')?.checked || false,
+                strongs: document.getElementById('optStrongs')?.checked || false,
+                placeholders: document.getElementById('optPlaceholders')?.checked || false,
+                brackets: document.getElementById('optBrackets')?.checked || false
+            };
+        }
+
+        function disableOptions() {
+            // Disable format radio buttons
+            document.getElementById('formatUsfm').disabled = true;
+            document.getElementById('formatUsx').disabled = true;
+            document.getElementById('formatUsj').disabled = true;
+            document.querySelectorAll('.format-item').forEach(item => {
+                item.classList.add('disabled');
+            });
+
+            // Disable option checkboxes
+            document.getElementById('optInterlinear').disabled = true;
+            // optStrongs is always disabled
+            document.getElementById('optPlaceholders').disabled = true;
+            document.getElementById('optBrackets').disabled = true;
+            document.querySelectorAll('.option-item').forEach(item => {
+                item.classList.add('disabled');
+            });
+        }
+
+        function enableOptions() {
+            // Enable format radio buttons
+            document.getElementById('formatUsfm').disabled = false;
+            document.getElementById('formatUsx').disabled = false;
+            document.getElementById('formatUsj').disabled = false;
+            document.querySelectorAll('.format-item').forEach(item => {
+                item.classList.remove('disabled');
+            });
+
+            // Enable option checkboxes
+            document.getElementById('optInterlinear').disabled = false;
+            // optStrongs remains disabled
+            document.getElementById('optPlaceholders').disabled = false;
+            document.getElementById('optBrackets').disabled = false;
+            document.querySelectorAll('.option-item').forEach(item => {
+                item.classList.remove('disabled');
+            });
+        }
+
         function startUpdate() {
             const button = document.getElementById('updateButton');
+            if (!button) {
+                console.error('updateButton element not found');
+                return;
+            }
             button.disabled = true;
             button.innerHTML = 'Processing<span class="spinner"></span>';
             
+            // Disable options during conversion
+            disableOptions();
+
             updateStatus('running');
             startTime = Date.now();
             durationInterval = setInterval(updateDuration, 1000);
-            
+
             // Clear previous results
-            document.getElementById('resultsCard').style.display = 'none';
-            
+            const resultsCard = document.getElementById('resultsCard');
+            if (resultsCard) {
+                resultsCard.style.display = 'none';
+            }
+
             // Start Server-Sent Events connection
             if (eventSource) {
                 eventSource.close();
             }
-            
+
             eventSource = new EventSource('/api/progress/stream');
-            
+
             eventSource.onmessage = function(event) {
                 const data = JSON.parse(event.data);
-                
+
                 if (data.type === 'complete') {
                     eventSource.close();
-                    button.disabled = false;
-                    button.textContent = 'Update Data';
                     updateStatus(data.status);
                     
+                    // Re-enable options
+                    enableOptions();
+
                     if (durationInterval) {
                         clearInterval(durationInterval);
                         updateDuration();
                     }
-                    
+
                     // Fetch results
                     fetch('/api/status')
                         .then(response => response.json())
                         .then(data => {
                             if (data.results && data.results.length > 0) {
                                 showResults(data.results);
+                                // Change button to download mode
+                                setButtonToDownloadMode();
+                            } else {
+                                setButtonToUpdateMode();
                             }
                         });
                 } else {
                     addProgressEntry(data);
                 }
             };
-            
+
             eventSource.onerror = function(error) {
                 console.error('SSE Error:', error);
                 eventSource.close();
-                button.disabled = false;
-                button.textContent = 'Update Data';
+                setButtonToUpdateMode();
+                enableOptions();
                 updateStatus('error');
-                
+
                 if (durationInterval) {
                     clearInterval(durationInterval);
                 }
             };
-            
+
+            // Get conversion options from checkboxes
+            const options = getConversionOptions();
+
             // Trigger the conversion
             fetch('/api/update', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({})
+                body: JSON.stringify(options)
             })
             .then(response => response.json())
             .then(data => {
@@ -497,8 +880,8 @@
                         message: 'Error: ' + data.error,
                         level: 'error'
                     });
-                    button.disabled = false;
-                    button.textContent = 'Update Data';
+                    setButtonToUpdateMode();
+                    enableOptions();
                     updateStatus('error');
                     if (eventSource) {
                         eventSource.close();
@@ -513,8 +896,8 @@
                     message: 'Error: ' + error.message,
                     level: 'error'
                 });
-                button.disabled = false;
-                button.textContent = 'Update Data';
+                setButtonToUpdateMode();
+                enableOptions();
                 updateStatus('error');
                 if (eventSource) {
                     eventSource.close();
@@ -535,7 +918,7 @@
                     } else if (data.status) {
                         updateStatus(data.status);
                     }
-                    
+
                     // Load previous progress
                     fetch('/api/progress')
                         .then(response => response.json())
@@ -544,10 +927,14 @@
                                 addProgressEntry(entry);
                             });
                         });
-                    
+
                     // Show results if available
                     if (data.results && data.results.length > 0) {
                         showResults(data.results);
+                        // Change button to download mode if completed
+                        if (data.status === 'completed') {
+                            setButtonToDownloadMode();
+                        }
                     }
                 });
         });

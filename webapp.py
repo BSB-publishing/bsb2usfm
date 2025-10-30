@@ -11,9 +11,11 @@ import threading
 import queue
 import time
 from datetime import datetime
-from flask import Flask, render_template, jsonify, Response, request
+from flask import Flask, render_template, jsonify, Response, request, send_file
 import subprocess
 import glob
+import zipfile
+import io
 
 app = Flask(__name__)
 
@@ -67,7 +69,9 @@ def run_conversion(args=None):
         if args is None:
             args = {}
         
-        output_path = args.get('output', '/app/output/%.usfm')
+        # Get format from args, default to 'usfm'
+        format_ext = args.get('format', 'usfm')
+        output_path = args.get('output', f'/app/output/%.{format_ext}')
         cmd.extend(['-o', output_path])
         
         # Add book filters if specified
@@ -116,12 +120,13 @@ def run_conversion(args=None):
         
         log_progress("Conversion completed successfully!")
         
-        # List generated files
+        # List generated files based on format
         output_dir = '/app/output'
-        usfm_files = glob.glob(os.path.join(output_dir, '*.usfm'))
+        format_ext = args.get('format', 'usfm')
+        usfm_files = glob.glob(os.path.join(output_dir, f'*.{format_ext}'))
         
         if usfm_files:
-            log_progress(f"Generated {len(usfm_files)} USFM files:")
+            log_progress(f"Generated {len(usfm_files)} {format_ext.upper()} files:")
             results = []
             for filepath in sorted(usfm_files):
                 filename = os.path.basename(filepath)
@@ -136,7 +141,7 @@ def run_conversion(args=None):
             with state_lock:
                 conversion_state['results'] = results
         else:
-            log_progress("No USFM files were generated", 'warning')
+            log_progress(f"No {format_ext.upper()} files were generated", 'warning')
         
         with state_lock:
             conversion_state['status'] = 'completed'
@@ -235,8 +240,10 @@ def trigger_update():
     args = {}
     if request.is_json:
         data = request.get_json()
+        format_ext = data.get('format', 'usfm')
         args = {
-            'output': data.get('output', '/app/output/%.usfm'),
+            'format': format_ext,
+            'output': data.get('output', f'/app/output/%.{format_ext}'),
             'books': data.get('books', []),
             'interlinear': data.get('interlinear', False),
             'strongs': data.get('strongs', False),
@@ -259,7 +266,10 @@ def trigger_update():
 def get_results():
     """Get list of generated USFM files"""
     output_dir = '/app/output'
-    usfm_files = glob.glob(os.path.join(output_dir, '*.usfm'))
+    # Check all possible formats
+    usfm_files = []
+    for ext in ['usfm', 'usx', 'usj']:
+        usfm_files.extend(glob.glob(os.path.join(output_dir, f'*.{ext}')))
     
     results = []
     for filepath in sorted(usfm_files):
@@ -276,6 +286,48 @@ def get_results():
         'count': len(results),
         'files': results
     })
+
+
+@app.route('/api/download')
+def download_zip():
+    """Download all generated USFM files as a zip archive"""
+    output_dir = '/app/output'
+    # Check all possible formats
+    usfm_files = []
+    detected_format = 'usfm'
+    for ext in ['usfm', 'usx', 'usj']:
+        files = glob.glob(os.path.join(output_dir, f'*.{ext}'))
+        if files:
+            detected_format = ext
+            usfm_files.extend(files)
+    
+    if not usfm_files:
+        return jsonify({
+            'success': False,
+            'error': 'No output files found'
+        }), 404
+    
+    # Create zip file in memory
+    memory_file = io.BytesIO()
+    
+    with zipfile.ZipFile(memory_file, 'w', zipfile.ZIP_DEFLATED) as zf:
+        for filepath in sorted(usfm_files):
+            filename = os.path.basename(filepath)
+            zf.write(filepath, filename)
+    
+    # Seek to the beginning of the file
+    memory_file.seek(0)
+    
+    # Generate filename with timestamp and format
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    zip_filename = f'bsb_{detected_format}_{timestamp}.zip'
+    
+    return send_file(
+        memory_file,
+        mimetype='application/zip',
+        as_attachment=True,
+        download_name=zip_filename
+    )
 
 
 @app.route('/health')
