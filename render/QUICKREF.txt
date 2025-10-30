@@ -1,0 +1,175 @@
+═══════════════════════════════════════════════════════════════
+    BSB2USFM → RENDER.COM DEPLOYMENT GUIDE
+═══════════════════════════════════════════════════════════════
+
+📋 QUICK START (5 Minutes)
+──────────────────────────────────────────────────────────────
+
+STEP 1: Test Locally ✅
+  $ docker-compose up -d web
+  $ open http://localhost:5000
+  # Test conversion → Download ZIP → Verify
+  $ docker-compose down
+
+STEP 2: Push to Git ✅
+  $ git add .
+  $ git commit -m "Ready for Render"
+  $ git push origin main
+
+STEP 3: Deploy on Render.com ✅
+  • Go to: https://render.com
+  • Sign up with GitHub/GitLab
+  • Click: New + → Web Service
+  • Select: Your repository
+  • Choose: Docker environment
+  • Select: Free plan
+  • Set health check: /health
+  • Click: Create Web Service
+  • Wait: 5-10 minutes
+  • Done! 🎉
+
+STEP 4: Test Deployment ✅
+  $ curl https://your-app.onrender.com/health
+  # Should return: {"status":"healthy","environment":"production"}
+
+──────────────────────────────────────────────────────────────
+
+📚 DOCUMENTATION FILES
+──────────────────────────────────────────────────────────────
+
+START HERE → DEPLOY-QUICKSTART.md (5-minute guide)
+DETAILS    → DEPLOYMENT.md (complete guide)
+CHECKLIST  → .deployment-checklist.md (before deploying)
+OVERVIEW   → README-Deployment-Summary.md (summary)
+
+──────────────────────────────────────────────────────────────
+
+💰 FREE TIER DETAILS
+──────────────────────────────────────────────────────────────
+
+Cost:        $0/month
+Hours:       750/month (enough for 24/7)
+Memory:      512 MB
+Storage:     1 GB persistent disk
+CPU:         Shared
+Sleep:       After 15 min inactivity
+Wake Time:   ~30 seconds
+Conversion:  3-5 minutes
+HTTPS:       Automatic ✅
+Auto-Deploy: From Git ✅
+
+──────────────────────────────────────────────────────────────
+
+💡 KEY POINTS
+──────────────────────────────────────────────────────────────
+
+✅ ALWAYS test locally before deploying
+✅ All debugging happens locally (never in cloud)
+✅ Service sleeps after 15 min (normal behavior)
+✅ First request after sleep takes 30s
+✅ Render auto-detects render.yaml file
+✅ Push to Git = automatic deployment
+
+──────────────────────────────────────────────────────────────
+
+🎯 LOCAL COMMANDS
+──────────────────────────────────────────────────────────────
+
+Build:       docker-compose build web
+Start:       docker-compose up -d web
+Logs:        docker-compose logs -f web
+Shell:       docker-compose exec web bash
+Stop:        docker-compose down
+Health:      curl http://localhost:5000/health
+
+──────────────────────────────────────────────────────────────
+
+🌐 RENDER DASHBOARD
+──────────────────────────────────────────────────────────────
+
+View Logs:   Dashboard → Logs tab
+Shell:       Dashboard → Shell tab
+Deploy:      Dashboard → Manual Deploy button
+Settings:    Dashboard → Settings tab
+Metrics:     Dashboard shows CPU/memory usage
+
+──────────────────────────────────────────────────────────────
+
+⚡ UPGRADE TO PAID ($7/month)
+──────────────────────────────────────────────────────────────
+
+Benefits:
+• Always on (no sleep)
+• 2x-3x faster CPU
+• 2GB+ memory
+• Priority support
+• Conversion: 2-3 min (vs 3-5 min)
+
+How to Upgrade:
+Dashboard → Settings → Select "Starter" → Confirm
+
+──────────────────────────────────────────────────────────────
+
+🆘 TROUBLESHOOTING
+──────────────────────────────────────────────────────────────
+
+Build Fails:
+  → Test locally: docker-compose build web
+  → Check Render logs in dashboard
+
+Service Won't Start:
+  → Test locally: docker-compose up web
+  → Check health: curl http://localhost:5000/health
+  → Review Render logs
+
+Conversion Fails:
+  → Test locally with same options
+  → Check memory usage (512MB limit)
+  → Review logs during conversion
+
+Slow Performance:
+  → Normal on free tier (shared CPU)
+  → Conversion takes 3-5 minutes
+  → Consider upgrading to paid tier
+
+Service Sleeping:
+  → Normal behavior on free tier
+  → Sleeps after 15 min inactivity
+  → First request takes ~30s to wake
+
+──────────────────────────────────────────────────────────────
+
+📞 GETTING HELP
+──────────────────────────────────────────────────────────────
+
+1. Test locally first (reproduce issue)
+2. Check Render logs (Dashboard → Logs)
+3. Review DEPLOYMENT.md (detailed troubleshooting)
+4. Render docs: https://render.com/docs
+5. Community: https://community.render.com
+
+──────────────────────────────────────────────────────────────
+
+✅ SUCCESS CRITERIA
+──────────────────────────────────────────────────────────────
+
+Your deployment is successful when:
+☑ Service shows "Live" in Render dashboard
+☑ Health endpoint responds: /health
+☑ Web UI loads at your Render URL
+☑ Can complete full conversion workflow
+☑ All 3 formats work (USFM, USX, USJ)
+☑ ZIP download contains 66 valid files
+☑ No critical errors in logs
+
+──────────────────────────────────────────────────────────────
+
+🎉 YOU'RE READY!
+──────────────────────────────────────────────────────────────
+
+Your BSB2USFM converter is configured and ready to deploy
+to Render.com with the free tier!
+
+Next step: Read DEPLOY-QUICKSTART.md and deploy! 🚀
+
+═══════════════════════════════════════════════════════════════

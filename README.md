@@ -47,16 +47,19 @@ chmod +x docker-run.sh
 The easiest way to use BSB2USFM is through the web interface:
 
 ```bash
-# Start the web service
-./docker-run.sh web
+# Navigate to web service folder
+cd web_service
 
-# Or with docker-compose
+# Start the web service
 docker-compose up -d web
+
+# Or use the convenience script
+./docker-run.sh web
 ```
 
-Then open your browser to **http://localhost:5000** and click the **"Update Data"** button!
+Then open your browser to **http://localhost:5000** and click the **"Convert"** button!
 
-See [README-WebService.md](README-WebService.md) for detailed web service documentation.
+See [web_service/README-WebService.md](web_service/README-WebService.md) for detailed web service documentation.
 
 ## Usage (Command Line)
 
@@ -350,9 +353,43 @@ python3 getirefs.py results/*.usfm -o references.txt
 
 ## Documentation
 
-- **[README-WebService.md](README-WebService.md)** - Web interface documentation
-- **[README-Docker.md](README-Docker.md)** - Docker setup and usage
-- **[README.md](README.md)** - This file (general usage)
+### Core Documentation
+- **[README.md](README.md)** - This file (general usage and CLI)
+
+### Web Service & Docker
+- **[web_service/](web_service/)** - Web interface and Docker files
+- **[web_service/README-WebService.md](web_service/README-WebService.md)** - Web interface documentation
+- **[web_service/README-Docker.md](web_service/README-Docker.md)** - Docker setup and usage
+- **[web_service/INDEX.md](web_service/INDEX.md)** - Web service navigation guide
+
+### Cloud Deployment
+- **[render/](render/)** - Cloud deployment on Render.com (free tier)
+- **[render/DEPLOY-QUICKSTART.md](render/DEPLOY-QUICKSTART.md)** - 5-minute deployment guide
+- **[render/INDEX.md](render/INDEX.md)** - Deployment navigation guide
+
+## Quick Access
+
+### Web Service (Local)
+```bash
+cd web_service/
+docker-compose up -d web
+open http://localhost:5000
+```
+
+### Cloud Deployment (Render.com)
+```bash
+cd render/
+cat DEPLOY-QUICKSTART.md  # Follow 5-minute guide
+```
+
+**Quick deploy to cloud:**
+1. Test locally: `cd web_service && docker-compose up -d web`
+2. Push to Git: `git push origin main`
+3. Sign up at https://render.com
+4. Connect repository → Docker + Free plan
+5. Deploy! 🚀
+
+📚 **Full docs**: [web_service/INDEX.md](web_service/INDEX.md) | [render/INDEX.md](render/INDEX.md)
 
 ## Support
 
