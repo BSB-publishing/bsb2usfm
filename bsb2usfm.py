@@ -344,7 +344,7 @@ class Processor:
         self.currnode.append(vnode)
         self.verse_pending = False
 
-    def appendtext(self, txt, rb=None, isverse=True, dostrip=True):
+    def appendtext(self, txt, alt=None, mode=None, isverse=True, dostrip=True):
         if self.currnode is None:
             print(f"Nothing to add text: {txt} to")
             return
@@ -354,32 +354,36 @@ class Processor:
             self.appendverse()
             txt = txt.lstrip()
         txt = removeentities(txt)
-        if rb is not None:
-            rbnode = self.currnode.makeelement('char', {"style": 'rb', "gloss": rb})
+        node = None
+        if mode == "interlinear":
+            node = self.currnode.makeelement('char', {"style": 'rb', "gloss": alt})
+        elif mode == "strongs":
+            node = self.currnode.makeelement('char', {"style": "w", 'strong': alt})
+        if node is not None:
             if (m := regex.match(r"^\s+", txt)) is not None:
-                rbnode.text = txt[m.end():]
+                node.text = txt[m.end():]
                 if len(self.currnode):
                     self.currnode[-1].tail = (self.currnode[-1].tail or "") + txt[:m.end()]
                 else:
                     self.currnode.text = (self.currnode.text or "") + txt[:m.end()]
             else:
-                rbnode.text = txt
-            self.currnode.append(rbnode)
+                node.text = txt
+            self.currnode.append(node)
         elif len(self.currnode):
             self.currnode[-1].tail = (self.currnode[-1].tail or "") + txt
         else:
             self.currnode.text = (self.currnode.text or "") + txt
 
-    def appendjunkytext(self, txt, rb=None):
+    def appendjunkytext(self, txt, alt=None, mode=None):
         while (m := regex.search(r"<p class=\|(.*?)\|>", txt)) != None:
-            self.appendtext(txt[:m.start()], rb=rb)
+            self.appendtext(txt[:m.start()], alt=alt, mode=mode)
             c = ptypes.get(m.group(1), None)
             if c is not None:
                 self.currnode = c.addto(self.currnode)
             txt = txt[m.end():]
             rb = None
         if txt:
-            self.appendtext(txt, rb=rb)
+            self.appendtext(txt, alt=alt, mode=mode)
 
     def processline(self, row):
         f = {k: row[i] for i, k in enumerate(self.fields)}
@@ -420,20 +424,21 @@ class Processor:
                 t = " " + t + " "
             # handling self.placeholders
             isblank = not self.placeholders and t.strip() in ('-', '. . .', 'vvv')
-        if self.strongs and t and not isblank:
-            # To Do: fully handle self.strongs including generating corresponding USX output
-            # The below 4 lines are just a placeholders for now - need to handle Hebrew Strong's Number for : {bsb_content} - {f['BSB Sort']}
-            if f['Str Heb']:
-                print(f"Hebrew Strong's Number: {bsb_content} - {f['BSB Sort']}")
-            if f['Str Grk']:
-                print(f"Greek Strong's Number: {bsb_content} - {f['BSB Sort']}")
         if t:
             # handling self.brackets
             iword = None
+            mode = None
             if self.interlinear:
                 iword = f.get('WLC / Nestle Base TR RP WH NE NA SBL', None)
+                mode = "interlinear"
+            elif self.strongs:
+                for a in ('Heb', 'Grk'):
+                    if f['Str '+a]:
+                        iword = a[0]+f['Str '+a]
+                        mode = "strongs"
+                        break
             if "<p class=" in t:
-                self.appendjunkytext(t, rb=iword)
+                self.appendjunkytext(t, alt=iword, mode=mode)
             elif not isblank or self.interlinear:
                 if self.pendinglstrip:
                     t = t.lstrip()
@@ -443,7 +448,7 @@ class Processor:
                     self.pendinglstrip = True
                 if isblank:
                     t = ""
-                self.appendtext(t, rb=iword)
+                self.appendtext(t, alt=iword, mode=mode)
         if f['pnc']:
             self.addend(f['pnc'])
         if row[20]:
@@ -459,13 +464,17 @@ parser.add_argument("-o","--outfile",help="Ouput usfm file template with %% for 
 parser.add_argument("-f","--fnotes",help="Footnote styling tsv file")
 parser.add_argument("-b","--book",action="append",help="Book codes to include")
 parser.add_argument("-n","--names",help="BookNames.xml")
-# Add optional flags (store_true means they're False by default)
+# Add optional flags (default is None)
 parser.add_argument("-I","--interlinear",action="store_true",help="Output \\rb entries for reverse interlinear")
 parser.add_argument('-S','--strongs',action='store_true',help='Include Strong\'s numbers')
 parser.add_argument('-P','--placeholders',action='store_true',help='Include placeholders')
 parser.add_argument('-B','--brackets',action='store_true',help='Include brackets')
 
 args = parser.parse_args()
+
+if args.interlinear and args.strongs:
+    print("You cannot have both interlinear and strongs numbers in the same file")
+    sys.exit(1)
 
 # Set default URL if no input file specified
 if args.infile is None:
