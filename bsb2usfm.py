@@ -31,6 +31,9 @@ def removeentities(s):
     s = regex.sub(r"&#x([\dA-Fa-f]+);", lambda m:chr(int(m.group(1), 16)), s)
     return s
 
+def isempty(s):
+    return s is None or not len(s)
+
 class Style:
     def __init__(self, styles, after=None):
         if isinstance(styles, str):
@@ -128,6 +131,66 @@ def canonref(s):
         res = RefRange(res, res.copy(**kw))
     return (res, m.start(), m.end())
 
+openings = "\u2018\u201B\u201C\u201F[({"
+
+def clean_interlinear(doc):
+    for p in doc.getroot():
+        _c_interlin_p(p, None, "")
+
+def _c_interlin_p(p, lasttext, pending):
+    if not isempty(p.text):
+        (sp, postt, maint, pret) = _splitpunc(p.text)
+        if pret != "":
+            pending += pret
+        if lasttext is not None and postt != "":
+            lasttext.text = (lasttext.text or "") + postt
+            postt = ""
+        p.text = (sp + postt + maint) or None
+    lastc = None
+    for i, c in enumerate(list(p)):
+        if c.tag != "char":
+            if not isempty(c.tail):
+                (sp, postt, maint, pret) = _splitpunc(c.tail)
+                if pret != "":
+                    pending += pret
+                c.tail = (sp + postt + maint) or None
+            lastc = c
+            if c.tag == "note" and lasttext is not None and lasttext != lastc:
+                lp = lasttext.parent
+                j = lp.index(lasttext)
+                p.remove(c)
+                lp.insert(j+1, c)
+                if lp != p:
+                    c.parent = lp
+            continue
+        if c.get("style", "") == "rb":
+            if not isempty(c.text):
+                lasttext = c
+                if len(pending):
+                    c.text = pending + (c.text or "")
+                    pending = ""
+            if not isempty(c.text):
+                c.text = c.text.strip()
+        else:
+           lasttext, pending =  _c_interlin_p(c, lasttext, pending)
+        if not isempty(c.tail):
+            (sp, postt, maint, pret) = _splitpunc(c.tail)
+            if pret != "":
+                pending += pret
+            if lasttext is not None and postt != "":
+                lasttext.text = (lasttext.text or "") + postt.rstrip()
+                postt = ""
+            c.tail = (sp + postt + maint) or None
+        lastc = c
+    return lasttext, pending
+
+puncre = regex.compile(r"^(\s*)([\p{Pe}\p{Pf}\p{Po}\p{Pd}\p{Pc}]*)(\s*.*?\s*)([\p{Ps}\p{Pi}]*\s*)$")
+def _splitpunc(s):
+    if (m := puncre.match(s)):
+        return (m.group(1), m.group(2), m.group(3), m.group(4))
+    else:
+        return (s, "", "")
+
 
 ptypes = {
     "acrostic":         AcrosticStyle(["qa", "qa"]),
@@ -160,7 +223,7 @@ ptypes = {
 def debracket(s): return regex.sub(r"[\[\]{}]", "", s)
 
 class Processor:
-    def __init__(self, outname, books=None, fnqs=None, names=None, interlinear=False, strongs=False, placeholders=False, brackets=False):
+    def __init__(self, outname, books=None, fnqs=None, names=None, interlinear=False, strongs=False, placeholders=False, brackets=False, writefns=None):
         self.doc = None
         self.currnode = None
         self.cref = None
@@ -176,6 +239,7 @@ class Processor:
         self.strongs = strongs
         self.placeholders = placeholders
         self.brackets = brackets
+        self.writefns = writefns or []
 
     def writedoc(self):
         bk = self.doc.book
@@ -183,6 +247,9 @@ class Processor:
             return
         self.doc.canonicalise()
         self.doc.regularise()
+        if self.writefns:
+            for f in self.writefns:
+                f(self.doc)
         bkcode = bookcodes.get(bk, '99')
         outfname = self.outname.replace("%", bk).replace('^', bkcode)
         print(f"Writing {outfname}")
@@ -524,9 +591,10 @@ if args.names is not None:
 else:
     ndoc = None
 
+writefns = [clean_interlinear] if args.interlinear else None
 job = Processor(args.outfile, books=args.book, fnqs=(fnqs if len(fnqs) else None),
                               names=ndoc, interlinear=args.interlinear, strongs=args.strongs,
-                              placeholders=args.placeholders, brackets=args.brackets)
+                              placeholders=args.placeholders, brackets=args.brackets, writefns=writefns)
 with open_input_source(args.infile) as inf:
     rdr = csv.reader(inf, delimiter="\t")
     hdr = None
