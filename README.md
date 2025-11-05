@@ -8,6 +8,7 @@ BSB2USFM converts structured CSV/TSV data containing biblical text, footnotes, c
 
 ## Features
 
+- **URL and local file support**: Download BSB tables from URL or use local files
 - **Complete Bible conversion**: Convert entire Bible or specific books
 - **Rich formatting support**: Headings, cross-references, footnotes, poetry, lists
 - **Custom book names**: Support for custom book naming via XML configuration
@@ -44,7 +45,13 @@ chmod +x docker-run.sh
 
 ### Basic Conversion
 
-Convert BSB tables to USFM format:
+Convert BSB tables to USFM format using the default URL source:
+
+```bash
+python3 bsb2usfm.py -o results/%.usfm
+```
+
+Or specify a local file:
 
 ```bash
 python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm
@@ -55,7 +62,7 @@ python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm
 Convert only specific books using book codes:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm -b GEN -b EXO -b MAT
+python3 bsb2usfm.py -o results/%.usfm -b GEN -b EXO -b MAT
 ```
 
 ### With Custom Book Names
@@ -63,7 +70,7 @@ python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm -b GEN -b EXO -b MAT
 Use a custom book names XML file:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm -n book_names.xml
+python3 bsb2usfm.py -o results/%.usfm -n book_names.xml
 ```
 
 ### With Footnote Styling
@@ -71,20 +78,35 @@ python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm -n book_names.xml
 Apply custom footnote formatting:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm -f footnotes.tsv
+python3 bsb2usfm.py -o results/%.usfm -f footnotes.tsv
 ```
 
 ### Complete Example
 
-Full conversion with all options:
+Full conversion with all options (using default URL source):
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv \
-  -o results/%.usfm \
+python3 bsb2usfm.py -o results/%.usfm \
   -n demo_data/sample_book_names.xml \
   -f demo_data/sample_footnotes.tsv \
   -b GEN -b EXO -b MAT
 ```
+
+### Advanced Options
+
+#### Interlinear Format
+
+Generate reverse interlinear format with `\rb` entries:
+
+```bash
+python3 bsb2usfm.py -o results/%.usfm -I
+```
+
+#### Strong's Numbers and other commandline options
+
+- `-S` / `--strongs`: Enable Strong's number processing
+- `-P` / `--placeholders`: Enable placeholder processing
+- `-B` / `--brackets`: Enable bracket processing
 
 ## Docker Usage
 
@@ -108,11 +130,15 @@ python3 bsb2usfm.py data/bsb_tables.csv \
 
 | Option | Description | Example |
 |--------|-------------|---------|
-| `infile` | Input BSB tables CSV/TSV file | `data/bsb_tables.csv` |
+| `infile` | Input BSB tables CSV/TSV file or URL (optional, defaults to https://bereanbible.com/bsb_tables.tsv) | `data/bsb_tables.csv` |
 | `-o, --outfile` | Output USFM file template | `results/%.usfm` |
 | `-b, --book` | Book codes to include (repeatable) | `-b GEN -b EXO` |
 | `-n, --names` | Custom book names XML file | `-n book_names.xml` |
 | `-f, --fnotes` | Footnote styling TSV file | `-f footnotes.tsv` |
+| `-I, --interlinear` | Output `\rb` entries for reverse interlinear | `-I` |
+| `-S, --strongs` | Include Strong's numbers (requires -P and -B for debug output) | `-S` |
+| `-P, --placeholders` | Include placeholders (requires -S and -B for debug output) | `-P` |
+| `-B, --brackets` | Include brackets (requires -S and -P for debug output) | `-B` |
 
 ### Output Template Variables
 
@@ -228,6 +254,14 @@ bsb2usfm/
 
 ### Convert Genesis Only
 
+Using default URL source:
+
+```bash
+python3 bsb2usfm.py -o gen.usfm -b GEN
+```
+
+Or with a local file:
+
 ```bash
 python3 bsb2usfm.py data/bsb_tables.csv -o gen.usfm -b GEN
 ```
@@ -235,7 +269,7 @@ python3 bsb2usfm.py data/bsb_tables.csv -o gen.usfm -b GEN
 ### Convert New Testament
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o nt_%.usfm \
+python3 bsb2usfm.py -o nt_%.usfm \
   -b MAT -b MRK -b LUK -b JHN -b ACT -b ROM -b 1CO -b 2CO \
   -b GAL -b EPH -b PHP -b COL -b 1TH -b 2TH -b 1TI -b 2TI \
   -b TIT -b PHM -b HEB -b JAS -b 1PE -b 2PE -b 1JN -b 2JN \
