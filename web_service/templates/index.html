@@ -520,11 +520,11 @@
                             <span class="option-description">Output \rb entries for reverse interlinear</span>
                         </label>
                     </div>
-                    <div class="option-item disabled">
-                        <input type="checkbox" id="optStrongs" name="strongs" disabled>
+                    <div class="option-item">
+                        <input type="checkbox" id="optStrongs" name="strongs">
                         <label for="optStrongs">
                             <span class="option-title">Strong's Numbers</span>
-                            <span class="option-description">Include Strong's reference numbers (temporarily disabled)</span>
+                            <span class="option-description">Include Strong's reference numbers</span>
                         </label>
                     </div>
                     <div class="option-item">
@@ -749,7 +749,7 @@
 
             // Disable option checkboxes
             document.getElementById('optInterlinear').disabled = true;
-            // optStrongs is always disabled
+            document.getElementById('optStrongs').disabled = true;
             document.getElementById('optPlaceholders').disabled = true;
             document.getElementById('optBrackets').disabled = true;
             document.querySelectorAll('.option-item').forEach(item => {
@@ -768,7 +768,7 @@
 
             // Enable option checkboxes
             document.getElementById('optInterlinear').disabled = false;
-            // optStrongs remains disabled
+            document.getElementById('optStrongs').disabled = false;
             document.getElementById('optPlaceholders').disabled = false;
             document.getElementById('optBrackets').disabled = false;
             document.querySelectorAll('.option-item').forEach(item => {
