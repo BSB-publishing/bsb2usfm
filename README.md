@@ -54,7 +54,11 @@ python3 bsb2usfm.py -o results/%.usfm
 Or specify a local file:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o results/%.usfm
+# Using demo data
+python3 bsb2usfm.py demo_data/sample_bsb_tables.tsv -o results/%.usfm
+
+# Or download from URL (downloads from bereanbible.com)
+python3 bsb2usfm.py -o results/%.usfm
 ```
 
 ### Convert Specific Books
@@ -116,11 +120,14 @@ python3 bsb2usfm.py -o results/%.usfm -I
 # Build the image
 ./docker-run.sh build
 
-# Convert all books
-./docker-run.sh convert data/bsb_tables.csv -o results/%.usfm
+# Convert all books using demo data
+./docker-run.sh convert demo_data/sample_bsb_tables.tsv -o results/%.usfm
 
 # Convert specific books
-./docker-run.sh convert data/bsb_tables.csv -o results/%.usfm -b GEN -b EXO
+./docker-run.sh convert demo_data/sample_bsb_tables.tsv -o results/%.usfm -b GEN -b EXO
+
+# Or download from URL
+./docker-run.sh convert -o results/%.usfm -b GEN -b EXO
 
 # Interactive shell
 ./docker-run.sh shell
@@ -130,7 +137,7 @@ python3 bsb2usfm.py -o results/%.usfm -I
 
 | Option | Description | Example |
 |--------|-------------|---------|
-| `infile` | Input BSB tables CSV/TSV file or URL (optional, defaults to https://bereanbible.com/bsb_tables.tsv) | `data/bsb_tables.csv` |
+| `infile` | Input BSB tables CSV/TSV file or URL (optional, defaults to https://bereanbible.com/bsb_tables.tsv) | `demo_data/sample_bsb_tables.tsv` |
 | `-o, --outfile` | Output USFM file template | `results/%.usfm` |
 | `-b, --book` | Book codes to include (repeatable) | `-b GEN -b EXO` |
 | `-n, --names` | Custom book names XML file | `-n book_names.xml` |
@@ -237,11 +244,12 @@ Supported book codes follow standard abbreviations:
 
 ```
 bsb2usfm/
-├── data/               # Input CSV/TSV files
 ├── results/           # Output USFM files
-├── demo_data/         # Sample files
+├── demo_data/         # Sample/demo files
+│   ├── sample_bsb_tables.tsv
 │   ├── sample_book_names.xml
 │   └── sample_footnotes.tsv
+```
 ├── bsb2usfm.py       # Main converter script
 ├── getirefs.py       # Reference extractor
 ├── requirements.txt   # Python dependencies
@@ -263,7 +271,11 @@ python3 bsb2usfm.py -o gen.usfm -b GEN
 Or with a local file:
 
 ```bash
-python3 bsb2usfm.py data/bsb_tables.csv -o gen.usfm -b GEN
+# Using demo data
+python3 bsb2usfm.py demo_data/sample_bsb_tables.tsv -o gen.usfm -b GEN
+
+# Or from URL
+python3 bsb2usfm.py -o gen.usfm -b GEN
 ```
 
 ### Convert New Testament
