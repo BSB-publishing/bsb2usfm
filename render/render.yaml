@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: bsb2usfm-converter
+    runtime: docker
+    dockerfilePath: ./web_service/Dockerfile
+    dockerContext: .
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: PYTHONUNBUFFERED
+        value: 1
+      - key: PYTHONDONTWRITEBYTECODE
+        value: 1
+    disk:
+      name: bsb2usfm-data
+      mountPath: /app/output
+      sizeGB: 1
