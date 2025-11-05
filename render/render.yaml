@@ -1,12 +1,11 @@
 services:
   - type: web
     name: bsb2usfm-converter
-    env: docker
+    runtime: docker
     dockerfilePath: ./web_service/Dockerfile
     dockerContext: .
     plan: free
     region: oregon
-    branch: main
     healthCheckPath: /health
     envVars:
       - key: PORT

@@ -16,14 +16,15 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first for better caching
-COPY ../requirements.txt .
+COPY requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir gunicorn
 
 # Copy application code from parent directory
-COPY ../*.py .
+COPY *.py .
 COPY web_service/webapp.py .
 COPY web_service/templates ./templates/
 COPY web_service/static ./static/
@@ -43,5 +44,5 @@ USER bsb2usfm
 EXPOSE 5000
 
 # Default command (can be overridden)
-# Use web service by default, or pass arguments for CLI mode
-CMD ["python3", "webapp.py"]
+# Use gunicorn for production, fallback to Flask dev server
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "2", "--threads", "4", "--timeout", "300", "--access-logfile", "-", "--error-logfile", "-", "webapp:app"]
