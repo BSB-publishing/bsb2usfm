@@ -94,6 +94,7 @@ results/*.usfm
 results/*.txt
 results/*.zip
 
-# Keep demo data but exclude large data files if any
-data/*.csv.bak
-data/*.backup
+# Keep demo data but exclude large backup files if any
+demo_data/*.csv.bak
+demo_data/*.backup
+
