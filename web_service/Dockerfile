@@ -20,13 +20,17 @@ COPY requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir gunicorn
 
-# Copy application code
-COPY . .
+# Copy application code from parent directory
+COPY *.py .
+COPY web_service/webapp.py .
+COPY web_service/templates ./templates/
+COPY web_service/static ./static/
 
 # Create directories for input/output
-RUN mkdir -p /app/input /app/output /app/results
+RUN mkdir -p /app/input /app/output /app/results /app/templates /app/static
 
 # Set permissions
 RUN chmod +x *.py
@@ -36,5 +40,9 @@ RUN useradd -m -u 1000 bsb2usfm && \
     chown -R bsb2usfm:bsb2usfm /app
 USER bsb2usfm
 
-# Default command
-CMD ["python3", "bsb2usfm.py", "--help"]
+# Expose port for web service
+EXPOSE 5000
+
+# Default command (can be overridden)
+# Use gunicorn for production, fallback to Flask dev server
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "2", "--threads", "4", "--timeout", "300", "--access-logfile", "-", "--error-logfile", "-", "webapp:app"]

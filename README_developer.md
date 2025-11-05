@@ -4,6 +4,8 @@
 
 A Python tool for converting Berean Standard Bible (BSB) tabular data into USFM (Unified Standard Format Markers) format for Bible publishing and translation workflows.
 
+> **Web Service Available**: A web-based interface is available for easy browser-based conversions. See the [Web Service](#web-service) section below or [web_service/DEPLOY_Docker.md](web_service/DEPLOY_Docker.md) for deployment instructions.
+
 ## Overview
 
 BSB2USFM converts structured CSV/TSV data containing biblical text, footnotes, cross-references, and formatting information into standardized USFM files that can be used by Bible publishing software such as Paratext, PTXprint, and other Bible translation tools.
@@ -18,6 +20,8 @@ BSB2USFM converts structured CSV/TSV data containing biblical text, footnotes, c
 - **Verse references**: Automatic parsing and linking of biblical references
 - **USFM 3.1 compliance**: Generates standards-compliant USFM output
 - **Docker support**: Containerized execution for consistent environments
+- **Web interface**: Browser-based UI with real-time progress updates
+- **Cloud deployment**: Ready to deploy on Render, Digital Ocean, Hetzner, and other platforms
 
 ## Requirements
 
@@ -114,7 +118,40 @@ python3 bsb2usfm.py -o results/%.usfm -I
 - `-P` / `--placeholders`: Enable placeholder processing
 - `-B` / `--brackets`: Enable bracket processing
 
-## Docker Usage
+## Web Service
+
+A modern web interface is available for easy browser-based conversions with real-time progress tracking.
+
+### Quick Start with Web Service
+
+```bash
+# Start the web service
+cd web_service
+docker-compose up -d web
+
+# Access at http://localhost:5000
+# Click "Update Data" to start conversion
+```
+
+### Web Service Features
+
+- 🌐 **Browser-based interface**: No command-line needed
+- 🔄 **Real-time progress**: Live streaming of conversion status
+- 📊 **Visual feedback**: Progress bars and status indicators
+- 📁 **Results display**: Automatic listing of generated files
+- 💾 **Download support**: Zip all generated files with one click
+- 🚀 **Production ready**: Deploy to Render, Digital Ocean, Hetzner, Fly.io
+
+### Deployment
+
+For production deployment to cloud platforms, see **[web_service/DEPLOY_Docker.md](web_service/DEPLOY_Docker.md)** for comprehensive guides covering:
+
+- **Render.com**: One-click deployment with free tier
+- **Digital Ocean**: VPS deployment with full control
+
+See [web_service/README-WebService.md](web_service/README-WebService.md) for detailed web service documentation.
+
+## Docker Usage (CLI)
 
 ### Quick Start with Docker
 
@@ -246,18 +283,23 @@ Supported book codes follow standard abbreviations:
 
 ```
 bsb2usfm/
+├── web_service/       # Web interface (optional)
+│   ├── webapp.py     # Flask web application
+│   ├── templates/    # HTML templates
+│   ├── Dockerfile    # Web service Docker config
+│   └── docker-compose.yml
 ├── results/           # Output USFM files
 ├── demo_data/         # Sample/demo files
 │   ├── sample_bsb_tables.tsv
 │   ├── sample_book_names.xml
 │   └── sample_footnotes.tsv
-```
+├── render/            # Render.com deployment config
+│   └── render.yaml
 ├── bsb2usfm.py       # Main converter script
 ├── getirefs.py       # Reference extractor
 ├── requirements.txt   # Python dependencies
-├── Dockerfile        # Docker configuration
-├── docker-run.sh     # Docker convenience script
-└── README.md         # This file
+├── README.md         # User documentation
+└── README_developer.md  # This file
 ```
 
 ## Examples
@@ -329,6 +371,46 @@ python3 getirefs.py results/*.usfm -o references.txt
 
 [Contribution guidelines here]
 
+## Deployment
+
+### Web Service Deployment
+
+For deploying the web service to production environments, see:
+
+- **[web_service/DEPLOY_Docker.md](web_service/DEPLOY_Docker.md)**: Complete deployment guide for Render and Digital Ocean
+- **[web_service/README-WebService.md](web_service/README-WebService.md)**: Web service features and API documentation
+- **[render/DEPLOYMENT.md](render/DEPLOYMENT.md)**: Render-specific deployment instructions
+
+### Quick Deploy Options
+
+**Render (Easiest)**:
+```bash
+# Push to GitHub, then connect to Render
+# render.yaml is already configured
+```
+
+**Digital Ocean Droplet**:
+```bash
+# SSH to droplet, then:
+git clone <repo-url>
+cd bsb2usfm/web_service
+docker-compose up -d web
+```
+
+**Local/VPS Docker**:
+```bash
+cd web_service
+docker-compose up -d web
+# Access at http://localhost:5000
+```
+
+See [web_service/DEPLOY_Docker.md](web_service/DEPLOY_Docker.md) for step-by-step instructions for each platform.
+
 ## Support
 
-[Support information here]
+For issues or questions:
+
+- **General usage**: See [README.md](README.md)
+- **Web service**: See [web_service/README-WebService.md](web_service/README-WebService.md)
+- **Deployment**: See [web_service/DEPLOY_Docker.md](web_service/DEPLOY_Docker.md)
+- **Bug reports**: Open an issue on the project repository
