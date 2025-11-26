@@ -45,7 +45,8 @@ class Style:
         res = None
         for s in self.styles:
             if s == "b" and parent is not None \
-                    and Grammar.marker_categories.get(parent.get("style", None), None) == "sectionpara":
+                    and (Grammar.marker_categories.get(parent.get("style", None), None) == "sectionpara"
+                         or parent.get("style", None) not in ("q1", "q2")):
                 continue
             t = categories.get(Grammar.marker_categories.get(s, ""), None)
             if t is None:
