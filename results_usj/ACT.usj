@@ -148,12 +148,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Do not leave Jerusalem, but wait for the gift the Father promised, which you have heard Me discuss. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "“Do not leave Jerusalem, but wait for the gift the Father promised, which you have heard Me discuss."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For John baptized with water, but in a few days you will be baptized with the Holy Spirit.",
             {
               "type": "note",
@@ -260,12 +266,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“It is not for you to know times or seasons that the Father has fixed by His own authority. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "“It is not for you to know times or seasons that the Father has fixed by His own authority."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But you will receive power when the Holy Spirit comes upon you, and you will be My witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.”"
           ]
         }
@@ -415,10 +427,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘May his place be deserted;"
@@ -464,10 +472,6 @@
       "content": [
         "and,"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -909,10 +913,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -1118,10 +1118,6 @@
         },
         "David says about Him:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1366,10 +1362,6 @@
         },
         "For David did not ascend into heaven, but he himself says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -2262,10 +2254,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘the stone you builders rejected,"
@@ -2524,10 +2512,6 @@
         },
         " our father David:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4630,10 +4614,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘Did you bring Me sacrifices and offerings"
@@ -4824,10 +4804,6 @@
         },
         "However, the Most High does not dwell in houses made by human hands. As the prophet says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5418,10 +5394,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“He was led like a sheep to the slaughter,"
@@ -5729,15 +5701,14 @@
           ]
         },
         {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
             "“Now get up and go into the city, and you will be told what you must do.”"
           ]
         }
@@ -5849,16 +5820,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
             "“Get up!”"
           ]
         },
@@ -5867,12 +5838,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Go to the house of Judas on Straight Street and ask for a man from Tarsus named Saul, for he is praying. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "“Go to the house of Judas on Straight Street and ask for a man from Tarsus named Saul, for he is praying."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "In a vision he has seen a man named Ananias come and place his hands on him to restore his sight.”"
           ]
         }
@@ -5901,16 +5878,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
             "“Go!”"
           ]
         },
@@ -5919,12 +5896,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“This man is My chosen instrument to carry My name before the Gentiles and their kings, and before the people of Israel. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "“This man is My chosen instrument to carry My name before the Gentiles and their kings, and before the people of Israel."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I will show him how much he must suffer for My name.”"
           ]
         }
@@ -7934,11 +7917,6 @@
               "content": [
                 "had become furious "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -8429,10 +8407,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘You are My Son;"
@@ -8495,10 +8469,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘I will give you the holy and sure blessings promised to David.’",
@@ -8558,10 +8528,6 @@
         },
         "So also, He says in another Psalm:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8640,10 +8606,6 @@
         },
         "Watch out, then, that what was spoken by the prophets does not happen to you:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8793,10 +8755,6 @@
         },
         "For this is what the Lord has commanded us:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9364,10 +9322,6 @@
         },
         "The words of the prophets agree with this, as it is written:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10695,11 +10649,6 @@
     },
     {
       "type": "para",
-      "marker": "p",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "pc",
       "content": [
         "TO AN UNKNOWN GOD."
@@ -11083,12 +11032,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Do not be afraid; keep on speaking; do not be silent. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "“Do not be afraid; keep on speaking; do not be silent."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For I am with you and no one will lay a hand on you, because I have many people in this city.”"
           ]
         },
@@ -15399,29 +15354,40 @@
             "‘I am Jesus, whom you are persecuting,’"
           ]
         },
-        " the Lord replied. ",
+        " the Lord replied.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
-            "‘But get up and stand on your feet. For I have appeared to you to appoint you as a servant and as a witness of what you have seen from Me and what I will show you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
-            "I will rescue you from your own people and from the Gentiles. I am sending you to them ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "‘But get up and stand on your feet. For I have appeared to you to appoint you as a servant and as a witness of what you have seen from Me and what I will show you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I will rescue you from your own people and from the Gentiles. I am sending you to them"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and an inheritance among those sanctified by faith in Me.’"
           ]
         }
@@ -16692,10 +16658,6 @@
         },
         "They disagreed among themselves and began to leave after Paul had made this final statement: “The Holy Spirit was right when He spoke to your fathers through Isaiah the prophet:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

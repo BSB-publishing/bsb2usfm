@@ -422,10 +422,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -1478,10 +1474,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "His firstborn was Amnon, by Ahinoam of Jezreel;"
@@ -1977,10 +1969,6 @@
         },
         "And the king sang this lament for Abner:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4457,10 +4445,6 @@
         },
         "Thus David reigned over all Israel and administered justice and righteousness for all his people:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7326,11 +7310,6 @@
               "content": [
                 "And the spirit of the king "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -10795,10 +10774,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“We have no share in David,"
@@ -12160,10 +12135,6 @@
         },
         "He said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13579,10 +13550,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“The oracle of David son of Jesse,"
@@ -13887,10 +13854,6 @@
         },
         "These are the names of David’s mighty men:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14370,10 +14333,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

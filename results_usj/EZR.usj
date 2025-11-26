@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -215,10 +210,6 @@
         },
         "This was the inventory:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -403,10 +394,6 @@
       "content": [
         "This is the count of the men of Israel:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1158,10 +1145,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "The descendants of Jedaiah (through the house of Jeshua), 973;"
@@ -1218,10 +1201,6 @@
         },
         "The Levites:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1296,10 +1275,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "the descendants of Asaph, 128."
@@ -1317,10 +1292,6 @@
         },
         "The gatekeepers:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1418,10 +1389,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1935,10 +1902,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "the descendants of Sotai,"
@@ -2198,10 +2161,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -2236,10 +2195,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -2264,10 +2219,6 @@
       "content": [
         "and the descendants of Barzillai (who had married a daughter of Barzillai the Gileadite and was called by their name)."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -2845,10 +2796,6 @@
         },
         "And they sang responsively with praise and thanksgiving to the LORD:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5027,10 +4974,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -6384,10 +6327,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Maaseiah, Eliezer, Jarib, and Gedaliah. ",
@@ -6414,10 +6353,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Hanani and Zebadiah."
@@ -6435,10 +6370,6 @@
         },
         "From the descendants of Harim:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6462,10 +6393,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Elioenai, Maaseiah, Ishmael, Nethanel, Jozabad, and Elasah."
@@ -6483,10 +6410,6 @@
         },
         "Among the Levites:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6510,10 +6433,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Eliashib."
@@ -6525,10 +6444,6 @@
       "content": [
         "From the gatekeepers:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6549,10 +6464,6 @@
         },
         "And among the other Israelites, from the descendants of Parosh:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6605,10 +6516,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Mattaniah, Zechariah, Jehiel, Abdi, Jeremoth, and Elijah."
@@ -6626,10 +6533,6 @@
         },
         "From the descendants of Zattu:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6653,10 +6556,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Jehohanan, Hananiah, Zabbai, and Athlai."
@@ -6674,10 +6573,6 @@
         },
         "From the descendants of Bani:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6701,10 +6596,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Adna, Chelal, Benaiah, Maaseiah, Mattaniah, Bezalel, Binnui, and Manasseh."
@@ -6722,10 +6613,6 @@
         },
         "From the descendants of Harim:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6755,10 +6642,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Mattenai, Mattattah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei."
@@ -6776,10 +6659,6 @@
         },
         "From the descendants of Bani:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6818,10 +6697,6 @@
         },
         "From the descendants of Binnui:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6894,10 +6769,6 @@
         },
         "And from the descendants of Nebo:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

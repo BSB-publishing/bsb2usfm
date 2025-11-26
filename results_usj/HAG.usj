@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -149,10 +144,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“These people say, ‘The time has not yet come"
@@ -177,10 +168,6 @@
         },
         "Then the word of the LORD came through Haggai the prophet, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -221,10 +208,6 @@
         },
         "Now this is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -297,10 +280,6 @@
         },
         "This is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -516,10 +495,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“I am with you,”"
@@ -641,10 +616,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -751,10 +722,6 @@
         },
         "For this is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1135,10 +1102,6 @@
         },
         "“Tell Zerubbabel governor of Judah that I am about to shake the heavens and the earth:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -371,10 +366,6 @@
         },
         "saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -707,10 +698,6 @@
         },
         "And this is what he said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1288,10 +1275,6 @@
         },
         "Then Eliphaz the Temanite replied:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -2452,10 +2435,6 @@
         },
         "Then Job replied:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3667,10 +3646,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -4132,10 +4107,6 @@
         },
         "Then Job answered:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5711,10 +5682,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -6182,10 +6149,6 @@
         },
         "Then Job answered:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7983,10 +7946,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -8751,10 +8710,6 @@
         },
         "Then Job answered:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9605,10 +9560,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -10050,10 +10001,6 @@
         },
         "Then Job answered:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10827,10 +10774,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -11478,10 +11421,6 @@
         },
         "Then Job answered:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12260,10 +12199,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -12925,10 +12860,6 @@
         },
         "Then Job answered:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13887,10 +13818,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -14013,10 +13940,6 @@
         },
         "Then Job answered:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14462,10 +14385,6 @@
         },
         "Job continued his discourse:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15637,10 +15556,6 @@
         },
         "And Job continued his discourse:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -18193,10 +18108,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“I am young in years,"
@@ -19483,10 +19394,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -20318,10 +20225,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -20676,10 +20579,6 @@
         },
         "And Elihu continued:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -22099,10 +21998,6 @@
         },
         "Then the LORD answered Job out of the whirlwind and said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -23767,11 +23662,6 @@
               "content": [
                 "he snorts, ‘Aha!’ "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         }
@@ -23922,10 +23812,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -23950,11 +23836,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -23965,10 +23846,6 @@
         },
         "Then Job answered the LORD:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -24029,10 +23906,6 @@
         },
         "Then the LORD answered Job out of the whirlwind and said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -25385,11 +25258,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -25400,10 +25268,6 @@
         },
         "Then Job replied to the LORD:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

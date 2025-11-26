@@ -602,7 +602,6 @@
 \c 10
 \s1 Solomon’s Proverbs: The Wise Son
 \p \v 1 \rb The proverbs|מִשְׁלֵ֗י\rb* \rb of Solomon:|שְׁלֹ֫מֹ֥ה פ\rb*
-\b 
 \q1 \rb A wise|חָ֭כָם\rb* \rb son|בֵּ֣ן\rb* \rb brings joy|יְשַׂמַּח־\rb* \rb to his father,|אָ֑ב\rb*
 \q2 \rb but a foolish|כְּ֝סִ֗יל\rb* \rb son|וּבֵ֥ן\rb* \rb grief|תּוּגַ֥ת\rb* \rb to his mother.|אִמּֽוֹ׃\rb*
 \b 
@@ -1963,7 +1962,6 @@
 \c 25
 \s1 More Proverbs of Solomon
 \p \v 1 \rb These are|אֵ֭לֶּה\rb* \rb additional|גַּם־\rb* \rb proverbs|מִשְׁלֵ֣י\rb* \rb of Solomon,|שְׁלֹמֹ֑ה\rb* \rb which|אֲשֶׁ֥ר\rb* \rb were copied by|הֶ֝עְתִּ֗יקוּ\rb* \rb the men|אַנְשֵׁ֤י׀\rb* \rb of Hezekiah|חִזְקִיָּ֬ה\rb* \rb king|מֶֽלֶךְ־\rb* \rb of Judah:|יְהוּדָֽה׃\rb*
-\b 
 \q1 \v 2 \rb It is the glory|כְּבֹ֣ד\rb* \rb of God|אֱ֭לֹהִים\rb* \rb to conceal|הַסְתֵּ֣ר\rb* \rb a matter|דָּבָ֑ר\rb*
 \q2 \rb and the glory|וּכְבֹ֥ד\rb* \rb of kings|מְ֝לָכִ֗ים\rb* \rb to search it out.|חֲקֹ֣ר\rb*\rb |דָּבָֽר׃\rb*
 \q1 \v 3 \rb As the heavens|שָׁמַ֣יִם\rb* \rb are high|לָ֭רוּם\rb* \rb and the earth|וָאָ֣רֶץ\rb* \rb is deep,|לָעֹ֑מֶק\rb*
@@ -1976,8 +1974,8 @@
 \b 
 \q1 \v 6 \rb Do not|אַל־\rb* \rb exalt yourself|תִּתְהַדַּ֥ר\rb* \rb in the presence|לִפְנֵי־\rb* \rb of the king,|מֶ֑לֶךְ\rb*
 \q2 \rb and do not|אַֽל־\rb* \rb stand|תַּעֲמֹֽד׃\rb* \rb in the place|וּבִמְק֥וֹם\rb* \rb of great men;|גְּ֝דֹלִ֗ים\rb*
-\q1 \v 7 \rb for|כִּ֤י\rb* \rb it is better|ט֥וֹב\rb* \rb that he says|אֲמָר־\rb* \rb to you,|לְךָ֗\rb* \rb “Come up|עֲ‍ֽלֵ֫ה\rb* \rb here!”|הֵ֥נָּה\rb*
-\q2 \rb than that you should be demoted|מֵֽ֭הַשְׁפִּ֣ילְךָ\rb* \rb in the presence|לִפְנֵ֣י\rb* \rb of the prince.|נָדִ֑יב\rb*
+\q1 \v 7 \rb for|כִּ֤י\rb* \rb it is better|ט֥וֹב\rb* \rb to be told,|אֲמָר־\rb*\rb |לְךָ֗\rb* \rb “Come up|עֲ‍ֽלֵ֫ה\rb* \rb here!”|הֵ֥נָּה\rb*
+\q2 \rb than to be demoted|מֵֽ֭הַשְׁפִּ֣ילְךָ\rb* \rb in the presence|לִפְנֵ֣י\rb* \rb of the prince.|נָדִ֑יב\rb*
 \b 
 \q1 \rb Even what|אֲשֶׁ֖ר\rb*\f + \fr 25:7 \ft Or \fqa Even the one\f* \rb you have seen|רָא֣וּ\rb* \rb with your own eyes,|עֵינֶֽיךָ׃\rb*
 \q2 \v 8 \rb do not|אַל־\rb* \rb bring|תֵּצֵ֥א\rb* \rb hastily|מַ֫הֵ֥ר\rb* \rb to court.|לָרִ֗ב\rb*
@@ -1986,7 +1984,7 @@
 \b 
 \q1 \v 9 \rb Argue|רִֽ֭יבְךָ\rb* \rb your case|רִ֣יב\rb* \rb with|אֶת־\rb* \rb your neighbor|רֵעֶ֑ךָ\rb*
 \q2 \rb without|אַל־\rb* \rb betraying|תְּגָֽל׃\rb* \rb another’s|אַחֵ֣ר\rb* \rb confidence,|וְס֖וֹד\rb*
-\q1 \v 10 \rb lest|פֶּֽן־\rb* \rb the one who hears|שֹׁמֵ֑עַ\rb* \rb may disgrace you,|יְחַסֶּדְךָ֥\rb*
+\q1 \v 10 \rb lest|פֶּֽן־\rb* \rb he who hears you|שֹׁמֵ֑עַ\rb* \rb bring shame upon you,|יְחַסֶּדְךָ֥\rb*
 \q2 \rb and your infamy|וְ֝דִבָּתְךָ֗\rb* \rb never|לֹ֣א\rb* \rb go away.|תָשֽׁוּב׃\rb*
 \b 
 \q1 \v 11 \rb A word|דָּ֝בָ֗ר\rb*\rb |עַל־\rb* \rb fitly|אָפְנָֽיו׃\rb* \rb spoken|דָּבֻ֥ר\rb*
@@ -2356,7 +2354,6 @@
 \c 30
 \s1 The Words of Agur
 \p \v 1 \rb These are the words|דִּבְרֵ֤י׀\rb* \rb of Agur|אָג֥וּר\rb* \rb son|בִּן־\rb* \rb of Jakeh—|יָקֶ֗ה\rb*  \rb the burden|הַמַּ֫שָּׂ֥א\rb* \rb that this man|הַ֭גֶּבֶר\rb* \rb declared|נְאֻ֣ם\rb* \rb to Ithiel:|לְאִֽיתִיאֵ֑ל\rb*
-\b 
 \q1 \rb “I am weary, O God,|לְאִ֖יתִיאֵ֣ל\rb*
 \q2 \rb and worn out.|וְאֻכָֽל׃\rb*\f + \fr 30:1 \ft Or \fqa declared to Ithiel: “I am weary, O God, but I can prevail. \ft (revocalizations); Hebrew \fqa declared to Ithiel—to Ithiel and Ucal:\f*
 \q1 \v 2 \rb Surely|כִּ֤י\rb* \rb I am|אָנֹכִ֣י\rb* \rb the most ignorant|בַ֣עַר\rb* \rb of men,|מֵאִ֑ישׁ\rb*
@@ -2405,7 +2402,6 @@
 \li1 \rb the barren|וְעֹ֪צֶ֫ר\rb* \rb womb,|רָ֥חַם\rb*
 \li1 \rb land|אֶ֭רֶץ\rb* \rb never|לֹא־\rb* \rb satisfied|שָׂ֣בְעָה\rb* \rb with water,|מַּ֑יִם\rb*
 \li1 \rb and fire|וְ֝אֵ֗שׁ\rb* \rb that never|לֹא־\rb* \rb says,|אָ֥מְרָה\rb* \rb ‘Enough!’|הֽוֹן׃\rb*
-\b 
 \q1 \v 17 \rb As for the eye|עַ֤יִן׀\rb* \rb that mocks|תִּֽלְעַ֣ג\rb* \rb a father|לְאָב֮\rb*
 \q2 \rb and scorns|וְתָב֪וּז\rb* \rb obedience|לִֽיקֲּהַ֫ת־\rb* \rb to a mother,|אֵ֥ם\rb*
 \q1 \rb may the ravens|עֹרְבֵי־\rb* \rb of the valley|נַ֑חַל\rb* \rb pluck it out|יִקְּר֥וּהָ\rb*
@@ -2415,7 +2411,6 @@
 \li1 \rb the way|דֶּ֥רֶךְ\rb* \rb of a snake|נָחָ֗שׁ\rb* \rb on|עֲלֵ֫י\rb* \rb a rock,|צ֥וּר\rb*
 \li1 \rb the way|דֶּֽרֶךְ־\rb* \rb of a ship|אֳנִיָּ֥ה\rb*\rb |בְלֶב־\rb* \rb at sea,|יָ֑ם\rb*
 \li1 \rb and the way|וְדֶ֖רֶךְ\rb* \rb of a man|גֶּ֣בֶר\rb* \rb with a maiden.|בְּעַלְמָֽה׃\rb*
-\b 
 \q1 \v 20 \rb This|כֵּ֤ן׀\rb* \rb is the way|דֶּ֥רֶךְ\rb* \rb of an adulteress:|אִשָּׁ֗ה\rb*\rb |מְנָ֫אָ֥פֶת\rb*
 \q2 \rb She eats|אָ֭כְלָה\rb* \rb and wipes|וּמָ֣חֲתָה\rb* \rb her mouth|פִ֑יהָ\rb*
 \q2 \rb and says,|וְ֝אָמְרָ֗ה\rb* \rb ‘I have done|פָעַ֥לְתִּי\rb* \rb nothing|לֹֽא־\rb* \rb wrong.’|אָֽוֶן׃פ\rb*
@@ -2434,7 +2429,6 @@
 \li1 \v 31 \rb a strutting rooster;|זַרְזִ֣יר\rb*\rb |מָתְנַ֣יִם\rb*
 \li1 \rb |אוֹ־\rb* \rb a he-goat;|תָ֑יִשׁ\rb*
 \li1 \rb and a king|וּ֝מֶ֗לֶךְ\rb* \rb with his army|אַלְק֥וּם\rb* \rb around him.|עִמּֽוֹ׃\rb*\f + \fr 30:31 \ft Or \fqa a king against whom there is no rising up\f*
-\b 
 \q1 \v 32 \rb If|אִם־\rb* \rb you have foolishly|נָבַ֥לְתָּ\rb* \rb exalted yourself|בְהִתְנַשֵּׂ֑א\rb*
 \q2 \rb or if|וְאִם־\rb* \rb you have plotted evil,|זַ֝מּ֗וֹתָ\rb*
 \q2 \rb put your hand|יָ֣ד\rb* \rb over your mouth.|לְפֶֽה׃\rb*
@@ -2444,7 +2438,6 @@
 \c 31
 \s1 The Sayings for King Lemuel
 \p \v 1 \rb These are the words|דִּ֭בְרֵי\rb* \rb of King|מֶ֑לֶךְ\rb* \rb Lemuel—|לְמוּאֵ֣ל\rb*  \rb the burden|מַ֝שָּׂ֗א\rb* \rb that|אֲ‍ֽשֶׁר־\rb* \rb his mother|אִמּֽוֹ׃\rb* \rb taught him:|יִסְּרַ֥תּוּ\rb*
-\b 
 \q1 \v 2 \rb What shall I say,|מַה־\rb*\f + \fr 31:2 \ft Or \fqa What \ft or \fqa What are you doing\f* \rb O my son?|בְּ֭רִי\rb*
 \q2 \rb What,|וּמַֽה־\rb* \rb O son|בַּר־\rb* \rb of my womb?|בִּטְנִ֑י\rb*
 \q2 \rb What,|וּ֝מֶה\rb* \rb O son|בַּר־\rb* \rb of my vows?|נְדָרָֽי׃\rb*

@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -12044,11 +12039,6 @@
               "content": [
                 "them "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -14285,10 +14275,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -29710,10 +29696,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -41902,10 +41884,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -44195,10 +44173,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -45222,10 +45196,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -46951,10 +46921,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -47689,10 +47655,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -48022,10 +47984,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -48745,10 +48703,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         {
@@ -49197,10 +49151,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -51582,10 +51532,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -60546,10 +60492,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -62673,10 +62615,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -62804,10 +62742,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -63208,10 +63142,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -70297,10 +70227,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -72595,10 +72521,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -72955,10 +72877,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -73455,10 +73373,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -79706,10 +79620,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“",
@@ -80704,10 +80614,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -83233,10 +83139,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -84762,10 +84664,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         {
@@ -85994,10 +85892,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -87407,10 +87301,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -88490,10 +88380,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -91355,10 +91241,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         {
@@ -92463,10 +92345,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -92903,10 +92781,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -94888,10 +94762,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -97820,10 +97690,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -99727,11 +99593,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -100132,10 +99993,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -101592,11 +101449,6 @@
               "content": [
                 "warriors of the uncircumcised "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         }
@@ -110672,10 +110524,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -133312,11 +133160,6 @@
               "content": [
                 "and steps led up to it "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -138424,10 +138267,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -154816,10 +154655,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -155970,10 +155805,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -158624,10 +158455,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -159295,10 +159122,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

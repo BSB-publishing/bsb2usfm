@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -1774,11 +1769,6 @@
               "content": [
                 "navel "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         }
@@ -6910,10 +6900,6 @@
         },
         "The proverbs of Solomon:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -18216,11 +18202,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "s2",
       "content": [
         "Saying 20"
@@ -19086,10 +19067,6 @@
         },
         "These are additional proverbs of Solomon, which were copied by the men of Hezekiah king of Judah:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -22801,10 +22778,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“I am weary, O God,"
@@ -23261,10 +23234,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -23343,10 +23312,6 @@
       "content": [
         "and the way of a man with a maiden."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -23619,10 +23584,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -23699,10 +23660,6 @@
         },
         "These are the words of King Lemuel — the burden that his mother taught him:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

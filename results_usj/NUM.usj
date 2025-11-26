@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -134,10 +129,6 @@
         },
         "These are the names of the men who are to assist you:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -341,10 +332,6 @@
       "content": [
         "So Moses numbered them in the Wilderness of Sinai:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3304,10 +3291,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -5258,10 +5241,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Rise up, O LORD!"
@@ -5293,10 +5272,6 @@
         },
         "And when it came to rest, he would say:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5917,10 +5892,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "If there is a prophet among you,"
@@ -6227,10 +6198,6 @@
         },
         "and these were their names:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9914,10 +9881,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Waheb in Suphah"
@@ -10018,10 +9981,6 @@
         },
         "Then Israel sang this song:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10295,10 +10254,6 @@
         },
         "That is why the poets say:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11220,10 +11175,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Balak brought me from Aram,"
@@ -11455,10 +11406,6 @@
         },
         "Then Balaam lifted up an oracle, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11795,10 +11742,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“This is the prophecy of Balaam son of Beor,"
@@ -12130,10 +12073,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“This is the prophecy of Balaam son of Beor,"
@@ -12341,11 +12280,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -12356,10 +12290,6 @@
         },
         "Then Balaam saw Amalek and lifted up an oracle, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12381,11 +12311,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -12396,10 +12321,6 @@
         },
         "Next he saw the Kenites and lifted up an oracle, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12473,11 +12394,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -12488,10 +12404,6 @@
         },
         "Once more Balaam lifted up an oracle, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12925,10 +12837,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "The Hanochite clan from Hanoch,"
@@ -13031,10 +12939,6 @@
         },
         "These were the descendants of Simeon by their clans:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13212,10 +13116,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "The Zephonite clan from Zephon,"
@@ -13359,10 +13259,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "The Shelanite clan from Shelah,"
@@ -13381,10 +13277,6 @@
       "content": [
         "and the Zerahite clan from Zerah."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13445,10 +13337,6 @@
         },
         "These were the descendants of Issachar by their clans:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13612,10 +13500,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "The Seredite clan from Sered,"
@@ -13680,10 +13564,6 @@
         },
         "These were the descendants of Manasseh:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13864,10 +13744,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "The Shuthelahite clan from Shuthelah,"
@@ -13886,10 +13762,6 @@
       "content": [
         "and the Tahanite clan from Tahan."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13943,10 +13815,6 @@
         },
         "These were the descendants of Benjamin by their clans:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14016,10 +13884,6 @@
       "content": [
         "and the Huphamite clan from Hupham."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14105,10 +13969,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "The Shuhamite clan from Shuham."
@@ -14146,10 +14006,6 @@
         },
         "These were the descendants of Asher by their clans:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14244,10 +14100,6 @@
         },
         "These were the descendants of Naphtali by their clans:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14382,10 +14234,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "The Gershonite clan from Gershon,"
@@ -14417,10 +14265,6 @@
         },
         "These were the families of the Levites:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -17526,10 +17370,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -17894,10 +17734,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -18077,10 +17913,6 @@
         },
         "They set out from Bene-jaakan and camped at Hor-haggidgad."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -18775,10 +18607,6 @@
         },
         "These are their names:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

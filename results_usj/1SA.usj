@@ -747,11 +747,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -762,10 +757,6 @@
         },
         "At that time Hannah prayed:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1486,10 +1477,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘I did indeed say that your house"
@@ -1618,11 +1605,6 @@
               "content": [
                 "increase "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -7458,10 +7440,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Does the LORD delight in burnt offerings and sacrifices"
@@ -7729,10 +7707,6 @@
         },
         "But Samuel declared:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9215,11 +9189,6 @@
               "content": [
                 "lyres "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -9230,10 +9199,6 @@
         },
         "And as the women danced, they sang out:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10843,10 +10808,6 @@
         },
         "But the servants of Achish said to him, “Is this not David, the king of the land? Did they not sing about him in their dances, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13633,10 +13594,6 @@
         },
         "Is this not the David about whom they sing in their dances:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

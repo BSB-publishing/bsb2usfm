@@ -168,10 +168,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -1030,10 +1026,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1981,10 +1973,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3896,10 +3884,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -5260,10 +5244,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7641,10 +7621,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -9043,10 +9019,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11197,16 +11169,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
             "“",
             {
               "type": "char",
@@ -12729,10 +12701,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -13376,16 +13344,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
             "“",
             {
               "type": "char",
@@ -14014,10 +13982,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14788,17 +14752,16 @@
             "fishermen"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
             "“",
             {
               "type": "char",
@@ -17313,12 +17276,18 @@
                 "Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -17894,12 +17863,18 @@
                 "be hidden"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -18063,12 +18038,18 @@
                 "house"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -18403,12 +18384,18 @@
                 "to fulfill [them]"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -18938,12 +18925,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -19321,12 +19314,18 @@
                 "judgment"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -19950,12 +19949,18 @@
                 "you"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -20406,12 +20411,18 @@
                 "prison"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -20662,12 +20673,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -20828,12 +20845,18 @@
                 "heart"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -21135,12 +21158,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -21564,12 +21593,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -21976,12 +22011,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -22112,12 +22153,18 @@
                 "throne"
               ]
             },
-            "; ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            ";"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -22273,12 +22320,18 @@
                 "King"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -22400,12 +22453,18 @@
                 "black"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -22733,12 +22792,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -22917,12 +22982,18 @@
                 "also"
               ]
             },
-            "; ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
+            ";"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -23044,12 +23115,18 @@
                 "as well"
               ]
             },
-            "; ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "41"
-            },
+            ";"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "41"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -23194,12 +23271,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "42"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "42"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -23442,12 +23525,18 @@
                 "enemy"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -23604,12 +23693,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "45"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "45"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -23804,12 +23899,18 @@
                 "[the] unrighteous"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "46"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "46"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -23940,12 +24041,18 @@
                 "same"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "47"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "47"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -24788,12 +24895,18 @@
                 "full reward"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -24907,12 +25020,18 @@
                 "is doing"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -25369,12 +25488,18 @@
                 "full reward"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -25787,12 +25912,18 @@
                 "they will be heard"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -26784,12 +26915,18 @@
                 "you"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -27165,12 +27302,18 @@
                 "full reward"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -27268,12 +27411,18 @@
                 "face"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -27701,12 +27850,18 @@
                 "steal"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -27861,12 +28016,18 @@
                 "[and] steal"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -28209,12 +28370,18 @@
                 "full of light"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -29002,12 +29169,18 @@
                 "clothes"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -29235,12 +29408,18 @@
                 "than they"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -29529,12 +29708,18 @@
                 "spin"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -29655,12 +29840,18 @@
                 "of these"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -29961,12 +30152,18 @@
                 "shall we wear"
               ]
             },
-            "?’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "?’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -30104,12 +30301,18 @@
                 "them"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -30535,12 +30738,18 @@
                 "you will be judged"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -30835,12 +31044,18 @@
                 "eye"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -31019,12 +31234,18 @@
                 "eye"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -31560,12 +31781,18 @@
                 "to you"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -31822,12 +32049,18 @@
                 "a stone"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -31893,12 +32126,18 @@
                 "a snake"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -32557,12 +32796,18 @@
                 "it"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -32887,12 +33132,18 @@
                 "wolves"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -33015,12 +33266,18 @@
                 "thistles"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -33135,12 +33392,18 @@
                 "fruit"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -33246,12 +33509,18 @@
                 "fruit"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -33340,12 +33609,18 @@
                 "[the] fire"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -33626,12 +33901,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -34212,12 +34493,18 @@
                 "rock"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -34625,12 +34912,18 @@
                 "sand"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -36058,16 +36351,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
             "“",
             {
               "type": "char",
@@ -36771,12 +37064,18 @@
                 "faith"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -36963,12 +37262,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -37847,10 +38152,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -39146,16 +39447,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
             "“",
             {
               "type": "char",
@@ -40181,16 +40482,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
             "“",
             {
               "type": "char",
@@ -41369,12 +41670,18 @@
                 "hearts"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -41491,12 +41798,18 @@
                 "walk"
               ]
             },
-            "’? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "’?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -42653,12 +42966,18 @@
                 "sick"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -44822,17 +45141,16 @@
             "crowd"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
             "“",
             {
               "type": "char",
@@ -46750,12 +47068,18 @@
                 "[are] few"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -47806,12 +48130,18 @@
                 "of [the] Samaritans"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -47892,12 +48222,18 @@
                 "of Israel"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -47980,12 +48316,18 @@
                 "is near"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -48229,12 +48571,18 @@
                 "belts"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -48583,12 +48931,18 @@
                 "you move on"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -48674,12 +49028,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -48875,12 +49235,18 @@
                 "you"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -49082,12 +49448,18 @@
                 "town"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -49420,12 +49792,18 @@
                 "doves"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -49563,12 +49941,18 @@
                 "synagogues"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -49689,12 +50073,18 @@
                 "Gentiles"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -49849,12 +50239,18 @@
                 "to say"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -50141,12 +50537,18 @@
                 ". . ."
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -50654,12 +51056,18 @@
                 "master"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -51084,12 +51492,18 @@
                 ". . ."
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -51709,12 +52123,18 @@
                 "Father"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -51795,12 +52215,18 @@
                 "numbered"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -52068,12 +52494,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -52398,12 +52830,18 @@
                 "a sword"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -52921,12 +53359,18 @@
                 "of Me"
               ]
             },
-            "; ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            ";"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -53047,12 +53491,18 @@
                 "of Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -53336,12 +53786,18 @@
                 "Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "41"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "41"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -53495,12 +53951,18 @@
                 "reward"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "42"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "42"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -54291,12 +54753,18 @@
                 "see"
               ]
             },
-            ": ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            ":"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -54465,12 +54933,18 @@
                 "[to the] poor"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -54793,12 +55267,18 @@
                 "[the] wind"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -54955,12 +55435,18 @@
                 "palaces"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -55053,12 +55539,18 @@
                 "than a prophet"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -55487,12 +55979,18 @@
                 "than he"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -55667,12 +56165,18 @@
                 "to it"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -55753,12 +56257,18 @@
                 "John"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -56353,12 +56863,18 @@
                 "a demon"
               ]
             },
-            "!’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "!’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -56737,17 +57253,16 @@
             "they did not repent"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
             "“",
             {
               "type": "char",
@@ -56962,12 +57477,18 @@
                 "ashes"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -57305,12 +57826,18 @@
                 "day"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -57686,12 +58213,18 @@
                 "to little children"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -58152,12 +58685,18 @@
                 "will give you rest"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -58344,12 +58883,18 @@
                 "souls"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -58965,12 +59510,18 @@
                 "were hungry"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -59405,12 +59956,18 @@
                 "innocent"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -59652,12 +60209,18 @@
                 "innocent"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -60222,12 +60785,18 @@
                 "lift [it] out"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -60873,10 +61442,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -62198,12 +62763,18 @@
                 "will not stand"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -62334,12 +62905,18 @@
                 "stand"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -62503,12 +63080,18 @@
                 "judges"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -63211,12 +63794,18 @@
                 "be forgiven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -63742,12 +64331,18 @@
                 "fruit"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -63886,12 +64481,18 @@
                 "speaks"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -64045,12 +64646,18 @@
                 "store of treasure"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -64195,12 +64802,18 @@
                 "they have spoken"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -64669,12 +65282,18 @@
                 "Jonah"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -65129,12 +65748,18 @@
                 "is here"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "42"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "42"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -65555,12 +66180,18 @@
                 "does not find [it]"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -65702,12 +66333,18 @@
                 "put in order"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "45"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "45"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -66655,12 +67292,18 @@
                 "brothers"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "50"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "50"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -67266,12 +67909,18 @@
                 "to sow his seed"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -67591,12 +68240,18 @@
                 "shallow"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -68402,12 +69057,18 @@
                 "-"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -68547,12 +69208,18 @@
                 "him"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -69483,12 +70150,18 @@
                 "they hear"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -69782,12 +70455,18 @@
                 "sower"
               ]
             },
-            ": ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            ":"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -70204,12 +70883,18 @@
                 "joy"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -71060,12 +71745,18 @@
                 "field"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -71220,12 +71911,18 @@
                 "slipped away"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -71835,12 +72532,18 @@
                 "them"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -72343,12 +73046,18 @@
                 "field"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -73044,10 +73753,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“",
@@ -73540,12 +74245,18 @@
                 "of Man"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -73740,12 +74451,18 @@
                 "evil [one]"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -74048,12 +74765,18 @@
                 "age"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "41"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "41"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -74231,12 +74954,18 @@
                 "lawlessness"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "42"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "42"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -74374,12 +75103,18 @@
                 "teeth"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "43"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "43"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -74952,12 +75687,18 @@
                 "pearls"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "46"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "46"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -75226,12 +75967,18 @@
                 "kinds [of fish]"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "48"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "48"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -75550,12 +76297,18 @@
               "content": [
                 "righteous"
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "50"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "50"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -79158,16 +79911,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
             "“",
             {
               "type": "char",
@@ -79418,16 +80171,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
             "“",
             {
               "type": "char",
@@ -81107,16 +81860,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
             "“",
             {
               "type": "char",
@@ -82655,12 +83408,18 @@
                 "tradition"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -82864,12 +83623,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -83007,12 +83772,18 @@
                 "is a gift devoted [to God]"
               ]
             },
-            ",’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            ",’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -83231,12 +84002,18 @@
                 "tradition"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -83687,12 +84464,18 @@
                 "understand"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -84113,12 +84896,18 @@
                 "will be pulled up by its roots"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -84381,16 +85170,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
             "“",
             {
               "type": "char",
@@ -84459,17 +85248,16 @@
             "[Jesus] asked"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
             "“",
             {
               "type": "char",
@@ -84607,12 +85395,18 @@
                 ". . ."
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -84726,12 +85520,18 @@
                 "man"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -84842,12 +85642,18 @@
                 "[and] slander"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -86056,16 +86862,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
             "“",
             {
               "type": "char",
@@ -87297,16 +88103,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
             "“",
             {
               "type": "char",
@@ -88312,12 +89118,18 @@
                 "is red"
               ]
             },
-            ",’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            ",’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -88541,12 +89353,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -88835,17 +89653,16 @@
             "bread"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
             "“",
             {
               "type": "char",
@@ -89205,12 +90022,18 @@
                 "bread"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -89317,12 +90140,18 @@
                 "you gathered"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -89404,12 +90233,18 @@
                 "you gathered"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -90143,16 +90978,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
             "“",
             {
               "type": "char",
@@ -90614,12 +91449,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -90806,12 +91647,18 @@
                 "it"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -92107,12 +92954,18 @@
                 "Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -92282,12 +93135,18 @@
                 "it"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -92466,12 +93325,18 @@
                 "soul"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -94723,12 +95588,18 @@
                 "all things"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -95473,16 +96344,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
             "“",
             {
               "type": "char",
@@ -96012,16 +96883,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
             "“",
             {
               "type": "char",
@@ -96539,12 +97410,18 @@
                 "of men"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -97319,17 +98196,16 @@
             "to him"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
             "“",
             {
               "type": "char",
@@ -97900,17 +98776,16 @@
             "among them"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
             "“",
             {
               "type": "char",
@@ -98090,12 +98965,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -98233,12 +99114,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -99147,12 +100034,18 @@
                 "fire"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -99990,12 +100883,18 @@
                 "that is lost"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -100166,12 +101065,18 @@
                 "that did not go astray"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -100572,12 +101477,18 @@
                 "brother {over}"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -100776,12 +101687,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -101433,12 +102350,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -102084,12 +103007,18 @@
                 "servants"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -102192,12 +103121,18 @@
                 "to him"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -103499,12 +104434,18 @@
                 "me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -103602,12 +104543,18 @@
                 "on you"
               ]
             },
-            "?’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
+            "?’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -104556,12 +105503,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -104777,12 +105730,18 @@
                 }
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -105230,12 +106189,18 @@
                 "[the] beginning"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -105586,16 +106551,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
             "“",
             {
               "type": "char",
@@ -105710,12 +106675,18 @@
                 "it has been given"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -106568,16 +107539,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
             "“",
             {
               "type": "char",
@@ -107001,12 +107972,18 @@
                 "do not bear false witness"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -107772,12 +108749,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -108694,12 +109677,18 @@
                 "of Israel"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -108967,12 +109956,18 @@
                 "life"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -109222,12 +110217,18 @@
                 "vineyard"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -109505,12 +110506,18 @@
                 "doing nothing"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "‘",
             {
               "type": "char",
@@ -109642,12 +110649,18 @@
                 "right"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -110476,12 +111489,18 @@
                 "a denarius"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -110672,12 +111691,18 @@
                 "landowner"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "‘",
             {
               "type": "char",
@@ -110983,12 +112008,18 @@
                 "on one denarius"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -111102,12 +112133,18 @@
                 "you"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -111579,17 +112616,16 @@
             "-"
           ]
         },
-        ", ",
+        ",  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
             "“",
             {
               "type": "char",
@@ -111745,12 +112781,18 @@
               "content": [
                 "death"
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -112076,16 +113118,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
             "“",
             {
               "type": "char",
@@ -112338,16 +113380,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
             "“",
             {
               "type": "char",
@@ -112571,16 +113613,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
             "“",
             {
               "type": "char",
@@ -113104,12 +114146,18 @@
                 "them"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -113240,12 +114288,18 @@
                 "servant"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -113334,12 +114388,18 @@
                 "slave"
               ]
             },
-            " — ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            " —"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -114645,12 +115705,18 @@
                 "to Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -114894,10 +115960,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -115658,10 +116720,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -117952,16 +119010,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
             "“",
             {
               "type": "char",
@@ -118248,12 +119306,18 @@
                 "it will happen"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -118623,16 +119687,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
             "“",
             {
               "type": "char",
@@ -118828,12 +119892,18 @@
                 "these things"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -120195,12 +121265,18 @@
                 "before you"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -120871,12 +121947,18 @@
                 "[share of the] fruit"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -121435,12 +122517,18 @@
                 "inheritance"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -122318,12 +123406,18 @@
                 "fruit"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -122836,17 +123930,16 @@
             "-"
           ]
         },
-        ": ",
+        ":  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
             "“",
             {
               "type": "char",
@@ -122952,12 +124045,18 @@
                 "son"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -123468,12 +124567,18 @@
                 "business"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -123720,12 +124825,18 @@
                 "city"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -123856,12 +124967,18 @@
                 "worthy"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -124303,12 +125420,18 @@
                 "clothes"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "‘",
             {
               "type": "char",
@@ -125394,12 +126517,18 @@
                 "Me"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -125533,16 +126662,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
             "“",
             {
               "type": "char",
@@ -126837,12 +127966,18 @@
                 "of God"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -126994,12 +128129,18 @@
                 "heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -127121,12 +128262,18 @@
                 "-"
               ]
             },
-            ": ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            ":"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "‘",
             {
               "type": "char",
@@ -127938,12 +129085,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -128000,12 +129153,18 @@
                 "commandment"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -128114,12 +129273,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -129271,12 +130436,18 @@
                 "seat"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -129447,12 +130618,18 @@
                 "they preach"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -129839,12 +131016,18 @@
                 "tassels"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -129950,12 +131133,18 @@
                 "synagogues"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -130232,12 +131421,18 @@
                 "brothers"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -130368,12 +131563,18 @@
                 "in heaven"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -130456,12 +131657,18 @@
                 "Christ"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -130518,12 +131725,18 @@
                 "servant"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -131355,12 +132568,18 @@
                 "he is bound by his oath"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -131492,12 +132711,18 @@
                 ". . ."
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -131662,12 +132887,18 @@
                 "he is bound by his oath"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -131775,12 +133006,18 @@
                 ". . ."
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -131902,12 +133139,18 @@
                 "it"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -132020,12 +133263,18 @@
                 "in it"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -132496,12 +133745,18 @@
                 "the former"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -132811,12 +134066,18 @@
                 "self-indulgence"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -133205,12 +134466,18 @@
                 "impurity"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -133507,12 +134774,18 @@
                 "righteous"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -133675,12 +134948,18 @@
                 "prophets"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -133761,12 +135040,18 @@
                 "prophets"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -133861,12 +135146,18 @@
                 "fathers"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -134219,12 +135510,18 @@
                 "town"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -134475,12 +135772,18 @@
                 "altar"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -134856,12 +136159,18 @@
                 "you were unwilling"
               ]
             },
-            "! ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "!"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -134954,12 +136263,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -135343,16 +136658,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
             "“",
             {
               "type": "char",
@@ -135916,12 +137231,18 @@
                 "you"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -136045,12 +137366,18 @@
                 ". . ."
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -136198,12 +137525,18 @@
                 "still to come"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -136334,12 +137667,18 @@
                 "[various] places"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -136582,12 +137921,18 @@
                 "name"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -136668,12 +138013,18 @@
                 "one another"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -136838,12 +138189,18 @@
                 "will grow cold"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -137328,12 +138685,18 @@
                 "understand)"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -137406,12 +138769,18 @@
                 "mountains"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -137508,12 +138877,18 @@
                 "house"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -137733,12 +139108,18 @@
                 "nursing [mothers]"
               ]
             },
-            "! ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "!"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -137827,12 +139208,18 @@
                 "on the Sabbath"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -137979,12 +139366,18 @@
                 "to be [seen again]"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -138277,12 +139670,18 @@
                 "believe [it]"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -138428,12 +139827,18 @@
                 "that were possible"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -138649,12 +140054,18 @@
                 "believe [it]"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -138808,12 +140219,18 @@
                 "of Man"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -139640,12 +141057,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -140103,12 +141526,18 @@
                 "[is] near"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -140244,12 +141673,18 @@
                 "[the] door"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -140371,12 +141806,18 @@
                 "have happened"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -140753,12 +142194,18 @@
                 "Father"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -140872,12 +142319,18 @@
                 "of Man"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -141081,12 +142534,18 @@
                 "ark"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -141240,12 +142699,18 @@
                 "of Man"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -141335,12 +142800,18 @@
                 "left"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "41"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "41"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -141530,12 +143001,18 @@
                 "will come"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "43"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "43"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -141722,12 +143199,18 @@
                 "be broken into"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -142063,12 +143546,18 @@
                 "the proper time"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "46"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "46"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -142165,12 +143654,18 @@
                 "when he returns"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "47"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "47"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -142400,12 +143895,18 @@
                 "will be away a long time"
               ]
             },
-            ".’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "49"
-            },
+            ".’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "49"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -142510,12 +144011,18 @@
                 "drunkards"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "50"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "50"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -142652,12 +144159,18 @@
                 "he does not anticipate"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "51"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "51"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -142995,12 +144508,18 @@
                 "bridegroom"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -143074,12 +144593,18 @@
                 "wise"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -143176,12 +144701,18 @@
                 "oil"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -143278,12 +144809,18 @@
                 "lamps"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -143573,12 +145110,18 @@
                 "lamps"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -144591,12 +146134,18 @@
                 "possessions"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -144783,16 +146332,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
             {
               "type": "char",
               "marker": "w",
@@ -144969,12 +146518,18 @@
                 "more"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -145032,12 +146587,18 @@
                 "more"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -145299,12 +146860,18 @@
                 "them"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -146324,12 +147891,18 @@
                 "you have not scattered seed"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -146643,12 +148216,18 @@
                 "I have not scattered seed"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -146917,12 +148496,18 @@
                 "talents"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -147062,12 +148647,18 @@
                 "him"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -147433,12 +149024,18 @@
                 "throne"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -147609,12 +149206,18 @@
                 "goats"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -147917,12 +149520,18 @@
                 "of [the] world"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -148045,12 +149654,18 @@
                 ". . ."
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -148331,12 +149946,18 @@
                 "give [You] something to drink"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -148426,12 +150047,18 @@
                 "clothe [You]"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -148932,12 +150559,18 @@
                 "angels"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "42"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "42"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -149043,12 +150676,18 @@
                 ". . ."
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "43"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "43"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -149878,17 +151517,16 @@
             "disciples"
           ]
         },
-        ", ",
+        ",  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
             "“",
             {
               "type": "char",
@@ -151001,12 +152639,18 @@
                 "Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -151133,12 +152777,18 @@
                 "Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -151260,12 +152910,18 @@
                 "burial"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -152903,12 +154559,18 @@
                 "Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -153634,12 +155296,18 @@
                 "all of you"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -153789,12 +155457,18 @@
                 "of sins"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -154672,16 +156346,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
             "“",
             {
               "type": "char",
@@ -155944,17 +157618,16 @@
             "Peter"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "41"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "41"
-            },
             "“",
             {
               "type": "char",
@@ -156723,12 +158396,18 @@
                 "of sinners"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "46"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "46"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -157294,16 +158973,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "50"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "50"
-            },
             "“",
             {
               "type": "char",
@@ -157712,16 +159391,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "52"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "52"
-            },
             "“",
             {
               "type": "char",
@@ -157900,12 +159579,18 @@
                 "[the] sword"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "53"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "53"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -158043,12 +159728,18 @@
                 "of angels"
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "54"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "54"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -158412,12 +160103,18 @@
                 "Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "56"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "56"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -159674,16 +161371,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "64"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "64"
-            },
             "“",
             {
               "type": "char",
@@ -162635,10 +164332,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -166752,11 +168445,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "p",
-      "content": []
     },
     {
       "type": "para",
@@ -172655,17 +174343,16 @@
             "Him"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
             "“",
             {
               "type": "char",
@@ -173879,12 +175566,18 @@
                 "to Me"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -174074,12 +175767,18 @@
                 "Spirit"
               ]
             },
-            ", ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            ","
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",

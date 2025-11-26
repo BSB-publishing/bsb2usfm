@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -89,10 +84,6 @@
         },
         "This is the word of the LORD that came to Micah the Moreshite in the days of Jotham, Ahaz, and Hezekiah, kings of Judah — what he saw regarding Samaria and Jerusalem:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1280,10 +1271,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“I am planning against this nation a disaster"
@@ -1789,10 +1776,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Hear now, O leaders of Jacob,"
@@ -1930,10 +1913,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3574,10 +3553,6 @@
         },
         "Hear now what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

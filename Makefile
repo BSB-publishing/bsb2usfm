@@ -1,6 +1,6 @@
-PYTHON=venv/bin/python3
-REMOTE_URL=https://bereanbible.com/bsb_tables.tsv
-CACHED_DATA=temp/bsb_tables.tsv
+PYTHON ?= venv/bin/python3
+REMOTE_URL = https://bereanbible.com/bsb_tables.tsv
+CACHED_DATA = temp/bsb_tables.tsv
 
 # PHONY targets that don't represent files
 .PHONY: all clean clean-cache force check-remote-updates

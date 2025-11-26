@@ -278,10 +278,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -312,10 +308,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -571,10 +563,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1446,10 +1434,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -2535,10 +2519,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -2712,10 +2692,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -2838,10 +2814,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -2885,10 +2857,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3008,10 +2976,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3703,11 +3667,6 @@
               "content": [
                 "Alian "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -3868,11 +3827,6 @@
               "content": [
                 "sons "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -4276,10 +4230,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -4333,10 +4283,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4418,10 +4364,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -4489,10 +4431,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4633,10 +4571,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -4696,10 +4630,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4801,10 +4731,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -4880,10 +4806,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5073,10 +4995,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5438,10 +5356,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -5558,10 +5472,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5842,10 +5752,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -5895,10 +5801,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6085,10 +5987,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -6258,10 +6156,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -6303,10 +6197,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6461,10 +6351,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -6565,10 +6451,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6693,10 +6575,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -6772,10 +6650,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7240,10 +7114,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -7565,10 +7435,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8000,10 +7866,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -8190,10 +8052,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8388,10 +8246,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -8478,10 +8332,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -8539,10 +8389,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8672,10 +8518,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -8761,10 +8603,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -8844,10 +8682,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -8886,10 +8720,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -8925,10 +8755,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9033,10 +8859,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -9089,10 +8911,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -9129,10 +8947,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9332,10 +9146,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9772,10 +9582,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -9928,10 +9734,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10156,10 +9958,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -10288,10 +10086,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -10378,10 +10172,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10604,10 +10394,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -10827,10 +10613,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -11023,10 +10805,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -11181,11 +10959,6 @@
               "content": [
                 "of the Sopherites "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -11434,10 +11207,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -11477,10 +11246,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -11517,10 +11282,6 @@
         },
         ";"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11601,10 +11362,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -11641,10 +11398,6 @@
         },
         ";"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11685,10 +11438,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -11725,10 +11474,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11894,10 +11639,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12120,10 +11861,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -12304,10 +12041,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12790,10 +12523,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -12936,10 +12665,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13188,10 +12913,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -13241,10 +12962,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13378,10 +13095,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -13503,10 +13216,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -13619,10 +13328,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -13691,10 +13396,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13846,10 +13547,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -13898,10 +13595,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14037,10 +13730,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14251,10 +13940,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -14324,10 +14009,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14883,10 +14564,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -15044,10 +14721,6 @@
         },
         ".”"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15320,10 +14993,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -15373,10 +15042,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15644,10 +15309,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -15726,10 +15387,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -15765,11 +15422,6 @@
               "content": [
                 "sons "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -15798,10 +15450,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15873,10 +15521,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -16309,10 +15953,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -16436,10 +16076,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -16519,10 +16155,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -16574,10 +16206,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -16959,10 +16587,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -17064,10 +16688,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -17135,10 +16755,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -17225,10 +16841,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -18110,10 +17722,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -18408,10 +18016,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -19192,10 +18796,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         {
@@ -19501,10 +19101,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -20061,10 +19657,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -20134,10 +19726,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -20469,10 +20057,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -20643,10 +20227,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -20930,10 +20510,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -21501,10 +21077,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -21571,10 +21143,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -21752,10 +21320,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -22055,10 +21619,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -22089,10 +21649,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -22167,10 +21723,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -22230,10 +21782,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -23302,10 +22850,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -23420,10 +22964,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -23499,10 +23039,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -23568,10 +23104,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -23643,10 +23175,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -23738,10 +23266,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -23893,10 +23417,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -24162,10 +23682,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -24470,10 +23986,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -24574,10 +24086,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -25021,10 +24529,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -25530,10 +25034,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -25885,10 +25385,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -26493,10 +25989,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -26871,10 +26363,6 @@
         },
         " to them:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -27509,10 +26997,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -27723,10 +27207,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -28455,10 +27935,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -28781,10 +28257,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -28948,10 +28420,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -29061,10 +28529,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -29234,10 +28698,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -29401,10 +28861,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -29582,10 +29038,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -29714,10 +29166,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -29985,10 +29433,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -30204,10 +29648,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -30306,10 +29746,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -30525,10 +29961,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -30605,10 +30037,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -30823,10 +30251,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -30965,10 +30389,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -30999,10 +30419,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -31182,10 +30598,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -31425,10 +30837,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -31470,10 +30878,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -31796,10 +31200,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -31996,10 +31396,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -32077,10 +31473,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -32162,10 +31554,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -32219,10 +31607,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -32354,10 +31738,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -32399,10 +31779,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -32550,10 +31926,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -32666,10 +32038,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -32795,10 +32163,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -32900,10 +32264,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -33266,10 +32626,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -33497,10 +32853,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -33931,10 +33283,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -33991,10 +33339,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -34073,10 +33417,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -34184,10 +33524,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -34272,10 +33608,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -34413,10 +33745,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -34535,10 +33863,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -34723,10 +34047,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -34789,10 +34109,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -34852,10 +34168,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -35176,10 +34488,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -35346,10 +34654,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -35583,10 +34887,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -35893,10 +35193,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -35962,10 +35258,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -36191,10 +35483,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -36314,10 +35602,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -36411,10 +35695,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -36534,10 +35814,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -36683,10 +35959,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -36774,10 +36046,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -36854,10 +36122,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -37539,10 +36803,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -37736,10 +36996,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -37858,10 +37114,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -38074,10 +37326,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -38221,10 +37469,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -38372,10 +37616,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -38991,10 +38231,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -39116,10 +38352,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -39177,10 +38409,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -39265,10 +38493,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -39639,10 +38863,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -40185,10 +39405,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -40547,10 +39763,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -42505,10 +41717,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -42629,10 +41837,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -42793,10 +41997,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -42970,10 +42170,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -43064,10 +42260,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -43570,10 +42762,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -49377,10 +48565,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -51467,10 +50651,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -52937,10 +52117,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -60390,10 +59566,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -61812,11 +60984,6 @@
               "content": [
                 "Zechariah, Ben, "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -64346,10 +63513,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -73715,10 +72878,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -86532,10 +85691,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -90269,10 +89424,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -91195,10 +90346,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -92563,10 +91710,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -93687,10 +92830,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -95572,10 +94711,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         {
@@ -96813,10 +95948,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -97876,10 +97007,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         " ",
@@ -98497,10 +97624,6 @@
         },
         "."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -99417,10 +98540,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -101223,10 +100342,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -105479,10 +104594,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

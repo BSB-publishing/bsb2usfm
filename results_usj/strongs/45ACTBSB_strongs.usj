@@ -644,12 +644,18 @@
                 "Me discuss"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -1081,12 +1087,18 @@
                 "authority"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -3062,10 +3074,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -3200,10 +3208,6 @@
         },
         ","
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6004,10 +6008,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -7358,10 +7358,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8729,10 +8725,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15714,10 +15706,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -17713,10 +17701,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -33889,10 +33873,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -34879,10 +34859,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -40308,10 +40284,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“",
@@ -42222,15 +42194,14 @@
           ]
         },
         {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
             "“",
             {
               "type": "char",
@@ -42888,16 +42859,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
             "“",
             {
               "type": "char",
@@ -43069,12 +43040,18 @@
                 "praying"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -43457,16 +43434,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
             "“",
             {
               "type": "char",
@@ -43638,12 +43615,18 @@
                 "of Israel"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -60924,11 +60907,6 @@
               "content": [
                 "had become furious "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -66175,10 +66153,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -66373,10 +66347,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘",
@@ -66526,10 +66496,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -67103,10 +67069,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -68162,10 +68124,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -74633,10 +74591,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -86465,11 +86419,6 @@
     },
     {
       "type": "para",
-      "marker": "p",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "pc",
       "content": [
         {
@@ -89473,12 +89422,18 @@
                 "be silent"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -127725,17 +127680,16 @@
             "replied"
           ]
         },
-        ". ",
+        ".  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
             "‘",
             {
               "type": "char",
@@ -127922,12 +127876,18 @@
                 "you"
               ]
             },
-            ". ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -128040,12 +128000,18 @@
               "content": [
                 "them"
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             {
               "type": "char",
               "marker": "w",
@@ -139565,10 +139531,6 @@
         },
         ":"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

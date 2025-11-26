@@ -68,7 +68,6 @@
       "type": "para",
       "marker": "r",
       "content": [
-        "(",
         {
           "type": "ref",
           "loc": "3JN 1-4",
@@ -102,10 +101,9 @@
           "marker": "rb",
           "gloss": "πρεσβύτερος",
           "content": [
-            "elder"
+            "elder,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -155,10 +153,9 @@
           "marker": "rb",
           "gloss": "τέκνοις",
           "content": [
-            "children"
+            "children,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -196,10 +193,9 @@
           "marker": "rb",
           "gloss": "ἀληθείᾳ",
           "content": [
-            "the truth"
+            "the truth—"
           ]
         },
-        " — ",
         {
           "type": "char",
           "marker": "rb",
@@ -229,10 +225,9 @@
           "marker": "rb",
           "gloss": "μόνος",
           "content": [
-            "alone"
+            "alone,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -286,10 +281,9 @@
           "marker": "rb",
           "gloss": "ἀλήθειαν",
           "content": [
-            "truth"
+            "truth—"
           ]
         },
-        " — ",
         {
           "type": "verse",
           "marker": "v",
@@ -400,10 +394,9 @@
           "marker": "rb",
           "gloss": "αἰῶνα",
           "content": [
-            "forever"
+            "forever:"
           ]
-        },
-        ":"
+        }
       ]
     },
     {
@@ -421,19 +414,17 @@
           "marker": "rb",
           "gloss": "χάρις",
           "content": [
-            "Grace"
+            "Grace,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ἔλεος",
           "content": [
-            "mercy"
+            "mercy,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -495,10 +486,9 @@
           "marker": "rb",
           "gloss": "Χριστοῦ",
           "content": [
-            "Christ"
+            "Christ,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -528,10 +518,9 @@
           "marker": "rb",
           "gloss": "Πατρός",
           "content": [
-            "Father"
+            "Father,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -585,10 +574,9 @@
           "marker": "rb",
           "gloss": "ἀγάπῃ",
           "content": [
-            "love"
+            "love."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -602,7 +590,6 @@
       "type": "para",
       "marker": "r",
       "content": [
-        "(",
         {
           "type": "ref",
           "loc": "JHN 8:30-47",
@@ -704,10 +691,9 @@
           "marker": "rb",
           "gloss": "ἀληθείᾳ",
           "content": [
-            "the truth"
+            "the truth,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -751,10 +737,9 @@
           "marker": "rb",
           "gloss": "ἐλάβομεν",
           "content": [
-            "us"
+            "us."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -789,19 +774,17 @@
           "marker": "rb",
           "gloss": "σε",
           "content": [
-            "you"
+            "you,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "κυρία",
           "content": [
-            "dear lady"
+            "dear lady—"
           ]
         },
-        " — ",
         {
           "type": "char",
           "marker": "rb",
@@ -845,10 +828,9 @@
           "marker": "rb",
           "gloss": "σοι",
           "content": [
-            "to you"
+            "to you,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -886,10 +868,9 @@
           "marker": "rb",
           "gloss": "ἀρχῆς",
           "content": [
-            "the beginning"
+            "the beginning—"
           ]
         },
-        " — ",
         {
           "type": "char",
           "marker": "rb",
@@ -911,10 +892,9 @@
           "marker": "rb",
           "gloss": "ἀλλήλους",
           "content": [
-            "one another"
+            "one another."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -955,10 +935,9 @@
           "marker": "rb",
           "gloss": "ἀγάπη",
           "content": [
-            "love"
+            "love,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1002,10 +981,9 @@
           "marker": "rb",
           "gloss": "ἐντολὰς",
           "content": [
-            "commandments"
+            "commandments."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -1067,10 +1045,9 @@
           "marker": "rb",
           "gloss": "ἀρχῆς",
           "content": [
-            "the beginning"
+            "the beginning,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1100,10 +1077,9 @@
           "marker": "rb",
           "gloss": "αὐτῇ",
           "content": [
-            "love"
+            "love."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1176,10 +1152,9 @@
           "marker": "rb",
           "gloss": "κόσμον",
           "content": [
-            "world"
+            "world,"
           ]
         },
-        ",",
         {
           "type": "char",
           "marker": "rb",
@@ -1239,10 +1214,9 @@
           "marker": "rb",
           "gloss": "σαρκί",
           "content": [
-            "the flesh"
+            "the flesh."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -1296,10 +1270,9 @@
           "marker": "rb",
           "gloss": "ἀντίχριστος",
           "content": [
-            "antichrist"
+            "antichrist."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -1318,10 +1291,9 @@
           "marker": "rb",
           "gloss": "ἑαυτούς",
           "content": [
-            "yourselves"
+            "yourselves,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1357,10 +1329,9 @@
           "marker": "rb",
           "gloss": "εἰργασάμεθα",
           "content": [
-            "we have worked for"
+            "we have worked for,"
           ]
         },
-        ",",
         {
           "type": "note",
           "marker": "f",
@@ -1402,7 +1373,7 @@
           "marker": "rb",
           "gloss": "ἀπολάβητε",
           "content": [
-            "you may be fully rewarded"
+            "you may be fully rewarded."
           ]
         },
         {
@@ -1417,7 +1388,6 @@
           "gloss": "μισθὸν",
           "content": []
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -1526,10 +1496,9 @@
           "marker": "rb",
           "gloss": "Θεὸν",
           "content": [
-            "God"
+            "God."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -1629,10 +1598,9 @@
           "marker": "rb",
           "gloss": "Υἱὸν",
           "content": [
-            "Son"
+            "Son."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1726,10 +1694,9 @@
           "marker": "rb",
           "gloss": "διδαχὴν",
           "content": [
-            "teaching"
+            "teaching,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1805,10 +1772,9 @@
           "marker": "rb",
           "gloss": "αὐτῷ",
           "content": [
-            "him"
+            "him."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -1893,10 +1859,9 @@
           "marker": "rb",
           "gloss": "ἔργοις",
           "content": [
-            "deeds"
+            "deeds."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1910,7 +1875,6 @@
       "type": "para",
       "marker": "r",
       "content": [
-        "(",
         {
           "type": "ref",
           "loc": "3JN 13-14",
@@ -1960,10 +1924,9 @@
           "marker": "rb",
           "gloss": "ὑμῖν",
           "content": [
-            "to you"
+            "to you,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2009,19 +1972,17 @@
           "marker": "rb",
           "gloss": "μέλανος",
           "content": [
-            "ink"
+            "ink."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ἀλλὰ",
           "content": [
-            "Instead"
+            "Instead,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2091,10 +2052,9 @@
           "marker": "rb",
           "gloss": "στόμα",
           "content": [
-            "face"
+            "face,"
           ]
         },
-        ",",
         {
           "type": "note",
           "marker": "f",
@@ -2166,10 +2126,9 @@
           "marker": "rb",
           "gloss": "πεπληρωμένη",
           "content": [
-            "complete"
+            "complete."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2239,16 +2198,9 @@
           "marker": "rb",
           "gloss": "Ἀσπάζεταί",
           "content": [
-            "send you greetings"
+            "send you greetings."
           ]
         },
-        {
-          "type": "char",
-          "marker": "rb",
-          "gloss": "σε",
-          "content": []
-        },
-        ".",
         {
           "type": "note",
           "marker": "f",
@@ -2276,6 +2228,12 @@
               ]
             }
           ]
+        },
+        {
+          "type": "char",
+          "marker": "rb",
+          "gloss": "σε",
+          "content": []
         }
       ]
     }

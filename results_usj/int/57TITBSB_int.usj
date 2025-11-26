@@ -68,7 +68,6 @@
       "type": "para",
       "marker": "r",
       "content": [
-        "(",
         {
           "type": "ref",
           "loc": "2CO 8:16-24",
@@ -94,10 +93,9 @@
           "marker": "rb",
           "gloss": "Παῦλος",
           "content": [
-            "Paul"
+            "Paul,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -223,10 +221,9 @@
           "marker": "rb",
           "gloss": "εὐσέβειαν",
           "content": [
-            "godliness"
+            "godliness,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -261,10 +258,9 @@
           "marker": "rb",
           "gloss": "ζωῆς",
           "content": [
-            "life"
+            "life,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -284,19 +280,17 @@
           "marker": "rb",
           "gloss": "Θεὸς",
           "content": [
-            "God"
+            "God,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ἀψευδὴς",
           "content": [
-            "who cannot lie"
+            "who cannot lie,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -326,10 +320,9 @@
           "marker": "rb",
           "gloss": "αἰωνίων",
           "content": [
-            "began"
+            "began."
           ]
         },
-        ".",
         {
           "type": "note",
           "marker": "f",
@@ -496,10 +489,9 @@
           "marker": "rb",
           "gloss": "Σωτῆρος",
           "content": [
-            "Savior"
+            "Savior."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -517,10 +509,9 @@
           "marker": "rb",
           "gloss": "Τίτῳ",
           "content": [
-            "To Titus"
+            "To Titus,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -558,10 +549,9 @@
           "marker": "rb",
           "gloss": "πίστιν",
           "content": [
-            "faith"
+            "faith:"
           ]
-        },
-        ":"
+        }
       ]
     },
     {
@@ -659,10 +649,9 @@
           "marker": "rb",
           "gloss": "Σωτῆρος",
           "content": [
-            "Savior"
+            "Savior."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -676,7 +665,6 @@
       "type": "para",
       "marker": "r",
       "content": [
-        "(",
         {
           "type": "ref",
           "loc": "1TI 3:1-7",
@@ -820,10 +808,9 @@
           "marker": "rb",
           "gloss": "πόλιν",
           "content": [
-            "town"
+            "town,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -853,10 +840,9 @@
           "marker": "rb",
           "gloss": "σοι",
           "content": [
-            "you"
+            "you."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -889,10 +875,9 @@
           "marker": "rb",
           "gloss": "ἀνέγκλητος",
           "content": [
-            "blameless"
+            "blameless,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -914,10 +899,9 @@
           "marker": "rb",
           "gloss": "γυναικὸς",
           "content": [
-            "wife"
+            "wife,"
           ]
         },
-        ",",
         {
           "type": "note",
           "marker": "f",
@@ -1015,10 +999,9 @@
           "marker": "rb",
           "gloss": "ἀνυπότακτα",
           "content": [
-            "insubordination"
+            "insubordination."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1058,10 +1041,9 @@
           "marker": "rb",
           "gloss": "οἰκονόμον",
           "content": [
-            "steward"
+            "steward,"
           ]
         },
-        ",",
         {
           "type": "char",
           "marker": "rb",
@@ -1097,10 +1079,9 @@
           "marker": "rb",
           "gloss": "ἀνέγκλητον",
           "content": [
-            "above reproach"
+            "above reproach—"
           ]
         },
-        " — ",
         {
           "type": "char",
           "marker": "rb",
@@ -1114,10 +1095,9 @@
           "marker": "rb",
           "gloss": "αὐθάδη",
           "content": [
-            "self-willed"
+            "self-willed,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1131,10 +1111,9 @@
           "marker": "rb",
           "gloss": "ὀργίλον",
           "content": [
-            "quick-tempered"
+            "quick-tempered,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1148,10 +1127,9 @@
           "marker": "rb",
           "gloss": "πάροινον",
           "content": [
-            "given to drunkenness"
+            "given to drunkenness,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1165,10 +1143,9 @@
           "marker": "rb",
           "gloss": "πλήκτην",
           "content": [
-            "violent"
+            "violent,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1182,10 +1159,9 @@
           "marker": "rb",
           "gloss": "αἰσχροκερδῆ",
           "content": [
-            "greedy for money"
+            "greedy for money."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -1196,64 +1172,57 @@
           "marker": "rb",
           "gloss": "ἀλλὰ",
           "content": [
-            "Instead"
+            "Instead,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "φιλόξενον",
           "content": [
-            "he must be hospitable"
+            "he must be hospitable,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "φιλάγαθον",
           "content": [
-            "a lover of good"
+            "a lover of good,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "σώφρονα",
           "content": [
-            "self-controlled"
+            "self-controlled,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "δίκαιον",
           "content": [
-            "upright"
+            "upright,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ὅσιον",
           "content": [
-            "holy"
+            "holy,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ἐγκρατῆ",
           "content": [
-            "and disciplined"
+            "and disciplined."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -1310,10 +1279,9 @@
           "marker": "rb",
           "gloss": "διδαχὴν",
           "content": [
-            "it was taught"
+            "it was taught,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1415,10 +1383,9 @@
           "marker": "rb",
           "gloss": "ἀντιλέγοντας",
           "content": [
-            "contradict it"
+            "contradict it."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1432,7 +1399,6 @@
       "type": "para",
       "marker": "r",
       "content": [
-        "(",
         {
           "type": "ref",
           "loc": "1TI 1:3-11",
@@ -1514,10 +1480,9 @@
           "marker": "rb",
           "gloss": "φρεναπάται",
           "content": [
-            "deception"
+            "deception,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1555,10 +1520,9 @@
           "marker": "rb",
           "gloss": "περιτομῆς",
           "content": [
-            "circumcision"
+            "circumcision,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -1585,10 +1549,9 @@
           "marker": "rb",
           "gloss": "ἐπιστομίζειν",
           "content": [
-            "be silenced"
+            "be silenced."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -1610,10 +1573,9 @@
           "marker": "rb",
           "gloss": "κέρδους",
           "content": [
-            "gain"
+            "gain,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1675,10 +1637,9 @@
           "marker": "rb",
           "gloss": "μὴ",
           "content": [
-            "not"
+            "not."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -1735,16 +1696,15 @@
           "marker": "rb",
           "gloss": "εἶπέν",
           "content": [
-            "has said"
+            "has said,"
           ]
         },
-        ", “",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "Κρῆτες",
           "content": [
-            "Cretans"
+            "“Cretans"
           ]
         },
         {
@@ -1760,10 +1720,9 @@
           "marker": "rb",
           "gloss": "ψεῦσται",
           "content": [
-            "liars"
+            "liars,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1777,10 +1736,9 @@
           "marker": "rb",
           "gloss": "θηρία",
           "content": [
-            "beasts"
+            "beasts,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1794,10 +1752,9 @@
           "marker": "rb",
           "gloss": "γαστέρες",
           "content": [
-            "gluttons"
+            "gluttons.”"
           ]
         },
-        ".”",
         {
           "type": "note",
           "marker": "f",
@@ -1866,10 +1823,9 @@
           "marker": "rb",
           "gloss": "ἀληθής",
           "content": [
-            "true"
+            "true."
           ]
         },
-        ".",
         {
           "type": "char",
           "marker": "rb",
@@ -1911,10 +1867,9 @@
           "marker": "rb",
           "gloss": "ἀποτόμως",
           "content": [
-            "sternly"
+            "sternly,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2035,10 +1990,9 @@
           "marker": "rb",
           "gloss": "ἀλήθειαν",
           "content": [
-            "truth"
+            "truth."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2064,10 +2018,9 @@
           "marker": "rb",
           "gloss": "καθαροῖς",
           "content": [
-            "pure"
+            "pure,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2081,10 +2034,9 @@
           "marker": "rb",
           "gloss": "καθαρὰ",
           "content": [
-            "pure"
+            "pure;"
           ]
         },
-        "; ",
         {
           "type": "char",
           "marker": "rb",
@@ -2122,10 +2074,9 @@
           "marker": "rb",
           "gloss": "ἀπίστοις",
           "content": [
-            "unbelieving"
+            "unbelieving,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2139,19 +2090,17 @@
           "marker": "rb",
           "gloss": "καθαρόν",
           "content": [
-            "is pure"
+            "is pure."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ἀλλὰ",
           "content": [
-            "Indeed"
+            "Indeed,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2211,10 +2160,9 @@
           "marker": "rb",
           "gloss": "μεμίανται",
           "content": [
-            "are defiled"
+            "are defiled."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -2241,10 +2189,9 @@
           "marker": "rb",
           "gloss": "Θεὸν",
           "content": [
-            "God"
+            "God,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2274,10 +2221,9 @@
           "marker": "rb",
           "gloss": "ἀρνοῦνται",
           "content": [
-            "they deny Him"
+            "they deny Him."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -2291,10 +2237,9 @@
           "marker": "rb",
           "gloss": "βδελυκτοὶ",
           "content": [
-            "detestable"
+            "detestable,"
           ]
         },
-        ",",
         {
           "type": "char",
           "marker": "rb",
@@ -2306,10 +2251,9 @@
           "marker": "rb",
           "gloss": "ἀπειθεῖς",
           "content": [
-            "disobedient"
+            "disobedient,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2355,10 +2299,9 @@
           "marker": "rb",
           "gloss": "ἔργον",
           "content": [
-            "deed"
+            "deed."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2396,10 +2339,9 @@
           "marker": "rb",
           "gloss": "Σὺ",
           "content": [
-            "as for you"
+            "as for you,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2443,10 +2385,9 @@
           "marker": "rb",
           "gloss": "διδασκαλίᾳ",
           "content": [
-            "doctrine"
+            "doctrine."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2480,28 +2421,25 @@
           "marker": "rb",
           "gloss": "νηφαλίους",
           "content": [
-            "temperate"
+            "temperate,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "σεμνούς",
           "content": [
-            "dignified"
+            "dignified,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "σώφρονας",
           "content": [
-            "self-controlled"
+            "self-controlled,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2521,10 +2459,9 @@
           "marker": "rb",
           "gloss": "πίστει",
           "content": [
-            "in faith"
+            "in faith,"
           ]
         },
-        ",",
         {
           "type": "char",
           "marker": "rb",
@@ -2536,10 +2473,9 @@
           "marker": "rb",
           "gloss": "ἀγάπῃ",
           "content": [
-            "love"
+            "love,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2553,10 +2489,9 @@
           "marker": "rb",
           "gloss": "ὑπομονῇ",
           "content": [
-            "perseverance"
+            "perseverance."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2574,19 +2509,17 @@
           "marker": "rb",
           "gloss": "πρεσβύτιδας",
           "content": [
-            "Older women"
+            "Older women,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ὡσαύτως",
           "content": [
-            "likewise"
+            "likewise,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2608,10 +2541,9 @@
           "marker": "rb",
           "gloss": "καταστήματι",
           "content": [
-            "their behavior"
+            "their behavior,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2657,19 +2589,17 @@
           "marker": "rb",
           "gloss": "οἴνῳ",
           "content": [
-            "wine"
+            "wine,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "καλοδιδασκάλους",
           "content": [
-            "but teachers of good"
+            "but teachers of good."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -2728,10 +2658,9 @@
           "marker": "rb",
           "gloss": "φιλοτέκνους",
           "content": [
-            "and children"
+            "and children,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -2742,37 +2671,33 @@
           "marker": "rb",
           "gloss": "σώφρονας",
           "content": [
-            "to be self-controlled"
+            "to be self-controlled,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ἁγνάς",
           "content": [
-            "pure"
+            "pure,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "οἰκουργούς",
           "content": [
-            "managers of their households"
+            "managers of their households,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ἀγαθάς",
           "content": [
-            "kind"
+            "kind,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2802,10 +2727,9 @@
           "marker": "rb",
           "gloss": "ἀνδράσιν",
           "content": [
-            "husbands"
+            "husbands,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2855,10 +2779,9 @@
           "marker": "rb",
           "gloss": "βλασφημῆται",
           "content": [
-            "will not be discredited"
+            "will not be discredited."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2876,10 +2799,9 @@
           "marker": "rb",
           "gloss": "ὡσαύτως",
           "content": [
-            "In the same way"
+            "In the same way,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2909,10 +2831,9 @@
           "marker": "rb",
           "gloss": "σωφρονεῖν",
           "content": [
-            "to be self-controlled"
+            "to be self-controlled."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2938,10 +2859,9 @@
           "marker": "rb",
           "gloss": "πάντα",
           "content": [
-            "everything"
+            "everything,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2979,10 +2899,9 @@
           "marker": "rb",
           "gloss": "ἔργων",
           "content": [
-            "works"
+            "works."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -3012,19 +2931,17 @@
           "marker": "rb",
           "gloss": "ἀφθορίαν",
           "content": [
-            "show integrity"
+            "show integrity,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "σεμνότητα",
           "content": [
-            "dignity"
+            "dignity,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -3051,10 +2968,9 @@
           "marker": "rb",
           "gloss": "ἀκατάγνωστον",
           "content": [
-            "that is above reproach"
+            "that is above reproach,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3092,10 +3008,9 @@
           "marker": "rb",
           "gloss": "ἐντραπῇ",
           "content": [
-            "will be ashamed"
+            "will be ashamed,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3141,10 +3056,9 @@
           "marker": "rb",
           "gloss": "ἡμῶν",
           "content": [
-            "us"
+            "us."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -3202,10 +3116,9 @@
           "marker": "rb",
           "gloss": "πᾶσιν",
           "content": [
-            "everything"
+            "everything,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3219,10 +3132,9 @@
           "marker": "rb",
           "gloss": "εὐαρέστους",
           "content": [
-            "well-pleasing"
+            "well-pleasing,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3236,10 +3148,9 @@
           "marker": "rb",
           "gloss": "ἀντιλέγοντας",
           "content": [
-            "argumentative"
+            "argumentative,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -3258,10 +3169,9 @@
           "marker": "rb",
           "gloss": "νοσφιζομένους",
           "content": [
-            "stealing from them"
+            "stealing from them,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3299,10 +3209,9 @@
           "marker": "rb",
           "gloss": "πίστιν",
           "content": [
-            "faith"
+            "faith,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3386,10 +3295,9 @@
           "marker": "rb",
           "gloss": "Σωτῆρος",
           "content": [
-            "Savior"
+            "Savior."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -3452,10 +3360,9 @@
           "marker": "rb",
           "gloss": "Ἐπεφάνη",
           "content": [
-            "has appeared"
+            "has appeared,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3469,7 +3376,7 @@
           "marker": "rb",
           "gloss": "πᾶσιν",
           "content": [
-            "to everyone"
+            "to everyone."
           ]
         },
         {
@@ -3478,7 +3385,6 @@
           "gloss": "ἀνθρώποις",
           "content": []
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -3557,10 +3463,9 @@
           "marker": "rb",
           "gloss": "ἐπιθυμίας",
           "content": [
-            "passions"
+            "passions,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3574,10 +3479,9 @@
           "marker": "rb",
           "gloss": "σωφρόνως",
           "content": [
-            "sensible"
+            "sensible,"
           ]
         },
-        ",",
         {
           "type": "char",
           "marker": "rb",
@@ -3589,10 +3493,9 @@
           "marker": "rb",
           "gloss": "δικαίως",
           "content": [
-            "upright"
+            "upright,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3638,10 +3541,9 @@
           "marker": "rb",
           "gloss": "αἰῶνι",
           "content": [
-            "age"
+            "age,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -3770,10 +3672,9 @@
           "marker": "rb",
           "gloss": "Χριστοῦ",
           "content": [
-            "Christ"
+            "Christ."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -3904,10 +3805,9 @@
           "marker": "rb",
           "gloss": "περιούσιον",
           "content": [
-            "for His own possession"
+            "for His own possession,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -3929,10 +3829,9 @@
           "marker": "rb",
           "gloss": "ἔργων",
           "content": [
-            "deeds"
+            "deeds."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -4014,10 +3913,9 @@
           "marker": "rb",
           "gloss": "ἐπιταγῆς",
           "content": [
-            "authority"
+            "authority."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -4039,10 +3937,9 @@
           "marker": "rb",
           "gloss": "σου",
           "content": [
-            "you"
+            "you."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -4104,10 +4001,9 @@
           "marker": "rb",
           "gloss": "ἐξουσίαις",
           "content": [
-            "and authorities"
+            "and authorities,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4161,10 +4057,9 @@
           "marker": "rb",
           "gloss": "ἔργον",
           "content": [
-            "work"
+            "work,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -4183,10 +4078,9 @@
           "marker": "rb",
           "gloss": "μηδένα",
           "content": [
-            "no one"
+            "no one,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4208,10 +4102,9 @@
           "marker": "rb",
           "gloss": "ἐπιεικεῖς",
           "content": [
-            "and gentle"
+            "and gentle,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4249,7 +4142,7 @@
           "marker": "rb",
           "gloss": "πάντας",
           "content": [
-            "everyone"
+            "everyone."
           ]
         },
         {
@@ -4257,8 +4150,7 @@
           "marker": "rb",
           "gloss": "ἀνθρώπους",
           "content": []
-        },
-        "."
+        }
       ]
     },
     {
@@ -4316,28 +4208,25 @@
           "marker": "rb",
           "gloss": "ἀνόητοι",
           "content": [
-            "foolish"
+            "foolish,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "ἀπειθεῖς",
           "content": [
-            "disobedient"
+            "disobedient,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "πλανώμενοι",
           "content": [
-            "misled"
+            "misled,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4375,10 +4264,9 @@
           "marker": "rb",
           "gloss": "ἡδοναῖς",
           "content": [
-            "pleasures"
+            "pleasures—"
           ]
         },
-        " — ",
         {
           "type": "char",
           "marker": "rb",
@@ -4416,10 +4304,9 @@
           "marker": "rb",
           "gloss": "φθόνῳ",
           "content": [
-            "envy"
+            "envy,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4441,10 +4328,9 @@
           "marker": "rb",
           "gloss": "ἀλλήλους",
           "content": [
-            "one another"
+            "one another."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -4550,10 +4436,9 @@
           "marker": "rb",
           "gloss": "ἐπεφάνη",
           "content": [
-            "appeared"
+            "appeared,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -4572,10 +4457,9 @@
           "marker": "rb",
           "gloss": "ἡμᾶς",
           "content": [
-            "us"
+            "us,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4639,10 +4523,9 @@
           "marker": "rb",
           "gloss": "ἐποιήσαμεν",
           "content": [
-            "had done"
+            "had done,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4678,10 +4561,9 @@
           "marker": "rb",
           "gloss": "ἔλεος",
           "content": [
-            "mercy"
+            "mercy,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4763,10 +4645,9 @@
           "marker": "rb",
           "gloss": "Πνεύματος",
           "content": [
-            "Spirit"
+            "Spirit."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -4855,10 +4736,9 @@
           "marker": "rb",
           "gloss": "Σωτῆρος",
           "content": [
-            "Savior"
+            "Savior,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -4869,10 +4749,9 @@
           "marker": "rb",
           "gloss": "ἵνα",
           "content": [
-            "so that"
+            "so that,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4900,10 +4779,9 @@
           "marker": "rb",
           "gloss": "χάριτι",
           "content": [
-            "grace"
+            "grace,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -4949,10 +4827,9 @@
           "marker": "rb",
           "gloss": "ζωῆς",
           "content": [
-            "life"
+            "life."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -4979,10 +4856,9 @@
           "marker": "rb",
           "gloss": "Πιστὸς",
           "content": [
-            "is trustworthy"
+            "is trustworthy."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -5026,10 +4902,9 @@
           "marker": "rb",
           "gloss": "τούτων",
           "content": [
-            "these things"
+            "these things,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -5091,10 +4966,9 @@
           "marker": "rb",
           "gloss": "ἔργων",
           "content": [
-            "deeds"
+            "deeds."
           ]
         },
-        ". ",
         {
           "type": "char",
           "marker": "rb",
@@ -5148,10 +5022,9 @@
           "marker": "rb",
           "gloss": "ἀνθρώποις",
           "content": [
-            "people"
+            "people."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -5165,7 +5038,6 @@
       "type": "para",
       "marker": "r",
       "content": [
-        "(",
         {
           "type": "ref",
           "loc": "ROM 16:17-20",
@@ -5215,10 +5087,9 @@
           "marker": "rb",
           "gloss": "ζητήσεις",
           "content": [
-            "controversies"
+            "controversies,"
           ]
         },
-        ",",
         {
           "type": "char",
           "marker": "rb",
@@ -5230,10 +5101,9 @@
           "marker": "rb",
           "gloss": "γενεαλογίας",
           "content": [
-            "genealogies"
+            "genealogies,"
           ]
         },
-        ",",
         {
           "type": "char",
           "marker": "rb",
@@ -5245,10 +5115,9 @@
           "marker": "rb",
           "gloss": "ἔρεις",
           "content": [
-            "arguments"
+            "arguments,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -5270,10 +5139,9 @@
           "marker": "rb",
           "gloss": "νομικὰς",
           "content": [
-            "about the law"
+            "about the law,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -5311,10 +5179,9 @@
           "marker": "rb",
           "gloss": "μάταιοι",
           "content": [
-            "worthless"
+            "worthless."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -5388,10 +5255,9 @@
           "marker": "rb",
           "gloss": "νουθεσίαν",
           "content": [
-            "admonition"
+            "admonition,"
           ]
         },
-        ", ",
         {
           "type": "verse",
           "marker": "v",
@@ -5448,10 +5314,9 @@
           "marker": "rb",
           "gloss": "ἁμαρτάνει",
           "content": [
-            "sinful"
+            "sinful;"
           ]
         },
-        "; ",
         {
           "type": "char",
           "marker": "rb",
@@ -5465,10 +5330,9 @@
           "marker": "rb",
           "gloss": "αὐτοκατάκριτος",
           "content": [
-            "self-condemned"
+            "self-condemned."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -5541,10 +5405,9 @@
           "marker": "rb",
           "gloss": "σὲ",
           "content": [
-            "you"
+            "you,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -5590,10 +5453,9 @@
           "marker": "rb",
           "gloss": "Νικόπολιν",
           "content": [
-            "Nicopolis"
+            "Nicopolis,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -5623,10 +5485,9 @@
           "marker": "rb",
           "gloss": "ἐκεῖ",
           "content": [
-            "there"
+            "there."
           ]
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -5685,10 +5546,9 @@
           "marker": "rb",
           "gloss": "Ἀπολλῶν",
           "content": [
-            "Apollos"
+            "Apollos,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -5710,7 +5570,7 @@
           "marker": "rb",
           "gloss": "λείπῃ",
           "content": [
-            "will have everything they need"
+            "will have everything they need."
           ]
         },
         {
@@ -5719,7 +5579,6 @@
           "gloss": "μηδὲν",
           "content": []
         },
-        ". ",
         {
           "type": "verse",
           "marker": "v",
@@ -5814,10 +5673,9 @@
           "marker": "rb",
           "gloss": "χρείας",
           "content": [
-            "needs of others"
+            "needs of others,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -5845,10 +5703,9 @@
           "marker": "rb",
           "gloss": "ἄκαρποι",
           "content": [
-            "unfruitful"
+            "unfruitful."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -5898,7 +5755,7 @@
           "marker": "rb",
           "gloss": "Ἀσπάζονταί",
           "content": [
-            "send you greetings"
+            "send you greetings."
           ]
         },
         {
@@ -5906,8 +5763,7 @@
           "marker": "rb",
           "gloss": "σε",
           "content": []
-        },
-        "."
+        }
       ]
     },
     {
@@ -5959,10 +5815,9 @@
           "marker": "rb",
           "gloss": "πίστει",
           "content": [
-            "the faith"
+            "the faith."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -6004,10 +5859,9 @@
           "marker": "rb",
           "gloss": "ὑμῶν",
           "content": [
-            "of you"
+            "of you."
           ]
         },
-        ".",
         {
           "type": "note",
           "marker": "f",

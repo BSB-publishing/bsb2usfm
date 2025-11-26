@@ -180,10 +180,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Behold, I will send My messenger ahead of You,"
@@ -537,15 +533,14 @@
           ]
         },
         {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
             "“The time is fulfilled,”"
           ]
         },
@@ -607,17 +602,16 @@
           "marker": "v",
           "number": "16"
         },
-        "As Jesus was walking beside the Sea of Galilee, He saw Simon and his brother Andrew. They were casting a net into the sea, for they were fishermen. ",
+        "As Jesus was walking beside the Sea of Galilee, He saw Simon and his brother Andrew. They were casting a net into the sea, for they were fishermen.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
             "“Come, follow Me,”"
           ]
         },
@@ -1082,17 +1076,16 @@
           "marker": "v",
           "number": "43"
         },
-        "Jesus promptly sent him away with a stern warning: ",
+        "Jesus promptly sent him away with a stern warning:  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
             "“See that you don’t tell anyone. But go, show yourself to the priest and present the offering Moses prescribed for your cleansing, as a testimony to them.”",
             {
               "type": "note",
@@ -1277,37 +1270,41 @@
             "“Why are you thinking these things in your hearts?”"
           ]
         },
-        " He asked. ",
+        " He asked.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
-            "“Which is easier: to say to a paralytic, ‘Your sins are forgiven,’ or to say, ‘Get up, pick up your mat, and walk’? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "“Which is easier: to say to a paralytic, ‘Your sins are forgiven,’ or to say, ‘Get up, pick up your mat, and walk’?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But so that you may know that the Son of Man has authority on earth to forgive sins...”"
           ]
         },
-        " He said to the paralytic, ",
+        " He said to the paralytic,  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
             "“I tell you, get up, pick up your mat, and go home.”"
           ]
         }
@@ -1531,12 +1528,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“How can the guests of the bridegroom fast while He is with them? As long as He is with them, they cannot fast. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "“How can the guests of the bridegroom fast while He is with them? As long as He is with them, they cannot fast."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But the time will come when the bridegroom will be taken from them; then they will fast."
           ]
         }
@@ -1717,12 +1720,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Have you never read what David did when he and his companions were hungry and in need? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "“Have you never read what David did when he and his companions were hungry and in need?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "During the high priesthood of Abiathar, he entered the house of God and ate the consecrated bread,",
             {
               "type": "note",
@@ -1772,12 +1781,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“The Sabbath was made for man, not man for the Sabbath. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            "“The Sabbath was made for man, not man for the Sabbath."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Therefore, the Son of Man is Lord even of the Sabbath.”"
           ]
         }
@@ -2369,30 +2384,54 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“How can Satan drive out Satan? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
-            "If a kingdom is divided against itself, it cannot stand. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
-            "If a house is divided against itself, it cannot stand. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
-            "And if Satan is divided and rises against himself, he cannot stand; his end has come. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "“How can Satan drive out Satan?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If a kingdom is divided against itself, it cannot stand."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If a house is divided against itself, it cannot stand."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "And if Satan is divided and rises against himself, he cannot stand; his end has come."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Indeed, no one can enter a strong man’s house to steal his possessions unless he first ties up the strong man. Then he can plunder his house."
           ]
         }
@@ -2434,12 +2473,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Truly I tell you, the sons of men will be forgiven all sins and blasphemies, as many as they utter. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "Truly I tell you, the sons of men will be forgiven all sins and blasphemies, as many as they utter."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But whoever blasphemes against the Holy Spirit will never be forgiven; he is guilty of eternal sin.”"
           ]
         }
@@ -2571,12 +2616,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Here are My mother and My brothers! ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "“Here are My mother and My brothers!"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For whoever does the will of God is My brother and sister and mother.”"
           ]
         }
@@ -2640,23 +2691,28 @@
           "marker": "v",
           "number": "2"
         },
-        "And He taught them many things in parables, and in His teaching He said, ",
+        "And He taught them many things in parables, and in His teaching He said,  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
-            "“Listen! A farmer went out to sow his seed. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "“Listen! A farmer went out to sow his seed."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And as he was sowing, some seed fell along the path, and the birds came and devoured it."
           ]
         }
@@ -2676,12 +2732,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Some fell on rocky ground, where it did not have much soil. It sprang up quickly because the soil was shallow. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "Some fell on rocky ground, where it did not have much soil. It sprang up quickly because the soil was shallow."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But when the sun rose, the seedlings were scorched, and they withered because they had no root."
           ]
         }
@@ -2811,12 +2873,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“The mystery of the kingdom of God has been given to you, but to those on the outside everything is expressed in parables, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "“The mystery of the kingdom of God has been given to you, but to those on the outside everything is expressed in parables,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "so that,"
           ]
         }
@@ -2967,12 +3035,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "The farmer sows the word. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "The farmer sows the word."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Some are like the seeds",
             {
               "type": "note",
@@ -3035,12 +3109,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Some are like the seeds sown on rocky ground. They hear the word and at once receive it with joy. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "Some are like the seeds sown on rocky ground. They hear the word and at once receive it with joy."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But they themselves have no root, and they remain for only a season. When trouble or persecution comes because of the word, they quickly fall away."
           ]
         }
@@ -3060,12 +3140,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Others are like the seeds sown among the thorns. They hear the word, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "Others are like the seeds sown among the thorns. They hear the word,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "but the worries of this life, the deceitfulness of wealth, and the desire for other things come in and choke the word, and it becomes unfruitful."
           ]
         }
@@ -3127,12 +3213,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Does anyone bring in a lamp to put it under a basket or under a bed? Doesn’t he set it on a stand? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            "“Does anyone bring in a lamp to put it under a basket or under a bed? Doesn’t he set it on a stand?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For there is nothing hidden that will not be disclosed, and nothing concealed that will not be brought to light."
           ]
         }
@@ -3172,12 +3264,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Pay attention to what you hear. With the measure you use, it will be measured to you, and even more will be added to you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "“Pay attention to what you hear. With the measure you use, it will be measured to you, and even more will be added to you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For whoever has will be given more. But whoever does not have, even what he has will be taken away from him.”"
           ]
         }
@@ -3205,24 +3303,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“The kingdom of God is like a man who scatters seed on the ground. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
-            "Night and day he sleeps and wakes, and the seed sprouts and grows, though he knows not how. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
-            "All by itself the earth produces a crop— first the stalk, then the head, then grain that ripens within. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "“The kingdom of God is like a man who scatters seed on the ground."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Night and day he sleeps and wakes, and the seed sprouts and grows, though he knows not how."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "All by itself the earth produces a crop— first the stalk, then the head, then grain that ripens within."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And as soon as the grain is ripe, he swings the sickle, because the harvest has come.",
             {
               "type": "note",
@@ -3303,18 +3419,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“To what can we compare the kingdom of God? With what parable shall we present it? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
-            "It is like a mustard seed, which is the smallest of all seeds sown upon the earth. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "“To what can we compare the kingdom of God? With what parable shall we present it?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "It is like a mustard seed, which is the smallest of all seeds sown upon the earth."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But after it is planted, it grows to be the largest of all garden plants and puts forth great branches, so that the birds of the air nest in its shade.”"
           ]
         }
@@ -3455,16 +3583,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
             "“Why are you so afraid?”"
           ]
         },
@@ -3641,16 +3769,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
             "“What is your name?”"
           ]
         },
@@ -4006,16 +4134,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
             "“Daughter,”"
           ]
         },
@@ -4418,12 +4546,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“When you enter a house, stay there until you leave that area. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "“When you enter a house, stay there until you leave that area."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If anyone will not welcome you or listen to you, shake the dust off your feet when you leave that place, as a testimony against them.”"
           ]
         },
@@ -4922,16 +5056,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
             "“Go and see how many loaves you have,”"
           ]
         },
@@ -5515,12 +5649,18 @@
                 }
               ]
             },
-            " your own tradition. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            " your own tradition."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For Moses said, ‘Honor your father and your mother’",
             {
               "type": "note",
@@ -5578,24 +5718,42 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
-            "But you say that if a man says to his father or mother, ‘Whatever you would have received from me is Corban’ (that is, a gift devoted to God ), ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
-            "he is no longer permitted to do anything for his father or mother. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But you say that if a man says to his father or mother, ‘Whatever you would have received from me is Corban’ (that is, a gift devoted to God ),"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "he is no longer permitted to do anything for his father or mother."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Thus you nullify the word of God by the tradition you have handed down. And you do so in many such matters.”"
           ]
         }
@@ -5638,12 +5796,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“All of you, listen to Me and understand: ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "“All of you, listen to Me and understand:"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Nothing that enters a man from the outside can defile him; but the things that come out of a man, these are what defile him.”"
           ]
         },
@@ -5701,16 +5865,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
             "“Are you still so dull?”"
           ]
         },
@@ -5719,12 +5883,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Do you not understand? Nothing that enters a man from the outside can defile him, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "“Do you not understand? Nothing that enters a man from the outside can defile him,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "because it does not enter his heart, but it goes into the stomach and then is eliminated.”"
           ]
         },
@@ -5774,12 +5944,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“What comes out of a man, that is what defiles him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "“What comes out of a man, that is what defiles him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For from within the hearts of men come evil thoughts, sexual immorality, theft, murder, adultery,",
             {
               "type": "note",
@@ -5815,18 +5991,30 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
-            "greed, wickedness, deceit, debauchery, envy, slander, arrogance, and foolishness. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "greed, wickedness, deceit, debauchery, envy, slander, arrogance, and foolishness."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "All these evils come from within, and these are what defile a man.”"
           ]
         }
@@ -5927,16 +6115,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
             "“First let the children have their fill,”"
           ]
         },
@@ -6221,23 +6409,28 @@
           "marker": "v",
           "number": "1"
         },
-        "In those days the crowd once again became very large, and they had nothing to eat. Jesus called the disciples to Him and said, ",
+        "In those days the crowd once again became very large, and they had nothing to eat. Jesus called the disciples to Him and said,  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
-            "“I have compassion for this crowd, because they have already been with Me three days and have nothing to eat. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "“I have compassion for this crowd, because they have already been with Me three days and have nothing to eat."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If I send them home hungry, they will faint along the way. For some of them have come a great distance.”"
           ]
         }
@@ -6260,16 +6453,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
             "“How many loaves do you have?”"
           ]
         },
@@ -6480,17 +6673,16 @@
           "marker": "v",
           "number": "14"
         },
-        "Now the disciples had forgotten to take bread, except for one loaf they had with them in the boat. ",
+        "Now the disciples had forgotten to take bread, except for one loaf they had with them in the boat.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
             "“Watch out!”"
           ]
         },
@@ -6532,12 +6724,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Why are you debating about having no bread? Do you still not see or understand? Do you have such hard hearts? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "“Why are you debating about having no bread? Do you still not see or understand? Do you have such hard hearts?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "‘Having eyes, do you not see? And having ears, do you not hear?’",
             {
               "type": "note",
@@ -6568,12 +6766,18 @@
                 }
               ]
             },
-            " And do you not remember? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            " And do you not remember?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "When I broke the five loaves for the five thousand, how many basketfuls of broken pieces did you collect?”"
           ]
         }
@@ -6590,16 +6794,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
             "“And when I broke the seven loaves for the four thousand, how many basketfuls of broken pieces did you collect?”"
           ]
         }
@@ -6808,16 +7012,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
             "“But what about you?”"
           ]
         },
@@ -6965,12 +7169,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“If anyone wants to come after Me, he must deny himself and take up his cross and follow Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "“If anyone wants to come after Me, he must deny himself and take up his cross and follow Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For whoever wants to save his life will lose it, but whoever loses his life for My sake and for the gospel will save it."
           ]
         }
@@ -6990,18 +7200,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "What does it profit a man to gain the whole world, yet forfeit his soul? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
-            "Or what can a man give in exchange for his soul? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "What does it profit a man to gain the whole world, yet forfeit his soul?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Or what can a man give in exchange for his soul?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If anyone is ashamed of Me and My words in this adulterous and sinful generation, the Son of Man will also be ashamed of him when He comes in His Father’s glory with the holy angels.”"
           ]
         }
@@ -7202,12 +7424,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Elijah does indeed come first, and he restores all things. Why then is it written that the Son of Man must suffer many things and be rejected? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "“Elijah does indeed come first, and he restores all things. Why then is it written that the Son of Man must suffer many things and be rejected?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But I tell you that Elijah has indeed come, and they have done to him whatever they wished, just as it is written about him.”"
           ]
         }
@@ -7266,16 +7494,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
             "“What are you disputing with them?”"
           ]
         },
@@ -7334,16 +7562,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
             "“O unbelieving generation!”"
           ]
         },
@@ -7407,16 +7635,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
             "“If You can?”"
           ]
         },
@@ -7728,17 +7956,16 @@
           "marker": "v",
           "number": "36"
         },
-        "Then He had a little child stand among them. Taking the child in His arms, He said to them, ",
+        "Then He had a little child stand among them. Taking the child in His arms, He said to them,  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
             "“Whoever welcomes one of these little children in My name welcomes Me, and whoever welcomes Me welcomes not only Me, but the One who sent Me.”"
           ]
         }
@@ -7761,16 +7988,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
             "“Do not stop him,”"
           ]
         },
@@ -7779,18 +8006,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“For no one who performs a miracle in My name can turn around and speak evil of Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
-            "For whoever is not against us is for us. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "41"
-            },
+            "“For no one who performs a miracle in My name can turn around and speak evil of Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "For whoever is not against us is for us."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "41"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Indeed, if anyone gives you even a cup of water because you bear the name of Christ, truly I tell you, he will never lose his reward."
           ]
         }
@@ -7945,12 +8184,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "45"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "45"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If your foot causes you to sin, cut it off. It is better for you to enter life lame than to have two feet and be thrown into hell.",
             {
               "type": "note",
@@ -8001,18 +8246,30 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "47"
-            },
-            "And if your eye causes you to sin, pluck it out. It is better for you to enter the kingdom of God with one eye than to have two eyes and be thrown into hell, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "48"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "47"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "And if your eye causes you to sin, pluck it out. It is better for you to enter the kingdom of God with one eye than to have two eyes and be thrown into hell,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "48"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "where  ‘their worm never dies, and the fire is never quenched.’",
             {
               "type": "note",
@@ -8205,16 +8462,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
             "“What did Moses command you?”"
           ]
         },
@@ -8278,12 +8535,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Moses wrote this commandment for you because of your hardness of heart. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
+            "“Moses wrote this commandment for you because of your hardness of heart."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "However, from the beginning of creation, ‘God made them male and female.’",
             {
               "type": "note",
@@ -8312,12 +8575,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "‘For this reason a man will leave his father and mother and be united to his wife,",
             {
               "type": "note",
@@ -8346,12 +8615,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "and the two will become one flesh.’",
             {
               "type": "note",
@@ -8381,12 +8656,18 @@
                 }
               ]
             },
-            " So they are no longer two, but one flesh. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            " So they are no longer two, but one flesh."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Therefore what God has joined together, let man not separate.”"
           ]
         }
@@ -8413,12 +8694,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Whoever divorces his wife and marries another woman commits adultery against her. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            "“Whoever divorces his wife and marries another woman commits adultery against her."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And if a woman divorces her husband and marries another man, she commits adultery.”"
           ]
         }
@@ -8482,12 +8769,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Let the little children come to Me, and do not hinder them! For the kingdom of God belongs to such as these. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "“Let the little children come to Me, and do not hinder them! For the kingdom of God belongs to such as these."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Truly I tell you, anyone who does not receive the kingdom of God like a little child will never enter it.”"
           ]
         },
@@ -8546,16 +8839,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
             "“Why do you call Me good?”"
           ]
         },
@@ -8564,12 +8857,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“No one is good except God alone. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "“No one is good except God alone."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "You know the commandments: ‘Do not murder, do not commit adultery, do not steal, do not bear false witness, do not cheat others, honor your father and mother.’",
             {
               "type": "note",
@@ -8750,12 +9049,18 @@
                 }
               ]
             },
-            " the kingdom of God! ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            " the kingdom of God!"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "It is easier for a camel to pass through the eye of a needle than for a rich man to enter the kingdom of God.”"
           ]
         }
@@ -8811,16 +9116,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
             "“Truly I tell you,”"
           ]
         },
@@ -8829,18 +9134,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“no one who has left home or brothers or sisters or mother or father or children or fields for My sake and for the gospel ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
-            "will fail to receive a hundredfold in the present age — houses and brothers and sisters and mothers and children and fields, along with persecutions — and in the age to come, eternal life. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
+            "“no one who has left home or brothers or sisters or mother or father or children or fields for My sake and for the gospel"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "will fail to receive a hundredfold in the present age — houses and brothers and sisters and mothers and children and fields, along with persecutions — and in the age to come, eternal life."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But many who are first will be last, and the last will be first.”"
           ]
         }
@@ -8886,23 +9203,28 @@
           "marker": "v",
           "number": "32"
         },
-        "As they were going up the road to Jerusalem, Jesus was walking ahead of them. The disciples were amazed, but those who followed were afraid. Again Jesus took the Twelve aside and began to tell them what was going to happen to Him: ",
+        "As they were going up the road to Jerusalem, Jesus was walking ahead of them. The disciples were amazed, but those who followed were afraid. Again Jesus took the Twelve aside and began to tell them what was going to happen to Him:  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
-            "“Look, we are going up to Jerusalem, and the Son of Man will be delivered over to the chief priests and scribes. They will condemn Him to death and will deliver Him over to the Gentiles, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
+            "“Look, we are going up to Jerusalem, and the Son of Man will be delivered over to the chief priests and scribes. They will condemn Him to death and will deliver Him over to the Gentiles,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "who will mock Him and spit on Him and flog Him and kill Him. And after three days He will rise again.”"
           ]
         }
@@ -8947,16 +9269,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
             "“What do you want Me to do for you?”"
           ]
         },
@@ -8980,16 +9302,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
             "“You do not know what you are asking,”"
           ]
         },
@@ -9032,12 +9354,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“and you will be baptized with the baptism that I undergo. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
+            "“and you will be baptized with the baptism that I undergo."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But to sit at My right or left is not Mine to grant. These seats belong to those for whom",
             {
               "type": "note",
@@ -9093,24 +9421,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“You know that those regarded as rulers of the Gentiles lord it over them, and their superiors exercise authority over them. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "43"
-            },
-            "But it shall not be this way among you. Instead, whoever wants to become great among you must be your servant, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
-            "and whoever wants to be first must be the slave of all. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "45"
-            },
+            "“You know that those regarded as rulers of the Gentiles lord it over them, and their superiors exercise authority over them."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "43"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But it shall not be this way among you. Instead, whoever wants to become great among you must be your servant,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "and whoever wants to be first must be the slave of all."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "45"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For even the Son of Man did not come to be served, but to serve, and to give His life as a ransom for many.”"
           ]
         }
@@ -9222,16 +9568,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "51"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "51"
-            },
             "“What do you want Me to do for you?”"
           ]
         },
@@ -9249,16 +9595,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "52"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "52"
-            },
             "“Go,”"
           ]
         },
@@ -9345,12 +9691,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Go into the village ahead of you, and as soon as you enter it, you will find a colt tied there, on which no one has ever sat. Untie it and bring it here. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "“Go into the village ahead of you, and as soon as you enter it, you will find a colt tied there, on which no one has ever sat. Untie it and bring it here."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If anyone asks, ‘Why are you doing this?’ tell him, ‘The Lord needs it and will return it shortly.’”"
           ]
         }
@@ -9412,10 +9764,6 @@
         },
         "The ones who went ahead and those who followed were shouting:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9971,36 +10319,41 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
             "“Have faith in God,”"
           ]
         },
-        " Jesus said to them. ",
+        " Jesus said to them.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
-            "“Truly I tell you that if anyone says to this mountain, ‘Be lifted up and thrown into the sea,’ and has no doubt in his heart but believes that it will happen, it will be done for him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "“Truly I tell you that if anyone says to this mountain, ‘Be lifted up and thrown into the sea,’ and has no doubt in his heart but believes that it will happen, it will be done for him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours."
           ]
         }
@@ -10129,16 +10482,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
             "“I will ask you one question,”"
           ]
         },
@@ -10147,12 +10500,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“and if you answer Me, I will tell you by what authority I am doing these things. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "“and if you answer Me, I will tell you by what authority I am doing these things."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "John’s baptism — was it from heaven or from men? Answer Me!”"
           ]
         }
@@ -10266,12 +10625,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "At harvest time, he sent a servant to the tenants to collect his share of the fruit of the vineyard. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "At harvest time, he sent a servant to the tenants to collect his share of the fruit of the vineyard."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But they seized the servant, beat him, and sent him away empty-handed."
           ]
         }
@@ -10361,12 +10726,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "But the tenants said to one another, ‘This is the heir. Come, let us kill him, and the inheritance will be ours.’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "But the tenants said to one another, ‘This is the heir. Come, let us kill him, and the inheritance will be ours.’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "So they seized the son, killed him, and threw him out of the vineyard."
           ]
         }
@@ -10386,12 +10757,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "What then will the owner of the vineyard do? He will come and kill those tenants and give the vineyard to others. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "What then will the owner of the vineyard do? He will come and kill those tenants and give the vineyard to others."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Have you never read this Scripture:"
           ]
         }
@@ -10815,12 +11192,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Aren’t you mistaken, because you do not know the Scriptures or the power of God? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "“Aren’t you mistaken, because you do not know the Scriptures or the power of God?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "When the dead rise, they will neither marry nor be given in marriage. Instead, they will be like the angels in heaven."
           ]
         }
@@ -10868,12 +11251,18 @@
                 }
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "He is not the God of the dead, but of the living. You are badly mistaken!”"
           ]
         }
@@ -10937,12 +11326,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“This is the most important: ‘Hear, O Israel, the Lord our God, the Lord is One. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "“This is the most important: ‘Hear, O Israel, the Lord our God, the Lord is One."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.’",
             {
               "type": "note",
@@ -10970,12 +11365,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The second is this: ‘Love your neighbor as yourself.’",
             {
               "type": "note",
@@ -11129,12 +11530,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“How can the scribes say that the Christ is the Son of David? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            "“How can the scribes say that the Christ is the Son of David?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Speaking by the Holy Spirit, David himself declared:"
           ]
         }
@@ -11282,18 +11689,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Watch out for the scribes. They like to walk around in long robes, to receive greetings in the marketplaces, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
-            "and to have the chief seats in the synagogues and the places of honor at banquets. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
+            "“Watch out for the scribes. They like to walk around in long robes, to receive greetings in the marketplaces,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "and to have the chief seats in the synagogues and the places of honor at banquets."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "They defraud widows of their houses,",
             {
               "type": "note",
@@ -11419,12 +11838,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly I tell you, this poor widow has put more than all the others into the treasury. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
+            "“Truly I tell you, this poor widow has put more than all the others into the treasury."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For they all contributed out of their surplus, but she out of her poverty has put in all she had to live on.”"
           ]
         }
@@ -11482,16 +11907,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
             "“Do you see all these great buildings?”"
           ]
         },
@@ -11539,24 +11964,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“See to it that no one deceives you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
-            "Many will come in My name, claiming, ‘I am He,’ and will deceive many. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
-            "When you hear of wars and rumors of wars, do not be alarmed.  These things  must happen, but the end is still to come. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "“See to it that no one deceives you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Many will come in My name, claiming, ‘I am He,’ and will deceive many."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "When you hear of wars and rumors of wars, do not be alarmed.  These things  must happen, but the end is still to come."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Nation will rise against nation, and kingdom against kingdom. There will be earthquakes in various places, as well as famines. These are the beginning of birth pains."
           ]
         }
@@ -11606,18 +12049,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "So be on your guard. You will be delivered over to the councils and beaten in the synagogues. On My account you will stand before governors and kings as witnesses to them. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
-            "And the gospel must first be proclaimed to all the nations. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "So be on your guard. You will be delivered over to the councils and beaten in the synagogues. On My account you will stand before governors and kings as witnesses to them."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "And the gospel must first be proclaimed to all the nations."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But when they arrest you and hand you over, do not worry beforehand what to say. Instead, speak whatever you are given at that time, for it will not be you speaking, but the Holy Spirit."
           ]
         }
@@ -11637,12 +12092,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Brother will betray brother to death, and a father his child. Children will rise against their parents and have them put to death. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "Brother will betray brother to death, and a father his child. Children will rise against their parents and have them put to death."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "You will be hated by everyone because of My name, but the one who perseveres to the end will be saved."
           ]
         }
@@ -11765,18 +12226,30 @@
                 }
               ]
             },
-            " (let the reader understand), then let those who are in Judea flee to the mountains. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
-            "Let no one on the housetop go back inside to retrieve anything from his house. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            " (let the reader understand), then let those who are in Judea flee to the mountains."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Let no one on the housetop go back inside to retrieve anything from his house."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And let no one in the field return for his cloak."
           ]
         }
@@ -11796,24 +12269,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "How miserable those days will be for pregnant and nursing mothers! ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
-            "Pray that this will not occur in the winter. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
-            "For those will be days of tribulation unseen from the beginning of God’s creation until now, and never to be seen again. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "How miserable those days will be for pregnant and nursing mothers!"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Pray that this will not occur in the winter."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "For those will be days of tribulation unseen from the beginning of God’s creation until now, and never to be seen again."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If the Lord had not cut short those days, nobody would be saved. But for the sake of the elect, whom He has chosen, He has cut them short."
           ]
         }
@@ -11833,18 +12324,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "At that time if anyone says to you, ‘Look, here is the Christ!’ or ‘There He is!’ do not believe it. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
-            "For false Christs and false prophets will appear and perform signs and wonders to deceive even the elect, if that were possible. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
+            "At that time if anyone says to you, ‘Look, here is the Christ!’ or ‘There He is!’ do not believe it."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "For false Christs and false prophets will appear and perform signs and wonders to deceive even the elect, if that were possible."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "So be on your guard; I have told you everything in advance."
           ]
         }
@@ -12043,12 +12546,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And He will send out the angels to gather His elect from the four winds, from the ends of the earth to the ends of heaven."
           ]
         }
@@ -12127,12 +12636,18 @@
                 }
               ]
             },
-            " from the fig tree: As soon as its branches become tender and sprout leaves, you know that summer is near. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            " from the fig tree: As soon as its branches become tender and sprout leaves, you know that summer is near."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "So also, when you see these things happening, know that He is near,",
             {
               "type": "note",
@@ -12162,18 +12677,30 @@
                 }
               ]
             },
-            " right at the door. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
-            "Truly I tell you, this generation will not pass away until all these things have happened. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
+            " right at the door."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Truly I tell you, this generation will not pass away until all these things have happened."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Heaven and earth will pass away, but My words will never pass away."
           ]
         }
@@ -12223,12 +12750,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "No one knows about that day or hour, not even the angels in heaven, nor the Son, but only the Father. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "No one knows about that day or hour, not even the angels in heaven, nor the Son, but only the Father."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Be on your guard and stay alert!",
             {
               "type": "note",
@@ -12277,24 +12810,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "It is like a man going on a journey who left his house, put each servant in charge of his own task, and instructed the doorkeeper to keep watch. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
-            "Therefore keep watch, because you do not know when the master of the house will return — whether in the evening, at midnight, when the rooster crows, or in the morning. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
-            "Otherwise, he may arrive without notice and find you sleeping. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
+            "It is like a man going on a journey who left his house, put each servant in charge of his own task, and instructed the doorkeeper to keep watch."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Therefore keep watch, because you do not know when the master of the house will return — whether in the evening, at midnight, when the rooster crows, or in the morning."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Otherwise, he may arrive without notice and find you sleeping."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And what I say to you, I say to everyone: Keep watch!”"
           ]
         }
@@ -12564,12 +13115,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Leave her alone; why are you bothering her? She has done a beautiful deed to Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            "“Leave her alone; why are you bothering her? She has done a beautiful deed to Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The poor you will always have with you,",
             {
               "type": "note",
@@ -12600,18 +13157,30 @@
                 }
               ]
             },
-            " and you can help them whenever you want. But you will not always have Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
-            "She has done what she could to anoint My body in advance of My burial. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            " and you can help them whenever you want. But you will not always have Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "She has done what she could to anoint My body in advance of My burial."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And truly I tell you, wherever the gospel is preached in all the world, what she has done will also be told in memory of her.”"
           ]
         }
@@ -12775,18 +13344,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Go into the city, and a man carrying a jug of water will meet you. Follow him, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
-            "and whichever house he enters, say to the owner, ‘The Teacher asks: Where is My guest room, where I may eat the Passover with My disciples?’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "“Go into the city, and a man carrying a jug of water will meet you. Follow him,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "and whichever house he enters, say to the owner, ‘The Teacher asks: Where is My guest room, where I may eat the Passover with My disciples?’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And he will show you a large upper room, furnished and ready. Make preparations for us there.”"
           ]
         }
@@ -12926,12 +13507,18 @@
                 }
               ]
             },
-            " into the bowl with Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            " into the bowl with Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The Son of Man will go just as it is written about Him, but woe to that man by whom He is betrayed! It would be better for him if he had not been born.”"
           ]
         }
@@ -13007,12 +13594,18 @@
                 }
               ]
             },
-            " which is poured out for many. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            " which is poured out for many."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Truly I tell you, I will no longer drink of the fruit of the vine until that day when I drink it anew in the kingdom of God.”"
           ]
         }
@@ -13230,16 +13823,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
             "“Truly I tell you,”"
           ]
         },
@@ -13352,17 +13945,16 @@
           "marker": "v",
           "number": "35"
         },
-        "Going a little farther, He fell to the ground and prayed that, if it were possible, the hour would pass from Him. ",
+        "Going a little farther, He fell to the ground and prayed that, if it were possible, the hour would pass from Him.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
             "“Abba, Father,”"
           ]
         },
@@ -13399,12 +13991,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Were you not able to keep watch for one hour? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "“Were you not able to keep watch for one hour?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Watch and pray so that you will not enter into temptation. For the spirit is willing, but the body is weak.”"
           ]
         }
@@ -13444,12 +14042,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Are you still sleeping and resting? That is enough! The hour has come. Look, the Son of Man is betrayed into the hands of sinners. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "42"
-            },
+            "“Are you still sleeping and resting? That is enough! The hour has come. Look, the Son of Man is betrayed into the hands of sinners."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "42"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Rise, let us go. See, My betrayer is approaching!”"
           ]
         }
@@ -13559,12 +14163,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Have you come out with swords and clubs to arrest Me as you would an outlaw? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "49"
-            },
+            "“Have you come out with swords and clubs to arrest Me as you would an outlaw?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "49"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Every day I was with you, teaching in the temple courts,",
             {
               "type": "note",
@@ -13791,16 +14401,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "62"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "62"
-            },
             "“I am,”"
           ]
         },
@@ -14707,11 +15317,6 @@
         },
         "And the charge inscribed against Him read:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "p",
-      "content": []
     },
     {
       "type": "para",
@@ -15677,18 +16282,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Go into all the world and preach the gospel to every creature. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
-            "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "“Go into all the world and preach the gospel to every creature."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Whoever believes and is baptized will be saved, but whoever does not believe will be condemned."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And these signs will accompany those who believe: In My name they will drive out demons; they will speak in new tongues;",
             {
               "type": "note",
@@ -15717,12 +16334,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "they will pick up snakes with their hands, and if they drink any deadly poison, it will not harm them; they will lay their hands on the sick, and they will be made well.”"
           ]
         }

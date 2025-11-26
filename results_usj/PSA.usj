@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -809,10 +804,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "O LORD, how my foes have increased!"
@@ -1070,10 +1061,6 @@
         },
         "For the choirmaster. With stringed instruments. A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1378,10 +1365,6 @@
         },
         "For the choirmaster, to be accompanied by flutes. A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1972,10 +1955,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "O LORD, do not rebuke me in Your anger"
@@ -2240,10 +2219,6 @@
         },
         " of David, which he sang to the LORD concerning the words of Cush, a Benjamite."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -2750,10 +2725,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "O LORD, our Lord,"
@@ -3163,10 +3134,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4227,10 +4194,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "In the LORD I take refuge."
@@ -4464,10 +4427,6 @@
         },
         " A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4707,10 +4666,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "How long, O LORD?"
@@ -4900,10 +4855,6 @@
         },
         "For the choirmaster. Of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5238,10 +5189,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "O LORD, who may abide in Your tent?"
@@ -5445,10 +5392,6 @@
         },
         " of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5883,10 +5826,6 @@
         },
         "A prayer of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6383,10 +6322,6 @@
         },
         "For the choirmaster. Of David the servant of the LORD, who sang this song to the LORD on the day the LORD had delivered him from the hand of all his enemies and from the hand of Saul. He said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7748,10 +7683,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "The heavens declare the glory of God;"
@@ -8253,10 +8184,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "May the LORD answer you in the day of trouble;"
@@ -8522,10 +8449,6 @@
         },
         "For the choirmaster. A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8892,10 +8815,6 @@
         },
         "For the choirmaster. To the tune of “The Doe of the Dawn.” A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10200,10 +10119,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "The earth is the LORD’s, and the fullness thereof,",
@@ -10592,10 +10507,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11149,10 +11060,6 @@
         },
         "Of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12256,10 +12163,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Ascribe to the LORD, O heavenly beings,",
@@ -12642,10 +12545,6 @@
         },
         "A Psalm. A song for the dedication of the temple. Of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13091,10 +12990,6 @@
         },
         "For the choirmaster. A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13894,10 +13789,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14929,10 +14820,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "I will bless the LORD at all times;"
@@ -15497,10 +15384,6 @@
         },
         "Of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -16355,10 +16238,6 @@
         },
         "For the choirmaster. A Psalm of David, the servant of the LORD."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -17825,10 +17704,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "O LORD, do not rebuke me in Your anger"
@@ -18385,10 +18260,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "I said, “I will watch my ways"
@@ -18819,10 +18690,6 @@
         },
         "For the choirmaster. A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -19483,10 +19350,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Blessed is the one who cares for the poor;"
@@ -19891,10 +19754,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -20524,10 +20383,6 @@
         },
         " of the sons of Korah."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -21347,10 +21202,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "My heart is stirred by a noble theme"
@@ -21902,10 +21753,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "God is our refuge and strength,"
@@ -22231,10 +22078,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Clap your hands, all you peoples;"
@@ -22505,10 +22348,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Great is the LORD,"
@@ -22599,11 +22438,6 @@
               "content": [
                 "Zaphon "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -23028,10 +22862,6 @@
         },
         "For the choirmaster. A Psalm of the sons of Korah."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -23597,10 +23427,6 @@
         },
         "A Psalm of Asaph."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -24254,10 +24080,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Have mercy on me,",
@@ -24837,10 +24659,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Why do you boast of evil, O mighty man?"
@@ -25215,10 +25033,6 @@
         },
         " of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -25597,10 +25411,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Save me, O God, by Your name,"
@@ -25815,10 +25625,6 @@
         },
         " of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -26485,10 +26291,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Be merciful to me, O God,"
@@ -26981,10 +26783,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Have mercy on me, O God, have mercy,"
@@ -27398,10 +27196,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Do you indeed speak justly, O rulers?"
@@ -27771,10 +27565,6 @@
         },
         " of David, when Saul sent men to watch David’s house in order to kill him."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -28400,10 +28190,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "You have rejected us, O God;"
@@ -28787,10 +28573,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Hear my cry, O God;"
@@ -29006,10 +28788,6 @@
         },
         "For the choirmaster. According to Jeduthun. A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -29421,10 +29199,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "O God, You are my God."
@@ -29719,10 +29493,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Hear, O God, my voice of complaint;"
@@ -29986,10 +29756,6 @@
         },
         "For the choirmaster. A Psalm of David. A song."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -30446,10 +30212,6 @@
         },
         "For the choirmaster. A song. A Psalm."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -30975,10 +30737,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "May God be gracious to us and bless us,"
@@ -31164,10 +30922,6 @@
         },
         "For the choirmaster. A Psalm of David. A song."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -32293,10 +32047,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Save me, O God,"
@@ -33419,10 +33169,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Make haste, O God, to deliver me!"
@@ -34269,10 +34015,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Endow the king with Your justice, O God,"
@@ -34877,10 +34619,6 @@
         },
         "A Psalm of Asaph."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -35657,10 +35395,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Why have You rejected us forever, O God?"
@@ -36274,10 +36008,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "We give thanks to You, O God;"
@@ -36574,10 +36304,6 @@
         },
         "For the choirmaster. With stringed instruments. A Psalm of Asaph. A song."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -36915,10 +36641,6 @@
         },
         "For the choirmaster. According to Jeduthun. A Psalm of Asaph."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -37506,10 +37228,6 @@
         },
         " of Asaph."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -39398,10 +39116,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "The nations, O God, have invaded Your inheritance;"
@@ -39781,10 +39495,6 @@
         },
         "For the choirmaster. To the tune of “The Lilies of the Covenant.” A Psalm of Asaph."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -40323,10 +40033,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Sing for joy to God our strength;"
@@ -40787,10 +40493,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "God presides in the divine assembly;"
@@ -41045,10 +40747,6 @@
         },
         "A song. A Psalm of Asaph."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -41529,10 +41227,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "How lovely is Your dwelling place,"
@@ -41937,10 +41631,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "You showed favor to Your land, O LORD;"
@@ -42271,10 +41961,6 @@
         },
         "A prayer of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -42699,10 +42385,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "He has founded His city"
@@ -43047,10 +42729,6 @@
         },
         " of Heman the Ezrahite."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -43560,10 +43238,6 @@
         },
         " of Ethan the Ezrahite."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -44787,10 +44461,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Lord, You have been our dwelling place"
@@ -45703,10 +45373,6 @@
         },
         "A Psalm. A song for the Sabbath day."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -47987,10 +47653,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Sing to the LORD a new song,"
@@ -48586,10 +48248,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Make a joyful noise to the LORD,"
@@ -49024,10 +48682,6 @@
         },
         "A prayer of one who is afflicted, when he grows faint and pours out his lament before the LORD."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -49694,10 +49348,6 @@
         },
         "Of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -54833,10 +54483,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "My heart is steadfast, O God;"
@@ -55198,10 +54844,6 @@
         },
         "For the choirmaster. A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -55979,10 +55621,6 @@
         },
         "A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -59514,10 +59152,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -59714,10 +59348,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -59889,10 +59519,6 @@
       "content": [
         "GIMEL"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -60070,10 +59696,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -60245,10 +59867,6 @@
       "content": [
         "HE"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -60482,10 +60100,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -60657,10 +60271,6 @@
       "content": [
         "ZAYIN"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -61012,10 +60622,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -61215,10 +60821,6 @@
       "content": [
         "YODH"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -61800,10 +61402,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -61975,10 +61573,6 @@
       "content": [
         "NUN"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -62156,10 +61750,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -62331,10 +61921,6 @@
       "content": [
         "AYIN"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -62512,10 +62098,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -62687,10 +62269,6 @@
       "content": [
         "TZADE"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -62868,10 +62446,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -63043,10 +62617,6 @@
       "content": [
         "RESH"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -63224,10 +62794,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -63399,10 +62965,6 @@
       "content": [
         "TAW"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -63591,10 +63153,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "In my distress I cried to the LORD,"
@@ -63766,10 +63324,6 @@
         },
         "A song of ascents."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -63961,10 +63515,6 @@
         },
         "A song of ascents. Of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -64246,10 +63796,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "I lift up my eyes to You,"
@@ -64378,10 +63924,6 @@
         },
         "A song of ascents. Of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -64568,10 +64110,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Those who trust in the LORD are like Mount Zion."
@@ -64731,10 +64269,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "When the LORD restored the captives of Zion,",
@@ -64777,11 +64311,6 @@
               "content": [
                 "restored the fortunes of Zion "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         }
@@ -65010,10 +64539,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Unless the LORD builds the house,"
@@ -65194,10 +64719,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Blessed are all who fear the LORD,"
@@ -65370,10 +64891,6 @@
         },
         "A song of ascents."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -65564,10 +65081,6 @@
         },
         "A song of ascents."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -65776,10 +65289,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "My heart is not proud, O LORD,"
@@ -65881,10 +65390,6 @@
         },
         "A song of ascents."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -66444,10 +65949,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Behold, how good and pleasant it is"
@@ -66552,10 +66053,6 @@
         },
         "A song of ascents."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -68177,10 +67674,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "I give You thanks with all my heart;"
@@ -68453,10 +67946,6 @@
         },
         "For the choirmaster. A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -69155,10 +68644,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Rescue me, O LORD, from evil men."
@@ -69541,10 +69026,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "I call upon You, O LORD; come quickly to me."
@@ -69919,10 +69400,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "I cry aloud to the LORD;"
@@ -70147,10 +69624,6 @@
         },
         "A Psalm of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -70555,10 +70028,6 @@
         },
         "Of David."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -71067,10 +70536,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

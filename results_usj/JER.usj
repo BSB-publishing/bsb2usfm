@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -109,10 +104,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -163,10 +154,6 @@
         },
         "But the LORD told me:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -249,10 +236,6 @@
         },
         "Then the LORD reached out His hand, touched my mouth, and said to me:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -433,10 +416,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Their kings will come and set up their thrones"
@@ -591,10 +570,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘I remember the devotion of your youth,"
@@ -687,10 +662,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1880,10 +1851,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Have I been a wilderness to Israel"
@@ -2464,10 +2431,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘Return, O faithless Israel,’ declares the LORD."
@@ -2592,10 +2555,6 @@
         },
         "In those days the house of Judah will walk with the house of Israel, and they will come together from the land of the north to the land that I gave to your fathers as an inheritance."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -2950,11 +2909,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -2965,10 +2919,6 @@
         },
         "For this is what the LORD says to the men of Judah and Jerusalem:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3041,11 +2991,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -3056,10 +3001,6 @@
         },
         "Announce in Judah, proclaim in Jerusalem, and say:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3258,11 +3199,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -3279,10 +3215,6 @@
         },
         "a wind too strong for that comes from Me. Now I also pronounce judgments against them.”"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3746,11 +3678,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -3761,10 +3688,6 @@
         },
         "For this is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4411,10 +4334,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“He will not do anything; harm will not come to us;"
@@ -4502,10 +4421,6 @@
         },
         "Therefore this is what the LORD God of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4646,11 +4561,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -4670,15 +4580,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -4689,10 +4590,6 @@
         },
         "Declare this in the house of Jacob and proclaim it in Judah:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5274,10 +5171,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Cut down the trees"
@@ -5384,10 +5277,6 @@
         },
         "This is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5721,10 +5610,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Stand at the crossroads and look."
@@ -5888,10 +5773,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“I will lay stumbling blocks before this people;"
@@ -5930,10 +5811,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6341,10 +6218,6 @@
         },
         "Do not trust in deceptive words, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6774,10 +6647,6 @@
         },
         "So you are to tell them this is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7838,10 +7707,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Behold, I will refine them and test them,"
@@ -8096,11 +7961,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -8162,10 +8022,6 @@
         },
         "This is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8350,10 +8206,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“The corpses of men will fall like dung"
@@ -8392,10 +8244,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8684,10 +8532,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9030,10 +8874,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -9228,10 +9068,6 @@
         },
         "For this is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9747,10 +9583,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -9816,11 +9648,6 @@
       "content": [
         "and its branches will be consumed."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "q1",
-      "content": []
     },
     {
       "type": "para",
@@ -11425,10 +11252,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -11757,10 +11580,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Truly they love to wander;"
@@ -11877,10 +11696,6 @@
         },
         "You are to speak this word to them:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12188,10 +12003,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘Those destined for death, to death;"
@@ -12265,10 +12076,6 @@
         },
         "I will make them a horror to all the kingdoms of the earth because of what Manasseh son of Hezekiah king of Judah did in Jerusalem."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12557,10 +12364,6 @@
         },
         "The LORD said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12898,10 +12701,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“If you return, I will restore you;"
@@ -13209,10 +13008,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -13491,10 +13286,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14312,10 +14103,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Inquire among the nations:"
@@ -14519,10 +14306,6 @@
         },
         "Then some said, “Come, let us make plans against Jeremiah, for the law will never be lost to the priest, nor counsel to the wise, nor an oracle to the prophet. Come, let us denounce him and pay no heed to any of his words.”"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15724,10 +15507,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘Administer justice every morning,"
@@ -15922,10 +15701,6 @@
         },
         "For this is what the LORD says concerning the house of the king of Judah:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -16357,10 +16132,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“They will not mourn for him:"
@@ -16680,10 +16451,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -16751,10 +16518,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Enroll this man as childless,"
@@ -16802,11 +16565,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -16849,10 +16607,6 @@
         },
         "I will raise up shepherds over them who will tend them, and they will no longer be afraid or dismayed, nor will any go missing, declares the LORD."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -17030,10 +16784,6 @@
         },
         "As for the prophets:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -17301,10 +17051,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“I will feed them wormwood"
@@ -17343,10 +17089,6 @@
         },
         "This is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -17594,11 +17336,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -17629,11 +17366,6 @@
       "content": [
         "“Do I not fill the heavens and the earth?” declares the LORD."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "q1",
-      "content": []
     },
     {
       "type": "para",
@@ -18453,10 +18185,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘The LORD will roar from on high;"
@@ -18540,11 +18268,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -18555,10 +18278,6 @@
         },
         "This is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -19033,10 +18752,6 @@
         },
         "“Micah the Moreshite prophesied in the days of Hezekiah king of Judah and told all the people of Judah that this is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -20298,10 +20013,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“A cry of panic is heard —"
@@ -20590,10 +20301,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Your injury is incurable;"
@@ -20811,11 +20518,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -20826,10 +20528,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -21137,10 +20835,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“The people who survived the sword"
@@ -21200,10 +20894,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -21319,10 +21009,6 @@
         },
         "For this is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -21646,10 +21332,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“A voice is heard in Ramah,"
@@ -21723,10 +21405,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -22127,11 +21805,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -22253,10 +21926,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘The fathers have eaten sour grapes,"
@@ -22281,10 +21950,6 @@
         },
         "Instead, each will die for his own iniquity. If anyone eats the sour grapes, his own teeth will be set on edge."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -22551,10 +22216,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -22599,10 +22260,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -23580,10 +23237,6 @@
         },
         "the sounds of joy and gladness, the voices of the bride and bridegroom, and the voices of those bringing thank offerings into the house of the LORD, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -25666,10 +25319,6 @@
         },
         "All the women who remain in the palace of the king of Judah will be brought out to the officials of the king of Babylon, and those women will say:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -27862,10 +27511,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -28265,10 +27910,6 @@
         },
         "This is the word that the LORD spoke to Jeremiah the prophet about the coming of Nebuchadnezzar king of Babylon to strike the land of Egypt:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -28760,10 +28401,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -28903,10 +28540,6 @@
         },
         "This is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -29234,10 +28867,6 @@
         },
         "Concerning Moab, this is what the LORD of Hosts, the God of Israel, says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -30887,10 +30516,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Behold, an eagle swoops down"
@@ -31181,11 +30806,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -31196,10 +30816,6 @@
         },
         "Concerning the Ammonites, this is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -31611,10 +31227,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Is there no longer wisdom in Teman?"
@@ -31796,10 +31408,6 @@
         },
         "For by Myself I have sworn, declares the LORD, that Bozrah will become a desolation, a disgrace, a ruin, and a curse, and all her cities will be in ruins forever.”"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -32251,11 +31859,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -32266,10 +31869,6 @@
         },
         "Concerning Damascus:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -32462,11 +32061,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -32477,10 +32071,6 @@
         },
         "Concerning Kedar and the kingdoms of Hazor, which Nebuchadnezzar king of Babylon defeated, this is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -32790,10 +32380,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Behold, I will shatter Elam’s bow,"
@@ -33037,10 +32623,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -33794,10 +33376,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“I will punish the king of Babylon and his land"
@@ -34441,10 +34019,6 @@
         },
         "This is what the LORD of Hosts says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -35104,10 +34678,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Behold, I will stir up against Babylon"
@@ -35729,10 +35299,6 @@
         },
         "The LORD of Hosts has sworn by Himself:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -36442,11 +36008,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -36457,10 +36018,6 @@
         },
         "For this is what the LORD of Hosts, the God of Israel, says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -36634,10 +36191,6 @@
         },
         "Therefore this is what the LORD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -37545,10 +37098,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Babylon’s thick walls will be leveled,"
@@ -38142,10 +37691,6 @@
         },
         "These are the people Nebuchadnezzar carried away:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

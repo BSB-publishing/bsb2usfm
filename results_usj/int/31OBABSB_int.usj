@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -66,7 +61,6 @@
       "type": "para",
       "marker": "r",
       "content": [
-        "(",
         {
           "type": "ref",
           "loc": "JER 49:7-22",
@@ -100,15 +94,10 @@
           "marker": "rb",
           "gloss": "עֹֽבַדְיָ֑ה",
           "content": [
-            "of Obadiah"
+            "of Obadiah:"
           ]
-        },
-        ":"
+        }
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -151,10 +140,9 @@
           "marker": "rb",
           "gloss": "לֶאֱד֗וֹם",
           "content": [
-            "about Edom"
+            "about Edom—"
           ]
-        },
-        " —"
+        }
       ]
     },
     {
@@ -192,10 +180,9 @@
           "marker": "rb",
           "gloss": "יְהוָה֙",
           "content": [
-            "from the LORD"
+            "from the LORD;"
           ]
-        },
-        ";"
+        }
       ]
     },
     {
@@ -237,10 +224,9 @@
           "marker": "rb",
           "gloss": "ק֛וּמוּ",
           "content": [
-            "to say, “Rise up"
+            "to say, “Rise up,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -268,10 +254,9 @@
           "marker": "rb",
           "gloss": "עָלֶיהָ",
           "content": [
-            "against her"
+            "against her!”—"
           ]
-        },
-        "!”—"
+        }
       ]
     },
     {
@@ -288,16 +273,14 @@
           "marker": "v",
           "number": "2"
         },
-        "“",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "הִנֵּ֥ה",
           "content": [
-            "Behold"
+            "“Behold,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -319,10 +302,9 @@
           "marker": "rb",
           "gloss": "בַּגּוֹיִ֑ם",
           "content": [
-            "among the nations"
+            "among the nations;"
           ]
-        },
-        ";"
+        }
       ]
     },
     {
@@ -350,10 +332,9 @@
           "marker": "rb",
           "gloss": "בָּז֥וּי",
           "content": [
-            "despised"
+            "despised."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -387,10 +368,9 @@
           "marker": "rb",
           "gloss": "הִשִּׁיאֶ֔ךָ",
           "content": [
-            "has deceived you"
+            "has deceived you,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -468,10 +448,9 @@
           "marker": "rb",
           "gloss": "מְר֣וֹם",
           "content": [
-            "the heights"
+            "the heights,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -491,23 +470,21 @@
           "marker": "rb",
           "gloss": "בְּלִבּ֔וֹ",
           "content": [
-            "in your heart"
+            "in your heart,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
       "type": "para",
       "marker": "q2",
       "content": [
-        "‘",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "מִ֥י",
           "content": [
-            "Who"
+            "‘Who"
           ]
         },
         {
@@ -523,10 +500,9 @@
           "marker": "rb",
           "gloss": "אָֽרֶץ׃",
           "content": [
-            "to the ground"
+            "to the ground?’"
           ]
-        },
-        "?’"
+        }
       ]
     },
     {
@@ -604,10 +580,9 @@
           "marker": "rb",
           "gloss": "כּֽוֹכָבִ֖ים",
           "content": [
-            "the stars"
+            "the stars,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -627,10 +602,9 @@
           "marker": "rb",
           "gloss": "אוֹרִֽידְךָ֖",
           "content": [
-            "I will bring you down"
+            "I will bring you down,”"
           ]
-        },
-        ",”"
+        }
       ]
     },
     {
@@ -650,10 +624,9 @@
           "marker": "rb",
           "gloss": "יְהוָֽה׃",
           "content": [
-            "the LORD"
+            "the LORD."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -666,13 +639,12 @@
           "marker": "v",
           "number": "5"
         },
-        "“",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "אִם־",
           "content": [
-            "If"
+            "“If"
           ]
         },
         {
@@ -696,10 +668,9 @@
           "marker": "rb",
           "gloss": "לְךָ֙",
           "content": [
-            "to you"
+            "to you,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -727,10 +698,9 @@
           "marker": "rb",
           "gloss": "לַ֔יְלָה",
           "content": [
-            "by night"
+            "by night—"
           ]
-        },
-        " —"
+        }
       ]
     },
     {
@@ -750,10 +720,9 @@
           "marker": "rb",
           "gloss": "נִדְמֵ֔יתָה",
           "content": [
-            "you will be ruined"
+            "you will be ruined—"
           ]
-        },
-        " —"
+        }
       ]
     },
     {
@@ -781,10 +750,9 @@
           "marker": "rb",
           "gloss": "דַּיָּ֑ם",
           "content": [
-            "only what they wanted"
+            "only what they wanted?"
           ]
-        },
-        "?"
+        }
       ]
     },
     {
@@ -820,10 +788,9 @@
           "marker": "rb",
           "gloss": "לָ֔ךְ",
           "content": [
-            "to you"
+            "to you,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -851,10 +818,9 @@
           "marker": "rb",
           "gloss": "עֹלֵלֽוֹת׃",
           "content": [
-            "some gleanings"
+            "some gleanings?"
           ]
-        },
-        "?"
+        }
       ]
     },
     {
@@ -888,10 +854,9 @@
           "marker": "rb",
           "gloss": "נֶחְפְּשׂ֣וּ",
           "content": [
-            "will be pillaged"
+            "will be pillaged,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -911,10 +876,9 @@
           "marker": "rb",
           "gloss": "נִבְע֖וּ",
           "content": [
-            "sought out"
+            "sought out!"
           ]
-        },
-        "!"
+        }
       ]
     },
     {
@@ -978,10 +942,9 @@
           "marker": "rb",
           "gloss": "הַגְּב֣וּל",
           "content": [
-            "the border"
+            "the border;"
           ]
-        },
-        ";"
+        }
       ]
     },
     {
@@ -1031,10 +994,9 @@
           "marker": "rb",
           "gloss": "לְךָ֖",
           "content": [
-            "you"
+            "you."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1141,10 +1103,9 @@
           "marker": "rb",
           "gloss": "בּֽוֹ׃",
           "content": [
-            "of it"
+            "of it."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1170,10 +1131,9 @@
           "marker": "rb",
           "gloss": "בַּיּ֥וֹם",
           "content": [
-            "day"
+            "day,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -1187,10 +1147,9 @@
           "marker": "rb",
           "gloss": "יְהוָ֑ה",
           "content": [
-            "the LORD"
+            "the LORD,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1262,10 +1221,9 @@
           "marker": "rb",
           "gloss": "עֵשָֽׂו׃",
           "content": [
-            "of Esau"
+            "of Esau?"
           ]
-        },
-        "?"
+        }
       ]
     },
     {
@@ -1283,19 +1241,17 @@
           "marker": "rb",
           "gloss": "גִבּוֹרֶ֖יךָ",
           "content": [
-            "Then your mighty men"
+            "Then your mighty men,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "תֵּימָ֑ן",
           "content": [
-            "O Teman"
+            "O Teman,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1307,10 +1263,9 @@
           "marker": "rb",
           "gloss": "וְחַתּ֥וּ",
           "content": [
-            "will be terrified"
+            "will be terrified,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1368,10 +1323,9 @@
           "marker": "rb",
           "gloss": "מִקָּֽטֶל׃",
           "content": [
-            "in the slaughter"
+            "in the slaughter."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1409,10 +1363,9 @@
           "marker": "rb",
           "gloss": "יַעֲקֹ֖ב",
           "content": [
-            "Jacob"
+            "Jacob,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1454,10 +1407,9 @@
           "marker": "rb",
           "gloss": "לְעוֹלָֽם׃",
           "content": [
-            "forever"
+            "forever."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1603,10 +1555,9 @@
           "marker": "rb",
           "gloss": "יְרוּשָׁלִַ֙ם֙",
           "content": [
-            "Jerusalem"
+            "Jerusalem,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1634,10 +1585,9 @@
           "marker": "rb",
           "gloss": "מֵהֶֽם׃",
           "content": [
-            "of them"
+            "of them."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1671,10 +1621,9 @@
           "marker": "rb",
           "gloss": "בְיוֹם־",
           "content": [
-            "in that day"
+            "in that day,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1702,10 +1651,9 @@
           "marker": "rb",
           "gloss": "נָכְר֔וֹ",
           "content": [
-            "of misfortune"
+            "of misfortune,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1763,10 +1711,9 @@
           "marker": "rb",
           "gloss": "אָבְדָ֑ם",
           "content": [
-            "of their destruction"
+            "of their destruction,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1788,12 +1735,6 @@
           "content": [
             "boast proudly"
           ]
-        },
-        {
-          "type": "char",
-          "marker": "rb",
-          "gloss": "פִּ֖יךָ",
-          "content": []
         },
         {
           "type": "note",
@@ -1822,6 +1763,12 @@
               ]
             }
           ]
+        },
+        {
+          "type": "char",
+          "marker": "rb",
+          "gloss": "פִּ֖יךָ",
+          "content": []
         }
       ]
     },
@@ -1842,10 +1789,9 @@
           "marker": "rb",
           "gloss": "צָרָֽה׃",
           "content": [
-            "of their distress"
+            "of their distress."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -1909,10 +1855,9 @@
           "marker": "rb",
           "gloss": "אֵידָ֔ם",
           "content": [
-            "of their disaster"
+            "of their disaster,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -1976,10 +1921,9 @@
           "marker": "rb",
           "gloss": "אֵיד֑וֹ",
           "content": [
-            "of their disaster"
+            "of their disaster,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -2029,10 +1973,9 @@
           "marker": "rb",
           "gloss": "אֵידֽוֹ׃",
           "content": [
-            "of their disaster"
+            "of their disaster."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2102,10 +2045,9 @@
           "marker": "rb",
           "gloss": "פְּלִיטָ֑יו",
           "content": [
-            "their fugitives"
+            "their fugitives,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -2155,10 +2097,9 @@
           "marker": "rb",
           "gloss": "צָרָֽה׃",
           "content": [
-            "of their distress"
+            "of their distress."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2237,10 +2178,9 @@
           "marker": "rb",
           "gloss": "הַגּוֹיִ֑ם",
           "content": [
-            "the nations"
+            "the nations."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2260,10 +2200,9 @@
           "marker": "rb",
           "gloss": "עָשִׂ֙יתָ֙",
           "content": [
-            "you have done"
+            "you have done,"
           ]
         },
-        ", ",
         {
           "type": "char",
           "marker": "rb",
@@ -2277,10 +2216,9 @@
           "marker": "rb",
           "gloss": "לָּ֔ךְ",
           "content": [
-            "to you"
+            "to you;"
           ]
-        },
-        ";"
+        }
       ]
     },
     {
@@ -2308,10 +2246,9 @@
           "marker": "rb",
           "gloss": "בְּרֹאשֶֽׁךָ׃",
           "content": [
-            "upon your own head"
+            "upon your own head."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2369,10 +2306,9 @@
           "marker": "rb",
           "gloss": "הַ֣ר",
           "content": [
-            "mountain"
+            "mountain,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -2408,10 +2344,9 @@
           "marker": "rb",
           "gloss": "תָּמִ֑יד",
           "content": [
-            "continually"
+            "continually."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2431,10 +2366,9 @@
           "marker": "rb",
           "gloss": "וְלָע֔וּ",
           "content": [
-            "and gulp it down"
+            "and gulp it down;"
           ]
-        },
-        ";"
+        }
       ]
     },
     {
@@ -2462,10 +2396,9 @@
           "marker": "rb",
           "gloss": "הָיֽוּ׃",
           "content": [
-            "existed"
+            "existed."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2507,10 +2440,9 @@
           "marker": "rb",
           "gloss": "פְלֵיטָ֖ה",
           "content": [
-            "deliverance"
+            "deliverance,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -2530,10 +2462,9 @@
           "marker": "rb",
           "gloss": "קֹ֑דֶשׁ",
           "content": [
-            "holy"
+            "holy,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -2581,10 +2512,9 @@
           "marker": "rb",
           "gloss": "מוֹרָֽשֵׁיהֶם׃",
           "content": [
-            "their possession"
+            "their possession."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2626,10 +2556,9 @@
           "marker": "rb",
           "gloss": "אֵ֜שׁ",
           "content": [
-            "a blazing fire"
+            "a blazing fire,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -2657,10 +2586,9 @@
           "marker": "rb",
           "gloss": "לֶהָבָ֗ה",
           "content": [
-            "a burning flame"
+            "a burning flame;"
           ]
-        },
-        ";"
+        }
       ]
     },
     {
@@ -2688,10 +2616,9 @@
           "marker": "rb",
           "gloss": "לְקַ֔שׁ",
           "content": [
-            "will be stubble"
+            "will be stubble—"
           ]
-        },
-        " —"
+        }
       ]
     },
     {
@@ -2711,10 +2638,9 @@
           "marker": "rb",
           "gloss": "וַאֲכָל֑וּם",
           "content": [
-            "and consume it"
+            "and consume it."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2764,10 +2690,9 @@
           "marker": "rb",
           "gloss": "עֵשָׂ֔ו",
           "content": [
-            "of Esau"
+            "of Esau.”"
           ]
-        },
-        ".”"
+        }
       ]
     },
     {
@@ -2795,10 +2720,9 @@
           "marker": "rb",
           "gloss": "דִּבֵּֽר׃",
           "content": [
-            "has spoken"
+            "has spoken."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2846,10 +2770,9 @@
           "marker": "rb",
           "gloss": "עֵשָׂ֗ו",
           "content": [
-            "of Esau"
+            "of Esau;"
           ]
-        },
-        ";"
+        }
       ]
     },
     {
@@ -2924,10 +2847,9 @@
           "marker": "rb",
           "gloss": "פְּלִשְׁתִּ֔ים",
           "content": [
-            "will possess the land of the Philistines"
+            "will possess the land of the Philistines."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -2981,10 +2903,9 @@
           "marker": "rb",
           "gloss": "שֹׁמְר֑וֹן",
           "content": [
-            "and Samaria"
+            "and Samaria,"
           ]
-        },
-        ","
+        }
       ]
     },
     {
@@ -3010,10 +2931,9 @@
           "marker": "rb",
           "gloss": "הַגִּלְעָֽד׃",
           "content": [
-            "Gilead"
+            "Gilead."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -3091,10 +3011,9 @@
           "marker": "rb",
           "gloss": "צָ֣רְפַ֔ת",
           "content": [
-            "far as Zarephath"
+            "far as Zarephath;"
           ]
-        },
-        ";"
+        }
       ]
     },
     {
@@ -3166,10 +3085,9 @@
           "marker": "rb",
           "gloss": "הַנֶּֽגֶב׃",
           "content": [
-            "of the Negev"
+            "of the Negev."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -3289,10 +3207,9 @@
           "marker": "rb",
           "gloss": "עֵשָׂ֑ו",
           "content": [
-            "of Esau"
+            "of Esau."
           ]
-        },
-        "."
+        }
       ]
     },
     {
@@ -3324,10 +3241,9 @@
           "marker": "rb",
           "gloss": "לַֽיהוָ֖ה",
           "content": [
-            "the LORD"
+            "the LORD."
           ]
-        },
-        "."
+        }
       ]
     }
   ]

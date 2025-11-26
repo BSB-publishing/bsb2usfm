@@ -489,12 +489,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Do not be afraid. I am the First and the Last, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "“Do not be afraid. I am the First and the Last,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "the Living One. I was dead, and behold, now I am alive forever and ever! And I hold the keys of Death and of Hades."
           ]
         }
@@ -514,12 +520,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Therefore write down the things you have seen, the things that are, and the things that will happen after this. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            "Therefore write down the things you have seen, the things that are, and the things that will happen after this."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "This is the mystery of the seven stars you saw in My right hand and of the seven golden lampstands: The seven stars are the angels of the seven churches, and the seven lampstands are the seven churches.[’’]"
           ]
         }
@@ -606,12 +618,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I know your deeds, your labor, and your perseverance. I know that you cannot tolerate those who are evil, and you have tested and exposed as liars those who falsely claim to be apostles. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "I know your deeds, your labor, and your perseverance. I know that you cannot tolerate those who are evil, and you have tested and exposed as liars those who falsely claim to be apostles."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Without growing weary, you have persevered and endured many things for the sake of My name."
           ]
         }
@@ -631,12 +649,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "But I have this against you: You have abandoned your first love. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "But I have this against you: You have abandoned your first love."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Therefore, keep in mind how far you have fallen. Repent and perform the deeds you did at first. But if you do not repent, I will come to you and remove your lampstand from its place."
           ]
         }
@@ -848,18 +872,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "But I have a few things against you, because some of you hold to the teaching of Balaam, who taught Balak to place a stumbling block before the Israelites so they would eat food sacrificed to idols and commit sexual immorality. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
-            "In the same way, some of you also hold to the teaching of the Nicolaitans. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "But I have a few things against you, because some of you hold to the teaching of Balaam, who taught Balak to place a stumbling block before the Israelites so they would eat food sacrificed to idols and commit sexual immorality."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "In the same way, some of you also hold to the teaching of the Nicolaitans."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Therefore repent! Otherwise I will come to you shortly and wage war against them with the sword of My mouth."
           ]
         }
@@ -971,12 +1007,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "But I have this against you: You tolerate that woman Jezebel, who calls herself a prophetess. By her teaching she misleads My servants to be sexually immoral and to eat food sacrificed to idols. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "But I have this against you: You tolerate that woman Jezebel, who calls herself a prophetess. By her teaching she misleads My servants to be sexually immoral and to eat food sacrificed to idols."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Even though I have given her time to repent of her immorality, she is unwilling."
           ]
         }
@@ -996,12 +1038,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Behold, I will cast her onto a bed of sickness, and those who commit adultery with her will suffer great tribulation unless they repent of her deeds. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
+            "Behold, I will cast her onto a bed of sickness, and those who commit adultery with her will suffer great tribulation unless they repent of her deeds."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Then I will strike her children dead, and all the churches will know that I am the One who searches minds and hearts, and I will repay each of you according to your deeds."
           ]
         }
@@ -1021,24 +1069,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "But I say to the rest of you in Thyatira, who do not hold to her teaching and have not learned the so-called deep things of Satan: I will place no further burden upon you ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
-            "than to hold fast to what you have until I come. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
-            "And to the one who overcomes and continues in My work until the end, I will give authority over the nations. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "But I say to the rest of you in Thyatira, who do not hold to her teaching and have not learned the so-called deep things of Satan: I will place no further burden upon you"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "than to hold fast to what you have until I come."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "And to the one who overcomes and continues in My work until the end, I will give authority over the nations."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "He will rule them with an iron scepter and shatter them like pottery",
             {
               "type": "note",
@@ -1068,12 +1134,18 @@
                 }
               ]
             },
-            " — just as I have received authority from My Father. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            " — just as I have received authority from My Father."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And I will give him the morning star."
           ]
         }
@@ -1179,18 +1251,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I know your deeds; you have a reputation for being alive, yet you are dead. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
-            "Wake up and strengthen what remains, which is about to die; for I have found your deeds incomplete in the sight of My God. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "I know your deeds; you have a reputation for being alive, yet you are dead."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Wake up and strengthen what remains, which is about to die; for I have found your deeds incomplete in the sight of My God."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Remember, then, what you have received and heard. Keep it and repent. If you do not wake up, I will come like a thief, and you will not know the hour when I will come upon you."
           ]
         }
@@ -1210,12 +1294,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "But you do have a few people in Sardis who have not soiled their garments, and because they are worthy, they will walk with Me in white. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "But you do have a few people in Sardis who have not soiled their garments, and because they are worthy, they will walk with Me in white."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Like them, he who overcomes will be dressed in white. And I will never blot out",
             {
               "type": "note",
@@ -1351,12 +1441,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I know your deeds. Behold, I have placed before you an open door, which no one can shut. I know that you have only a little strength, yet you have kept My word and have not denied My name. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
+            "I know your deeds. Behold, I have placed before you an open door, which no one can shut. I know that you have only a little strength, yet you have kept My word and have not denied My name."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "As for those who belong to the synagogue of Satan, who claim to be Jews but are liars instead, I will make them come and bow down at your feet, and they will know that I love you."
           ]
         }
@@ -1376,12 +1472,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Because you have kept My command to persevere, I will also keep you from the hour of testing that is about to come upon the whole world, to test those who dwell on the earth. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "Because you have kept My command to persevere, I will also keep you from the hour of testing that is about to come upon the whole world, to test those who dwell on the earth."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I am coming soon.",
             {
               "type": "note",
@@ -1425,12 +1527,18 @@
                 }
               ]
             },
-            " Hold fast to what you have, so that no one will take your crown. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            " Hold fast to what you have, so that no one will take your crown."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The one who overcomes I will make a pillar in the temple of My God, and he will never again leave it. Upon him I will write the name of My God, and the name of the city of My God (the new Jerusalem that comes down out of heaven from My God), and My new name."
           ]
         }
@@ -1566,12 +1674,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I know your deeds; you are neither cold nor hot. How I wish you were one or the other! ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "I know your deeds; you are neither cold nor hot. How I wish you were one or the other!"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "So because you are lukewarm — neither hot nor cold — I am about to vomit you out of My mouth!"
           ]
         }
@@ -1591,18 +1705,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "You say, ‘I am rich; I have grown wealthy and need nothing.’ But you do not realize that you are wretched, pitiful, poor, blind, and naked. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
-            "I counsel you to buy from Me gold refined by fire so that you may become rich, white garments so that you may be clothed and your shameful nakedness not exposed, and salve to anoint your eyes so that you may see. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "You say, ‘I am rich; I have grown wealthy and need nothing.’ But you do not realize that you are wretched, pitiful, poor, blind, and naked."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I counsel you to buy from Me gold refined by fire so that you may become rich, white garments so that you may be clothed and your shameful nakedness not exposed, and salve to anoint your eyes so that you may see."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Those I love I rebuke and discipline. Therefore be earnest and repent."
           ]
         }
@@ -1622,12 +1748,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Behold, I stand at the door and knock. If anyone hears My voice and opens the door, I will come in and dine with him, and he with Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "Behold, I stand at the door and knock. If anyone hears My voice and opens the door, I will come in and dine with him, and he with Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "To the one who overcomes, I will grant the right to sit with Me on My throne, just as I overcame and sat down with My Father on His throne."
           ]
         }
@@ -1778,10 +1910,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Holy, Holy, Holy,"
@@ -1819,10 +1947,6 @@
         },
         "the twenty-four elders fall down before the One seated on the throne, and they worship Him who lives forever and ever. They cast their crowns before the throne, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -1990,10 +2114,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Worthy are You to take the scroll and open its seals,"
@@ -2118,10 +2238,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Worthy is the Lamb who was slain,"
@@ -2160,10 +2276,6 @@
         },
         "And I heard every creature in heaven and on earth and under the earth and in the sea, and all that is in them, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -2629,10 +2741,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -2779,10 +2887,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Salvation to our God,"
@@ -2859,10 +2963,6 @@
         },
         "For this reason,"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -3920,10 +4020,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“The kingdom of the world"
@@ -3968,10 +4064,6 @@
         },
         "saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4305,10 +4397,6 @@
         },
         "And I heard a loud voice in heaven saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4678,10 +4766,6 @@
         },
         "He who has an ear, let him hear:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5328,10 +5412,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Great and wonderful are Your works,"
@@ -5558,10 +5638,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Righteous are You, O Holy One,"
@@ -5620,10 +5696,6 @@
         },
         "And I heard the altar reply:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -5713,16 +5785,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
             "“Behold, I am coming like a thief. Blessed is the one who remains awake and clothed, so that he will not go naked and let his shame be exposed.”"
           ]
         }
@@ -5890,11 +5962,6 @@
         },
         "And on her forehead a mysterious name was written:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "p",
-      "content": []
     },
     {
       "type": "para",
@@ -6092,10 +6159,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Fallen, fallen is Babylon the great!",
@@ -6268,10 +6331,6 @@
         },
         "Then I heard another voice from heaven say:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6501,10 +6560,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Woe, woe to the great city,"
@@ -6592,10 +6647,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“The fruit of your soul’s desire"
@@ -6640,10 +6691,6 @@
         },
         "saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6711,10 +6758,6 @@
         },
         "Then they will throw dust on their heads as they weep and mourn and cry out:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6808,10 +6851,6 @@
         },
         "Then a mighty angel picked up a stone the size of a great millstone and cast it into the sea, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6977,10 +7016,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Hallelujah!",
@@ -7109,10 +7144,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Hallelujah!"
@@ -7144,10 +7175,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Amen, Hallelujah!”"
@@ -7165,10 +7192,6 @@
         },
         "Then a voice came from the throne, saying:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7217,10 +7240,6 @@
         },
         "And I heard a sound like the roar of a great multitude, like the rushing of many waters, and like a mighty rumbling of thunder, crying out:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7471,11 +7490,6 @@
         },
         "And He has a name written on His robe and on His thigh:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "p",
-      "content": []
     },
     {
       "type": "para",
@@ -7834,10 +7848,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Behold, the dwelling place of God is with man,"
@@ -8150,10 +8160,6 @@
         },
         "The foundations of the city walls were adorned with every kind of precious stone:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8473,16 +8479,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
             "“Behold, I am coming soon. Blessed is the one who keeps the words of prophecy in this book.",
             {
               "type": "note",
@@ -8566,22 +8572,28 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
-            "“Behold, I am coming soon, and My reward is with Me, to give to each one according to what he has done. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "“Behold, I am coming soon, and My reward is with Me, to give to each one according to what he has done."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I am the Alpha and the Omega, the First and the Last, the Beginning and the End.”"
           ]
         }
@@ -8639,16 +8651,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
             "“I, Jesus, have sent My angel to give you this testimony for the churches. I am the Root and the Offspring of David, the bright Morning Star.”"
           ]
         }

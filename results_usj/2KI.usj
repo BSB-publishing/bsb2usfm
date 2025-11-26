@@ -5130,11 +5130,6 @@
               "content": [
                 "officials of the city "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -6966,10 +6961,6 @@
       "content": [
         "And Elisha declared:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10632,10 +10623,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "pmo",
       "content": [
         " ",
@@ -10652,10 +10639,6 @@
         },
         "They have cast their gods into the fire and destroyed them, for they were not gods, but only wood and stone — the work of human hands."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10710,10 +10693,6 @@
         },
         "This is the word that the LORD has spoken against him:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11141,10 +11120,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "This year you will eat"
@@ -11293,10 +11268,6 @@
         },
         "So this is what the LORD says about the king of Assyria:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

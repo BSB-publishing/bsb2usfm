@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -3867,11 +3862,6 @@
     {
       "type": "para",
       "marker": "p",
-      "content": []
-    },
-    {
-      "type": "para",
-      "marker": "p",
       "content": [
         " ",
         {
@@ -6291,10 +6281,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "the camel,"
@@ -6406,10 +6392,6 @@
         },
         "but these you may not eat:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11579,10 +11561,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -11812,10 +11790,6 @@
         },
         "If, however, you do not obey the LORD your God by carefully following all His commandments and statutes I am giving you today, all these curses will come upon you and overtake you:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12598,10 +12572,6 @@
         },
         "Yet to this day the LORD has not given you a mind to understand, eyes to see, or ears to hear."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15817,10 +15787,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“The LORD came from Sinai"
@@ -16130,10 +16096,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“O LORD, hear the cry of Judah"
@@ -16172,10 +16134,6 @@
         },
         "Concerning Levi he said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -16521,10 +16479,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“May the beloved of the LORD"
@@ -16592,10 +16546,6 @@
         },
         "Concerning Joseph he said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -16755,10 +16705,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Rejoice, Zebulun, in your journeys,"
@@ -16817,10 +16763,6 @@
         },
         "Concerning Gad he said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -16906,10 +16848,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“Dan is a lion’s cub,"
@@ -16934,10 +16872,6 @@
         },
         "Concerning Naphtali he said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -17008,10 +16942,6 @@
         },
         "And concerning Asher he said:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

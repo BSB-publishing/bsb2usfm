@@ -46,11 +46,6 @@
       ]
     },
     {
-      "type": "para",
-      "marker": "mt1",
-      "content": []
-    },
-    {
       "type": "chapter",
       "marker": "c",
       "number": "1"
@@ -1652,11 +1647,6 @@
               "content": [
                 "them "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -1932,10 +1922,6 @@
         },
         "“O son of man, this is what the Lord GOD says to the land of Israel:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -4339,10 +4325,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘The days go by,"
@@ -5490,10 +5472,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘Like mother, like daughter.’"
@@ -5809,10 +5787,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘A great eagle with great wings and long pinions,",
@@ -6091,10 +6065,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘Will it flourish?"
@@ -6350,10 +6320,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘I will take a shoot from the lofty top of the cedar,"
@@ -6527,10 +6493,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘The fathers have eaten sour grapes,"
@@ -6574,10 +6536,6 @@
         },
         "Now suppose a man is righteous and does what is just and right:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -6750,10 +6708,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Indeed, the son eats at the mountain"
@@ -6846,10 +6800,6 @@
         },
         "Now suppose this son has a son who sees all the sins his father has committed, considers them, and does not do likewise:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -7199,10 +7149,6 @@
         },
         "and say:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -8538,10 +8484,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘A sword, a sword,"
@@ -8980,10 +8922,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -9014,10 +8952,6 @@
         },
         "This is what the Lord GOD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9136,10 +9070,6 @@
         },
         "Now prophesy, son of man, and declare that this is what the Lord GOD says concerning the Ammonites and their contempt:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10193,10 +10123,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘You will drink your sister’s cup,"
@@ -10563,10 +10489,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘Put the pot on the fire;"
@@ -10659,10 +10581,6 @@
         },
         "Therefore this is what the Lord GOD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10807,10 +10725,6 @@
         },
         "Yes, this is what the Lord GOD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -11645,10 +11559,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“How you have perished, O city of renown"
@@ -11827,10 +11737,6 @@
         },
         "Tell Tyre, who dwells at the gateway to the sea, merchant of the peoples on many coasts, that this is what the Lord GOD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -12566,10 +12472,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -13049,10 +12951,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Your heart is proud,"
@@ -13403,10 +13301,6 @@
         },
         "“Son of man, take up a lament for the king of Tyre and tell him that this is what the Lord GOD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -13812,10 +13706,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘Behold, I am against you, O Sidon,"
@@ -13991,10 +13881,6 @@
         },
         "Speak to him and tell him that this is what the Lord GOD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -14489,10 +14375,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "Wail, ‘Alas"
@@ -14885,10 +14767,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -14999,10 +14877,6 @@
       "content": [
         "I, the LORD, have spoken."
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15491,10 +15365,6 @@
         },
         "“Son of man, say to Pharaoh king of Egypt and to his multitude:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -16078,10 +15948,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "‘You are like a lion among the nations;"
@@ -16657,11 +16523,6 @@
     },
     {
       "type": "para",
-      "marker": "q1",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "p",
       "content": [
         " ",
@@ -16734,10 +16595,6 @@
         },
         "“Son of man, wail for the multitudes of Egypt, and consign her and the daughters of the mighty nations to the depths of the earth with those who descend to the Pit:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -17182,11 +17039,6 @@
               "content": [
                 "warriors of the uncircumcised "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         }
@@ -18241,10 +18093,6 @@
         },
         "and declare that this is what the Lord GOD says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -21387,11 +21235,6 @@
               "content": [
                 "and steps led up to it "
               ]
-            },
-            {
-              "type": "char",
-              "marker": "ft",
-              "content": []
             }
           ]
         },
@@ -22338,10 +22181,6 @@
         },
         "Now when the man had finished measuring the interior of the temple area, he led me out by the gate that faced east, and he measured the area all around:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -24917,10 +24756,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "On the north side it will extend from the Great Sea by way of Hethlon through Lebo-hamath to Zedad, ",
@@ -25149,10 +24984,6 @@
         },
         "“Now these are the names of the tribes:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -25615,10 +25446,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "li1",
       "content": [
         "Benjamin will have one portion extending from the east side to the west side."
@@ -25771,10 +25598,6 @@
         },
         "“These will be the exits of the city:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",

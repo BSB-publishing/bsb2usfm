@@ -566,10 +566,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         "“I am a voice of one calling in the wilderness,"
@@ -909,16 +905,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
             "“Come and see,”"
           ]
         },
@@ -1215,16 +1211,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
             "“Woman, what is that to you and to Me?”"
           ]
         },
@@ -1323,16 +1319,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
             "“Now draw some out,”"
           ]
         },
@@ -1771,18 +1767,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly, truly, I tell you, no one can enter the kingdom of God unless he is born of water and the Spirit. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
-            "Flesh is born of flesh, but spirit is born of the Spirit. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            "“Truly, truly, I tell you, no one can enter the kingdom of God unless he is born of water and the Spirit."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Flesh is born of flesh, but spirit is born of the Spirit."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Do not be amazed that I said, ‘You",
             {
               "type": "note",
@@ -1819,12 +1827,18 @@
                 }
               ]
             },
-            " must be born again.’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            " must be born again.’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The wind blows where it wishes. You hear its sound, but you do not know where it comes from or where it is going. So it is with everyone born of the Spirit.”"
           ]
         }
@@ -1847,16 +1861,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
             "“You are Israel’s teacher,”"
           ]
         },
@@ -1865,12 +1879,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“and you do not understand these things? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "“and you do not understand these things?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Truly, truly, I tell you, we speak of what we know, and we testify to what we have seen, and yet you people do not accept our testimony."
           ]
         }
@@ -1890,12 +1910,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "If I have told you about earthly things and you do not believe, how will you believe if I tell you about heavenly things? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "If I have told you about earthly things and you do not believe, how will you believe if I tell you about heavenly things?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "No one has ascended into heaven except the One who descended from heaven— the Son of Man.",
             {
               "type": "note",
@@ -1931,18 +1957,30 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
-            "Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "that everyone who believes in Him may have eternal life.",
             {
               "type": "note",
@@ -2040,18 +2078,30 @@
                 }
               ]
             },
-            " Son, that everyone who believes in Him shall not perish but have eternal life. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
-            "For God did not send His Son into the world to condemn the world, but to save the world through Him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            " Son, that everyone who believes in Him shall not perish but have eternal life."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "For God did not send His Son into the world to condemn the world, but to save the world through Him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Whoever believes in Him is not condemned, but whoever does not believe has already been condemned, because he has not believed in the name of God’s one and only Son."
           ]
         }
@@ -2071,18 +2121,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "And this is the verdict: The Light has come into the world, but men loved the darkness rather than the Light because their deeds were evil. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
-            "Everyone who does evil hates the Light, and does not come into the Light for fear that his deeds will be exposed. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "And this is the verdict: The Light has come into the world, but men loved the darkness rather than the Light because their deeds were evil."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Everyone who does evil hates the Light, and does not come into the Light for fear that his deeds will be exposed."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But whoever practices the truth comes into the Light, so that it may be seen clearly that what he has done has been accomplished in God.”",
             {
               "type": "note",
@@ -2566,12 +2628,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Everyone who drinks this water will be thirsty again. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "“Everyone who drinks this water will be thirsty again."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But whoever drinks the water I give him will never thirst. Indeed, the water I give him will become in him a fount of water springing up to eternal life.”"
           ]
         }
@@ -2632,12 +2700,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“You are correct to say that you have no husband. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "“You are correct to say that you have no husband."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "In fact, you have had five husbands, and the man you now have is not your husband. You have spoken truthfully.”"
           ]
         }
@@ -2666,16 +2740,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
             "“Believe Me, woman,”"
           ]
         },
@@ -2684,24 +2758,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“a time is coming when you will worship the Father neither on this mountain nor in Jerusalem. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
-            "You worship what you do not know; we worship what we do know, for salvation is from the Jews. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
-            "But a time is coming and has now come when the true worshipers will worship the Father in spirit and in truth, for the Father is seeking such as these to worship Him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "“a time is coming when you will worship the Father neither on this mountain nor in Jerusalem."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "You worship what you do not know; we worship what we do know, for salvation is from the Jews."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But a time is coming and has now come when the true worshipers will worship the Father in spirit and in truth, for the Father is seeking such as these to worship Him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "God is Spirit, and His worshipers must worship Him in spirit and in truth.”"
           ]
         }
@@ -2846,12 +2938,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“My food is to do the will of Him who sent Me and to finish His work. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "“My food is to do the will of Him who sent Me and to finish His work."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Do you not say, ‘There are still four months until the harvest’? I tell you, lift up your eyes and look at the fields, for they are ripe",
             {
               "type": "note",
@@ -2900,18 +2998,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Already the reaper draws his wages and gathers a crop for eternal life, so that the sower and the reaper may rejoice together. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
-            "For in this case the saying ‘One sows and another reaps’ is true. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "Already the reaper draws his wages and gathers a crop for eternal life, so that the sower and the reaper may rejoice together."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "For in this case the saying ‘One sows and another reaps’ is true."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I sent you to reap what you have not worked for; others have done the hard work, and now you have taken up their labor.”"
           ]
         }
@@ -3073,16 +3183,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "50"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "50"
-            },
             "“Go,”"
           ]
         },
@@ -3570,18 +3680,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly, truly, I tell you, the Son can do nothing by Himself, unless He sees the Father doing it. For whatever the Father does, the Son also does. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
-            "The Father loves the Son and shows Him all He does. And to your amazement, He will show Him even greater works than these. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "“Truly, truly, I tell you, the Son can do nothing by Himself, unless He sees the Father doing it. For whatever the Father does, the Son also does."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "The Father loves the Son and shows Him all He does. And to your amazement, He will show Him even greater works than these."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For just as the Father raises the dead and gives them life, so also the Son gives life to whom He wishes."
           ]
         }
@@ -3601,12 +3723,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Furthermore, the Father judges no one, but has assigned all judgment to the Son, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
+            "Furthermore, the Father judges no one, but has assigned all judgment to the Son,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "so that all may honor the Son just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent Him."
           ]
         }
@@ -3645,18 +3773,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Truly, truly, I tell you, the hour is coming and has now come when the dead will hear the voice of the Son of God, and those who hear will live. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
-            "For as the Father has life in Himself, so also He has granted the Son to have life in Himself. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "Truly, truly, I tell you, the hour is coming and has now come when the dead will hear the voice of the Son of God, and those who hear will live."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "For as the Father has life in Himself, so also He has granted the Son to have life in Himself."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And He has given Him authority to execute judgment, because He is the Son of Man."
           ]
         }
@@ -3676,12 +3816,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Do not be amazed at this, for the hour is coming when all who are in their graves will hear His voice ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "Do not be amazed at this, for the hour is coming when all who are in their graves will hear His voice"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "and come out — those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment.",
             {
               "type": "note",
@@ -3756,12 +3902,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "If I testify about Myself, My testimony is not valid. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "If I testify about Myself, My testimony is not valid."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "There is another who testifies about Me, and I know that His testimony about Me is valid."
           ]
         }
@@ -3781,12 +3933,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "You have sent to John, and he has testified to the truth. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
+            "You have sent to John, and he has testified to the truth."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Even though I do not accept human testimony, I say these things so that you may be saved."
           ]
         }
@@ -3806,24 +3964,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "John was a lamp that burned and gave light, and you were willing for a season to bask in his light. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
-            "But I have testimony more substantial than that of John. For the works that the Father has given Me to accomplish — the very works I am doing — testify about Me that the Father has sent Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
-            "And the Father who sent Me has Himself testified about Me. You have never heard His voice nor seen His form, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "John was a lamp that burned and gave light, and you were willing for a season to bask in his light."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But I have testimony more substantial than that of John. For the works that the Father has given Me to accomplish — the very works I am doing — testify about Me that the Father has sent Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "And the Father who sent Me has Himself testified about Me. You have never heard His voice nor seen His form,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "nor does His word abide in you, because you do not believe the One He sent."
           ]
         }
@@ -3865,12 +4041,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "You pore over the Scriptures because you presume that by them you possess eternal life. These are the very words that testify about Me, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
+            "You pore over the Scriptures because you presume that by them you possess eternal life. These are the very words that testify about Me,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "yet you refuse to come to Me to have life."
           ]
         }
@@ -3890,24 +4072,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I do not accept glory from men, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "42"
-            },
-            "but I know you, that you do not have the love of God within you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "43"
-            },
-            "I have come in My Father’s name, and you have not received Me; but if someone else comes in his own name, you will receive him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
+            "I do not accept glory from men,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "42"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "but I know you, that you do not have the love of God within you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "43"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I have come in My Father’s name, and you have not received Me; but if someone else comes in his own name, you will receive him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "How can you believe if you accept glory from one another, yet do not seek the glory that comes from the only God?"
           ]
         }
@@ -3927,18 +4127,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Do not think that I will accuse you before the Father. Your accuser is Moses, in whom you have put your hope. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "46"
-            },
-            "If you had believed Moses, you would believe Me, because he wrote about Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "47"
-            },
+            "Do not think that I will accuse you before the Father. Your accuser is Moses, in whom you have put your hope."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "46"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If you had believed Moses, you would believe Me, because he wrote about Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "47"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But since you do not believe what he wrote, how will you believe what I say?”"
           ]
         }
@@ -4110,16 +4322,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
             "“Have the people sit down,”"
           ]
         },
@@ -4403,12 +4615,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly, truly, I tell you, it is not because you saw these signs that you are looking for Me, but because you ate the loaves and had your fill. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "“Truly, truly, I tell you, it is not because you saw these signs that you are looking for Me, but because you ate the loaves and had your fill."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Do not work for food that perishes, but for food that endures to eternal life, which the Son of Man will give you. For on Him God the Father has placed His seal of approval.”"
           ]
         }
@@ -4510,12 +4728,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly, truly, I tell you, it was not Moses who gave you the bread from heaven, but it is My Father who gives you the true bread from heaven. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "“Truly, truly, I tell you, it was not Moses who gave you the bread from heaven, but it is My Father who gives you the true bread from heaven."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For the bread of God is He who comes down from heaven and gives life to the world.”"
           ]
         }
@@ -4549,12 +4773,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“I am the bread of life. Whoever comes to Me will never hunger, and whoever believes in Me will never thirst. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            "“I am the bread of life. Whoever comes to Me will never hunger, and whoever believes in Me will never thirst."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But as I stated, you have seen Me and still you do not believe."
           ]
         }
@@ -4574,12 +4804,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Everyone the Father gives Me will come to Me, and the one who comes to Me I will never drive away. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "Everyone the Father gives Me will come to Me, and the one who comes to Me I will never drive away."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For I have come down from heaven, not to do My own will, but to do the will of Him who sent Me."
           ]
         }
@@ -4599,12 +4835,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "And this is the will of Him who sent Me, that I shall lose none of those He has given Me, but raise them up at the last day. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
+            "And this is the will of Him who sent Me, that I shall lose none of those He has given Me, but raise them up at the last day."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For it is My Father’s will that everyone who looks to the Son and believes in Him shall have eternal life, and I will raise him up at the last day.”"
           ]
         }
@@ -4648,36 +4890,41 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "43"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "43"
-            },
             "“Stop grumbling among yourselves,”"
           ]
         },
-        " Jesus replied. ",
+        " Jesus replied.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
-            "“No one can come to Me unless the Father who sent Me draws him, and I will raise him up at the last day. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "45"
-            },
+            "“No one can come to Me unless the Father who sent Me draws him, and I will raise him up at the last day."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "45"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "It is written in the Prophets: ‘And they will all be taught by God.’",
             {
               "type": "note",
@@ -4706,12 +4953,18 @@
                 }
               ]
             },
-            " Everyone who has heard the Father and learned from Him comes to Me — ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "46"
-            },
+            " Everyone who has heard the Father and learned from Him comes to Me —"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "46"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "not that anyone has seen the Father except the One who is from God; only He has seen the Father."
           ]
         }
@@ -4731,30 +4984,54 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Truly, truly, I tell you, he who believes has eternal life. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "48"
-            },
-            "I am the bread of life. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "49"
-            },
-            "Your fathers ate the manna in the wilderness, yet they died. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "50"
-            },
-            "This is the bread that comes down from heaven, so that anyone may eat of it and not die. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "51"
-            },
+            "Truly, truly, I tell you, he who believes has eternal life."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "48"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I am the bread of life."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "49"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Your fathers ate the manna in the wilderness, yet they died."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "50"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "This is the bread that comes down from heaven, so that anyone may eat of it and not die."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "51"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I am the living bread that came down from heaven. If anyone eats of this bread, he will live forever. And this bread, which I will give for the life of the world, is My flesh.”"
           ]
         }
@@ -4788,18 +5065,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly, truly, I tell you, unless you eat the flesh and drink the blood of the Son of Man, you have no life in you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "54"
-            },
-            "Whoever eats My flesh and drinks My blood has eternal life, and I will raise him up at the last day. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "55"
-            },
+            "“Truly, truly, I tell you, unless you eat the flesh and drink the blood of the Son of Man, you have no life in you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "54"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Whoever eats My flesh and drinks My blood has eternal life, and I will raise him up at the last day."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "55"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For My flesh is real food, and My blood is real drink."
           ]
         }
@@ -4819,18 +5108,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Whoever eats My flesh and drinks My blood remains in Me, and I in him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "57"
-            },
-            "Just as the living Father sent Me and I live because of the Father, so also the one who feeds on Me will live because of Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "58"
-            },
+            "Whoever eats My flesh and drinks My blood remains in Me, and I in him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "57"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Just as the living Father sent Me and I live because of the Father, so also the one who feeds on Me will live because of Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "58"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "This is the bread that came down from heaven. Unlike your fathers, who ate  the manna and died, the one who eats this bread will live forever.”"
           ]
         }
@@ -4908,12 +5209,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Does this offend you? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "62"
-            },
+            "“Does this offend you?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "62"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Then what  will happen  if you see the Son of Man ascend to where He was before?"
           ]
         }
@@ -4923,22 +5230,28 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "63"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "63"
-            },
-            "The Spirit gives life; the flesh profits nothing. The words I have spoken to you are spirit and they are life. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "64"
-            },
+            "The Spirit gives life; the flesh profits nothing. The words I have spoken to you are spirit and they are life."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "64"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "However, there are some of you who do not believe.”"
           ]
         },
@@ -5246,18 +5559,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Although your time is always at hand, My time has not yet come. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
-            "The world cannot hate you, but it hates Me, because I testify that its works are evil. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "“Although your time is always at hand, My time has not yet come."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "The world cannot hate you, but it hates Me, because I testify that its works are evil."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Go up to the feast on your own. I am not",
             {
               "type": "note",
@@ -5416,16 +5741,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
             "“My teaching is not My own,”"
           ]
         },
@@ -5434,24 +5759,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“It comes from Him who sent Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
-            "If anyone desires to do His will, he will know whether My teaching is from God or whether I speak on My own. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
-            "He who speaks on his own authority seeks his own glory, but He who seeks the glory of the One who sent Him is a man of truth; in Him there is no falsehood. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "“It comes from Him who sent Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If anyone desires to do His will, he will know whether My teaching is from God or whether I speak on My own."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "He who speaks on his own authority seeks his own glory, but He who seeks the glory of the One who sent Him is a man of truth; in Him there is no falsehood."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Has not Moses given you the law? Yet not one of you keeps it. Why are you trying to kill Me?”"
           ]
         }
@@ -5485,24 +5828,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“I did one miracle, and you are all amazed. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
-            "But because Moses gave you circumcision, you circumcise a boy on the Sabbath (not that it is from Moses, but from the patriarchs.) ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
-            "If a boy can be circumcised on the Sabbath so that the law of Moses will not be broken, why are you angry with Me for making the whole man well on the Sabbath? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "“I did one miracle, and you are all amazed."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But because Moses gave you circumcision, you circumcise a boy on the Sabbath (not that it is from Moses, but from the patriarchs.)"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If a boy can be circumcised on the Sabbath so that the law of Moses will not be broken, why are you angry with Me for making the whole man well on the Sabbath?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Stop judging by outward appearances, and start judging justly.”"
           ]
         }
@@ -5555,12 +5916,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“You know Me, and you know where I am from. I have not come of My own accord, but He who sent Me is true. You do not know Him, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "“You know Me, and you know where I am from. I have not come of My own accord, but He who sent Me is true. You do not know Him,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "but I know Him, because I am from Him and He sent Me.”"
           ]
         }
@@ -5606,12 +5973,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“I am with you only a little while longer, and then I am going to the One who sent Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
+            "“I am with you only a little while longer, and then I am going to the One who sent Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "You will look for Me, but you will not find Me; and where I am, you cannot come.”"
           ]
         }
@@ -5724,12 +6097,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“If anyone is thirsty, let him come to Me and drink. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "“If anyone is thirsty, let him come to Me and drink."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Whoever believes in Me, as the Scripture has said: ‘Streams of living water will flow from within him.’”"
           ]
         },
@@ -6366,18 +6745,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Even if I testify about Myself, My testimony is valid, because I know where I came from and where I am going. But you do not know where I came from or where I am going. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
-            "You judge according to the flesh; I judge no one. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "“Even if I testify about Myself, My testimony is valid, because I know where I came from and where I am going. But you do not know where I came from or where I am going."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "You judge according to the flesh; I judge no one."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But even if I do judge, My judgment is true, because I am not alone; I am with the Father who sent Me.",
             {
               "type": "note",
@@ -6420,12 +6811,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Even in your own Law it is written that the testimony of two men is valid.",
             {
               "type": "note",
@@ -6455,12 +6852,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I am One who testifies about Myself, and the Father, who sent Me, also testifies about Me.”"
           ]
         }
@@ -6569,12 +6972,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“You are from below; I am from above. You are of this world; I am not of this world. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "“You are from below; I am from above. You are of this world; I am not of this world."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "That is why I told you that you would die in your sins. For unless you believe that I am He, you will die in your sins.”"
           ]
         }
@@ -6604,17 +7013,16 @@
             "“Just what I have been telling you from the beginning,”"
           ]
         },
-        " Jesus replied. ",
+        " Jesus replied.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
             "“I have much to say about you and much to judge. But the One who sent Me is truthful, and what I have heard from Him, I tell the world.”"
           ]
         }
@@ -6641,12 +7049,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“When you have lifted up the Son of Man, then you will know that I am He, and that I do nothing on My own, but speak exactly what the Father has taught Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "“When you have lifted up the Son of Man, then you will know that I am He, and that I do nothing on My own, but speak exactly what the Father has taught Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "He who sent Me is with Me. He has not left Me alone, because I always do what pleases Him.”"
           ]
         }
@@ -6695,12 +7109,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“If you continue in My word, you are truly My disciples. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "“If you continue in My word, you are truly My disciples."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Then you will know the truth, and the truth will set you free.”"
           ]
         }
@@ -6734,18 +7154,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly, truly, I tell you, everyone who sins is a slave to sin. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
-            "A slave does not remain in the house forever, but a son remains forever. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            "“Truly, truly, I tell you, everyone who sins is a slave to sin."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "A slave does not remain in the house forever, but a son remains forever."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "So if the Son sets you free, you will be free indeed."
           ]
         }
@@ -6765,12 +7197,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I know you are Abraham’s descendants, but you are trying to kill Me because My word has no place within you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "I know you are Abraham’s descendants, but you are trying to kill Me because My word has no place within you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I speak of what I have seen in the presence of the Father, and you do what you have heard from your father.”"
           ]
         }
@@ -6805,18 +7243,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“you would do the works of Abraham. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "40"
-            },
-            "But now you are trying to kill Me, a man who has told you the truth that I heard from God. Abraham never did such a thing. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "41"
-            },
+            "“you would do the works of Abraham."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "40"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But now you are trying to kill Me, a man who has told you the truth that I heard from God. Abraham never did such a thing."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "41"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "You are doing the works of your father.”"
           ]
         }
@@ -6863,18 +7313,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Why do you not understand what I am saying? It is because you are unable to accept My message. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "44"
-            },
-            "You belong to your father, the devil, and you want to carry out his desires. He was a murderer from the beginning, refusing to uphold the truth, because there is no truth in him. When he lies, he speaks his native  language, because he is a liar and the father of lies. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "45"
-            },
+            "Why do you not understand what I am saying? It is because you are unable to accept My message."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "44"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "You belong to your father, the devil, and you want to carry out his desires. He was a murderer from the beginning, refusing to uphold the truth, because there is no truth in him. When he lies, he speaks his native  language, because he is a liar and the father of lies."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "45"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But because I speak the truth, you do not believe Me!"
           ]
         }
@@ -6894,12 +7356,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Which of you can prove Me guilty of sin? If I speak the truth, why do you not believe Me? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "47"
-            },
+            "Which of you can prove Me guilty of sin? If I speak the truth, why do you not believe Me?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "47"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Whoever belongs to God hears the words of God. The reason you do not hear is that you do not belong to God.”"
           ]
         }
@@ -6929,16 +7397,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "49"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "49"
-            },
             "“I do not have a demon,”"
           ]
         },
@@ -6947,18 +7415,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“but I honor My Father, and you dishonor Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "50"
-            },
-            "I do not seek My own glory. There is One who seeks it, and He is the Judge. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "51"
-            },
+            "“but I honor My Father, and you dishonor Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "50"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I do not seek My own glory. There is One who seeks it, and He is the Judge."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "51"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Truly, truly, I tell you, if anyone keeps My word, he will never see death.”"
           ]
         }
@@ -7027,18 +7507,30 @@
                 }
               ]
             },
-            " God.’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "55"
-            },
-            "You do not know Him, but I know Him. If I said I did not know Him, I would be a liar like you. But I do know Him, and I keep His word. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "56"
-            },
+            " God.’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "55"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "You do not know Him, but I know Him. If I said I did not know Him, I would be a liar like you. But I do know Him, and I keep His word."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "56"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Your father Abraham rejoiced that he would see My day. He saw it and was glad.”"
           ]
         }
@@ -7061,16 +7553,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "58"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "58"
-            },
             "“Truly, truly, I tell you,”"
           ]
         },
@@ -7207,12 +7699,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Neither this man nor his parents sinned, but this happened so that the works of God would be displayed in him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "“Neither this man nor his parents sinned, but this happened so that the works of God would be displayed in him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "While it is daytime, we must do",
             {
               "type": "note",
@@ -7242,12 +7740,18 @@
                 }
               ]
             },
-            " the works of Him who sent Me. Night is coming, when no one can work. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            " the works of Him who sent Me. Night is coming, when no one can work."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "While I am in the world, I am the light of the world.”"
           ]
         }
@@ -7683,16 +8187,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "37"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "37"
-            },
             "“You have already seen Him,”"
           ]
         },
@@ -7820,16 +8324,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "41"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "41"
-            },
             "“If you were blind,”"
           ]
         },
@@ -7892,18 +8396,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly, truly, I tell you, whoever does not enter the sheepfold by the gate, but climbs in some other way, is a thief and a robber. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
-            "But the one who enters by the gate is the shepherd of the sheep. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
+            "“Truly, truly, I tell you, whoever does not enter the sheepfold by the gate, but climbs in some other way, is a thief and a robber."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But the one who enters by the gate is the shepherd of the sheep."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The gatekeeper opens the gate for him, and the sheep listen for his voice. He calls his own sheep by name and leads them out."
           ]
         }
@@ -7923,12 +8439,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "When he has brought out all his own, he goes on ahead of them, and his sheep follow him because they know his voice. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            "When he has brought out all his own, he goes on ahead of them, and his sheep follow him because they know his voice."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But they will never follow a stranger; in fact, they will flee from him because they do not recognize his voice.”"
           ]
         }
@@ -7955,12 +8477,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Truly, truly, I tell you, I am the gate for the sheep. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "“Truly, truly, I tell you, I am the gate for the sheep."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "All who came before Me",
             {
               "type": "note",
@@ -7990,18 +8518,30 @@
                 }
               ]
             },
-            " were thieves and robbers, but the sheep did not listen to them. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
-            "I am the gate. If anyone enters through Me, he will be saved. He will come in and go out and find pasture. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            " were thieves and robbers, but the sheep did not listen to them."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I am the gate. If anyone enters through Me, he will be saved. He will come in and go out and find pasture."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The thief comes only to steal and kill and destroy. I have come that they may have life, and have it in all its fullness."
           ]
         }
@@ -8021,18 +8561,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I am the good shepherd. The good shepherd lays down His life for the sheep. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
-            "The hired hand is not the shepherd, and the sheep are not his own. When he sees the wolf coming, he abandons the sheep and runs away. Then the wolf pounces on them and scatters the flock. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "I am the good shepherd. The good shepherd lays down His life for the sheep."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "The hired hand is not the shepherd, and the sheep are not his own. When he sees the wolf coming, he abandons the sheep and runs away. Then the wolf pounces on them and scatters the flock."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The man runs away  because he is a hired servant and is unconcerned for the sheep."
           ]
         }
@@ -8052,18 +8604,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I am the good shepherd. I know My sheep and My sheep know Me, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
-            "just as the Father knows Me and I know the Father. And I lay down My life for the sheep. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "I am the good shepherd. I know My sheep and My sheep know Me,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "just as the Father knows Me and I know the Father. And I lay down My life for the sheep."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I have other sheep that are not of this fold. I must bring them in as well, and they will listen to My voice. Then there will be one flock and one shepherd."
           ]
         }
@@ -8083,12 +8647,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "The reason the Father loves Me is that I lay down My life in order to take it up again. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
+            "The reason the Father loves Me is that I lay down My life in order to take it up again."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "No one takes it from Me, but I lay it down of My own accord. I have authority to lay it down and authority to take it up again. This charge I have received from My Father.”"
           ]
         }
@@ -8213,16 +8783,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
             "“I already told you,”"
           ]
         },
@@ -8231,36 +8801,66 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“but you did not believe. The works I do in My Father’s name testify on My behalf. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
-            "But because you are not My sheep, you refuse to believe. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
-            "My sheep listen to My voice; I know them, and they follow Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
-            "I give them eternal life, and they will never perish. No one can snatch them out of My hand. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
-            "My Father who has given them to Me is greater than all. No one can snatch them out of My Father’s hand. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "30"
-            },
+            "“but you did not believe. The works I do in My Father’s name testify on My behalf."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But because you are not My sheep, you refuse to believe."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "My sheep listen to My voice; I know them, and they follow Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I give them eternal life, and they will never perish. No one can snatch them out of My hand."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "My Father who has given them to Me is greater than all. No one can snatch them out of My Father’s hand."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "30"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I and the Father are one.”"
           ]
         }
@@ -8348,18 +8948,30 @@
                 }
               ]
             },
-            "? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
-            "If he called them gods to whom the word of God came — and the Scripture cannot be broken — ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            "?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If he called them gods to whom the word of God came — and the Scripture cannot be broken —"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "then what about the One  whom the Father sanctified and sent into the world? How then can you accuse Me of blasphemy for stating that I am the Son of God?"
           ]
         }
@@ -8379,12 +8991,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "If I am not doing the works of My Father, then do not believe Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
+            "If I am not doing the works of My Father, then do not believe Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But if I am doing them, even though you do not believe Me, believe the works themselves, so that you may know and understand that the Father is in Me, and I am in the Father.”"
           ]
         }
@@ -8596,12 +9214,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Are there not twelve hours of daylight? If anyone walks in the daytime, he will not stumble, because he sees by the light of this world. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
+            "“Are there not twelve hours of daylight? If anyone walks in the daytime, he will not stumble, because he sees by the light of this world."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But if anyone walks at night, he will stumble, because he has no light.”"
           ]
         }
@@ -8661,12 +9285,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Lazarus is dead, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "“Lazarus is dead,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "and for your sake I am glad I was not there, so that you may believe. But let us go to him.”"
           ]
         }
@@ -8825,16 +9455,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
             "“Your brother will rise again,”"
           ]
         },
@@ -8869,12 +9499,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“I am the resurrection and the life. Whoever believes in Me will live, even though he dies. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "“I am the resurrection and the life. Whoever believes in Me will live, even though he dies."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And everyone who lives and believes in Me will never die. Do you believe this?”"
           ]
         }
@@ -8983,17 +9619,16 @@
             }
           ]
         },
-        " and troubled. ",
+        " and troubled.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
             "“Where have you put him?”"
           ]
         },
@@ -9078,17 +9713,16 @@
           "marker": "v",
           "number": "38"
         },
-        "Jesus, once again deeply moved, came to the tomb. It was a cave with a stone laid across the entrance. ",
+        "Jesus, once again deeply moved, came to the tomb. It was a cave with a stone laid across the entrance.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "39"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "39"
-            },
             "“Take away the stone,”"
           ]
         },
@@ -9137,12 +9771,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Father, I thank You that You have heard Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "42"
-            },
+            "“Father, I thank You that You have heard Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "42"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I knew that You always hear Me, but I say this for the benefit of the people standing here, so they may believe that You sent Me.”"
           ]
         }
@@ -9602,16 +10242,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
             "“Leave her alone,”"
           ]
         },
@@ -9620,12 +10260,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“She has kept this perfume in preparation for the day of My burial. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "“She has kept this perfume in preparation for the day of My burial."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "The poor you will always have with you,",
             {
               "type": "note",
@@ -9757,10 +10403,6 @@
         },
         "They took palm branches and went out to meet Him, shouting:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -9911,10 +10553,6 @@
     },
     {
       "type": "para",
-      "marker": "b"
-    },
-    {
-      "type": "para",
       "marker": "q1",
       "content": [
         " ",
@@ -10059,24 +10697,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“The hour has come for the Son of Man to be glorified. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
-            "Truly, truly, I tell you, unless a kernel of wheat falls to the ground and dies, it remains only a seed. But if it dies, it bears much fruit. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
-            "Whoever loves his life will lose it, but whoever hates his life in this world will keep it for eternal life. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "“The hour has come for the Son of Man to be glorified."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Truly, truly, I tell you, unless a kernel of wheat falls to the ground and dies, it remains only a seed. But if it dies, it bears much fruit."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Whoever loves his life will lose it, but whoever hates his life in this world will keep it for eternal life."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If anyone serves Me, he must follow Me; and where I am, My servant will be as well. If anyone serves Me, the Father will honor him."
           ]
         }
@@ -10096,12 +10752,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Now My soul is troubled, and what shall I say? ‘Father, save Me from this hour’? No, it is for this purpose that I have come to this hour. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            "Now My soul is troubled, and what shall I say? ‘Father, save Me from this hour’? No, it is for this purpose that I have come to this hour."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Father, glorify Your name!”"
           ]
         }
@@ -10142,18 +10804,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“This voice was not for My benefit, but yours. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
-            "Now judgment is upon this world; now the prince of this world will be cast out. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "“This voice was not for My benefit, but yours."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Now judgment is upon this world; now the prince of this world will be cast out."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And I, when I am lifted up from the earth, will draw everyone to Myself.”"
           ]
         },
@@ -10193,12 +10867,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“For a little while longer, the Light will be among you. Walk while you have the Light, so that darkness will not overtake you. The one who walks in the darkness does not know where he is going. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "36"
-            },
+            "“For a little while longer, the Light will be among you. Walk while you have the Light, so that darkness will not overtake you. The one who walks in the darkness does not know where he is going."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "36"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "While you have the Light, believe in the Light, so that you may become sons of light.”"
           ]
         }
@@ -10236,10 +10916,6 @@
         },
         "This was to fulfill the word of Isaiah the prophet:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10294,10 +10970,6 @@
         },
         "For this reason they were unable to believe. For again, Isaiah says:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -10414,18 +11086,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Whoever believes in Me does not believe in Me alone, but in the One who sent Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "45"
-            },
-            "And whoever sees Me sees the One who sent Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "46"
-            },
+            "“Whoever believes in Me does not believe in Me alone, but in the One who sent Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "45"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "And whoever sees Me sees the One who sent Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "46"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I have come into the world as a light, so that no one who believes in Me should remain in darkness."
           ]
         }
@@ -10445,12 +11129,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "As for anyone who hears My words and does not keep them, I do not judge him. For I have not come to judge the world, but to save the world. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "48"
-            },
+            "As for anyone who hears My words and does not keep them, I do not judge him. For I have not come to judge the world, but to save the world."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "48"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "There is a judge for the one who rejects Me and does not receive My words: The word that I have spoken will judge him on the last day."
           ]
         }
@@ -10470,12 +11160,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I have not spoken on My own, but the Father who sent Me has commanded Me what to say and how to say it. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "50"
-            },
+            "I have not spoken on My own, but the Father who sent Me has commanded Me what to say and how to say it."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "50"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And I know that His command leads to eternal life. So I speak exactly what the Father has told Me to say.”"
           ]
         }
@@ -10686,30 +11382,54 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Do you know what I have done for you? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
-            "You call Me Teacher and Lord, and rightly so, because I am. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
-            "So if I, your Lord and Teacher, have washed your feet, you also should wash one another’s feet. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
-            "I have set you an example so that you should do as I have done for you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            "“Do you know what I have done for you?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "You call Me Teacher and Lord, and rightly so, because I am."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "So if I, your Lord and Teacher, have washed your feet, you also should wash one another’s feet."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I have set you an example so that you should do as I have done for you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Truly, truly, I tell you, no servant is greater than his master,",
             {
               "type": "note",
@@ -10739,12 +11459,18 @@
                 }
               ]
             },
-            " nor is a messenger greater than the one who sent him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            " nor is a messenger greater than the one who sent him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If you know these things, you will be blessed if you do them."
           ]
         }
@@ -10813,18 +11539,30 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
-            "I am telling you now before it happens, so that when it comes to pass, you will believe that I am He. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I am telling you now before it happens, so that when it comes to pass, you will believe that I am He."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Truly, truly, I tell you, whoever receives the one I send receives Me, and whoever receives Me receives the One who sent Me.”"
           ]
         }
@@ -11013,12 +11751,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Now the Son of Man is glorified, and God is glorified in Him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
+            "“Now the Son of Man is glorified, and God is glorified in Him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If God is glorified in Him,",
             {
               "type": "note",
@@ -11093,12 +11837,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "A new commandment I give you: Love one another. As I have loved you, so you also must love one another. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "35"
-            },
+            "A new commandment I give you: Love one another. As I have loved you, so you also must love one another."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "35"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "By this everyone will know that you are My disciples, if you love one another.”"
           ]
         }
@@ -11186,16 +11936,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "38"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "38"
-            },
             "“Will you lay down your life for Me?”"
           ]
         },
@@ -11225,16 +11975,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "1"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "1"
-            },
             "“Do not let your hearts be troubled. You believe in God;",
             {
               "type": "note",
@@ -11264,12 +12014,18 @@
                 }
               ]
             },
-            " believe in Me as well. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
+            " believe in Me as well."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "In My Father’s house are many rooms. If it were not so, would I have told you that I am going there to prepare a place for you?",
             {
               "type": "note",
@@ -11298,18 +12054,30 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
-            "And if I go and prepare a place for you, I will come back and welcome you into My presence, so that you also may be where I am. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "And if I go and prepare a place for you, I will come back and welcome you into My presence, so that you also may be where I am."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "You know the way to the place where I am going.",
             {
               "type": "note",
@@ -11379,12 +12147,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“I am the way and the truth and the life. No one comes to the Father except through Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            "“I am the way and the truth and the life. No one comes to the Father except through Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If you had known Me, you would know My Father as well. From now on you do know Him and have seen Him.”"
           ]
         }
@@ -11418,18 +12192,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Philip, I have been with you all this time, and still you do not know Me? Anyone who has seen Me has seen the Father. How can you say, ‘Show us the Father’? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
-            "Do you not believe that I am in the Father and the Father is in Me? The words I say to you, I do not speak on My own. Instead, it is the Father dwelling in Me, performing His works. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "“Philip, I have been with you all this time, and still you do not know Me? Anyone who has seen Me has seen the Father. How can you say, ‘Show us the Father’?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Do you not believe that I am in the Father and the Father is in Me? The words I say to you, I do not speak on My own. Instead, it is the Father dwelling in Me, performing His works."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Believe Me that I am in the Father and the Father is in Me — or at least believe on account of the works themselves."
           ]
         }
@@ -11449,18 +12235,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Truly, truly, I tell you, whoever believes in Me will also do the works that I am doing. He will do even greater things than these, because I am going to the Father. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
-            "And I will do whatever you ask in My name, so that the Father may be glorified in the Son. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "Truly, truly, I tell you, whoever believes in Me will also do the works that I am doing. He will do even greater things than these, because I am going to the Father."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "And I will do whatever you ask in My name, so that the Father may be glorified in the Son."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If you ask Me",
             {
               "type": "note",
@@ -11567,12 +12365,18 @@
                 }
               ]
             },
-            " My commandments. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
+            " My commandments."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And I will ask the Father, and He will give you another Advocate",
             {
               "type": "note",
@@ -11651,12 +12455,18 @@
                 }
               ]
             },
-            " to be with you forever — ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            " to be with you forever —"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "the Spirit of truth. The world cannot receive Him, because it neither sees Him nor knows Him. But you do know Him, for He abides with you and will be in you.",
             {
               "type": "note",
@@ -11704,24 +12514,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I will not leave you as orphans; I will come to you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
-            "In a little while the world will see Me no more, but you will see Me. Because I live, you also will live. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
-            "On that day you will know that I am in My Father, and you are in Me, and I am in you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "I will not leave you as orphans; I will come to you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "In a little while the world will see Me no more, but you will see Me. Because I live, you also will live."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "On that day you will know that I am in My Father, and you are in Me, and I am in you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Whoever has My commandments and keeps them is the one who loves Me. The one who loves Me will be loved by My Father, and I will love him and reveal Myself to him.”"
           ]
         }
@@ -11755,12 +12583,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“If anyone loves Me, he will keep My word. My Father will love him, and We will come to him and make Our home with him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "“If anyone loves Me, he will keep My word. My Father will love him, and We will come to him and make Our home with him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Whoever does not love Me does not keep My words. The word that you hear is not My own, but it is  from the Father who sent Me."
           ]
         }
@@ -11780,12 +12614,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "All this I have spoken to you while I am still with you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "All this I have spoken to you while I am still with you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But the Advocate, the Holy Spirit, whom the Father will send in My name, will teach you all things and will remind you of everything I have told you."
           ]
         }
@@ -11812,18 +12652,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Peace I leave with you; My peace I give to you. I do not give to you as the world gives. Do not let your hearts be troubled; do not be afraid. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
-            "You heard Me say, ‘I am going away, and I am coming back to you.’ If you loved Me, you would rejoice that I am going to the Father, because the Father is greater than I. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "29"
-            },
+            "Peace I leave with you; My peace I give to you. I do not give to you as the world gives. Do not let your hearts be troubled; do not be afraid."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "You heard Me say, ‘I am going away, and I am coming back to you.’ If you loved Me, you would rejoice that I am going to the Father, because the Father is greater than I."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "29"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And now I have told you before it happens, so that when it does happen, you will believe."
           ]
         }
@@ -11843,12 +12695,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I will not speak with you much longer, for the prince of this world is coming, and he has no claim on Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
+            "I will not speak with you much longer, for the prince of this world is coming, and he has no claim on Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But I do exactly what the Father has commanded Me, so that the world may know that I love the Father."
           ]
         }
@@ -11908,24 +12766,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“I am the true vine, and My Father is the keeper of the vineyard. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
-            "He cuts off every branch in Me that bears no fruit, and every branch that does bear fruit, He prunes to make it even more fruitful. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
-            "You are already clean because of the word I have spoken to you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "“I am the true vine, and My Father is the keeper of the vineyard."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "He cuts off every branch in Me that bears no fruit, and every branch that does bear fruit, He prunes to make it even more fruitful."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "You are already clean because of the word I have spoken to you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Remain in Me, and I will remain in you. Just as no branch can bear fruit by itself unless it remains in the vine, neither can you bear fruit unless you remain in Me."
           ]
         }
@@ -11945,24 +12821,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I am the vine and you are the branches. The one who remains in Me, and I in him, will bear much fruit. For apart from Me you can do nothing. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
-            "If anyone does not remain in Me, he is like a branch that is thrown away and withers. Such branches are gathered up, thrown into the fire, and burned. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
-            "If you remain in Me and My words remain in you, ask whatever you wish, and it will be done for you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "I am the vine and you are the branches. The one who remains in Me, and I in him, will bear much fruit. For apart from Me you can do nothing."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If anyone does not remain in Me, he is like a branch that is thrown away and withers. Such branches are gathered up, thrown into the fire, and burned."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If you remain in Me and My words remain in you, ask whatever you wish, and it will be done for you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "This is to My Father’s glory, that you bear much fruit, proving yourselves to be My disciples."
           ]
         }
@@ -11989,18 +12883,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "As the Father has loved Me, so have I loved you. Remain in My love. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
-            "If you keep My commandments, you will remain in My love, just as I have kept My Father’s commandments and remain in His love. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "As the Father has loved Me, so have I loved you. Remain in My love."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If you keep My commandments, you will remain in My love, just as I have kept My Father’s commandments and remain in His love."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I have told you these things so that My joy may be in you and your joy may be complete."
           ]
         }
@@ -12020,12 +12926,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "This is My commandment, that you love one another as I have loved you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
+            "This is My commandment, that you love one another as I have loved you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Greater love has no one than this, that he lay down his life for his friends."
           ]
         }
@@ -12045,24 +12957,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "You are My friends if you do what I command you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
-            "No longer do I call you servants, for a servant does not understand what his master is doing. But I have called you friends, because everything I have learned from My Father I have made known to you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
-            "You did not choose Me, but I chose you. And I appointed you to go and bear fruit — fruit that will remain — so that whatever you ask the Father in My name, He will give you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
+            "You are My friends if you do what I command you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "No longer do I call you servants, for a servant does not understand what his master is doing. But I have called you friends, because everything I have learned from My Father I have made known to you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "You did not choose Me, but I chose you. And I appointed you to go and bear fruit — fruit that will remain — so that whatever you ask the Father in My name, He will give you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "This is My command to you: Love one another."
           ]
         }
@@ -12089,12 +13019,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "If the world hates you, understand that it hated Me first. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            "If the world hates you, understand that it hated Me first."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If you were of the world, it would love you as its own. Instead, the world hates you, because you are not of the world, but I have chosen you out of the world."
           ]
         }
@@ -12142,18 +13078,30 @@
                 }
               ]
             },
-            " If they persecuted Me, they will persecute you as well; if they kept My word, they will keep yours as well. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
-            "But they will treat you like this because of My name, since they do not know the One who sent Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            " If they persecuted Me, they will persecute you as well; if they kept My word, they will keep yours as well."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "But they will treat you like this because of My name, since they do not know the One who sent Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If I had not come and spoken to them, they would not be guilty of sin. Now, however, they have no excuse for their sin."
           ]
         }
@@ -12173,18 +13121,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Whoever hates Me hates My Father as well. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
-            "If I had not done among them the works that no one else did, they would not be guilty of sin; but now they have seen and hated both Me and My Father. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "25"
-            },
+            "Whoever hates Me hates My Father as well."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "If I had not done among them the works that no one else did, they would not be guilty of sin; but now they have seen and hated both Me and My Father."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "25"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But this is to fulfill what is written in their Law: ‘They hated Me without reason.’",
             {
               "type": "note",
@@ -12304,12 +13264,18 @@
                 }
               ]
             },
-            " comes, whom I will send to you from the Father — the Spirit of truth who proceeds from the Father — He will testify about Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            " comes, whom I will send to you from the Father — the Spirit of truth who proceeds from the Father — He will testify about Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And you also must testify, because you have been with Me from the beginning.[’’]"
           ]
         }
@@ -12356,24 +13322,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“I have told you these things so that you will not fall away. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
-            "They will put you out of the synagogues. In fact, a time is coming when anyone who kills you will think he is offering a service to God. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
-            "They will do these things because they have not known the Father or Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
+            "“I have told you these things so that you will not fall away."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "They will put you out of the synagogues. In fact, a time is coming when anyone who kills you will think he is offering a service to God."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "They will do these things because they have not known the Father or Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But I have told you these things so that when their hour comes, you will remember that I told you about them. I did not tell you these things from the beginning, because I was with you."
           ]
         }
@@ -12415,18 +13399,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Now, however, I am going to Him who sent Me; yet none of you asks Me, ‘Where are You going?’ ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "6"
-            },
-            "Instead, your hearts are filled with sorrow because I have told you these things. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
+            "Now, however, I am going to Him who sent Me; yet none of you asks Me, ‘Where are You going?’"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "6"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Instead, your hearts are filled with sorrow because I have told you these things."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "But I tell you the truth, it is for your benefit that I am going away. Unless I go away, the Advocate",
             {
               "type": "note",
@@ -12517,24 +13513,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "And when He comes, He will convict the world in regard to sin and righteousness and judgment: ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "9"
-            },
-            "in regard to sin, because they do not believe in Me; ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
-            "in regard to righteousness, because I am going to the Father and you will no longer see Me; ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "And when He comes, He will convict the world in regard to sin and righteousness and judgment:"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "9"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "in regard to sin, because they do not believe in Me;"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "in regard to righteousness, because I am going to the Father and you will no longer see Me;"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "and in regard to judgment, because the prince of this world has been condemned."
           ]
         }
@@ -12554,24 +13568,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I still have much to tell you, but you cannot yet bear to hear it. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "13"
-            },
-            "However, when the Spirit of truth comes, He will guide you into all truth. For He will not speak on His own, but He will speak what He hears, and He will declare to you what is to come. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
-            "He will glorify Me by taking from what is Mine and disclosing it to you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
+            "I still have much to tell you, but you cannot yet bear to hear it."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "13"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "However, when the Spirit of truth comes, He will guide you into all truth. For He will not speak on His own, but He will speak what He hears, and He will declare to you what is to come."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "He will glorify Me by taking from what is Mine and disclosing it to you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Everything that belongs to the Father is Mine. That is why I said that the Spirit will take from what is Mine and disclose it to you."
           ]
         }
@@ -12690,24 +13722,42 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Are you asking one another why I said, ‘In a little while you will not see Me, and then after a little while you will see Me’? ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
-            "Truly, truly, I tell you, you will weep and wail while the world rejoices. You will grieve, but your grief will turn to joy. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
-            "A woman has pain in childbirth because her time has come; but when she brings forth her child, she forgets her anguish because of her joy that a child has been born into the world. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "22"
-            },
+            "“Are you asking one another why I said, ‘In a little while you will not see Me, and then after a little while you will see Me’?"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Truly, truly, I tell you, you will weep and wail while the world rejoices. You will grieve, but your grief will turn to joy."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "A woman has pain in childbirth because her time has come; but when she brings forth her child, she forgets her anguish because of her joy that a child has been born into the world."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "22"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "So also you have sorrow now, but I will see you again and your hearts will rejoice, and no one will take away your joy."
           ]
         }
@@ -12749,12 +13799,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "In that day you will no longer ask Me anything. Truly, truly, I tell you, whatever you ask the Father in My name, He will give you. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "24"
-            },
+            "In that day you will no longer ask Me anything. Truly, truly, I tell you, whatever you ask the Father in My name, He will give you."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "24"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Until now you have not asked for anything in My name. Ask and you will receive, so that your joy may be complete."
           ]
         }
@@ -12774,18 +13830,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I have spoken these things to you in figures of speech. An hour is coming when I will no longer speak to you this way, but will tell you plainly about the Father. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
-            "In that day you will ask in My name. I am not saying that I will ask the Father on your behalf. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "27"
-            },
+            "I have spoken these things to you in figures of speech. An hour is coming when I will no longer speak to you this way, but will tell you plainly about the Father."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "In that day you will ask in My name. I am not saying that I will ask the Father on your behalf."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "27"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For the Father Himself loves you, because you have loved Me and have believed that I came from God.",
             {
               "type": "note",
@@ -12814,12 +13882,18 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "28"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "28"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I came from the Father and entered the world. In turn, I will leave the world and go to the Father.”"
           ]
         }
@@ -12848,36 +13922,41 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "31"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "31"
-            },
             "“Do you finally believe?”"
           ]
         },
-        " Jesus replied. ",
+        " Jesus replied.  ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "32"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "32"
-            },
-            "“Look, an hour is coming and has already come when you will be scattered, each to his own home, and you will leave Me all alone. Yet I am not alone, because the Father is with Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "33"
-            },
+            "“Look, an hour is coming and has already come when you will be scattered, each to his own home, and you will leave Me all alone. Yet I am not alone, because the Father is with Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "33"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I have told you these things so that in Me you may have peace. In the world you will have tribulation. But take courage; I have overcome the world!”"
           ]
         }
@@ -12910,12 +13989,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Father, the hour has come. Glorify Your Son, that Your Son may glorify You. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "2"
-            },
+            "“Father, the hour has come. Glorify Your Son, that Your Son may glorify You."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "2"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For You granted Him authority over all people,",
             {
               "type": "note",
@@ -12945,24 +14030,42 @@
                 }
               ]
             },
-            " so that He may give eternal life to all those You have given Him. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "3"
-            },
-            "Now this is eternal life, that they may know You, the only true God, and Jesus Christ, whom You have sent. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "4"
-            },
-            "I have glorified You on earth by accomplishing the work You gave Me to do. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "5"
-            },
+            " so that He may give eternal life to all those You have given Him."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "3"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Now this is eternal life, that they may know You, the only true God, and Jesus Christ, whom You have sent."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "4"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "I have glorified You on earth by accomplishing the work You gave Me to do."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "5"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And now, Father, glorify Me in Your presence with the glory I had with You before the world existed."
           ]
         }
@@ -12989,18 +14092,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I have revealed Your name to those You have given Me out of the world. They were Yours; You gave them to Me, and they have kept Your word. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "7"
-            },
-            "Now they know that everything You have given Me comes from You. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
+            "I have revealed Your name to those You have given Me out of the world. They were Yours; You gave them to Me, and they have kept Your word."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "7"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Now they know that everything You have given Me comes from You."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For I have given them the words You gave Me, and they have received them. They knew with certainty that I came from You, and they believed that You sent Me."
           ]
         }
@@ -13020,18 +14135,30 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I ask on their behalf. I do not ask on behalf of the world, but on behalf of those You have given Me; for they are Yours. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "10"
-            },
-            "All I have is Yours, and all You have is Mine; and in them I have been glorified. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
+            "I ask on their behalf. I do not ask on behalf of the world, but on behalf of those You have given Me; for they are Yours."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "10"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "All I have is Yours, and all You have is Mine; and in them I have been glorified."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I will no longer be in the world, but they are in the world, and I am coming to You."
           ]
         }
@@ -13095,12 +14222,18 @@
                 }
               ]
             },
-            " so that they may be one as We are one. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
+            " so that they may be one as We are one."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "While I was with them, I protected and preserved them by Your name, the name You gave Me. Not one of them has been lost, except the son of destruction, so that the Scripture would be fulfilled."
           ]
         }
@@ -13120,12 +14253,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "But now I am coming to You; and I am saying these things while I am in the world, so that they may have My joy fulfilled within them. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "14"
-            },
+            "But now I am coming to You; and I am saying these things while I am in the world, so that they may have My joy fulfilled within them."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "14"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I have given them Your word and the world has hated them. For they are not of the world, just as I am not of the world."
           ]
         }
@@ -13173,30 +14312,54 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "16"
-            },
-            "They are not of the world, just as I am not of the world. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
-            "Sanctify them by the truth; Your word is truth. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
-            "As You sent Me into the world, I have also sent them into the world. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "19"
-            },
+            }
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "16"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "They are not of the world, just as I am not of the world."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "Sanctify them by the truth; Your word is truth."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
+            "As You sent Me into the world, I have also sent them into the world."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "19"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "For them I sanctify Myself, so that they too may be sanctified by the truth."
           ]
         }
@@ -13223,12 +14386,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I am not asking on behalf of them alone, but also on behalf of those who will believe in Me through their message, ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "I am not asking on behalf of them alone, but also on behalf of those who will believe in Me through their message,"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "that all of them may be one, as You, Father, are in Me, and I am in You. May they also be in Us, so that the world may believe that You sent Me."
           ]
         }
@@ -13248,12 +14417,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "I have given them the glory You gave Me, so that they may be one as We are one — ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
+            "I have given them the glory You gave Me, so that they may be one as We are one —"
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "I in them and You in Me — that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me."
           ]
         }
@@ -13292,12 +14467,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "Righteous Father, although the world has not known You, I know You, and they know that You sent Me. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "26"
-            },
+            "Righteous Father, although the world has not known You, I know You, and they know that You sent Me."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "26"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "And I have made Your name known to them and will continue to make it known, so that the love You have for Me may be in them, and I in them.”"
           ]
         }
@@ -13499,16 +14680,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "8"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "8"
-            },
             "“I told you that I am He,”"
           ]
         },
@@ -13581,16 +14762,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "11"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "11"
-            },
             "“Put your sword back in its sheath!”"
           ]
         },
@@ -13774,16 +14955,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "20"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "20"
-            },
             "“I have spoken openly to the world,”"
           ]
         },
@@ -13792,12 +14973,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“I always taught in the synagogues and at the temple, where all the Jews come together. I said nothing in secret. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "21"
-            },
+            "“I always taught in the synagogues and at the temple, where all the Jews come together. I said nothing in secret."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "21"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "Why are you asking Me? Ask those who heard My message. Surely they know what I said.”"
           ]
         }
@@ -14074,16 +15261,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "34"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "34"
-            },
             "“Are you saying this on your own,”"
           ]
         },
@@ -14600,11 +15787,6 @@
     },
     {
       "type": "para",
-      "marker": "p",
-      "content": []
-    },
-    {
-      "type": "para",
       "marker": "pc",
       "content": [
         "JESUS OF NAZARETH, THE KING OF THE JEWS."
@@ -14660,10 +15842,6 @@
         },
         "So they said to one another, “Let us not tear it. Instead, let us cast lots to see who will get it.” This was to fulfill the Scripture:"
       ]
-    },
-    {
-      "type": "para",
-      "marker": "b"
     },
     {
       "type": "para",
@@ -15458,16 +16636,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "15"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "15"
-            },
             "“Woman, why are you weeping?”"
           ]
         },
@@ -15548,16 +16726,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "17"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "17"
-            },
             "“Do not cling to Me,”"
           ]
         },
@@ -15676,12 +16854,18 @@
           "type": "char",
           "marker": "wj",
           "content": [
-            "“Receive the Holy Spirit. ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "23"
-            },
+            "“Receive the Holy Spirit."
+          ]
+        },
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "23"
+        },
+        {
+          "type": "char",
+          "marker": "wj",
+          "content": [
             "If you forgive anyone his sins, they are forgiven; if you withhold forgiveness from anyone, it is withheld.”"
           ]
         }
@@ -16151,16 +17335,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "12"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "12"
-            },
             "“Come, have breakfast,”"
           ]
         },
@@ -16334,16 +17518,16 @@
       "type": "para",
       "marker": "p",
       "content": [
+        " ",
+        {
+          "type": "verse",
+          "marker": "v",
+          "number": "18"
+        },
         {
           "type": "char",
           "marker": "wj",
           "content": [
-            " ",
-            {
-              "type": "verse",
-              "marker": "v",
-              "number": "18"
-            },
             "Truly, truly, I tell you, when you were young, you dressed yourself and walked where you wanted; but when you are old, you will stretch out your hands, and someone else",
             {
               "type": "note",
