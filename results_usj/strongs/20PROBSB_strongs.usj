@@ -21913,14 +21913,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1PE 4:8",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 4:8"
+                    "See 1"
                   ]
-                }
+                },
+                " Peter 4:8"
               ]
             }
           ]
@@ -26042,14 +26042,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1PE 4:18",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 4:18"
+                    "in 1"
                   ]
-                }
+                },
+                " Peter 4:18"
               ]
             }
           ]
@@ -51528,15 +51529,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see also ",
+                "; see ",
                 {
                   "type": "ref",
-                  "loc": "2CO 9:7",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 9:7"
+                    "also 2"
                   ]
                 },
-                "."
+                " Corinthians 9:7."
               ]
             }
           ]
@@ -62699,14 +62700,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2PE 2:22",
+                  "loc": "2",
                   "content": [
-                    "2 Peter 2:22"
+                    "in 2"
                   ]
-                }
+                },
+                " Peter 2:22"
               ]
             }
           ]
@@ -75320,7 +75322,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Verses 10–31 are an acrostic poem, each verse beginning with the successive letters of the Hebrew alphabet."
+                {
+                  "type": "ref",
+                  "loc": "10-31",
+                  "content": [
+                    "Verses 10–31"
+                  ]
+                },
+                " are an acrostic poem, each verse beginning with the successive letters of the Hebrew alphabet."
               ]
             }
           ]

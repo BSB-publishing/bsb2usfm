@@ -4467,7 +4467,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 25.1 pounds or 11.4 kilograms of silver"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "25",
+                  "content": [
+                    "approximately 25"
+                  ]
+                },
+                ".1 pounds or 11.4 kilograms of silver"
               ]
             }
           ]

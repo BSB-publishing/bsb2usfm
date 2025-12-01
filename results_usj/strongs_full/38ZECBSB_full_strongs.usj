@@ -8289,7 +8289,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The flying scroll was approximately 30 feet long and 15 feet wide (9.1 meters long and 4.6 meters wide)."
+                "The flying scroll was ",
+                {
+                  "type": "ref",
+                  "loc": "30",
+                  "content": [
+                    "approximately 30"
+                  ]
+                },
+                " feet long and 15 feet wide (9.1 meters long and 4.6 meters wide)."
               ]
             }
           ]

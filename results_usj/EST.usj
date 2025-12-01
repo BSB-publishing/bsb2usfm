@@ -527,15 +527,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 24:12",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 24:12"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 24:12."
               ]
             }
           ]
@@ -1166,14 +1166,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10,000 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10,000"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 377 tons or 342 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "377",
+                  "content": [
+                    "approximately 377"
+                  ]
+                },
+                " tons or 342 metric tons of silver."
               ]
             }
           ]
@@ -1652,14 +1667,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75 feet or 22.9 meters high."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                " feet or 22.9 meters high."
               ]
             }
           ]
@@ -2141,14 +2171,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75 feet or 22.9 meters high."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                " feet or 22.9 meters high."
               ]
             }
           ]

@@ -11561,7 +11561,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Og’s bed was approximately 14 feet long and 6 feet wide (4.3 meters long and 1.8 meters wide)."
+                "Og’s bed was ",
+                {
+                  "type": "ref",
+                  "loc": "14",
+                  "content": [
+                    "approximately 14"
+                  ]
+                },
+                " feet long and 6 feet wide (4.3 meters long and 1.8 meters wide)."
               ]
             }
           ]
@@ -50857,14 +50865,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 5:13",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 5:13"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 5:13"
               ]
             }
           ]
@@ -62948,14 +62957,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 5:13",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 5:13"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 5:13"
               ]
             }
           ]
@@ -70271,14 +70281,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 5:13",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 5:13"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 5:13"
               ]
             }
           ]
@@ -75678,14 +75689,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 5:13",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 5:13"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 5:13"
               ]
             }
           ]
@@ -78262,14 +78274,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2.5 pounds or 1.1 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".5 pounds or 1.1 kilograms of silver."
               ]
             }
           ]
@@ -78691,14 +78718,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Here and in verse 24; cited in ",
-                {
-                  "type": "ref",
-                  "loc": "1CO 5:13",
-                  "content": [
-                    "1 Corinthians 5:13"
-                  ]
-                }
+                "Here and in verse 24; cited in 1 Corinthians 5:13"
               ]
             }
           ]
@@ -79765,14 +79785,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.26 pounds or 569.8 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".26 pounds or 569.8 grams of silver."
               ]
             }
           ]
@@ -83880,14 +83915,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 5:13",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 5:13"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 5:13"
               ]
             }
           ]
@@ -83964,7 +84000,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                ", were used for various skin diseases; see Leviticus 13."
+                ", were used for various skin diseases; see ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -84902,15 +84946,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2KI 14:6",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 14:6"
+                    "in 2"
                   ]
                 },
-                " and 2 Chronicles 25:4"
+                " Kings 14:6 and 2 Chronicles 25:4"
               ]
             }
           ]
@@ -86024,15 +86068,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 9:9",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 9:9"
+                    "in 1"
                   ]
                 },
-                " and 1 Timothy 5:18"
+                " Corinthians 9:9 and 1 Timothy 5:18"
               ]
             }
           ]

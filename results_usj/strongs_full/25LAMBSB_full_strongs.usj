@@ -8521,7 +8521,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "This chapter is an acrostic poem, each 3–verse stanza beginning with the successive letters of the Hebrew alphabet."
+                "This chapter is an acrostic poem, ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "each 3"
+                  ]
+                },
+                "–verse stanza beginning with the successive letters of the Hebrew alphabet."
               ]
             }
           ]

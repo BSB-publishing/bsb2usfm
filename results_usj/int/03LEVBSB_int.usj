@@ -12029,14 +12029,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A tenth of an ephah "
+                "A tenth of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2 dry quarts or 2.2 liters (probably about 2.6 pounds or 1.2 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                " dry quarts or 2.2 liters (probably about 2.6 pounds or 1.2 kilograms of flour)."
               ]
             }
           ]
@@ -12667,14 +12675,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A shekel "
+                "A shekel"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 0.4 ounces or 11.4 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".4 ounces or 11.4 grams of silver."
               ]
             }
           ]
@@ -15603,14 +15619,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A tenth of an ephah "
+                "A tenth of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2 dry quarts or 2.2 liters (probably about 2.6 pounds or 1.2 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                " dry quarts or 2.2 liters (probably about 2.6 pounds or 1.2 kilograms of flour)."
               ]
             }
           ]
@@ -35780,14 +35804,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Here and in verse 45; cited in ",
-                {
-                  "type": "ref",
-                  "loc": "1PE 1:16",
-                  "content": [
-                    "1 Peter 1:16"
-                  ]
-                }
+                "Here and in verse 45; cited in 1 Peter 1:16"
               ]
             }
           ]
@@ -46064,14 +46081,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Three-tenths of an ephah "
+                "Three-tenths of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 6 dry quarts or 6.6 liters (probably about 7.6 pounds or 3.5 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                " dry quarts or 6.6 liters (probably about 7.6 pounds or 3.5 kilograms of flour)."
               ]
             }
           ]
@@ -46146,7 +46171,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 0.33 quarts or 0.31 liters; also in verses 12, 15, 21, and 24"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".33 quarts or 0.31 liters; also in verses 12, 15, 21, and 24"
               ]
             }
           ]
@@ -47564,14 +47597,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A tenth of an ephah "
+                "A tenth of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2 dry quarts or 2.2 liters (probably about 2.6 pounds or 1.2 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                " dry quarts or 2.2 liters (probably about 2.6 pounds or 1.2 kilograms of flour)."
               ]
             }
           ]
@@ -65895,14 +65936,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1PE 1:16",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 1:16"
+                    "in 1"
                   ]
-                }
+                },
+                " Peter 1:16"
               ]
             }
           ]
@@ -69460,14 +69502,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An ephah "
+                "An ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is a dry measure of approximately 20 dry quarts or 22 liters."
+                "is a dry measure of ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "approximately 20"
+                  ]
+                },
+                " dry quarts or 22 liters."
               ]
             }
           ]
@@ -69504,14 +69554,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A hin "
+                "A hin"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is a liquid measure of approximately 0.97 gallons or 3.67 liters."
+                "is a liquid measure of ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".97 gallons or 3.67 liters."
               ]
             }
           ]
@@ -76382,7 +76440,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                ", were used for various skin diseases; see Leviticus 13."
+                ", were used for various skin diseases; see ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -80990,14 +81056,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Two-tenths of an ephah "
+                "Two-tenths of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4 dry quarts or 4.4 liters (probably about 5.1 pounds or 2.3 kilograms of flour); also in verse 17."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                " dry quarts or 4.4 liters (probably about 5.1 pounds or 2.3 kilograms of flour); also in verse 17."
               ]
             }
           ]
@@ -81098,14 +81172,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A quarter hin "
+                "A quarter hin"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 0.97 quarts or 0.92 liters of wine."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".97 quarts or 0.92 liters of wine."
               ]
             }
           ]
@@ -85616,14 +85698,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Two-tenths of an ephah "
+                "Two-tenths of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4 dry quarts or 4.4 liters (probably about 5.1 pounds or 2.3 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                " dry quarts or 4.4 liters (probably about 5.1 pounds or 2.3 kilograms of flour)."
               ]
             }
           ]
@@ -94694,14 +94784,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 6:16",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 6:16"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 6:16"
               ]
             }
           ]
@@ -98877,14 +98968,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.26 pounds or 569.8 grams of silver; also in verse 16."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".26 pounds or 569.8 grams of silver; also in verse 16."
               ]
             }
           ]
@@ -98921,14 +99027,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A shekel "
+                "A shekel"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "weighed approximately 0.4 ounces or 11.4 grams; also in verse 25."
+                "weighed ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".4 ounces or 11.4 grams; also in verse 25."
               ]
             }
           ]
@@ -99010,14 +99124,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "30 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "30"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 12 ounces or 342 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "12",
+                  "content": [
+                    "approximately 12"
+                  ]
+                },
+                " ounces or 342 grams of silver."
               ]
             }
           ]
@@ -99141,14 +99270,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 8 ounces or 228 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "approximately 8"
+                  ]
+                },
+                " ounces or 228 grams of silver."
               ]
             }
           ]
@@ -99193,14 +99337,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4 ounces or 114 grams of silver; also in verse 7."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                " ounces or 114 grams of silver; also in verse 7."
               ]
             }
           ]
@@ -99333,14 +99492,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 shekels "
+                "5 shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2 ounces or 57 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                " ounces or 57 grams of silver."
               ]
             }
           ]
@@ -99399,14 +99566,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "3 shekels "
+                "3 shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.2 ounces or 34.2 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".2 ounces or 34.2 grams of silver."
               ]
             }
           ]
@@ -99514,14 +99689,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "15 shekels "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "15"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 6 ounces or 171 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                " ounces or 171 grams of silver."
               ]
             }
           ]
@@ -100695,14 +100885,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A homer "
+                "A homer"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is a dry measure of approximately 6.24 bushels or 220 liters (probably about 291 pounds or 132 kilograms of barley seed)."
+                "is a dry measure of ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                ".24 bushels or 220 liters (probably about 291 pounds or 132 kilograms of barley seed)."
               ]
             }
           ]
@@ -101625,14 +101823,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 gerahs "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " gerahs"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is equivalent to one shekel (approximately 0.4 ounces or 11.4 grams)."
+                "is equivalent to one shekel ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "(approximately 0"
+                  ]
+                },
+                ".4 ounces or 11.4 grams)."
               ]
             }
           ]

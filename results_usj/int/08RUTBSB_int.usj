@@ -5447,14 +5447,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An ephah "
+                "An ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 20 dry quarts or 22 liters (probably about 29 pounds or 13.2 kilograms of barley)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "approximately 20"
+                  ]
+                },
+                " dry quarts or 22 liters (probably about 29 pounds or 13.2 kilograms of barley)."
               ]
             }
           ]
@@ -7498,22 +7506,14 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "guardian-redeemer"
+                "guardian-redeemer "
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is a legal term for the kinsman who redeems or vindicates a relative; similarly in verses 12 and 13; see ",
-                {
-                  "type": "ref",
-                  "loc": "LEV 25:25-55",
-                  "content": [
-                    "Leviticus 25:25–55"
-                  ]
-                },
-                "."
+                "is a legal term for the kinsman who redeems or vindicates a relative; similarly in verses 12 and 13; see Leviticus 25:25–55."
               ]
             }
           ]
@@ -8350,7 +8350,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Possibly six seahs (two ephahs), or approximately 39.6 dry quarts or 43.8 liters (about 58 pounds or 26.3 kilograms of barley) "
+                "Possibly six seahs (two ephahs), or ",
+                {
+                  "type": "ref",
+                  "loc": "39",
+                  "content": [
+                    "approximately 39"
+                  ]
+                },
+                ".6 dry quarts or 43.8 liters (about 58 pounds or 26.3 kilograms of barley) "
               ]
             }
           ]
@@ -8927,22 +8935,14 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "guardian-redeemer"
+                "guardian-redeemer "
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is a legal term for the kinsman who redeems or vindicates a relative; also in verses 3, 6, 8, and 14; see ",
-                {
-                  "type": "ref",
-                  "loc": "LEV 25:25-55",
-                  "content": [
-                    "Leviticus 25:25–55"
-                  ]
-                },
-                "."
+                "is a legal term for the kinsman who redeems or vindicates a relative; also in verses 3, 6, 8, and 14; see Leviticus 25:25–55."
               ]
             }
           ]
@@ -11653,15 +11653,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "A few Hebrew manuscripts, some LXX manuscripts, and Vulgate (see also verse 21 and LXX of ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 2:11",
-                  "content": [
-                    "1 Chronicles 2:11"
-                  ]
-                },
-                "); most Hebrew manuscripts "
+                "A few Hebrew manuscripts, some LXX manuscripts, and Vulgate (see also verse 21 and LXX of 1 Chronicles 2:11); most Hebrew manuscripts "
               ]
             },
             {

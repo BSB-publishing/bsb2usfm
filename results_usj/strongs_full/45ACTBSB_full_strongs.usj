@@ -2217,14 +2217,21 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A Sabbath day’s journey "
+                "A Sabbath day’s journey"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is 2,000 cubits (approximately 3,000 feet or 914.4 meters)"
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "is 2"
+                  ]
+                },
+                ",000 cubits (approximately 3,000 feet or 914.4 meters)"
               ]
             }
           ]
@@ -48746,14 +48753,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "7",
                   "content": [
-                    "37"
+                    "class=|fnv|>37"
                   ]
                 },
-                "And Philip said, “If you believe with all your heart, you may be baptized.” The eunuch replied, “I believe that Jesus Christ is the Son of God.”"
+                "</span>And Philip said, “If you believe with all your heart, you may be baptized.” The eunuch replied, “I believe that Jesus Christ is the Son of God.”"
               ]
             }
           ]
@@ -53398,15 +53406,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CO 11:33",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 11:33"
+                    "see 2"
                   ]
                 },
-                "."
+                " Corinthians 11:33."
               ]
             }
           ]
@@ -76885,15 +76893,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1SA 13:14",
+                  "loc": "1",
                   "content": [
-                    "1 Samuel 13:14"
+                    "See 1"
                   ]
                 },
-                "."
+                " Samuel 13:14."
               ]
             }
           ]
@@ -88710,15 +88717,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "says the Lord, who does all these things. ",
+                "says the Lord, who does all these things. <span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "8",
                   "content": [
-                    "18"
+                    "class=|fnv|>18"
                   ]
                 },
-                "Known unto God are all His works from the ages."
+                "</span>Known unto God are all His works from the ages."
               ]
             }
           ]
@@ -90931,14 +90938,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "4",
                   "content": [
-                    "34"
+                    "class=|fnv|>34"
                   ]
                 },
-                "Silas, however, decided to remain there."
+                "</span>Silas, however, decided to remain there."
               ]
             }
           ]
@@ -140993,23 +141001,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "and we would have judged him according to our law. ",
+                "and we would have judged him according to our law. <span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "7",
                   "content": [
-                    "7"
+                    "class=|fnv|>7"
                   ]
                 },
-                "But Lysias the commander came with great force and took him out of our hands, ",
-                {
-                  "type": "char",
-                  "marker": "fv",
-                  "content": [
-                    "8"
-                  ]
-                },
-                "ordering his accusers to come before you."
+                "</span>But Lysias the commander came with great force and took him out of our hands, <span class=|fnv|>8</span>ordering his accusers to come before you."
               ]
             }
           ]
@@ -158248,14 +158248,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 fathoms "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " fathoms"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 120 feet or 36.6 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "120",
+                  "content": [
+                    "approximately 120"
+                  ]
+                },
+                " feet or 36.6 meters."
               ]
             }
           ]
@@ -158350,14 +158365,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "15 fathoms "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "15"
+                  ]
+                },
+                " fathoms"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 90 feet or 27.4 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "90",
+                  "content": [
+                    "approximately 90"
+                  ]
+                },
+                " feet or 27.4 meters."
               ]
             }
           ]
@@ -159585,7 +159615,13 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "76"
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "76"
+                  ]
+                }
               ]
             }
           ]
@@ -163160,7 +163196,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The Forum of Appius was about 43 miles or 70 kilometers from Rome."
+                "The Forum of Appius was ",
+                {
+                  "type": "ref",
+                  "loc": "43",
+                  "content": [
+                    "about 43"
+                  ]
+                },
+                " miles or 70 kilometers from Rome."
               ]
             }
           ]
@@ -163205,7 +163249,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The Three Taverns was about 35 miles or 57 kilometers from Rome."
+                "The Three Taverns was ",
+                {
+                  "type": "ref",
+                  "loc": "35",
+                  "content": [
+                    "about 35"
+                  ]
+                },
+                " miles or 57 kilometers from Rome."
               ]
             }
           ]
@@ -165970,14 +166022,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "9",
                   "content": [
-                    "29"
+                    "class=|fnv|>29"
                   ]
                 },
-                "When he had said this, the Jews went away, disputing sharply among themselves."
+                "</span>When he had said this, the Jews went away, disputing sharply among themselves."
               ]
             }
           ]

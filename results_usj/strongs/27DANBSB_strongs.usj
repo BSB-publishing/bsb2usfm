@@ -6452,7 +6452,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and through the rest of Daniel 2"
+                "; here and through the rest of ",
+                {
+                  "type": "ref",
+                  "loc": "DAN 2",
+                  "content": [
+                    "Daniel 2"
+                  ]
+                }
               ]
             }
           ]
@@ -9174,7 +9181,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and throughout Daniel 3"
+                "; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "DAN 3",
+                  "content": [
+                    "Daniel 3"
+                  ]
+                }
               ]
             }
           ]
@@ -9244,7 +9258,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The statue was approximately 90 feet high and 9 feet wide (27.4 meters high and 2.7 meters wide)."
+                "The statue was ",
+                {
+                  "type": "ref",
+                  "loc": "90",
+                  "content": [
+                    "approximately 90"
+                  ]
+                },
+                " feet high and 9 feet wide (27.4 meters high and 2.7 meters wide)."
               ]
             }
           ]
@@ -19299,14 +19321,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Many years later "
+                "Many years later"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "to account for the time elapsed, probably about 30 years, since the previous chapter."
+                "to account for the time elapsed, probably ",
+                {
+                  "type": "ref",
+                  "loc": "30",
+                  "content": [
+                    "about 30"
+                  ]
+                },
+                " years, since the previous chapter."
               ]
             }
           ]

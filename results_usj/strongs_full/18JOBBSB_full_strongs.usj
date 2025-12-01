@@ -966,7 +966,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and throughout Job 1"
+                "; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "JOB 1",
+                  "content": [
+                    "Job 1"
+                  ]
+                }
               ]
             }
           ]
@@ -3291,7 +3298,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and throughout Job 2"
+                "; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "JOB 2",
+                  "content": [
+                    "Job 2"
+                  ]
+                }
               ]
             }
           ]
@@ -10042,14 +10056,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 3:19",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 3:19"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 3:19"
               ]
             }
           ]

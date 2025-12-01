@@ -5033,15 +5033,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 8:33",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 8:33"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 8:33."
               ]
             }
           ]
@@ -8814,15 +8814,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 3:1",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 3:1"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 3:1."
               ]
             }
           ]
@@ -10706,15 +10706,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1SA 25:44",
+                  "loc": "1",
                   "content": [
-                    "1 Samuel 25:44"
+                    "see 1"
                   ]
                 },
-                "."
+                " Samuel 25:44."
               ]
             }
           ]
@@ -18519,15 +18519,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 3:5",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 3:5"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 3:5."
               ]
             }
           ]
@@ -19843,15 +19843,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX (see also ",
+                "LXX (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 14:16",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 14:16"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Chronicles 14:16); Hebrew "
               ]
             },
             {
@@ -20094,15 +20094,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "That is, Kiriath-jearim; see ",
+                "That is, Kiriath-jearim; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 13:6",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 13:6"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 13:6."
               ]
             }
           ]
@@ -20725,15 +20725,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; some of the instruments in this verse are uncertain; see ",
+                "; some of the instruments in this verse are uncertain; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 13:8",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 13:8"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 13:8."
               ]
             }
           ]
@@ -20865,15 +20865,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 13:9",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 13:9"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 13:9."
               ]
             }
           ]
@@ -26725,15 +26725,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See LXX and ",
+                "See LXX ",
                 {
                   "type": "ref",
-                  "loc": "1CH 17:21",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 17:21"
+                    "and 1"
                   ]
                 },
-                "; Hebrew "
+                " Chronicles 17:21; Hebrew "
               ]
             },
             {
@@ -28155,15 +28155,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX, Syriac, and Vulgate (see also ",
+                "LXX, Syriac, and Vulgate (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 18:3",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 18:3"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Chronicles 18:3); Hebrew "
               ]
             },
             {
@@ -28268,15 +28268,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX (see also DSS and ",
+                "LXX (see also DSS ",
                 {
                   "type": "ref",
-                  "loc": "1CH 18:4",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 18:4"
+                    "and 1"
                   ]
                 },
-                "); MT "
+                " Chronicles 18:4); MT "
               ]
             },
             {
@@ -28824,15 +28824,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 18:8",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 18:8"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 18:8."
               ]
             }
           ]
@@ -28977,15 +28977,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 10; see ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 18:9",
-                  "content": [
-                    "1 Chronicles 18:9"
-                  ]
-                },
-                "."
+                "; also in verse 10; see 1 Chronicles 18:9."
               ]
             }
           ]
@@ -29145,15 +29137,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 18:10",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 18:10"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 18:10."
               ]
             }
           ]
@@ -29518,15 +29510,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some Hebrew manuscripts, LXX, and Syriac (see also verse 14 and ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 18:11",
-                  "content": [
-                    "1 Chronicles 18:11"
-                  ]
-                },
-                "); most Hebrew manuscripts "
+                "Some Hebrew manuscripts, LXX, and Syriac (see also verse 14 and 1 Chronicles 18:11); most Hebrew manuscripts "
               ]
             },
             {
@@ -29738,15 +29722,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "A few Hebrew manuscripts, LXX, and Syriac (see also verse 14 and ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 18:12",
-                  "content": [
-                    "1 Chronicles 18:12"
-                  ]
-                },
-                "); most Hebrew manuscripts "
+                "A few Hebrew manuscripts, LXX, and Syriac (see also verse 14 and 1 Chronicles 18:12); most Hebrew manuscripts "
               ]
             },
             {
@@ -30306,15 +30282,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 20:25",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 20:25"
+                    "see 2"
                   ]
                 },
-                ", 1 Kings 4:3, and 1 Chronicles 18:16."
+                " Samuel 20:25, 1 Kings 4:3, and 1 Chronicles 18:16."
               ]
             }
           ]
@@ -30464,15 +30440,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see LXX, Targum Yonaton, and ",
+                "; see LXX, Targum Yonaton, ",
                 {
                   "type": "ref",
-                  "loc": "1CH 18:17",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 18:17"
+                    "and 1"
                   ]
                 },
-                "."
+                " Chronicles 18:17."
               ]
             }
           ]
@@ -31239,15 +31215,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 8:34",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 8:34"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 8:34."
               ]
             }
           ]
@@ -32392,15 +32368,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 8:34",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 8:34"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 8:34."
               ]
             }
           ]
@@ -34889,15 +34865,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 19:16",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 19:16"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 19:16."
               ]
             }
           ]
@@ -35215,15 +35191,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some LXX manuscripts (see also ",
+                "Some LXX manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 19:18",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 19:18"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Chronicles 19:18); Hebrew "
               ]
             },
             {
@@ -36050,15 +36026,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 3:5",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 3:5"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 3:5."
               ]
             }
           ]
@@ -44074,14 +44050,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A talent "
+                "A talent"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75.4 pounds or 34.2 kilograms of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                ".4 pounds or 34.2 kilograms of gold."
               ]
             }
           ]
@@ -44846,15 +44830,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1SA 16:9",
+                  "loc": "1",
                   "content": [
-                    "1 Samuel 16:9"
+                    "see 1"
                   ]
                 },
-                ", 2 Samuel 21:21, and 1 Chronicles 2:13."
+                " Samuel 16:9, 2 Samuel 21:21, and 1 Chronicles 2:13."
               ]
             }
           ]
@@ -54562,14 +54546,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "200 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "200"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 5 pounds or 2.3 kilograms of hair."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "approximately 5"
+                  ]
+                },
+                " pounds or 2.3 kilograms of hair."
               ]
             }
           ]
@@ -68728,15 +68727,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 2:5",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 2:5"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 2:5."
               ]
             }
           ]
@@ -68765,15 +68764,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some LXX manuscripts (see also ",
+                "Some LXX manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 2:17",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 2:17"
+                    "also 1"
                   ]
                 },
-                "); MT and other LXX manuscripts "
+                " Chronicles 2:17); MT and other LXX manuscripts "
               ]
             },
             {
@@ -68906,14 +68905,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see DSS and ",
+                "; see DSS ",
                 {
                   "type": "ref",
-                  "loc": "1CH 2:13-16",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 2:13–16"
+                    "and 1"
                   ]
-                }
+                },
+                " Chronicles 2:13–16"
               ]
             }
           ]
@@ -71340,14 +71340,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4 ounces or 114 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                " ounces or 114 grams of silver."
               ]
             }
           ]
@@ -71462,14 +71477,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,000 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,000"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 25.1 pounds or 11.4 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "25",
+                  "content": [
+                    "approximately 25"
+                  ]
+                },
+                ".1 pounds or 11.4 kilograms of silver."
               ]
             }
           ]
@@ -85918,15 +85948,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 4:6",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 4:6"
+                    "see 1"
                   ]
                 },
-                " and 2 Chronicles 10:18."
+                " Kings 4:6 and 2 Chronicles 10:18."
               ]
             }
           ]
@@ -86059,15 +86089,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 8:17",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 8:17"
+                    "see 2"
                   ]
                 },
-                ", 1 Kings 4:3, and 1 Chronicles 18:16."
+                " Samuel 8:17, 1 Kings 4:3, and 1 Chronicles 18:16."
               ]
             }
           ]
@@ -86165,15 +86195,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 23:38",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 23:38"
+                    "see 2"
                   ]
                 },
-                "."
+                " Samuel 23:38."
               ]
             }
           ]
@@ -87591,15 +87621,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Two Hebrew manuscripts, some LXX manuscripts, and Syriac (see also ",
+                "Two Hebrew manuscripts, some LXX manuscripts, and Syriac (see ",
                 {
                   "type": "ref",
-                  "loc": "1SA 18:19",
+                  "loc": "1",
                   "content": [
-                    "1 Samuel 18:19"
+                    "also 1"
                   ]
                 },
-                "); most Hebrew and LXX manuscripts "
+                " Samuel 18:19); most Hebrew and LXX manuscripts "
               ]
             },
             {
@@ -89024,14 +89054,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "300 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "300"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 7.5 pounds or 3.4 kilograms."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 pounds or 3.4 kilograms."
               ]
             }
           ]
@@ -89468,15 +89513,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 20:4",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 20:4"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 20:4."
               ]
             }
           ]
@@ -89615,15 +89660,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1CH 20:5",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 20:5"
+                    "See 1"
                   ]
                 },
-                "; Hebrew "
+                " Chronicles 20:5; Hebrew "
               ]
             },
             {
@@ -89691,15 +89735,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1CH 20:5",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 20:5"
+                    "See 1"
                   ]
                 },
-                "; Hebrew does not include "
+                " Chronicles 20:5; Hebrew does not include "
               ]
             },
             {
@@ -90071,15 +90114,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1SA 16:9",
+                  "loc": "1",
                   "content": [
-                    "1 Samuel 16:9"
+                    "see 1"
                   ]
                 },
-                ", 2 Samuel 13:3, and 1 Chronicles 2:13."
+                " Samuel 16:9, 2 Samuel 13:3, and 1 Chronicles 2:13."
               ]
             }
           ]
@@ -95691,15 +95734,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:11",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:11"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 11:11."
               ]
             }
           ]
@@ -95797,15 +95840,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some LXX manuscripts (see also ",
+                "Some LXX manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:11",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:11"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Chronicles 11:11); Hebrew "
               ]
             },
             {
@@ -95940,15 +95983,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 27:4",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 27:4"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 27:4."
               ]
             }
           ]
@@ -97269,15 +97312,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Most Hebrew manuscripts (see also ",
+                "Most Hebrew manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:20",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:20"
+                    "also 1"
                   ]
                 },
-                "); two Hebrew manuscripts and Syriac "
+                " Chronicles 11:20); two Hebrew manuscripts and Syriac "
               ]
             },
             {
@@ -98419,15 +98462,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 21:18",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 21:18"
+                    "see 2"
                   ]
                 },
-                " and 1 Chronicles 11:29."
+                " Samuel 21:18 and 1 Chronicles 11:29."
               ]
             }
           ]
@@ -98529,15 +98572,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some Hebrew manuscripts and Vulgate (see also ",
+                "Some Hebrew manuscripts and Vulgate (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:30",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:30"
+                    "also 1"
                   ]
                 },
-                "); most MT manuscripts "
+                " Chronicles 11:30); most MT manuscripts "
               ]
             },
             {
@@ -98625,15 +98668,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:31",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:31"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 11:31."
               ]
             }
           ]
@@ -98759,15 +98802,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:32",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:32"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 11:32."
               ]
             }
           ]
@@ -98966,15 +99009,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:34",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:34"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 11:34."
               ]
             }
           ]
@@ -99022,30 +99065,30 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some LXX manuscripts (see also ",
+                "Some LXX manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:34",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:34"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Chronicles 11:34); Hebrew "
               ]
             },
             {
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Jonathan, ",
+                "Jonathan, <span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "3",
                   "content": [
-                    "33"
+                    "class=|fnv|>33"
                   ]
                 },
-                "Shammah"
+                "</span>Shammah"
               ]
             }
           ]
@@ -99119,15 +99162,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 11:35",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 11:35"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 11:35."
               ]
             }
           ]
@@ -101578,15 +101621,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX (see also ",
+                "LXX (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 21:12",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 21:12"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Chronicles 21:12); Hebrew "
               ]
             },
             {
@@ -102394,15 +102437,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 21:15",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 21:15"
+                    "see 1"
                   ]
                 },
-                " and 2 Chronicles 3:1."
+                " Chronicles 21:15 and 2 Chronicles 3:1."
               ]
             }
           ]
@@ -103693,14 +103736,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.26 pounds or 569.8 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".26 pounds or 569.8 grams of silver."
               ]
             }
           ]

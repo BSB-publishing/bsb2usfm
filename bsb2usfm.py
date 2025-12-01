@@ -120,16 +120,17 @@ booktitles = {
 bookmap = {booknames[i]: allbooks[i] for i in range(len(booknames))}
 
 def canonref(s):
-    m = regex.search(r"((?:\d\s*)?\S+)\s*(\d+):(\d+)([-\u2013](\d+)(:(\d+))?)?", s)
-    if not m:
+    m = regex.search(r"((?:\d\s*)?\S+)\s*(\d+)(?::(\d+))?([-\u2013](\d?\D+)?\s*(\d+)(:(\d+))?)?", s)
+    if not m or m.group(1).startswith("verse"):
         return (None, 0, 0)
-    res = Ref(book=bookmap.get(m.group(1).strip()), chapter=int(m.group(2)), verse=int(m.group(3)))
+    res = Ref(book=bookmap.get(m.group(1).strip()), chapter=int(m.group(2)), verse=m.group(3))
     if m.group(4):
-        if m.group(6):
-            kw = {"verse": int(m.group(7)), "chapter": int(m.group(5))}
+        if m.group(7):
+            kw = {"verse": int(m.group(8)), "chapter": int(m.group(6))}
         else:
-            kw = {"verse": int(m.group(5))}
-        res = RefRange(res, res.copy(**kw))
+            kw = {"verse": int(m.group(6))}
+        kw["book"] = bookmap.get(m.group(5) or m.group(1))
+        res = RefRange(res, res.copy(**kw), test=False)
     return (res, m.start(), m.end())
 
 openings = "\u2018\u201B\u201C\u201F[({"
@@ -330,9 +331,13 @@ class Processor:
                         c.tail = b
                     else:
                         bref, x, xx = canonref(b)
-                        c = self.currnode.makeelement("ref", {} if bref is None else {"loc": str(bref)})
-                        c.text = b
-                        self.currnode.append(c)
+                        if bref is not None:
+                            c = self.currnode.makeelement("ref", {} if bref is None else {"loc": str(bref)})
+                            c.text = b
+                            self.currnode.append(c)
+                        else:
+                            c = self.currnode
+                            c.text = b
                 txt = txt[m.end():]
             elif txt.startswith("<div "):
                 m = regex.match(r"<div class=\|(.*?)\|>(.*?)(</div>|$)", txt)
@@ -564,7 +569,7 @@ def open_input_source(source):
                 # Try to read first line to validate encoding
                 f.readline()
                 f.seek(0)
-                print(f"Using encoding: {encoding}", file=sys.stderr)
+                # print(f"Using encoding: {encoding}", file=sys.stderr)
                 return f
             except (UnicodeDecodeError, UnicodeError):
                 continue

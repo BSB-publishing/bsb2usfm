@@ -316,15 +316,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verses 12 and 14; see ",
-                {
-                  "type": "ref",
-                  "loc": "EZR 3:2",
-                  "content": [
-                    "Ezra 3:2"
-                  ]
-                },
-                "."
+                "; also in verses 12 and 14; see Ezra 3:2."
               ]
             }
           ]
@@ -2496,15 +2488,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 4; see ",
-                {
-                  "type": "ref",
-                  "loc": "EZR 3:2",
-                  "content": [
-                    "Ezra 3:2"
-                  ]
-                },
-                "."
+                "; also in verse 4; see Ezra 3:2."
               ]
             }
           ]

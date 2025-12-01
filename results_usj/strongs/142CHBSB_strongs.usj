@@ -2469,14 +2469,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "600 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "600"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 15.1 pounds or 6.8 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "15",
+                  "content": [
+                    "approximately 15"
+                  ]
+                },
+                ".1 pounds or 6.8 kilograms of silver."
               ]
             }
           ]
@@ -2522,14 +2537,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "150 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "150"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.8 pounds or 1.7 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".8 pounds or 1.7 kilograms of silver."
               ]
             }
           ]
@@ -3752,15 +3782,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 10:11",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 10:11"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 10:11."
               ]
             }
           ]
@@ -4048,14 +4078,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20,000 cors "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20,000"
+                  ]
+                },
+                " cors"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 124,800 bushels or 4.4 million liters (probably about 3,800 tons or 3,400 metric tons of wheat)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "124",
+                  "content": [
+                    "approximately 124"
+                  ]
+                },
+                ",800 bushels or 4.4 million liters (probably about 3,800 tons or 3,400 metric tons of wheat)."
               ]
             }
           ]
@@ -4101,14 +4146,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20,000 cors "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20,000"
+                  ]
+                },
+                " cors"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 124,800 bushels or 4.4 million liters (probably about 2,910 tons or 2,700 metric tons of barley)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "124",
+                  "content": [
+                    "approximately 124"
+                  ]
+                },
+                ",800 bushels or 4.4 million liters (probably about 2,910 tons or 2,700 metric tons of barley)."
               ]
             }
           ]
@@ -4154,14 +4214,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20,000 baths "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20,000"
+                  ]
+                },
+                " baths"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 116,000 gallons or 440,000 liters of wine."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "116",
+                  "content": [
+                    "approximately 116"
+                  ]
+                },
+                ",000 gallons or 440,000 liters of wine."
               ]
             }
           ]
@@ -4214,14 +4289,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20,000 baths of oil"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20,000"
+                  ]
+                },
+                " baths of oil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 116,000 gallons or 440,000 liters"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "116",
+                  "content": [
+                    "approximately 116"
+                  ]
+                },
+                ",000 gallons or 440,000 liters"
               ]
             }
           ]
@@ -5629,15 +5719,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 24:16",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 24:16"
+                    "see 2"
                   ]
                 },
-                "."
+                " Samuel 24:16."
               ]
             }
           ]
@@ -5838,7 +5928,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The foundation was approximately 90 feet long and 30 feet wide (27.4 meters long and 9.1 meters wide)."
+                "The foundation was ",
+                {
+                  "type": "ref",
+                  "loc": "90",
+                  "content": [
+                    "approximately 90"
+                  ]
+                },
+                " feet long and 30 feet wide (27.4 meters long and 9.1 meters wide)."
               ]
             }
           ]
@@ -5876,7 +5974,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The old standard of measurement was a cubit equal to 18 inches or 45.7 centimeters. The new standard, a cubit of approximately 21 inches or 53.3 centimeters (the long cubit) is the basic unit of length throughout Ezekiel 40 to 48."
+                "The old standard of measurement was a cubit equal ",
+                {
+                  "type": "ref",
+                  "loc": "18",
+                  "content": [
+                    "to 18"
+                  ]
+                },
+                " inches or 45.7 centimeters. The new standard, a cubit of approximately 21 inches or 53.3 centimeters (the long cubit) is the basic unit of length throughout Ezekiel 40 to 48."
               ]
             }
           ]
@@ -5968,14 +6074,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 30 feet or 9.1 meters; also in verses 8, 11, and 13."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "30",
+                  "content": [
+                    "approximately 30"
+                  ]
+                },
+                " feet or 9.1 meters; also in verses 8, 11, and 13."
               ]
             }
           ]
@@ -6028,14 +6149,28 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "120 cubits high "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "120"
+                  ]
+                },
+                " cubits high"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "(approximately 180 feet or 54.9 meters)"
+                {
+                  "type": "ref",
+                  "loc": "180",
+                  "content": [
+                    "(approximately 180"
+                  ]
+                },
+                " feet or 54.9 meters)"
               ]
             }
           ]
@@ -6633,14 +6768,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "600 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "600"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 22.6 tons or 20.5 metric tons of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "22",
+                  "content": [
+                    "approximately 22"
+                  ]
+                },
+                ".6 tons or 20.5 metric tons of gold."
               ]
             }
           ]
@@ -6707,14 +6857,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.26 pounds or 569.8 grams of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".26 pounds or 569.8 grams of gold."
               ]
             }
           ]
@@ -6954,14 +7119,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 cubits "
+                "5 cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 7.5 feet or 2.3 meters; also in verse 15."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 feet or 2.3 meters; also in verse 15."
               ]
             }
           ]
@@ -7491,14 +7664,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "35 cubits "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "35"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 52.5 feet or 16 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "52",
+                  "content": [
+                    "approximately 52"
+                  ]
+                },
+                ".5 feet or 16 meters."
               ]
             }
           ]
@@ -8049,7 +8237,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The altar was approximately 30 feet in length and width and 15 feet high (9.1 meters in length and width and 4.6 meters high)."
+                "The altar was ",
+                {
+                  "type": "ref",
+                  "loc": "30",
+                  "content": [
+                    "approximately 30"
+                  ]
+                },
+                " feet in length and width and 15 feet high (9.1 meters in length and width and 4.6 meters high)."
               ]
             }
           ]
@@ -8207,7 +8403,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The Sea was approximately 15 feet from rim to rim, 7.5 feet in height, and 45 feet in circumference (4.6 meters from rim to rim, 2.3 meters in height, and 13.7 meters in circumference)."
+                "The Sea was ",
+                {
+                  "type": "ref",
+                  "loc": "15",
+                  "content": [
+                    "approximately 15"
+                  ]
+                },
+                " feet from rim to rim, 7.5 feet in height, and 45 feet in circumference (4.6 meters from rim to rim, 2.3 meters in height, and 13.7 meters in circumference)."
               ]
             }
           ]
@@ -8558,14 +8762,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A handbreadth "
+                "A handbreadth"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2.9 inches or 7.4 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".9 inches or 7.4 centimeters."
               ]
             }
           ]
@@ -8669,14 +8881,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "3,000 baths "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "3,000"
+                  ]
+                },
+                " baths"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 17,400 gallons or 66,000 liters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "17",
+                  "content": [
+                    "approximately 17"
+                  ]
+                },
+                ",400 gallons or 66,000 liters."
               ]
             }
           ]
@@ -9996,15 +10223,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 7:46",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 7:46"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 7:46."
               ]
             }
           ]
@@ -11751,15 +11978,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 8:8",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 8:8"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 8:8."
               ]
             }
           ]
@@ -14191,7 +14418,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The platform was approximately 7.5 feet in length and width, and 4.5 feet high (2.3 meters in length and width, and 1.4 meters high)."
+                "The platform was ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 feet in length and width, and 4.5 feet high (2.3 meters in length and width, and 1.4 meters high)."
               ]
             }
           ]
@@ -21360,15 +21595,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see also ",
+                "; see ",
                 {
                   "type": "ref",
-                  "loc": "1KI 9:8",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 9:8"
+                    "also 1"
                   ]
                 },
-                "."
+                " Kings 9:8."
               ]
             }
           ]
@@ -23964,15 +24199,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see LXX, ",
+                "; see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 14:22",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 14:22"
+                    "LXX, 2"
                   ]
                 },
-                ", and 2 Kings 16:6."
+                " Kings 14:22, and 2 Kings 16:6."
               ]
             }
           ]
@@ -24184,14 +24419,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "450 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "450"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 17 tons or 15.4 metric tons of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "17",
+                  "content": [
+                    "approximately 17"
+                  ]
+                },
+                " tons or 15.4 metric tons of gold."
               ]
             }
           ]
@@ -24783,15 +25033,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX and Syriac (see also ",
+                "LXX and Syriac (see ",
                 {
                   "type": "ref",
-                  "loc": "1KI 10:5",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 10:5"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Kings 10:5); Hebrew "
               ]
             },
             {
@@ -25446,14 +25696,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "120 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "120"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4.52 tons or 4.1 metric tons of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                ".52 tons or 4.1 metric tons of gold."
               ]
             }
           ]
@@ -25703,15 +25968,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 11; see ",
-                {
-                  "type": "ref",
-                  "loc": "1KI 10:11",
-                  "content": [
-                    "1 Kings 10:11"
-                  ]
-                },
-                "."
+                "; also in verse 11; see 1 Kings 10:11."
               ]
             }
           ]
@@ -26190,14 +26447,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "666 talents "
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "666"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 25.1 tons or 22.8 metric tons of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "25",
+                  "content": [
+                    "approximately 25"
+                  ]
+                },
+                ".1 tons or 22.8 metric tons of gold."
               ]
             }
           ]
@@ -26430,14 +26702,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "600 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "600"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 15.1 pounds or 6.8 kilograms of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "15",
+                  "content": [
+                    "approximately 15"
+                  ]
+                },
+                ".1 pounds or 6.8 kilograms of gold."
               ]
             }
           ]
@@ -26561,14 +26848,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "300 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "300"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 7.5 pounds or 3.4 kilograms of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 pounds or 3.4 kilograms of gold."
               ]
             }
           ]
@@ -30222,15 +30524,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX and many Hebrew manuscripts (see also ",
+                "LXX and many Hebrew manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "1KI 12:14",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 12:14"
+                    "also 1"
                   ]
                 },
-                "); MT "
+                " Kings 12:14); MT "
               ]
             },
             {
@@ -30992,15 +31294,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 20:24",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 20:24"
+                    "see 2"
                   ]
                 },
-                " and 1 Kings 4:6."
+                " Samuel 20:24 and 1 Kings 4:6."
               ]
             }
           ]
@@ -33404,7 +33706,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "That is, Judah; in 2 Chronicles, Judah is occasionally called Israel, as representative of the true Israel."
+                "That is, Judah; ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "in 2"
+                  ]
+                },
+                " Chronicles, Judah is occasionally called Israel, as representative of the true Israel."
               ]
             }
           ]
@@ -35422,15 +35732,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 14:31",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 14:31"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 14:31."
               ]
             }
           ]
@@ -35569,15 +35879,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 14:31",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 14:31"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 14:31."
               ]
             }
           ]
@@ -35699,15 +36009,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 11:20",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 11:20"
+                    "see 2"
                   ]
                 },
-                " and 1 Kings 15:2."
+                " Chronicles 11:20 and 1 Kings 15:2."
               ]
             }
           ]
@@ -43080,15 +43390,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 15:20",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 15:20"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 15:20."
               ]
             }
           ]
@@ -52659,15 +52969,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some LXX manuscripts (see also ",
+                "Some LXX manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "2CH 26:7",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 26:7"
+                    "also 2"
                   ]
                 },
-                "); Hebrew "
+                " Chronicles 26:7); Hebrew "
               ]
             },
             {
@@ -57977,7 +58287,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "That is, Judah; in 2 Chronicles, Judah is occasionally called Israel, as representative of the true Israel."
+                "That is, Judah; ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "in 2"
+                  ]
+                },
+                " Chronicles, Judah is occasionally called Israel, as representative of the true Israel."
               ]
             }
           ]
@@ -59993,15 +60311,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 22:1",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 22:1"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 22:1."
               ]
             }
           ]
@@ -60687,15 +61005,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some LXX manuscripts and Syriac (see also ",
+                "Some LXX manuscripts and Syriac (see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 8:26",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 8:26"
+                    "also 2"
                   ]
                 },
-                "); Hebrew "
+                " Kings 8:26); Hebrew "
               ]
             },
             {
@@ -61426,15 +61744,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some Hebrew manuscripts, LXX, Vulgate, and Syriac (see also ",
+                "Some Hebrew manuscripts, LXX, Vulgate, and Syriac (see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 8:29",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 8:29"
+                    "also 2"
                   ]
                 },
-                "); most Hebrew manuscripts "
+                " Kings 8:29); most Hebrew manuscripts "
               ]
             },
             {
@@ -61708,15 +62026,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 9:14",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 9:14"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 9:14."
               ]
             }
           ]
@@ -62368,15 +62686,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; twice in this verse; see ",
+                "; twice in this verse; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 11:2",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 11:2"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 11:2."
               ]
             }
           ]
@@ -69261,15 +69579,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 12:21",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 12:21"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 12:21."
               ]
             }
           ]
@@ -69359,15 +69677,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 12:21",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 12:21"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 12:21."
               ]
             }
           ]
@@ -70429,14 +70747,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.77 tons or 3.42 metric tons of silver; also in verse 9."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".77 tons or 3.42 metric tons of silver; also in verse 9."
               ]
             }
           ]
@@ -73008,14 +73341,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "400 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "400"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 600 feet or 182.9 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "600",
+                  "content": [
+                    "approximately 600"
+                  ]
+                },
+                " feet or 182.9 meters."
               ]
             }
           ]
@@ -73700,15 +74048,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 14:20",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 14:20"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 14:20."
               ]
             }
           ]
@@ -73838,15 +74186,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; throughout this chapter; see ",
+                "; throughout this chapter; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 14:21",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 14:21"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 14:21."
               ]
             }
           ]
@@ -73975,15 +74323,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see LXX, ",
+                "; see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 14:22",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 14:22"
+                    "LXX, 2"
                   ]
                 },
-                ", and 2 Kings 16:6."
+                " Kings 14:22, and 2 Kings 16:6."
               ]
             }
           ]
@@ -76223,14 +76571,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Leprosy "
+                "Leprosy"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was a term used for various skin diseases; see Leviticus 13."
+                "was a term used for various skin diseases; see ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -77064,15 +77420,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 15:33",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 15:33"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 15:33."
               ]
             }
           ]
@@ -77193,15 +77549,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 14:21",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 14:21"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 14:21."
               ]
             }
           ]
@@ -77573,14 +77929,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.77 tons or 3.42 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".77 tons or 3.42 metric tons of silver."
               ]
             }
           ]
@@ -77634,14 +78005,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10,000 cors "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10,000"
+                  ]
+                },
+                " cors"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 62,400 bushels or 2.2 million liters (probably about 1,920 tons or 1,740 metric tons of wheat)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "62",
+                  "content": [
+                    "approximately 62"
+                  ]
+                },
+                ",400 bushels or 2.2 million liters (probably about 1,920 tons or 1,740 metric tons of wheat)."
               ]
             }
           ]
@@ -77687,14 +78073,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10,000 cors "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10,000"
+                  ]
+                },
+                " cors"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 62,400 bushels or 2.2 million liters (probably about 1,450 tons or 1,315 metric tons of barley)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "62",
+                  "content": [
+                    "approximately 62"
+                  ]
+                },
+                ",400 bushels or 2.2 million liters (probably about 1,450 tons or 1,315 metric tons of barley)."
               ]
             }
           ]
@@ -79699,15 +80100,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 9:12",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 9:12"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 9:12."
               ]
             }
           ]
@@ -80422,15 +80823,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX, Syriac, and Vulgate (see also ",
+                "LXX, Syriac, and Vulgate (see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 16:7",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 16:7"
+                    "also 2"
                   ]
                 },
-                "); Hebrew "
+                " Kings 16:7); Hebrew "
               ]
             },
             {
@@ -80803,7 +81204,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "That is, Judah; in 2 Chronicles, Judah is occasionally called Israel, as representative of the true Israel."
+                "That is, Judah; ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "in 2"
+                  ]
+                },
+                " Chronicles, Judah is occasionally called Israel, as representative of the true Israel."
               ]
             }
           ]
@@ -81988,15 +82397,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 18:2",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 18:2"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 18:2."
               ]
             }
           ]
@@ -99740,7 +100149,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "That is, Judah; in 2 Chronicles, Judah is occasionally called Israel, as representative of the true Israel."
+                "That is, Judah; ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "in 2"
+                  ]
+                },
+                " Chronicles, Judah is occasionally called Israel, as representative of the true Israel."
               ]
             }
           ]
@@ -103174,15 +103591,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 22:12",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 22:12"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 22:12."
               ]
             }
           ]
@@ -103241,15 +103658,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 22:12",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 22:12"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 22:12."
               ]
             }
           ]
@@ -103750,15 +104167,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 22:14",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 22:14"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 22:14."
               ]
             }
           ]
@@ -103817,15 +104234,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 22:14",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 22:14"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 22:14."
               ]
             }
           ]
@@ -109576,14 +109993,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.77 tons or 3.42 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".77 tons or 3.42 metric tons of silver."
               ]
             }
           ]
@@ -109621,14 +110053,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A talent "
+                "A talent"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75.4 pounds or 34.2 kilograms of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                ".4 pounds or 34.2 kilograms of gold."
               ]
             }
           ]
@@ -110344,15 +110784,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "One Hebrew manuscript, some LXX manuscripts, and Syriac (see also ",
+                "One Hebrew manuscript, some LXX manuscripts, and Syriac (see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 24:8",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 24:8"
+                    "also 2"
                   ]
                 },
-                "); most Hebrew manuscripts "
+                " Kings 24:8); most Hebrew manuscripts "
               ]
             },
             {

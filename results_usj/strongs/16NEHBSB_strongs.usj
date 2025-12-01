@@ -6505,14 +6505,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,000 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,000"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1,500 feet or 457.2 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ",500 feet or 457.2 meters."
               ]
             }
           ]
@@ -13644,14 +13659,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "40 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "40"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1 pound or 453.6 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                " pound or 453.6 grams of silver."
               ]
             }
           ]
@@ -22407,14 +22437,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,000 gold drachmas"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,000"
+                  ]
+                },
+                " gold drachmas"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 18.5 pounds or 8.4 kilograms of gold coins"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "18",
+                  "content": [
+                    "approximately 18"
+                  ]
+                },
+                ".5 pounds or 8.4 kilograms of gold coins"
               ]
             }
           ]
@@ -22553,14 +22598,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20,000 gold drachmas"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20,000"
+                  ]
+                },
+                " gold drachmas"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 370.4 pounds or 168 kilograms of gold coins; also in verse 72 "
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "370",
+                  "content": [
+                    "approximately 370"
+                  ]
+                },
+                ".4 pounds or 168 kilograms of gold coins; also in verse 72 "
               ]
             }
           ]
@@ -22613,14 +22673,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "2,200 silver minas"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "2,200"
+                  ]
+                },
+                " silver minas"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 1.38 tons or 1.25 metric tons of silver"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".38 tons or 1.25 metric tons of silver"
               ]
             }
           ]
@@ -22727,14 +22802,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "2,000 silver minas"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "2,000"
+                  ]
+                },
+                " silver minas"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 1.26 tons or 1.14 metric tons of silver"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".26 tons or 1.14 metric tons of silver"
               ]
             }
           ]
@@ -34259,14 +34349,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A third of a shekel "
+                "A third of a shekel"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 0.13 ounces or 3.8 grams, probably of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".13 ounces or 3.8 grams, probably of silver."
               ]
             }
           ]
@@ -39224,15 +39322,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see verse 15, ",
-                {
-                  "type": "ref",
-                  "loc": "NEH 7:42",
-                  "content": [
-                    "Nehemiah 7:42"
-                  ]
-                },
-                ", and Ezra 2:39."
+                "; see verse 15, Nehemiah 7:42, and Ezra 2:39."
               ]
             }
           ]
@@ -39473,15 +39563,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 18; see ",
-                {
-                  "type": "ref",
-                  "loc": "NEH 10:8",
-                  "content": [
-                    "Nehemiah 10:8"
-                  ]
-                },
-                "."
+                "; also in verse 18; see Nehemiah 10:8."
               ]
             }
           ]
@@ -41513,15 +41595,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 6:14",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 6:14"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 6:14."
               ]
             }
           ]

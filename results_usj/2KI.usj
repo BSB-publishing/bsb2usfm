@@ -2197,7 +2197,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                ", was one afflicted with a skin disease; here and throughout this chapter; see Leviticus 13."
+                ", was one afflicted with a skin disease; here and throughout this chapter; see ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -2270,14 +2278,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 754 pounds or 342 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "754",
+                  "content": [
+                    "approximately 754"
+                  ]
+                },
+                " pounds or 342 kilograms of silver."
               ]
             }
           ]
@@ -2299,14 +2322,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "6,000 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "6,000"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 150.8 pounds or 68.4 kilograms of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "150",
+                  "content": [
+                    "approximately 150"
+                  ]
+                },
+                ".8 pounds or 68.4 kilograms of gold."
               ]
             }
           ]
@@ -2542,14 +2580,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A talent "
+                "A talent"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75.4 pounds or 34.2 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                ".4 pounds or 34.2 kilograms of silver."
               ]
             }
           ]
@@ -3037,14 +3083,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "80 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "80"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2 pounds or 907.2 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                " pounds or 907.2 grams of silver."
               ]
             }
           ]
@@ -3080,7 +3141,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 0.28 dry quarts or 0.31 liters"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".28 dry quarts or 0.31 liters"
               ]
             }
           ]
@@ -3102,14 +3171,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 shekels "
+                "5 shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2 ounces or 57 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                " ounces or 57 grams of silver."
               ]
             }
           ]
@@ -3245,14 +3322,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A seah "
+                "A seah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 6.6 dry quarts or 7.3 liters (probably about 8.2 pounds or 3.7 kilograms of flour); here and in verses 16 and 18."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                ".6 dry quarts or 7.3 liters (probably about 8.2 pounds or 3.7 kilograms of flour); here and in verses 16 and 18."
               ]
             }
           ]
@@ -3274,14 +3359,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A shekel "
+                "A shekel"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 0.4 ounces or 11.4 grams, probably of silver; here and in verses 16 and 18."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".4 ounces or 11.4 grams, probably of silver; here and in verses 16 and 18."
               ]
             }
           ]
@@ -3303,14 +3396,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "2 seahs "
+                "2 seahs"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 13.2 dry quarts or 14.6 liters (probably about 19.3 pounds or 8.8 kilograms of barley); here and in verses 16 and 18."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "13",
+                  "content": [
+                    "approximately 13"
+                  ]
+                },
+                ".2 dry quarts or 14.6 liters (probably about 19.3 pounds or 8.8 kilograms of barley); here and in verses 16 and 18."
               ]
             }
           ]
@@ -4952,15 +5053,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1KI 16:10",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 16:10"
+                    "See 1"
                   ]
                 },
-                "."
+                " Kings 16:10."
               ]
             }
           ]
@@ -5066,15 +5166,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See verse 10 and ",
-                {
-                  "type": "ref",
-                  "loc": "1KI 21:23",
-                  "content": [
-                    "1 Kings 21:23"
-                  ]
-                },
-                "."
+                "See verse 10 and 1 Kings 21:23."
               ]
             }
           ]
@@ -5773,15 +5865,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 22:11",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 22:11"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 22:11."
               ]
             }
           ]
@@ -6314,22 +6406,14 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Joash"
+                "Joash "
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "(son of Ahaziah); also in verses 2, 4, 6, 7, and 18; see ",
-                {
-                  "type": "ref",
-                  "loc": "2KI 11:2",
-                  "content": [
-                    "2 Kings 11:2"
-                  ]
-                },
-                "."
+                "(son of Ahaziah); also in verses 2, 4, 6, 7, and 18; see 2 Kings 11:2."
               ]
             }
           ]
@@ -6620,15 +6704,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 24:26",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 24:26"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 24:26."
               ]
             }
           ]
@@ -7403,14 +7487,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "400 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "400"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 600 feet or 182.9 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "600",
+                  "content": [
+                    "approximately 600"
+                  ]
+                },
+                " feet or 182.9 meters."
               ]
             }
           ]
@@ -7586,15 +7685,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 26:1",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 26:1"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 26:1."
               ]
             }
           ]
@@ -7643,15 +7742,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 9:26",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 9:26"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 9:26."
               ]
             }
           ]
@@ -7862,15 +7961,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verses 6, 7, 8, 17, 23, and 27; see ",
-                {
-                  "type": "ref",
-                  "loc": "2CH 26:1",
-                  "content": [
-                    "2 Chronicles 26:1"
-                  ]
-                },
-                "."
+                "; also in verses 6, 7, 8, 17, 23, and 27; see 2 Chronicles 26:1."
               ]
             }
           ]
@@ -7930,14 +8021,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Leprosy "
+                "Leprosy"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was a term used for various skin diseases; see Leviticus 13."
+                "was a term used for various skin diseases; see ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -7999,15 +8098,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 26:23",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 26:23"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 26:23."
               ]
             }
           ]
@@ -8300,14 +8399,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,000 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,000"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 37.7 tons or 34.2 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "37",
+                  "content": [
+                    "approximately 37"
+                  ]
+                },
+                ".7 tons or 34.2 metric tons of silver."
               ]
             }
           ]
@@ -8335,14 +8449,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.26 pounds or 569.8 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".26 pounds or 569.8 grams of silver."
               ]
             }
           ]
@@ -8569,15 +8698,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 27:1",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 27:1"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 27:1."
               ]
             }
           ]
@@ -8798,15 +8927,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 9:26",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 9:26"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 9:26."
               ]
             }
           ]
@@ -9240,12 +9369,12 @@
               "content": [
                 {
                   "type": "ref",
-                  "loc": "EXO 20:4-6",
+                  "loc": "EXO 20:4-5:8",
                   "content": [
-                    "Exodus 20:4–6"
+                    "Exodus 20:4–6; Deuteronomy 5:8"
                   ]
                 },
-                "; Deuteronomy 5:8–10"
+                "–10"
               ]
             }
           ]
@@ -9641,15 +9770,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 29:1",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 29:1"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 29:1."
               ]
             }
           ]
@@ -9872,14 +10001,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "300 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "300"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 11.3 tons or 10.3 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "11",
+                  "content": [
+                    "approximately 11"
+                  ]
+                },
+                ".3 tons or 10.3 metric tons of silver."
               ]
             }
           ]
@@ -9901,14 +10045,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "30 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "30"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.13 tons or 1.03 metric tons of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".13 tons or 1.03 metric tons of gold."
               ]
             }
           ]
@@ -10070,14 +10229,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Rabshakeh "
+                "Rabshakeh"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is the title of a high-ranking Assyrian military officer; here and throughout chapters 18 and 19, as well as Isaiah 36 and 37."
+                "is the title of a high-ranking Assyrian military officer; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "18",
+                  "content": [
+                    "chapters 18"
+                  ]
+                },
+                " and 19, as well as Isaiah 36 and 37."
               ]
             }
           ]
@@ -12442,15 +12609,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 34:20",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 34:20"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 34:20."
               ]
             }
           ]
@@ -12493,15 +12660,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 34:20",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 34:20"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 34:20."
               ]
             }
           ]
@@ -12585,15 +12752,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 34:22",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 34:22"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 34:22."
               ]
             }
           ]
@@ -12636,15 +12803,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2CH 34:22",
+                  "loc": "2",
                   "content": [
-                    "2 Chronicles 34:22"
+                    "see 2"
                   ]
                 },
-                "."
+                " Chronicles 34:22."
               ]
             }
           ]
@@ -13191,15 +13358,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1KI 13:2",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 13:2"
+                    "See 1"
                   ]
                 },
-                "; Hebrew; LXX includes "
+                " Kings 13:2; Hebrew; LXX includes "
               ]
             },
             {
@@ -13500,14 +13666,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.77 tons or 3.42 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".77 tons or 3.42 metric tons of silver."
               ]
             }
           ]
@@ -13529,14 +13710,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A talent "
+                "A talent"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75.4 pounds or 34.2 kilograms of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                ".4 pounds or 34.2 kilograms of gold."
               ]
             }
           ]
@@ -14274,14 +14463,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "18 cubits "
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "18"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 27 feet or 8.2 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "27",
+                  "content": [
+                    "approximately 27"
+                  ]
+                },
+                " feet or 8.2 meters."
               ]
             }
           ]
@@ -14303,14 +14507,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "3 cubits "
+                "3 cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4.5 feet or 1.4 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                ".5 feet or 1.4 meters."
               ]
             }
           ]

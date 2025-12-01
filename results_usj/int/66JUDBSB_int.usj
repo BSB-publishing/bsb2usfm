@@ -2711,15 +2711,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See the First Book of Enoch (",
+                "See the First Book of Enoch ",
                 {
                   "type": "ref",
-                  "loc": "1:9",
+                  "loc": "1",
                   "content": [
-                    "1 Enoch 1:9"
+                    "(1"
                   ]
                 },
-                ")."
+                " Enoch 1:9)."
               ]
             }
           ]
@@ -3190,15 +3190,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "2PE 3:3",
+                  "loc": "2",
                   "content": [
-                    "2 Peter 3:3"
+                    "See 2"
                   ]
                 },
-                "."
+                " Peter 3:3."
               ]
             }
           ]

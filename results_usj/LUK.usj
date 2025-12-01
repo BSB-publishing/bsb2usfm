@@ -4082,14 +4082,22 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
-                    "leper "
+                    "leper"
                   ]
                 },
                 {
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "was one afflicted with a skin disease. See Leviticus 13."
+                    "was one afflicted with a skin disease. See ",
+                    {
+                      "type": "ref",
+                      "loc": "LEV 13",
+                      "content": [
+                        "Leviticus 13"
+                      ]
+                    },
+                    "."
                   ]
                 }
               ]
@@ -4656,7 +4664,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Leprosy was a term used for various skin diseases. See Leviticus 13."
+                "Leprosy was a term used for various skin diseases. See ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -6789,14 +6805,22 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
-                    "leper "
+                    "leper"
                   ]
                 },
                 {
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "was one afflicted with a skin disease. See Leviticus 13."
+                    "was one afflicted with a skin disease. See ",
+                    {
+                      "type": "ref",
+                      "loc": "LEV 13",
+                      "content": [
+                        "Leviticus 13"
+                      ]
+                    },
+                    "."
                   ]
                 }
               ]
@@ -9867,15 +9891,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 1:10-12",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 1:10–12"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 1:10–12."
               ]
             }
           ]
@@ -9917,15 +9941,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "and He said, “You do not know what kind of spirit you are of. ",
+                "and He said, “You do not know what kind of spirit you are of. <span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "6",
                   "content": [
-                    "56"
+                    "class=|fnv|>56"
                   ]
                 },
-                "For the Son of Man did not come to destroy the lives of men, but to save them.”"
+                "</span>For the Son of Man did not come to destroy the lives of men, but to save them.”"
               ]
             }
           ]
@@ -12609,7 +12633,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; an assarion was a Roman copper coin worth about 1/16 of a denarius."
+                    "; an assarion was a Roman copper coin worth ",
+                    {
+                      "type": "ref",
+                      "loc": "1",
+                      "content": [
+                        "about 1"
+                      ]
+                    },
+                    "/16 of a denarius."
                   ]
                 }
               ]
@@ -12985,7 +13017,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; a cubit was approximately 18 inches or 45 centimeters."
+                    "; a cubit was ",
+                    {
+                      "type": "ref",
+                      "loc": "18",
+                      "content": [
+                        "approximately 18"
+                      ]
+                    },
+                    " inches or 45 centimeters."
                   ]
                 }
               ]
@@ -13803,7 +13843,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; that is, a Jewish coin of bronze or copper worth about 1/128 of a denarius"
+                    "; that is, a Jewish coin of bronze or copper worth ",
+                    {
+                      "type": "ref",
+                      "loc": "1",
+                      "content": [
+                        "about 1"
+                      ]
+                    },
+                    "/128 of a denarius"
                   ]
                 }
               ]
@@ -16021,7 +16069,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; that is, approximately 870 gallons or 3,300 liters"
+                    "; that is, ",
+                    {
+                      "type": "ref",
+                      "loc": "870",
+                      "content": [
+                        "approximately 870"
+                      ]
+                    },
+                    " gallons or 3,300 liters"
                   ]
                 }
               ]
@@ -16102,7 +16158,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; that is, approximately 1,000 bushels or 35,000 liters (probably about 30 tons or 27 metric tons of wheat)"
+                    "; that is, ",
+                    {
+                      "type": "ref",
+                      "loc": "1",
+                      "content": [
+                        "approximately 1"
+                      ]
+                    },
+                    ",000 bushels or 35,000 liters (probably about 30 tons or 27 metric tons of wheat)"
                   ]
                 }
               ]
@@ -16869,14 +16933,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "leper "
+                "leper"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was one afflicted with a skin disease. See Leviticus 13."
+                "was one afflicted with a skin disease. See ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -17360,14 +17432,15 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "6",
                       "content": [
-                        "36"
+                        "class=|fnv|>36"
                       ]
                     },
-                    "Two men will be in the field. One will be taken and the other left"
+                    "</span>Two men will be in the field. One will be taken and the other left"
                   ]
                 },
                 {
@@ -20568,7 +20641,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; a lepton was a Jewish coin of bronze or copper worth about 1/128 of a denarius."
+                "; a lepton was a Jewish coin of bronze or copper worth ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "about 1"
+                  ]
+                },
+                "/128 of a denarius."
               ]
             }
           ]
@@ -23161,14 +23242,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "7",
                   "content": [
-                    "17"
+                    "class=|fnv|>17"
                   ]
                 },
-                "Now Pilate was obligated to release to the people one prisoner at the feast"
+                "</span>Now Pilate was obligated to release to the people one prisoner at the feast"
               ]
             },
             {
@@ -24501,7 +24583,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 6.9 miles or 11.1 kilometers"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                ".9 miles or 11.1 kilometers"
               ]
             }
           ]

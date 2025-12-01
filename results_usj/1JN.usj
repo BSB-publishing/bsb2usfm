@@ -1598,15 +1598,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "three that testify in heaven: The Father, the Word, and the Holy Spirit; and these three are one. ",
+                "three that testify in heaven: The Father, the Word, and the Holy Spirit; and these three are one. <span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "8",
                   "content": [
-                    "8"
+                    "class=|fnv|>8"
                   ]
                 },
-                "And there are three that testify on earth:"
+                "</span>And there are three that testify on earth:"
               ]
             }
           ]

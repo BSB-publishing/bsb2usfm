@@ -578,15 +578,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 4; see ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 2:9-10",
-                  "content": [
-                    "1 Chronicles 2:9–10"
-                  ]
-                },
-                "."
+                "; also in verse 4; see 1 Chronicles 2:9–10."
               ]
             }
           ]
@@ -1287,15 +1279,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 8; see ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 3:10",
-                  "content": [
-                    "1 Chronicles 3:10"
-                  ]
-                },
-                "."
+                "; also in verse 8; see 1 Chronicles 3:10."
               ]
             }
           ]
@@ -1736,15 +1720,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                ", a variant spelling of Amon; twice in this verse; see ",
+                ", a variant spelling of Amon; twice in this verse; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 3:14",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 3:14"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 3:14."
               ]
             }
           ]
@@ -20559,7 +20543,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; that is, a Roman copper coin worth about 1/64 of a denarius"
+                    "; that is, a Roman copper coin worth ",
+                    {
+                      "type": "ref",
+                      "loc": "1",
+                      "content": [
+                        "about 1"
+                      ]
+                    },
+                    "/64 of a denarius"
                   ]
                 }
               ]
@@ -23206,7 +23198,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; that is, a Roman mile, approximately 4,855 feet or 1,480 meters"
+                    "; that is, a Roman mile, ",
+                    {
+                      "type": "ref",
+                      "loc": "4",
+                      "content": [
+                        "approximately 4"
+                      ]
+                    },
+                    ",855 feet or 1,480 meters"
                   ]
                 }
               ]
@@ -29555,7 +29555,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; a cubit was approximately 18 inches or 45 centimeters."
+                    "; a cubit was ",
+                    {
+                      "type": "ref",
+                      "loc": "18",
+                      "content": [
+                        "approximately 18"
+                      ]
+                    },
+                    " inches or 45 centimeters."
                   ]
                 }
               ]
@@ -35580,14 +35588,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "leper "
+                "leper"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was one afflicted with a skin disease. See Leviticus 13."
+                "was one afflicted with a skin disease. See ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -48402,14 +48418,22 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
-                    "leper "
+                    "leper"
                   ]
                 },
                 {
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "was one afflicted with a skin disease. See Leviticus 13."
+                    "was one afflicted with a skin disease. See ",
+                    {
+                      "type": "ref",
+                      "loc": "LEV 13",
+                      "content": [
+                        "Leviticus 13"
+                      ]
+                    },
+                    "."
                   ]
                 }
               ]
@@ -52014,7 +52038,15 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; that is, a Roman copper coin worth about 1/16 of a denarius"
+                    "; that is, a Roman copper coin worth ",
+                    {
+                      "type": "ref",
+                      "loc": "1",
+                      "content": [
+                        "about 1"
+                      ]
+                    },
+                    "/16 of a denarius"
                   ]
                 }
               ]
@@ -54838,14 +54870,22 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
-                    "leper "
+                    "leper"
                   ]
                 },
                 {
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "was one afflicted with a skin disease. See Leviticus 13."
+                    "was one afflicted with a skin disease. See ",
+                    {
+                      "type": "ref",
+                      "loc": "LEV 13",
+                      "content": [
+                        "Leviticus 13"
+                      ]
+                    },
+                    "."
                   ]
                 }
               ]
@@ -81177,7 +81217,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; a stadion was about 607 feet or 185 meters"
+                "; a stadion was ",
+                {
+                  "type": "ref",
+                  "loc": "607",
+                  "content": [
+                    "about 607"
+                  ]
+                },
+                " feet or 185 meters"
               ]
             }
           ]
@@ -94780,14 +94828,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2PE 1:17",
+                  "loc": "2",
                   "content": [
-                    "2 Peter 1:17"
+                    "in 2"
                   ]
-                }
+                },
+                " Peter 1:17"
               ]
             }
           ]
@@ -97182,14 +97231,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "1",
                   "content": [
-                    "21"
+                    "class=|fnv|>21"
                   ]
                 },
-                "But this kind does not come out except by prayer and fasting"
+                "</span>But this kind does not come out except by prayer and fasting"
               ]
             },
             {
@@ -100620,14 +100670,15 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "1",
                       "content": [
-                        "11"
+                        "class=|fnv|>11"
                       ]
                     },
-                    "For the Son of Man came to save the lost"
+                    "</span>For the Son of Man came to save the lost"
                   ]
                 },
                 {
@@ -107622,22 +107673,15 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "6",
                       "content": [
-                        "16"
+                        "class=|fnv|>16"
                       ]
                     },
-                    "...“Good Teacher, what good thing must I do to obtain eternal life?” ",
-                    {
-                      "type": "char",
-                      "marker": "fv",
-                      "content": [
-                        "17"
-                      ]
-                    },
-                    "“Why do you call Me good?”"
+                    "</span>...“Good Teacher, what good thing must I do to obtain eternal life?” <span class=|fnv|>17</span>“Why do you call Me good?”"
                   ]
                 },
                 {
@@ -123556,15 +123600,7 @@
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "Tischendorf and some early manuscripts do not include verse 44; see also ",
-                    {
-                      "type": "ref",
-                      "loc": "LUK 20:18",
-                      "content": [
-                        "Luke 20:18"
-                      ]
-                    },
-                    "."
+                    "Tischendorf and some early manuscripts do not include verse 44; see also Luke 20:18."
                   ]
                 }
               ]
@@ -132066,14 +132102,15 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "4",
                       "content": [
-                        "14"
+                        "class=|fnv|>14"
                       ]
                     },
-                    "Woe to you, scribes and Pharisees, you hypocrites! You defraud widows of their houses, and for a show make lengthy prayers. Therefore you will receive greater condemnation."
+                    "</span>Woe to you, scribes and Pharisees, you hypocrites! You defraud widows of their houses, and for a show make lengthy prayers. Therefore you will receive greater condemnation."
                   ]
                 },
                 {
@@ -146429,22 +146466,15 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "5",
                       "content": [
-                        "15"
+                        "class=|fnv|>15"
                       ]
                     },
-                    "... And he went on his journey at once. ",
-                    {
-                      "type": "char",
-                      "marker": "fv",
-                      "content": [
-                        "16"
-                      ]
-                    },
-                    "... went and put them to work"
+                    "</span>... And he went on his journey at once. <span class=|fnv|>16</span>... went and put them to work"
                   ]
                 },
                 {

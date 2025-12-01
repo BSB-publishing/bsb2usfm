@@ -988,14 +988,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "leper "
+                "leper"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was one afflicted with a skin disease. See Leviticus 13."
+                "was one afflicted with a skin disease. See ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -5834,14 +5842,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "6",
                   "content": [
-                    "16"
+                    "class=|fnv|>16"
                   ]
                 },
-                "If anyone has ears to hear, let him hear."
+                "</span>If anyone has ears to hear, let him hear."
               ]
             }
           ]
@@ -8158,29 +8167,22 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "4",
                       "content": [
-                        "44"
+                        "class=|fnv|>44"
                       ]
                     },
-                    "where their worm never dies, and the fire is never quenched"
+                    "</span>where their worm never dies, and the fire is never quenched"
                   ]
                 },
                 {
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; see verse 48 and ",
-                    {
-                      "type": "ref",
-                      "loc": "ISA 66:24",
-                      "content": [
-                        "Isaiah 66:24"
-                      ]
-                    },
-                    "."
+                    "; see verse 48 and Isaiah 66:24."
                   ]
                 }
               ]
@@ -8220,29 +8222,22 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "6",
                       "content": [
-                        "46"
+                        "class=|fnv|>46"
                       ]
                     },
-                    "where their worm never dies, and the fire is never quenched"
+                    "</span>where their worm never dies, and the fire is never quenched"
                   ]
                 },
                 {
                   "type": "char",
                   "marker": "ft",
                   "content": [
-                    "; see verse 48 and ",
-                    {
-                      "type": "ref",
-                      "loc": "ISA 66:24",
-                      "content": [
-                        "Isaiah 66:24"
-                      ]
-                    },
-                    "."
+                    "; see verse 48 and Isaiah 66:24."
                   ]
                 }
               ]
@@ -10397,14 +10392,15 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "6",
                       "content": [
-                        "26"
+                        "class=|fnv|>26"
                       ]
                     },
-                    "But if you do not forgive, neither will your Father in heaven forgive your trespasses"
+                    "</span>But if you do not forgive, neither will your Father in heaven forgive your trespasses"
                   ]
                 },
                 {
@@ -11816,7 +11812,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; a lepton was a Jewish coin of bronze or copper worth about 1/128 of a denarius."
+                "; a lepton was a Jewish coin of bronze or copper worth ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "about 1"
+                  ]
+                },
+                "/128 of a denarius."
               ]
             }
           ]
@@ -15388,14 +15392,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "8",
                   "content": [
-                    "28"
+                    "class=|fnv|>28"
                   ]
                 },
-                "So the Scripture was fulfilled that says, “And He was numbered with the transgressors.”"
+                "</span>So the Scripture was fulfilled that says, “And He was numbered with the transgressors.”"
               ]
             },
             {
@@ -16094,14 +16099,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "9",
                   "content": [
-                    "9"
+                    "class=|fnv|>9"
                   ]
                 },
-                "But they quickly reported all these instructions to Peter’s companions. Afterward, Jesus Himself, through them, sent out from east to west the sacred and imperishable proclamation of eternal salvation. Amen."
+                "</span>But they quickly reported all these instructions to Peter’s companions. Afterward, Jesus Himself, through them, sent out from east to west the sacred and imperishable proclamation of eternal salvation. Amen."
               ]
             }
           ]

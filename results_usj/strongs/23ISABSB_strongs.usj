@@ -11717,7 +11717,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, the area ten yoke of oxen can plow in a day will yield approximately 5.8 gallons or 22 liters of wine."
+                "; that is, the area ten yoke of oxen can plow in a day will yield ",
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "approximately 5"
+                  ]
+                },
+                ".8 gallons or 22 liters of wine."
               ]
             }
           ]
@@ -11797,7 +11805,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, a homer of seed (approximately 6.24 bushels or 220 liters) will yield a tenth of its weight in grain."
+                "; that is, a homer of seed ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "(approximately 6"
+                  ]
+                },
+                ".24 bushels or 220 liters) will yield a tenth of its weight in grain."
               ]
             }
           ]
@@ -19107,7 +19123,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 25.1 pounds or 11.4 kilograms of silver"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "25",
+                  "content": [
+                    "approximately 25"
+                  ]
+                },
+                ".1 pounds or 11.4 kilograms of silver"
               ]
             }
           ]
@@ -21075,14 +21099,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; cited in ",
+                "; cited ",
                 {
                   "type": "ref",
-                  "loc": "1PE 3:14",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 3:14"
+                    "in 1"
                   ]
-                }
+                },
+                " Peter 3:14"
               ]
             }
           ]
@@ -27758,15 +27783,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 22; see ",
-                {
-                  "type": "ref",
-                  "loc": "ISA 7:3",
-                  "content": [
-                    "Isaiah 7:3"
-                  ]
-                },
-                "."
+                "; also in verse 22; see Isaiah 7:3."
               ]
             }
           ]
@@ -53395,14 +53412,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 15:32",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 15:32"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 15:32"
               ]
             }
           ]
@@ -60682,14 +60700,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; cited in ",
+                "; cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 15:54",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 15:54"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 15:54"
               ]
             }
           ]
@@ -67135,14 +67154,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 14:21",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 14:21"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 14:21"
               ]
             }
           ]
@@ -71586,12 +71606,12 @@
                 "Cited in ",
                 {
                   "type": "ref",
-                  "loc": "MAT 15:8-9",
+                  "loc": "MAT 15:8-7:6",
                   "content": [
-                    "Matthew 15:8–9"
+                    "Matthew 15:8–9 and Mark 7:6"
                   ]
                 },
-                " and Mark 7:6–7"
+                "–7"
               ]
             }
           ]
@@ -71763,14 +71783,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 1:19",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 1:19"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 1:19"
               ]
             }
           ]
@@ -88146,14 +88167,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Rabshakeh "
+                "Rabshakeh"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is the title of a high-ranking Assyrian military officer; here and throughout chapters 36 and 37, as well as 2 Kings 18 and 19"
+                "is the title of a high-ranking Assyrian military officer; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "36",
+                  "content": [
+                    "chapters 36"
+                  ]
+                },
+                " and 37, as well as 2 Kings 18 and 19"
               ]
             }
           ]
@@ -88582,15 +88611,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see DSS and ",
+                "; see DSS ",
                 {
                   "type": "ref",
-                  "loc": "2KI 18:20",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 18:20"
+                    "and 2"
                   ]
                 },
-                "; MT "
+                " Kings 18:20; MT "
               ]
             },
             {
@@ -93554,15 +93583,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "DSS (see also ",
+                "DSS (see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 19:19",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 19:19"
+                    "also 2"
                   ]
                 },
-                "); MT "
+                " Kings 19:19); MT "
               ]
             },
             {
@@ -94434,15 +94463,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "DSS (see also ",
+                "DSS (see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 19:24",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 19:24"
+                    "also 2"
                   ]
                 },
-                "); MT does not include "
+                " Kings 19:24); MT does not include "
               ]
             },
             {
@@ -94862,15 +94891,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "DSS, some MT manuscripts, and some LXX manuscripts (see also ",
+                "DSS, some MT manuscripts, and some LXX manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "2KI 19:26",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 19:26"
+                    "also 2"
                   ]
                 },
-                "); most MT manuscripts "
+                " Kings 19:26); most MT manuscripts "
               ]
             },
             {
@@ -97134,15 +97163,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 20:6",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 20:6"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 20:6."
               ]
             }
           ]
@@ -101387,14 +101416,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1PE 1:24-25",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 1:24–25"
+                    "in 1"
                   ]
-                }
+                },
+                " Peter 1:24–25"
               ]
             }
           ]
@@ -130943,14 +130973,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "cited in ",
+                "cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 6:2",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 6:2"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 6:2"
               ]
             }
           ]
@@ -140527,14 +140558,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 6:17",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 6:17"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 6:17"
               ]
             }
           ]
@@ -141958,14 +141990,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1PE 2:24",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 2:24"
+                    "in 1"
                   ]
-                }
+                },
+                " Peter 2:24"
               ]
             }
           ]
@@ -142023,14 +142056,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1PE 2:25",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 2:25"
+                    "in 1"
                   ]
-                }
+                },
+                " Peter 2:25"
               ]
             }
           ]
@@ -142681,14 +142715,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1PE 2:22",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 2:22"
+                    "in 1"
                   ]
-                }
+                },
+                " Peter 2:22"
               ]
             }
           ]
@@ -167495,14 +167530,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 2:9",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 2:9"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 2:9"
               ]
             }
           ]

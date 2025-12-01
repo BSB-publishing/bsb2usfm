@@ -2368,14 +2368,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "61,000 gold drachmas"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "61,000"
+                  ]
+                },
+                " gold drachmas"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 1,129.7 pounds or 512.4 kilograms of gold coins"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ",129.7 pounds or 512.4 kilograms of gold coins"
               ]
             }
           ]
@@ -2397,14 +2412,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5,000 minas "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "5,000"
+                  ]
+                },
+                " minas"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.14 tons or 2.85 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".14 tons or 2.85 metric tons of silver."
               ]
             }
           ]
@@ -2527,15 +2557,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 8; see ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 6:14",
-                  "content": [
-                    "1 Chronicles 6:14"
-                  ]
-                },
-                "."
+                "; also in verse 8; see 1 Chronicles 6:14."
               ]
             }
           ]
@@ -3534,15 +3556,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 6:14",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 6:14"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 6:14."
               ]
             }
           ]
@@ -3940,15 +3962,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The house was to be approximately 90 feet or 27.4 meters in height and width; Syriac (see also ",
+                "The house was to be ",
                 {
                   "type": "ref",
-                  "loc": "1KI 6:2",
+                  "loc": "90",
                   "content": [
-                    "1 Kings 6:2"
+                    "approximately 90"
                   ]
                 },
-                ") "
+                " feet or 27.4 meters in height and width; Syriac (see also 1 Kings 6:2) "
               ]
             },
             {
@@ -4774,14 +4796,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.77 tons or 3.42 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".77 tons or 3.42 metric tons of silver."
               ]
             }
           ]
@@ -4803,14 +4840,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 cors "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " cors"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 624 bushels or 22,000 liters (probably about 19.2 tons or 17.4 metric tons of wheat)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "624",
+                  "content": [
+                    "approximately 624"
+                  ]
+                },
+                " bushels or 22,000 liters (probably about 19.2 tons or 17.4 metric tons of wheat)."
               ]
             }
           ]
@@ -4832,14 +4884,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 baths "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " baths"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 580 gallons or 2,200 liters of wine."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "580",
+                  "content": [
+                    "approximately 580"
+                  ]
+                },
+                " gallons or 2,200 liters of wine."
               ]
             }
           ]
@@ -4868,14 +4935,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 baths of oil"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " baths of oil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 580 gallons or 2,200 liters"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "580",
+                  "content": [
+                    "approximately 580"
+                  ]
+                },
+                " gallons or 2,200 liters"
               ]
             }
           ]
@@ -5052,15 +5134,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some LXX manuscripts (see also ",
+                "Some LXX manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "8:32",
+                  "loc": "1",
                   "content": [
-                    "1 Esdras 8:32"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Esdras 8:32); Hebrew "
               ]
             },
             {
@@ -5154,15 +5236,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some LXX manuscripts (see also ",
+                "Some LXX manuscripts (see ",
                 {
                   "type": "ref",
-                  "loc": "8:36",
+                  "loc": "1",
                   "content": [
-                    "1 Esdras 8:36"
+                    "also 1"
                   ]
                 },
-                "); Hebrew "
+                " Esdras 8:36); Hebrew "
               ]
             },
             {
@@ -5515,14 +5597,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "650 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "650"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 24.5 tons or 22.2 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "24",
+                  "content": [
+                    "approximately 24"
+                  ]
+                },
+                ".5 tons or 22.2 metric tons of silver."
               ]
             }
           ]
@@ -5544,14 +5641,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.77 tons or 3.42 metric tons of silver articles."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".77 tons or 3.42 metric tons of silver articles."
               ]
             }
           ]
@@ -5573,14 +5685,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.77 tons or 3.42 metric tons of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".77 tons or 3.42 metric tons of gold."
               ]
             }
           ]
@@ -5614,14 +5741,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "worth 1,000 drachmas"
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "worth 1"
+                  ]
+                },
+                ",000 drachmas"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 18.5 pounds or 8.4 kilograms of gold"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "18",
+                  "content": [
+                    "approximately 18"
+                  ]
+                },
+                ".5 pounds or 8.4 kilograms of gold"
               ]
             }
           ]
@@ -6309,15 +6451,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 6:14",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 6:14"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 6:14."
               ]
             }
           ]

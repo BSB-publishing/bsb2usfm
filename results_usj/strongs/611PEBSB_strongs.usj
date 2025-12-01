@@ -9718,15 +9718,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "in the spirit, ",
+                "in the spirit, <span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "9",
                   "content": [
-                    "19"
+                    "class=|fnv|>19"
                   ]
                 },
-                "in which"
+                "</span>in which"
               ]
             }
           ]

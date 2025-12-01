@@ -8236,7 +8236,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 20.8 to 31.2 gallons (78.8 to 118.1 liters)"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "approximately 20"
+                  ]
+                },
+                ".8 to 31.2 gallons (78.8 to 118.1 liters)"
               ]
             }
           ]
@@ -25368,15 +25376,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "awaiting the moving of the waters. ",
+                "awaiting the moving of the waters. <span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "4",
                   "content": [
-                    "4"
+                    "class=|fnv|>4"
                   ]
                 },
-                "For from time to time an angel descended into the pool and stirred the water. As soon as it was stirred, the first to enter the pool would be healed of his disease."
+                "</span>For from time to time an angel descended into the pool and stirred the water. As soon as it was stirred, the first to enter the pool would be healed of his disease."
               ]
             }
           ]
@@ -34394,7 +34402,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 2.87 to 3.45 miles (4.62 to 5.55 kilometers)"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".87 to 3.45 miles (4.62 to 5.55 kilometers)"
               ]
             }
           ]
@@ -65197,22 +65213,15 @@
                   "type": "char",
                   "marker": "fqa",
                   "content": [
+                    "<span ",
                     {
-                      "type": "char",
-                      "marker": "fv",
+                      "type": "ref",
+                      "loc": "8",
                       "content": [
-                        "38"
+                        "class=|fnv|>38"
                       ]
                     },
-                    "“Lord, I believe.”... ",
-                    {
-                      "type": "char",
-                      "marker": "fv",
-                      "content": [
-                        "39"
-                      ]
-                    },
-                    "Then Jesus declared"
+                    "</span>“Lord, I believe.”... <span class=|fnv|>39</span>Then Jesus declared"
                   ]
                 },
                 {
@@ -73961,7 +73970,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 1.72 miles or 2.78 kilometers"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".72 miles or 2.78 kilometers"
               ]
             }
           ]
@@ -80192,7 +80209,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 12 ounces or 340 grams"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "12",
+                  "content": [
+                    "approximately 12"
+                  ]
+                },
+                " ounces or 340 grams"
               ]
             }
           ]
@@ -126161,7 +126186,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 34 kilograms"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "34",
+                  "content": [
+                    "approximately 34"
+                  ]
+                },
+                " kilograms"
               ]
             }
           ]
@@ -133556,7 +133589,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 300 feet or 91 meters"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "300",
+                  "content": [
+                    "approximately 300"
+                  ]
+                },
+                " feet or 91 meters"
               ]
             }
           ]

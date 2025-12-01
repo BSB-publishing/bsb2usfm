@@ -1904,7 +1904,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; some translators begin a new verse (15) after "
+                "; some translators begin a new verse ",
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "(15"
+                  ]
+                },
+                ") after "
               ]
             },
             {

@@ -10564,14 +10564,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A cubit "
+                "A cubit"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 18 inches or 45.7 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "18",
+                  "content": [
+                    "approximately 18"
+                  ]
+                },
+                " inches or 45.7 centimeters."
               ]
             }
           ]
@@ -23056,14 +23064,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An ephah "
+                "An ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 20 dry quarts or 22 liters (probably about 25.5 pounds or 11.6 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "approximately 20"
+                  ]
+                },
+                " dry quarts or 22 liters (probably about 25.5 pounds or 11.6 kilograms of flour)."
               ]
             }
           ]
@@ -32108,15 +32124,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verses 9 and 17; see ",
-                {
-                  "type": "ref",
-                  "loc": "GEN 32:30",
-                  "content": [
-                    "Genesis 32:30"
-                  ]
-                },
-                "."
+                "; also in verses 9 and 17; see Genesis 32:30."
               ]
             }
           ]
@@ -34563,14 +34571,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,700 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,700"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 42.7 pounds or 19.4 kilograms."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "42",
+                  "content": [
+                    "approximately 42"
+                  ]
+                },
+                ".7 pounds or 19.4 kilograms."
               ]
             }
           ]
@@ -35057,15 +35080,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 35; see ",
-                {
-                  "type": "ref",
-                  "loc": "JDG 6:32",
-                  "content": [
-                    "Judges 6:32"
-                  ]
-                },
-                "."
+                "; also in verse 35; see Judges 6:32."
               ]
             }
           ]
@@ -36455,14 +36470,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "70 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "70"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.76 pounds or 797.8 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".76 pounds or 797.8 grams of silver."
               ]
             }
           ]
@@ -54345,7 +54375,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and throughout chapter 13; corresponding pronouns may also be capitalized."
+                "; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "13",
+                  "content": [
+                    "chapter 13"
+                  ]
+                },
+                "; corresponding pronouns may also be capitalized."
               ]
             }
           ]
@@ -64330,14 +64368,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,100 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,100"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 27.6 pounds or 12.5 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "27",
+                  "content": [
+                    "approximately 27"
+                  ]
+                },
+                ".6 pounds or 12.5 kilograms of silver."
               ]
             }
           ]
@@ -68607,14 +68660,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,100 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,100"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 27.6 pounds or 12.5 kilograms of silver; also in verse 3."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "27",
+                  "content": [
+                    "approximately 27"
+                  ]
+                },
+                ".6 pounds or 12.5 kilograms of silver; also in verse 3."
               ]
             }
           ]
@@ -69037,14 +69105,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "200 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "200"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 5 pounds or 2.3 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "approximately 5"
+                  ]
+                },
+                " pounds or 2.3 kilograms of silver."
               ]
             }
           ]
@@ -69887,14 +69970,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4 ounces or 114 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                " ounces or 114 grams of silver."
               ]
             }
           ]

@@ -120,15 +120,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see LXX and ",
+                "; see LXX ",
                 {
                   "type": "ref",
-                  "loc": "1CH 6:26",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 6:26"
+                    "and 1"
                   ]
                 },
-                " and 35."
+                " Chronicles 6:26 and 35."
               ]
             }
           ]
@@ -185,15 +185,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 6:27",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 6:27"
+                    "see 1"
                   ]
                 },
-                " and 34."
+                " Chronicles 6:27 and 34."
               ]
             }
           ]
@@ -636,14 +636,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An ephah "
+                "An ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 20 dry quarts or 22 liters (probably about 25.5 pounds or 11.6 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "approximately 20"
+                  ]
+                },
+                " dry quarts or 22 liters (probably about 25.5 pounds or 11.6 kilograms of flour)."
               ]
             }
           ]
@@ -3061,7 +3069,14 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "70 men and 50,000 men"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "70"
+                  ]
+                },
+                " men and 50,000 men"
               ]
             },
             {
@@ -3075,7 +3090,14 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "70 men and 50,000 men of the people"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "70"
+                  ]
+                },
+                " men and 50,000 men of the people"
               ]
             },
             {
@@ -3089,7 +3111,14 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "70 men and 5,000 men"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "70"
+                  ]
+                },
+                " men and 5,000 men"
               ]
             },
             {
@@ -3103,7 +3132,14 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "70 men and 50 oxen"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "70"
+                  ]
+                },
+                " men and 50 oxen"
               ]
             }
           ]
@@ -3923,14 +3959,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A quarter shekel "
+                "A quarter shekel"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 0.1 ounces or 2.85 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".1 ounces or 2.85 grams of silver."
               ]
             }
           ]
@@ -4699,7 +4743,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Nahash, king of the Ammonites, had viciously oppressed the people of Gad and Reuben, gouging out the right eye of each Israelite dwelling there. He would not allow anyone to rescue them, and there was no Israelite east of the Jordan whose right eye had not been gouged out. But 7,000 men had escaped from the Ammonites and settled in Jabesh-gilead."
+                "Nahash, king of the Ammonites, had viciously oppressed the people of Gad and Reuben, gouging out the right eye of each Israelite dwelling there. He would not allow anyone to rescue them, and there was no Israelite east of the Jordan whose right eye had not been gouged out. ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "But 7"
+                  ]
+                },
+                ",000 men had escaped from the Ammonites and settled in Jabesh-gilead."
               ]
             }
           ]
@@ -4915,7 +4967,13 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "70,000"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "70,000"
+                  ]
+                }
               ]
             }
           ]
@@ -6047,14 +6105,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A pim "
+                "A pim"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "possibly refers to a polished stone weighing approximately 0.25 ounces or 7 grams found in excavations. This is equivalent to about two-thirds of a shekel and likely refers to the price charged by the Philistines for the services listed."
+                "possibly refers to a polished stone weighing ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".25 ounces or 7 grams found in excavations. This is equivalent to about two-thirds of a shekel and likely refers to the price charged by the Philistines for the services listed."
               ]
             }
           ]
@@ -7940,15 +8006,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 13:3",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 13:3"
+                    "see 2"
                   ]
                 },
-                ", 2 Samuel 21:21, and 1 Chronicles 2:13."
+                " Samuel 13:3, 2 Samuel 21:21, and 1 Chronicles 2:13."
               ]
             }
           ]
@@ -8238,21 +8304,36 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Goliath was approximately 9 feet 9 inches or 297 centimeters tall; LXX, DSS, and Josephus "
+                "Goliath was ",
+                {
+                  "type": "ref",
+                  "loc": "9",
+                  "content": [
+                    "approximately 9"
+                  ]
+                },
+                " feet 9 inches or 297 centimeters tall; LXX, DSS, and Josephus "
               ]
             },
             {
               "type": "char",
               "marker": "fqa",
               "content": [
-                "four cubits and a span in height "
+                "four cubits and a span in height"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "(approximately 6 feet 9 inches or 206 centimeters tall)."
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "(approximately 6"
+                  ]
+                },
+                " feet 9 inches or 206 centimeters tall)."
               ]
             }
           ]
@@ -8279,14 +8360,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5,000 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "5,000"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 125.6 pounds or 57 kilograms."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "125",
+                  "content": [
+                    "approximately 125"
+                  ]
+                },
+                ".6 pounds or 57 kilograms."
               ]
             }
           ]
@@ -8319,14 +8415,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "600 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "600"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 15.1 pounds or 6.8 kilograms."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "15",
+                  "content": [
+                    "approximately 15"
+                  ]
+                },
+                ".1 pounds or 6.8 kilograms."
               ]
             }
           ]
@@ -8492,14 +8603,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An ephah "
+                "An ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 20 dry quarts or 22 liters of roasted grain."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "approximately 20"
+                  ]
+                },
+                " dry quarts or 22 liters of roasted grain."
               ]
             }
           ]
@@ -12168,14 +12287,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 seahs "
+                "5 seahs"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 33 dry quarts or 36.5 liters of roasted grain."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "33",
+                  "content": [
+                    "approximately 33"
+                  ]
+                },
+                " dry quarts or 36.5 liters of roasted grain."
               ]
             }
           ]
@@ -12593,15 +12720,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 3:15",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 3:15"
+                    "see 2"
                   ]
                 },
-                "."
+                " Samuel 3:15."
               ]
             }
           ]
@@ -12984,15 +13111,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 2:39",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 2:39"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 2:39."
               ]
             }
           ]

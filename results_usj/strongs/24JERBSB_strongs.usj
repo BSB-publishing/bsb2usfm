@@ -34987,15 +34987,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 1:31",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 1:31"
+                    "in 1"
                   ]
                 },
-                " and 2 Corinthians 10:17"
+                " Corinthians 1:31 and 2 Corinthians 10:17"
               ]
             }
           ]
@@ -74137,15 +74137,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "That is, the palace in Jerusalem; see ",
+                "That is, the palace in Jerusalem; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 7:2",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 7:2"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 7:2."
               ]
             }
           ]
@@ -80717,15 +80717,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 24:12",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 24:12"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 24:12."
               ]
             }
           ]
@@ -90722,15 +90722,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "A few Hebrew manuscripts and Syriac (see also verses 3 and 12, and ",
-                {
-                  "type": "ref",
-                  "loc": "JER 28:1",
-                  "content": [
-                    "Jeremiah 28:1"
-                  ]
-                },
-                "); most Hebrew manuscripts "
+                "A few Hebrew manuscripts and Syriac (see also verses 3 and 12, and Jeremiah 28:1); most Hebrew manuscripts "
               ]
             },
             {
@@ -93465,15 +93457,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 24:12",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 24:12"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 24:12."
               ]
             }
           ]
@@ -94396,15 +94388,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 24:12",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 24:12"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 24:12."
               ]
             }
           ]
@@ -96503,15 +96495,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 24:12",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 24:12"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 24:12."
               ]
             }
           ]
@@ -111242,14 +111234,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "17 shekels "
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "17"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 6.8 ounces or 193.8 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                ".8 ounces or 193.8 grams of silver."
               ]
             }
           ]
@@ -114907,14 +114914,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 6:16",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 6:16"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 6:16"
               ]
             }
           ]
@@ -123297,15 +123305,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and throughout this chapter; see ",
+                "; here and throughout this chapter; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 10:15",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 10:15"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 10:15."
               ]
             }
           ]
@@ -141210,15 +141218,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2KI 25:23",
+                  "loc": "2",
                   "content": [
-                    "2 Kings 25:23"
+                    "see 2"
                   ]
                 },
-                "."
+                " Kings 25:23."
               ]
             }
           ]
@@ -164854,15 +164862,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 36; see ",
-                {
-                  "type": "ref",
-                  "loc": "ISA 16:7",
-                  "content": [
-                    "Isaiah 16:7"
-                  ]
-                },
-                "."
+                "; also in verse 36; see Isaiah 16:7."
               ]
             }
           ]
@@ -167379,15 +167379,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 3; see ",
-                {
-                  "type": "ref",
-                  "loc": "LEV 18:21",
-                  "content": [
-                    "Leviticus 18:21"
-                  ]
-                },
-                " and 1 Kings 11:7."
+                "; also in verse 3; see Leviticus 18:21 and 1 Kings 11:7."
               ]
             }
           ]
@@ -192034,7 +192026,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Each pillar was approximately 27 feet high and 18 feet in circumference (8.2 meters high and 5.5 meters in circumference)."
+                "Each pillar was ",
+                {
+                  "type": "ref",
+                  "loc": "27",
+                  "content": [
+                    "approximately 27"
+                  ]
+                },
+                " feet high and 18 feet in circumference (8.2 meters high and 5.5 meters in circumference)."
               ]
             }
           ]
@@ -192089,14 +192089,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "4 fingers "
+                "4 fingers"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2.9 inches or 7.4 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".9 inches or 7.4 centimeters."
               ]
             }
           ]
@@ -192179,14 +192187,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 cubits "
+                "5 cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 7.5 feet or 2.3 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 feet or 2.3 meters."
               ]
             }
           ]

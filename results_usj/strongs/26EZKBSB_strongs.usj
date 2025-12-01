@@ -9142,14 +9142,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 8 ounces or 228 grams of food."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "approximately 8"
+                  ]
+                },
+                " ounces or 228 grams of food."
               ]
             }
           ]
@@ -9248,14 +9263,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A sixth of a hin "
+                "A sixth of a hin"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 0.65 quarts or 0.61 liters of water."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".65 quarts or 0.61 liters of water."
               ]
             }
           ]
@@ -57532,15 +57555,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see also ",
+                "; see ",
                 {
                   "type": "ref",
-                  "loc": "2CO 6:17",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 6:17"
+                    "also 2"
                   ]
                 },
-                "."
+                " Corinthians 6:17."
               ]
             }
           ]
@@ -120059,14 +120082,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 6:16",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 6:16"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 6:16"
               ]
             }
           ]
@@ -127801,7 +127825,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                ", the length of the reed used for measuring, is approximately 10.5 feet or 3.2 meters; similarly in verses 6, 7, and 12. The long cubit of about 21 inches or 53.3 centimeters is the basic unit of length throughout Ezekiel 40 to 48."
+                ", the length of the reed used for measuring, is ",
+                {
+                  "type": "ref",
+                  "loc": "10",
+                  "content": [
+                    "approximately 10"
+                  ]
+                },
+                ".5 feet or 3.2 meters; similarly in verses 6, 7, and 12. The long cubit of about 21 inches or 53.3 centimeters is the basic unit of length throughout Ezekiel 40 to 48."
               ]
             }
           ]
@@ -128121,14 +128153,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 (long) cubits "
+                "5 (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 8.75 feet or 2.7 meters; also in verses 30 and 48."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "approximately 8"
+                  ]
+                },
+                ".75 feet or 2.7 meters; also in verses 30 and 48."
               ]
             }
           ]
@@ -128319,14 +128359,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "8 (long) cubits "
+                "8 (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 14 feet or 4.3 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "14",
+                  "content": [
+                    "approximately 14"
+                  ]
+                },
+                " feet or 4.3 meters."
               ]
             }
           ]
@@ -128372,14 +128420,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "2 (long) cubits "
+                "2 (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.5 feet or 1.1 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".5 feet or 1.1 meters."
               ]
             }
           ]
@@ -128582,14 +128638,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 17.5 feet or 5.3 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "17",
+                  "content": [
+                    "approximately 17"
+                  ]
+                },
+                ".5 feet or 5.3 meters."
               ]
             }
           ]
@@ -128635,14 +128706,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "13 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "13"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 22.75 feet or 6.9 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "22",
+                  "content": [
+                    "approximately 22"
+                  ]
+                },
+                ".75 feet or 6.9 meters."
               ]
             }
           ]
@@ -128819,14 +128905,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "25 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "25"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 43.75 feet or 13.3 meters; also in verses 21, 25, 29, 30, 33, and 36."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "43",
+                  "content": [
+                    "approximately 43"
+                  ]
+                },
+                ".75 feet or 13.3 meters; also in verses 21, 25, 29, 30, 33, and 36."
               ]
             }
           ]
@@ -128917,14 +129018,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "60 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "60"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 105 feet or 32 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "105",
+                  "content": [
+                    "approximately 105"
+                  ]
+                },
+                " feet or 32 meters."
               ]
             }
           ]
@@ -129072,14 +129188,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 87.5 feet or 26.7 meters; also in verses 21, 25, 29, 33, and 36."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "87",
+                  "content": [
+                    "approximately 87"
+                  ]
+                },
+                ".5 feet or 26.7 meters; also in verses 21, 25, 29, 33, and 36."
               ]
             }
           ]
@@ -129170,7 +129301,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and throughout Ezekiel 40 and 41."
+                "; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "EZK 40",
+                  "content": [
+                    "Ezekiel 40"
+                  ]
+                },
+                " and 41."
               ]
             }
           ]
@@ -129580,14 +129719,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 175 feet or 53.3 meters; also in verses 23, 27, and 47."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "175",
+                  "content": [
+                    "approximately 175"
+                  ]
+                },
+                " feet or 53.3 meters; also in verses 23, 27, and 47."
               ]
             }
           ]
@@ -130788,7 +130942,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The porticoes were approximately 43.75 feet long and 8.75 feet deep (13.3 meters long and 2.7 meters deep)."
+                "The porticoes were ",
+                {
+                  "type": "ref",
+                  "loc": "43",
+                  "content": [
+                    "approximately 43"
+                  ]
+                },
+                ".75 feet long and 8.75 feet deep (13.3 meters long and 2.7 meters deep)."
               ]
             }
           ]
@@ -132038,7 +132200,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The tables were approximately 2.6 feet in length and width, and 1.75 feet high (79.2 centimeters in length and width, and 53.3 centimeters high)."
+                "The tables were ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".6 feet in length and width, and 1.75 feet high (79.2 centimeters in length and width, and 53.3 centimeters high)."
               ]
             }
           ]
@@ -132174,14 +132344,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A handbreadth "
+                "A handbreadth"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2.9 inches or 7.4 centimeters long."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".9 inches or 7.4 centimeters long."
               ]
             }
           ]
@@ -132959,7 +133137,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX; the gateway was approximately 24.5 feet or 7.5 meters wide, with sidewalls approximately 5.25 feet or 1.6 meters wide on either side. Hebrew "
+                "LXX; the gateway was ",
+                {
+                  "type": "ref",
+                  "loc": "24",
+                  "content": [
+                    "approximately 24"
+                  ]
+                },
+                ".5 feet or 7.5 meters wide, with sidewalls approximately 5.25 feet or 1.6 meters wide on either side. Hebrew "
               ]
             },
             {
@@ -133024,14 +133210,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 35 feet or 10.7 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "35",
+                  "content": [
+                    "approximately 35"
+                  ]
+                },
+                " feet or 10.7 meters."
               ]
             }
           ]
@@ -133084,14 +133285,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "12 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "12"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 21 feet or 6.4 meters; Hebrew "
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "21",
+                  "content": [
+                    "approximately 21"
+                  ]
+                },
+                " feet or 6.4 meters; Hebrew "
               ]
             },
             {
@@ -133105,7 +133321,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 19.25 feet or 5.9 meters."
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "19",
+                  "content": [
+                    "approximately 19"
+                  ]
+                },
+                ".25 feet or 5.9 meters."
               ]
             }
           ]
@@ -133309,14 +133533,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "6 (long) cubits "
+                "6 (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 10.5 feet or 3.2 meters; also in verses 3, 5, and 8."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "10",
+                  "content": [
+                    "approximately 10"
+                  ]
+                },
+                ".5 feet or 3.2 meters; also in verses 3, 5, and 8."
               ]
             }
           ]
@@ -133412,14 +133644,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 17.5 feet or 5.3 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "17",
+                  "content": [
+                    "approximately 17"
+                  ]
+                },
+                ".5 feet or 5.3 meters."
               ]
             }
           ]
@@ -133472,14 +133719,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 (long) cubits "
+                "5 (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 8.75 feet or 2.7 meters; also in verses 9, 11, and 12."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "approximately 8"
+                  ]
+                },
+                ".75 feet or 2.7 meters; also in verses 9, 11, and 12."
               ]
             }
           ]
@@ -133575,7 +133830,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The outer sanctuary was approximately 70 feet long and 35 feet wide (21.3 meters long and 10.7 meters wide)."
+                "The outer sanctuary was ",
+                {
+                  "type": "ref",
+                  "loc": "70",
+                  "content": [
+                    "approximately 70"
+                  ]
+                },
+                " feet long and 35 feet wide (21.3 meters long and 10.7 meters wide)."
               ]
             }
           ]
@@ -133665,14 +133928,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "2 (long) cubits "
+                "2 (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.5 feet or 1.1 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".5 feet or 1.1 meters."
               ]
             }
           ]
@@ -133751,14 +134022,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "7 (long) cubits "
+                "7 (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 12.25 feet or 3.7 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "12",
+                  "content": [
+                    "approximately 12"
+                  ]
+                },
+                ".25 feet or 3.7 meters."
               ]
             }
           ]
@@ -133885,7 +134164,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The room was approximately 35 feet long and 35 feet wide (10.7 meters long and 10.7 meters wide)."
+                "The room was ",
+                {
+                  "type": "ref",
+                  "loc": "35",
+                  "content": [
+                    "approximately 35"
+                  ]
+                },
+                " feet long and 35 feet wide (10.7 meters long and 10.7 meters wide)."
               ]
             }
           ]
@@ -134086,14 +134373,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "4 (long) cubits "
+                "4 (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 7 feet or 2.1 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                " feet or 2.1 meters."
               ]
             }
           ]
@@ -134876,14 +135171,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "70 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "70"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 122.5 feet or 37.3 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "122",
+                  "content": [
+                    "approximately 122"
+                  ]
+                },
+                ".5 feet or 37.3 meters."
               ]
             }
           ]
@@ -134986,14 +135296,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "90 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "90"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 157.5 feet or 48 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "157",
+                  "content": [
+                    "approximately 157"
+                  ]
+                },
+                ".5 feet or 48 meters."
               ]
             }
           ]
@@ -135067,14 +135392,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 175 feet or 53.3 meters; similarly in verses 14 and 15."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "175",
+                  "content": [
+                    "approximately 175"
+                  ]
+                },
+                " feet or 53.3 meters; similarly in verses 14 and 15."
               ]
             }
           ]
@@ -136006,7 +136346,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; the altar was approximately 5.25 feet high and 3.5 feet square (1.6 meters high and 1.1 meters square)"
+                "; the altar was ",
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "approximately 5"
+                  ]
+                },
+                ".25 feet high and 3.5 feet square (1.6 meters high and 1.1 meters square)"
               ]
             }
           ]
@@ -136667,7 +137015,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The building was approximately 175 feet long and 87.5 feet wide (53.3 meters long and 26.7 meters wide)."
+                "The building was ",
+                {
+                  "type": "ref",
+                  "loc": "175",
+                  "content": [
+                    "approximately 175"
+                  ]
+                },
+                " feet long and 87.5 feet wide (53.3 meters long and 26.7 meters wide)."
               ]
             }
           ]
@@ -136741,14 +137097,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 35 feet or 10.7 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "35",
+                  "content": [
+                    "approximately 35"
+                  ]
+                },
+                " feet or 10.7 meters."
               ]
             }
           ]
@@ -136919,7 +137290,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX. The walkway was approximately 17.5 feet wide and 175 feet long (5.3 meters wide and 53.3 meters long). Hebrew "
+                "LXX. The walkway was ",
+                {
+                  "type": "ref",
+                  "loc": "17",
+                  "content": [
+                    "approximately 17"
+                  ]
+                },
+                ".5 feet wide and 175 feet long (5.3 meters wide and 53.3 meters long). Hebrew "
               ]
             },
             {
@@ -138395,7 +138774,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                ", that is approximately 5,250 feet or 1,600 meters; similarly in verses 17, 18, 19, and 20."
+                ", that is ",
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "approximately 5"
+                  ]
+                },
+                ",250 feet or 1,600 meters; similarly in verses 17, 18, 19, and 20."
               ]
             }
           ]
@@ -140419,7 +140806,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                ", about 21 inches or 53.3 centimeters, is the basic unit for linear measurement throughout Ezekiel 40–48. "
+                ", ",
+                {
+                  "type": "ref",
+                  "loc": "21",
+                  "content": [
+                    "about 21"
+                  ]
+                },
+                " inches or 53.3 centimeters, is the basic unit for linear measurement throughout Ezekiel 40–48. "
               ]
             }
           ]
@@ -140515,14 +140910,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "One span "
+                "One span"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 9 inches or 22.9 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "9",
+                  "content": [
+                    "approximately 9"
+                  ]
+                },
+                " inches or 22.9 centimeters."
               ]
             }
           ]
@@ -140678,7 +141081,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The space was to be approximately 3.5 feet (1.1 meters), and the ledge was to be approximately 1.75 feet wide (53.3 centimeters wide)."
+                "The space was to be ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".5 feet (1.1 meters), and the ledge was to be approximately 1.75 feet wide (53.3 centimeters wide)."
               ]
             }
           ]
@@ -140773,7 +141184,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The space was to be approximately 7 feet (2.1 meters), and the ledge was to be approximately 1.75 feet wide (53.3 centimeters wide)."
+                "The space was to be ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                " feet (2.1 meters), and the ledge was to be approximately 1.75 feet wide (53.3 centimeters wide)."
               ]
             }
           ]
@@ -140943,14 +141362,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "12 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "12"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 21 feet or 6.4 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "21",
+                  "content": [
+                    "approximately 21"
+                  ]
+                },
+                " feet or 6.4 meters."
               ]
             }
           ]
@@ -141026,14 +141460,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "14 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "14"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 24.5 feet or 7.5 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "24",
+                  "content": [
+                    "approximately 24"
+                  ]
+                },
+                ".5 feet or 7.5 meters."
               ]
             }
           ]
@@ -141078,14 +141527,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A half cubit "
+                "A half cubit"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 10.5 inches or 26.7 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "10",
+                  "content": [
+                    "approximately 10"
+                  ]
+                },
+                ".5 inches or 26.7 centimeters."
               ]
             }
           ]
@@ -146106,29 +146563,36 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "LXX; the holy portion was to be approximately 8.3 miles long and 6.6 miles wide (13.3 kilometers long and 10.7 kilometers wide). Hebrew "
+                "LXX; the holy portion was to be ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "approximately 8"
+                  ]
+                },
+                ".3 miles long and 6.6 miles wide (13.3 kilometers long and 10.7 kilometers wide). Hebrew "
               ]
             },
             {
               "type": "char",
               "marker": "fqa",
               "content": [
-                "25,000 cubits long and 10,000 wide"
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "25,000"
+                  ]
+                },
+                " cubits long and 10,000 wide"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                ". See also verses 3 and 5 and ",
-                {
-                  "type": "ref",
-                  "loc": "EZK 48:9",
-                  "content": [
-                    "Ezekiel 48:9"
-                  ]
-                },
-                "."
+                ". See also verses 3 and 5 and Ezekiel 48:9."
               ]
             }
           ]
@@ -146243,14 +146707,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "500 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "500"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 875 feet or 266.7 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "875",
+                  "content": [
+                    "approximately 875"
+                  ]
+                },
+                " feet or 266.7 meters."
               ]
             }
           ]
@@ -146287,14 +146766,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 87.5 feet or 26.7 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "87",
+                  "content": [
+                    "approximately 87"
+                  ]
+                },
+                ".5 feet or 26.7 meters."
               ]
             }
           ]
@@ -146410,7 +146904,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The portion was to be approximately 8.3 miles long and 3.3 miles wide (13.3 kilometers long and 5.3 kilometers wide); similarly in verse 5."
+                "The portion was to be ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "approximately 8"
+                  ]
+                },
+                ".3 miles long and 3.3 miles wide (13.3 kilometers long and 5.3 kilometers wide); similarly in verse 5."
               ]
             }
           ]
@@ -146816,7 +147318,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The property of the city was to be approximately 1.7 miles wide and 8.3 miles long (2.7 kilometers wide and 13.3 kilometers long)."
+                "The property of the city was to be ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".7 miles wide and 8.3 miles long (2.7 kilometers wide and 13.3 kilometers long)."
               ]
             }
           ]
@@ -147468,14 +147978,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An ephah "
+                "An ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is a dry measure of approximately 20 dry quarts or 22 liters."
+                "is a dry measure of ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "approximately 20"
+                  ]
+                },
+                " dry quarts or 22 liters."
               ]
             }
           ]
@@ -147513,14 +148031,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A bath "
+                "A bath"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was a liquid measure of approximately 5.8 gallons or 22 liters."
+                "was a liquid measure of ",
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "approximately 5"
+                  ]
+                },
+                ".8 gallons or 22 liters."
               ]
             }
           ]
@@ -147676,14 +148202,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A homer "
+                "A homer"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was a dry measure of approximately 6.24 bushels or 220 liters; also in verses 13 and 14."
+                "was a dry measure of ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                ".24 bushels or 220 liters; also in verses 13 and 14."
               ]
             }
           ]
@@ -147741,14 +148275,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 gerahs "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " gerahs"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is equivalent to one shekel (approximately 0.4 ounces or 11.4 grams)."
+                "is equivalent to one shekel ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "(approximately 0"
+                  ]
+                },
+                ".4 ounces or 11.4 grams)."
               ]
             }
           ]
@@ -147834,7 +148383,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "That is, 60 shekels total; elsewhere, the common mina was 50 shekels. Sixty shekels weighed approximately 1.5 pounds or 683.8 grams."
+                "That ",
+                {
+                  "type": "ref",
+                  "loc": "60",
+                  "content": [
+                    "is, 60"
+                  ]
+                },
+                " shekels total; elsewhere, the common mina was 50 shekels. Sixty shekels weighed approximately 1.5 pounds or 683.8 grams."
               ]
             }
           ]
@@ -147972,14 +148529,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "a sixth of an ephah "
+                "a sixth of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was approximately 3.3 dry quarts or 3.7 liters."
+                "was ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".3 dry quarts or 3.7 liters."
               ]
             }
           ]
@@ -148070,14 +148635,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "a tenth of a bath "
+                "a tenth of a bath"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was approximately 2.3 quarts or 2.2 liters."
+                "was ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".3 quarts or 2.2 liters."
               ]
             }
           ]
@@ -149342,7 +149915,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 0.97 gallons or 3.67 liters of oil for each ephah of grain"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".97 gallons or 3.67 liters of oil for each ephah of grain"
               ]
             }
           ]
@@ -150146,14 +150727,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An ephah "
+                "An ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 20 dry quarts or 22 liters (probably about 38.3 pounds or 17.4 kilograms of grain); also in verses 7 and 11."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "approximately 20"
+                  ]
+                },
+                " dry quarts or 22 liters (probably about 38.3 pounds or 17.4 kilograms of grain); also in verses 7 and 11."
               ]
             }
           ]
@@ -151306,14 +151895,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A sixth of an ephah "
+                "A sixth of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.3 dry quarts or 3.7 liters (probably about 4.2 pounds or 1.9 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".3 dry quarts or 3.7 liters (probably about 4.2 pounds or 1.9 kilograms of flour)."
               ]
             }
           ]
@@ -151372,7 +151969,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 1.3 quarts or 1.2 liters"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".3 quarts or 1.2 liters"
               ]
             }
           ]
@@ -152424,7 +153029,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The enclosed courts were approximately 70 feet long and 52.5 feet wide (21.3 meters long and 16 meters wide)."
+                "The enclosed courts were ",
+                {
+                  "type": "ref",
+                  "loc": "70",
+                  "content": [
+                    "approximately 70"
+                  ]
+                },
+                " feet long and 52.5 feet wide (21.3 meters long and 16 meters wide)."
               ]
             }
           ]
@@ -153091,14 +153704,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,000 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,000"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1,750 feet or 533.4 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ",750 feet or 533.4 meters."
               ]
             }
           ]
@@ -154775,22 +155403,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "5",
                   "content": [
-                    "15"
+                    "class=|fnv|>15"
                   ]
                 },
-                "...through Lebo to Zedad, ",
-                {
-                  "type": "char",
-                  "marker": "fv",
-                  "content": [
-                    "16"
-                  ]
-                },
-                "Hamath, Berothah, and Sibraim"
+                "</span>...through Lebo to Zedad, <span class=|fnv|>16</span>Hamath, Berothah, and Sibraim"
               ]
             }
           ]
@@ -156530,14 +157151,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "25,000 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "25,000"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 8.3 miles or 13.3 kilometers; also in verses 9, 10, 13, 15, 20, and 21."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "approximately 8"
+                  ]
+                },
+                ".3 miles or 13.3 kilometers; also in verses 9, 10, 13, 15, 20, and 21."
               ]
             }
           ]
@@ -156709,14 +157345,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10,000 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10,000"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.3 miles or 5.3 kilometers; also in verses 10, 13, and 18."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".3 miles or 5.3 kilometers; also in verses 10, 13, and 18."
               ]
             }
           ]
@@ -157387,14 +158038,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5,000 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "5,000"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.7 miles or 2.7 kilometers."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".7 miles or 2.7 kilometers."
               ]
             }
           ]
@@ -157521,14 +158187,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "4,500 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "4,500"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.5 miles or 2.4 kilometers; also in verses 30, 32, 33, and 34."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".5 miles or 2.4 kilometers; also in verses 30, 32, 33, and 34."
               ]
             }
           ]
@@ -157685,14 +158366,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "250 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "250"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 437.5 feet or 133.4 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "437",
+                  "content": [
+                    "approximately 437"
+                  ]
+                },
+                ".5 feet or 133.4 meters."
               ]
             }
           ]
@@ -159662,14 +160358,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "18,000 (long) cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "18,000"
+                  ]
+                },
+                " (long) cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 6 miles or 9.6 kilometers."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                " miles or 9.6 kilometers."
               ]
             }
           ]

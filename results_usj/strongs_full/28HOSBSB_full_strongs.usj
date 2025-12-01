@@ -5754,14 +5754,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "15 shekels "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "15"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 6 ounces or 171 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                " ounces or 171 grams of silver."
               ]
             }
           ]
@@ -5829,7 +5844,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, a total of approximately 9.36 bushels or 330 liters (probably about 436 pounds or 198 kilograms of barley); LXX "
+                "; that is, a total of ",
+                {
+                  "type": "ref",
+                  "loc": "9",
+                  "content": [
+                    "approximately 9"
+                  ]
+                },
+                ".36 bushels or 330 liters (probably about 436 pounds or 198 kilograms of barley); LXX "
               ]
             },
             {
@@ -8443,15 +8466,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 12:28-29",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 12:28–29"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 12:28–29."
               ]
             }
           ]
@@ -10048,15 +10071,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 12:28-29",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 12:28–29"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 12:28–29."
               ]
             }
           ]
@@ -14118,15 +14141,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some Hebrew manuscripts and LXX; see ",
+                "Some Hebrew manuscripts and LXX; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 18:28",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 18:28"
+                    "see 1"
                   ]
                 },
-                ". Most Hebrew manuscripts "
+                " Kings 18:28. Most Hebrew manuscripts "
               ]
             },
             {
@@ -14888,15 +14911,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 12:29",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 12:29"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 12:29."
               ]
             }
           ]
@@ -19111,15 +19134,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 12:28-29",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 12:28–29"
+                    "see 1"
                   ]
                 },
-                "."
+                " Kings 12:28–29."
               ]
             }
           ]
@@ -24512,15 +24535,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1KI 19:18",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 19:18"
+                    "See 1"
                   ]
                 },
-                "."
+                " Kings 19:18."
               ]
             }
           ]
@@ -25855,14 +25877,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 15:55",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 15:55"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 15:55"
               ]
             }
           ]

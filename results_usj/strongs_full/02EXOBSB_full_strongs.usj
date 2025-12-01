@@ -2668,15 +2668,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 5; see ",
-                {
-                  "type": "ref",
-                  "loc": "GEN 6:14",
-                  "content": [
-                    "Genesis 6:14"
-                  ]
-                },
-                "."
+                "; also in verse 5; see Genesis 6:14."
               ]
             }
           ]
@@ -10261,14 +10253,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "leprous "
+                "leprous"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was used for various skin diseases; see Leviticus 13."
+                "was used for various skin diseases; see ",
+                {
+                  "type": "ref",
+                  "loc": "LEV 13",
+                  "content": [
+                    "Leviticus 13"
+                  ]
+                },
+                "."
               ]
             }
           ]
@@ -19554,15 +19554,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 6:23",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 6:23"
+                    "see 1"
                   ]
                 },
-                " and 1 Chronicles 9:19."
+                " Chronicles 6:23 and 1 Chronicles 9:19."
               ]
             }
           ]
@@ -58970,14 +58970,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An omer "
+                "An omer"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2 dry quarts or 2.2 liters; also in verses 18, 32, 33, and 36."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                " dry quarts or 2.2 liters; also in verses 18, 32, 33, and 36."
               ]
             }
           ]
@@ -59190,14 +59198,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 8:15",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 8:15"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 8:15"
               ]
             }
           ]
@@ -59677,14 +59686,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "2 omers "
+                "2 omers"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4 dry quarts or 4.4 liters per person."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                " dry quarts or 4.4 liters per person."
               ]
             }
           ]
@@ -61536,14 +61553,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "An ephah "
+                "An ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "was a dry measure having the capacity of about 20 dry quarts or 22 liters."
+                "was a dry measure having the capacity of ",
+                {
+                  "type": "ref",
+                  "loc": "20",
+                  "content": [
+                    "about 20"
+                  ]
+                },
+                " dry quarts or 22 liters."
               ]
             }
           ]
@@ -77684,14 +77709,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "30 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "30"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 12 ounces or 342 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "12",
+                  "content": [
+                    "approximately 12"
+                  ]
+                },
+                " ounces or 342 grams of silver."
               ]
             }
           ]
@@ -88890,7 +88930,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The ark was approximately 3.75 feet long, 2.25 feet wide, and 2.25 feet high (114.3 centimeters long, 68.6 centimeters wide, and 68.6 centimeters high)."
+                "The ark was ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".75 feet long, 2.25 feet wide, and 2.25 feet high (114.3 centimeters long, 68.6 centimeters wide, and 68.6 centimeters high)."
               ]
             }
           ]
@@ -89635,7 +89683,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The mercy seat was approximately 3.75 feet long and 2.25 feet wide (114.3 centimeters long and 68.6 centimeters wide)."
+                "The mercy seat was ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".75 feet long and 2.25 feet wide (114.3 centimeters long and 68.6 centimeters wide)."
               ]
             }
           ]
@@ -90508,7 +90564,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The table was approximately 3 feet long, 1.5 feet wide, and 2.25 feet high (91.4 centimeters long, 45.7 centimeters wide, and 68.6 centimeters high)."
+                "The table was ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                " feet long, 1.5 feet wide, and 2.25 feet high (91.4 centimeters long, 45.7 centimeters wide, and 68.6 centimeters high)."
               ]
             }
           ]
@@ -90636,14 +90700,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A handbreadth "
+                "A handbreadth"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2.9 inches or 7.4 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".9 inches or 7.4 centimeters."
               ]
             }
           ]
@@ -92151,14 +92223,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A talent "
+                "A talent"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75.4 pounds or 34.2 kilograms of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                ".4 pounds or 34.2 kilograms of gold."
               ]
             }
           ]
@@ -92543,7 +92623,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Each of the ten curtains was approximately 42 feet long and 6 feet wide (12.8 meters long and 1.8 meters wide)."
+                "Each of the ten curtains was ",
+                {
+                  "type": "ref",
+                  "loc": "42",
+                  "content": [
+                    "approximately 42"
+                  ]
+                },
+                " feet long and 6 feet wide (12.8 meters long and 1.8 meters wide)."
               ]
             }
           ]
@@ -93380,7 +93468,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Each of the eleven curtains was approximately 45 feet long and 6 feet wide (13.7 meters long and 1.8 meters wide)."
+                "Each of the eleven curtains was ",
+                {
+                  "type": "ref",
+                  "loc": "45",
+                  "content": [
+                    "approximately 45"
+                  ]
+                },
+                " feet long and 6 feet wide (13.7 meters long and 1.8 meters wide)."
               ]
             }
           ]
@@ -93934,14 +94030,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A cubit "
+                "A cubit"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 18 inches or 45.7 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "18",
+                  "content": [
+                    "approximately 18"
+                  ]
+                },
+                " inches or 45.7 centimeters."
               ]
             }
           ]
@@ -94344,7 +94448,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Each frame was approximately 15 feet long and 2.25 feet wide (4.6 meters long and 68.6 centimeters wide)."
+                "Each frame was ",
+                {
+                  "type": "ref",
+                  "loc": "15",
+                  "content": [
+                    "approximately 15"
+                  ]
+                },
+                " feet long and 2.25 feet wide (4.6 meters long and 68.6 centimeters wide)."
               ]
             }
           ]
@@ -96991,7 +97103,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The altar was approximately 7.5 feet in length and width, and 4.5 feet high (2.3 meters in length and width, and 1.4 meters high)."
+                "The altar was ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 feet in length and width, and 4.5 feet high (2.3 meters in length and width, and 1.4 meters high)."
               ]
             }
           ]
@@ -97858,14 +97978,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 150 feet or 45.7 meters; also in verse 11."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "150",
+                  "content": [
+                    "approximately 150"
+                  ]
+                },
+                " feet or 45.7 meters; also in verse 11."
               ]
             }
           ]
@@ -98188,14 +98323,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75 feet or 22.9 meters; also in verse 13."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                " feet or 22.9 meters; also in verse 13."
               ]
             }
           ]
@@ -98366,14 +98516,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "15 cubits "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "15"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 22.5 feet or 6.9 meters; also in verse 15."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "22",
+                  "content": [
+                    "approximately 22"
+                  ]
+                },
+                ".5 feet or 6.9 meters; also in verse 15."
               ]
             }
           ]
@@ -98551,14 +98716,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 30 feet or 9.1 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "30",
+                  "content": [
+                    "approximately 30"
+                  ]
+                },
+                " feet or 9.1 meters."
               ]
             }
           ]
@@ -98845,7 +99025,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The courtyard was approximately 150 feet long and 75 feet wide (45.7 meters long and 22.9 meters wide)."
+                "The courtyard was ",
+                {
+                  "type": "ref",
+                  "loc": "150",
+                  "content": [
+                    "approximately 150"
+                  ]
+                },
+                " feet long and 75 feet wide (45.7 meters long and 22.9 meters wide)."
               ]
             }
           ]
@@ -98907,14 +99095,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 cubits "
+                "5 cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 7.5 feet or 2.3 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 feet or 2.3 meters."
               ]
             }
           ]
@@ -101357,7 +101553,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The breastpiece, when folded over, was approximately 9 inches or 22.9 centimeters in both length and width."
+                "The breastpiece, when folded over, was ",
+                {
+                  "type": "ref",
+                  "loc": "9",
+                  "content": [
+                    "approximately 9"
+                  ]
+                },
+                " inches or 22.9 centimeters in both length and width."
               ]
             }
           ]
@@ -109842,14 +110046,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A tenth of an ephah "
+                "A tenth of an ephah"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2 dry quarts or 2.2 liters (probably about 2.6 pounds or 1.2 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                " dry quarts or 2.2 liters (probably about 2.6 pounds or 1.2 kilograms of flour)."
               ]
             }
           ]
@@ -109925,7 +110137,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 0.97 quarts or 0.92 liters"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".97 quarts or 0.92 liters"
               ]
             }
           ]
@@ -110767,7 +110987,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The altar was approximately 1.5 feet in length and width, and 3 feet high (45.7 centimeters in length and width, and 91.4 centimeters high)."
+                "The altar was ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".5 feet in length and width, and 3 feet high (45.7 centimeters in length and width, and 91.4 centimeters high)."
               ]
             }
           ]
@@ -112182,14 +112410,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A half shekel "
+                "A half shekel"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 0.2 ounces or 5.7 grams; also in verse 15."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".2 ounces or 5.7 grams; also in verse 15."
               ]
             }
           ]
@@ -112252,14 +112488,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 gerahs "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " gerahs"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is equivalent to one shekel (approximately 0.4 ounces or 11.4 grams)."
+                "is equivalent to one shekel ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "(approximately 0"
+                  ]
+                },
+                ".4 ounces or 11.4 grams)."
               ]
             }
           ]
@@ -113361,14 +113612,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "500 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "500"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 12.6 pounds or 5.7 kilograms of myrrh."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "12",
+                  "content": [
+                    "approximately 12"
+                  ]
+                },
+                ".6 pounds or 5.7 kilograms of myrrh."
               ]
             }
           ]
@@ -113430,14 +113696,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "250 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "250"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 6.3 pounds or 2.9 kilograms of cinnamon."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                ".3 pounds or 2.9 kilograms of cinnamon."
               ]
             }
           ]
@@ -113491,14 +113772,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "250 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "250"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 6.3 pounds or 2.9 kilograms of cane."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "approximately 6"
+                  ]
+                },
+                ".3 pounds or 2.9 kilograms of cane."
               ]
             }
           ]
@@ -113548,14 +113844,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "500 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "500"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 12.6 pounds or 5.7 kilograms of cassia."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "12",
+                  "content": [
+                    "approximately 12"
+                  ]
+                },
+                ".6 pounds or 5.7 kilograms of cassia."
               ]
             }
           ]
@@ -113619,14 +113930,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A hin "
+                "A hin"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 0.97 gallons or 3.67 liters of olive oil."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".97 gallons or 3.67 liters of olive oil."
               ]
             }
           ]
@@ -118015,14 +118334,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; cited in ",
+                "; cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 10:7",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 10:7"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 10:7"
               ]
             }
           ]
@@ -135681,7 +136001,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Each of the ten curtains was approximately 42 feet long and 6 feet wide (12.8 meters long and 1.8 meters wide)."
+                "Each of the ten curtains was ",
+                {
+                  "type": "ref",
+                  "loc": "42",
+                  "content": [
+                    "approximately 42"
+                  ]
+                },
+                " feet long and 6 feet wide (12.8 meters long and 1.8 meters wide)."
               ]
             }
           ]
@@ -136509,7 +136837,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Each of the eleven curtains was approximately 45 feet long and 6 feet wide (13.7 meters long and 1.8 meters wide)."
+                "Each of the eleven curtains was ",
+                {
+                  "type": "ref",
+                  "loc": "45",
+                  "content": [
+                    "approximately 45"
+                  ]
+                },
+                " feet long and 6 feet wide (13.7 meters long and 1.8 meters wide)."
               ]
             }
           ]
@@ -137113,7 +137449,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Each frame was approximately 15 feet long and 2.25 feet wide (4.6 meters long and 68.6 centimeters wide)."
+                "Each frame was ",
+                {
+                  "type": "ref",
+                  "loc": "15",
+                  "content": [
+                    "approximately 15"
+                  ]
+                },
+                " feet long and 2.25 feet wide (4.6 meters long and 68.6 centimeters wide)."
               ]
             }
           ]
@@ -139175,7 +139519,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The ark was approximately 3.75 feet long, 2.25 feet wide, and 2.25 feet high (114.3 centimeters long, 68.6 centimeters wide, and 68.6 centimeters high)."
+                "The ark was ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".75 feet long, 2.25 feet wide, and 2.25 feet high (114.3 centimeters long, 68.6 centimeters wide, and 68.6 centimeters high)."
               ]
             }
           ]
@@ -139683,7 +140035,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The mercy seat was approximately 3.75 feet long and 2.25 feet wide (114.3 centimeters long and 68.6 centimeters wide)."
+                "The mercy seat was ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".75 feet long and 2.25 feet wide (114.3 centimeters long and 68.6 centimeters wide)."
               ]
             }
           ]
@@ -140211,7 +140571,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The table was approximately 3 feet long, 1.5 feet wide, and 2.25 feet high (91.4 centimeters long, 45.7 centimeters wide, and 68.6 centimeters high)."
+                "The table was ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                " feet long, 1.5 feet wide, and 2.25 feet high (91.4 centimeters long, 45.7 centimeters wide, and 68.6 centimeters high)."
               ]
             }
           ]
@@ -140340,14 +140708,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A handbreadth "
+                "A handbreadth"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 2.9 inches or 7.4 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".9 inches or 7.4 centimeters."
               ]
             }
           ]
@@ -141771,14 +142147,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A talent "
+                "A talent"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75.4 pounds or 34.2 kilograms of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                ".4 pounds or 34.2 kilograms of gold."
               ]
             }
           ]
@@ -141942,7 +142326,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The altar was approximately 1.5 feet in length and width, and 3 feet high (45.7 centimeters in length and width, and 91.4 centimeters high)."
+                "The altar was ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".5 feet in length and width, and 3 feet high (45.7 centimeters in length and width, and 91.4 centimeters high)."
               ]
             }
           ]
@@ -142629,7 +143021,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The altar was approximately 7.5 feet in length and width, and 4.5 feet high (2.3 meters in length and width, and 1.4 meters high)."
+                "The altar was ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 feet in length and width, and 4.5 feet high (2.3 meters in length and width, and 1.4 meters high)."
               ]
             }
           ]
@@ -143531,14 +143931,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 150 feet or 45.7 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "150",
+                  "content": [
+                    "approximately 150"
+                  ]
+                },
+                " feet or 45.7 meters."
               ]
             }
           ]
@@ -143812,14 +144227,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 75 feet or 22.9 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                " feet or 22.9 meters."
               ]
             }
           ]
@@ -144024,14 +144454,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "15 cubits "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "15"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 22.5 feet or 6.9 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "22",
+                  "content": [
+                    "approximately 22"
+                  ]
+                },
+                ".5 feet or 6.9 meters."
               ]
             }
           ]
@@ -144523,14 +144968,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 30 feet or 9.1 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "30",
+                  "content": [
+                    "approximately 30"
+                  ]
+                },
+                " feet or 9.1 meters."
               ]
             }
           ]
@@ -144609,14 +145069,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "5 cubits "
+                "5 cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 7.5 feet or 2.3 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 feet or 2.3 meters."
               ]
             }
           ]
@@ -145370,7 +145838,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The total weight of the gold was approximately 1.1 tons or 1 metric ton."
+                "The total weight of the gold was ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".1 tons or 1 metric ton."
               ]
             }
           ]
@@ -145509,7 +145985,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The total weight of the silver was approximately 3.79 tons or 3.44 metric tons."
+                "The total weight of the silver was ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".79 tons or 3.44 metric tons."
               ]
             }
           ]
@@ -145586,14 +146070,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A beka "
+                "A beka"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is half a shekel, or approximately 0.2 ounces or 5.7 grams."
+                "is half a shekel, or ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".2 ounces or 5.7 grams."
               ]
             }
           ]
@@ -145797,14 +146289,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "100 talents "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "100"
+                  ]
+                },
+                " talents"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3.77 tons or 3.42 metric tons of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ".77 tons or 3.42 metric tons of silver."
               ]
             }
           ]
@@ -146001,14 +146508,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,775 shekels "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "1,775"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 44.6 pounds or 20.2 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "44",
+                  "content": [
+                    "approximately 44"
+                  ]
+                },
+                ".6 pounds or 20.2 kilograms of silver."
               ]
             }
           ]
@@ -146165,7 +146687,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The total weight of the bronze was approximately 2.67 tons or 2.42 metric tons."
+                "The total weight of the bronze was ",
+                {
+                  "type": "ref",
+                  "loc": "2",
+                  "content": [
+                    "approximately 2"
+                  ]
+                },
+                ".67 tons or 2.42 metric tons."
               ]
             }
           ]
@@ -147684,7 +148214,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The breastpiece, when folded over, was approximately 9 inches or 22.9 centimeters in both length and width."
+                "The breastpiece, when folded over, was ",
+                {
+                  "type": "ref",
+                  "loc": "9",
+                  "content": [
+                    "approximately 9"
+                  ]
+                },
+                " inches or 22.9 centimeters in both length and width."
               ]
             }
           ]

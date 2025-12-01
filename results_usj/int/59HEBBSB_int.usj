@@ -21903,15 +21903,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verse 18; see the footnote for ",
-                {
-                  "type": "ref",
-                  "loc": "HEB 8:13",
-                  "content": [
-                    "Hebrews 8:13"
-                  ]
-                },
-                "."
+                "; also in verse 18; see the footnote for Hebrews 8:13."
               ]
             }
           ]
@@ -31669,6 +31661,7 @@
       "content": [
         {
           "type": "ref",
+          "loc": "GEN 4-9",
           "content": [
             "Genesis 4–9"
           ]
@@ -32555,6 +32548,7 @@
       "content": [
         {
           "type": "ref",
+          "loc": "GEN 15-22",
           "content": [
             "Genesis 15–22"
           ]
@@ -34301,6 +34295,7 @@
       "content": [
         {
           "type": "ref",
+          "loc": "GEN 27-50",
           "content": [
             "Genesis 27–50"
           ]
@@ -34689,6 +34684,7 @@
       "content": [
         {
           "type": "ref",
+          "loc": "EXO 2-15",
           "content": [
             "Exodus 2–15"
           ]
@@ -35606,15 +35602,10 @@
       "type": "para",
       "marker": "r",
       "content": [
-        {
-          "type": "ref",
-          "content": [
-            "Joshua–Malachi"
-          ]
-        },
-        ")"
+        "Joshua–Malachi"
       ]
     },
+    ")",
     {
       "type": "para",
       "marker": "p",

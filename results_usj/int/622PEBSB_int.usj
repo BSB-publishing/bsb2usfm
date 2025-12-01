@@ -3965,15 +3965,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see the First Book of Enoch (",
+                "; see the First Book of Enoch ",
                 {
                   "type": "ref",
-                  "loc": "13:1-11",
+                  "loc": "1",
                   "content": [
-                    "1 Enoch 13:1–11"
+                    "(1"
                   ]
                 },
-                " and 1 Enoch 20:1–4)."
+                " Enoch 13:1–11 and 1 Enoch 20:1–4)."
               ]
             }
           ]

@@ -5989,14 +5989,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "2,000 cubits "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "2,000"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 3,000 feet or 914.4 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "3",
+                  "content": [
+                    "approximately 3"
+                  ]
+                },
+                ",000 feet or 914.4 meters."
               ]
             }
           ]
@@ -16430,15 +16445,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1KI 16:34",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 16:34"
+                    "See 1"
                   ]
                 },
-                "."
+                " Kings 16:34."
               ]
             }
           ]
@@ -16682,15 +16696,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "in ",
                 {
                   "type": "ref",
-                  "loc": "1CH 2:7",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 2:7"
+                    "in 1"
                   ]
                 },
-                "."
+                " Chronicles 2:7."
               ]
             }
           ]
@@ -16766,15 +16779,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verses 17 and 18; see LXX and ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 2:6",
-                  "content": [
-                    "1 Chronicles 2:6"
-                  ]
-                },
-                "."
+                "; also in verses 17 and 18; see LXX and 1 Chronicles 2:6."
               ]
             }
           ]
@@ -19618,14 +19623,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "200 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "200"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 5 pounds or 2.3 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "approximately 5"
+                  ]
+                },
+                " pounds or 2.3 kilograms of silver."
               ]
             }
           ]
@@ -19695,14 +19715,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "50 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "50"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1.26 pounds or 569.8 grams of gold."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ".26 pounds or 569.8 grams of gold."
               ]
             }
           ]
@@ -42888,15 +42923,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 9:4",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 9:4"
+                    "see 2"
                   ]
                 },
-                ", 2 Samuel 17:27, and Amos 6:13."
+                " Samuel 9:4, 2 Samuel 17:27, and Amos 6:13."
               ]
             }
           ]
@@ -69004,15 +69039,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "in ",
                 {
                   "type": "ref",
-                  "loc": "1CH 2:7",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 2:7"
+                    "in 1"
                   ]
                 },
-                "."
+                " Chronicles 2:7."
               ]
             }
           ]

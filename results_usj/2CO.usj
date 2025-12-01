@@ -1834,15 +1834,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "2SA 7:14",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 7:14"
+                    "See 2"
                   ]
                 },
-                "."
+                " Samuel 7:14."
               ]
             }
           ]
@@ -2288,15 +2287,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "1CO 16:3-4",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 16:3–4"
+                    "See 1"
                   ]
                 },
-                "."
+                " Corinthians 16:3–4."
               ]
             }
           ]

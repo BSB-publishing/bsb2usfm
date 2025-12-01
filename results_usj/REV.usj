@@ -2485,15 +2485,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "A choenix was a Greek dry measure equivalent to 1.92 pints or 0.91 liters. A denarius was customarily a day’s wage for a laborer; see ",
+                "A choenix was a Greek dry measure equivalent ",
                 {
                   "type": "ref",
-                  "loc": "MAT 20:2",
+                  "loc": "1",
                   "content": [
-                    "Matthew 20:2"
+                    "to 1"
                   ]
                 },
-                "."
+                ".92 pints or 0.91 liters. A denarius was customarily a day’s wage for a laborer; see Matthew 20:2."
               ]
             }
           ]
@@ -4601,22 +4601,14 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "And I stood on the sand of the sea."
+                "And I stood on the sand of the sea. "
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some texts number this sentence as verse 18; others include it with ",
-                {
-                  "type": "ref",
-                  "loc": "REV 13:1",
-                  "content": [
-                    "Revelation 13:1"
-                  ]
-                },
-                "."
+                "Some texts number this sentence as verse 18; others include it with Revelation 13:1."
               ]
             }
           ]
@@ -4977,7 +4969,13 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "616"
+                {
+                  "type": "ref",
+                  "loc": "6",
+                  "content": [
+                    "616"
+                  ]
+                }
               ]
             }
           ]
@@ -5337,14 +5335,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "1,600 stadia "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "1,600"
+                  ]
+                },
+                " stadia"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 184 miles or 296 kilometers."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "184",
+                  "content": [
+                    "approximately 184"
+                  ]
+                },
+                " miles or 296 kilometers."
               ]
             }
           ]
@@ -5899,7 +5912,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, hailstones weighing approximately 75.4 pounds or 34.2 kilograms each"
+                "; that is, hailstones weighing ",
+                {
+                  "type": "ref",
+                  "loc": "75",
+                  "content": [
+                    "approximately 75"
+                  ]
+                },
+                ".4 pounds or 34.2 kilograms each"
               ]
             }
           ]
@@ -8092,14 +8113,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "12,000 stadia "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "12,000"
+                  ]
+                },
+                " stadia"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 1,380 miles or 2,220 kilometers."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "1",
+                  "content": [
+                    "approximately 1"
+                  ]
+                },
+                ",380 miles or 2,220 kilometers."
               ]
             }
           ]
@@ -8127,14 +8163,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "144 cubits "
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "144"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 216 feet or 65.8 meters. The measure could indicate either height or thickness."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "216",
+                  "content": [
+                    "approximately 216"
+                  ]
+                },
+                " feet or 65.8 meters. The measure could indicate either height or thickness."
               ]
             }
           ]

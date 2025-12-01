@@ -343,14 +343,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 4:6",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 4:6"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 4:6"
               ]
             }
           ]
@@ -5167,14 +5168,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; cited in ",
+                "; cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 15:45",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 15:45"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 15:45"
               ]
             }
           ]
@@ -19977,7 +19979,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "The ark was approximately 450 feet long, 75 feet wide, and 45 feet high (137.2 meters long, 22.9 meters wide, and 13.7 meters high)."
+                "The ark was ",
+                {
+                  "type": "ref",
+                  "loc": "450",
+                  "content": [
+                    "approximately 450"
+                  ]
+                },
+                " feet long, 75 feet wide, and 45 feet high (137.2 meters long, 22.9 meters wide, and 13.7 meters high)."
               ]
             }
           ]
@@ -20103,14 +20113,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A cubit "
+                "A cubit"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 18 inches or 45.7 centimeters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "18",
+                  "content": [
+                    "approximately 18"
+                  ]
+                },
+                " inches or 45.7 centimeters."
               ]
             }
           ]
@@ -23382,14 +23400,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "15 cubits "
+                {
+                  "type": "ref",
+                  "loc": "5",
+                  "content": [
+                    "15"
+                  ]
+                },
+                " cubits"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 22.5 feet or 6.9 meters."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "22",
+                  "content": [
+                    "approximately 22"
+                  ]
+                },
+                ".5 feet or 6.9 meters."
               ]
             }
           ]
@@ -30366,15 +30399,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "SP and some MT manuscripts (see also LXX and ",
+                "SP and some MT manuscripts (see also LXX ",
                 {
                   "type": "ref",
-                  "loc": "1CH 1:7",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 1:7"
+                    "and 1"
                   ]
                 },
-                "); most MT manuscripts "
+                " Chronicles 1:7); most MT manuscripts "
               ]
             },
             {
@@ -30644,15 +30677,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 1:9",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 1:9"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 1:9."
               ]
             }
           ]
@@ -32341,14 +32374,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Hebrew; LXX and ",
+                "Hebrew; LXX ",
                 {
                   "type": "ref",
-                  "loc": "1CH 1:17",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 1:17"
+                    "and 1"
                   ]
-                }
+                },
+                " Chronicles 1:17 "
               ]
             },
             {
@@ -34859,29 +34893,30 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "2",
                   "content": [
-                    "12"
+                    "class=|fnv|>12"
                   ]
                 },
-                "When Arphaxad was 135 years old, he became the father of Cainan. ",
-                {
-                  "type": "char",
-                  "marker": "fv",
-                  "content": [
-                    "13"
-                  ]
-                },
-                "And after he had become the father of Cainan, Arphaxad lived 430 years and had other sons and daughters, and then he died. When Cainan had lived 130 years, he became the father of Shelah. And after he had become the father of Shelah, Cainan lived 330 years and had other sons and daughters."
+                "</span>When Arphaxad was 135 years old, he became the father of Cainan. <span class=|fnv|>13</span>And after he had become the father of Cainan, Arphaxad lived 430 years and had other sons and daughters, and then he died. When Cainan had lived 130 years, he became the father of Shelah. And after he had become the father of Shelah, Cainan lived 330 years and had other sons and daughters."
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "Note that LXX also adds 100 years to the ages of Shelah, Eber, Peleg, Reu, Serug, and Nahor in this genealogy."
+                "Note that LXX also ",
+                {
+                  "type": "ref",
+                  "loc": "100",
+                  "content": [
+                    "adds 100"
+                  ]
+                },
+                " years to the ages of Shelah, Eber, Peleg, Reu, Serug, and Nahor in this genealogy."
               ]
             }
           ]
@@ -44198,14 +44233,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; also in verses 19, 20, and 22; cited in ",
-                {
-                  "type": "ref",
-                  "loc": "HEB 7:1",
-                  "content": [
-                    "Hebrews 7:1"
-                  ]
-                }
+                "; also in verses 19, 20, and 22; cited in Hebrews 7:1"
               ]
             }
           ]
@@ -53597,14 +53625,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "3 seahs "
+                "3 seahs"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 19.8 dry quarts or 21.9 liters (probably about 24.5 pounds or 11.1 kilograms of flour)."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "19",
+                  "content": [
+                    "approximately 19"
+                  ]
+                },
+                ".8 dry quarts or 21.9 liters (probably about 24.5 pounds or 11.1 kilograms of flour)."
               ]
             }
           ]
@@ -64163,7 +64199,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; that is, approximately 25.1 pounds or 11.4 kilograms of silver"
+                "; that is, ",
+                {
+                  "type": "ref",
+                  "loc": "25",
+                  "content": [
+                    "approximately 25"
+                  ]
+                },
+                ".1 pounds or 11.4 kilograms of silver"
               ]
             }
           ]
@@ -73600,14 +73644,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "400 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "400"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 10.1 pounds or 4.6 kilograms of silver; also in verse 16."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "10",
+                  "content": [
+                    "approximately 10"
+                  ]
+                },
+                ".1 pounds or 4.6 kilograms of silver; also in verse 16."
               ]
             }
           ]
@@ -77152,14 +77211,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "A beka "
+                "A beka"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is half a shekel, or approximately 0.2 ounces or 5.7 grams."
+                "is half a shekel, or ",
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "approximately 0"
+                  ]
+                },
+                ".2 ounces or 5.7 grams."
               ]
             }
           ]
@@ -77237,14 +77304,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "10 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "10"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 4 ounces or 114 grams."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "4",
+                  "content": [
+                    "approximately 4"
+                  ]
+                },
+                " ounces or 114 grams."
               ]
             }
           ]
@@ -132243,15 +132325,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Hebrew; SP (also in verse 11 and ",
-                {
-                  "type": "ref",
-                  "loc": "1CH 1:36",
-                  "content": [
-                    "1 Chronicles 1:36"
-                  ]
-                },
-                ") does not include "
+                "Hebrew; SP (also in verse 11 and 1 Chronicles 1:36) does not include "
               ]
             },
             {
@@ -133106,15 +133180,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 1:39",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 1:39"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 1:39."
               ]
             }
           ]
@@ -134720,15 +134794,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some MT manuscripts, SP, and Syriac (see also ",
+                "Some MT manuscripts, SP, and Syriac (see ",
                 {
                   "type": "ref",
-                  "loc": "1CH 1:50",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 1:50"
+                    "also 1"
                   ]
                 },
-                "); other MT manuscripts "
+                " Chronicles 1:50); other MT manuscripts "
               ]
             },
             {
@@ -138667,14 +138741,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "20 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "20"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 8 ounces or 228 grams of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "approximately 8"
+                  ]
+                },
+                " ounces or 228 grams of silver."
               ]
             }
           ]
@@ -159086,7 +159175,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and throughout chapters 42–44"
+                "; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "42-44",
+                  "content": [
+                    "chapters 42–44"
+                  ]
+                }
               ]
             }
           ]
@@ -171938,14 +172034,29 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "300 shekels "
+                {
+                  "type": "ref",
+                  "loc": "0",
+                  "content": [
+                    "300"
+                  ]
+                },
+                " shekels"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is approximately 7.5 pounds or 3.4 kilograms of silver."
+                "is ",
+                {
+                  "type": "ref",
+                  "loc": "7",
+                  "content": [
+                    "approximately 7"
+                  ]
+                },
+                ".5 pounds or 3.4 kilograms of silver."
               ]
             }
           ]
@@ -174279,15 +174390,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 7:1",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 7:1"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 7:1."
               ]
             }
           ]
@@ -175916,15 +176027,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                ", probably including Joseph’s grandsons through Ephraim and Manasseh; see ",
+                ", probably including Joseph’s grandsons through Ephraim and Manasseh; ",
                 {
                   "type": "ref",
-                  "loc": "1CH 7:14-29",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 7:14–29"
+                    "see 1"
                   ]
                 },
-                "."
+                " Chronicles 7:14–29."
               ]
             }
           ]

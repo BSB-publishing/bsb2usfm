@@ -8,6 +8,8 @@ CACHED_DATA = temp/bsb_tables.tsv
 all: results/GEN.usfm results/int/01GENBSB_int.usfm results/strongs/01GENBSB_strongs.usfm results/strongs_full/01GENBSB_full_strongs.usfm results_usj/GEN.usj results_usj/int/01GENBSB_int.usj results_usj/strongs/01GENBSB_strongs.usj results_usj/strongs_full/01GENBSB_full_strongs.usj
 	$(PYTHON) create_zips.py
 
+COMMON = -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml 
+
 # Always check for updates from remote (PHONY target)
 check-remote-updates: | temp
 	@echo "Checking for updates from $(REMOTE_URL)..."
@@ -37,28 +39,28 @@ force: clean-cache all
 
 # All output files depend on both the script and the cached data
 results/GEN.usfm: bsb2usfm.py $(CACHED_DATA)
-	- $(PYTHON) bsb2usfm.py -o results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+	- $(PYTHON) bsb2usfm.py -o results/%.usfm ${COMMON} $(CACHED_DATA)
 
 results/int/01GENBSB_int.usfm: bsb2usfm.py $(CACHED_DATA)
-	- $(PYTHON) bsb2usfm.py -I -o results/int/^%BSB_int.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+	- $(PYTHON) bsb2usfm.py -I -o results/int/^%BSB_int.usfm ${COMMON} $(CACHED_DATA)
 
 results/strongs/01GENBSB_strongs.usfm: bsb2usfm.py $(CACHED_DATA)
-	$(PYTHON) bsb2usfm.py -S -o results/strongs/^%BSB_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+	$(PYTHON) bsb2usfm.py -S -o results/strongs/^%BSB_strongs.usfm ${COMMON} $(CACHED_DATA)
 
 results/strongs_full/01GENBSB_full_strongs.usfm: bsb2usfm.py $(CACHED_DATA)
-	$(PYTHON) bsb2usfm.py -S -P -B -o results/strongs_full/^%BSB_full_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+	$(PYTHON) bsb2usfm.py -S -P -B -o results/strongs_full/^%BSB_full_strongs.usfm ${COMMON} $(CACHED_DATA)
 
 results_usj/GEN.usj: bsb2usfm.py $(CACHED_DATA)
-	- $(PYTHON) bsb2usfm.py -o results_usj/%.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+	- $(PYTHON) bsb2usfm.py -o results_usj/%.usj ${COMMON} $(CACHED_DATA)
 
 results_usj/int/01GENBSB_int.usj: bsb2usfm.py $(CACHED_DATA)
-	- $(PYTHON) bsb2usfm.py -I -o results_usj/int/^%BSB_int.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+	- $(PYTHON) bsb2usfm.py -I -o results_usj/int/^%BSB_int.usj ${COMMON} $(CACHED_DATA)
 
 results_usj/strongs/01GENBSB_strongs.usj: bsb2usfm.py $(CACHED_DATA)
-	$(PYTHON) bsb2usfm.py -S -o results_usj/strongs/^%BSB_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+	$(PYTHON) bsb2usfm.py -S -o results_usj/strongs/^%BSB_strongs.usj ${COMMON} $(CACHED_DATA)
 
 results_usj/strongs_full/01GENBSB_full_strongs.usj: bsb2usfm.py $(CACHED_DATA)
-	$(PYTHON) bsb2usfm.py -S -P -B -o results_usj/strongs_full/^%BSB_full_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+	$(PYTHON) bsb2usfm.py -S -P -B -o results_usj/strongs_full/^%BSB_full_strongs.usj ${COMMON} $(CACHED_DATA)
 
 # Clean generated output files
 clean:

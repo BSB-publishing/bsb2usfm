@@ -10748,12 +10748,12 @@
               "content": [
                 {
                   "type": "ref",
-                  "loc": "PSA 14:1-3",
+                  "loc": "PSA 14:1-53:1",
                   "content": [
-                    "Psalm 14:1–3"
+                    "Psalm 14:1–3 and Psalm 53:1"
                   ]
                 },
-                " and Psalm 53:1–3 (see also LXX)"
+                "–3 (see also LXX)"
               ]
             }
           ]
@@ -65724,14 +65724,15 @@
               "type": "char",
               "marker": "fqa",
               "content": [
+                "<span ",
                 {
-                  "type": "char",
-                  "marker": "fv",
+                  "type": "ref",
+                  "loc": "4",
                   "content": [
-                    "24"
+                    "class=|fnv|>24"
                   ]
                 },
-                "May the grace of our Lord Jesus Christ be with you all. Amen."
+                "</span>May the grace of our Lord Jesus Christ be with you all. Amen."
               ]
             }
           ]
@@ -66269,15 +66270,7 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some manuscripts place the text of verses 25–27 after ",
-                {
-                  "type": "ref",
-                  "loc": "ROM 14:23",
-                  "content": [
-                    "Romans 14:23"
-                  ]
-                },
-                " or after Romans 15:33."
+                "Some manuscripts place the text of verses 25–27 after Romans 14:23 or after Romans 15:33."
               ]
             }
           ]

@@ -5109,15 +5109,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical term; here and in ",
+                "is probably a musical term; here and ",
                 {
                   "type": "ref",
-                  "loc": "1CH 15:21",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 15:21"
+                    "in 1"
                   ]
                 },
-                " and Psalm 12:1."
+                " Chronicles 15:21 and Psalm 12:1."
               ]
             }
           ]
@@ -7629,14 +7629,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Gittith "
+                "Gittith"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; here and in Psalms 81 and 84."
+                "is probably a musical or liturgical term; here and in ",
+                {
+                  "type": "ref",
+                  "loc": "81",
+                  "content": [
+                    "Psalms 81"
+                  ]
+                },
+                " and 84."
               ]
             }
           ]
@@ -8353,15 +8361,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 15:27",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 15:27"
+                    "in 1"
                   ]
                 },
-                " and Hebrews 2:6–8"
+                " Corinthians 15:27 and Hebrews 2:6–8"
               ]
             }
           ]
@@ -8666,7 +8674,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Psalms 9 and 10 together follow an acrostic pattern, each stanza beginning with the successive letters of the Hebrew alphabet. In the LXX they form one psalm."
+                {
+                  "type": "ref",
+                  "loc": "9",
+                  "content": [
+                    "Psalms 9"
+                  ]
+                },
+                " and 10 together follow an acrostic pattern, each stanza beginning with the successive letters of the Hebrew alphabet. In the LXX they form one psalm."
               ]
             }
           ]
@@ -12936,15 +12951,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical term; here and in ",
+                "is probably a musical term; here and ",
                 {
                   "type": "ref",
-                  "loc": "1CH 15:21",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 15:21"
+                    "in 1"
                   ]
                 },
-                " and Psalm 6:1."
+                " Chronicles 15:21 and Psalm 6:1."
               ]
             }
           ]
@@ -15832,14 +15847,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Miktam "
+                "Miktam"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalm 16 and Psalms 56–60."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "PSA 16",
+                  "content": [
+                    "Psalm 16"
+                  ]
+                },
+                " and Psalms 56–60."
               ]
             }
           ]
@@ -19782,15 +19805,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "2SA 22:14",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 22:14"
+                    "see 2"
                   ]
                 },
-                "."
+                " Samuel 22:14."
               ]
             }
           ]
@@ -22044,15 +22067,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Some Hebrew manuscripts, LXX, and Syriac (see also ",
+                "Some Hebrew manuscripts, LXX, and Syriac (see ",
                 {
                   "type": "ref",
-                  "loc": "2SA 22:43",
+                  "loc": "2",
                   "content": [
-                    "2 Samuel 22:43"
+                    "also 2"
                   ]
                 },
-                "); MT "
+                " Samuel 22:43); MT "
               ]
             },
             {
@@ -29942,14 +29965,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 10:26",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 10:26"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 10:26"
               ]
             }
           ]
@@ -41020,14 +41044,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -44055,15 +44087,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; see 1 Samuel 21–29 and ",
+                "; ",
                 {
                   "type": "ref",
-                  "loc": "1KI 2:39",
+                  "loc": "1",
                   "content": [
-                    "1 Kings 2:39"
+                    "see 1"
                   ]
                 },
-                "."
+                " Samuel 21–29 and 1 Kings 2:39."
               ]
             }
           ]
@@ -45321,14 +45353,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1PE 3:10-12",
+                  "loc": "1",
                   "content": [
-                    "1 Peter 3:10–12"
+                    "in 1"
                   ]
-                }
+                },
+                " Peter 3:10–12"
               ]
             }
           ]
@@ -59465,21 +59498,37 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "In many Hebrew manuscripts Psalms 42 and 43 constitute one psalm. "
+                "In many Hebrew manuscripts ",
+                {
+                  "type": "ref",
+                  "loc": "42",
+                  "content": [
+                    "Psalms 42"
+                  ]
+                },
+                " and 43 constitute one psalm. "
               ]
             },
             {
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -61554,14 +61603,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -63838,14 +63895,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -63991,7 +64056,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; here and throughout Psalm 45"
+                "; here and throughout ",
+                {
+                  "type": "ref",
+                  "loc": "PSA 45",
+                  "content": [
+                    "Psalm 45"
+                  ]
+                }
               ]
             }
           ]
@@ -65594,15 +65666,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; here and in ",
+                "is probably a musical or liturgical term; here and ",
                 {
                   "type": "ref",
-                  "loc": "1CH 15:20",
+                  "loc": "1",
                   "content": [
-                    "1 Chronicles 15:20"
+                    "in 1"
                   ]
                 },
-                "."
+                " Chronicles 15:20."
               ]
             }
           ]
@@ -74387,14 +74459,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -75473,14 +75553,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -76450,14 +76538,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -77147,14 +77243,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -79280,14 +79384,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Miktam "
+                "Miktam"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 16 and 56–60."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "16",
+                  "content": [
+                    "Psalms 16"
+                  ]
+                },
+                " and 56–60."
               ]
             }
           ]
@@ -80645,14 +80757,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Miktam "
+                "Miktam"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 16 and 56–60."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "16",
+                  "content": [
+                    "Psalms 16"
+                  ]
+                },
+                " and 56–60."
               ]
             }
           ]
@@ -81894,14 +82014,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Miktam "
+                "Miktam"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 16 and 56–60."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "16",
+                  "content": [
+                    "Psalms 16"
+                  ]
+                },
+                " and 56–60."
               ]
             }
           ]
@@ -83006,14 +83134,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Miktam "
+                "Miktam"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 16 and 56–60."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "16",
+                  "content": [
+                    "Psalms 16"
+                  ]
+                },
+                " and 56–60."
               ]
             }
           ]
@@ -84766,14 +84902,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Miktam "
+                "Miktam"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 16 and 56–60."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "16",
+                  "content": [
+                    "Psalms 16"
+                  ]
+                },
+                " and 56–60."
               ]
             }
           ]
@@ -107040,14 +107184,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -112890,14 +113042,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -121648,14 +121808,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Gittith "
+                "Gittith"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; here and in Psalms 8 and 84."
+                "is probably a musical or liturgical term; here and in ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "Psalms 8"
+                  ]
+                },
+                " and 84."
               ]
             }
           ]
@@ -125208,14 +125376,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Gittith "
+                "Gittith"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; here and in Psalms 8 and 81."
+                "is probably a musical or liturgical term; here and in ",
+                {
+                  "type": "ref",
+                  "loc": "8",
+                  "content": [
+                    "Psalms 8"
+                  ]
+                },
+                " and 81."
               ]
             }
           ]
@@ -129970,14 +130146,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -131530,14 +131714,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
@@ -136096,15 +136288,14 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "See ",
                 {
                   "type": "ref",
-                  "loc": "2PE 3:8",
+                  "loc": "2",
                   "content": [
-                    "2 Peter 3:8"
+                    "See 2"
                   ]
                 },
-                "."
+                " Peter 3:8."
               ]
             }
           ]
@@ -141084,14 +141275,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "1CO 3:20",
+                  "loc": "1",
                   "content": [
-                    "1 Corinthians 3:20"
+                    "in 1"
                   ]
-                }
+                },
+                " Corinthians 3:20"
               ]
             }
           ]
@@ -172192,14 +172384,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "Cited in ",
+                "Cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 9:9",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 9:9"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 9:9"
               ]
             }
           ]
@@ -175882,14 +176075,15 @@
               "type": "char",
               "marker": "ft",
               "content": [
-                "; cited in ",
+                "; cited ",
                 {
                   "type": "ref",
-                  "loc": "2CO 4:13",
+                  "loc": "2",
                   "content": [
-                    "2 Corinthians 4:13"
+                    "in 2"
                   ]
-                }
+                },
+                " Corinthians 4:13"
               ]
             }
           ]
@@ -210060,14 +210254,22 @@
               "type": "char",
               "marker": "fqa",
               "content": [
-                "Maskil "
+                "Maskil"
               ]
             },
             {
               "type": "char",
               "marker": "ft",
               "content": [
-                "is probably a musical or liturgical term; used for Psalms 32, 42, 44–45, 52–55, 74, 78, 88–89, and 142."
+                "is probably a musical or liturgical term; used for ",
+                {
+                  "type": "ref",
+                  "loc": "32",
+                  "content": [
+                    "Psalms 32"
+                  ]
+                },
+                ", 42, 44–45, 52–55, 74, 78, 88–89, and 142."
               ]
             }
           ]
