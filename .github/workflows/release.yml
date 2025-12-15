@@ -3,11 +3,11 @@ name: Create Release
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version number (e.g., 5.1)'
+        description: "Version number (e.g., 5.1)"
         required: true
         type: string
 
@@ -25,12 +25,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
+
+      - name: Verify Python installation
+        run: |
+          python3 --version
+          which python3
+          # Ensure python command also works
+          if ! command -v python &> /dev/null; then
+            sudo ln -sf $(which python3) /usr/local/bin/python || true
+          fi
+          python --version || python3 --version
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r requirements.txt
 
       - name: Read version
         id: version

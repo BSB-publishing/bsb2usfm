@@ -1,4 +1,5 @@
-PYTHON=venv/bin/python3
+# Detect Python: try venv/bin/python, venv/bin/python3, then system python3
+PYTHON=$(shell if [ -x venv/bin/python ]; then echo venv/bin/python; elif [ -x venv/bin/python3 ]; then echo venv/bin/python3; else echo python3; fi)
 REMOTE_URL=https://bereanbible.com/bsb_tables.tsv
 CACHED_DATA=temp/bsb_tables.tsv
 
