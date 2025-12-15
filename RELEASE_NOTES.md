@@ -107,13 +107,18 @@ sha256sum -c SHA256SUMS.txt
 
 ### 📄 License
 
-**Public Domain** - The Berean Standard Bible is completely free to use:
+**Public Domain** - The Berean Standard Bible text is completely free to use:
 - ✅ Copy and distribute freely
 - ✅ Modify and adapt as needed
-- ✅ Use commercially
-- ✅ Use in any project without attribution
+- ✅ Use commercially without restriction
+- ✅ Use in any project (software, publications, apps, etc.)
+- ✅ Create derivative works
 
-No restrictions. No attribution required (though appreciated).
+**No restrictions.** No attribution required (though appreciated). No permission needed.
+
+The BSB text is dedicated to the public domain. See [UNLICENSE](https://github.com/BSB-publishing/bsb2usfm/blob/main/UNLICENSE) for the formal dedication.
+
+**Note:** The software tools in this repository are MIT licensed, but the Bible text itself is completely unrestricted.
 
 ### 🆘 Support
 

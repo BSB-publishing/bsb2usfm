@@ -1,6 +1,11 @@
 # Berean Standard Bible - USFM & USJ Files
 
+[![License: Public Domain](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](UNLICENSE)
+[![Bible Version](https://img.shields.io/badge/BSB-v5.1-blue.svg)](https://github.com/BSB-publishing/bsb2usfm/releases)
+
 Welcome! This repository provides the **Berean Standard Bible (BSB)** in multiple digital formats for Bible software, apps, and translation projects.
+
+> **📄 License:** The BSB text is in the **Public Domain** - completely free to use, modify, and distribute for any purpose. See [LICENSE](LICENSE) and [UNLICENSE](UNLICENSE) for details.
 
 ## 🚀 GitHub Releases
 
@@ -112,15 +117,32 @@ All files contain the complete Berean Standard Bible:
 
 These files are automatically generated and kept up-to-date. The ZIP files are regenerated whenever the source files change.
 
-## 📄 License
+## 📄 License & Copyright
 
-The Berean Standard Bible is in the **Public Domain**. You are free to:
-- ✅ Copy and distribute
-- ✅ Modify and adapt
-- ✅ Use commercially
-- ✅ Use in any project
+### Bible Text - Public Domain
 
-No attribution required (though appreciated).
+The **Berean Standard Bible text** is in the **Public Domain** and completely free of copyright restrictions. You are free to:
+- ✅ Copy and distribute freely
+- ✅ Modify and adapt as needed
+- ✅ Use commercially without restriction
+- ✅ Use in any project (software, publications, apps, etc.)
+- ✅ Create derivative works
+
+**No attribution required** (though appreciated).  
+**No permission needed** to use in any context.
+
+See [UNLICENSE](UNLICENSE) for the formal public domain dedication.
+
+### Software Tools - MIT License
+
+The conversion software and build tools in this repository are licensed under the [MIT License](LICENSE). This only applies to the Python scripts and tooling, not the Bible text itself.
+
+### Summary
+
+| Content | License | Use Freely? |
+|---------|---------|-------------|
+| **BSB Bible Text** | Public Domain | ✅ Yes - No restrictions |
+| **Software Tools** | MIT | ✅ Yes - With attribution |
 
 ## 💻 For Developers
 

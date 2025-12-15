@@ -1,3 +1,37 @@
+# License Information
+
+This repository contains two types of content with different licenses:
+
+## 1. Berean Standard Bible (BSB) Text - Public Domain
+
+The **Berean Standard Bible text** contained in all output files (USFM and USJ formats) is dedicated to the **Public Domain**.
+
+This includes all Bible text in:
+- `results/` directory (USFM files)
+- `results_usj/` directory (USJ files)
+- All ZIP files generated in `workspace/`
+
+### Public Domain Dedication
+
+The Berean Standard Bible text is free of copyright restrictions and dedicated to the public domain. You are free to:
+
+- ✅ Copy, distribute, and transmit the work
+- ✅ Adapt and modify the work
+- ✅ Use the work commercially
+- ✅ Use the work for any purpose without restriction
+
+**No attribution is required** (though appreciated).
+
+**No permission is needed** to use the BSB text in any project, publication, software, or derivative work.
+
+For more information about the Berean Standard Bible, visit: https://bereanbible.com
+
+
+## 2. Conversion Software and Tools - MIT License
+
+The **software tools** used to convert and process the Bible text (Python scripts, build system, etc.) are licensed under the MIT License:
+
+```
 MIT License
 
 Copyright (c) 2023 BSB Publishing, LLC
@@ -19,3 +53,24 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+This includes:
+- Python scripts (`bsb2usfm.py`, `create_zips.py`, etc.)
+- Build system files (`Makefile`, shell scripts)
+- Configuration files
+- Documentation about the tools
+
+
+## Summary
+
+| Content Type | License | Attribution Required? |
+|--------------|---------|----------------------|
+| **Bible Text (BSB)** | Public Domain | No |
+| **Software Tools** | MIT | Yes (for software only) |
+
+
+## Questions?
+
+- For questions about the BSB text: https://bereanbible.com
+- For questions about the software: Open an issue on GitHub

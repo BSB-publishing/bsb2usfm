@@ -170,7 +170,16 @@ Each ZIP file contains all 66 books of the Bible (39 OT + 27 NT) with:
 
 ## 📄 License
 
-Public Domain - Free to use for any purpose.
+**Public Domain** - The Berean Standard Bible text is completely free to use:
+- ✅ Copy and distribute freely
+- ✅ Modify and adapt as needed
+- ✅ Use commercially without restriction
+- ✅ Use in any project (software, publications, apps, etc.)
+- ✅ Create derivative works
+
+**No restrictions.** No attribution required (though appreciated). No permission needed.
+
+The BSB text is dedicated to the public domain. See [UNLICENSE](https://github.com/BSB-publishing/bsb2usfm/blob/main/UNLICENSE) for details.
 RELEASE_DESC
 echo "${CYAN}─────────────────────────────────────────────────────────${NC}"
 
