@@ -64,6 +64,7 @@ results_usj/strongs_full/01GENBSB_full_strongs.usj: bsb2usfm.py $(CACHED_DATA)
 clean:
 	rm -f results/*.usfm results/int/*.usfm results/strongs/*.usfm results/strongs_full/*.usfm
 	rm -f results_usj/*.usj results_usj/int/*.usj results_usj/strongs/*.usj results_usj/strongs_full/*.usj
+	rm -rf results_zip results_usj_zip
 
 # Clean the cached data file to force re-download
 clean-cache:
