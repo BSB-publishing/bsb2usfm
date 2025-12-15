@@ -182,10 +182,6 @@ The conversion tool is written in Python and can generate files in various forma
 - **Problems with files?** Open an issue on GitHub
 - **Want to contribute?** See [README_developer.md](README_developer.md)
 
-## 🌟 About the Berean Standard Bible
-
-The Berean Standard Bible (BSB) is a completely new translation based on the best available manuscripts and sources. It aims to be a trustworthy translation that is optimized for word-study and is committed to textual accuracy.
-
 For more information about the BSB project, visit [bereanbible.com](https://bereanbible.com).
 
 ---
