@@ -6,7 +6,7 @@ For each directory (including root and subdirectories):
 - Finds the common prefix in all filenames (or uses "BSB" as fallback)
 - Creates a zip file only if at least one file is newer than the existing zip
 - Overwrites the existing zip completely if an update is needed
-- Places the zip file in separate output directories (results_zip and results_usj_zip)
+- Places the zip file in workspace directory (workspace/ for USFM, workspace/usj/ for USJ)
 """
 
 import argparse
@@ -230,7 +230,7 @@ def process_branch(
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
-        description="Create/update zip files for results and results_usj directories into results_zip and results_usj_zip",
+        description="Create/update zip files for results and results_usj directories into workspace/",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -259,8 +259,8 @@ Examples:
 
     # Define source and output directories
     branches = [
-        (script_dir / "results", script_dir / "results_zip"),
-        (script_dir / "results_usj", script_dir / "results_usj_zip"),
+        (script_dir / "results", script_dir / "workspace"),
+        (script_dir / "results_usj", script_dir / "workspace" / "usj"),
     ]
 
     print("=" * 60)

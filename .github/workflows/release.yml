@@ -1,0 +1,188 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g., 5.1)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Read version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            VERSION=$(cat VERSION)
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Release version: $VERSION"
+
+      - name: Build all files
+        run: make all
+
+      - name: Verify workspace files
+        run: |
+          echo "Checking workspace directory..."
+          ls -lh workspace/
+          ls -lh workspace/usj/
+          echo "Total ZIP files:"
+          find workspace -name "*.zip" | wc -l
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          release_name: BSB v${{ steps.version.outputs.version }}
+          body: |
+            # Berean Standard Bible v${{ steps.version.outputs.version }}
+
+            This release contains the complete Berean Standard Bible in both USFM and USJ formats.
+
+            ## 📦 What's Included
+
+            ### USFM Format (Universal Standard Format Markers)
+            - **BSB_usfm.zip** - Standard clean text
+            - **BSB_int_usfm.zip** - With interlinear data
+            - **BSB_strongs_usfm.zip** - With Strong's numbers
+            - **BSB_full_strongs_usfm.zip** - Complete Strong's data
+
+            ### USJ Format (Unified Scripture JSON)
+            - **BSB_usj.zip** - Standard clean text
+            - **BSB_int_usj.zip** - With interlinear data
+            - **BSB_strongs_usj.zip** - With Strong's numbers
+            - **BSB_full_strongs_usj.zip** - Complete Strong's data
+
+            ## 📖 Contents
+
+            Each ZIP file contains all 66 books of the Bible (39 OT + 27 NT) with:
+            - Complete text with verses and chapters
+            - Section headings
+            - Cross-references
+            - Footnotes
+            - Poetry formatting
+            - Red letter (Jesus' words) markup
+
+            ## 📄 License
+
+            Public Domain - Free to use for any purpose.
+
+            ## 🔗 More Information
+
+            Visit the [repository](https://github.com/${{ github.repository }}) for more details.
+          draft: false
+          prerelease: false
+
+      - name: Upload USFM Standard
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/BSB_usfm.zip
+          asset_name: BSB_usfm.zip
+          asset_content_type: application/zip
+
+      - name: Upload USFM Interlinear
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/int/BSB_int_usfm.zip
+          asset_name: BSB_int_usfm.zip
+          asset_content_type: application/zip
+
+      - name: Upload USFM Strong's
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/strongs/BSB_strongs_usfm.zip
+          asset_name: BSB_strongs_usfm.zip
+          asset_content_type: application/zip
+
+      - name: Upload USFM Strong's Full
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/strongs_full/BSB_full_strongs_usfm.zip
+          asset_name: BSB_full_strongs_usfm.zip
+          asset_content_type: application/zip
+
+      - name: Upload USJ Standard
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/usj/BSB_usj.zip
+          asset_name: BSB_usj.zip
+          asset_content_type: application/zip
+
+      - name: Upload USJ Interlinear
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/usj/int/BSB_int_usj.zip
+          asset_name: BSB_int_usj.zip
+          asset_content_type: application/zip
+
+      - name: Upload USJ Strong's
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/usj/strongs/BSB_strongs_usj.zip
+          asset_name: BSB_strongs_usj.zip
+          asset_content_type: application/zip
+
+      - name: Upload USJ Strong's Full
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/usj/strongs_full/BSB_full_strongs_usj.zip
+          asset_name: BSB_full_strongs_usj.zip
+          asset_content_type: application/zip
+
+      - name: Release Summary
+        run: |
+          echo "✅ Release v${{ steps.version.outputs.version }} created successfully!"
+          echo "📦 8 ZIP files uploaded as release assets"
+          echo "🔗 Release URL: ${{ steps.create_release.outputs.html_url }}"

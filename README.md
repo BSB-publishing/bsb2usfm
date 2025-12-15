@@ -2,29 +2,53 @@
 
 Welcome! This repository provides the **Berean Standard Bible (BSB)** in multiple digital formats for Bible software, apps, and translation projects.
 
-## 📦 Quick Downloads
+## 🚀 GitHub Releases
+
+**Current Version: 5.1**
+
+The recommended way to download the complete BSB dataset is through our **[GitHub Releases](../../releases/latest)**. Each release includes all ZIP files in both USFM and USJ formats.
+
+### Release Assets
+
+Each GitHub release (version 5.1 and later) includes 8 ZIP files:
+
+**USFM Format:**
+- `BSB_usfm.zip` - Standard clean text
+- `BSB_int_usfm.zip` - With interlinear data
+- `BSB_strongs_usfm.zip` - With Strong's numbers
+- `BSB_full_strongs_usfm.zip` - Complete Strong's data
+
+**USJ Format:**
+- `BSB_usj.zip` - Standard clean text
+- `BSB_int_usj.zip` - With interlinear data
+- `BSB_strongs_usj.zip` - With Strong's numbers
+- `BSB_full_strongs_usj.zip` - Complete Strong's data
+
+All release files are automatically generated and stored in the `/workspace` directory during the build process.
+
+## 📦 Quick Downloads (Alternative)
 
 Choose the format you need and download the ZIP file:
 
 ### USFM Format (Universal Standard Format Markers)
 Standard format used by Paratext, PTXprint, and most Bible translation software.
 
-| Version | Description | Download |
-|---------|-------------|----------|
-| **Standard** | Clean Bible text | [`BSB_usfm.zip`](results/BSB_usfm.zip) |
-| **Interlinear** | With original language reverse interlinear | [`BSB_int_usfm.zip`](results/int/BSB_int_usfm.zip) |
-| **Strong's** | With Strong's numbers | [`BSB_strongs_usfm.zip`](results/strongs/BSB_strongs_usfm.zip) |
-| **Strong's Full** | With Strong's numbers, placeholders, and brackets | [`BSB_full_strongs_usfm.zip`](results/strongs_full/BSB_full_strongs_usfm.zip) |
+| Version | Description | GitHub Release |
+|---------|-------------|----------------|
+| **Standard** | Clean Bible text | `BSB_usfm.zip` |
+| **Interlinear** | With original language reverse interlinear | `BSB_int_usfm.zip` |
+| **Strong's** | With Strong's numbers | `BSB_strongs_usfm.zip` |
+| **Strong's Full** | With Strong's numbers, placeholders, and brackets | `BSB_full_strongs_usfm.zip` |
 
 ### USJ Format (Unified Scripture JSON)
 Modern JSON-based format for web applications and digital platforms.
 
-| Version | Description | Download |
-|---------|-------------|----------|
-| **Standard** | Clean Bible text | [`BSB_usj.zip`](results_usj/BSB_usj.zip) |
-| **Interlinear** | With original language reverse interlinear | [`BSB_int_usj.zip`](results_usj/int/BSB_int_usj.zip) |
-| **Strong's** | With Strong's numbers | [`BSB_strongs_usj.zip`](results_usj/strongs/BSB_strongs_usj.zip) |
-| **Strong's Full** | With Strong's numbers, placeholders, and brackets | [`BSB_full_strongs_usj.zip`](results_usj/strongs_full/BSB_full_strongs_usj.zip) |
+| Version | Description | GitHub Release |
+|---------|-------------|----------------|
+| **Standard** | Clean Bible text | `BSB_usj.zip` |
+| **Interlinear** | With original language reverse interlinear | `BSB_int_usj.zip` |
+| **Strong's** | With Strong's numbers | `BSB_strongs_usj.zip` |
+| **Strong's Full** | With Strong's numbers, placeholders, and brackets | `BSB_full_strongs_usj.zip` |
 
 ## 📂 Browse Individual Files
 
@@ -100,12 +124,35 @@ No attribution required (though appreciated).
 
 ## 💻 For Developers
 
+### Build Process & Workspace
+
+The build system generates all ZIP files into the `/workspace` directory:
+- **`/workspace/`** - Contains USFM ZIP files
+- **`/workspace/usj/`** - Contains USJ ZIP files
+
+The workspace directory is excluded from version control (via `.gitignore`) but all ZIP files from this directory are included in each GitHub release.
+
+### Version Management
+
+The current release version is tracked in the `VERSION` file at the root of the repository. Update this file when preparing a new release.
+
+**Current Version:** 5.1
+
+### Documentation
+
 If you want to generate these files yourself or contribute to the conversion process, see:
 - **[Developer Documentation](README_developer.md)** - Complete technical documentation
 - **[ZIP Creation Guide](README_zips.md)** - How the ZIP files are generated
 - **[Quick Start for Zips](QUICK_START_ZIPS.txt)** - Quick reference guide
 
 The conversion tool is written in Python and can generate files in various formats with different options.
+
+### Creating a Release
+
+1. Update the `VERSION` file with the new version number
+2. Run `make all` to generate all files and ZIP archives
+3. All ZIP files in `/workspace/` and `/workspace/usj/` should be uploaded as release assets
+4. Create a GitHub release tagged with the version number (e.g., `v5.1`)
 
 ## 🆘 Need Help?
 
