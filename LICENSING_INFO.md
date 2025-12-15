@@ -91,38 +91,6 @@ The MIT License is one of the most permissive open source licenses. We use it fo
 
 *Attribution only required if you distribute the software tools themselves, not for using the Bible text.
 
-## 🎯 Common Use Cases
-
-### Case 1: I want to use the Bible text in my app
-- **License:** Public Domain
-- **What to do:** Just use it! No attribution or permission needed.
-- **Files:** Download ZIP files from releases or individual USFM/USJ files
-
-### Case 2: I want to print the Bible text in a book
-- **License:** Public Domain
-- **What to do:** Print freely, no permission required.
-- **Attribution:** Optional but appreciated
-
-### Case 3: I want to sell Bibles with this text
-- **License:** Public Domain
-- **What to do:** Sell freely, no royalties or fees.
-- **Note:** You cannot claim copyright on the BSB text itself
-
-### Case 4: I want to create a new translation based on BSB
-- **License:** Public Domain
-- **What to do:** Create your derivative work freely.
-- **Note:** Your new translation can have its own copyright
-
-### Case 5: I want to modify and redistribute the conversion software
-- **License:** MIT
-- **What to do:** Include the MIT license notice from LICENSE file.
-- **Files affected:** Only the Python scripts and build tools
-
-### Case 6: I want to create a web service using the Bible text
-- **License:** Public Domain (for text) + MIT (if using the conversion tools)
-- **What to do:** Use the text freely; if you use our Python code, include attribution
-- **Note:** The text itself has no restrictions
-
 ## ❓ Frequently Asked Questions
 
 ### Q: Do I need to credit the BSB when I use the text?
@@ -130,9 +98,6 @@ The MIT License is one of the most permissive open source licenses. We use it fo
 
 ### Q: Can I use the BSB text in a commercial product?
 **A:** Yes, absolutely. No fees or royalties.
-
-### Q: Can I modify the Bible text?
-**A:** Yes, you can edit, revise, or adapt it as needed.
 
 ### Q: Do I need permission to use the BSB in my project?
 **A:** No permission is required for the Bible text.
