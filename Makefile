@@ -62,15 +62,19 @@ results_usj/strongs_full/01GENBSB_full_strongs.usj: bsb2usfm.py $(CACHED_DATA)
 	$(PYTHON) bsb2usfm.py -S -P -B -o results_usj/strongs_full/^%BSB_full_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
 
 results_usx/GEN.usx: bsb2usfm.py $(CACHED_DATA)
+	mkdir -p results_usx
 	- $(PYTHON) bsb2usfm.py -o results_usx/%.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
 
 results_usx/int/01GENBSB_int.usx: bsb2usfm.py $(CACHED_DATA)
+	mkdir -p results_usx/int
 	- $(PYTHON) bsb2usfm.py -I -o results_usx/int/^%BSB_int.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
 
 results_usx/strongs/01GENBSB_strongs.usx: bsb2usfm.py $(CACHED_DATA)
+	mkdir -p results_usx/strongs
 	$(PYTHON) bsb2usfm.py -S -o results_usx/strongs/^%BSB_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
 
 results_usx/strongs_full/01GENBSB_full_strongs.usx: bsb2usfm.py $(CACHED_DATA)
+	mkdir -p results_usx/strongs_full
 	$(PYTHON) bsb2usfm.py -S -P -B -o results_usx/strongs_full/^%BSB_full_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
 
 # Clean generated output files
