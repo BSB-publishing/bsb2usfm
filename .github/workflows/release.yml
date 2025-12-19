@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
@@ -65,14 +65,13 @@ jobs:
           echo "Total ZIP files:"
           find workspace -name "*.zip" | wc -l
 
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.version }}
-          release_name: BSB v${{ steps.version.outputs.version }}
+          name: BSB v${{ steps.version.outputs.version }}
+          draft: false
+          prerelease: false
           body: |
             # Berean Standard Bible v${{ steps.version.outputs.version }}
 
@@ -124,131 +123,21 @@ jobs:
             ## 🔗 More Information
 
             Visit the [repository](https://github.com/${{ github.repository }}) for more details.
-          draft: false
-          prerelease: false
-
-      - name: Upload USFM Standard
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/BSB_usfm.zip
-          asset_name: BSB_usfm.zip
-          asset_content_type: application/zip
-
-      - name: Upload USFM Interlinear
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/int/BSB_int_usfm.zip
-          asset_name: BSB_int_usfm.zip
-          asset_content_type: application/zip
-
-      - name: Upload USFM Strong's
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/strongs/BSB_strongs_usfm.zip
-          asset_name: BSB_strongs_usfm.zip
-          asset_content_type: application/zip
-
-      - name: Upload USFM Strong's Full
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/strongs_full/BSB_full_strongs_usfm.zip
-          asset_name: BSB_full_strongs_usfm.zip
-          asset_content_type: application/zip
-
-      - name: Upload USJ Standard
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/usj/BSB_usj.zip
-          asset_name: BSB_usj.zip
-          asset_content_type: application/zip
-
-      - name: Upload USJ Interlinear
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/usj/int/BSB_int_usj.zip
-          asset_name: BSB_int_usj.zip
-          asset_content_type: application/zip
-
-      - name: Upload USJ Strong's
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/usj/strongs/BSB_strongs_usj.zip
-          asset_name: BSB_strongs_usj.zip
-          asset_content_type: application/zip
-
-      - name: Upload USJ Strong's Full
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/usj/strongs_full/BSB_full_strongs_usj.zip
-          asset_name: BSB_full_strongs_usj.zip
-          asset_content_type: application/zip
-
-      - name: Upload USX Standard
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/usx/BSB_usx.zip
-          asset_name: BSB_usx.zip
-          asset_content_type: application/zip
-
-      - name: Upload USX Interlinear
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/usx/int/BSB_int_usx.zip
-          asset_name: BSB_int_usx.zip
-          asset_content_type: application/zip
-
-      - name: Upload USX Strong's
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/usx/strongs/BSB_strongs_usx.zip
-          asset_name: BSB_strongs_usx.zip
-          asset_content_type: application/zip
-
-      - name: Upload USX Strong's Full
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./workspace/usx/strongs_full/BSB_full_strongs_usx.zip
-          asset_name: BSB_full_strongs_usx.zip
-          asset_content_type: application/zip
+          files: |
+            workspace/BSB_usfm.zip
+            workspace/int/BSB_int_usfm.zip
+            workspace/strongs/BSB_strongs_usfm.zip
+            workspace/strongs_full/BSB_full_strongs_usfm.zip
+            workspace/usj/BSB_usj.zip
+            workspace/usj/int/BSB_int_usj.zip
+            workspace/usj/strongs/BSB_strongs_usj.zip
+            workspace/usj/strongs_full/BSB_full_strongs_usj.zip
+            workspace/usx/BSB_usx.zip
+            workspace/usx/int/BSB_int_usx.zip
+            workspace/usx/strongs/BSB_strongs_usx.zip
+            workspace/usx/strongs_full/BSB_full_strongs_usx.zip
 
       - name: Release Summary
         run: |
           echo "✅ Release v${{ steps.version.outputs.version }} created successfully!"
           echo "📦 12 ZIP files uploaded as release assets"
-          echo "🔗 Release URL: ${{ steps.create_release.outputs.html_url }}"
