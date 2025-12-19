@@ -61,6 +61,7 @@ jobs:
           echo "Checking workspace directory..."
           ls -lh workspace/
           ls -lh workspace/usj/
+          ls -lh workspace/usx/
           echo "Total ZIP files:"
           find workspace -name "*.zip" | wc -l
 
@@ -75,7 +76,7 @@ jobs:
           body: |
             # Berean Standard Bible v${{ steps.version.outputs.version }}
 
-            This release contains the complete Berean Standard Bible in both USFM and USJ formats.
+            This release contains the complete Berean Standard Bible in USFM, USJ, and USX formats.
 
             ## 📦 What's Included
 
@@ -90,6 +91,12 @@ jobs:
             - **BSB_int_usj.zip** - With interlinear data
             - **BSB_strongs_usj.zip** - With Strong's numbers
             - **BSB_full_strongs_usj.zip** - Complete Strong's data
+
+            ### USX Format (Unified Scripture XML)
+            - **BSB_usx.zip** - Standard clean text
+            - **BSB_int_usx.zip** - With interlinear data
+            - **BSB_strongs_usx.zip** - With Strong's numbers
+            - **BSB_full_strongs_usx.zip** - Complete Strong's data
 
             ## 📖 Contents
 
@@ -200,8 +207,48 @@ jobs:
           asset_name: BSB_full_strongs_usj.zip
           asset_content_type: application/zip
 
+      - name: Upload USX Standard
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/usx/BSB_usx.zip
+          asset_name: BSB_usx.zip
+          asset_content_type: application/zip
+
+      - name: Upload USX Interlinear
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/usx/int/BSB_int_usx.zip
+          asset_name: BSB_int_usx.zip
+          asset_content_type: application/zip
+
+      - name: Upload USX Strong's
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/usx/strongs/BSB_strongs_usx.zip
+          asset_name: BSB_strongs_usx.zip
+          asset_content_type: application/zip
+
+      - name: Upload USX Strong's Full
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./workspace/usx/strongs_full/BSB_full_strongs_usx.zip
+          asset_name: BSB_full_strongs_usx.zip
+          asset_content_type: application/zip
+
       - name: Release Summary
         run: |
           echo "✅ Release v${{ steps.version.outputs.version }} created successfully!"
-          echo "📦 8 ZIP files uploaded as release assets"
+          echo "📦 12 ZIP files uploaded as release assets"
           echo "🔗 Release URL: ${{ steps.create_release.outputs.html_url }}"

@@ -15,8 +15,8 @@ if [ ! -d "workspace" ]; then
 fi
 
 ZIP_COUNT=$(find workspace -name "*.zip" | wc -l | tr -d ' ')
-if [ "$ZIP_COUNT" -ne 8 ]; then
-    echo "Error: Expected 8 ZIP files, found ${ZIP_COUNT}"
+if [ "$ZIP_COUNT" -ne 12 ]; then
+    echo "Error: Expected 12 ZIP files, found ${ZIP_COUNT}"
     exit 1
 fi
 
@@ -51,6 +51,12 @@ This release contains the complete Berean Standard Bible in both USFM and USJ fo
 - **BSB_strongs_usj.zip** - With Strong's numbers
 - **BSB_full_strongs_usj.zip** - Complete Strong's data
 
+### USX Format (Unified Scripture XML)
+- **BSB_usx.zip** - Standard clean text
+- **BSB_int_usx.zip** - With interlinear data
+- **BSB_strongs_usx.zip** - With Strong's numbers
+- **BSB_full_strongs_usx.zip** - Complete Strong's data
+
 ## 📖 Contents
 
 Each ZIP file contains all 66 books of the Bible (39 OT + 27 NT) with:
@@ -78,7 +84,7 @@ Visit the [repository](https://github.com/BSB-publishing/bsb2usfm) for more deta
 RELEASE_NOTES
 
 echo ""
-echo "4. Upload these 8 ZIP files as release assets:"
+echo "4. Upload these 12 ZIP files as release assets:"
 echo ""
 find workspace -name "*.zip" -exec ls -lh {} \; | awk '{printf "   - %s (%s)\n", $9, $5}'
 echo ""

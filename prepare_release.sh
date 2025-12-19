@@ -79,16 +79,18 @@ if [ ! -d "workspace" ]; then
 fi
 
 # Count and list ZIP files
-USFM_ZIPS=$(find workspace -maxdepth 2 -name "*.zip" -not -path "*/usj/*" | wc -l | tr -d ' ')
+USFM_ZIPS=$(find workspace -maxdepth 2 -name "*.zip" -not -path "*/usj/*" -not -path "*/usx/*" | wc -l | tr -d ' ')
 USJ_ZIPS=$(find workspace/usj -name "*.zip" 2>/dev/null | wc -l | tr -d ' ')
-TOTAL_ZIPS=$((USFM_ZIPS + USJ_ZIPS))
+USX_ZIPS=$(find workspace/usx -name "*.zip" 2>/dev/null | wc -l | tr -d ' ')
+TOTAL_ZIPS=$((USFM_ZIPS + USJ_ZIPS + USX_ZIPS))
 
 print_info "Found ${USFM_ZIPS} USFM ZIP files"
 print_info "Found ${USJ_ZIPS} USJ ZIP files"
+print_info "Found ${USX_ZIPS} USX ZIP files"
 print_info "Total: ${TOTAL_ZIPS} ZIP files"
 
-if [ "$TOTAL_ZIPS" -ne 8 ]; then
-    print_error "Expected 8 ZIP files, found ${TOTAL_ZIPS}!"
+if [ "$TOTAL_ZIPS" -ne 12 ]; then
+    print_error "Expected 12 ZIP files, found ${TOTAL_ZIPS}!"
     exit 1
 fi
 
@@ -105,7 +107,7 @@ print_header "Step 4: Verifying File Contents"
 verify_zip() {
     local zip_file=$1
     local expected_count=66
-    local actual_count=$(unzip -l "$zip_file" | grep -E '\.(usfm|usj)$' | wc -l | tr -d ' ')
+    local actual_count=$(unzip -l "$zip_file" | grep -E '\.(usfm|usj|usx)$' | wc -l | tr -d ' ')
 
     if [ "$actual_count" -eq "$expected_count" ]; then
         print_success "$(basename $zip_file): ${actual_count} files ✓"

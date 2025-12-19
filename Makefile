@@ -6,7 +6,7 @@ CACHED_DATA=temp/bsb_tables.tsv
 # PHONY targets that don't represent files
 .PHONY: all clean clean-cache force check-remote-updates
 
-all: results/GEN.usfm results/int/01GENBSB_int.usfm results/strongs/01GENBSB_strongs.usfm results/strongs_full/01GENBSB_full_strongs.usfm results_usj/GEN.usj results_usj/int/01GENBSB_int.usj results_usj/strongs/01GENBSB_strongs.usj results_usj/strongs_full/01GENBSB_full_strongs.usj
+all: results/GEN.usfm results/int/01GENBSB_int.usfm results/strongs/01GENBSB_strongs.usfm results/strongs_full/01GENBSB_full_strongs.usfm results_usj/GEN.usj results_usj/int/01GENBSB_int.usj results_usj/strongs/01GENBSB_strongs.usj results_usj/strongs_full/01GENBSB_full_strongs.usj results_usx/GEN.usx results_usx/int/01GENBSB_int.usx results_usx/strongs/01GENBSB_strongs.usx results_usx/strongs_full/01GENBSB_full_strongs.usx
 	$(PYTHON) create_zips.py
 
 # Always check for updates from remote (PHONY target)
@@ -61,10 +61,23 @@ results_usj/strongs/01GENBSB_strongs.usj: bsb2usfm.py $(CACHED_DATA)
 results_usj/strongs_full/01GENBSB_full_strongs.usj: bsb2usfm.py $(CACHED_DATA)
 	$(PYTHON) bsb2usfm.py -S -P -B -o results_usj/strongs_full/^%BSB_full_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
 
+results_usx/GEN.usx: bsb2usfm.py $(CACHED_DATA)
+	- $(PYTHON) bsb2usfm.py -o results_usx/%.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+
+results_usx/int/01GENBSB_int.usx: bsb2usfm.py $(CACHED_DATA)
+	- $(PYTHON) bsb2usfm.py -I -o results_usx/int/^%BSB_int.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+
+results_usx/strongs/01GENBSB_strongs.usx: bsb2usfm.py $(CACHED_DATA)
+	$(PYTHON) bsb2usfm.py -S -o results_usx/strongs/^%BSB_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+
+results_usx/strongs_full/01GENBSB_full_strongs.usx: bsb2usfm.py $(CACHED_DATA)
+	$(PYTHON) bsb2usfm.py -S -P -B -o results_usx/strongs_full/^%BSB_full_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
+
 # Clean generated output files
 clean:
 	rm -f results/*.usfm results/int/*.usfm results/strongs/*.usfm results/strongs_full/*.usfm
 	rm -f results_usj/*.usj results_usj/int/*.usj results_usj/strongs/*.usj results_usj/strongs_full/*.usj
+	rm -f results_usx/*.usx results_usx/int/*.usx results_usx/strongs/*.usx results_usx/strongs_full/*.usx
 	rm -rf workspace
 
 # Clean the cached data file to force re-download

@@ -261,6 +261,7 @@ Examples:
     branches = [
         (script_dir / "results", script_dir / "workspace"),
         (script_dir / "results_usj", script_dir / "workspace" / "usj"),
+        (script_dir / "results_usx", script_dir / "workspace" / "usx"),
     ]
 
     print("=" * 60)
