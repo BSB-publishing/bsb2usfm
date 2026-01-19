@@ -96773,12 +96773,13 @@
             "with gold"
           ]
         },
+        ", ",
         {
           "type": "char",
           "marker": "w",
           "strong": "H2053",
           "content": [
-            "hooks"
+            "[use] hooks"
           ]
         },
         {
@@ -96786,7 +96787,7 @@
           "marker": "w",
           "strong": "H2091",
           "content": [
-            "-"
+            "of gold"
           ]
         },
         ", ",

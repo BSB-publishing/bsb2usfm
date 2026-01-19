@@ -94930,19 +94930,22 @@
             "with gold"
           ]
         },
+        ", ",
         {
           "type": "char",
           "marker": "rb",
           "gloss": "וָוֵיהֶ֖ם",
           "content": [
-            "hooks"
+            "use hooks"
           ]
         },
         {
           "type": "char",
           "marker": "rb",
           "gloss": "זָהָ֑ב",
-          "content": []
+          "content": [
+            "of gold"
+          ]
         },
         ", ",
         {

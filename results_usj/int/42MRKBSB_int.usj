@@ -165,6 +165,12 @@
         {
           "type": "char",
           "marker": "rb",
+          "gloss": "τοῦ",
+          "content": []
+        },
+        {
+          "type": "char",
+          "marker": "rb",
           "gloss": "Θεοῦ",
           "content": [
             "of God"
