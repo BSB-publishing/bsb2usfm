@@ -223,3 +223,5 @@ temp/
 
 # Workspace directory for build artifacts
 workspace/
+
+example/

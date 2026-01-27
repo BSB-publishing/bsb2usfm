@@ -113,7 +113,11 @@ def get_zip_time(zip_path: Path) -> float:
 
 
 def create_zip_for_directory(
-    directory: Path, zip_output_dir: Path, dry_run: bool = False, verbose: bool = False
+    directory: Path,
+    zip_output_dir: Path,
+    dry_run: bool = False,
+    verbose: bool = False,
+    name_suffix: str = "",
 ):
     """
     Create or update a zip file for the given directory.
@@ -124,6 +128,7 @@ def create_zip_for_directory(
         zip_output_dir: The directory where the zip file should be created
         dry_run: If True, only show what would be done without creating files
         verbose: If True, show more detailed information
+        name_suffix: Optional suffix to add to zip filename (before extension)
     """
     if not directory.exists() or not directory.is_dir():
         return
@@ -143,11 +148,11 @@ def create_zip_for_directory(
     prefix = get_common_prefix(filenames)
     extension = get_common_extension(filenames)
 
-    # Build zip name with extension suffix
+    # Build zip name with extension suffix and optional name suffix
     if extension:
-        zip_name = f"{prefix}_{extension}.zip"
+        zip_name = f"{prefix}_{extension}{name_suffix}.zip"
     else:
-        zip_name = f"{prefix}.zip"
+        zip_name = f"{prefix}{name_suffix}.zip"
 
     # Ensure the zip output directory exists
     if not dry_run:
@@ -186,7 +191,11 @@ def create_zip_for_directory(
 
 
 def process_branch(
-    branch_path: Path, zip_base_dir: Path, dry_run: bool = False, verbose: bool = False
+    branch_path: Path,
+    zip_base_dir: Path,
+    dry_run: bool = False,
+    verbose: bool = False,
+    name_suffix: str = "",
 ):
     """
     Process a branch directory (results or results_usj).
@@ -199,6 +208,7 @@ def process_branch(
         zip_base_dir: Base directory for zip output
         dry_run: If True, only show what would be done
         verbose: If True, show more detailed information
+        name_suffix: Optional suffix to add to zip filenames
     """
     if not branch_path.exists():
         print(f"Branch {branch_path} does not exist, skipping.")
@@ -214,7 +224,11 @@ def process_branch(
         if verbose:
             print(f"  Root directory ({len(root_files)} files):")
         create_zip_for_directory(
-            branch_path, zip_base_dir, dry_run=dry_run, verbose=verbose
+            branch_path,
+            zip_base_dir,
+            dry_run=dry_run,
+            verbose=verbose,
+            name_suffix=name_suffix,
         )
 
     # Process subdirectories
@@ -224,7 +238,13 @@ def process_branch(
             print(f"  Subdirectory: {subdir.name}")
         # Create corresponding subdirectory in zip output
         zip_subdir = zip_base_dir / subdir.name
-        create_zip_for_directory(subdir, zip_subdir, dry_run=dry_run, verbose=verbose)
+        create_zip_for_directory(
+            subdir,
+            zip_subdir,
+            dry_run=dry_run,
+            verbose=verbose,
+            name_suffix=name_suffix,
+        )
 
 
 def main():
@@ -257,11 +277,21 @@ Examples:
 
     script_dir = Path(__file__).parent
 
-    # Define source and output directories
+    # Define source and output directories (source, output, name_suffix)
     branches = [
-        (script_dir / "results", script_dir / "workspace"),
-        (script_dir / "results_usj", script_dir / "workspace" / "usj"),
-        (script_dir / "results_usx", script_dir / "workspace" / "usx"),
+        (script_dir / "results", script_dir / "workspace", ""),
+        (script_dir / "results_usj", script_dir / "workspace" / "usj", ""),
+        (script_dir / "results_usx", script_dir / "workspace" / "usx", ""),
+        (
+            script_dir / "results_usx_for_DBL",
+            script_dir / "workspace" / "usx_for_DBL",
+            "_for_DBL",
+        ),
+        (
+            script_dir / "results_for_paratext",
+            script_dir / "workspace" / "usfm_for_paratext",
+            "_for_paratext",
+        ),
     ]
 
     print("=" * 60)
@@ -270,8 +300,14 @@ Examples:
         print("(DRY RUN MODE - no files will be modified)")
     print("=" * 60)
 
-    for source_dir, zip_dir in branches:
-        process_branch(source_dir, zip_dir, dry_run=args.dry_run, verbose=args.verbose)
+    for source_dir, zip_dir, suffix in branches:
+        process_branch(
+            source_dir,
+            zip_dir,
+            dry_run=args.dry_run,
+            verbose=args.verbose,
+            name_suffix=suffix,
+        )
 
     print("\n" + "=" * 60)
     print("Done!")

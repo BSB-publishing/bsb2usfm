@@ -7,6 +7,8 @@ CACHED_DATA=temp/bsb_tables.tsv
 .PHONY: all clean clean-cache force check-remote-updates
 
 all: results/GEN.usfm results/int/01GENBSB_int.usfm results/strongs/01GENBSB_strongs.usfm results/strongs_full/01GENBSB_full_strongs.usfm results_usj/GEN.usj results_usj/int/01GENBSB_int.usj results_usj/strongs/01GENBSB_strongs.usj results_usj/strongs_full/01GENBSB_full_strongs.usj results_usx/GEN.usx results_usx/int/01GENBSB_int.usx results_usx/strongs/01GENBSB_strongs.usx results_usx/strongs_full/01GENBSB_full_strongs.usx
+	$(PYTHON) adapt_usx_for_DBL.py
+	$(PYTHON) adapt_usfm_for_paratext.py
 	$(PYTHON) create_zips.py
 
 # Always check for updates from remote (PHONY target)
