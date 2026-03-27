@@ -40,25 +40,27 @@ def get_common_extension(filenames: List[str]) -> str:
     return ""
 
 
-def get_common_prefix(filenames: List[str]) -> str:
+def get_common_prefix(filenames: List[str], identifier: str = "BSB") -> str:
     """
     Extract the common prefix from a list of filenames.
-    If no meaningful common prefix is found, returns "BSB".
+    If no meaningful common prefix is found, returns the identifier.
     """
     if not filenames:
-        return "BSB"
+        return identifier
 
     # Remove file extensions for comparison
     names = [os.path.splitext(f)[0] for f in filenames]
 
+    # Build a regex pattern for the identifier
+    id_pattern = re.compile(re.escape(identifier) + r"[_\w]*")
+
     if len(names) == 1:
         # Single file - try to extract meaningful part
         name = names[0]
-        # Look for patterns like "01GENBSB_int" -> "BSB_int"
-        match = re.search(r"BSB[_\w]*", name)
+        match = id_pattern.search(name)
         if match:
             return match.group(0)
-        return "BSB"
+        return identifier
 
     # Find common prefix
     prefix = os.path.commonprefix(names)
@@ -66,20 +68,19 @@ def get_common_prefix(filenames: List[str]) -> str:
     # Clean up the prefix - remove trailing numbers, underscores, etc.
     prefix = re.sub(r"[\d_]+$", "", prefix)
 
-    # If the prefix contains "BSB", extract from BSB onwards
-    if "BSB" in prefix:
-        match = re.search(r"BSB[_\w]*", prefix)
+    # If the prefix contains the identifier, extract from it onwards
+    if identifier in prefix:
+        match = id_pattern.search(prefix)
         if match:
             prefix = match.group(0)
 
-    # If prefix is too short or empty, use "BSB"
+    # If prefix is too short or empty, use the identifier
     if len(prefix) < 3:
-        # Try to find BSB in any of the names
         for name in names:
-            match = re.search(r"BSB[_\w]*", name)
+            match = id_pattern.search(name)
             if match:
                 return match.group(0)
-        return "BSB"
+        return identifier
 
     return prefix
 
@@ -118,6 +119,7 @@ def create_zip_for_directory(
     dry_run: bool = False,
     verbose: bool = False,
     name_suffix: str = "",
+    identifier: str = "BSB",
 ):
     """
     Create or update a zip file for the given directory.
@@ -145,7 +147,7 @@ def create_zip_for_directory(
 
     # Get common prefix and extension for naming
     filenames = [f.name for f in files]
-    prefix = get_common_prefix(filenames)
+    prefix = get_common_prefix(filenames, identifier)
     extension = get_common_extension(filenames)
 
     # Build zip name with extension suffix and optional name suffix
@@ -196,6 +198,7 @@ def process_branch(
     dry_run: bool = False,
     verbose: bool = False,
     name_suffix: str = "",
+    identifier: str = "BSB",
 ):
     """
     Process a branch directory (results or results_usj).
@@ -229,6 +232,7 @@ def process_branch(
             dry_run=dry_run,
             verbose=verbose,
             name_suffix=name_suffix,
+            identifier=identifier,
         )
 
     # Process subdirectories
@@ -244,6 +248,7 @@ def process_branch(
             dry_run=dry_run,
             verbose=verbose,
             name_suffix=name_suffix,
+            identifier=identifier,
         )
 
 
@@ -272,24 +277,35 @@ Examples:
         action="store_true",
         help="Show detailed information about processing",
     )
+    parser.add_argument(
+        "--base-dir",
+        type=Path,
+        help="Base directory for edition (e.g., bereanbible/). Directories like results/, results_usj/ etc. are found under this.",
+    )
+    parser.add_argument(
+        "--identifier",
+        default="BSB",
+        help="Edition identifier for zip naming (default: BSB)",
+    )
 
     args = parser.parse_args()
 
     script_dir = Path(__file__).parent
+    base = script_dir / args.base_dir if args.base_dir else script_dir
 
     # Define source and output directories (source, output, name_suffix)
     branches = [
-        (script_dir / "results", script_dir / "workspace", ""),
-        (script_dir / "results_usj", script_dir / "workspace" / "usj", ""),
-        (script_dir / "results_usx", script_dir / "workspace" / "usx", ""),
+        (base / "results", base / "workspace", ""),
+        (base / "results_usj", base / "workspace" / "usj", ""),
+        (base / "results_usx", base / "workspace" / "usx", ""),
         (
-            script_dir / "results_usx_for_DBL",
-            script_dir / "workspace" / "usx_for_DBL",
+            base / "results_usx_for_DBL",
+            base / "workspace" / "usx_for_DBL",
             "_for_DBL",
         ),
         (
-            script_dir / "results_for_paratext",
-            script_dir / "workspace" / "usfm_for_paratext",
+            base / "results_for_paratext",
+            base / "workspace" / "usfm_for_paratext",
             "_for_paratext",
         ),
     ]
@@ -307,6 +323,7 @@ Examples:
             dry_run=args.dry_run,
             verbose=args.verbose,
             name_suffix=suffix,
+            identifier=args.identifier,
         )
 
     print("\n" + "=" * 60)

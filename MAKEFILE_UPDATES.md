@@ -1,114 +1,155 @@
-# Makefile Updates - Remote File Timestamp Checking
+# Makefile - Multi-Edition Build System
 
-## Problem
-The original Makefile only checked if `bsb2usfm.py` was newer than the output files. This meant that if the remote data source (`https://bereanbible.com/bsb_tables.tsv`) was updated, running `make all` would not regenerate the output files unless you manually deleted them or modified the Python script.
+## Overview
 
-## Solution
-The updated Makefile now:
+The Makefile supports building two Bible editions in parallel:
 
-1. **Downloads and caches the remote data file** to `temp/bsb_tables.tsv`
-2. **Checks the remote file's Last-Modified timestamp** using `curl -z` flag
-3. **Only downloads if the remote file is newer** than the cached version
-4. **Makes all output files depend on the cached data file** so they rebuild when the remote data changes
+| Edition | Identifier | Scope | Source URL | Directory |
+|---------|-----------|-------|-----------|-----------|
+| Berean Standard Bible | BSB | Full Bible (66 books) | https://bereanbible.com/bsb_tables.tsv | `bereanbible/` |
+| Majority Standard Bible | MSB | New Testament (27 books) | https://majoritybible.com/msb_nt_tables.tsv | `majoritybible/` |
+
+Each edition is built into its own directory with identical internal structure.
+
+## Architecture
+
+The Makefile uses GNU Make's `define`/`eval`/`foreach` macros to generate per-edition targets from a single template. Edition-specific parameters are defined as variables:
+
+```makefile
+EDITIONS = bereanbible majoritybible
+
+bereanbible_URL = https://bereanbible.com/bsb_tables.tsv
+bereanbible_ID = BSB
+bereanbible_SENTINEL = GEN
+
+majoritybible_URL = https://majoritybible.com/msb_nt_tables.tsv
+majoritybible_ID = MSB
+majoritybible_SENTINEL = MAT
+```
+
+The `SENTINEL` variable defines which book file Make uses to track whether the build step has completed (GEN for full Bible, MAT for NT-only).
 
 ## How It Works
 
-### Cached Data Rule
-```makefile
-$(CACHED_DATA): | temp
-    @echo "Checking for updates from $(REMOTE_URL)..."
-    @if [ -f "$(CACHED_DATA)" ]; then \
-        curl -s -z "$(CACHED_DATA)" -o "$(CACHED_DATA).tmp" "$(REMOTE_URL)"; \
-        ...
+### Cache Management
+
+Each edition has its own cached source file at `<edition>/temp/source.tsv`. The cache rule:
+
+1. **Runs on every build** to check for remote updates
+2. Uses `curl -z` (time conditional) to only download if remote is newer
+3. Downloads to a temporary file first, then replaces the cache only if updated
+4. Falls back to a full download if no cached file exists
+
+### Build Dependencies
+
+All output files depend on both `bsb2usfm.py` AND the edition's cached source file:
+
+```
+<edition>/results/<SENTINEL>.usfm: bsb2usfm.py <edition>/temp/source.tsv
 ```
 
-This rule:
-- **Runs on every build** to check for remote updates (using .PHONY target)
-- Uses `curl -z` (time conditional) to only download if remote is newer
-- Downloads to a temporary file first
-- Only replaces the cached file if a new version was downloaded
-- The cached file's timestamp reflects when it was last updated from the remote
-
-### Dependencies
-All output files now depend on both `bsb2usfm.py` AND `$(CACHED_DATA)`:
-
-```makefile
-results/GEN.usfm: bsb2usfm.py $(CACHED_DATA)
-    - $(PYTHON) bsb2usfm.py -o results/%.usfm ... $(CACHED_DATA)
-```
-
-This means output files will be regenerated if EITHER:
+Output files are regenerated if EITHER:
 - The Python script is modified, OR
 - The remote data file is updated
 
+### Post-Processing
+
+After generating all format variants, each edition runs:
+1. `adapt_usx_for_DBL.py` - Adapts USX files for Digital Bible Library
+2. `adapt_usfm_for_paratext.py` - Adapts USFM files for Paratext
+3. `create_zips.py` - Creates ZIP archives in `<edition>/workspace/`
+
 ## Usage
 
-### Normal Build
+### Build Both Editions
 ```bash
 make all
 ```
-This will:
-1. **Always check** if the remote file has been updated (on every build)
-2. Download it if newer (or skip if unchanged)
-3. Regenerate output files if either:
-   - The cached data was updated from remote, OR
-   - The Python script was modified
-4. Create zip files
+
+### Build a Single Edition
+```bash
+make bereanbible        # BSB only
+make majoritybible      # MSB only
+```
 
 ### Force Complete Rebuild
 ```bash
 make force
 ```
-This removes the cached data file and rebuilds everything from scratch.
+This removes all cached data files and rebuilds everything from scratch.
 
 ### Clean Output Files
 ```bash
 make clean
 ```
-Removes all generated USFM and USJ files.
+Removes all generated files (results, workspace, etc.) for both editions.
 
 ### Clean Cache Only
 ```bash
 make clean-cache
 ```
-Removes only the cached data file, forcing a fresh download on next build.
+Removes only the cached data files, forcing a fresh download on next build.
 
-## Benefits
+## Makefile Targets
 
-1. **Automatic updates**: Running `make all` always checks and detects remote data changes
-2. **Efficient**: Only downloads the full file if the remote is actually newer
-3. **Faster builds**: Uses local cache when remote hasn't changed (only HTTP HEAD check)
-4. **Single download per build**: Each build command checks once and caches the result
-5. **Standard make behavior**: Respects timestamp-based dependency checking for regenerating outputs
-6. **No manual intervention**: You never need to manually delete files to get updates
+| Command | Description |
+|---------|-------------|
+| `make all` | Build both editions (default) |
+| `make bereanbible` | Build BSB edition only |
+| `make majoritybible` | Build MSB edition only |
+| `make clean` | Remove generated files for both editions |
+| `make clean-cache` | Remove cached source data for both editions |
+| `make force` | Clean cache and rebuild all |
+
+## Adding a New Edition
+
+To add a third edition:
+
+1. Define its parameters:
+   ```makefile
+   new_edition_URL = https://example.com/source.tsv
+   new_edition_ID = NEW
+   new_edition_SENTINEL = GEN   # or MAT for NT-only
+   ```
+
+2. Add it to the EDITIONS list:
+   ```makefile
+   EDITIONS = bereanbible majoritybible new_edition
+   ```
+
+3. Add it to the `.PHONY` target list
+
+The `foreach`/`eval` macros automatically generate all necessary targets.
+
+## Technical Details
+
+### Sentinel Files
+
+Since Make tracks build completion via file timestamps, each build step uses a "sentinel" file - the first book generated:
+- **BSB (full Bible)**: `GEN.usfm` (book code 01)
+- **MSB (NT-only)**: `MAT.usfm` (book code 40)
+
+Helper functions compute the sentinel filenames for variants:
+```makefile
+sentinel_int = <bookcode><SENTINEL><ID>_int          # e.g., 01GENBSB_int
+sentinel_strongs = <bookcode><SENTINEL><ID>_strongs   # e.g., 40MATMSB_strongs
+```
+
+### Remote File Checking
+
+The Makefile uses `curl -z` which performs a conditional GET request:
+1. Sends the local file's timestamp to the remote server
+2. Server compares with its Last-Modified header
+3. If remote is newer: downloads to temporary file, then replaces cache
+4. If remote is same/older: no download (cache unchanged)
+
+This means:
+- Every `make` checks for updates (minimal network overhead)
+- Full download only happens when remote is actually newer
+- Timestamp-based rebuilds work correctly
 
 ## Requirements
 
 - `curl` must be installed (standard on most Unix-like systems)
+- GNU Make (for `define`/`eval`/`foreach` support)
 - Internet connection required to check for remote updates
-
-## Technical Details
-
-### How the Remote Check Works
-
-The Makefile uses a `.PHONY` target `check-remote-updates` that runs on every build. This target uses `curl -z` which performs a conditional GET request:
-
-1. **Sends the local file's timestamp** to the remote server
-2. **Server compares** with its Last-Modified header
-3. **If remote is newer**: curl downloads to a temporary file, then we replace the cache
-4. **If remote is same/older**: curl exits without creating output file (cache unchanged)
-
-This approach means:
-- **Every `make all` checks for updates** (unavoidable for detecting remote changes)
-- **Full download only happens** when remote is actually newer
-- **Network overhead is minimal** when file hasn't changed (just HTTP headers)
-- **Timestamp-based rebuilds** work correctly because cache file timestamp reflects actual updates
-
-### Why This Approach?
-
-Make's dependency system is based on file modification times. Since the remote file doesn't exist in the local filesystem, we need to:
-1. Download/check it to know if it changed
-2. Store it locally so make can compare timestamps
-3. Always check on builds to detect remote updates
-
-Alternative approaches (like checking only every N hours) would miss updates and defeat the purpose of the improvement.

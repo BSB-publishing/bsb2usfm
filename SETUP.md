@@ -1,6 +1,6 @@
 # Development Environment Setup
 
-This guide will help you set up your local development environment to build and generate the BSB files.
+This guide will help you set up your local development environment to build and generate the BSB and MSB files.
 
 ## Prerequisites
 
@@ -45,10 +45,11 @@ make all
 ```
 
 This will:
-1. Download the BSB source data (cached in `temp/`)
-2. Generate all USFM files (in `results/`)
-3. Generate all USJ files (in `results_usj/`)
-4. Create all ZIP archives (in `workspace/`)
+1. Download BSB source data (cached in `bereanbible/temp/`)
+2. Download MSB source data (cached in `majoritybible/temp/`)
+3. Generate all USFM, USJ, and USX files for both editions
+4. Run post-processing (DBL adaptation, Paratext adaptation)
+5. Create all ZIP archives in each edition's `workspace/`
 
 ## Detailed Setup
 
@@ -137,37 +138,43 @@ python -c "import regex, lxml, usfmtc; print('All packages installed!')"
 
 ## Building Files
 
-### Build All Files
+### Build All Editions
 
 ```bash
 make all
 ```
 
-Generates everything:
-- USFM files (4 variants × 66 books = 264 files)
-- USJ files (4 variants × 66 books = 264 files)
-- ZIP archives (8 files in `workspace/`)
+Generates everything for both editions:
+- **BSB (bereanbible/)**: USFM, USJ, USX files (4 variants x 66 books each) + ZIP archives
+- **MSB (majoritybible/)**: USFM, USJ, USX files (4 variants x 27 books each) + ZIP archives
 
-### Build Specific Formats
+### Build a Single Edition
 
-**Only USFM files:**
 ```bash
-python3 bsb2usfm.py -o results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml temp/bsb_tables.tsv
+make bereanbible        # Build BSB edition only
+make majoritybible      # Build MSB edition only
 ```
 
-**Only USJ files:**
+### Build Specific Formats Manually
+
+**BSB USFM files:**
 ```bash
-python3 bsb2usfm.py -o results_usj/%.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml temp/bsb_tables.tsv
+python3 bsb2usfm.py --identifier BSB -o bereanbible/results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml bereanbible/temp/source.tsv
 ```
 
-**With Strong's numbers:**
+**MSB USFM files:**
 ```bash
-python3 bsb2usfm.py -S -o results/strongs/^%BSB_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml temp/bsb_tables.tsv
+python3 bsb2usfm.py --identifier MSB -o majoritybible/results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml majoritybible/temp/source.tsv
 ```
 
-**With interlinear data:**
+**With Strong's numbers (BSB example):**
 ```bash
-python3 bsb2usfm.py -I -o results/int/^%BSB_int.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml temp/bsb_tables.tsv
+python3 bsb2usfm.py --identifier BSB -S -o bereanbible/results/strongs/^%BSB_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml bereanbible/temp/source.tsv
+```
+
+**With interlinear data (BSB example):**
+```bash
+python3 bsb2usfm.py --identifier BSB -I -o bereanbible/results/int/^%BSB_int.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml bereanbible/temp/source.tsv
 ```
 
 ### Create ZIP Files
@@ -175,27 +182,28 @@ python3 bsb2usfm.py -I -o results/int/^%BSB_int.usfm -f demo_data/sample_footnot
 After building the individual files:
 
 ```bash
-python3 create_zips.py
+python3 create_zips.py --base-dir bereanbible --identifier BSB
+python3 create_zips.py --base-dir majoritybible --identifier MSB
 ```
 
 Or with verbose output:
 ```bash
-python3 create_zips.py --verbose
+python3 create_zips.py --base-dir bereanbible --identifier BSB --verbose
 ```
 
 Or dry-run to see what would be created:
 ```bash
-python3 create_zips.py --dry-run --verbose
+python3 create_zips.py --base-dir bereanbible --identifier BSB --dry-run --verbose
 ```
 
 ### Clean Generated Files
 
-**Clean all generated files:**
+**Clean all generated files for both editions:**
 ```bash
 make clean
 ```
 
-**Clean cached source data:**
+**Clean cached source data for both editions:**
 ```bash
 make clean-cache
 ```
@@ -209,44 +217,58 @@ make clean clean-cache all
 
 ```
 bsb2usfm/
-├── bsb2usfm.py              # Main conversion script
-├── create_zips.py           # ZIP creation script
-├── Makefile                 # Build automation
-├── requirements.txt         # Python dependencies
-├── VERSION                  # Current version (5.1)
+├── bsb2usfm.py                     # Main conversion script
+├── create_zips.py                   # ZIP creation script
+├── adapt_usx_for_DBL.py            # DBL adaptation script
+├── adapt_usfm_for_paratext.py      # Paratext adaptation script
+├── Makefile                         # Multi-edition build automation
+├── requirements.txt                 # Python dependencies
+├── VERSION                          # Current version
 │
-├── temp/                    # Cached source data (gitignored)
-│   └── bsb_tables.tsv       # Downloaded BSB data
+├── demo_data/                       # Shared sample footnotes and book names
+│   ├── sample_bsb_tables.tsv
+│   ├── sample_book_names.xml
+│   └── sample_footnotes.tsv
 │
-├── results/                 # Generated USFM files
-│   ├── *.usfm              # Standard USFM (66 files)
-│   ├── int/                # Interlinear USFM (66 files)
-│   ├── strongs/            # Strong's USFM (66 files)
-│   └── strongs_full/       # Complete Strong's (66 files)
+├── bereanbible/                     # BSB edition (Full Bible - 66 books)
+│   ├── temp/                        # Cached source data (gitignored)
+│   │   └── source.tsv              # Downloaded from bereanbible.com
+│   ├── results/                     # Generated USFM files
+│   │   ├── *.usfm                  # Standard USFM (66 files)
+│   │   ├── int/                    # Interlinear USFM (66 files)
+│   │   ├── strongs/                # Strong's USFM (66 files)
+│   │   └── strongs_full/           # Complete Strong's (66 files)
+│   ├── results_usj/                 # Generated USJ files (same layout)
+│   ├── results_usx/                 # Generated USX files (same layout)
+│   ├── results_usx_for_DBL/        # USX adapted for Digital Bible Library
+│   ├── results_for_paratext/        # USFM adapted for Paratext
+│   ├── sfm_for_paratext/            # SFM files for Paratext
+│   └── workspace/                   # ZIP archives (gitignored)
 │
-├── results_usj/            # Generated USJ files
-│   ├── *.usj               # Standard USJ (66 files)
-│   ├── int/                # Interlinear USJ (66 files)
-│   ├── strongs/            # Strong's USJ (66 files)
-│   └── strongs_full/       # Complete Strong's (66 files)
+├── majoritybible/                   # MSB edition (New Testament - 27 books)
+│   ├── temp/                        # Cached source data (gitignored)
+│   │   └── source.tsv              # Downloaded from majoritybible.com
+│   ├── results/                     # Generated USFM files (same layout)
+│   ├── results_usj/                 # Generated USJ files
+│   ├── results_usx/                 # Generated USX files
+│   ├── results_usx_for_DBL/        # USX adapted for Digital Bible Library
+│   ├── results_for_paratext/        # USFM adapted for Paratext
+│   ├── sfm_for_paratext/            # SFM files for Paratext
+│   └── workspace/                   # ZIP archives (gitignored)
 │
-├── workspace/              # ZIP archives (gitignored)
-│   ├── *.zip               # USFM ZIPs (4 files)
-│   └── usj/                # USJ ZIPs (4 files)
-│
-├── venv/                   # Virtual environment (gitignored)
-└── demo_data/              # Sample footnotes and book names
+└── venv/                            # Virtual environment (gitignored)
 ```
 
 ## Makefile Targets
 
 | Command | Description |
 |---------|-------------|
-| `make all` | Build everything (default) |
-| `make clean` | Remove generated files |
-| `make clean-cache` | Remove cached source data |
+| `make all` | Build both editions (default) |
+| `make bereanbible` | Build BSB edition only |
+| `make majoritybible` | Build MSB edition only |
+| `make clean` | Remove generated files for both editions |
+| `make clean-cache` | Remove cached source data for both editions |
 | `make force` | Clean cache and rebuild all |
-| `make check-remote-updates` | Check for updated source data |
 
 ## Troubleshooting
 
@@ -306,16 +328,25 @@ If you can't use Make, run commands directly:
 
 ```bash
 # Download source data
-curl -o temp/bsb_tables.tsv https://bereanbible.com/bsb_tables.tsv
+mkdir -p bereanbible/temp majoritybible/temp
+curl -o bereanbible/temp/source.tsv https://bereanbible.com/bsb_tables.tsv
+curl -o majoritybible/temp/source.tsv https://majoritybible.com/msb_nt_tables.tsv
 
-# Generate USFM files
-python bsb2usfm.py -o results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml temp/bsb_tables.tsv
+# Generate BSB USFM files
+python bsb2usfm.py --identifier BSB -o bereanbible/results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml bereanbible/temp/source.tsv
 
-# Generate USJ files
-python bsb2usfm.py -o results_usj/%.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml temp/bsb_tables.tsv
+# Generate BSB USJ files
+python bsb2usfm.py --identifier BSB -o bereanbible/results_usj/%.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml bereanbible/temp/source.tsv
+
+# Generate MSB USFM files
+python bsb2usfm.py --identifier MSB -o majoritybible/results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml majoritybible/temp/source.tsv
+
+# Generate MSB USJ files
+python bsb2usfm.py --identifier MSB -o majoritybible/results_usj/%.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml majoritybible/temp/source.tsv
 
 # Create ZIPs
-python create_zips.py
+python create_zips.py --base-dir bereanbible --identifier BSB
+python create_zips.py --base-dir majoritybible --identifier MSB
 ```
 
 ### Permission Denied on Scripts
@@ -357,38 +388,39 @@ pip install -r requirements.txt
 cd bsb2usfm
 source venv/bin/activate  # Activate venv
 make clean                # Clean old files
-make all                  # Build everything
+make all                  # Build both editions
 ```
 
 ### 3. Testing Changes
 ```bash
-# Test specific conversion
-python bsb2usfm.py -o test_output/%.usfm temp/bsb_tables.tsv
+# Test specific edition
+make bereanbible
 
 # Test ZIP creation (dry-run)
-python create_zips.py --dry-run --verbose
+python create_zips.py --base-dir bereanbible --identifier BSB --dry-run --verbose
 
 # Verify output
-ls -lh workspace/*.zip
+ls -lh bereanbible/workspace/*.zip
+ls -lh majoritybible/workspace/*.zip
 ```
 
 ### 4. Preparing a Release
 ```bash
 # Update version
-echo "5.2" > VERSION
+echo "5.3" > VERSION
 
-# Run release preparation
-./prepare_release.sh
+# Build everything
+make all
 
-# Follow prompts to commit and tag
+# Follow release process (commit, tag, push)
 ```
 
 ## Testing
 
 ### Quick Test
 ```bash
-# Generate one book
-python bsb2usfm.py -o test.usfm -b GEN temp/bsb_tables.tsv
+# Generate one BSB book
+python bsb2usfm.py --identifier BSB -o test.usfm -b GEN bereanbible/temp/source.tsv
 
 # Verify it worked
 ls -lh test.usfm
@@ -400,16 +432,15 @@ head test.usfm
 # Build everything
 make all
 
-# Count files (should be 264 + 264 = 528)
-find results results_usj -name "*.usfm" -o -name "*.usj" | wc -l
+# Count BSB files (should be 66 per variant × 4 variants × 3 formats = 792)
+find bereanbible/results bereanbible/results_usj bereanbible/results_usx -name "*.usfm" -o -name "*.usj" -o -name "*.usx" | wc -l
 
-# Count ZIPs (should be 8)
-find workspace -name "*.zip" | wc -l
+# Count MSB files (should be 27 per variant × 4 variants × 3 formats = 324)
+find majoritybible/results majoritybible/results_usj majoritybible/results_usx -name "*.usfm" -o -name "*.usj" -o -name "*.usx" | wc -l
 
-# Verify each ZIP has 66 books
-for zip in $(find workspace -name "*.zip"); do
-  echo "$zip: $(unzip -l "$zip" | grep -E '\.(usfm|usj)$' | wc -l) books"
-done
+# Count ZIPs per edition
+find bereanbible/workspace -name "*.zip" | wc -l
+find majoritybible/workspace -name "*.zip" | wc -l
 ```
 
 ## CI/CD with GitHub Actions
@@ -417,7 +448,7 @@ done
 The repository includes GitHub Actions workflows that:
 - Automatically build on tag push
 - Create GitHub releases
-- Upload ZIP files as release assets
+- Upload ZIP files as release assets for both editions
 
 See `.github/workflows/release.yml` for details.
 
@@ -426,7 +457,6 @@ See `.github/workflows/release.yml` for details.
 - **Documentation**: See README.md, README_developer.md
 - **Issues**: https://github.com/BSB-publishing/bsb2usfm/issues
 - **Licensing**: See LICENSING_INFO.md
-- **Workspace**: See WORKSPACE_STRUCTURE.md
 
 ## Platform-Specific Notes
 
@@ -448,5 +478,4 @@ See `.github/workflows/release.yml` for details.
 
 ---
 
-**Last Updated:** 2024-12-15  
-**Version:** 5.1
+**Version:** 5.2

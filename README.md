@@ -1,83 +1,58 @@
-# Berean Standard Bible - USFM & USJ Files
+# Berean Standard Bible & Majority Standard Bible - USFM, USJ & USX Files
 
 [![License: Public Domain](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](UNLICENSE)
 [![Bible Version](https://img.shields.io/badge/BSB-v5.1-blue.svg)](https://github.com/BSB-publishing/bsb2usfm/releases)
 
-Welcome! This repository provides the **Berean Standard Bible (BSB)** in multiple digital formats for Bible software, apps, and translation projects.
+Welcome! This repository provides the **Berean Standard Bible (BSB)** and the **Majority Standard Bible (MSB)** in multiple digital formats for Bible software, apps, and translation projects.
 
-> **📄 License:** The BSB text is in the **Public Domain** - completely free to use, modify, and distribute for any purpose. See [LICENSE](LICENSE) and [UNLICENSE](UNLICENSE) for details.
+> **📄 License:** The Bible text is in the **Public Domain** - completely free to use, modify, and distribute for any purpose. See [LICENSE](LICENSE) and [UNLICENSE](UNLICENSE) for details.
+
+## Editions
+
+This repository builds two editions:
+
+| Edition | Identifier | Scope | Source |
+|---------|-----------|-------|--------|
+| **Berean Standard Bible** | BSB | Full Bible (66 books) | [bereanbible.com](https://bereanbible.com) |
+| **Majority Standard Bible** | MSB | New Testament (27 books) | [majoritybible.com](https://majoritybible.com) |
+
+Each edition is built into its own directory (`bereanbible/` or `majoritybible/`) with identical internal structure.
 
 ## 🚀 GitHub Releases
 
 **Current Version: 5.1**
 
-The recommended way to download the complete BSB dataset is through our **[GitHub Releases](../../releases/latest)**. Each release includes all ZIP files in both USFM and USJ formats.
+The recommended way to download the complete dataset is through our **[GitHub Releases](../../releases/latest)**. Each release includes ZIP files for both editions in USFM, USJ, and USX formats.
 
-### Release Assets
+### Release Assets (per edition)
 
-Each GitHub release (version 5.1 and later) includes 8 ZIP files:
+Each edition includes ZIP files in 3 formats × 4 variants:
 
 **USFM Format:**
-- `BSB_usfm.zip` - Standard clean text
-- `BSB_int_usfm.zip` - With interlinear data
-- `BSB_strongs_usfm.zip` - With Strong's numbers
-- `BSB_full_strongs_usfm.zip` - Complete Strong's data
+- `BSB_usfm.zip` / `MSB_usfm.zip` - Standard clean text
+- `BSB_int_usfm.zip` / `MSB_int_usfm.zip` - With interlinear data
+- `BSB_strongs_usfm.zip` / `MSB_strongs_usfm.zip` - With Strong's numbers
+- `BSB_full_strongs_usfm.zip` / `MSB_full_strongs_usfm.zip` - Complete Strong's data
 
 **USJ Format:**
-- `BSB_usj.zip` - Standard clean text
-- `BSB_int_usj.zip` - With interlinear data
-- `BSB_strongs_usj.zip` - With Strong's numbers
-- `BSB_full_strongs_usj.zip` - Complete Strong's data
+- `BSB_usj.zip` / `MSB_usj.zip` - Standard clean text
+- `BSB_int_usj.zip` / `MSB_int_usj.zip` - With interlinear data
+- `BSB_strongs_usj.zip` / `MSB_strongs_usj.zip` - With Strong's numbers
+- `BSB_full_strongs_usj.zip` / `MSB_full_strongs_usj.zip` - Complete Strong's data
 
-All release files are automatically generated and stored in the `/workspace` directory during the build process.
+**USX Format:**
+- `BSB_usx.zip` / `MSB_usx.zip` - Standard clean text
+- *(plus interlinear, strongs, and strongs_full variants)*
 
-## 📦 Quick Downloads (Alternative)
-
-Choose the format you need and download the ZIP file:
-
-### USFM Format (Universal Standard Format Markers)
-Standard format used by Paratext, PTXprint, and most Bible translation software.
-
-| Version | Description | GitHub Release |
-|---------|-------------|----------------|
-| **Standard** | Clean Bible text | `BSB_usfm.zip` |
-| **Interlinear** | With original language reverse interlinear | `BSB_int_usfm.zip` |
-| **Strong's** | With Strong's numbers | `BSB_strongs_usfm.zip` |
-| **Strong's Full** | With Strong's numbers, placeholders, and brackets | `BSB_full_strongs_usfm.zip` |
-
-### USJ Format (Unified Scripture JSON)
-Modern JSON-based format for web applications and digital platforms.
-
-| Version | Description | GitHub Release |
-|---------|-------------|----------------|
-| **Standard** | Clean Bible text | `BSB_usj.zip` |
-| **Interlinear** | With original language reverse interlinear | `BSB_int_usj.zip` |
-| **Strong's** | With Strong's numbers | `BSB_strongs_usj.zip` |
-| **Strong's Full** | With Strong's numbers, placeholders, and brackets | `BSB_full_strongs_usj.zip` |
-
-## 📂 Browse Individual Files
-
-Don't want to download a ZIP? Browse and download individual book files:
-
-### USFM Files
-- **Standard**: [`results/`](results/) - Individual `.usfm` files (GEN.usfm, EXO.usfm, etc.)
-- **Interlinear**: [`results/int/`](results/int/) - With reverse interlinear data
-- **Strong's**: [`results/strongs/`](results/strongs/) - With Strong's numbers
-- **Strong's Full**: [`results/strongs_full/`](results/strongs_full/) - Complete Strong's data
-
-### USJ Files
-- **Standard**: [`results_usj/`](results_usj/) - Individual `.usj` files (GEN.usj, EXO.usj, etc.)
-- **Interlinear**: [`results_usj/int/`](results_usj/int/) - With reverse interlinear data
-- **Strong's**: [`results_usj/strongs/`](results_usj/strongs/) - With Strong's numbers
-- **Strong's Full**: [`results_usj/strongs_full/`](results_usj/strongs_full/) - Complete Strong's data
+All release files are automatically generated and stored in each edition's `workspace/` directory during the build process.
 
 ## 📖 Book Codes Reference
 
 Each file is named with a standard 3-letter book code:
 
-**Old Testament**: GEN, EXO, LEV, NUM, DEU, JOS, JDG, RUT, 1SA, 2SA, 1KI, 2KI, 1CH, 2CH, EZR, NEH, EST, JOB, PSA, PRO, ECC, SNG, ISA, JER, LAM, EZK, DAN, HOS, JOL, AMO, OBA, JON, MIC, NAM, HAB, ZEP, HAG, ZEC, MAL
+**Old Testament** (BSB only): GEN, EXO, LEV, NUM, DEU, JOS, JDG, RUT, 1SA, 2SA, 1KI, 2KI, 1CH, 2CH, EZR, NEH, EST, JOB, PSA, PRO, ECC, SNG, ISA, JER, LAM, EZK, DAN, HOS, JOL, AMO, OBA, JON, MIC, NAM, HAB, ZEP, HAG, ZEC, MAL
 
-**New Testament**: MAT, MRK, LUK, JHN, ACT, ROM, 1CO, 2CO, GAL, EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, PHM, HEB, JAS, 1PE, 2PE, 1JN, 2JN, 3JN, JUD, REV
+**New Testament** (BSB and MSB): MAT, MRK, LUK, JHN, ACT, ROM, 1CO, 2CO, GAL, EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, PHM, HEB, JAS, 1PE, 2PE, 1JN, 2JN, 3JN, JUD, REV
 
 ## ❓ Which Format Should I Use?
 
@@ -104,8 +79,13 @@ Each file is named with a standard 3-letter book code:
 
 ## 📋 What's Included
 
-All files contain the complete Berean Standard Bible:
+**BSB** files contain the complete Berean Standard Bible:
 - ✅ All 66 books (39 Old Testament + 27 New Testament)
+
+**MSB** files contain the Majority Standard Bible New Testament:
+- ✅ All 27 New Testament books
+
+Both editions include:
 - ✅ Complete text with verses and chapters
 - ✅ Section headings
 - ✅ Cross-references
@@ -121,14 +101,14 @@ These files are automatically generated and kept up-to-date. The ZIP files are r
 
 ### Bible Text - Public Domain
 
-The **Berean Standard Bible text** is in the **Public Domain** and completely free of copyright restrictions. You are free to:
+The **Berean Standard Bible** and **Majority Standard Bible** text is in the **Public Domain** and completely free of copyright restrictions. You are free to:
 - ✅ Copy and distribute freely
 - ✅ Modify and adapt as needed
 - ✅ Use commercially without restriction
 - ✅ Use in any project (software, publications, apps, etc.)
 - ✅ Create derivative works
 
-**No attribution required** (though appreciated).  
+**No attribution required** (though appreciated).
 **No permission needed** to use in any context.
 
 See [UNLICENSE](UNLICENSE) for the formal public domain dedication.
@@ -141,18 +121,18 @@ The conversion software and build tools in this repository are licensed under th
 
 | Content | License | Use Freely? |
 |---------|---------|-------------|
-| **BSB Bible Text** | Public Domain | ✅ Yes - No restrictions |
+| **Bible Text** | Public Domain | ✅ Yes - No restrictions |
 | **Software Tools** | MIT | ✅ Yes - With attribution |
 
 ## 💻 For Developers
 
 ### Build Process & Workspace
 
-The build system generates all ZIP files into the `/workspace` directory:
-- **`/workspace/`** - Contains USFM ZIP files
-- **`/workspace/usj/`** - Contains USJ ZIP files
+The build system generates all files into edition-specific directories:
+- **`bereanbible/workspace/`** - BSB ZIP files (USFM, USJ, USX variants)
+- **`majoritybible/workspace/`** - MSB ZIP files (USFM, USJ, USX variants)
 
-The workspace directory is excluded from version control (via `.gitignore`) but all ZIP files from this directory are included in each GitHub release.
+The workspace directories are excluded from version control (via `.gitignore`) but all ZIP files are included in each GitHub release.
 
 ### Version Management
 
@@ -165,15 +145,15 @@ The current release version is tracked in the `VERSION` file at the root of the 
 If you want to generate these files yourself or contribute to the conversion process, see:
 - **[Developer Documentation](README_developer.md)** - Complete technical documentation
 - **[ZIP Creation Guide](README_zips.md)** - How the ZIP files are generated
-- **[Quick Start for Zips](QUICK_START_ZIPS.txt)** - Quick reference guide
+- **[Setup Guide](SETUP.md)** - Development environment setup
 
 The conversion tool is written in Python and can generate files in various formats with different options.
 
 ### Creating a Release
 
 1. Update the `VERSION` file with the new version number
-2. Run `make all` to generate all files and ZIP archives
-3. All ZIP files in `/workspace/` and `/workspace/usj/` should be uploaded as release assets
+2. Run `make all` to generate all files and ZIP archives for both editions
+3. All ZIP files in `bereanbible/workspace/` and `majoritybible/workspace/` should be uploaded as release assets
 4. Create a GitHub release tagged with the version number (e.g., `v5.1`)
 
 ## 🆘 Need Help?
@@ -187,5 +167,4 @@ For more information about the BSB project, visit [bereanbible.com](https://bere
 ---
 
 **Last Updated**: Auto-generated with each commit
-**Total Files**: 528 Bible files + 8 ZIP archives
-**Formats**: USFM 3.1 & USJ (JSON)
+**Formats**: USFM 3.1, USJ (JSON), USX (XML)

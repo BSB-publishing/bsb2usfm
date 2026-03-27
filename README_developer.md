@@ -2,7 +2,7 @@
 
 > **Note**: If you're looking to download Bible files, see **[README.md](README.md)** for quick downloads and user-friendly instructions. This document is for developers who want to generate or modify the files.
 
-A Python tool for converting Berean Standard Bible (BSB) tabular data into USFM (Unified Standard Format Markers) format for Bible publishing and translation workflows.
+A Python tool for converting Berean Standard Bible (BSB) and Majority Standard Bible (MSB) tabular data into USFM (Unified Standard Format Markers) format for Bible publishing and translation workflows.
 
 > **Web Service Available**: A web-based interface is available for easy browser-based conversions. See the [Web Service](#web-service) section below or [web_service/DEPLOY_Docker.md](web_service/DEPLOY_Docker.md) for deployment instructions.
 
@@ -10,9 +10,17 @@ A Python tool for converting Berean Standard Bible (BSB) tabular data into USFM 
 
 BSB2USFM converts structured CSV/TSV data containing biblical text, footnotes, cross-references, and formatting information into standardized USFM files that can be used by Bible publishing software such as Paratext, PTXprint, and other Bible translation tools.
 
+The build system supports two editions:
+
+| Edition | Identifier | Scope | Source | Directory |
+|---------|-----------|-------|--------|-----------|
+| **Berean Standard Bible** | BSB | Full Bible (66 books) | [bereanbible.com](https://bereanbible.com) | `bereanbible/` |
+| **Majority Standard Bible** | MSB | New Testament (27 books) | [majoritybible.com](https://majoritybible.com) | `majoritybible/` |
+
 ## Features
 
-- **URL and local file support**: Download BSB tables from URL or use local files
+- **Multi-edition support**: Build BSB and MSB from separate sources with a single Makefile
+- **URL and local file support**: Download source tables from URL or use local files
 - **Complete Bible conversion**: Convert entire Bible or specific books
 - **Rich formatting support**: Headings, cross-references, footnotes, poetry, lists
 - **Custom book names**: Support for custom book naming via XML configuration
@@ -49,12 +57,35 @@ chmod +x docker-run.sh
 
 ## Usage
 
-### Basic Conversion
-
-Convert BSB tables to USFM format using the default URL source:
+### Build Both Editions (Recommended)
 
 ```bash
-python3 bsb2usfm.py -o results/%.usfm
+make all
+```
+
+This builds both BSB and MSB editions with all format variants and ZIP archives.
+
+### Build a Single Edition
+
+```bash
+make bereanbible        # BSB only
+make majoritybible      # MSB only
+```
+
+### Basic Conversion
+
+Convert source tables to USFM format:
+
+```bash
+# BSB
+python3 bsb2usfm.py --identifier BSB -o bereanbible/results/%.usfm \
+  -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml \
+  bereanbible/temp/source.tsv
+
+# MSB
+python3 bsb2usfm.py --identifier MSB -o majoritybible/results/%.usfm \
+  -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml \
+  majoritybible/temp/source.tsv
 ```
 
 Or specify a local file:
@@ -62,9 +93,6 @@ Or specify a local file:
 ```bash
 # Using demo data
 python3 bsb2usfm.py demo_data/sample_bsb_tables.tsv -o results/%.usfm
-
-# Or download from URL (downloads from bereanbible.com)
-python3 bsb2usfm.py -o results/%.usfm
 ```
 
 ### Convert Specific Books
@@ -72,7 +100,8 @@ python3 bsb2usfm.py -o results/%.usfm
 Convert only specific books using book codes:
 
 ```bash
-python3 bsb2usfm.py -o results/%.usfm -b GEN -b EXO -b MAT
+python3 bsb2usfm.py --identifier BSB -o bereanbible/results/%.usfm -b GEN -b EXO -b MAT \
+  bereanbible/temp/source.tsv
 ```
 
 ### With Custom Book Names
@@ -93,13 +122,15 @@ python3 bsb2usfm.py -o results/%.usfm -f footnotes.tsv
 
 ### Complete Example
 
-Full conversion with all options (using default URL source):
+Full conversion with all options:
 
 ```bash
-python3 bsb2usfm.py -o results/%.usfm \
+python3 bsb2usfm.py --identifier BSB \
+  -o bereanbible/results/%.usfm \
   -n demo_data/sample_book_names.xml \
   -f demo_data/sample_footnotes.tsv \
-  -b GEN -b EXO -b MAT
+  -b GEN -b EXO -b MAT \
+  bereanbible/temp/source.tsv
 ```
 
 ### Advanced Options
@@ -109,11 +140,13 @@ python3 bsb2usfm.py -o results/%.usfm \
 Generate reverse interlinear format with `\rb` entries:
 
 ```bash
-python3 bsb2usfm.py -o results/%.usfm -I
+python3 bsb2usfm.py --identifier BSB -I -o bereanbible/results/int/^%BSB_int.usfm \
+  bereanbible/temp/source.tsv
 ```
 
 #### Strong's Numbers and other commandline options
 
+- `--identifier ID` : Edition identifier (e.g., BSB, MSB)
 - `-S` / `--strongs`: Enable Strong's number processing
 - `-P` / `--placeholders`: Enable placeholder processing
 - `-B` / `--brackets`: Enable bracket processing
@@ -135,12 +168,12 @@ docker-compose up -d web
 
 ### Web Service Features
 
-- 🌐 **Browser-based interface**: No command-line needed
-- 🔄 **Real-time progress**: Live streaming of conversion status
-- 📊 **Visual feedback**: Progress bars and status indicators
-- 📁 **Results display**: Automatic listing of generated files
-- 💾 **Download support**: Zip all generated files with one click
-- 🚀 **Production ready**: Deploy to Render, Digital Ocean, Hetzner, Fly.io
+- **Browser-based interface**: No command-line needed
+- **Real-time progress**: Live streaming of conversion status
+- **Visual feedback**: Progress bars and status indicators
+- **Results display**: Automatic listing of generated files
+- **Download support**: Zip all generated files with one click
+- **Production ready**: Deploy to Render, Digital Ocean, Hetzner, Fly.io
 
 ### Deployment
 
@@ -176,8 +209,9 @@ See [web_service/README-WebService.md](web_service/README-WebService.md) for det
 
 | Option | Description | Example |
 |--------|-------------|---------|
-| `infile` | Input BSB tables CSV/TSV file or URL (optional, defaults to https://bereanbible.com/bsb_tables.tsv) | `demo_data/sample_bsb_tables.tsv` |
-| `-o, --outfile` | Output USFM file template | `results/%.usfm` |
+| `infile` | Input TSV file or URL (optional, defaults to BSB URL) | `bereanbible/temp/source.tsv` |
+| `-o, --outfile` | Output file template | `bereanbible/results/%.usfm` |
+| `--identifier` | Edition identifier | `--identifier BSB` |
 | `-b, --book` | Book codes to include (repeatable) | `-b GEN -b EXO` |
 | `-n, --names` | Custom book names XML file | `-n book_names.xml` |
 | `-f, --fnotes` | Footnote styling TSV file | `-f footnotes.tsv` |
@@ -193,18 +227,20 @@ See [web_service/README-WebService.md](web_service/README-WebService.md) for det
 
 ## Input Data Format
 
-### BSB Tables CSV Structure
+### Source Tables TSV Structure
 
-The input CSV/TSV file should contain the following columns:
+The input TSV file should contain the following columns:
 
 - **VerseId**: Bible reference (e.g., "Genesis 1:1")
-- **BSB version**: Main verse text
+- **BSB version** / **MSB version**: Main verse text (column name auto-detected)
 - **Hdg**: Section headings
 - **Crossref**: Cross-references
 - **Par**: Parallel passages
 - **footnotes**: Footnote text
 - **pnc**: Punctuation and formatting
 - **End text**: Text at verse end
+
+The converter automatically detects the version column name and the interlinear column name from the TSV header row, so it works with both BSB and MSB source files.
 
 ### Book Names XML Format
 
@@ -275,61 +311,68 @@ Generated USFM files follow the USFM 3.1 standard:
 
 Supported book codes follow standard abbreviations:
 
-**Old Testament**: GEN, EXO, LEV, NUM, DEU, JOS, JDG, RUT, 1SA, 2SA, 1KI, 2KI, 1CH, 2CH, EZR, NEH, EST, JOB, PSA, PRO, ECC, SNG, ISA, JER, LAM, EZK, DAN, HOS, JOL, AMO, OBA, JON, MIC, NAM, HAB, ZEP, HAG, ZEC, MAL
+**Old Testament** (BSB only): GEN, EXO, LEV, NUM, DEU, JOS, JDG, RUT, 1SA, 2SA, 1KI, 2KI, 1CH, 2CH, EZR, NEH, EST, JOB, PSA, PRO, ECC, SNG, ISA, JER, LAM, EZK, DAN, HOS, JOL, AMO, OBA, JON, MIC, NAM, HAB, ZEP, HAG, ZEC, MAL
 
-**New Testament**: MAT, MRK, LUK, JHN, ACT, ROM, 1CO, 2CO, GAL, EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, PHM, HEB, JAS, 1PE, 2PE, 1JN, 2JN, 3JN, JUD, REV
+**New Testament** (BSB and MSB): MAT, MRK, LUK, JHN, ACT, ROM, 1CO, 2CO, GAL, EPH, PHP, COL, 1TH, 2TH, 1TI, 2TI, TIT, PHM, HEB, JAS, 1PE, 2PE, 1JN, 2JN, 3JN, JUD, REV
 
 ## Directory Structure
 
 ```
 bsb2usfm/
-├── web_service/       # Web interface (optional)
-│   ├── webapp.py     # Flask web application
-│   ├── templates/    # HTML templates
-│   ├── Dockerfile    # Web service Docker config
+├── bsb2usfm.py                      # Main converter script
+├── create_zips.py                    # ZIP creation script
+├── adapt_usx_for_DBL.py             # DBL adaptation script
+├── adapt_usfm_for_paratext.py       # Paratext adaptation script
+├── Makefile                          # Multi-edition build automation
+├── requirements.txt                  # Python dependencies
+├── VERSION                           # Current version
+│
+├── web_service/                      # Web interface (optional)
+│   ├── webapp.py                    # Flask web application
+│   ├── templates/                   # HTML templates
+│   ├── Dockerfile                   # Web service Docker config
 │   └── docker-compose.yml
-├── results/           # Output USFM files
-├── demo_data/         # Sample/demo files
+│
+├── demo_data/                        # Shared sample/demo files
 │   ├── sample_bsb_tables.tsv
 │   ├── sample_book_names.xml
 │   └── sample_footnotes.tsv
-├── render/            # Render.com deployment config
+│
+├── bereanbible/                      # BSB edition (Full Bible - 66 books)
+│   ├── temp/                        # Cached source data
+│   ├── results/                     # USFM files (4 variants)
+│   ├── results_usj/                 # USJ files (4 variants)
+│   ├── results_usx/                 # USX files (4 variants)
+│   ├── results_usx_for_DBL/        # DBL-adapted USX
+│   ├── results_for_paratext/        # Paratext-adapted USFM
+│   ├── sfm_for_paratext/            # SFM files for Paratext
+│   └── workspace/                   # ZIP archives
+│
+├── majoritybible/                    # MSB edition (NT - 27 books)
+│   └── (same internal structure)
+│
+├── render/                           # Render.com deployment config
 │   └── render.yaml
-├── bsb2usfm.py       # Main converter script
-├── getirefs.py       # Reference extractor
-├── requirements.txt   # Python dependencies
-├── README.md         # User documentation
-└── README_developer.md  # This file
+└── README_developer.md               # This file
 ```
 
 ## Examples
 
 ### Convert Genesis Only
 
-Using default URL source:
-
 ```bash
-python3 bsb2usfm.py -o gen.usfm -b GEN
-```
-
-Or with a local file:
-
-```bash
-# Using demo data
-python3 bsb2usfm.py demo_data/sample_bsb_tables.tsv -o gen.usfm -b GEN
-
-# Or from URL
-python3 bsb2usfm.py -o gen.usfm -b GEN
+python3 bsb2usfm.py --identifier BSB -o gen.usfm -b GEN bereanbible/temp/source.tsv
 ```
 
 ### Convert New Testament
 
 ```bash
-python3 bsb2usfm.py -o nt_%.usfm \
+python3 bsb2usfm.py --identifier MSB -o nt_%.usfm \
   -b MAT -b MRK -b LUK -b JHN -b ACT -b ROM -b 1CO -b 2CO \
   -b GAL -b EPH -b PHP -b COL -b 1TH -b 2TH -b 1TI -b 2TI \
   -b TIT -b PHM -b HEB -b JAS -b 1PE -b 2PE -b 1JN -b 2JN \
-  -b 3JN -b JUD -b REV
+  -b 3JN -b JUD -b REV \
+  majoritybible/temp/source.tsv
 ```
 
 ### Extract References
@@ -337,7 +380,7 @@ python3 bsb2usfm.py -o nt_%.usfm \
 Use the companion script to extract verse references:
 
 ```bash
-python3 getirefs.py results/*.usfm -o references.txt
+python3 getirefs.py bereanbible/results/*.usfm -o references.txt
 ```
 
 ## Troubleshooting
@@ -361,7 +404,7 @@ python3 getirefs.py results/*.usfm -o references.txt
 ### Docker Issues
 
 1. **Permission errors**
-   - Fix ownership: `sudo chown -R $USER:$USER results/`
+   - Fix ownership: `sudo chown -R $USER:$USER bereanbible/results/`
 
 2. **Build failures**
    - Clean Docker cache: `docker system prune`

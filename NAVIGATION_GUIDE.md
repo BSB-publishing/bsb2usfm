@@ -1,11 +1,11 @@
 # Navigation Guide
 
-## 📚 Documentation Overview
+## Documentation Overview
 
 This repository has multiple README files for different audiences:
 
 ### For Bible Users (Most People)
-**→ [README.md](README.md)** ⭐ START HERE
+**→ [README.md](README.md)** - START HERE
 - Quick download links to ZIP files
 - Browse individual files
 - Choose the right format for your needs
@@ -28,59 +28,62 @@ This repository has multiple README files for different audiences:
 **→ [QUICK_START_ZIPS.txt](QUICK_START_ZIPS.txt)**
 - Quick reference for ZIP script
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```
 bsb2usfm/
 │
-├── README.md ⭐                    # START HERE - User-friendly downloads
-├── README_developer.md            # Developer/technical documentation
-├── README_zips.md                 # ZIP creation documentation
+├── README.md                         # START HERE - User-friendly downloads
+├── README_developer.md               # Developer/technical documentation
+├── README_zips.md                    # ZIP creation documentation
+├── Makefile                          # Multi-edition build automation
+├── bsb2usfm.py                      # Main conversion script
+├── create_zips.py                    # ZIP creation script
+├── adapt_usx_for_DBL.py             # DBL adaptation script
+├── adapt_usfm_for_paratext.py       # Paratext adaptation script
 │
-├── results/                       # USFM FORMAT FILES
-│   ├── BSB_usfm.zip              # → Download: Standard USFM
-│   ├── *.usfm                    # → Individual book files
-│   │
-│   ├── int/
-│   │   ├── BSB_int_usfm.zip      # → Download: Interlinear USFM
-│   │   └── *.usfm                # → Individual interlinear files
-│   │
-│   ├── strongs/
-│   │   ├── BSB_strongs_usfm.zip  # → Download: Strong's USFM
-│   │   └── *.usfm                # → Individual Strong's files
-│   │
-│   └── strongs_full/
-│       ├── BSB_full_strongs_usfm.zip  # → Download: Full Strong's USFM
-│       └── *.usfm                     # → Individual full files
+├── demo_data/                        # Shared sample footnotes and book names
 │
-└── results_usj/                   # USJ FORMAT FILES (JSON)
-    ├── BSB_usj.zip               # → Download: Standard USJ
-    ├── *.usj                     # → Individual book files
-    │
-    ├── int/
-    │   ├── BSB_int_usj.zip       # → Download: Interlinear USJ
-    │   └── *.usj                 # → Individual interlinear files
-    │
-    ├── strongs/
-    │   ├── BSB_strongs_usj.zip   # → Download: Strong's USJ
-    │   └── *.usj                 # → Individual Strong's files
-    │
-    └── strongs_full/
-        ├── BSB_full_strongs_usj.zip  # → Download: Full Strong's USJ
-        └── *.usj                      # → Individual full files
+├── bereanbible/                      # BSB EDITION (Full Bible - 66 books)
+│   ├── temp/                         # Cached source data (gitignored)
+│   ├── results/                      # USFM files
+│   │   ├── *.usfm                   #   Standard USFM
+│   │   ├── int/                     #   Interlinear USFM
+│   │   ├── strongs/                 #   Strong's USFM
+│   │   └── strongs_full/            #   Complete Strong's USFM
+│   ├── results_usj/                  # USJ files (same subdirectory layout)
+│   ├── results_usx/                  # USX files (same subdirectory layout)
+│   ├── results_usx_for_DBL/         # USX adapted for Digital Bible Library
+│   ├── results_for_paratext/        # USFM adapted for Paratext
+│   ├── sfm_for_paratext/            # SFM files for Paratext
+│   └── workspace/                    # ZIP archives (gitignored)
+│
+└── majoritybible/                    # MSB EDITION (New Testament - 27 books)
+    ├── temp/                         # Cached source data (gitignored)
+    ├── results/                      # USFM files (same layout as BSB)
+    ├── results_usj/                  # USJ files
+    ├── results_usx/                  # USX files
+    ├── results_usx_for_DBL/         # USX adapted for Digital Bible Library
+    ├── results_for_paratext/        # USFM adapted for Paratext
+    ├── sfm_for_paratext/            # SFM files for Paratext
+    └── workspace/                    # ZIP archives (gitignored)
 ```
 
-## 🎯 Quick Navigation by Task
+## Quick Navigation by Task
 
 ### "I want to download Bible files"
-→ [README.md](README.md) - See the download table
+→ [README.md](README.md) - See the download table or visit [GitHub Releases](../../releases/latest)
 
-### "I want a specific book (e.g., Genesis)"
-→ [results/](results/) for USFM or [results_usj/](results_usj/) for USJ
+### "I want a specific BSB book (e.g., Genesis)"
+→ [bereanbible/results/](bereanbible/results/) for USFM, [bereanbible/results_usj/](bereanbible/results_usj/) for USJ
 → Look for GEN.usfm or GEN.usj
 
+### "I want a specific MSB book (e.g., Matthew)"
+→ [majoritybible/results/](majoritybible/results/) for USFM, [majoritybible/results_usj/](majoritybible/results_usj/) for USJ
+→ Look for MAT.usfm or MAT.usj
+
 ### "I want all books in one download"
-→ [README.md](README.md) - Download one of the ZIP files
+→ [README.md](README.md) - Download one of the ZIP files from GitHub Releases
 
 ### "I want to understand the formats"
 → [README.md](README.md) - See "Which Format Should I Use?"
@@ -88,19 +91,24 @@ bsb2usfm/
 ### "I want to build/generate files myself"
 → [README_developer.md](README_developer.md) - Full developer guide
 
+### "I want to build just one edition"
+→ Run `make bereanbible` or `make majoritybible`
+
 ### "I want to understand how ZIPs are created"
 → [README_zips.md](README_zips.md) - ZIP creation guide
 
-## 💡 Tips
+## Tips
 
 1. **Most users** should start with [README.md](README.md)
 2. **Developers** should read [README_developer.md](README_developer.md)
-3. **Each directory** contains a specific version of the Bible
-4. **ZIP files** contain all 66 books in one archive
-5. **Individual files** can be downloaded from the folders
+3. **Two editions** are built: BSB (full Bible) and MSB (New Testament)
+4. **Each edition** has its own directory with identical internal structure
+5. **ZIP files** contain all books for the edition in one archive
+6. **`make all`** builds both editions; `make bereanbible` or `make majoritybible` builds one
 
-## 🔗 External Links
+## External Links
 
 - Berean Bible Website: https://bereanbible.com
+- Majority Bible Website: https://majoritybible.com
 - USFM Standard: https://ubsicap.github.io/usfm/
 - USJ Standard: https://github.com/usfm-bible/tcdocs/blob/main/grammar/usj.rst

@@ -215,13 +215,21 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Temporary files
-temp/
+# Temporary files (per-edition cached source data)
+*/temp/
 
 # Streamlit
 .streamlit/secrets.toml
 
-# Workspace directory for build artifacts
-workspace/
+# Workspace directory for build artifacts (per-edition)
+*/workspace/
+
+# Generated output directories (per-edition)
+*/results/
+*/results_usj/
+*/results_usx/
+*/results_usx_for_DBL/
+*/results_for_paratext/
+*/sfm_for_paratext/
 
 example/

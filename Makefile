@@ -1,91 +1,145 @@
 # Detect Python: try venv/bin/python, venv/bin/python3, then system python3
 PYTHON=$(shell if [ -x venv/bin/python ]; then echo venv/bin/python; elif [ -x venv/bin/python3 ]; then echo venv/bin/python3; else echo python3; fi)
-REMOTE_URL=https://bereanbible.com/bsb_tables.tsv
-CACHED_DATA=temp/bsb_tables.tsv
+
+# Edition definitions
+EDITIONS = bereanbible majoritybible
+
+bereanbible_URL = https://bereanbible.com/bsb_tables.tsv
+bereanbible_ID = BSB
+bereanbible_SENTINEL = GEN
+
+majoritybible_URL = https://majoritybible.com/msb_nt_tables.tsv
+majoritybible_ID = MSB
+majoritybible_SENTINEL = MAT
 
 # PHONY targets that don't represent files
-.PHONY: all clean clean-cache force check-remote-updates
+.PHONY: all clean clean-cache force bereanbible majoritybible
 
-all: results/GEN.usfm results/int/01GENBSB_int.usfm results/strongs/01GENBSB_strongs.usfm results/strongs_full/01GENBSB_full_strongs.usfm results_usj/GEN.usj results_usj/int/01GENBSB_int.usj results_usj/strongs/01GENBSB_strongs.usj results_usj/strongs_full/01GENBSB_full_strongs.usj results_usx/GEN.usx results_usx/int/01GENBSB_int.usx results_usx/strongs/01GENBSB_strongs.usx results_usx/strongs_full/01GENBSB_full_strongs.usx
-	$(PYTHON) adapt_usx_for_DBL.py
-	$(PYTHON) adapt_usfm_for_paratext.py
-	$(PYTHON) create_zips.py
+all: bereanbible majoritybible
 
-# Always check for updates from remote (PHONY target)
-check-remote-updates: | temp
-	@echo "Checking for updates from $(REMOTE_URL)..."
-	@if [ -f "$(CACHED_DATA)" ]; then \
-		curl -s -z "$(CACHED_DATA)" -o "$(CACHED_DATA).tmp" "$(REMOTE_URL)"; \
-		if [ -f "$(CACHED_DATA).tmp" ]; then \
+# Per-edition top-level targets
+define EDITION_TARGETS
+$(1): $(1)/results/$($(1)_SENTINEL).usfm \
+      $(1)/results/int/$(call sentinel_int,$(1)).usfm \
+      $(1)/results/strongs/$(call sentinel_strongs,$(1)).usfm \
+      $(1)/results/strongs_full/$(call sentinel_full,$(1)).usfm \
+      $(1)/results_usj/$($(1)_SENTINEL).usj \
+      $(1)/results_usj/int/$(call sentinel_int,$(1)).usj \
+      $(1)/results_usj/strongs/$(call sentinel_strongs,$(1)).usj \
+      $(1)/results_usj/strongs_full/$(call sentinel_full,$(1)).usj \
+      $(1)/results_usx/$($(1)_SENTINEL).usx \
+      $(1)/results_usx/int/$(call sentinel_int,$(1)).usx \
+      $(1)/results_usx/strongs/$(call sentinel_strongs,$(1)).usx \
+      $(1)/results_usx/strongs_full/$(call sentinel_full,$(1)).usx
+	$$(PYTHON) adapt_usx_for_DBL.py $(1)/results_usx -o $(1)/results_usx_for_DBL
+	$$(PYTHON) adapt_usfm_for_paratext.py $(1)/results -o $(1)/results_for_paratext --identifier $($(1)_ID)
+	$$(PYTHON) create_zips.py --base-dir $(1) --identifier $($(1)_ID)
+endef
+
+# Helper functions for sentinel filenames
+sentinel_int = $(call _bookcode,$(1))$($(1)_SENTINEL)$($(1)_ID)_int
+sentinel_strongs = $(call _bookcode,$(1))$($(1)_SENTINEL)$($(1)_ID)_strongs
+sentinel_full = $(call _bookcode,$(1))$($(1)_SENTINEL)$($(1)_ID)_full_strongs
+_bookcode = $(if $(filter GEN,$($(1)_SENTINEL)),01,40)
+
+# Generate edition targets
+$(foreach ed,$(EDITIONS),$(eval $(call EDITION_TARGETS,$(ed))))
+
+# Per-edition cache management
+define EDITION_CACHE
+$(1)/temp/source.tsv: | $(1)/temp
+	@echo "Checking for updates from $($(1)_URL)..."
+	@if [ -f "$$@" ]; then \
+		curl -s -z "$$@" -o "$$@.tmp" "$($(1)_URL)"; \
+		if [ -f "$$@.tmp" ]; then \
 			echo "Remote file has been updated, using new version"; \
-			mv "$(CACHED_DATA).tmp" "$(CACHED_DATA)"; \
+			mv "$$@.tmp" "$$@"; \
 		else \
 			echo "Using cached version (remote not modified)"; \
 		fi \
 	else \
-		echo "Downloading $(REMOTE_URL) for the first time..."; \
-		curl -s -o "$(CACHED_DATA)" "$(REMOTE_URL)"; \
+		echo "Downloading $($(1)_URL) for the first time..."; \
+		curl -s -o "$$@" "$($(1)_URL)"; \
 	fi
 
-# Download and cache the remote data file with timestamp checking
-# This uses curl with -z flag to only download if remote is newer
-$(CACHED_DATA): check-remote-updates
+$(1)/temp:
+	mkdir -p $(1)/temp
+endef
 
-# Ensure temp directory exists
-temp:
-	mkdir -p temp
+$(foreach ed,$(EDITIONS),$(eval $(call EDITION_CACHE,$(ed))))
+
+# Per-edition build rules
+define EDITION_RULES
+# Basic USFM
+$(1)/results/$($(1)_SENTINEL).usfm: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Interlinear USFM
+$(1)/results/int/$(call sentinel_int,$(1)).usfm: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results/int
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results/int/^%$($(1)_ID)_int.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Strongs USFM
+$(1)/results/strongs/$(call sentinel_strongs,$(1)).usfm: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results/strongs
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results/strongs/^%$($(1)_ID)_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Strongs full USFM
+$(1)/results/strongs_full/$(call sentinel_full,$(1)).usfm: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results/strongs_full
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results/strongs_full/^%$($(1)_ID)_full_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Basic USJ
+$(1)/results_usj/$($(1)_SENTINEL).usj: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results_usj
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results_usj/%.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Interlinear USJ
+$(1)/results_usj/int/$(call sentinel_int,$(1)).usj: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results_usj/int
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results_usj/int/^%$($(1)_ID)_int.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Strongs USJ
+$(1)/results_usj/strongs/$(call sentinel_strongs,$(1)).usj: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results_usj/strongs
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results_usj/strongs/^%$($(1)_ID)_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Strongs full USJ
+$(1)/results_usj/strongs_full/$(call sentinel_full,$(1)).usj: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results_usj/strongs_full
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results_usj/strongs_full/^%$($(1)_ID)_full_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Basic USX
+$(1)/results_usx/$($(1)_SENTINEL).usx: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results_usx
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results_usx/%.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Interlinear USX
+$(1)/results_usx/int/$(call sentinel_int,$(1)).usx: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results_usx/int
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results_usx/int/^%$($(1)_ID)_int.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Strongs USX
+$(1)/results_usx/strongs/$(call sentinel_strongs,$(1)).usx: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results_usx/strongs
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results_usx/strongs/^%$($(1)_ID)_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+
+# Strongs full USX
+$(1)/results_usx/strongs_full/$(call sentinel_full,$(1)).usx: bsb2usfm.py $(1)/temp/source.tsv
+	mkdir -p $(1)/results_usx/strongs_full
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results_usx/strongs_full/^%$($(1)_ID)_full_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+endef
+
+$(foreach ed,$(EDITIONS),$(eval $(call EDITION_RULES,$(ed))))
 
 # Force update by removing cache and rebuilding
 force: clean-cache all
 
-# All output files depend on both the script and the cached data
-results/GEN.usfm: bsb2usfm.py $(CACHED_DATA)
-	- $(PYTHON) bsb2usfm.py -o results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results/int/01GENBSB_int.usfm: bsb2usfm.py $(CACHED_DATA)
-	- $(PYTHON) bsb2usfm.py -I -o results/int/^%BSB_int.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results/strongs/01GENBSB_strongs.usfm: bsb2usfm.py $(CACHED_DATA)
-	$(PYTHON) bsb2usfm.py -S -o results/strongs/^%BSB_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results/strongs_full/01GENBSB_full_strongs.usfm: bsb2usfm.py $(CACHED_DATA)
-	$(PYTHON) bsb2usfm.py -S -P -B -o results/strongs_full/^%BSB_full_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results_usj/GEN.usj: bsb2usfm.py $(CACHED_DATA)
-	- $(PYTHON) bsb2usfm.py -o results_usj/%.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results_usj/int/01GENBSB_int.usj: bsb2usfm.py $(CACHED_DATA)
-	- $(PYTHON) bsb2usfm.py -I -o results_usj/int/^%BSB_int.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results_usj/strongs/01GENBSB_strongs.usj: bsb2usfm.py $(CACHED_DATA)
-	$(PYTHON) bsb2usfm.py -S -o results_usj/strongs/^%BSB_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results_usj/strongs_full/01GENBSB_full_strongs.usj: bsb2usfm.py $(CACHED_DATA)
-	$(PYTHON) bsb2usfm.py -S -P -B -o results_usj/strongs_full/^%BSB_full_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results_usx/GEN.usx: bsb2usfm.py $(CACHED_DATA)
-	mkdir -p results_usx
-	- $(PYTHON) bsb2usfm.py -o results_usx/%.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results_usx/int/01GENBSB_int.usx: bsb2usfm.py $(CACHED_DATA)
-	mkdir -p results_usx/int
-	- $(PYTHON) bsb2usfm.py -I -o results_usx/int/^%BSB_int.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results_usx/strongs/01GENBSB_strongs.usx: bsb2usfm.py $(CACHED_DATA)
-	mkdir -p results_usx/strongs
-	$(PYTHON) bsb2usfm.py -S -o results_usx/strongs/^%BSB_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
-results_usx/strongs_full/01GENBSB_full_strongs.usx: bsb2usfm.py $(CACHED_DATA)
-	mkdir -p results_usx/strongs_full
-	$(PYTHON) bsb2usfm.py -S -P -B -o results_usx/strongs_full/^%BSB_full_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(CACHED_DATA)
-
 # Clean generated output files
 clean:
-	rm -f results/*.usfm results/int/*.usfm results/strongs/*.usfm results/strongs_full/*.usfm
-	rm -f results_usj/*.usj results_usj/int/*.usj results_usj/strongs/*.usj results_usj/strongs_full/*.usj
-	rm -f results_usx/*.usx results_usx/int/*.usx results_usx/strongs/*.usx results_usx/strongs_full/*.usx
-	rm -rf workspace
+	$(foreach ed,$(EDITIONS),rm -rf $(ed)/results $(ed)/results_usj $(ed)/results_usx $(ed)/results_usx_for_DBL $(ed)/results_for_paratext $(ed)/sfm_for_paratext $(ed)/workspace;)
 
-# Clean the cached data file to force re-download
+# Clean the cached data files to force re-download
 clean-cache:
-	rm -f $(CACHED_DATA)
+	$(foreach ed,$(EDITIONS),rm -f $(ed)/temp/source.tsv;)

@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: "Version number (e.g., 5.1)"
+        description: "Version number (e.g., 5.2)"
         required: true
         type: string
 
@@ -58,86 +58,107 @@ jobs:
 
       - name: Verify workspace files
         run: |
-          echo "Checking workspace directory..."
-          ls -lh workspace/
-          ls -lh workspace/usj/
-          ls -lh workspace/usx/
+          echo "Checking BSB workspace..."
+          find bereanbible/workspace -name "*.zip" -exec ls -lh {} \;
+          echo ""
+          echo "Checking MSB workspace..."
+          find majoritybible/workspace -name "*.zip" -exec ls -lh {} \;
+          echo ""
           echo "Total ZIP files:"
-          find workspace -name "*.zip" | wc -l
+          find bereanbible/workspace majoritybible/workspace -name "*.zip" | wc -l
 
       - name: Create Release and Upload Assets
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.version }}
-          name: BSB v${{ steps.version.outputs.version }}
+          name: BSB & MSB v${{ steps.version.outputs.version }}
           draft: false
           prerelease: false
           body: |
-            # Berean Standard Bible v${{ steps.version.outputs.version }}
+            # Berean Standard Bible & Majority Standard Bible v${{ steps.version.outputs.version }}
 
-            This release contains the complete Berean Standard Bible in USFM, USJ, and USX formats.
+            This release contains the complete Berean Standard Bible (BSB) and Majority Standard Bible (MSB) in USFM, USJ, and USX formats.
 
-            ## 📦 What's Included
+            ## Berean Standard Bible (BSB) - Full Bible (66 books)
 
-            ### USFM Format (Universal Standard Format Markers)
+            ### USFM Format
             - **BSB_usfm.zip** - Standard clean text
             - **BSB_int_usfm.zip** - With interlinear data
             - **BSB_strongs_usfm.zip** - With Strong's numbers
             - **BSB_full_strongs_usfm.zip** - Complete Strong's data
 
-            ### USJ Format (Unified Scripture JSON)
+            ### USJ Format (JSON)
             - **BSB_usj.zip** - Standard clean text
             - **BSB_int_usj.zip** - With interlinear data
             - **BSB_strongs_usj.zip** - With Strong's numbers
             - **BSB_full_strongs_usj.zip** - Complete Strong's data
 
-            ### USX Format (Unified Scripture XML)
+            ### USX Format (XML)
             - **BSB_usx.zip** - Standard clean text
             - **BSB_int_usx.zip** - With interlinear data
             - **BSB_strongs_usx.zip** - With Strong's numbers
             - **BSB_full_strongs_usx.zip** - Complete Strong's data
 
-            ## 📖 Contents
+            ## Majority Standard Bible (MSB) - New Testament (27 books)
 
-            Each ZIP file contains all 66 books of the Bible (39 OT + 27 NT) with:
-            - Complete text with verses and chapters
-            - Section headings
-            - Cross-references
-            - Footnotes
-            - Poetry formatting
-            - Red letter (Jesus' words) markup
+            ### USFM Format
+            - **MSB_usfm.zip** - Standard clean text
+            - **MSB_int_usfm.zip** - With interlinear data
+            - **MSB_strongs_usfm.zip** - With Strong's numbers
+            - **MSB_full_strongs_usfm.zip** - Complete Strong's data
 
-            ## 📄 License
+            ### USJ Format (JSON)
+            - **MSB_usj.zip** - Standard clean text
+            - **MSB_int_usj.zip** - With interlinear data
+            - **MSB_strongs_usj.zip** - With Strong's numbers
+            - **MSB_full_strongs_usj.zip** - Complete Strong's data
 
-            **Public Domain** - The Berean Standard Bible text is completely free to use:
-            - ✅ Copy and distribute freely
-            - ✅ Modify and adapt as needed
-            - ✅ Use commercially without restriction
-            - ✅ Use in any project (software, publications, apps, etc.)
-            - ✅ Create derivative works
+            ### USX Format (XML)
+            - **MSB_usx.zip** - Standard clean text
+            - **MSB_int_usx.zip** - With interlinear data
+            - **MSB_strongs_usx.zip** - With Strong's numbers
+            - **MSB_full_strongs_usx.zip** - Complete Strong's data
 
-            **No restrictions.** No attribution required (though appreciated). No permission needed.
+            ## License
 
-            The BSB text is dedicated to the public domain. See [UNLICENSE](https://github.com/${{ github.repository }}/blob/main/UNLICENSE) for details.
+            **Public Domain** - Both Bible texts are completely free to use:
+            - Copy and distribute freely
+            - Modify and adapt as needed
+            - Use commercially without restriction
+            - No attribution required (though appreciated)
 
-            ## 🔗 More Information
+            See [UNLICENSE](https://github.com/${{ github.repository }}/blob/main/UNLICENSE) for details.
+
+            ## More Information
 
             Visit the [repository](https://github.com/${{ github.repository }}) for more details.
           files: |
-            workspace/BSB_usfm.zip
-            workspace/int/BSB_int_usfm.zip
-            workspace/strongs/BSB_strongs_usfm.zip
-            workspace/strongs_full/BSB_full_strongs_usfm.zip
-            workspace/usj/BSB_usj.zip
-            workspace/usj/int/BSB_int_usj.zip
-            workspace/usj/strongs/BSB_strongs_usj.zip
-            workspace/usj/strongs_full/BSB_full_strongs_usj.zip
-            workspace/usx/BSB_usx.zip
-            workspace/usx/int/BSB_int_usx.zip
-            workspace/usx/strongs/BSB_strongs_usx.zip
-            workspace/usx/strongs_full/BSB_full_strongs_usx.zip
+            bereanbible/workspace/BSB_usfm.zip
+            bereanbible/workspace/int/BSB_int_usfm.zip
+            bereanbible/workspace/strongs/BSB_strongs_usfm.zip
+            bereanbible/workspace/strongs_full/BSB_full_strongs_usfm.zip
+            bereanbible/workspace/usj/BSB_usj.zip
+            bereanbible/workspace/usj/int/BSB_int_usj.zip
+            bereanbible/workspace/usj/strongs/BSB_strongs_usj.zip
+            bereanbible/workspace/usj/strongs_full/BSB_full_strongs_usj.zip
+            bereanbible/workspace/usx/BSB_usx.zip
+            bereanbible/workspace/usx/int/BSB_int_usx.zip
+            bereanbible/workspace/usx/strongs/BSB_strongs_usx.zip
+            bereanbible/workspace/usx/strongs_full/BSB_full_strongs_usx.zip
+            majoritybible/workspace/MSB_usfm.zip
+            majoritybible/workspace/int/MSB_int_usfm.zip
+            majoritybible/workspace/strongs/MSB_strongs_usfm.zip
+            majoritybible/workspace/strongs_full/MSB_full_strongs_usfm.zip
+            majoritybible/workspace/usj/MSB_usj.zip
+            majoritybible/workspace/usj/int/MSB_int_usj.zip
+            majoritybible/workspace/usj/strongs/MSB_strongs_usj.zip
+            majoritybible/workspace/usj/strongs_full/MSB_full_strongs_usj.zip
+            majoritybible/workspace/usx/MSB_usx.zip
+            majoritybible/workspace/usx/int/MSB_int_usx.zip
+            majoritybible/workspace/usx/strongs/MSB_strongs_usx.zip
+            majoritybible/workspace/usx/strongs_full/MSB_full_strongs_usx.zip
 
       - name: Release Summary
         run: |
-          echo "✅ Release v${{ steps.version.outputs.version }} created successfully!"
-          echo "📦 12 ZIP files uploaded as release assets"
+          echo "Release v${{ steps.version.outputs.version }} created successfully!"
+          echo "24 ZIP files uploaded as release assets (12 BSB + 12 MSB)"

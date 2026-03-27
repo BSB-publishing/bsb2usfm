@@ -4,51 +4,57 @@ QUICK START: ZIP Creation Script
 
 AUTOMATIC USAGE (via Makefile):
     make all                            # Generates all files AND creates ZIPs
+    make bereanbible                    # Build BSB edition only
+    make majoritybible                  # Build MSB edition only
 
 MANUAL USAGE:
-    python3 create_zips.py              # Update all ZIPs as needed
-    ./create_zips.py                    # Same (if executable)
+    python3 create_zips.py --base-dir bereanbible --identifier BSB
+    python3 create_zips.py --base-dir majoritybible --identifier MSB
 
 COMMON OPTIONS:
     -n, --dry-run                       # Show what would happen
     -v, --verbose                       # Show detailed progress
+    --base-dir DIR                      # Edition base directory
+    --identifier ID                     # Edition identifier (BSB, MSB)
     -h, --help                          # Show help
 
-OUTPUT FILES (co-located with source files):
-    results/BSB_usfm.zip                # Main USFM files
-    results/int/BSB_int_usfm.zip        # Interlinear version
-    results/strongs/BSB_strongs_usfm.zip     # With Strong's numbers
-    results/strongs_full/BSB_full_strongs_usfm.zip  # Full Strong's version
-    
-    results_usj/BSB_usj.zip             # Main USJ files
-    results_usj/int/BSB_int_usj.zip     # Interlinear version
-    results_usj/strongs/BSB_strongs_usj.zip  # With Strong's numbers
-    results_usj/strongs_full/BSB_full_strongs_usj.zip  # Full Strong's version
+OUTPUT FILES (per edition, e.g. bereanbible/):
+    bereanbible/workspace/BSB_usfm.zip                # Main USFM files
+    bereanbible/workspace/int/BSB_int_usfm.zip        # Interlinear version
+    bereanbible/workspace/strongs/BSB_strongs_usfm.zip     # With Strong's numbers
+    bereanbible/workspace/strongs_full/BSB_full_strongs_usfm.zip  # Full Strong's
+
+    bereanbible/workspace/usj/BSB_usj.zip             # Main USJ files
+    bereanbible/workspace/usj/int/BSB_int_usj.zip     # Interlinear version
+    bereanbible/workspace/usj/strongs/BSB_strongs_usj.zip  # With Strong's numbers
+    bereanbible/workspace/usj/strongs_full/BSB_full_strongs_usj.zip  # Full Strong's
+
+    (Similarly for majoritybible/ with MSB prefix)
 
 NAMING CONVENTION:
     ZIP files are named with: PREFIX_EXTENSION.zip
-    - PREFIX: Common prefix from filenames (e.g., "BSB", "BSB_int")
+    - PREFIX: Common prefix from filenames (e.g., "BSB", "BSB_int", "MSB")
     - EXTENSION: File extension of zipped files (e.g., "usfm", "usj")
-    
+
     Examples:
     - Files: GEN.usfm, EXO.usfm → BSB_usfm.zip
     - Files: 01GENBSB_int.usfm → BSB_int_usfm.zip
-    - Files: GEN.usj, EXO.usj → BSB_usj.zip
+    - Files: MAT.usfm (MSB) → MSB_usfm.zip
 
 SMART UPDATES:
     The script only updates a ZIP if at least one source file is newer
     than the existing ZIP file. This makes it fast for repeated runs.
 
 KEY FEATURES:
-    ✓ All ZIP files are created in the SAME DIRECTORY as their source files
+    ✓ Per-edition output with --base-dir and --identifier parameters
     ✓ ZIP names include file extension for easy identification
     ✓ Efficient timestamp-based updates (only rebuild when needed)
     ✓ Complete regeneration ensures integrity
     ✓ Automatically runs as part of 'make all' workflow
 
 MAKEFILE INTEGRATION:
-    The script is called automatically at the end of 'make all'.
-    After all USFM and USJ files are generated, ZIPs are created/updated.
+    The script is called automatically at the end of each edition's build.
+    After all USFM, USJ, and USX files are generated, ZIPs are created.
     No manual intervention needed for the normal build process!
 
 =============================================================================

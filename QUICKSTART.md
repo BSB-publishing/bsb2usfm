@@ -1,5 +1,7 @@
 # Quick Start Guide - BSB2USFM Web Service
 
+> **Note**: This guide is for the Docker-based web service. For building both BSB and MSB editions via the command line, see [SETUP.md](SETUP.md) and run `make all`.
+
 Get up and running with the BSB2USFM web interface in under 5 minutes!
 
 ## Prerequisites

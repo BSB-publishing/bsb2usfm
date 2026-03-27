@@ -4,17 +4,18 @@
 
 This repository contains **two distinct types of content** with **different licenses**:
 
-1. **Bible Text (BSB)** → Public Domain (No restrictions)
+1. **Bible Text (BSB & MSB)** → Public Domain (No restrictions)
 2. **Software Tools** → MIT License (Attribution required for software)
 
 ## 📖 Bible Text - Public Domain
 
 ### What This Covers
 
-All **Berean Standard Bible (BSB) text** in any format:
-- USFM files in `results/` directory
-- USJ files in `results_usj/` directory
-- All ZIP archives in `workspace/`
+All **Berean Standard Bible (BSB)** and **Majority Standard Bible (MSB)** text in any format:
+- USFM files in each edition's `results/` directory (e.g., `bereanbible/results/`, `majoritybible/results/`)
+- USJ files in each edition's `results_usj/` directory
+- USX files in each edition's `results_usx/` directory
+- All ZIP archives in each edition's `workspace/` directory
 - Any derived or converted Bible text
 
 ### License Status
