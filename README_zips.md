@@ -1,32 +1,30 @@
 # ZIP Creation Script
 
-This script automatically creates and maintains ZIP archives for all files in the `results` and `results_usj` directories.
+This script automatically creates and maintains ZIP archives for all generated files under each edition's directory (e.g., `bereanbible/` and `majoritybible/`).
 
 ## Overview
 
 The `create_zips.py` script:
-- Processes both `results` and `results_usj` directory trees
+- Processes `results`, `results_usj`, and `results_usx` directory trees for each edition
 - Creates separate ZIP files for each directory (root and subdirectories)
 - Only updates ZIPs when source files are newer than the existing archive
-- Names ZIPs based on common prefixes in filenames (defaults to "BSB") and file extensions
+- Names ZIPs based on the edition identifier (e.g., "BSB" or "MSB") and file extensions
 - Completely regenerates ZIP files when updates are needed (not incremental)</parameter>
 
 ## Usage
 
 ### Basic Usage
 
-Create or update all ZIP files:
+Create or update ZIP files for a specific edition:
 ```bash
-python3 create_zips.py
-```
-
-or simply:
-```bash
-./create_zips.py
+python3 create_zips.py --base-dir bereanbible --identifier BSB
+python3 create_zips.py --base-dir majoritybible --identifier MSB
 ```
 
 ### Command-Line Options
 
+- `--base-dir`: Edition directory (e.g., `bereanbible`, `majoritybible`)
+- `--identifier`: Edition identifier used in filenames (e.g., `BSB`, `MSB`)
 - `-n, --dry-run`: Show what would be done without actually creating files
 - `-v, --verbose`: Show detailed information about processing
 - `-h, --help`: Show help message
@@ -34,41 +32,51 @@ or simply:
 ### Examples
 
 ```bash
-# Normal operation - create/update ZIPs as needed
-python3 create_zips.py
+# Create/update ZIPs for BSB
+python3 create_zips.py --base-dir bereanbible --identifier BSB
 
-# See what would be updated without making changes
-python3 create_zips.py --dry-run
+# Create/update ZIPs for MSB
+python3 create_zips.py --base-dir majoritybible --identifier MSB
 
-# Get detailed output including all files being added
-python3 create_zips.py --verbose
+# Dry-run to see what would be updated
+python3 create_zips.py --base-dir bereanbible --identifier BSB --dry-run
 
-# Combine dry-run and verbose for maximum information
-python3 create_zips.py -n -v
+# Verbose output
+python3 create_zips.py --base-dir bereanbible --identifier BSB --verbose
 ```
 
 ## Generated ZIP Files
 
-The script creates the following ZIP files:
+The script creates ZIP files under each edition's `workspace/` directory.
+For example, for BSB (`bereanbible/workspace/`):
 
-### In `results/`:
-- `results/BSB_usfm.zip` - All `.usfm` files in the root directory
-- `results/int/BSB_int_usfm.zip` - All files in the `int/` subdirectory
-- `results/strongs/BSB_strongs_usfm.zip` - All files in the `strongs/` subdirectory
-- `results/strongs_full/BSB_full_strongs_usfm.zip` - All files in the `strongs_full/` subdirectory
+### USFM
+- `BSB_usfm.zip` - Standard clean text
+- `int/BSB_int_usfm.zip` - With interlinear data
+- `strongs/BSB_strongs_usfm.zip` - With Strong's numbers
+- `strongs_full/BSB_full_strongs_usfm.zip` - Complete Strong's data
 
-### In `results_usj/`:
-- `results_usj/BSB_usj.zip` - All `.usj` files in the root directory
-- `results_usj/int/BSB_int_usj.zip` - All files in the `int/` subdirectory
-- `results_usj/strongs/BSB_strongs_usj.zip` - All files in the `strongs/` subdirectory
-- `results_usj/strongs_full/BSB_full_strongs_usj.zip` - All files in the `strongs_full/` subdirectory</parameter>
+### USJ
+- `usj/BSB_usj.zip` - Standard clean text
+- `usj/int/BSB_int_usj.zip` - With interlinear data
+- `usj/strongs/BSB_strongs_usj.zip` - With Strong's numbers
+- `usj/strongs_full/BSB_full_strongs_usj.zip` - Complete Strong's data
+
+### USX
+- `usx/BSB_usx.zip` - Standard clean text
+- `usx/int/BSB_int_usx.zip` - With interlinear data
+- `usx/strongs/BSB_strongs_usx.zip` - With Strong's numbers
+- `usx/strongs_full/BSB_full_strongs_usx.zip` - Complete Strong's data
+
+The same structure applies to MSB under `majoritybible/workspace/` with
+the `MSB` prefix (New Testament only).</parameter>
 
 ## How It Works
 
 1. **Directory Scanning**: The script scans each directory for files (excluding existing `.zip` files)
 
 2. **Name Detection**: It analyzes filenames to find:
-   - Common prefixes (e.g., "BSB" from "01GENBSB_int.usfm")
+   - Common prefixes (e.g., "BSB" or "MSB" from filenames like "01GENBSB_int.usfm")
    - Common file extensions (e.g., "usfm", "usj")
 
 3. **Timestamp Comparison**: For each directory, it compares:</parameter>
@@ -97,23 +105,7 @@ python3 create_zips.py
 
 ### Automated Updates with Makefile
 
-The script is already integrated into the Makefile and will run automatically after all files are generated:
-
-```makefile
-all: [dependencies...]
-	$(PYTHON) create_zips.py
-```
-
-You can also add custom targets:
-```makefile
-zips:
-	python3 create_zips.py
-
-clean-zips:
-	find results results_usj -name "*.zip" -type f -delete
-```
-
-When you run `make all`, the ZIP files will be automatically created/updated as the final step.
+The script is already integrated into the Makefile and runs automatically for each edition after all files are generated. When you run `make all` (or `make bereanbible` / `make majoritybible`), the ZIP files are created/updated as the final step.
 
 ### Git Hook
 Add to `.git/hooks/pre-commit` to update ZIPs before commits:

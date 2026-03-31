@@ -144,7 +144,7 @@ The following warnings are **not addressed** by this script because they
 are intentional or require Paratext project configuration:
 
 - **"#Verse missing"** — Certain verses (e.g., Matthew 17:21, Mark 7:16)
-  are intentionally omitted in the BSB because they follow the critical
+  are intentionally omitted in the BSB/MSB because they follow the critical
   text. The omitted verses are noted in footnotes. A `custom.vrs` file
   under each edition's `sfm_for_paratext/` directory (e.g.,
   `bereanbible/sfm_for_paratext/`) is provided that lists these as
@@ -157,7 +157,7 @@ are intentional or require Paratext project configuration:
 
 Paratext's Quotation Check may report thousands of warnings (including
 "Unexpected quotation mark value" for every quote in the text). These are
-**not** problems with the USFM text — the BSB uses standard English
+**not** problems with the USFM text — both editions use standard English
 typographic quotation marks correctly. The warnings occur because the
 Paratext project's Quotation Rules have not been configured. Follow the
 steps below to resolve them.
