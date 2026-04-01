@@ -1,7 +1,7 @@
 # Berean Standard Bible & Majority Standard Bible - USFM, USJ & USX Files
 
 [![License: Public Domain](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](UNLICENSE)
-[![Bible Version](https://img.shields.io/badge/BSB-v5.1-blue.svg)](https://github.com/BSB-publishing/bsb2usfm/releases)
+[![Latest Release](https://img.shields.io/github/v/release/BSB-publishing/bsb2usfm)](https://github.com/BSB-publishing/bsb2usfm/releases/latest)
 
 Welcome! This repository provides the **Berean Standard Bible (BSB)** and the **Majority Standard Bible (MSB)** in multiple digital formats for Bible software, apps, and translation projects.
 
@@ -20,7 +20,7 @@ Each edition is built into its own directory (`bereanbible/` or `majoritybible/`
 
 ## 🚀 GitHub Releases
 
-**Current Version: 5.1**
+**Current Version: 5.2**
 
 The recommended way to download the complete dataset is through our **[GitHub Releases](../../releases/latest)**. Each release includes ZIP files for both editions in USFM, USJ, and USX formats.
 
@@ -138,7 +138,7 @@ The workspace directories are excluded from version control (via `.gitignore`) b
 
 The current release version is tracked in the `VERSION` file at the root of the repository. Update this file when preparing a new release.
 
-**Current Version:** 5.1
+**Current Version:** See `VERSION` file
 
 ### Documentation
 
@@ -154,7 +154,7 @@ The conversion tool is written in Python and can generate files in various forma
 1. Update the `VERSION` file with the new version number
 2. Run `make all` to generate all files and ZIP archives for both editions
 3. All ZIP files in `bereanbible/workspace/` and `majoritybible/workspace/` should be uploaded as release assets
-4. Create a GitHub release tagged with the version number (e.g., `v5.1`)
+4. Create a GitHub release tagged with the version number (e.g., `v5.2`)
 
 ## 🆘 Need Help?
 

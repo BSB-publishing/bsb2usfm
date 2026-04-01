@@ -53,6 +53,17 @@ jobs:
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           echo "Release version: $VERSION"
 
+      - name: Verify version consistency
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          FILE_VERSION=$(cat VERSION)
+          if [ "$VERSION" != "$FILE_VERSION" ]; then
+            echo "ERROR: Release version ($VERSION) does not match VERSION file ($FILE_VERSION)"
+            echo "Update the VERSION file to $VERSION before releasing."
+            exit 1
+          fi
+          echo "Version consistency check passed: $VERSION"
+
       - name: Build all files
         run: make all
 

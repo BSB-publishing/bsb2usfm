@@ -179,6 +179,6 @@ Licensed under MIT License
 
 ---
 
-**Last Updated:** 2024-12-15  
-**Version:** 5.1  
+**Last Updated:** 2026-04-01
+**Version:** See `VERSION` file
 **Status:** Active and Maintained
