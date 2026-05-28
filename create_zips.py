@@ -308,6 +308,11 @@ Examples:
             base / "workspace" / "usfm_for_paratext",
             "_for_paratext",
         ),
+        (
+            base / "sfm_for_paratext",
+            base / "workspace" / "sfm_for_paratext",
+            "_for_paratext",
+        ),
     ]
 
     print("=" * 60)
