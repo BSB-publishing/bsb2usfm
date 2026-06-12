@@ -13,7 +13,7 @@ majoritybible_ID = MSB
 majoritybible_SENTINEL = MAT
 
 # PHONY targets that don't represent files
-.PHONY: all clean clean-cache force bereanbible majoritybible
+.PHONY: all clean clean-cache force refresh bereanbible majoritybible
 
 all: bereanbible majoritybible
 
@@ -33,8 +33,12 @@ $(1): $(1)/results/$($(1)_SENTINEL).usfm \
       $(1)/results_usx/strongs_full/$(call sentinel_full,$(1)).usx
 	$$(PYTHON) adapt_usx_for_DBL.py $(1)/results_usx -o $(1)/results_usx_for_DBL
 	$$(PYTHON) adapt_usfm_for_paratext.py $(1)/results -o $(1)/results_for_paratext --identifier $($(1)_ID)
+	$$(if $$(filter majoritybible,$(1)),$$(PYTHON) mirror_bsb_ot_to_msb.py,@:)
 	$$(PYTHON) create_zips.py --base-dir $(1) --identifier $($(1)_ID)
 endef
+
+# MSB collection includes BSB OT books; ensure BSB is built first.
+majoritybible: bereanbible
 
 # Helper functions for sentinel filenames
 sentinel_int = $(call _bookcode,$(1))$($(1)_SENTINEL)$($(1)_ID)_int
@@ -73,62 +77,62 @@ define EDITION_RULES
 # Basic USFM
 $(1)/results/$($(1)_SENTINEL).usfm: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results
-	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results/%.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results/%.usfm -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Interlinear USFM
 $(1)/results/int/$(call sentinel_int,$(1)).usfm: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results/int
-	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results/int/^%$($(1)_ID)_int.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results/int/^%$($(1)_ID)_int.usfm -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Strongs USFM
 $(1)/results/strongs/$(call sentinel_strongs,$(1)).usfm: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results/strongs
-	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results/strongs/^%$($(1)_ID)_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results/strongs/^%$($(1)_ID)_strongs.usfm -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Strongs full USFM
 $(1)/results/strongs_full/$(call sentinel_full,$(1)).usfm: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results/strongs_full
-	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results/strongs_full/^%$($(1)_ID)_full_strongs.usfm -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results/strongs_full/^%$($(1)_ID)_full_strongs.usfm -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Basic USJ
 $(1)/results_usj/$($(1)_SENTINEL).usj: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results_usj
-	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results_usj/%.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results_usj/%.usj -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Interlinear USJ
 $(1)/results_usj/int/$(call sentinel_int,$(1)).usj: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results_usj/int
-	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results_usj/int/^%$($(1)_ID)_int.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results_usj/int/^%$($(1)_ID)_int.usj -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Strongs USJ
 $(1)/results_usj/strongs/$(call sentinel_strongs,$(1)).usj: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results_usj/strongs
-	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results_usj/strongs/^%$($(1)_ID)_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results_usj/strongs/^%$($(1)_ID)_strongs.usj -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Strongs full USJ
 $(1)/results_usj/strongs_full/$(call sentinel_full,$(1)).usj: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results_usj/strongs_full
-	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results_usj/strongs_full/^%$($(1)_ID)_full_strongs.usj -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results_usj/strongs_full/^%$($(1)_ID)_full_strongs.usj -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Basic USX
 $(1)/results_usx/$($(1)_SENTINEL).usx: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results_usx
-	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results_usx/%.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -o $(1)/results_usx/%.usx -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Interlinear USX
 $(1)/results_usx/int/$(call sentinel_int,$(1)).usx: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results_usx/int
-	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results_usx/int/^%$($(1)_ID)_int.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	- $$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -I -o $(1)/results_usx/int/^%$($(1)_ID)_int.usx -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Strongs USX
 $(1)/results_usx/strongs/$(call sentinel_strongs,$(1)).usx: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results_usx/strongs
-	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results_usx/strongs/^%$($(1)_ID)_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -o $(1)/results_usx/strongs/^%$($(1)_ID)_strongs.usx -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 
 # Strongs full USX
 $(1)/results_usx/strongs_full/$(call sentinel_full,$(1)).usx: bsb2usfm.py $(1)/temp/source.tsv
 	mkdir -p $(1)/results_usx/strongs_full
-	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results_usx/strongs_full/^%$($(1)_ID)_full_strongs.usx -f demo_data/sample_footnotes.tsv -n demo_data/sample_book_names.xml $(1)/temp/source.tsv
+	$$(PYTHON) bsb2usfm.py --identifier $($(1)_ID) -S -P -B -o $(1)/results_usx/strongs_full/^%$($(1)_ID)_full_strongs.usx -f demo_data/sample_footnotes.tsv $(1)/temp/source.tsv
 endef
 
 $(foreach ed,$(EDITIONS),$(eval $(call EDITION_RULES,$(ed))))
@@ -143,3 +147,19 @@ clean:
 # Clean the cached data files to force re-download
 clean-cache:
 	$(foreach ed,$(EDITIONS),rm -f $(ed)/temp/source.tsv;)
+
+# Conditionally re-download cached sources only if upstream has been updated
+# (uses HTTP If-Modified-Since via curl -z; no payload transfer on 304)
+refresh:
+	@$(foreach ed,$(EDITIONS), \
+	    mkdir -p $(ed)/temp; \
+	    rm -f $(ed)/temp/source.tsv.tmp; \
+	    echo "$(ed): checking $($(ed)_URL) ..."; \
+	    curl -s -z $(ed)/temp/source.tsv -o $(ed)/temp/source.tsv.tmp $($(ed)_URL); \
+	    if [ -s $(ed)/temp/source.tsv.tmp ]; then \
+	        echo "$(ed): updated"; \
+	        mv $(ed)/temp/source.tsv.tmp $(ed)/temp/source.tsv; \
+	    else \
+	        echo "$(ed): up to date"; \
+	        rm -f $(ed)/temp/source.tsv.tmp; \
+	    fi;)

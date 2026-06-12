@@ -64,6 +64,9 @@ jobs:
           fi
           echo "Version consistency check passed: $VERSION"
 
+      - name: Refresh upstream sources
+        run: make refresh
+
       - name: Build all files
         run: make all
 
