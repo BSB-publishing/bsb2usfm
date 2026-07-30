@@ -659,21 +659,22 @@ def main():
             total_stats["r_removals"] += stats["r_removals"]
             total_stats["errors"].extend(stats["errors"])
 
-            # Also generate Paratext-named .sfm copy (top-level files only)
+            # Also generate Paratext-named .sfm copy, mirroring subdirectories
+            # (e.g. strongs/, strongs_full/) alongside top-level files.
             if sfm_dir and output_file and not stats["errors"]:
                 relative_path = usfm_file.relative_to(args.input)
-                if str(relative_path.parent) == ".":
-                    sfm_name = to_paratext_filename(relative_path.name, args.identifier)
-                    if sfm_name:
-                        sfm_dir.mkdir(parents=True, exist_ok=True)
-                        sfm_path = sfm_dir / sfm_name
-                        try:
-                            shutil.copy2(output_file, sfm_path)
-                            total_stats["sfm_files"] += 1
-                        except Exception as e:
-                            total_stats["errors"].append(
-                                f"Error copying to {sfm_path}: {e}"
-                            )
+                sfm_name = to_paratext_filename(relative_path.name, args.identifier)
+                if sfm_name:
+                    sfm_subdir = sfm_dir / relative_path.parent
+                    sfm_subdir.mkdir(parents=True, exist_ok=True)
+                    sfm_path = sfm_subdir / sfm_name
+                    try:
+                        shutil.copy2(output_file, sfm_path)
+                        total_stats["sfm_files"] += 1
+                    except Exception as e:
+                        total_stats["errors"].append(
+                            f"Error copying to {sfm_path}: {e}"
+                        )
 
         print(f"\nProcessed {total_stats['files']} files")
         if total_stats["sfm_files"]:
