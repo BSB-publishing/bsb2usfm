@@ -119,6 +119,7 @@ def create_zip_for_directory(
     verbose: bool = False,
     name_suffix: str = "",
     identifier: str = "BSB",
+    subdir_tag: str = "",
 ):
     """
     Create or update a zip file for the given directory.
@@ -130,6 +131,9 @@ def create_zip_for_directory(
         dry_run: If True, only show what would be done without creating files
         verbose: If True, show more detailed information
         name_suffix: Optional suffix to add to zip filename (before extension)
+        subdir_tag: Fallback token (usually the subdirectory name) used to
+            tag the zip name when the filenames themselves don't encode it
+            (e.g. a "strongs" subdirectory whose files are plain book names)
     """
     if not directory.exists() or not directory.is_dir():
         return
@@ -147,6 +151,11 @@ def create_zip_for_directory(
     # Get common prefix and extension for naming
     filenames = [f.name for f in files]
     prefix = get_common_prefix(filenames, identifier)
+    if prefix == identifier and subdir_tag:
+        # The filenames carried no extra token (e.g. "strongs") of their
+        # own to distinguish this subdirectory's zip from its siblings —
+        # fall back to tagging it with the subdirectory name.
+        prefix = f"{identifier}_{subdir_tag}"
     extension = get_common_extension(filenames)
 
     # Build zip name with extension suffix and optional name suffix
@@ -248,6 +257,7 @@ def process_branch(
             verbose=verbose,
             name_suffix=name_suffix,
             identifier=identifier,
+            subdir_tag=subdir.name,
         )
 
 

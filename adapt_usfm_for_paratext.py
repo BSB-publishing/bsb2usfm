@@ -6,14 +6,15 @@ This script addresses common USFM validation issues:
 1. Converts custom \\ref markers to \\xt (cross-reference text)
 2. Pads Strong's numbers to 5 digits (H776 -> H00776, G123 -> G00123)
 3. Splits \\wj markers (words of Jesus) at verse boundaries
-4. Converts non-canonical book \\xt refs (Jasher, Enoch) to plain text
-5. Removes empty \\ft markers
-6. Collapses \\mt2 + empty \\mt1 into \\mt1
-7. Removes empty \\fqa before \\fv
-8. Removes standalone empty \\q1 and \\p lines
-9. Converts \\pmo to \\lf (list footer)
-10. Converts end-of-book \\mr to \\d
-11. Removes \\r lines with non-biblical references (e.g., Joshua–Malachi)
+4. Adds the USFM 3 "+" nesting prefix to \\w markers nested inside \\wj
+5. Converts non-canonical book \\xt refs (Jasher, Enoch) to plain text
+6. Removes empty \\ft markers
+7. Collapses \\mt2 + empty \\mt1 into \\mt1
+8. Removes empty \\fqa before \\fv
+9. Removes standalone empty \\q1 and \\p lines
+10. Converts \\pmo to \\lf (list footer)
+11. Converts end-of-book \\mr to \\d
+12. Removes \\r lines with non-biblical references (e.g., Joshua–Malachi)
 
 See PARATEXT_ADAPTATIONS.md for detailed documentation.
 """
@@ -23,7 +24,14 @@ import shutil
 import sys
 from pathlib import Path
 
-from usfmtc.reference import bookcodes
+from typing import cast
+
+from usfmtc.reference import bookcodes as _bookcodes
+
+# usfmtc infers this as dict[LiteralString, str] since it's built from a
+# literal string constant; cast to plain str keys since we look up
+# runtime-derived book codes (e.g. from filenames), not string literals.
+bookcodes = cast("dict[str, str]", _bookcodes)
 
 
 def fix_strongs_numbers(usfm_string: str) -> tuple[str, int]:
@@ -252,6 +260,45 @@ def split_wj_markers(usfm_string: str) -> tuple[str, int]:
     return result, split_count
 
 
+def fix_wj_nested_w_markers(usfm_string: str) -> tuple[str, int]:
+    """
+    Add the USFM 3 "+" nesting prefix to \\w markers that fall inside an
+    open \\wj (words of Jesus) span: \\w text|strong="G00863"\\w* becomes
+    \\+w text|strong="G00863"\\+w*.
+
+    Per the USFM 3 character-marker-nesting rule, a character-level marker
+    nested inside another already-open character-level marker must use a
+    "+" prefix on both its opening and closing forms. bsb2usfm.py's
+    Strong's-number \\w wrapping always emits the plain form regardless of
+    \\wj nesting, which is ambiguous wherever a \\wj span closes and reopens
+    close together (e.g. quote/attribution mid-verse, or a \\wj split across
+    a verse boundary) — Paratext's Basic Checks occasionally can't resolve
+    the ambiguity and reports the \\wj* as unmatched.
+
+    Must run after split_wj_markers(), which guarantees no \\wj span
+    crosses a verse boundary, so each \\wj ... \\wj* span here is
+    self-contained.
+
+    Returns tuple of (modified string, count of \\w markers converted).
+    """
+    count = 0
+    w_pattern = re.compile(r"\\w (.*?)\\w\*", re.DOTALL)
+
+    def fix_w(match: re.Match) -> str:
+        nonlocal count
+        count += 1
+        return f"\\+w {match.group(1)}\\+w*"
+
+    def fix_wj_span(match: re.Match) -> str:
+        content = w_pattern.sub(fix_w, match.group(1))
+        return f"\\wj {content}\\wj*"
+
+    wj_pattern = re.compile(r"\\wj (.*?)\\wj\*", re.DOTALL)
+    result = wj_pattern.sub(fix_wj_span, usfm_string)
+
+    return result, count
+
+
 def fix_mt_markers(usfm_string: str) -> tuple[str, int]:
     """
     Fix \\mt2 + empty \\mt1 pattern by collapsing to a single \\mt1.
@@ -475,6 +522,7 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
         "ref_fixes": 0,
         "strongs_fixes": 0,
         "wj_splits": 0,
+        "wj_nested_w": 0,
         "empty_mt1": 0,
         "empty_ft": 0,
         "nonbib_fixes": 0,
@@ -505,6 +553,10 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
     # Fix 3: Split \wj markers at verse boundaries
     usfm_string, wj_splits = split_wj_markers(usfm_string)
     stats["wj_splits"] = wj_splits
+
+    # Fix 3b: Add "+" nesting prefix to \w markers nested inside \wj
+    usfm_string, wj_nested_w = fix_wj_nested_w_markers(usfm_string)
+    stats["wj_nested_w"] = wj_nested_w
 
     # Fix 4: Collapse \mt2 + empty \mt1 into \mt1
     usfm_string, empty_mt1 = fix_mt_markers(usfm_string)
@@ -587,6 +639,7 @@ def main():
             print(f"  Ref markers fixed: {stats['ref_fixes']}")
             print(f"  Strong's numbers fixed: {stats['strongs_fixes']}")
             print(f"  WJ markers split: {stats['wj_splits']}")
+            print(f"  WJ nested \\w markers fixed: {stats['wj_nested_w']}")
             print(f"  Non-biblical \\xt fixed: {stats['nonbib_fixes']}")
             print(f"  Empty \\mt1 removed: {stats['empty_mt1']}")
             print(f"  Empty \\ft removed: {stats['empty_ft']}")
@@ -620,6 +673,7 @@ def main():
             "ref_fixes": 0,
             "strongs_fixes": 0,
             "wj_splits": 0,
+            "wj_nested_w": 0,
             "nonbib_fixes": 0,
             "empty_mt1": 0,
             "empty_ft": 0,
@@ -649,6 +703,7 @@ def main():
             total_stats["ref_fixes"] += stats["ref_fixes"]
             total_stats["strongs_fixes"] += stats["strongs_fixes"]
             total_stats["wj_splits"] += stats["wj_splits"]
+            total_stats["wj_nested_w"] += stats["wj_nested_w"]
             total_stats["nonbib_fixes"] += stats["nonbib_fixes"]
             total_stats["empty_mt1"] += stats["empty_mt1"]
             total_stats["empty_ft"] += stats["empty_ft"]
@@ -663,7 +718,18 @@ def main():
             # (e.g. strongs/, strongs_full/) alongside top-level files.
             if sfm_dir and output_file and not stats["errors"]:
                 relative_path = usfm_file.relative_to(args.input)
-                sfm_name = to_paratext_filename(relative_path.name, args.identifier)
+                sfm_source_name = relative_path.name
+                # The Paratext strongs/ .sfm deliverable uses plain book
+                # filenames (no "_strongs" suffix) so it can drop into a
+                # Paratext project alongside the base edition without a
+                # book-code collision. Other "_strongs"-suffixed outputs
+                # (results/strongs, results_usj/strongs, etc.) keep the
+                # suffix since they coexist with non-strongs siblings there.
+                if relative_path.parent.name == "strongs":
+                    stem = Path(sfm_source_name).stem
+                    if stem.endswith("_strongs"):
+                        sfm_source_name = stem[: -len("_strongs")] + relative_path.suffix
+                sfm_name = to_paratext_filename(sfm_source_name, args.identifier)
                 if sfm_name:
                     sfm_subdir = sfm_dir / relative_path.parent
                     sfm_subdir.mkdir(parents=True, exist_ok=True)
@@ -682,6 +748,7 @@ def main():
         print(f"  Total ref markers fixed: {total_stats['ref_fixes']}")
         print(f"  Total Strong's numbers fixed: {total_stats['strongs_fixes']}")
         print(f"  Total WJ markers split: {total_stats['wj_splits']}")
+        print(f"  Total WJ nested \\w markers fixed: {total_stats['wj_nested_w']}")
         print(f"  Total non-biblical \\xt fixed: {total_stats['nonbib_fixes']}")
         print(f"  Total empty \\mt1 removed: {total_stats['empty_mt1']}")
         print(f"  Total empty \\ft removed: {total_stats['empty_ft']}")
