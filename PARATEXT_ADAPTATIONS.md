@@ -146,9 +146,11 @@ are intentional or require Paratext project configuration:
 - **"#Verse missing"** — Certain verses (e.g., Matthew 17:21, Mark 7:16)
   are intentionally omitted in the BSB/MSB because they follow the critical
   text. The omitted verses are noted in footnotes. A `custom.vrs` file
-  under each edition's `sfm_for_paratext/` directory (e.g.,
-  `bereanbible/sfm_for_paratext/`) is provided that lists these as
-  excluded verses so Paratext accepts the intentional omissions.
+  under each edition's `sfm_for_paratext/` directory is generated as part
+  of `make all` so Paratext accepts the intentional omissions: BSB's is
+  copied from the static `demo_data/bsb_custom.vrs`, MSB's is generated
+  by `fix_msb.py --vrs-only` (Majority Text versification differs from
+  Critical Text in a handful of places — see that script for details).
 - **"seed-bearing" non-wordforming characters** — Hyphenated compound
   words inside `\w` markers. This is a Paratext project setting issue
   (configure hyphen as word-forming character).

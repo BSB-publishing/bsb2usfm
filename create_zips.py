@@ -13,14 +13,18 @@ import argparse
 import os
 import re
 import zipfile
+from collections import Counter
 from pathlib import Path
 from typing import List
 
 
 def get_common_extension(filenames: List[str]) -> str:
     """
-    Extract the common file extension from a list of filenames.
-    Returns the extension without the dot, or empty string if no common extension.
+    Extract the dominant file extension from a list of filenames.
+    Returns the extension without the dot, or empty string if no files
+    have an extension. A minority of files with a different extension
+    (e.g. a `.vrs` versification file alongside `.sfm` book files) does
+    not prevent detection of the dominant one.
     """
     if not filenames:
         return ""
@@ -32,12 +36,7 @@ def get_common_extension(filenames: List[str]) -> str:
     if not extensions:
         return ""
 
-    # Check if all extensions are the same
-    first_ext = extensions[0]
-    if all(ext == first_ext for ext in extensions):
-        return first_ext
-
-    return ""
+    return Counter(extensions).most_common(1)[0][0]
 
 
 def get_common_prefix(filenames: List[str], identifier: str = "BSB") -> str:

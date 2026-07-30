@@ -115,6 +115,7 @@ jobs:
 
             ### Paratext SFM Format
             - **BSB_sfm_for_paratext.zip** - Paratext-ready SFM files (Paratext naming convention)
+            - **BSB_strongs_sfm_for_paratext.zip** - Paratext-ready SFM files with Strong's numbers
 
             ## Majority Standard Bible (MSB) - New Testament (27 books)
 
@@ -138,6 +139,7 @@ jobs:
 
             ### Paratext SFM Format
             - **MSB_sfm_for_paratext.zip** - Paratext-ready SFM files (Paratext naming convention)
+            - **MSB_strongs_sfm_for_paratext.zip** - Paratext-ready SFM files with Strong's numbers
 
             ## License
 
@@ -166,6 +168,7 @@ jobs:
             bereanbible/workspace/usx/strongs/BSB_strongs_usx.zip
             bereanbible/workspace/usx/strongs_full/BSB_full_strongs_usx.zip
             bereanbible/workspace/sfm_for_paratext/BSB_sfm_for_paratext.zip
+            bereanbible/workspace/sfm_for_paratext/strongs/BSB_strongs_sfm_for_paratext.zip
             majoritybible/workspace/MSB_usfm.zip
             majoritybible/workspace/int/MSB_int_usfm.zip
             majoritybible/workspace/strongs/MSB_strongs_usfm.zip
@@ -179,8 +182,9 @@ jobs:
             majoritybible/workspace/usx/strongs/MSB_strongs_usx.zip
             majoritybible/workspace/usx/strongs_full/MSB_full_strongs_usx.zip
             majoritybible/workspace/sfm_for_paratext/MSB_sfm_for_paratext.zip
+            majoritybible/workspace/sfm_for_paratext/strongs/MSB_strongs_sfm_for_paratext.zip
 
       - name: Release Summary
         run: |
           echo "Release v${{ steps.version.outputs.version }} created successfully!"
-          echo "26 ZIP files uploaded as release assets (13 BSB + 13 MSB)"
+          echo "28 ZIP files uploaded as release assets (14 BSB + 14 MSB)"

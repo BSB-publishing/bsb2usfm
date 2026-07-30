@@ -33,6 +33,9 @@ $(1): $(1)/results/$($(1)_SENTINEL).usfm \
       $(1)/results_usx/strongs_full/$(call sentinel_full,$(1)).usx
 	$$(PYTHON) adapt_usx_for_DBL.py $(1)/results_usx -o $(1)/results_usx_for_DBL
 	$$(PYTHON) adapt_usfm_for_paratext.py $(1)/results -o $(1)/results_for_paratext --identifier $($(1)_ID)
+	$$(if $$(filter bereanbible,$(1)),cp demo_data/bsb_custom.vrs $(1)/sfm_for_paratext/custom.vrs,@:)
+	$$(if $$(filter majoritybible,$(1)),$$(PYTHON) fix_msb.py --vrs-only,@:)
+	$$(if $$(filter majoritybible,$(1)),cp majoritybible/msb.vrs $(1)/sfm_for_paratext/custom.vrs,@:)
 	$$(if $$(filter majoritybible,$(1)),$$(PYTHON) mirror_bsb_ot_to_msb.py,@:)
 	$$(PYTHON) create_zips.py --base-dir $(1) --identifier $($(1)_ID)
 endef

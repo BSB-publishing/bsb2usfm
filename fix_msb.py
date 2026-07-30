@@ -3,9 +3,13 @@
 
 Stand-alone helper to apply MSB-specific corrections to a freshly-built
 ``majoritybible/`` tree. Run manually after ``make all`` (or after
-``make majoritybible``); intentionally not wired into the Makefile,
-because the fix-ups address MSB upstream source issues that don't
-affect BSB.
+``make majoritybible``); the apostrophe normalisation is intentionally
+not wired into the Makefile, because it addresses an MSB upstream
+source issue that doesn't affect BSB.
+
+``write_vrs()`` alone (no text mutation) *is* wired into the Makefile
+via ``--vrs-only``, so ``majoritybible/msb.vrs`` is regenerated on
+every build and copied into ``majoritybible/sfm_for_paratext/``.
 
 Fix-ups applied (in order):
 
@@ -140,11 +144,14 @@ def write_vrs(root: Path) -> Path:
 
 
 def main() -> int:
+    vrs_only = "--vrs-only" in sys.argv[1:]
+
     if not MSB_ROOT.is_dir():
         print(f"error: {MSB_ROOT}/ not found", file=sys.stderr)
         return 1
     print(f"Applying MSB fix-ups under {MSB_ROOT}/ ...")
-    normalise_apostrophes(MSB_ROOT)
+    if not vrs_only:
+        normalise_apostrophes(MSB_ROOT)
     write_vrs(MSB_ROOT)
     print("Done.")
     return 0
