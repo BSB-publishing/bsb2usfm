@@ -2,19 +2,25 @@
 """
 Fix USFM validation errors for Paratext compatibility.
 
-This script addresses common USFM validation issues:
+This script addresses USFM validation issues specific to Paratext's
+current (USFM-3.0-era) basic checks:
 1. Converts custom \\ref markers to \\xt (cross-reference text)
 2. Pads Strong's numbers to 5 digits (H776 -> H00776, G123 -> G00123)
 3. Splits \\wj markers (words of Jesus) at verse boundaries
 4. Adds the USFM 3 "+" nesting prefix to \\w markers nested inside \\wj
-5. Converts non-canonical book \\xt refs (Jasher, Enoch) to plain text
-6. Removes empty \\ft markers
-7. Collapses \\mt2 + empty \\mt1 into \\mt1
-8. Removes empty \\fqa before \\fv
-9. Removes standalone empty \\q1 and \\p lines
-10. Converts \\pmo to \\lf (list footer)
-11. Converts end-of-book \\mr to \\d
-12. Removes \\r lines with non-biblical references (e.g., Joshua–Malachi)
+5. Removes empty \\fqa before \\fv (in USFM 3.1, \\fv is a character
+   style valid inside or outside \\fqa; this is a 3.0-only requirement)
+
+These are all workarounds for Paratext not yet fully supporting USFM
+3.1 and are expected to become unnecessary once Paratext 9.6 ships.
+
+General-purpose cleanups that aren't version-dependent (non-biblical
+\\xt refs, empty \\ft, \\mt2/\\mt1 collapse, empty para markers, \\mr ->
+\\d, invalid \\r lines) now happen upstream in bsb2usfm.py itself (via
+usx_cleanup.py, applied to the USX tree before serialization) so every
+output variant and format — USX, USJ, and USFM alike — gets them, not
+just the Paratext .sfm deliverable. \\pmo is emitted as \\lf directly in
+bsb2usfm.py, since there was no remaining legitimate use of \\pmo.
 
 See PARATEXT_ADAPTATIONS.md for detailed documentation.
 """
@@ -61,33 +67,6 @@ def fix_strongs_numbers(usfm_string: str) -> tuple[str, int]:
     return result, count
 
 
-_BIBLICAL_BOOK_NAMES = {
-    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
-    "Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel",
-    "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles",
-    "Ezra", "Nehemiah", "Esther", "Job", "Psalm", "Psalms",
-    "Proverbs", "Ecclesiastes", "Song of Solomon",
-    "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel",
-    "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah",
-    "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi",
-    "Matthew", "Mark", "Luke", "John", "Acts", "Romans",
-    "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians",
-    "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians",
-    "1 Timothy", "2 Timothy", "Titus", "Philemon",
-    "Hebrews", "James", "1 Peter", "2 Peter",
-    "1 John", "2 John", "3 John", "Jude", "Revelation",
-}
-
-
-def _is_biblical_ref(display_text: str) -> bool:
-    """Check if display text starts with a known biblical book name."""
-    text = display_text.strip()
-    for name in _BIBLICAL_BOOK_NAMES:
-        if text.startswith(name):
-            return True
-    return False
-
-
 def _ref_to_xt(text: str) -> tuple[str, int]:
     """Convert \\ref markers to \\xt markers, preserving cross-reference semantics.
 
@@ -96,8 +75,9 @@ def _ref_to_xt(text: str) -> tuple[str, int]:
 
     Returns tuple of (modified string, count of conversions).
 
-    Note: non-biblical references (Jasher, Enoch) are handled separately
-    by fix_nonbiblical_xt() after this conversion.
+    Note: non-biblical references (Jasher, Enoch) are already converted
+    to plain text upstream in bsb2usfm.py (usx_cleanup.fix_nonbiblical_xt)
+    before this script runs.
     """
     count = 0
 
@@ -299,77 +279,6 @@ def fix_wj_nested_w_markers(usfm_string: str) -> tuple[str, int]:
     return result, count
 
 
-def fix_mt_markers(usfm_string: str) -> tuple[str, int]:
-    """
-    Fix \\mt2 + empty \\mt1 pattern by collapsing to a single \\mt1.
-
-    Every book has \\mt2 BookName followed by an empty \\mt1, which
-    Paratext flags as an empty marker error. Simply removing the empty
-    \\mt1 leaves only \\mt2, which Paratext rejects because DBL requires
-    a major title marker (\\mt or \\mt1) before chapter 1.
-
-    Fix: replace \\mt2 BookName + empty \\mt1 with \\mt1 BookName.
-
-    Returns tuple of (modified string, count of fixes).
-    """
-    # Match \mt2 line followed by empty \mt1 line
-    pattern = re.compile(r"^\\mt2 (.+)\n\\mt1\s*$", re.MULTILINE)
-    count = len(pattern.findall(usfm_string))
-    result = pattern.sub(r"\\mt1 \1", usfm_string)
-    # Also handle any remaining standalone empty \mt1 lines
-    leftover = re.compile(r"^\\mt1\s*$\n?", re.MULTILINE)
-    count += len(leftover.findall(result))
-    result = leftover.sub("", result)
-    return result, count
-
-
-def fix_empty_ft(usfm_string: str) -> tuple[str, int]:
-    """
-    Remove empty \\ft markers.
-
-    Handles two cases:
-    1. Trailing empty \\ft before \\f*: \\fqa to profane \\ft \\f*
-    2. Empty \\ft before \\xt: \\ft \\xt Reference\\xt*
-       (created when \\ref is converted to \\xt inside footnotes)
-
-    Returns tuple of (modified string, count of fixes).
-    """
-    count = 0
-
-    # Case 1: empty \ft before \f*
-    pattern1 = re.compile(r"\\ft\s*\\f\*")
-    count += len(pattern1.findall(usfm_string))
-    result = pattern1.sub(r"\\f*", usfm_string)
-
-    # Case 2: empty \ft before \xt
-    pattern2 = re.compile(r"\\ft\s*(?=\\xt )")
-    count += len(pattern2.findall(result))
-    result = pattern2.sub("", result)
-
-    return result, count
-
-
-def fix_nonbiblical_xt(usfm_string: str) -> tuple[str, int]:
-    """
-    Convert \\xt markers for non-biblical books back to plain text.
-
-    Paratext's reference checker flags references to non-canonical books
-    (Jasher, 1 Enoch) even when they appear as plain text, but \\xt makes
-    it worse. This converts specific known non-biblical \\xt references
-    to plain footnote text.
-
-    Returns tuple of (modified string, count of fixes).
-    """
-    count = 0
-    # Hardcoded non-biblical books that Paratext complains about
-    for book_name in ("Jasher", "1 Enoch"):
-        pattern = re.compile(rf"\\xt ({re.escape(book_name)}\s[^\\]*?)\\xt\*")
-        matches = pattern.findall(usfm_string)
-        count += len(matches)
-        usfm_string = pattern.sub(r"\1", usfm_string)
-    return usfm_string, count
-
-
 def fix_empty_fqa(usfm_string: str) -> tuple[str, int]:
     """
     Remove empty \\fqa before \\fv.
@@ -383,100 +292,6 @@ def fix_empty_fqa(usfm_string: str) -> tuple[str, int]:
     pattern = re.compile(r"\\fqa\s*(?=\\fv)")
     count = len(pattern.findall(usfm_string))
     result = pattern.sub("", usfm_string)
-    return result, count
-
-
-def remove_empty_para_markers(usfm_string: str) -> tuple[str, int]:
-    """
-    Remove standalone empty \\q1 and \\p lines.
-
-    These appear as lines with just the marker and no text content,
-    acting as visual separators. Paratext flags them as empty markers.
-
-    Returns tuple of (modified string, count of removals).
-    """
-    pattern = re.compile(r"^\\(q1|p)\s*$\n?", re.MULTILINE)
-    count = len(pattern.findall(usfm_string))
-    result = pattern.sub("", usfm_string)
-    return result, count
-
-
-def fix_pmo_markers(usfm_string: str) -> tuple[str, int]:
-    """
-    Convert \\pmo to \\lf (list footer).
-
-    \\pmo (embedded text opening) causes "Marker cannot occur here"
-    errors in list contexts in Paratext. \\lf (list footer) is the
-    semantically correct marker for concluding remarks within lists
-    (e.g., census totals in Numbers).
-
-    Returns tuple of (modified string, count of fixes).
-    """
-    pattern = re.compile(r"\\pmo ")
-    count = len(pattern.findall(usfm_string))
-    result = pattern.sub(r"\\lf ", usfm_string)
-    return result, count
-
-
-def fix_mr_markers(usfm_string: str) -> tuple[str, int]:
-    """
-    Convert \\mr to \\d at end of book.
-
-    \\mr (major section reference range) at end of book causes
-    "Marker cannot occur here" errors. \\d (descriptive title)
-    is the appropriate marker for psalm/song attributions like
-    "For the choirmaster. With stringed instruments."
-
-    Returns tuple of (modified string, count of fixes).
-    """
-    pattern = re.compile(r"^\\mr ", re.MULTILINE)
-    count = len(pattern.findall(usfm_string))
-    result = pattern.sub(r"\\d ", usfm_string)
-    return result, count
-
-
-def _is_valid_r_reference(ref: str) -> bool:
-    """Check if a reference in an \\r line is a valid biblical reference.
-
-    Must start with a known book name AND contain at least one number
-    (chapter or chapter:verse). Book-only ranges like "Joshua–Malachi"
-    (no numbers at all) are not valid for Paratext.
-    """
-    if not _is_biblical_ref(ref):
-        return False
-    # Must contain at least one digit (chapter number)
-    return bool(re.search(r"\d", ref))
-
-
-def remove_invalid_r_markers(usfm_string: str) -> tuple[str, int]:
-    """
-    Remove \\r lines that contain references Paratext cannot validate:
-    non-biblical references or book-only references without chapter:verse.
-
-    Biblical \\r lines with proper chapter:verse references are kept.
-
-    Returns tuple of (modified string, count of removals).
-    """
-    count = 0
-
-    def check_r_line(match: re.Match) -> str:
-        nonlocal count
-        line = match.group(0)
-        # Extract reference text between parentheses
-        inner = re.search(r"\((.+)\)", line)
-        if not inner:
-            return line
-        # Split on semicolons to get individual references
-        refs = [r.strip() for r in inner.group(1).split(";")]
-        # If any reference is invalid, remove the whole line
-        for ref in refs:
-            if not _is_valid_r_reference(ref):
-                count += 1
-                return ""
-        return line
-
-    pattern = re.compile(r"^\\r .*$\n?", re.MULTILINE)
-    result = pattern.sub(check_r_line, usfm_string)
     return result, count
 
 
@@ -523,14 +338,7 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
         "strongs_fixes": 0,
         "wj_splits": 0,
         "wj_nested_w": 0,
-        "empty_mt1": 0,
-        "empty_ft": 0,
-        "nonbib_fixes": 0,
         "empty_fqa": 0,
-        "empty_para": 0,
-        "pmo_fixes": 0,
-        "mr_fixes": 0,
-        "r_removals": 0,
         "errors": [],
     }
 
@@ -558,37 +366,9 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
     usfm_string, wj_nested_w = fix_wj_nested_w_markers(usfm_string)
     stats["wj_nested_w"] = wj_nested_w
 
-    # Fix 4: Collapse \mt2 + empty \mt1 into \mt1
-    usfm_string, empty_mt1 = fix_mt_markers(usfm_string)
-    stats["empty_mt1"] = empty_mt1
-
-    # Fix 5: Convert non-biblical \xt refs (Jasher, Enoch) to plain text
-    usfm_string, nonbib_fixes = fix_nonbiblical_xt(usfm_string)
-    stats["nonbib_fixes"] = nonbib_fixes
-
-    # Fix 6: Remove trailing empty \ft before \f*
-    usfm_string, empty_ft = fix_empty_ft(usfm_string)
-    stats["empty_ft"] = empty_ft
-
-    # Fix 7: Remove empty \fqa before \fv
+    # Fix 4: Remove empty \fqa before \fv
     usfm_string, empty_fqa = fix_empty_fqa(usfm_string)
     stats["empty_fqa"] = empty_fqa
-
-    # Fix 7: Remove standalone empty \q1 and \p lines
-    usfm_string, empty_para = remove_empty_para_markers(usfm_string)
-    stats["empty_para"] = empty_para
-
-    # Fix 8: Convert \pmo to \p
-    usfm_string, pmo_fixes = fix_pmo_markers(usfm_string)
-    stats["pmo_fixes"] = pmo_fixes
-
-    # Fix 9: Convert \mr to \d
-    usfm_string, mr_fixes = fix_mr_markers(usfm_string)
-    stats["mr_fixes"] = mr_fixes
-
-    # Fix 10: Remove \r lines with non-biblical references (e.g., "Joshua–Malachi")
-    usfm_string, r_removals = remove_invalid_r_markers(usfm_string)
-    stats["r_removals"] = r_removals
 
     # Write the result
     try:
@@ -640,14 +420,7 @@ def main():
             print(f"  Strong's numbers fixed: {stats['strongs_fixes']}")
             print(f"  WJ markers split: {stats['wj_splits']}")
             print(f"  WJ nested \\w markers fixed: {stats['wj_nested_w']}")
-            print(f"  Non-biblical \\xt fixed: {stats['nonbib_fixes']}")
-            print(f"  Empty \\mt1 removed: {stats['empty_mt1']}")
-            print(f"  Empty \\ft removed: {stats['empty_ft']}")
             print(f"  Empty \\fqa removed: {stats['empty_fqa']}")
-            print(f"  Empty para markers removed: {stats['empty_para']}")
-            print(f"  \\pmo converted to \\lf: {stats['pmo_fixes']}")
-            print(f"  \\mr converted to \\d: {stats['mr_fixes']}")
-            print(f"  \\r references removed: {stats['r_removals']}")
             for error in stats["errors"]:
                 print(f"  ERROR: {error}")
 
@@ -674,14 +447,7 @@ def main():
             "strongs_fixes": 0,
             "wj_splits": 0,
             "wj_nested_w": 0,
-            "nonbib_fixes": 0,
-            "empty_mt1": 0,
-            "empty_ft": 0,
             "empty_fqa": 0,
-            "empty_para": 0,
-            "pmo_fixes": 0,
-            "mr_fixes": 0,
-            "r_removals": 0,
             "errors": [],
         }
 
@@ -704,14 +470,7 @@ def main():
             total_stats["strongs_fixes"] += stats["strongs_fixes"]
             total_stats["wj_splits"] += stats["wj_splits"]
             total_stats["wj_nested_w"] += stats["wj_nested_w"]
-            total_stats["nonbib_fixes"] += stats["nonbib_fixes"]
-            total_stats["empty_mt1"] += stats["empty_mt1"]
-            total_stats["empty_ft"] += stats["empty_ft"]
             total_stats["empty_fqa"] += stats["empty_fqa"]
-            total_stats["empty_para"] += stats["empty_para"]
-            total_stats["pmo_fixes"] += stats["pmo_fixes"]
-            total_stats["mr_fixes"] += stats["mr_fixes"]
-            total_stats["r_removals"] += stats["r_removals"]
             total_stats["errors"].extend(stats["errors"])
 
             # Also generate Paratext-named .sfm copy, mirroring subdirectories
@@ -749,14 +508,7 @@ def main():
         print(f"  Total Strong's numbers fixed: {total_stats['strongs_fixes']}")
         print(f"  Total WJ markers split: {total_stats['wj_splits']}")
         print(f"  Total WJ nested \\w markers fixed: {total_stats['wj_nested_w']}")
-        print(f"  Total non-biblical \\xt fixed: {total_stats['nonbib_fixes']}")
-        print(f"  Total empty \\mt1 removed: {total_stats['empty_mt1']}")
-        print(f"  Total empty \\ft removed: {total_stats['empty_ft']}")
         print(f"  Total empty \\fqa removed: {total_stats['empty_fqa']}")
-        print(f"  Total empty para markers removed: {total_stats['empty_para']}")
-        print(f"  Total \\pmo converted to \\lf: {total_stats['pmo_fixes']}")
-        print(f"  Total \\mr converted to \\d: {total_stats['mr_fixes']}")
-        print(f"  Total \\r references removed: {total_stats['r_removals']}")
 
         if total_stats["errors"]:
             print(f"\nErrors ({len(total_stats['errors'])}):")
