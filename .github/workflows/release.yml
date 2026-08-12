@@ -116,6 +116,7 @@ jobs:
             ### Paratext SFM Format
             - **BSB_sfm_for_paratext.zip** - Paratext-ready SFM files (Paratext naming convention)
             - **BSB_strongs_sfm_for_paratext.zip** - Paratext-ready SFM files with Strong's numbers
+            - **BSB_full_strongs_sfm_for_paratext.zip** - Paratext-ready SFM files with complete Strong's data
 
             ## Majority Standard Bible (MSB) - New Testament (27 books)
 
@@ -140,6 +141,7 @@ jobs:
             ### Paratext SFM Format
             - **MSB_sfm_for_paratext.zip** - Paratext-ready SFM files (Paratext naming convention)
             - **MSB_strongs_sfm_for_paratext.zip** - Paratext-ready SFM files with Strong's numbers
+            - **MSB_full_strongs_sfm_for_paratext.zip** - Paratext-ready SFM files with complete Strong's data
 
             ## License
 
@@ -169,6 +171,7 @@ jobs:
             bereanbible/workspace/usx/strongs_full/BSB_full_strongs_usx.zip
             bereanbible/workspace/sfm_for_paratext/BSB_sfm_for_paratext.zip
             bereanbible/workspace/sfm_for_paratext/strongs/BSB_strongs_sfm_for_paratext.zip
+            bereanbible/workspace/sfm_for_paratext/strongs_full/BSB_full_strongs_sfm_for_paratext.zip
             majoritybible/workspace/MSB_usfm.zip
             majoritybible/workspace/int/MSB_int_usfm.zip
             majoritybible/workspace/strongs/MSB_strongs_usfm.zip
@@ -183,6 +186,7 @@ jobs:
             majoritybible/workspace/usx/strongs_full/MSB_full_strongs_usx.zip
             majoritybible/workspace/sfm_for_paratext/MSB_sfm_for_paratext.zip
             majoritybible/workspace/sfm_for_paratext/strongs/MSB_strongs_sfm_for_paratext.zip
+            majoritybible/workspace/sfm_for_paratext/strongs_full/MSB_full_strongs_sfm_for_paratext.zip
 
       - name: Release Summary
         run: |

@@ -32,6 +32,11 @@ This release contains the complete Berean Standard Bible (BSB) and the Majority 
 - **BSB_strongs_usx.zip** - With Strong's numbers
 - **BSB_full_strongs_usx.zip** - Complete Strong's data with placeholders and brackets
 
+**Paratext SFM Format** (Paratext naming convention, ready to drop into a project):
+- **BSB_sfm_for_paratext.zip** - Standard clean text
+- **BSB_strongs_sfm_for_paratext.zip** - With Strong's numbers
+- **BSB_full_strongs_sfm_for_paratext.zip** - Complete Strong's data with placeholders and brackets
+
 #### Majority Standard Bible (MSB) - New Testament (27 books)
 
 **USFM Format**:
@@ -51,6 +56,11 @@ This release contains the complete Berean Standard Bible (BSB) and the Majority 
 - **MSB_int_usx.zip** - With original language reverse interlinear data
 - **MSB_strongs_usx.zip** - With Strong's numbers
 - **MSB_full_strongs_usx.zip** - Complete Strong's data with placeholders and brackets
+
+**Paratext SFM Format** (Paratext naming convention, ready to drop into a project):
+- **MSB_sfm_for_paratext.zip** - Standard clean text
+- **MSB_strongs_sfm_for_paratext.zip** - With Strong's numbers
+- **MSB_full_strongs_sfm_for_paratext.zip** - Complete Strong's data with placeholders and brackets
 
 ### Contents
 
@@ -79,15 +89,15 @@ All files include:
 
 ### File Statistics
 
-- **Total ZIP files:** 24 (12 BSB + 12 MSB)
-- **BSB individual files:** 66 books x 4 variants x 3 formats
-- **MSB individual files:** 27 books x 4 variants x 3 formats
-- **Format versions:** USFM 3.1, USJ (JSON), USX 3.1
+- **Total ZIP files:** 30 (15 BSB + 15 MSB)
+- **BSB individual files:** 66 books x 4 variants x 3 formats (USFM/USJ/USX), plus 3 Paratext SFM variants
+- **MSB individual files:** 27 books x 4 variants x 3 formats (USFM/USJ/USX), plus 3 Paratext SFM variants
+- **Format versions:** USFM 3.0, USJ (JSON), USX 3.0
 
 ### Technical Details
 
 #### USFM Format
-- **Version:** USFM 3.1
+- **Version:** USFM 3.0
 - **Encoding:** UTF-8
 - **Line endings:** Unix (LF)
 - **Compatible with:** Paratext, PTXprint, and most Bible translation software
@@ -98,9 +108,14 @@ All files include:
 - **Compatible with:** Modern web apps, JavaScript libraries, JSON parsers
 
 #### USX Format
-- **Specification:** USX 3.1
+- **Specification:** USX 3.0
 - **Encoding:** UTF-8
 - **Compatible with:** Digital Bible Library (DBL), Bible technology platforms
+
+#### Paratext SFM Format
+- **Naming convention:** Paratext book-code prefixed filenames (e.g. `01GENBSB.sfm`)
+- **Encoding:** UTF-8
+- **Compatible with:** Paratext, ready to drop directly into a project folder
 
 ### Installation & Usage
 
@@ -108,6 +123,11 @@ All files include:
 1. Download the appropriate USFM ZIP file
 2. Extract to your Paratext/translation software projects folder
 3. Open the project in your software
+
+#### For Paratext Specifically (SFM)
+1. Download the appropriate `*_sfm_for_paratext.zip` file
+2. Extract into a new or existing Paratext project folder — filenames already follow Paratext's book-code naming convention
+3. Open/register the project in Paratext
 
 #### For Web/App Development (USJ)
 1. Download the appropriate USJ ZIP file
