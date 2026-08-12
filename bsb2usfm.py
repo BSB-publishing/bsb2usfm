@@ -451,7 +451,7 @@ class Processor:
                 if self.pendinglstrip:
                     t = t.lstrip()
                     self.pendinglstrip = False
-                if t.strip() == "( -":
+                if regex.match(r"^\(\s*(?:-|vvv|\. \. \.)$", t.strip()):
                     t = " ("
                     self.pendinglstrip = True
                 if isblank:

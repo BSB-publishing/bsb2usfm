@@ -222,6 +222,41 @@ def remove_invalid_r_markers(root) -> int:
     return count
 
 
+def fix_typographic_spacing(root) -> int:
+    """
+    Remove stray whitespace immediately before a comma, semicolon, or
+    question mark, and immediately inside an opening or closing
+    parenthesis (e.g. "Nevertheless , the" -> "Nevertheless, the",
+    "( that is" -> "(that is", "is )" -> "is)").
+
+    These are typos in the upstream source data (a single word-aligned
+    cell containing the stray space, e.g. one cell holding "Likewise ,
+    every"), not something introduced by this pipeline, but nothing
+    downstream corrects them either. Deliberately narrow: only touches
+    whitespace directly adjacent to ,;?() — never periods, so the
+    spaced-ellipsis house style (". . .") is untouched even when it
+    immediately precedes a closing paren (only the trailing space
+    before the paren is removed, e.g. ". . . )" -> ". . .)").
+
+    Returns count of fixes.
+    """
+    count = 0
+    pattern = re.compile(r"\s+([,;?)])|(\()\s+")
+
+    def fix(s):
+        nonlocal count
+        if s is None:
+            return s
+        new, n = pattern.subn(lambda m: (m.group(1) or "") + (m.group(2) or ""), s)
+        count += n
+        return new
+
+    for el in root.iter():
+        el.text = fix(el.text)
+        el.tail = fix(el.tail)
+    return count
+
+
 def apply(root) -> None:
     """Run all general-purpose tree cleanups in sequence, in place."""
     fix_mt_markers(root)
@@ -230,3 +265,4 @@ def apply(root) -> None:
     remove_empty_para_markers(root)
     fix_mr_markers(root)
     remove_invalid_r_markers(root)
+    fix_typographic_spacing(root)
