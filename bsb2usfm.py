@@ -155,7 +155,7 @@ ptypes = {
 def debracket(s): return regex.sub(r"[\[\]{}]", "", s)
 
 class Processor:
-    def __init__(self, outname, books=None, fnqs=None, names=None, interlinear=False, strongs=False, placeholders=False, brackets=False, identifier="BSB"):
+    def __init__(self, outname, books=None, fnqs=None, names=None, interlinear=False, strongs=False, placeholders=False, brackets=False, identifier="BSB", addesids=True):
         self.doc = None
         self.currnode = None
         self.cref = None
@@ -172,6 +172,7 @@ class Processor:
         self.placeholders = placeholders
         self.brackets = brackets
         self.identifier = identifier
+        self.addesids = addesids
 
     def writedoc(self):
         bk = self.doc.book
@@ -179,6 +180,8 @@ class Processor:
             return
         self.doc.canonicalise()
         self.doc.regularise()
+        if self.addesids:
+            self.doc.addesids()
         bkcode = bookcodes.get(bk, '99')
         outfname = self.outname.replace("%", bk).replace('^', bkcode)
         print(f"Writing {outfname}")
@@ -475,6 +478,7 @@ parser.add_argument('-S','--strongs',action='store_true',help='Include Strong\'s
 parser.add_argument('-P','--placeholders',action='store_true',help='Include placeholders')
 parser.add_argument('-B','--brackets',action='store_true',help='Include brackets')
 parser.add_argument('--identifier',default='BSB',help='Edition identifier (default: BSB)')
+parser.add_argument('--no-addesids',dest='addesids',action='store_false',help='Do not add verse sid/eid milestones (only affects USX output)')
 
 args = parser.parse_args()
 
@@ -539,7 +543,7 @@ if args.titles:
 job = Processor(args.outfile, books=args.book, fnqs=(fnqs if len(fnqs) else None),
                               names=ndoc, interlinear=args.interlinear, strongs=args.strongs,
                               placeholders=args.placeholders, brackets=args.brackets,
-                              identifier=args.identifier)
+                              identifier=args.identifier, addesids=args.addesids)
 with open_input_source(args.infile) as inf:
     rdr = csv.reader(inf, delimiter="\t")
     hdr = None

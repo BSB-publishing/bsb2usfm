@@ -3,10 +3,13 @@
 Fix USX validation errors.
 
 This script addresses common USX validation issues:
-1. Converts inline verse markers to milestone format (sid/eid)
-2. Fixes <ref> elements inside <para style="r"> sections
-3. Pads Strong's numbers to 5 digits (H776 -> H00776, G123 -> G00123)
-4. Ensures proper USX 3.0 compliance
+1. Fixes <ref> elements inside <para style="r"> sections
+2. Pads Strong's numbers to 5 digits (H776 -> H00776, G123 -> G00123)
+
+Verse sid/eid milestones are now added by bsb2usfm.py itself (via
+usfmtc's addesids()), which places eid correctly relative to enclosing
+paragraphs. That handling used to live here as a regex-based pass but
+it could not place eid outside a paragraph and was superseded.
 """
 
 import re
@@ -61,89 +64,6 @@ def fix_ref_elements(xml_string: str) -> tuple[str, int]:
     return result, count
 
 
-def convert_verses_to_milestones(xml_string: str, book_code: str) -> tuple[str, int]:
-    """
-    Convert inline verse markers to milestone format with sid/eid.
-
-    From: <verse style="v" number="1" />
-    To: <verse number="1" style="v" sid="BOOK C:V" /> text <verse eid="BOOK C:V" />
-
-    Returns tuple of (modified string, count of conversions).
-    """
-    current_chapter = "1"
-    conversions = 0
-
-    # First pass: Find all verse markers and track chapter changes
-    # Build a list of (position, type, data) tuples
-
-    chapter_pattern = re.compile(r'<chapter\s+number="(\d+)"[^>]*/>')
-
-    # Match both attribute orders for verse markers
-    verse_pattern = re.compile(
-        r'<verse\s+(?:style="v"\s+number="(\d+)"|number="(\d+)"\s+style="v")\s*/>'
-    )
-
-    result = []
-    last_end = 0
-    last_verse_id = None
-
-    # Find all chapters and verses
-    markers = []
-
-    for match in chapter_pattern.finditer(xml_string):
-        markers.append(("chapter", match.start(), match.end(), match.group(1)))
-
-    for match in verse_pattern.finditer(xml_string):
-        verse_num = match.group(1) or match.group(2)
-        markers.append(("verse", match.start(), match.end(), verse_num))
-
-    # Sort by position
-    markers.sort(key=lambda x: x[1])
-
-    # Process markers in order
-    for marker in markers:
-        marker_type, start, end, value = marker
-
-        if marker_type == "chapter":
-            # Add end marker for previous verse before chapter
-            if last_verse_id:
-                result.append(xml_string[last_end:start])
-                result.append(f'<verse eid="{last_verse_id}" />')
-                last_end = start
-                last_verse_id = None
-            current_chapter = value
-
-        elif marker_type == "verse":
-            verse_num = value
-            verse_id = f"{book_code} {current_chapter}:{verse_num}"
-
-            # Add text before this verse
-            result.append(xml_string[last_end:start])
-
-            # Add end marker for previous verse
-            if last_verse_id:
-                result.append(f'<verse eid="{last_verse_id}" />')
-
-            # Add new verse with sid
-            result.append(f'<verse number="{verse_num}" style="v" sid="{verse_id}" />')
-
-            last_end = end
-            last_verse_id = verse_id
-            conversions += 1
-
-    # Add remaining content
-    result.append(xml_string[last_end:])
-
-    # Add final end marker before </usx>
-    final_result = "".join(result)
-    if last_verse_id:
-        final_result = final_result.replace(
-            "</usx>", f'<verse eid="{last_verse_id}" /></usx>'
-        )
-
-    return final_result, conversions
-
-
 def fix_usx_file(input_path: Path, output_path: Path | None = None) -> dict:
     """
     Fix USX validation issues in a file.
@@ -158,7 +78,7 @@ def fix_usx_file(input_path: Path, output_path: Path | None = None) -> dict:
     if output_path is None:
         output_path = input_path
 
-    stats = {"ref_fixes": 0, "verse_conversions": 0, "strongs_fixes": 0, "errors": []}
+    stats = {"ref_fixes": 0, "strongs_fixes": 0, "errors": []}
 
     # Read the file
     try:
@@ -168,19 +88,11 @@ def fix_usx_file(input_path: Path, output_path: Path | None = None) -> dict:
         stats["errors"].append(f"Error reading file: {e}")
         return stats
 
-    # Extract book code
-    book_match = re.search(r'<book[^>]+code="([^"]+)"', xml_string)
-    book_code = book_match.group(1) if book_match else "UNK"
-
     # Fix 1: Remove <ref> elements
     xml_string, ref_fixes = fix_ref_elements(xml_string)
     stats["ref_fixes"] = ref_fixes
 
-    # Fix 2: Convert inline verse markers to milestone format
-    xml_string, verse_conversions = convert_verses_to_milestones(xml_string, book_code)
-    stats["verse_conversions"] = verse_conversions
-
-    # Fix 3: Pad Strong's numbers to 5 digits
+    # Fix 2: Pad Strong's numbers to 5 digits
     xml_string, strongs_fixes = fix_strongs_numbers(xml_string)
     stats["strongs_fixes"] = strongs_fixes
 
@@ -232,7 +144,6 @@ def main():
 
         if args.verbose or stats["errors"]:
             print(f"  Ref elements fixed: {stats['ref_fixes']}")
-            print(f"  Verse conversions: {stats['verse_conversions']}")
             print(f"  Strong's numbers fixed: {stats['strongs_fixes']}")
             for error in stats["errors"]:
                 print(f"  ERROR: {error}")
@@ -251,7 +162,6 @@ def main():
         total_stats = {
             "files": 0,
             "ref_fixes": 0,
-            "verse_conversions": 0,
             "strongs_fixes": 0,
             "errors": [],
         }
@@ -272,13 +182,11 @@ def main():
             stats = fix_usx_file(usx_file, output_file)
             total_stats["files"] += 1
             total_stats["ref_fixes"] += stats["ref_fixes"]
-            total_stats["verse_conversions"] += stats["verse_conversions"]
             total_stats["strongs_fixes"] += stats["strongs_fixes"]
             total_stats["errors"].extend(stats["errors"])
 
         print(f"\nProcessed {total_stats['files']} files")
         print(f"  Total ref elements fixed: {total_stats['ref_fixes']}")
-        print(f"  Total verse conversions: {total_stats['verse_conversions']}")
         print(f"  Total Strong's numbers fixed: {total_stats['strongs_fixes']}")
 
         if total_stats["errors"]:
