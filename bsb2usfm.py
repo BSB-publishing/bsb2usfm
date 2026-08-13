@@ -182,10 +182,15 @@ class Processor:
         self.doc.canonicalise()
         self.doc.regularise()
         usx_cleanup.apply(self.doc.xml)
-        if self.addesids:
-            self.doc.addesids()
         bkcode = bookcodes.get(bk, '99')
         outfname = self.outname.replace("%", bk).replace('^', bkcode)
+        # addesids() adds sid/eid/vid milestone attributes that only have a
+        # textual representation in USX/USJ. For USFM/SFM, a vid-carrying
+        # <para> makes usfmtc emit a literal "\vid|REF\*" marker (for
+        # version < 3.2), which Paratext's basic checks don't recognise and
+        # reject as invalid. USFM's plain \v markers don't need vid at all.
+        if self.addesids and not outfname.lower().endswith((".usfm", ".sfm")):
+            self.doc.addesids()
         print(f"Writing {outfname}")
         self.doc.saveAs(outfname)
 
