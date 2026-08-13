@@ -340,19 +340,19 @@ class Processor:
             fnode.append(currf)
         self.fncount += 1
 
-    def addend(self, txt):
+    def addend(self, txt, nobrackets=False):
         bits = regex.split(r"</(?:span|div)>", txt)
         for i, b in enumerate(bits):
             if i != 0:
                 self.currnode = self.currnode.parent
-            self.appendtext(b)
+            self.appendtext(b) if not nobrackets else self.addnobrackets(b)
 
     def appendverse(self):
         vnode = self.currnode.makeelement("verse", {"style": "v", "number": str(self.cref.verse)})
         self.currnode.append(vnode)
         self.verse_pending = False
 
-    def appendtext(self, txt, alt=None, mode=None, isverse=True, dostrip=True):
+    def appendtext(self, txt, alt=None, mode=None, isverse=True, dostrip=True, mrktxt=None):
         if self.currnode is None:
             print(f"Nothing to add text: {txt} to")
             return
@@ -368,6 +368,13 @@ class Processor:
         elif mode == "strongs":
             node = self.currnode.makeelement('char', {"style": "w", 'strong': alt})
         if node is not None:
+            if mrktxt is not None:
+                pnode = self.currnode.makeelement('char', {'style': mrktxt})
+                self.currnode.append(pnode)
+                node.parent = pnode
+                pnode.append(node)
+            else:
+                self.currnode.append(node)
             if (m := regex.match(r"^\s+", txt)) is not None:
                 node.text = txt[m.end():]
                 if len(self.currnode):
@@ -376,11 +383,33 @@ class Processor:
                     self.currnode.text = (self.currnode.text or "") + txt[:m.end()]
             else:
                 node.text = txt
+        elif mrktxt is not None:
+            if len(txt.lstrip()) < len(txt):
+                stxt = txt.lstrip()
+                if len(self.currnode):
+                    self.currnode[-1].tail = (self.currnode[-1].tail or "") + txt[:len(txt)-len(stxt)]
+                else:
+                    self.currnode.text = (self.currnode.text or "") + txt[:len(txt) - len(stxt)]
+                txt = stxt
+            node = self.currnode.makeelement('char', {'style': mrktxt})
+            node.text = txt
             self.currnode.append(node)
         elif len(self.currnode):
             self.currnode[-1].tail = (self.currnode[-1].tail or "") + txt
         else:
             self.currnode.text = (self.currnode.text or "") + txt
+
+    def addnobrackets(self, txt, alt=None, mode=None):
+        b = regex.split(r'[\[\]{}]', txt)
+        n = len(b) - 1
+        for i, e in enumerate(b):
+            if len(e):
+                if not e.strip() or i % 2 == 1:
+                    self.appendtext(e, dostrip=i == n, mrktxt="add" if i % 2 == 1 else None)
+                else:
+                    self.appendtext(e, alt=alt, mode=mode, dostrip=i == n, mrktxt = "add" if i % 2 == 1 else None)
+                    alt = None
+                    mode = None
 
     def appendjunkytext(self, txt, alt=None, mode=None):
         while (m := regex.search(r"<p class=\|(.*?)\|>", txt)) != None:
@@ -420,14 +449,14 @@ class Processor:
             self.addheading(f['Par'], isversetext=True)
         if row[17]:
             if not row[17].startswith("<span class=|reftext|"):
-                self.appendtext(" "+debracket(row[17]))
+                self.addnobrackets(" "+row[17])
             self.pendinglstrip = True
         bsb_content = f[self.version_col] if f[self.version_col] else ('. . .' if self.strongs and self.placeholders and (f['Str Heb'] or f['Str Grk']) else None)
         isblank = False
         t = None
         if bsb_content:
             # handling self.brackets
-            t = debracket(bsb_content) if not self.brackets else bsb_content
+            t = bsb_content
             if regex.match(r"^[\d,]+$", t):
                 t = " " + t + " "
             # handling self.placeholders
@@ -456,7 +485,7 @@ class Processor:
                     self.pendinglstrip = True
                 if isblank:
                     t = ""
-                self.appendtext(t, alt=iword, mode=mode)
+                self.appendtext(t, alt=iword, mode=mode) if self.brackets else self.addnobrackets(t, alt=iword, mode=mode)
         if f['pnc']:
             self.addend(f['pnc'])
         if row[20]:
