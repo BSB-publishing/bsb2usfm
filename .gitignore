@@ -237,3 +237,7 @@ __marimo__/
 majoritybible/msb.vrs
 
 example/
+
+# Local development
+dev/
+
