@@ -8,6 +8,11 @@ to non-canonical books (5 total). The unmodified files under each
 edition's `results/` directory (e.g., `bereanbible/results/`) retain the
 full original content.
 
+This document covers the Paratext `.usfm`/`.sfm` pipeline only. The
+parallel USX/DBL pipeline (`adapt_usx_for_DBL.py`) has its own
+adaptations, documented separately in
+[DBL_ADAPTATIONS.md](DBL_ADAPTATIONS.md).
+
 ## Non-Lossy Adaptations
 
 ### 1. `\ref` markers converted to `\xt`

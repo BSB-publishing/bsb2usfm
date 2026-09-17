@@ -7,8 +7,7 @@ current (USFM-3.0-era) basic checks:
 1. Converts custom \\ref markers to \\xt (cross-reference text)
 2. Pads Strong's numbers to 5 digits (H776 -> H00776, G123 -> G00123)
 3. Splits \\wj markers (words of Jesus) at verse boundaries
-4. Adds the USFM 3 "+" nesting prefix to \\w markers nested inside \\wj
-5. Removes empty \\fqa before \\fv (in USFM 3.1, \\fv is a character
+4. Removes empty \\fqa before \\fv (in USFM 3.1, \\fv is a character
    style valid inside or outside \\fqa; this is a 3.0-only requirement)
 
 These are all workarounds for Paratext not yet fully supporting USFM
@@ -240,45 +239,6 @@ def split_wj_markers(usfm_string: str) -> tuple[str, int]:
     return result, split_count
 
 
-def fix_wj_nested_w_markers(usfm_string: str) -> tuple[str, int]:
-    """
-    Add the USFM 3 "+" nesting prefix to \\w markers that fall inside an
-    open \\wj (words of Jesus) span: \\w text|strong="G00863"\\w* becomes
-    \\+w text|strong="G00863"\\+w*.
-
-    Per the USFM 3 character-marker-nesting rule, a character-level marker
-    nested inside another already-open character-level marker must use a
-    "+" prefix on both its opening and closing forms. bsb2usfm.py's
-    Strong's-number \\w wrapping always emits the plain form regardless of
-    \\wj nesting, which is ambiguous wherever a \\wj span closes and reopens
-    close together (e.g. quote/attribution mid-verse, or a \\wj split across
-    a verse boundary) — Paratext's Basic Checks occasionally can't resolve
-    the ambiguity and reports the \\wj* as unmatched.
-
-    Must run after split_wj_markers(), which guarantees no \\wj span
-    crosses a verse boundary, so each \\wj ... \\wj* span here is
-    self-contained.
-
-    Returns tuple of (modified string, count of \\w markers converted).
-    """
-    count = 0
-    w_pattern = re.compile(r"\\w (.*?)\\w\*", re.DOTALL)
-
-    def fix_w(match: re.Match) -> str:
-        nonlocal count
-        count += 1
-        return f"\\+w {match.group(1)}\\+w*"
-
-    def fix_wj_span(match: re.Match) -> str:
-        content = w_pattern.sub(fix_w, match.group(1))
-        return f"\\wj {content}\\wj*"
-
-    wj_pattern = re.compile(r"\\wj (.*?)\\wj\*", re.DOTALL)
-    result = wj_pattern.sub(fix_wj_span, usfm_string)
-
-    return result, count
-
-
 def fix_empty_fqa(usfm_string: str) -> tuple[str, int]:
     """
     Remove empty \\fqa before \\fv.
@@ -337,7 +297,6 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
         "ref_fixes": 0,
         "strongs_fixes": 0,
         "wj_splits": 0,
-        "wj_nested_w": 0,
         "empty_fqa": 0,
         "errors": [],
     }
@@ -361,10 +320,6 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
     # Fix 3: Split \wj markers at verse boundaries
     usfm_string, wj_splits = split_wj_markers(usfm_string)
     stats["wj_splits"] = wj_splits
-
-    # Fix 3b: Add "+" nesting prefix to \w markers nested inside \wj
-    usfm_string, wj_nested_w = fix_wj_nested_w_markers(usfm_string)
-    stats["wj_nested_w"] = wj_nested_w
 
     # Fix 4: Remove empty \fqa before \fv
     usfm_string, empty_fqa = fix_empty_fqa(usfm_string)
@@ -419,7 +374,6 @@ def main():
             print(f"  Ref markers fixed: {stats['ref_fixes']}")
             print(f"  Strong's numbers fixed: {stats['strongs_fixes']}")
             print(f"  WJ markers split: {stats['wj_splits']}")
-            print(f"  WJ nested \\w markers fixed: {stats['wj_nested_w']}")
             print(f"  Empty \\fqa removed: {stats['empty_fqa']}")
             for error in stats["errors"]:
                 print(f"  ERROR: {error}")
@@ -446,7 +400,6 @@ def main():
             "ref_fixes": 0,
             "strongs_fixes": 0,
             "wj_splits": 0,
-            "wj_nested_w": 0,
             "empty_fqa": 0,
             "errors": [],
         }
@@ -469,7 +422,6 @@ def main():
             total_stats["ref_fixes"] += stats["ref_fixes"]
             total_stats["strongs_fixes"] += stats["strongs_fixes"]
             total_stats["wj_splits"] += stats["wj_splits"]
-            total_stats["wj_nested_w"] += stats["wj_nested_w"]
             total_stats["empty_fqa"] += stats["empty_fqa"]
             total_stats["errors"].extend(stats["errors"])
 
@@ -507,7 +459,6 @@ def main():
         print(f"  Total ref markers fixed: {total_stats['ref_fixes']}")
         print(f"  Total Strong's numbers fixed: {total_stats['strongs_fixes']}")
         print(f"  Total WJ markers split: {total_stats['wj_splits']}")
-        print(f"  Total WJ nested \\w markers fixed: {total_stats['wj_nested_w']}")
         print(f"  Total empty \\fqa removed: {total_stats['empty_fqa']}")
 
         if total_stats["errors"]:
