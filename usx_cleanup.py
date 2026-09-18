@@ -114,22 +114,30 @@ def fix_mt_markers(root) -> int:
 
 def fix_nonbiblical_xt(root) -> int:
     """
-    Convert \\xt markers for non-biblical books back to plain text.
+    Convert cross-references to non-biblical books back to plain text.
 
     Reference checkers flag references to non-canonical books (Jasher,
-    1 Enoch) even when they appear as plain text, but \\xt makes it
-    worse. This unwraps xt char elements for those specific books back
-    to plain text.
+    1 Enoch) even when they appear as plain text, but a cross-reference
+    marker makes it worse. bsb2usfm.py's addnote() represents these as
+    <ref loc="..."> elements (canonref() still returns a Ref even when
+    the book name doesn't resolve, so a <ref> gets built regardless) —
+    usfmtc's USFM/SFM serializer renders a bare <ref> as \\xt, which is
+    where the "\\xt Jasher ...\\xt*" / "\\xt 1 Enoch ...\\xt*" markers
+    Paratext complains about actually come from. This unwraps <ref>
+    elements (and, for good measure, any <char style="xt">) for those
+    specific books back to plain text before that serialization happens.
 
     Returns count of fixes.
     """
     count = 0
-    for char in list(root.iter("char")):
-        if char.get("style") != "xt" or len(char):
+    for el in list(root.iter("ref")) + list(root.iter("char")):
+        if el.tag == "char" and (el.get("style") != "xt" or len(el)):
             continue
-        text = char.text or ""
+        if el.tag == "ref" and len(el):
+            continue
+        text = el.text or ""
         if any(text.startswith(name) for name in ("Jasher", "1 Enoch")):
-            _unwrap(char)
+            _unwrap(el)
             count += 1
     return count
 
@@ -139,13 +147,31 @@ def fix_empty_ft(root) -> int:
     Remove empty \\ft char elements (e.g. a footnote quote followed
     directly by a reference, with no footnote text of its own).
 
+    A \\ft that wraps nothing but a nested reference (e.g.
+    "\\ft \\ref Genesis 50:25|GEN 50:25\\ref*\\f*", from addnote()
+    building a bare <ref> child with no explanatory text of its own)
+    counts as empty too, even though it has a child — Paratext flags
+    it as an empty marker regardless. Promote the child(ren) to take
+    the \\ft's place instead of just unwrapping plain text.
+
     Returns count of fixes.
     """
     count = 0
     for char in list(root.iter("char")):
-        if char.get("style") == "ft" and _is_empty(char):
+        if char.get("style") != "ft" or (char.text and char.text.strip()):
+            continue
+        if not len(char):
             _unwrap(char)
             count += 1
+            continue
+        children = list(char)
+        for child in children:
+            char.addprevious(child)
+        children[-1].tail = (children[-1].tail or "") + (char.tail or "")
+        parent = char.getparent()
+        if parent is not None:
+            parent.remove(char)
+        count += 1
     return count
 
 
@@ -222,6 +248,108 @@ def remove_invalid_r_markers(root) -> int:
     return count
 
 
+def merge_adjacent_add(root) -> int:
+    """
+    Merge \\add spans separated only by whitespace into a single span.
+
+    bsb2usfm.py creates one \\add char element per bracket-delimited
+    segment in the source data (e.g. "The name of the first {river} {is}
+    the Pishon" -> two adjacent \\add spans with nothing but a space
+    between them). Paratext's checks flag this as the same character
+    style being closed and immediately reopened. Since nothing but
+    whitespace separates them, they're really one continuous added
+    phrase — merge them, keeping the whitespace as part of the combined
+    \\add text so the rendered spacing is unchanged.
+
+    Returns count of merges.
+    """
+    count = 0
+    parents = []
+    seen = set()
+    for char in root.iter("char"):
+        if char.get("style") != "add":
+            continue
+        parent = char.getparent()
+        if parent is not None and id(parent) not in seen:
+            seen.add(id(parent))
+            parents.append(parent)
+
+    def is_add(el):
+        return el is not None and el.tag == "char" and el.get("style") == "add"
+
+    for parent in parents:
+        i = 0
+        children = list(parent)
+        while i < len(children):
+            child = children[i]
+            if is_add(child) and not (child.tail or "").strip() and i + 1 < len(children) and is_add(children[i + 1]):
+                nxt = children[i + 1]
+                child.text = (child.text or "") + (child.tail or "") + (nxt.text or "")
+                for grandchild in list(nxt):
+                    child.append(grandchild)
+                child.tail = nxt.tail
+                parent.remove(nxt)
+                count += 1
+                children = list(parent)
+            else:
+                i += 1
+    return count
+
+
+def split_multiword_w(root) -> int:
+    """
+    Split a \\w/\\rb span at an internal clause-boundary comma,
+    semicolon, "!", "?", or dash into two spans sharing the same
+    alignment attribute, with the punctuation relocated between them.
+
+    The source TSV aligns one Hebrew/Greek word per row, but a
+    translator-supplied connective with no word of its own in the
+    original (e.g. "Meanwhile,", "Quick!") gets bundled into the same
+    cell as the next aligned word rather than given its own row (e.g.
+    "Meanwhile, Abraham" or "Quick! Prepare" aligned to a single
+    source word). bsb2usfm.py wraps that whole cell in one \\w span,
+    which Paratext's word check rejects because of the embedded
+    punctuation. Splitting preserves the alignment (both spans keep
+    the same strong/gloss attribute) and the rendered text — only the
+    punctuation moves from inside the span to between the two spans.
+
+    Only splits on punctuation immediately followed by whitespace, so
+    a numeral's thousands-separator comma ("46,500", no following
+    space) and a spaced ellipsis (". . .") are never touched.
+
+    Returns count of splits.
+    """
+    count = 0
+    pattern = re.compile(r"^(.*?)([,;!?—–]\s+)(.*)$", re.DOTALL)
+    for char in list(root.iter("char")):
+        if char.get("style") not in ("w", "rb") or len(char):
+            continue
+        cur = char
+        while True:
+            m = pattern.match(cur.text or "")
+            if not m or not m.group(1).strip() or not m.group(3).strip():
+                break
+            first, sep, rest = m.group(1).rstrip(), m.group(2), m.group(3)
+            cur.text = first
+            sib = cur.makeelement(cur.tag, dict(cur.attrib))
+            sib.text = rest
+            sib.tail = cur.tail
+            cur.tail = sep
+            # rest may start with a quote/bracket carried over from the
+            # split point (e.g. "saying, "Indeed, ..." splits into
+            # "saying" + ", " + ""Indeed, ..."), which would leave the
+            # new span starting with a non-word-forming character —
+            # relocate it into the separator, after the space already
+            # placed there.
+            if (lm := re.match(r'^[\s"“”\[(]+', sib.text)) is not None and lm.end() < len(sib.text):
+                cur.tail += sib.text[:lm.end()]
+                sib.text = sib.text[lm.end():]
+            cur.addnext(sib)
+            count += 1
+            cur = sib
+    return count
+
+
 def fix_typographic_spacing(root) -> int:
     """
     Remove stray whitespace immediately before a comma, semicolon, or
@@ -265,4 +393,6 @@ def apply(root) -> None:
     remove_empty_para_markers(root)
     fix_mr_markers(root)
     remove_invalid_r_markers(root)
+    merge_adjacent_add(root)
+    split_multiword_w(root)
     fix_typographic_spacing(root)

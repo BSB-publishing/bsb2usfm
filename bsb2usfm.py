@@ -19,13 +19,27 @@ category_types = {
 categories = {v: k for k, l in category_types.items() for v in l}
 
 def ensurespace(n):
+    """Ensure n's last rendered content ends with whitespace, so an
+    element appended right after it doesn't run into it with no space.
+
+    Recurses into the last child looking for where to add that space,
+    but must land on a leaf's .tail, never its .text — mutating a
+    leaf's own text (e.g. a \\w/\\rb word) would silently push the
+    separator space back inside that word's span.
+    """
     if not len(n):
         if n.text and not n.text[-1] in " \n":
             n.text += " "
-    elif n[-1].tail and not n[-1].tail[-1] in " \n":
-        n[-1].tail += " "
+        return
+    last = n[-1]
+    if last.tail and last.tail[-1] in " \n":
+        return
+    if last.tail:
+        last.tail += " "
+    elif len(last):
+        ensurespace(last)
     else:
-        ensurespace(n[-1])
+        last.tail = " "
 
 def removeentities(s):
     s = regex.sub(r"&#([\d]+);", lambda m:chr(int(m.group(1), 10)), s)
@@ -380,14 +394,33 @@ class Processor:
                 pnode.append(node)
             else:
                 self.currnode.append(node)
-            if (m := regex.match(r"^\s+", txt)) is not None:
-                node.text = txt[m.end():]
-                if len(self.currnode):
-                    self.currnode[-1].tail = (self.currnode[-1].tail or "") + txt[:m.end()]
+            node.text = txt
+            # bsb2usfm wraps a whole Strong's-aligned phrase in one \w/\rb
+            # span, so it can end up carrying a leading/trailing space (a
+            # word separator deliberately kept by a caller that passed
+            # dostrip=False, e.g. before a bracket-delimited \add span) or
+            # boundary punctuation baked into the source cell (e.g. "Abel,"
+            # or "(that is"). Paratext's word check rejects a \w span whose
+            # content starts/ends in whitespace or non-word-forming
+            # punctuation, so relocate it outside the span — the rendered
+            # text is unchanged, only which element it sits inside changes.
+            # Deliberately excludes ' and - (legitimate word-final/-medial
+            # characters in English possessives/compounds — a Paratext
+            # project-setting fix, not a markup bug) and digits.
+            boundary = r'[\s,.;:!?()\[\]"“”]'
+            leading = trailing = ""
+            if (m := regex.match(f"^{boundary}+", node.text)) is not None and m.end() < len(node.text):
+                leading, node.text = node.text[:m.end()], node.text[m.end():]
+            if (m := regex.search(f"{boundary}+$", node.text)) is not None and m.start() > 0:
+                trailing, node.text = node.text[m.start():], node.text[:m.start()]
+            if leading:
+                if len(self.currnode) > 1:
+                    prevsib = self.currnode[-2]
+                    prevsib.tail = (prevsib.tail or "") + leading
                 else:
-                    self.currnode.text = (self.currnode.text or "") + txt[:m.end()]
-            else:
-                node.text = txt
+                    self.currnode.text = (self.currnode.text or "") + leading
+            if trailing:
+                node.tail = trailing + (node.tail or "")
         elif mrktxt is not None:
             if len(txt.lstrip()) < len(txt):
                 stxt = txt.lstrip()
