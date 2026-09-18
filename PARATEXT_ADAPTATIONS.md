@@ -156,9 +156,21 @@ are intentional or require Paratext project configuration:
   copied from the static `demo_data/bsb_custom.vrs`, MSB's is generated
   by `fix_msb.py --vrs-only` (Majority Text versification differs from
   Critical Text in a handful of places — see that script for details).
-- **"seed-bearing" non-wordforming characters** — Hyphenated compound
-  words inside `\w` markers. This is a Paratext project setting issue
-  (configure hyphen as word-forming character).
+- **"seed-bearing" / "brother's" non-wordforming characters** —
+  Hyphenated compound words and possessive/contraction apostrophes
+  inside `\w` markers. This is a Paratext project setting issue, not a
+  markup bug — see Step 2 below (configure `-` and `'` as word-medial
+  punctuation).
+- **Numerals ("130", "46,500") flagged as non-wordforming** — the
+  source data aligns spelled-out numbers to their own Strong's number
+  and wraps them in `\w` like any other word, so a bare digit sequence
+  (or one with a thousands-separator comma) ends up as `\w` content.
+  This is the same class of project-configuration issue as the hyphen/
+  apostrophe case above: digits need to be recognized as
+  word-forming/valid word characters for this project's language
+  settings. Check **Project menu** (`≡`) > **Language Settings** for a
+  word-forming-characters or valid-characters setting alongside the
+  Word-medial punctuation field used in Step 2.
 
 ### Quotation Check Warnings
 

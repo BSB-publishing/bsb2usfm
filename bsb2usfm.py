@@ -32,13 +32,18 @@ def ensurespace(n):
             n.text += " "
         return
     last = n[-1]
-    if last.tail and last.tail[-1] in " \n":
-        return
     if last.tail:
-        last.tail += " "
-    elif len(last):
+        if not last.tail[-1] in " \n":
+            last.tail += " "
+        return
+    if len(last):
         ensurespace(last)
-    else:
+    elif last.text and not last.text[-1] in " \n":
+        # A childless, tail-less leaf with real text (e.g. a \w word)
+        # needs its separator space added as .tail so it stays outside
+        # the leaf's own span. A leaf with no text at all (e.g. a bare
+        # <verse> milestone) has nothing to separate from — leave it
+        # alone rather than stamping a stray tail onto it.
         last.tail = " "
 
 def removeentities(s):
