@@ -173,35 +173,44 @@ def fix_ref_markers(usfm_string: str) -> tuple[str, int]:
 
 def split_wj_markers(usfm_string: str) -> tuple[str, int]:
     """
-    Split \\wj markers (words of Jesus) at verse boundaries so each verse
-    has its own properly-contained \\wj ...\\wj* span.
+    Split \\wj markers (words of Jesus) at verse boundaries and around
+    embedded footnotes, so each \\wj ...\\wj* span is self-contained and
+    never wraps a \\v marker or a whole \\f ...\\f* footnote.
 
     The original USFM has \\wj spans that may wrap multiple verses:
         \\wj text \\v 5 more text \\v 6 final text\\wj*
     This causes validation errors in Paratext. We split into:
         \\wj text\\wj* \\v 5 \\wj more text\\wj* \\v 6 \\wj final text\\wj*
 
+    It may also wrap a footnote:
+        \\wj text \\f + \\fr 1:1 ...\\f* more text\\wj*
+    A footnote is a Note-type marker, not a character style, so having it
+    open and close entirely inside an open character-style span is unusual
+    nesting some checkers mishandle. We split it the same way:
+        \\wj text\\wj* \\f + \\fr 1:1 ...\\f* \\wj more text\\wj*
+
     Returns tuple of (modified string, count of splits performed).
     """
     split_count = 0
+    boundary_re = re.compile(r"\\v \d+$|^\\f ")
 
     def split_span(match: re.Match) -> str:
         nonlocal split_count
         content = match.group(1)
 
-        # If no verse markers inside, the span is already valid
-        if "\\v " not in content:
+        # If no verse markers or footnotes inside, the span is already valid
+        if "\\v " not in content and "\\f " not in content:
             return match.group(0)
 
-        # Split content at \v markers, keeping the \v markers
-        parts = re.split(r"(\\v \d+)", content)
+        # Split content at \v markers and \f ...\f* footnotes, keeping them
+        parts = re.split(r"(\\v \d+|\\f .*?\\f\*)", content, flags=re.DOTALL)
 
         result_parts = []
         in_text = False
         is_first_text = True
         for part in parts:
-            if re.match(r"\\v \d+$", part):
-                # This is a verse marker — close wj before it, reopen after
+            if boundary_re.match(part):
+                # This is a verse marker or footnote — close wj before it, reopen after
                 if in_text:
                     result_parts.append("\\wj*")
                     split_count += 1

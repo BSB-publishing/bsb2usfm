@@ -50,6 +50,16 @@ The original USFM has `\wj` spans that wrap multiple verses, which causes
 Paratext to generate `<unmatched marker="wj*" />` validation errors.
 Splitting at verse boundaries resolves this while keeping the markup.
 
+`\wj` spans that wrap a whole footnote (`\f ... \f*`) are split the same
+way, since a footnote is a Note-type marker, not a character style, and
+having it open and close entirely inside an open `\wj` span is unusual
+nesting:
+
+```
+Before: \wj ...word.\f + \fr 4:4 \xt Deuteronomy 8:3\xt*\f*”\wj*
+After:  \wj ...word.\wj*\f + \fr 4:4 \xt Deuteronomy 8:3\xt*\f* \wj ”\wj*
+```
+
 ### 3. `\pmo` converted to `\lf` (list footer)
 
 **What changes:** `\pmo` (embedded text opening) markers are converted to
@@ -148,14 +158,6 @@ Jude). The reference text is preserved — only the `\xt` markup is removed.
 The following warnings are **not addressed** by this script because they
 are intentional or require Paratext project configuration:
 
-- **"#Verse missing"** — Certain verses (e.g., Matthew 17:21, Mark 7:16)
-  are intentionally omitted in the BSB/MSB because they follow the critical
-  text. The omitted verses are noted in footnotes. A `custom.vrs` file
-  under each edition's `sfm_for_paratext/` directory is generated as part
-  of `make all` so Paratext accepts the intentional omissions: BSB's is
-  copied from the static `demo_data/bsb_custom.vrs`, MSB's is generated
-  by `fix_msb.py --vrs-only` (Majority Text versification differs from
-  Critical Text in a handful of places — see that script for details).
 - **"seed-bearing" / "brother's" non-wordforming characters** —
   Hyphenated compound words and possessive/contraction apostrophes
   inside `\w` markers. This is a Paratext project setting issue, not a
