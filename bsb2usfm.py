@@ -372,8 +372,37 @@ class Processor:
             self.appendtext(b) if not nobrackets else self.addnobrackets(b)
 
     def appendverse(self):
-        vnode = self.currnode.makeelement("verse", {"style": "v", "number": str(self.cref.verse)})
-        self.currnode.append(vnode)
+        # self.currnode may already be inside an open character-style span
+        # (e.g. \wj) left open by a preceding row's trailing markup tag.
+        # A <verse> milestone must live directly under the paragraph, never
+        # nested inside a <char> span, so walk up to the paragraph, insert
+        # the verse there, then reopen the same character-style stack (same
+        # tags/attributes) so subsequent text still lands inside a
+        # properly-scoped span rather than the one implicitly closed here.
+        stack = []
+        node = self.currnode
+        while node is not None and node.tag != "para":
+            stack.append(node)
+            node = node.parent
+        if node is None:
+            node = self.currnode
+        # Drop any character-style spans in the stack that never received
+        # any content before this verse boundary — an artifact of markup
+        # opened on a preceding row — instead of leaving a stray empty
+        # \tag \tag* pair. The reopened spans below carry the same style
+        # forward for the verse that follows regardless.
+        for n in stack:
+            if not len(n) and not n.text:
+                parent = n.parent
+                if parent is not None:
+                    parent.remove(n)
+        vnode = node.makeelement("verse", {"style": "v", "number": str(self.cref.verse)})
+        node.append(vnode)
+        for n in reversed(stack):
+            newnode = node.makeelement(n.tag, dict(n.attrib))
+            node.append(newnode)
+            node = newnode
+        self.currnode = node
         self.verse_pending = False
 
     def appendtext(self, txt, alt=None, mode=None, isverse=True, dostrip=True, mrktxt=None):
