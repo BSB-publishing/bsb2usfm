@@ -60,6 +60,23 @@ Before: \wj ...word.\f + \fr 4:4 \xt Deuteronomy 8:3\xt*\f*”\wj*
 After:  \wj ...word.\wj*\f + \fr 4:4 \xt Deuteronomy 8:3\xt*\f* \wj ”\wj*
 ```
 
+`\w`, `\rb`, and `\add` markers nested inside a `\wj` span are prefixed
+with `+` (marked nesting), per the USFM rule that a character-style
+marker opened inside another open character-style marker must use the
+marked form — otherwise the closing `\w*`/`\rb*`/`\add*` implicitly
+closes the enclosing `\wj` too, leaving the real `\wj*` with nothing to
+match:
+
+```
+Before: \wj "\w Sacrifice|strong="G02378"\w* You did not desire\wj*
+After:  \wj "\+w Sacrifice|strong="G02378"\+w* You did not desire\wj*
+```
+
+This was the actual root cause of the `<unmatched marker="wj*" />`
+errors seen throughout the Gospels, Acts, and Epistles — confirmed by
+converting a single verse to marked nesting directly inside Paratext
+and watching the error move to the next unconverted `\wj` span.
+
 ### 3. `\pmo` converted to `\lf` (list footer)
 
 **What changes:** `\pmo` (embedded text opening) markers are converted to

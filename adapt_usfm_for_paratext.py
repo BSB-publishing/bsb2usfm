@@ -248,6 +248,38 @@ def split_wj_markers(usfm_string: str) -> tuple[str, int]:
     return result, split_count
 
 
+def mark_wj_nested_styles(usfm_string: str) -> tuple[str, int]:
+    """
+    Prefix \\w, \\rb, and \\add markers nested inside a \\wj span with "+"
+    (marked nesting), per the USFM rule that a character-style marker
+    opened inside another open character-style marker must use the marked
+    ("+") form — otherwise the closing \\w*/\\rb*/\\add* implicitly closes
+    the enclosing \\wj too, leaving the real \\wj* with nothing to match.
+
+    This must run after split_wj_markers(), so every \\wj ... \\wj* span is
+    already self-contained (never spans a \\v or \\f).
+
+    Example:
+        Before: \\wj "\\w Sacrifice|strong="G02378"\\w* You did not desire\\wj*
+        After:  \\wj "\\+w Sacrifice|strong="G02378"\\+w* You did not desire\\wj*
+
+    Returns tuple of (modified string, count of markers converted).
+    """
+    mark_count = 0
+    nested_re = re.compile(r"\\(w|rb|add)([ *])")
+
+    def mark_span(match: re.Match) -> str:
+        nonlocal mark_count
+        content, n = nested_re.subn(r"\+\1\2", match.group(1))
+        mark_count += n
+        return f"\\wj {content}\\wj*"
+
+    wj_pattern = re.compile(r"\\wj (.*?)\\wj\*", re.DOTALL)
+    result = wj_pattern.sub(mark_span, usfm_string)
+
+    return result, mark_count
+
+
 def fix_empty_fqa(usfm_string: str) -> tuple[str, int]:
     """
     Remove empty \\fqa before \\fv.
@@ -306,6 +338,7 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
         "ref_fixes": 0,
         "strongs_fixes": 0,
         "wj_splits": 0,
+        "wj_nested_marks": 0,
         "empty_fqa": 0,
         "errors": [],
     }
@@ -326,9 +359,13 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
     usfm_string, strongs_fixes = fix_strongs_numbers(usfm_string)
     stats["strongs_fixes"] = strongs_fixes
 
-    # Fix 3: Split \wj markers at verse boundaries
+    # Fix 3: Split \wj markers at verse boundaries and around footnotes
     usfm_string, wj_splits = split_wj_markers(usfm_string)
     stats["wj_splits"] = wj_splits
+
+    # Fix 3b: Mark \w/\rb/\add nested inside \wj with "+" (marked nesting)
+    usfm_string, wj_nested_marks = mark_wj_nested_styles(usfm_string)
+    stats["wj_nested_marks"] = wj_nested_marks
 
     # Fix 4: Remove empty \fqa before \fv
     usfm_string, empty_fqa = fix_empty_fqa(usfm_string)
@@ -383,6 +420,7 @@ def main():
             print(f"  Ref markers fixed: {stats['ref_fixes']}")
             print(f"  Strong's numbers fixed: {stats['strongs_fixes']}")
             print(f"  WJ markers split: {stats['wj_splits']}")
+            print(f"  WJ nested markers marked (+): {stats['wj_nested_marks']}")
             print(f"  Empty \\fqa removed: {stats['empty_fqa']}")
             for error in stats["errors"]:
                 print(f"  ERROR: {error}")
@@ -409,6 +447,7 @@ def main():
             "ref_fixes": 0,
             "strongs_fixes": 0,
             "wj_splits": 0,
+            "wj_nested_marks": 0,
             "empty_fqa": 0,
             "errors": [],
         }
@@ -431,6 +470,7 @@ def main():
             total_stats["ref_fixes"] += stats["ref_fixes"]
             total_stats["strongs_fixes"] += stats["strongs_fixes"]
             total_stats["wj_splits"] += stats["wj_splits"]
+            total_stats["wj_nested_marks"] += stats["wj_nested_marks"]
             total_stats["empty_fqa"] += stats["empty_fqa"]
             total_stats["errors"].extend(stats["errors"])
 
@@ -468,6 +508,7 @@ def main():
         print(f"  Total ref markers fixed: {total_stats['ref_fixes']}")
         print(f"  Total Strong's numbers fixed: {total_stats['strongs_fixes']}")
         print(f"  Total WJ markers split: {total_stats['wj_splits']}")
+        print(f"  Total WJ nested markers marked (+): {total_stats['wj_nested_marks']}")
         print(f"  Total empty \\fqa removed: {total_stats['empty_fqa']}")
 
         if total_stats["errors"]:
