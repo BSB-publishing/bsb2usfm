@@ -19,6 +19,15 @@ get them for free from a single tree-walking pass.
 
 import re
 
+# Non-word-forming punctuation that Paratext's \w/\rb word check rejects
+# inside a span, shared by bsb2usfm.py's leading/trailing boundary-trim and
+# this module's embedded-punctuation splitting so the set only needs
+# extending in one place. Deliberately excludes ' and ’ (legitimate
+# word-medial/-final characters in English possessives/contractions, e.g.
+# "brother's", "Levites’" — a Paratext project-setting fix, not a markup
+# bug — see PARATEXT_ADAPTATIONS.md) and digits.
+NONWORD_PUNCTUATION = '.,;!?()[]"“”‘—–…'
+
 _BIBLICAL_BOOK_NAMES = {
     "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
     "Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel",
@@ -341,12 +350,151 @@ def split_multiword_w(root) -> int:
             # new span starting with a non-word-forming character —
             # relocate it into the separator, after the space already
             # placed there.
-            if (lm := re.match(r'^[\s"“”\[(]+', sib.text)) is not None and lm.end() < len(sib.text):
+            if (lm := re.match(f'^[\\s{re.escape(NONWORD_PUNCTUATION)}]+', sib.text)) is not None and lm.end() < len(sib.text):
                 cur.tail += sib.text[:lm.end()]
                 sib.text = sib.text[lm.end():]
             cur.addnext(sib)
             count += 1
             cur = sib
+    return count
+
+
+_EMBEDDED_BOUNDARY_CHARS = set(NONWORD_PUNCTUATION)
+
+
+def split_embedded_punctuation_w(root) -> int:
+    """
+    Split a \\w/\\rb span at punctuation embedded strictly inside a
+    multi-word aligned phrase (e.g. "Baal-hermon (that is", "the
+    Levites) were given", "or ‘Mother", "Stop!” they cry") — never at
+    the very start or end of the span's text, which appendtext()
+    already keeps clean.
+
+    Uses a tokenizer rather than a single regex so a numeral's
+    thousands-separator comma ("46,500") and hyphenated compounds
+    ("Baal-hermon") are never touched, while adjacent punctuation of
+    different kinds (a comma immediately followed by a closing quote,
+    an "!" immediately followed by a closing quote) is treated as one
+    run and relocated together. Whitespace immediately touching a
+    punctuation run moves with it into the tail between the two
+    resulting spans; whitespace between two ordinary words (e.g. "the
+    boy") is left alone, since \\w spans routinely wrap whole phrases.
+
+    Returns count of splits.
+    """
+    count = 0
+
+    def tokenize(text):
+        tokens = []
+        i, n = 0, len(text)
+        while i < n:
+            is_boundary = text[i] in _EMBEDDED_BOUNDARY_CHARS
+            j = i + 1
+            while j < n and (text[j] in _EMBEDDED_BOUNDARY_CHARS) == is_boundary:
+                j += 1
+            tokens.append(["punct" if is_boundary else "word", text[i:j]])
+            i = j
+        return tokens
+
+    for char in list(root.iter("char")):
+        if char.get("style") not in ("w", "rb") or len(char):
+            continue
+        tokens = tokenize(char.text or "")
+        if len(tokens) < 3 or tokens[0][0] == "punct" or tokens[-1][0] == "punct":
+            continue  # nothing embedded, or a leading/trailing case appendtext() handles
+
+        # Keep a numeral's thousands-separator comma inside its word token
+        # (e.g. "46" "," "500" -> "46,500") rather than splitting on it.
+        merged = []
+        i = 0
+        while i < len(tokens):
+            kind, val = tokens[i]
+            if (kind == "punct" and val == "," and merged and merged[-1][0] == "word"
+                    and merged[-1][1][-1:].isdigit() and i + 1 < len(tokens)
+                    and tokens[i + 1][0] == "word" and tokens[i + 1][1][:1].isdigit()):
+                merged[-1][1] += val + tokens[i + 1][1]
+                i += 2
+                continue
+            merged.append([kind, val])
+            i += 1
+        tokens = merged
+        if len(tokens) < 3 or tokens[0][0] == "punct" or tokens[-1][0] == "punct":
+            continue
+
+        # Whitespace touching a punctuation run travels with it, so the
+        # resulting word spans never themselves start/end in whitespace.
+        for i, (kind, val) in enumerate(tokens):
+            if kind != "punct":
+                continue
+            if i > 0 and tokens[i - 1][0] == "word":
+                stripped = tokens[i - 1][1].rstrip()
+                trailing_ws = tokens[i - 1][1][len(stripped):]
+                if trailing_ws:
+                    tokens[i - 1][1] = stripped
+                    tokens[i][1] = trailing_ws + tokens[i][1]
+            if i < len(tokens) - 1 and tokens[i + 1][0] == "word":
+                stripped = tokens[i + 1][1].lstrip()
+                leading_ws = tokens[i + 1][1][:len(tokens[i + 1][1]) - len(stripped)]
+                if leading_ws:
+                    tokens[i + 1][1] = stripped
+                    tokens[i][1] = tokens[i][1] + leading_ws
+
+        cur = char
+        cur.text = tokens[0][1]
+        pending_tail = ""
+        for kind, val in tokens[1:]:
+            if kind == "punct":
+                pending_tail += val
+                continue
+            sib = cur.makeelement(cur.tag, dict(cur.attrib))
+            sib.text = val
+            sib.tail = cur.tail
+            cur.tail = pending_tail
+            cur.addnext(sib)
+            cur = sib
+            pending_tail = ""
+            count += 1
+        if pending_tail:
+            cur.tail = pending_tail + (cur.tail or "")
+
+    return count
+
+
+def remove_punctuation_only_w(root) -> int:
+    """
+    Drop the \\w/\\rb wrapper around a span whose entire content is
+    punctuation (e.g. a lone "(" or ". . .)"). The source TSV aligns
+    one word per row, but a stray punctuation mark with no word of its
+    own sometimes lands in the same cell as an adjacent word's Strong's
+    number, so bsb2usfm.py ends up wrapping it in its own \\w span.
+    Paratext's word check rejects a \\w span with no word-forming
+    character at all. Since there's no real word here, the wrapper is
+    simply removed and its text relocated to the nearest sibling's
+    tail — the rendered text is unchanged, only the markup around it.
+
+    Returns count of removals.
+    """
+    boundary = _EMBEDDED_BOUNDARY_CHARS | {" ", "\n", "\t"}
+    count = 0
+    for char in list(root.iter("char")):
+        if char.get("style") not in ("w", "rb") or len(char):
+            continue
+        text = char.text or ""
+        if not text or any(c not in boundary for c in text):
+            continue
+        parent = char.parent
+        if parent is None:
+            continue
+        siblings = list(parent)
+        idx = siblings.index(char)
+        tail = text + (char.tail or "")
+        if idx > 0:
+            prev = siblings[idx - 1]
+            prev.tail = (prev.tail or "") + tail
+        else:
+            parent.text = (parent.text or "") + tail
+        parent.remove(char)
+        count += 1
     return count
 
 
@@ -395,4 +543,6 @@ def apply(root) -> None:
     remove_invalid_r_markers(root)
     merge_adjacent_add(root)
     split_multiword_w(root)
+    split_embedded_punctuation_w(root)
+    remove_punctuation_only_w(root)
     fix_typographic_spacing(root)

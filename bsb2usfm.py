@@ -438,10 +438,15 @@ class Processor:
             # content starts/ends in whitespace or non-word-forming
             # punctuation, so relocate it outside the span — the rendered
             # text is unchanged, only which element it sits inside changes.
-            # Deliberately excludes ' and - (legitimate word-final/-medial
-            # characters in English possessives/compounds — a Paratext
-            # project-setting fix, not a markup bug) and digits.
-            boundary = r'[\s,.;:!?()\[\]"“”]'
+            # Uses usx_cleanup.NONWORD_PUNCTUATION (shared with the
+            # embedded-punctuation splitting in usx_cleanup.py, so the two
+            # never drift apart the way they once did) plus whitespace and
+            # ":", which only matters at a span's edge. Deliberately
+            # excludes ' and ’ (legitimate word-final/-medial characters in
+            # English possessives/compounds, e.g. "brother's", "Levites’"
+            # — a Paratext project-setting fix, not a markup bug) and
+            # digits.
+            boundary = f'[\\s:{regex.escape(usx_cleanup.NONWORD_PUNCTUATION)}]'
             leading = trailing = ""
             if (m := regex.match(f"^{boundary}+", node.text)) is not None and m.end() < len(node.text):
                 leading, node.text = node.text[:m.end()], node.text[m.end():]

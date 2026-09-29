@@ -77,6 +77,15 @@ errors seen throughout the Gospels, Acts, and Epistles — confirmed by
 converting a single verse to marked nesting directly inside Paratext
 and watching the error move to the next unconverted `\wj` span.
 
+**Note:** a separate, unrelated `\wj` bug was fixed directly in
+`bsb2usfm.py` (not this script) in v5.14: `appendverse()` could insert
+a `<verse>` milestone as a child of an already-open `\wj`/`\w`/etc.
+character-style element instead of as a sibling under the enclosing
+paragraph, producing invalid USX structure. That fix changes what
+`bsb2usfm.py` generates in the first place, so there's nothing to
+adapt here — it's mentioned for the version history, not as an
+adaptation this script performs.
+
 ### 3. `\pmo` converted to `\lf` (list footer)
 
 **What changes:** `\pmo` (embedded text opening) markers are converted to
@@ -142,6 +151,53 @@ After:  \d For the choirmaster. With stringed instruments.
 musical and liturgical directions — the same marker used for identical
 superscriptions throughout the Psalms. This is arguably the more correct
 marker for this content.
+
+### 5. `\w`/`\rb` boundary and embedded punctuation
+
+Paratext's word check rejects a `\w`/`\rb` span whose content starts,
+ends, or contains a non-word-forming character, since the source TSV
+aligns one Hebrew/Greek word per row but often bundles nearby
+punctuation into the same cell. Three related but distinct problems
+are fixed:
+
+**Leading/trailing punctuation** (`appendtext()` in `bsb2usfm.py`)
+is trimmed and relocated outside the span:
+```
+Before: \w ‘Who|strong="H4310"\w*
+After:  ‘\w Who|strong="H4310"\w*
+```
+Handles whitespace, `,.;:!?()[]"“”‘—…`. Deliberately excludes `'`
+and `-` (legitimate word-medial characters in English
+possessives/compounds — see the project-setting note below), `’`
+(doubles as a possessive apostrophe, e.g. "Levites’" — same
+project-setting territory as `'`), and digits.
+
+**Embedded (interior) punctuation** within a multi-word aligned
+phrase (`split_embedded_punctuation_w()` in `usx_cleanup.py`) is
+split out, keeping the same alignment attribute on both halves:
+```
+Before: \w Baal-hermon (that is|strong="H1179"\w*
+After:  \w Baal-hermon|strong="H1179"\w* (\w that is|strong="H1179"\w*
+```
+A tokenizer (not a single regex) is used so a numeral's
+thousands-separator comma (`46,500`) and hyphenated compounds
+(`Baal-hermon`) are never touched, and adjacent punctuation of
+different kinds (a comma immediately followed by a closing quote) is
+relocated together as one run.
+
+**Punctuation-only spans** (`remove_punctuation_only_w()` in
+`usx_cleanup.py`) — a stray mark like a lone `(` with no word of its
+own, aligned to an adjacent word's Strong's number purely because it
+shared the same TSV cell — have their `\w`/`\rb` wrapper dropped
+entirely, since there's no real word to preserve alignment for:
+```
+Before: \w Bethel|strong="H1008"\w*\w (|strong="H1008"\w*\add that is,\add* Luz)
+After:  \w Bethel|strong="H1008"\w*(\add that is,\add* Luz)
+```
+
+**What is preserved:** in all three cases the rendered text is
+byte-for-byte identical — only which markup element each character
+sits inside changes.
 
 ### Other non-lossy fixes
 
