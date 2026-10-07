@@ -153,33 +153,22 @@ def fix_nonbiblical_xt(root) -> int:
 
 def fix_empty_ft(root) -> int:
     """
-    Remove empty \\ft char elements (e.g. a footnote quote followed
-    directly by a reference, with no footnote text of its own).
+    Remove truly empty \\ft char elements: no text and no children.
 
-    A \\ft that wraps nothing but a nested reference (e.g.
+    A \\ft whose only content is a nested reference (e.g.
     "\\ft \\ref Genesis 50:25|GEN 50:25\\ref*\\f*", from addnote()
-    building a bare <ref> child with no explanatory text of its own)
-    counts as empty too, even though it has a child — Paratext flags
-    it as an empty marker regardless. Promote the child(ren) to take
-    the \\ft's place instead of just unwrapping plain text.
+    building a bare <ref> child with no explanatory text of its own) is
+    valid USFM and is kept here. Paratext's basic checks flag it as an
+    empty marker, so adapt_usfm_for_paratext.py removes that \\ft from
+    the Paratext deliverable only (fix_empty_ft_before_xt).
 
     Returns count of fixes.
     """
     count = 0
     for char in list(root.iter("char")):
-        if char.get("style") != "ft" or (char.text and char.text.strip()):
+        if char.get("style") != "ft" or len(char) or (char.text and char.text.strip()):
             continue
-        if not len(char):
-            _unwrap(char)
-            count += 1
-            continue
-        children = list(char)
-        for child in children:
-            char.addprevious(child)
-        children[-1].tail = (children[-1].tail or "") + (char.tail or "")
-        parent = char.getparent()
-        if parent is not None:
-            parent.remove(char)
+        _unwrap(char)
         count += 1
     return count
 

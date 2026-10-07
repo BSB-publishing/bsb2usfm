@@ -9,12 +9,14 @@ current (USFM-3.0-era) basic checks:
 3. Splits \\wj markers (words of Jesus) at verse boundaries
 4. Removes empty \\fqa before \\fv (in USFM 3.1, \\fv is a character
    style valid inside or outside \\fqa; this is a 3.0-only requirement)
+5. Removes a \\ft whose only content is a cross-reference
+   (\\ft \\xt ...\\xt*), which Paratext flags as an empty marker
 
 These are all workarounds for Paratext not yet fully supporting USFM
 3.1 and are expected to become unnecessary once Paratext 9.6 ships.
 
 General-purpose cleanups that aren't version-dependent (non-biblical
-\\xt refs, empty \\ft, \\mt2/\\mt1 collapse, empty para markers, \\mr ->
+\\xt refs, truly empty \\ft, \\mt2/\\mt1 collapse, empty para markers, \\mr ->
 \\d, invalid \\r lines) now happen upstream in bsb2usfm.py itself (via
 usx_cleanup.py, applied to the USX tree before serialization) so every
 output variant and format — USX, USJ, and USFM alike — gets them, not
@@ -296,6 +298,27 @@ def fix_empty_fqa(usfm_string: str) -> tuple[str, int]:
     return result, count
 
 
+def fix_empty_ft_before_xt(usfm_string: str) -> tuple[str, int]:
+    """
+    Remove a \\ft whose only content is a cross-reference.
+
+    A footnote that is nothing but a reference comes out as:
+        \\fr 8:15 \\ft \\xt Exodus 16:18\\xt*\\f*
+    That is valid USFM, and the general output keeps it, but Paratext's
+    basic checks flag the \\ft as an empty marker. Drop it so the
+    reference follows \\fr directly. A \\ft with text of its own before
+    the reference (e.g. "\\ft See \\xt ...") is left alone.
+
+    Must run after fix_ref_markers(), which turns \\ref into \\xt.
+
+    Returns tuple of (modified string, count of fixes).
+    """
+    pattern = re.compile(r"\\ft\s+(?=\\xt\s)")
+    count = len(pattern.findall(usfm_string))
+    result = pattern.sub("", usfm_string)
+    return result, count
+
+
 def to_paratext_filename(usfm_filename: str, identifier: str = "BSB") -> str | None:
     """
     Convert a USFM filename to Paratext naming convention with .sfm extension.
@@ -340,6 +363,7 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
         "wj_splits": 0,
         "wj_nested_marks": 0,
         "empty_fqa": 0,
+        "empty_ft": 0,
         "errors": [],
     }
 
@@ -370,6 +394,10 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
     # Fix 4: Remove empty \fqa before \fv
     usfm_string, empty_fqa = fix_empty_fqa(usfm_string)
     stats["empty_fqa"] = empty_fqa
+
+    # Fix 5: Remove \ft whose only content is a \xt cross-reference
+    usfm_string, empty_ft = fix_empty_ft_before_xt(usfm_string)
+    stats["empty_ft"] = empty_ft
 
     # Write the result
     try:
@@ -422,6 +450,7 @@ def main():
             print(f"  WJ markers split: {stats['wj_splits']}")
             print(f"  WJ nested markers marked (+): {stats['wj_nested_marks']}")
             print(f"  Empty \\fqa removed: {stats['empty_fqa']}")
+            print(f"  Empty \\ft before \\xt removed: {stats['empty_ft']}")
             for error in stats["errors"]:
                 print(f"  ERROR: {error}")
 
@@ -449,6 +478,7 @@ def main():
             "wj_splits": 0,
             "wj_nested_marks": 0,
             "empty_fqa": 0,
+            "empty_ft": 0,
             "errors": [],
         }
 
@@ -472,6 +502,7 @@ def main():
             total_stats["wj_splits"] += stats["wj_splits"]
             total_stats["wj_nested_marks"] += stats["wj_nested_marks"]
             total_stats["empty_fqa"] += stats["empty_fqa"]
+            total_stats["empty_ft"] += stats["empty_ft"]
             total_stats["errors"].extend(stats["errors"])
 
             # Also generate Paratext-named .sfm copy, mirroring subdirectories
@@ -510,6 +541,7 @@ def main():
         print(f"  Total WJ markers split: {total_stats['wj_splits']}")
         print(f"  Total WJ nested markers marked (+): {total_stats['wj_nested_marks']}")
         print(f"  Total empty \\fqa removed: {total_stats['empty_fqa']}")
+        print(f"  Total empty \\ft before \\xt removed: {total_stats['empty_ft']}")
 
         if total_stats["errors"]:
             print(f"\nErrors ({len(total_stats['errors'])}):")
