@@ -1,0 +1,4 @@
+Lang	BadValue	StrongNumber	Note
+G	ouai	3759	Matt 23:13/14 (MSB) - translit "ouai" leaked into Str Grk column upstream, correct number taken from other occurrences of ouai elsewhere in the same file
+G	pollhv	4183	Acts 24:2 (MSB) - translit "pollhv" leaked into Str Grk column upstream, correct number taken from other occurrences of pollhv elsewhere in the same file
+G	to	3588	Rev 17:8 (MSB) - translit "to" leaked into Str Grk column upstream, correct number taken from other occurrences of to elsewhere in the same file

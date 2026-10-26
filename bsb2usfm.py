@@ -8,8 +8,28 @@ from usfmtc.usfmparser import Grammar
 import urllib.request
 import sys
 import io
+import os
 from usfmtc.reference import Ref, RefRange, allbooks, bookcodes
 import usx_cleanup
+
+
+def load_strong_numbers_patch():
+    """Load strong-numbers-patch.tsv: a stop-gap lookup for source rows
+    where the upstream Str Heb/Str Grk column has been corrupted to hold
+    a transliteration string instead of a Strong's number (e.g. "ouai"
+    instead of "3759"). Keyed on (language letter, bad value) -> correct
+    number. Missing file just means no patches are applied.
+    """
+    patch = {}
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "strong-numbers-patch.tsv")
+    if not os.path.exists(path):
+        return patch
+    with open(path, newline='', encoding='utf-8') as f:
+        for row in csv.DictReader(f, delimiter='\t'):
+            patch[(row['Lang'].strip(), row['BadValue'].strip())] = row['StrongNumber'].strip()
+    return patch
+
+strong_numbers_patch = load_strong_numbers_patch()
 
 
 category_types = {
@@ -553,7 +573,19 @@ class Processor:
             elif self.strongs:
                 for a in ('Heb', 'Grk'):
                     if f['Str '+a]:
-                        iword = a[0]+f['Str '+a]
+                        strnum = f['Str '+a]
+                        if not regex.match(r"^\d+$", strnum):
+                            # malformed source data (non-numeric Strong's
+                            # number, e.g. a transliteration string that
+                            # ended up in the wrong column) -- check the
+                            # stop-gap patch file, else fall back to
+                            # unwrapped text rather than emit an invalid
+                            # strong="..." attribute
+                            patched = strong_numbers_patch.get((a[0], strnum.strip()))
+                            if patched is None:
+                                break
+                            strnum = patched
+                        iword = a[0]+strnum
                         mode = "strongs"
                         break
             if "<p class=" in t:
