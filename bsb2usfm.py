@@ -538,6 +538,11 @@ class Processor:
                 t = " " + t + " "
             # handling self.placeholders
             isblank = not self.placeholders and t.strip() in ('-', '. . .', 'vvv')
+            if not isblank and t.strip() != 'vvv':
+                # stray "vvv" placeholder token stuck to a real word in the
+                # source data (e.g. "vvv him" instead of its own cell) --
+                # strip the token itself, keep the real word
+                t = regex.sub(r"\bvvv\b\s*", "", t)
         if t:
             # handling self.brackets
             iword = None
