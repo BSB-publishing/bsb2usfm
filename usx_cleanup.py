@@ -487,6 +487,45 @@ def remove_punctuation_only_w(root) -> int:
     return count
 
 
+def remove_empty_char_spans(root) -> int:
+    """
+    Remove a character-style span (any style, e.g. \\wj, \\w, \\add) whose
+    content is empty or whitespace-only. This happens when a verse has a
+    VerseId row but zero actual content (e.g. a verse present in one
+    textual tradition but documented only inside a footnote on the
+    previous verse, like Luke 17:36 TR/NA) immediately after a verse
+    boundary that reopens an enclosing character style such as \\wj --
+    appendverse() in bsb2usfm.py reopens the style, but with nothing to
+    fill it, it's left dangling as e.g. "\\wj \\wj*". Paratext flags this
+    as an empty marker. The stray whitespace itself is dropped (it carries
+    no meaning), while the element's tail is preserved on the previous
+    sibling or the parent's text.
+
+    Returns count of removals.
+    """
+    count = 0
+    for char in list(root.iter("char")):
+        if len(char):
+            continue
+        text = char.text or ""
+        if text.strip():
+            continue
+        parent = char.parent
+        if parent is None:
+            continue
+        siblings = list(parent)
+        idx = siblings.index(char)
+        tail = char.tail or ""
+        if idx > 0:
+            prev = siblings[idx - 1]
+            prev.tail = (prev.tail or "") + tail
+        else:
+            parent.text = (parent.text or "") + tail
+        parent.remove(char)
+        count += 1
+    return count
+
+
 def fix_typographic_spacing(root) -> int:
     """
     Remove stray whitespace immediately before a comma, semicolon, or
@@ -522,6 +561,29 @@ def fix_typographic_spacing(root) -> int:
     return count
 
 
+def normalize_straight_apostrophe(root) -> int:
+    """
+    Replace a stray straight apostrophe (U+0027) with the curly right
+    single quotation mark (U+2019) used everywhere else in this text
+    (e.g. "Jesus'" -> "Jesus'" with a curly mark, "Herod's" in a
+    footnote -> "Herod's"). A handful of rows in the upstream source
+    data use a plain ASCII apostrophe instead of the curly mark
+    consistently used throughout both editions; Paratext's Quotation
+    Check and word check both flag the mismatched character.
+
+    Returns count of replacements.
+    """
+    count = 0
+    for el in root.iter():
+        for attr in ("text", "tail"):
+            s = getattr(el, attr)
+            if s and "'" in s:
+                new = s.replace("'", "’")
+                count += s.count("'")
+                setattr(el, attr, new)
+    return count
+
+
 def apply(root) -> None:
     """Run all general-purpose tree cleanups in sequence, in place."""
     fix_mt_markers(root)
@@ -534,4 +596,6 @@ def apply(root) -> None:
     split_multiword_w(root)
     split_embedded_punctuation_w(root)
     remove_punctuation_only_w(root)
+    remove_empty_char_spans(root)
+    normalize_straight_apostrophe(root)
     fix_typographic_spacing(root)
