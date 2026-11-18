@@ -82,10 +82,24 @@ def _ref_to_xt(text: str) -> tuple[str, int]:
     """
     count = 0
 
+    def _sub_with_pipe(m: re.Match) -> str:
+        display, target = m.group(1), m.group(2)
+        if not re.search(r"[A-Za-z]", display):
+            # A short-form reference that dropped its book name because
+            # it repeats an earlier reference in the same footnote list
+            # (e.g. "Deuteronomy 13:5, 17:7, 19:19") isn't self-resolving
+            # once reduced to plain \xt text -- \xt carries no separate
+            # target attribute, so Paratext parses the visible text
+            # itself to find the reference, and "17:7" alone resolves
+            # against the *current* book instead. Swap in the book code
+            # from the discarded target so it resolves correctly.
+            display = target
+        return f"\\xt {display}\\xt*"
+
     # Pattern 1: \ref Display Text|BOOK C:V\ref* (with pipe and reference)
-    ref_with_pipe = re.compile(r"\\ref ([^|]+)\|[^\\]+\\ref\*")
+    ref_with_pipe = re.compile(r"\\ref ([^|]+)\|([^\\]+)\\ref\*")
     count += len(ref_with_pipe.findall(text))
-    text = ref_with_pipe.sub(r"\\xt \1\\xt*", text)
+    text = ref_with_pipe.sub(_sub_with_pipe, text)
 
     # Pattern 2: \ref Display Text\ref* (without pipe)
     ref_simple = re.compile(r"\\ref (.+?)\\ref\*")
