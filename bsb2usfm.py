@@ -150,18 +150,34 @@ booktitles = {}
 
 bookmap = {booknames[i]: allbooks[i] for i in range(len(booknames))}
 
-def canonref(s):
+def canonref(s, lastbook=None):
+    """
+    Find the first scripture reference in s. A reference's book name may be
+    omitted when it repeats the book of a reference earlier in the same
+    list (e.g. "Deuteronomy 13:5, 17:7, 19:19") -- lastbook supplies that
+    carried-forward book for such bare chapter:verse matches. The returned
+    start position skips over the non-book token (a stray comma or "and")
+    that the regex captures in place of a real book name in that case, so
+    only the chapter:verse digits are reported as the reference's text.
+    """
     m = regex.search(r"((?:\d\s*)?\S+)\s*(\d+):(\d+)([-\u2013](\d+)(:(\d+))?)?", s)
     if not m:
         return (None, 0, 0)
-    res = Ref(book=bookmap.get(m.group(1).strip()), chapter=int(m.group(2)), verse=int(m.group(3)))
+    book = bookmap.get(m.group(1).strip())
+    start = m.start()
+    if book is None:
+        if lastbook is None:
+            return (None, 0, 0)
+        book = lastbook
+        start = m.start(2)
+    res = Ref(book=book, chapter=int(m.group(2)), verse=int(m.group(3)))
     if m.group(4):
         if m.group(6):
             kw = {"verse": int(m.group(7)), "chapter": int(m.group(5))}
         else:
             kw = {"verse": int(m.group(5))}
         res = RefRange(res, res.copy(**kw))
-    return (res, m.start(), m.end())
+    return (res, start, m.end())
 
 
 ptypes = {
@@ -380,7 +396,27 @@ class Processor:
                 rnode = currf.makeelement("ref", {"loc": str(r)})
                 currf.append(rnode)
                 rnode.text = b[j:e]
-                rnode.tail = b[e:]
+                # A footnote may cite several verses in one list (e.g.
+                # "...cited in Matthew 19:5, Mark 10:7-8, 1 Corinthians
+                # 6:16, and Ephesians 5:31"); keep scanning the rest of
+                # this fragment so every reference gets its own <ref>,
+                # not just the first. A later reference in the list may
+                # drop its book name when it repeats the previous one
+                # (e.g. "Deuteronomy 13:5, 17:7, 19:19") -- lastbook
+                # carries that forward.
+                remaining = b[e:]
+                lastbook = getattr(r, "book", None)
+                while True:
+                    r2, j2, e2 = canonref(remaining, lastbook)
+                    if r2 is None:
+                        rnode.tail = remaining
+                        break
+                    rnode.tail = remaining[:j2]
+                    rnode = currf.makeelement("ref", {"loc": str(r2)})
+                    currf.append(rnode)
+                    rnode.text = remaining[j2:e2]
+                    remaining = remaining[e2:]
+                    lastbook = getattr(r2, "book", None) or lastbook
             fnode.append(currf)
         self.fncount += 1
 
