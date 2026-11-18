@@ -33,12 +33,29 @@ from pathlib import Path
 
 from typing import cast
 
+from usfmtc.reference import allbooks as _allbooks
 from usfmtc.reference import bookcodes as _bookcodes
 
 # usfmtc infers this as dict[LiteralString, str] since it's built from a
 # literal string constant; cast to plain str keys since we look up
 # runtime-derived book codes (e.g. from filenames), not string literals.
 bookcodes = cast("dict[str, str]", _bookcodes)
+
+# English book names in the same canonical order as usfmtc.reference.allbooks
+# (3-letter codes), used to turn a bare 3-letter code back into the full name
+# this project's cross-reference text expects -- see _ref_to_xt below.
+_book_english_names = [
+    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth",
+    "1 Samuel", "2 Samuel", "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles", "Ezra",
+    "Nehemiah", "Esther", "Job", "Psalm", "Proverbs", "Ecclesiastes", "Song of Solomon",
+    "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos",
+    "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi",
+    "Matthew", "Mark", "Luke", "John", "Acts", "Romans", "1 Corinthians", "2 Corinthians",
+    "Galatians", "Ephesians", "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians",
+    "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews", "James", "1 Peter", "2 Peter",
+    "1 John", "2 John", "3 John", "Jude", "Revelation",
+]
+book_name_by_code = dict(zip(cast("list[str]", _allbooks), _book_english_names))
 
 
 def fix_strongs_numbers(usfm_string: str) -> tuple[str, int]:
@@ -91,9 +108,15 @@ def _ref_to_xt(text: str) -> tuple[str, int]:
             # once reduced to plain \xt text -- \xt carries no separate
             # target attribute, so Paratext parses the visible text
             # itself to find the reference, and "17:7" alone resolves
-            # against the *current* book instead. Swap in the book code
-            # from the discarded target so it resolves correctly.
-            display = target
+            # against the *current* book instead. Swap in the full book
+            # name (matching how this project's own cross-references are
+            # written, e.g. "Deuteronomy 17:7") from the discarded target
+            # -- Paratext's checker rejects the bare 3-letter code here
+            # ("Invalid book: ||DEU||") even though it's a valid USFM book
+            # ID, because \xt display text is checked against the
+            # project's configured book-name forms, not USFM codes.
+            code, _, rest = target.partition(" ")
+            display = f"{book_name_by_code.get(code, code)} {rest}" if rest else target
         return f"\\xt {display}\\xt*"
 
     # Pattern 1: \ref Display Text|BOOK C:V\ref* (with pipe and reference)
