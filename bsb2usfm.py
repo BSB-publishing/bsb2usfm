@@ -10,7 +10,67 @@ import sys
 import io
 import os
 from usfmtc.reference import Ref, RefRange, allbooks, bookcodes
+import usfmtc.usjproc
 import usx_cleanup
+
+
+def _convert_usx_preserving_whitespace_tail(input_usx_elmt):
+    """
+    Monkeypatch for usfmtc.usjproc.convert_usx() (installed usfmtc==0.3.16):
+    the upstream function only keeps a child element's tail text in the USJ
+    output when `child.tail.strip() != ""`, so a tail that is pure
+    whitespace -- e.g. the single space between a closing \\f* and a
+    following \\add in "...sin\\f* \\add is\\add* greater..." -- is silently
+    dropped, running the two adjacent words together when the USJ is read
+    as plain verse text. Identical to the upstream function except the
+    tail is kept whenever it's non-empty, not just when it has non-
+    whitespace content. Installed over the module attribute below so the
+    bug is fixed for every USJ variant this pipeline generates without
+    needing an unreleased usfmtc version.
+    """
+    key = input_usx_elmt.tag
+    if key in ['row', 'cell']:
+        key = "table:"+key
+    text = None
+    out_obj = {}
+    action = "append"
+    attribs = dict(input_usx_elmt.attrib)
+    tag = None
+    if "style" in attribs:
+        tag = attribs['style']
+        del attribs['style']
+    if "vid" in attribs:
+        del attribs['vid']
+    if "closed" in attribs:
+        del attribs['closed']
+    if "status" in attribs:
+        del attribs['status']
+    out_obj["type"] = key
+    if tag:
+        out_obj["marker"] = tag
+    out_obj = out_obj | attribs
+    if input_usx_elmt.text:
+        text = input_usx_elmt.text
+    out_obj['content'] = []
+    if text:
+        out_obj['content'].append(text)
+    for child in input_usx_elmt:
+        child_dict, what_to_do = usfmtc.usjproc.convert_usx(child)
+        if what_to_do == "append":
+            out_obj['content'].append(child_dict)
+        elif what_to_do == "merge":
+            out_obj['content'] += child_dict
+        if child.tail:
+            out_obj['content'].append(child.tail)
+    if (key in ["chapter", "verse", "optbreak", "ms"] or tag in ["va", "ca", "b"]) \
+            and out_obj['content'] == []:
+        del out_obj['content']
+    if "eid" in out_obj and key in ['verse', 'chapter']:
+        action = "ignore"
+    return out_obj, action
+
+
+usfmtc.usjproc.convert_usx = _convert_usx_preserving_whitespace_tail
 
 
 def load_strong_numbers_patch():
