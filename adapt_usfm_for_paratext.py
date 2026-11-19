@@ -319,6 +319,24 @@ def mark_wj_nested_styles(usfm_string: str) -> tuple[str, int]:
     return result, mark_count
 
 
+def strip_add_markup(usfm_string: str) -> tuple[str, int]:
+    """
+    Unwrap \\add...\\add* (supplied/added-word) markers, keeping their text
+    but dropping the markup -- used only for the Paratext "strongs"
+    (non-full) .sfm deliverable, where YouVersion was italicizing these
+    words in a way BSB doesn't intend; there they should read as ordinary,
+    unmarked text. Not applied to the plain/strongs_full/int variants.
+
+    Handles both plain \\add and the "+add" marked-nesting form (produced
+    by mark_wj_nested_styles() for \\add spans inside \\wj), so this must
+    run after that step.
+    """
+    pattern = re.compile(r"\\\+?add\s+(.*?)\\\+?add\*", re.DOTALL)
+    count = len(pattern.findall(usfm_string))
+    usfm_string = pattern.sub(lambda m: m.group(1), usfm_string)
+    return usfm_string, count
+
+
 def fix_empty_fqa(usfm_string: str) -> tuple[str, int]:
     """
     Remove empty \\fqa before \\fv.
@@ -380,13 +398,15 @@ def to_paratext_filename(usfm_filename: str, identifier: str = "BSB") -> str | N
     return f"{num}{book}{identifier}.sfm"
 
 
-def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
+def fix_usfm_file(input_path: Path, output_path: Path | None = None, strip_add: bool = False) -> dict:
     """
     Fix USFM validation issues in a file.
 
     Args:
         input_path: Path to input USFM file
         output_path: Path to output file (default: overwrite input)
+        strip_add: unwrap \\add...\\add* markup, keeping the text as plain
+            words -- used only for the Paratext "strongs" (non-full) output
 
     Returns:
         Dictionary with fix statistics
@@ -401,6 +421,7 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
         "wj_nested_marks": 0,
         "empty_fqa": 0,
         "empty_ft": 0,
+        "add_stripped": 0,
         "errors": [],
     }
 
@@ -435,6 +456,11 @@ def fix_usfm_file(input_path: Path, output_path: Path | None = None) -> dict:
     # Fix 5: Remove \ft whose only content is a \xt cross-reference
     usfm_string, empty_ft = fix_empty_ft_before_xt(usfm_string)
     stats["empty_ft"] = empty_ft
+
+    # Fix 6: Unwrap \add supplied-word markup (strongs/non-full variant only)
+    if strip_add:
+        usfm_string, add_stripped = strip_add_markup(usfm_string)
+        stats["add_stripped"] = add_stripped
 
     # Write the result
     try:
@@ -488,6 +514,7 @@ def main():
             print(f"  WJ nested markers marked (+): {stats['wj_nested_marks']}")
             print(f"  Empty \\fqa removed: {stats['empty_fqa']}")
             print(f"  Empty \\ft before \\xt removed: {stats['empty_ft']}")
+            print(f"  \\add markup stripped: {stats['add_stripped']}")
             for error in stats["errors"]:
                 print(f"  ERROR: {error}")
 
@@ -516,23 +543,29 @@ def main():
             "wj_nested_marks": 0,
             "empty_fqa": 0,
             "empty_ft": 0,
+            "add_stripped": 0,
             "errors": [],
         }
 
         for usfm_file in usfm_files:
             output_file = None
+            relative_path = usfm_file.relative_to(args.input)
             if args.output:
                 # Mirror the subdirectory structure
-                relative_path = usfm_file.relative_to(args.input)
                 output_file = args.output / relative_path
                 output_file.parent.mkdir(parents=True, exist_ok=True)
 
             if args.verbose:
                 # Show relative path for files in subdirectories
-                relative_path = usfm_file.relative_to(args.input)
                 print(f"Processing: {relative_path}")
 
-            stats = fix_usfm_file(usfm_file, output_file)
+            # Only the non-full "strongs" variant drops its \add markup
+            # (supplied words read as plain text there, per downstream
+            # feedback about YouVersion's italics); the plain, strongs_full,
+            # and int variants keep \add as-is.
+            strip_add = relative_path.parent.name == "strongs"
+
+            stats = fix_usfm_file(usfm_file, output_file, strip_add=strip_add)
             total_stats["files"] += 1
             total_stats["ref_fixes"] += stats["ref_fixes"]
             total_stats["strongs_fixes"] += stats["strongs_fixes"]
@@ -540,12 +573,12 @@ def main():
             total_stats["wj_nested_marks"] += stats["wj_nested_marks"]
             total_stats["empty_fqa"] += stats["empty_fqa"]
             total_stats["empty_ft"] += stats["empty_ft"]
+            total_stats["add_stripped"] += stats["add_stripped"]
             total_stats["errors"].extend(stats["errors"])
 
             # Also generate Paratext-named .sfm copy, mirroring subdirectories
             # (e.g. strongs/, strongs_full/) alongside top-level files.
             if sfm_dir and output_file and not stats["errors"]:
-                relative_path = usfm_file.relative_to(args.input)
                 sfm_source_name = relative_path.name
                 # The Paratext strongs/ .sfm deliverable uses plain book
                 # filenames (no "_strongs" suffix) so it can drop into a
@@ -579,6 +612,7 @@ def main():
         print(f"  Total WJ nested markers marked (+): {total_stats['wj_nested_marks']}")
         print(f"  Total empty \\fqa removed: {total_stats['empty_fqa']}")
         print(f"  Total empty \\ft before \\xt removed: {total_stats['empty_ft']}")
+        print(f"  Total \\add markup stripped: {total_stats['add_stripped']}")
 
         if total_stats["errors"]:
             print(f"\nErrors ({len(total_stats['errors'])}):")

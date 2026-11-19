@@ -211,15 +211,26 @@ sits inside changes.
 
 ## Lossy Adaptations
 
-Only two minor lossy changes remain:
+Three lossy changes remain:
 
-### 1. One `\r` line removed (Hebrews)
+### 1. `\add` (supplied-word) markup removed — `strongs` variant only
+
+In the non-full `strongs` Paratext deliverable only, `\add...\add*` markup
+around supplied/added words (originally `[bracketed]` or `{braced}` text in
+the source TSV) is removed, leaving the words as plain unmarked text. This
+was requested by a downstream consumer (YouVersion) whose renderer was
+italicizing these words in a way BSB's own editions don't — the words are
+not dropped, only their supplied-word distinction is lost in this one
+output variant. The plain/base, `strongs_full`, and `int` variants are
+unaffected and keep the `\add` markup as usual.
+
+### 2. One `\r` line removed (Hebrews)
 
 The `\r (Joshua–Malachi)` line in Hebrews is removed because it is a
 book-only range with no chapter:verse reference, which Paratext cannot
 validate. All other `\r` parallel passage references are preserved.
 
-### 2. Non-canonical book references converted to plain text
+### 3. Non-canonical book references converted to plain text
 
 References to non-canonical books (Jasher, 1 Enoch) inside footnotes are
 converted from `\xt` to plain text to avoid Paratext "Invalid book" errors.
